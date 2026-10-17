@@ -32,7 +32,13 @@ class Fonte:
     instagram_da_verificare: bool = False
     feed: list[str] = field(default_factory=list)
     sitemap: list[str] = field(default_factory=list)
+    escludi: list[str] = field(default_factory=list)
+    mostra_estratto: bool = True
     attiva: bool = True
+
+    def esclusa(self, link: str) -> bool:
+        """True se il link contiene uno dei pezzi elencati in "escludi"."""
+        return any(pezzo in link for pezzo in self.escludi)
 
     @property
     def badge(self) -> str:
@@ -122,7 +128,7 @@ def carica(
                 f"Categorie possibili: {sorted(nomi_categorie)}"
             )
         voce = dict(voce)
-        for elenco in ("feed", "sitemap"):
+        for elenco in ("feed", "sitemap", "escludi"):
             valore = voce.get(elenco) or []
             if isinstance(valore, str):
                 valore = [valore]

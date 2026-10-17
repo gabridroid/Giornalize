@@ -88,6 +88,11 @@ def test_pagine_e_link(sito, notizie):
     assert len(lettore.card_link) == len(set(lettore.card_link))
     assert 'name="viewport"' in html
     assert riassunto["gruppi"] == 8
+    # una card per fonte in ogni gruppo, e ogni notizia dei gruppi ha il suo link nella pagina
+    assert len(lettore.card_link) == sum(len(g.fonti) for g in dati["gruppi"])
+    for g in dati["gruppi"]:
+        for n in g.notizie:
+            assert f'href="{n["link"]}"' in html
 
 
 def test_censura_solo_nella_pagina_di_posizione(sito):

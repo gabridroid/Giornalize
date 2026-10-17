@@ -37,14 +37,15 @@ oggi:
   finestra_ore: 48
   # Quante fonti diverse servono perché un argomento compaia come gruppo.
   min_fonti_per_gruppo: 2
-  # Quante notizie "di una sola fonte" mostrare in fondo alla pagina.
-  max_notizie_singole: 120
+  # Quante notizie "di una sola fonte" mostrare in fondo alla pagina,
+  # per ciascuna fonte (le più recenti).
+  max_notizie_singole_per_fonte: 8
 
 raggruppamento:
   # Quanto devono assomigliarsi due notizie per finire nello stesso gruppo,
   # da 0 (per niente) a 1 (identiche). Più alto = gruppi più piccoli e
   # precisi; più basso = gruppi più grandi ma con più errori.
-  soglia_somiglianza: 0.25
+  soglia_somiglianza: 0.30
   # Quanto pesa il titolo rispetto all'estratto nel confronto.
   peso_titolo: 2
   # Quante parole chiave mostrare come nome dell'argomento.
@@ -66,6 +67,10 @@ poco_coperte:
   min_fonti_alternative: 2
   # ...e AL MASSIMO questo numero di grandi giornali.
   max_fonti_grandi: 1
+  # Un argomento viene scartato se somiglia almeno così tanto (da 0 a 1) a
+  # un argomento che i grandi giornali hanno coperto: di solito è un pezzo
+  # della stessa storia finito in un gruppo a parte. 0 = controllo spento.
+  somiglianza_con_argomenti_coperti: 0.20
 
 # Le categorie di fonti, con le parole usate nei conteggi
 # (es. "3 quotidiani · 2 testate online") e il colore del pallino.

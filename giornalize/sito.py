@@ -15,7 +15,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .archivio import data, leggi, leggi_stato
 from .config import RADICE, Configurazione
-from .raggruppa import Gruppo, raggruppa
+from .raggruppa import Gruppo, raggruppa, somiglianza_gruppi
 
 log = logging.getLogger("giornalize.sito")
 
@@ -68,20 +68,27 @@ class Costruttore:
     def conta(self, gruppo: Gruppo, categorie: list[str]) -> int:
         return sum(1 for f in gruppo.fonti if self.config.fonti_per_id[f].categoria in categorie)
 
-    def ordina_notizie(self, notizie: list[dict]) -> list[dict]:
-        """Nelle card di un gruppo: prima per categoria (agenzie, quotidiani, ...),
-        poi per fonte, poi dalla più recente."""
-        def chiave(n):
-            fonte = self.config.fonti_per_id[n["fonte"]]
-            return (self.ordine_categorie.get(fonte.categoria, 99), fonte.nome.lower(), n["pubblicato"])
-        ordinate = sorted(notizie, key=lambda n: n["pubblicato"], reverse=True)
-        return sorted(ordinate, key=lambda n: chiave(n)[:2])
+    def per_fonte(self, notizie: list[dict]) -> list[tuple[dict, list[dict]]]:
+        """Una card per fonte: restituisce (notizia più recente, altre notizie
+        della stessa fonte), in ordine di categoria (agenzie, quotidiani, ...)
+        e poi di nome della fonte."""
+        gruppi: dict[str, list[dict]] = {}
+        for n in sorted(notizie, key=lambda n: n["pubblicato"], reverse=True):
+            gruppi.setdefault(n["fonte"], []).append(n)
+
+        def chiave(id_fonte):
+            fonte = self.config.fonti_per_id[id_fonte]
+            return (self.ordine_categorie.get(fonte.categoria, 99), fonte.nome.lower())
+
+        return [(gruppi[f][0], gruppi[f][1:]) for f in sorted(gruppi, key=chiave)]
 
     def prepara(self, ora: datetime) -> dict:
         cfg = self.config
         notizie = [
             n for n in leggi(self.cartella_dati / "notizie.json")
-            if n["fonte"] in cfg.fonti_per_id and cfg.fonti_per_id[n["fonte"]].attiva
+            if n["fonte"] in cfg.fonti_per_id
+            and cfg.fonti_per_id[n["fonte"]].attiva
+            and not cfg.fonti_per_id[n["fonte"]].esclusa(n["link"])
         ]
         inizio = ora - timedelta(hours=cfg["oggi"]["finestra_ore"])
         recenti = [n for n in notizie if data(n) >= inizio]
@@ -92,16 +99,30 @@ class Costruttore:
         minimo = cfg["oggi"]["min_fonti_per_gruppo"]
         multipli = [g for g in gruppi if len(g.fonti) >= minimo]
         multipli.sort(key=lambda g: (len(g.fonti), g.ultimo), reverse=True)
-        singole = sorted(
+        # Notizie di una sola fonte: le più recenti di ogni fonte, così
+        # filtrando per fonte si trova sempre qualcosa.
+        massimo = cfg["oggi"]["max_notizie_singole_per_fonte"]
+        conteggio: Counter = Counter()
+        singole = []
+        for n in sorted(
             (n for g in gruppi if len(g.fonti) < minimo for n in g.notizie),
             key=lambda n: n["pubblicato"], reverse=True,
-        )[: cfg["oggi"]["max_notizie_singole"]]
+        ):
+            if conteggio[n["fonte"]] < massimo:
+                conteggio[n["fonte"]] += 1
+                singole.append(n)
 
         pc = cfg["poco_coperte"]
+        coperti = [g for g in gruppi if self.conta(g, pc["categorie_grandi"]) > pc["max_fonti_grandi"]]
+        limite = pc.get("somiglianza_con_argomenti_coperti", 0)
         poco_coperte = [
             g for g in gruppi
             if self.conta(g, pc["categorie_alternative"]) >= pc["min_fonti_alternative"]
             and self.conta(g, pc["categorie_grandi"]) <= pc["max_fonti_grandi"]
+            # Scarta i "pezzi" di argomenti che i grandi giornali hanno coperto
+            # ma che il raggruppamento ha separato (es. un dettaglio di una
+            # storia molto raccontata).
+            and not (limite and any(somiglianza_gruppi(g, c) >= limite for c in coperti))
         ]
         poco_coperte.sort(key=lambda g: (self.conta(g, pc["categorie_alternative"]), g.ultimo), reverse=True)
 
@@ -139,7 +160,7 @@ class Costruttore:
             "aggiornato": data_lunga(ora),
             "aggiornato_iso": ora.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "riepilogo": self.riepilogo,
-            "ordina": self.ordina_notizie,
+            "per_fonte": self.per_fonte,
         }
 
         pagine = {

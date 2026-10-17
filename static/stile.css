@@ -263,6 +263,7 @@ h1 {
   padding-right: 16px;
   scroll-padding-left: 16px;
 }
+.card-fila { align-items: flex-start; }
 .card-fila > .card {
   flex: 0 0 82%;
   max-width: 340px;
@@ -322,6 +323,17 @@ h1 {
   white-space: nowrap;
   padding: 6px 0;
 }
+
+/* Altri articoli della stessa fonte, dentro la card. */
+.altri {
+  border-top: 1px solid var(--bordo);
+  padding-top: 6px;
+  font-size: .82rem;
+}
+.altri summary { cursor: pointer; color: var(--link); padding: 4px 0; }
+.altri ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 6px; }
+.altri li a { color: var(--testo); }
+.altri time { color: var(--testo-tenue); white-space: nowrap; }
 
 /* Notizie da una sola fonte: elenco compatto. */
 .singole summary { cursor: pointer; list-style-position: outside; }
@@ -396,6 +408,7 @@ h1 {
   /* Su schermi larghi le card vanno a capo invece di scorrere. */
   .card-fila {
     display: grid;
+    align-items: stretch;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     overflow: visible;
     margin: 0;

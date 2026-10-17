@@ -18,6 +18,10 @@
 #    feed                elenco di indirizzi RSS/Atom da leggere
 #    sitemap             (facoltativo) elenco di "news sitemap" da leggere
 #                        se il sito non ha un feed RSS
+#    escludi             (facoltativo) pezzi di indirizzo da scartare, per
+#                        esempio "/sport/" o "/en/" (articoli in inglese)
+#    mostra_estratto     (facoltativo) false per non mostrare l'estratto,
+#                        se quello del feed non è utile
 #    attiva              false per sospendere una fonte senza cancellarla
 #
 #  Se "feed" è vuoto o nessun feed risponde, il programma prova a trovarne
@@ -26,9 +30,6 @@
 #
 #  ATTENZIONE agli spazi: YAML usa i rientri (2 spazi) per capire la struttura.
 #  Copiate un blocco esistente e cambiate solo i valori.
-#
-#  Gli indirizzi dei feed segnati "# da provare" sono stati cercati ma non
-#  ancora provati: vengono controllati automaticamente al primo avvio.
 # ============================================================================
 
 fonti:
@@ -58,7 +59,7 @@ fonti:
     instagram: "@rainews"
     feed:
       - https://www.rainews.it/rss/tutti
-      - https://www.rainews.it/rss/politica   # da provare
+      - https://www.rainews.it/rss/politica
     attiva: true
 
   - id: skytg24
@@ -69,7 +70,7 @@ fonti:
     sito: https://tg24.sky.it
     instagram: "@skytg24"
     feed:
-      - https://tg24.sky.it/rss/tg24.xml   # da provare
+      - https://tg24.sky.it/rss/tg24.xml
     attiva: true
 
   # --------------------------------------------------------------------------
@@ -112,7 +113,6 @@ fonti:
     instagram: "@lastampa"
     feed:
       - https://www.lastampa.it/rss/copertina.xml
-      - https://www.lastampa.it/rss/politica.xml   # da provare
     attiva: true
 
   - id: sole24ore
@@ -126,7 +126,7 @@ fonti:
     instagram_da_verificare: true
     feed:
       - https://www.ilsole24ore.com/rss/italia.xml
-      - https://www.ilsole24ore.com/rss/economia.xml   # da provare
+      - https://www.ilsole24ore.com/rss/economia.xml
     attiva: true
 
   - id: ilfatto
@@ -149,7 +149,7 @@ fonti:
     sito: https://ilmanifesto.it
     instagram: "@ilmanifesto"
     feed:
-      - https://ilmanifesto.it/feed   # da provare
+      - https://ilmanifesto.it/feed
     attiva: true
 
   - id: domani
@@ -161,7 +161,7 @@ fonti:
     instagram: "@domanigiornale"
     instagram_da_verificare: true
     feed:
-      - https://www.editorialedomani.it/rss   # da provare
+      - https://www.editorialedomani.it/rss
     attiva: true
 
   - id: avvenire
@@ -172,8 +172,9 @@ fonti:
     orientamento_breve: Cattolico
     sito: https://www.avvenire.it
     instagram: ""   # da cercare
-    feed:
-      - https://www.avvenire.it/rss   # da provare
+    feed: []   # Avvenire nessun feed RSS trovato: si usa la news sitemap
+    sitemap:
+      - https://www.avvenire.it/google-news-sitemap.xml
     attiva: true
 
   - id: ilgiornale
@@ -183,8 +184,9 @@ fonti:
     orientamento: Centro-destra
     sito: https://www.ilgiornale.it
     instagram: "@ilgiornale"
-    feed:
-      - https://www.ilgiornale.it/feed.xml   # da provare
+    feed: []   # Il Giornale nessun feed RSS trovato: si usa la news sitemap
+    sitemap:
+      - https://www.ilgiornale.it/arc/outboundfeeds/sitemap-news/latest/
     attiva: true
 
   - id: libero
@@ -196,7 +198,7 @@ fonti:
     instagram: "@liberoquotidiano"
     instagram_da_verificare: true
     feed:
-      - https://www.liberoquotidiano.it/rss.xml   # da provare
+      - https://www.liberoquotidiano.it/rss.xml
     attiva: true
 
   - id: laverita
@@ -207,7 +209,7 @@ fonti:
     sito: https://www.laverita.info
     instagram: ""   # da cercare
     feed:
-      - https://www.laverita.info/feeds/feed.rss   # da provare
+      - https://www.laverita.info/feeds/feed.rss
     attiva: true
 
   - id: ilfoglio
@@ -218,7 +220,11 @@ fonti:
     sito: https://www.ilfoglio.it
     instagram: "@ilfoglio_it"
     instagram_da_verificare: true
-    feed: []   # nessun indirizzo noto: viene cercato in automatico dal sito
+    feed: []   # Il Foglio nessun feed RSS trovato: si usa la news sitemap
+    sitemap:
+      - https://www.ilfoglio.it/google-news-sitemap.xml
+    escludi:
+      - "/en/"   # la versione inglese degli stessi articoli
     attiva: true
 
   # --------------------------------------------------------------------------
@@ -233,7 +239,7 @@ fonti:
     sito: https://www.ilpost.it
     instagram: "@ilpost"
     feed:
-      - https://www.ilpost.it/feed/
+      - https://www.ilpost.it/feed
     attiva: true
 
   - id: fanpage
@@ -243,6 +249,9 @@ fonti:
     orientamento: Generalista
     sito: https://www.fanpage.it
     instagram: "@fanpage.it"
+    # Al primo controllo Fanpage ha rifiutato l'accesso ai server di GitHub
+    # (errore 403: blocca i programmi automatici). Resta attiva nel caso
+    # cambi idea; non aggiriamo il blocco.
     feed:
       - https://www.fanpage.it/feed/
     attiva: true
@@ -279,7 +288,7 @@ fonti:
     sito: https://www.internazionale.it
     instagram: "@internazionale"
     feed:
-      - https://www.internazionale.it/sitemaps/rss.xml   # da provare
+      - https://www.internazionale.it/sitemaps/rss.xml
     attiva: true
 
   - id: scomodo
@@ -291,8 +300,10 @@ fonti:
     sito: https://www.scomodo.org
     instagram: "@scomodo"
     instagram_da_verificare: true
+    # Al primo controllo Scomodo ha rifiutato l'accesso ai server di GitHub
+    # (errore 403). Resta attiva nel caso cambi; non aggiriamo il blocco.
     feed:
-      - https://www.scomodo.org/feed/   # da provare
+      - https://www.scomodo.org/feed/
     attiva: true
 
   # --------------------------------------------------------------------------
@@ -331,7 +342,8 @@ fonti:
     orientamento: Non schierato
     sito: https://pagellapolitica.it
     instagram: "@pagellapolitica"
-    feed: []   # nessun indirizzo noto: viene cercato in automatico dal sito
+    feed:
+      - https://pagellapolitica.it/feed.xml
     attiva: true
 
   - id: facta
@@ -343,7 +355,7 @@ fonti:
     instagram: "@facta.news"
     instagram_da_verificare: true
     feed:
-      - https://facta.news/feed   # da provare
+      - https://facta.news/feed.xml
     attiva: true
 
   # --------------------------------------------------------------------------
@@ -418,5 +430,7 @@ fonti:
     instagram: ""   # da cercare
     feed:
       # Feed RSS ufficiale che YouTube offre per ogni canale.
-      - https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg   # da provare
+      - https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg
+    # La descrizione dei video è quasi sempre promozionale: niente estratto.
+    mostra_estratto: false
     attiva: true

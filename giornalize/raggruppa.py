@@ -131,6 +131,12 @@ def raggruppa(notizie: list[dict], soglia: float, peso_titolo: int = 2, n_parole
     return gruppi
 
 
+def somiglianza_gruppi(a: Gruppo, b: Gruppo) -> float:
+    """Somiglianza tra due gruppi (da 0 a 1), confrontando le loro parole."""
+    na, nb = _norma(a.centroide), _norma(b.centroide)
+    return _prodotto(a.centroide, b.centroide) / (na * nb) if na and nb else 0.0
+
+
 def _parole_principali(centroide: dict[str, float], quante: int = 5) -> list[str]:
     return sorted(centroide, key=lambda r: -centroide[r])[:quante]
 

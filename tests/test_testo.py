@@ -22,6 +22,11 @@ def test_estratto_toglie_code_dei_feed_e_titolo_ripetuto():
     assert prepara_estratto("Titolo della notizia", "Titolo della notizia", 200) == ""
 
 
+def test_estratto_senza_link():
+    assert prepara_estratto("https://video.esempio.it/play/mp4/video/rx66", "Titolo", 200) == ""
+    assert prepara_estratto("Guarda il video: https://t.ly/abc - Il racconto", "Titolo", 200) == "Guarda il video: - Il racconto"
+
+
 def test_togli_html_e_entita():
     assert togli_html("Caf&egrave; <i>e</i>&nbsp;cornetto<script>x()</script>") == "Cafè e cornetto"
 

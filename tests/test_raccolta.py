@@ -68,3 +68,26 @@ def test_date_nel_futuro_corrette(config, ora):
     voce = {"titolo": "Notizia", "sommario": "", "link": "https://x.it/a", "quando": ora + timedelta(days=2)}
     notizie = raccolta.leggi_feed(config.fonti_per_id["ansa"], dati_prova.feed_rss([voce]), config, ora)
     assert notizie[0]["pubblicato"] == raccolta.iso(ora)
+
+
+def test_esclusioni_e_estratto_spento(config, ora):
+    fonte = config.fonti_per_id["ilfoglio"]
+    fonte.escludi = ["/en/"]
+    fonte.mostra_estratto = False
+    voci = [
+        {"titolo": "Articolo in italiano", "sommario": "Testo", "link": "https://ilfoglio.it/politica/1", "quando": ora},
+        {"titolo": "Article in English", "sommario": "Text", "link": "https://ilfoglio.it/en/politics/1", "quando": ora},
+    ]
+    notizie = raccolta.leggi_feed(fonte, dati_prova.feed_rss(voci), config, ora)
+    assert [n["titolo"] for n in notizie] == ["Articolo in italiano"]
+    assert notizie[0]["estratto"] == ""
+
+
+def test_date_scritte_in_italiano():
+    from datetime import datetime, timezone
+    atteso = datetime(2026, 10, 17, 19, 30, tzinfo=timezone.utc)
+    assert raccolta.data_da_testo("Sab, 17 Ott 2026 21:30:00 +0200") == atteso
+    assert raccolta.data_da_testo("Sat, 17 Oct 2026 19:30:00 GMT") == atteso
+    assert raccolta.data_da_testo("2026-10-17T21:30:00+02:00") == atteso
+    assert raccolta.data_da_testo("Mar, 3 Mar 2026 10:00:00 +0000") == datetime(2026, 3, 3, 10, tzinfo=timezone.utc)
+    assert raccolta.data_da_testo("ieri sera") is None

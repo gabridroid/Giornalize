@@ -110,8 +110,8 @@ Da quel momento il sito si aggiorna da solo ogni 3 ore.
 
 ### 3.6 Provare le fonti (consigliato dopo il primo avvio)
 
-Molti indirizzi dei feed sono stati cercati ma non ancora provati: dall'ambiente in cui è stato
-scritto il programma i siti dei giornali non erano raggiungibili. Per controllarli:
+Gli indirizzi dei feed sono stati provati al primo avvio. Conviene ripetere la prova ogni volta
+che aggiungi o correggi una fonte:
 
 1. **Actions** → **Prova le fonti** → **Run workflow** → **Run workflow**.
 2. Quando finisce, clicca sull'esecuzione: in fondo alla pagina c'è una tabella con ogni fonte,
@@ -190,18 +190,19 @@ Apri `config.yaml` e modifica i numeri come per `sources.yaml`. I più utili:
 |---|---|---|
 | `oggi.finestra_ore` | Quante ore indietro guarda la pagina "Oggi" | 48 |
 | `oggi.min_fonti_per_gruppo` | Quante fonti servono perché un argomento compaia come gruppo | 2 |
-| `raggruppamento.soglia_somiglianza` | Quanto devono assomigliarsi due notizie per stare nello stesso gruppo (da 0 a 1) | 0.25 |
+| `raggruppamento.soglia_somiglianza` | Quanto devono assomigliarsi due notizie per stare nello stesso gruppo (da 0 a 1) | 0.30 |
 | `poco_coperte.min_fonti_alternative` | Sezione "Poco raccontate": minimo di fonti indipendenti/inchiesta/social | 2 |
 | `poco_coperte.max_fonti_grandi` | Sezione "Poco raccontate": massimo di agenzie e quotidiani nazionali | 1 |
+| `poco_coperte.somiglianza_con_argomenti_coperti` | Scarta dalla sezione i "pezzi" di storie già coperte dai grandi giornali (0 = controllo spento) | 0.20 |
 | `poco_coperte.categorie_grandi` | Quali categorie contano come "grandi giornali" | Agenzie e all-news, Quotidiani nazionali |
 | `estratto.max_caratteri` | Lunghezza massima dell'estratto | 200 |
 
 **Come tarare il raggruppamento.** Guarda la pagina "Oggi" per qualche giorno:
-- se vedi **notizie diverse nello stesso gruppo**, alza `soglia_somiglianza` (es. da 0.25 a 0.30);
-- se vedi **la stessa notizia spezzata in più gruppi**, abbassala (es. a 0.20).
+- se vedi **notizie diverse nello stesso gruppo**, alza `soglia_somiglianza` (es. da 0.30 a 0.35);
+- se vedi **la stessa notizia spezzata in più gruppi**, abbassala (es. a 0.25).
 
-Cambia di 0.05 alla volta. La soglia iniziale è stata scelta con notizie di prova; con quelle
-vere probabilmente andrà ritoccata.
+Cambia di 0.05 alla volta. La soglia iniziale (0.30) è stata scelta confrontando i gruppi
+ottenuti con le prime 900 notizie vere raccolte.
 
 ## 6. Scrivere la pagina "Perché esiste questo sito"
 

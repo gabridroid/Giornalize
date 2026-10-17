@@ -51,7 +51,8 @@
     if (attivo) {
       esito.hidden = false;
       esito.textContent = notizieVisibili
-        ? "Notizie trovate: " + notizieVisibili + " (in " + gruppiVisibili + " argomenti)."
+        ? "Card trovate: " + notizieVisibili + " (in " + gruppiVisibili +
+          (gruppiVisibili === 1 ? " argomento)." : " argomenti).")
         : "Nessuna notizia corrisponde ai filtri.";
     } else {
       esito.hidden = true;

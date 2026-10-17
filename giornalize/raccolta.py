@@ -14,6 +14,7 @@ import re
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from urllib.parse import urljoin
 
@@ -66,7 +67,7 @@ def _crea_notizia(
 ) -> dict | None:
     titolo = pulisci_titolo(titolo, fonte.nome)
     link = pulisci_link(link)
-    if not titolo or not link.startswith(("http://", "https://")):
+    if not titolo or not link.startswith(("http://", "https://")) or fonte.esclusa(link):
         return None
     # Date mancanti o "nel futuro" (fusi orari sbagliati nel feed): si usa
     # il momento in cui la notizia è stata raccolta.
@@ -76,7 +77,10 @@ def _crea_notizia(
         "id": id_notizia(link),
         "fonte": fonte.id,
         "titolo": titolo,
-        "estratto": prepara_estratto(sommario, titolo, config["estratto"]["max_caratteri"]),
+        "estratto": (
+            prepara_estratto(sommario, titolo, config["estratto"]["max_caratteri"])
+            if fonte.mostra_estratto else ""
+        ),
         "link": link,
         "pubblicato": iso(pubblicato),
         "raccolto": iso(ora),
@@ -93,6 +97,43 @@ def _data_da_struct(voce, *chiavi) -> datetime | None:
             except (TypeError, ValueError, OverflowError):
                 continue
     return None
+
+
+# Abbreviazioni italiane di giorni e mesi -> inglesi, per le date scritte
+# in italiano (es. "Sab, 17 Ott 2026 21:30:00 +0200").
+_ITALIANO_INGLESE = {
+    "lun": "Mon", "mar": "Tue", "mer": "Wed", "gio": "Thu", "ven": "Fri", "sab": "Sat", "dom": "Sun",
+    "gen": "Jan", "feb": "Feb", "apr": "Apr", "mag": "May", "giu": "Jun",
+    "lug": "Jul", "ago": "Aug", "set": "Sep", "ott": "Oct", "nov": "Nov", "dic": "Dec",
+}
+
+
+def data_da_testo(testo: str) -> datetime | None:
+    """Interpreta una data scritta come testo quando feedparser non ci riesce."""
+    testo = (testo or "").strip()
+    if not testo:
+        return None
+    momento = _data_iso(testo)
+    if momento:
+        return momento
+    # "mar" è sia martedì sia marzo: in posizione di mese diventa "Mar".
+    parole = re.split(r"(\W+)", testo)
+    tradotto = []
+    for i, p in enumerate(parole):
+        chiave = p[:3].lower()
+        if chiave == "mar" and i > 0 and any(c.isdigit() for c in "".join(parole[max(0, i - 2):i])):
+            tradotto.append("Mar")
+        elif chiave in _ITALIANO_INGLESE and p.isalpha():
+            tradotto.append(_ITALIANO_INGLESE[chiave])
+        else:
+            tradotto.append(p)
+    try:
+        momento = parsedate_to_datetime("".join(tradotto))
+    except (TypeError, ValueError, IndexError):
+        return None
+    if momento.tzinfo is None:
+        momento = momento.replace(tzinfo=timezone.utc)
+    return momento.astimezone(timezone.utc)
 
 
 def leggi_feed(fonte: Fonte, contenuto: bytes, config: Configurazione, ora: datetime) -> list[dict]:
@@ -115,7 +156,8 @@ def leggi_feed(fonte: Fonte, contenuto: bytes, config: Configurazione, ora: date
             voce.get("title", ""),
             voce.get("link", ""),
             sommario,
-            _data_da_struct(voce, "published_parsed", "updated_parsed", "created_parsed"),
+            _data_da_struct(voce, "published_parsed", "updated_parsed", "created_parsed")
+            or next(filter(None, (data_da_testo(voce.get(k, "")) for k in ("published", "updated", "date"))), None),
             "rss",
             config,
             ora,

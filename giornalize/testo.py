@@ -39,6 +39,7 @@ STOPWORD = set(
     """.split()
 )
 
+_INDIRIZZO = re.compile(r"https?://\S+|www\.\S+")
 _PAROLA = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)?", re.UNICODE)
 _SPAZI = re.compile(r"\s+")
 
@@ -108,6 +109,9 @@ def prepara_estratto(grezzo: str, titolo: str, massimo: int) -> str:
     ripetere il titolo, al massimo `massimo` caratteri."""
     testo = togli_html(grezzo)
     testo = _CODE_FEED.sub("", testo).strip()
+    testo = _SPAZI.sub(" ", _INDIRIZZO.sub("", testo)).strip(" -–—|:·")
+    if len(re.findall(r"[^\W\d_]", testo)) < 3:  # rimasto solo un link o della punteggiatura
+        return ""
     if titolo and testo.lower().startswith(titolo.lower()):
         testo = testo[len(titolo) :].lstrip(" .:-–—")
     if normalizza_titolo(testo) == normalizza_titolo(titolo):

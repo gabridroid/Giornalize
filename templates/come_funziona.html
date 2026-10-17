@@ -63,7 +63,12 @@
     <li>ne hanno parlato <strong>almeno {{ pc.min_fonti_alternative }}</strong> fonti tra:
       {{ pc.categorie_alternative|join(', ') }};</li>
     <li>e <strong>al massimo {{ pc.max_fonti_grandi }}</strong> {{ 'fonte' if pc.max_fonti_grandi == 1 else 'fonti' }} tra:
-      {{ pc.categorie_grandi|join(', ') }}.</li>
+      {{ pc.categorie_grandi|join(', ') }};</li>
+    {% if pc.somiglianza_con_argomenti_coperti %}
+    <li>e non somiglia troppo a un argomento che i grandi giornali hanno invece coperto. Serve a
+      evitare che un dettaglio di una storia molto raccontata, finito per caso in un gruppo a parte,
+      sembri una notizia ignorata.</li>
+    {% endif %}
   </ul>
   <p>Il programma <strong>non stabilisce perché</strong> un argomento è poco coperto. Ci possono essere
     molti motivi: la notizia è locale, non è ancora verificata, è considerata poco importante,

@@ -93,6 +93,9 @@ def comando_prova_fonti(config, ids: list[str]) -> int:
         if stato["trovato_in_automatico"]:
             dettagli.append(f"trovato in automatico: {stato['trovato_in_automatico']} (copialo in sources.yaml)")
         dettagli += stato["errori"]
+        senza_data = sum(1 for n in notizie if n["pubblicato"] == n["raccolto"])
+        if senza_data:
+            dettagli.append(f"{senza_data} notizie senza data leggibile: si usa l'ora della raccolta")
         if notizie:
             dettagli.append(f"esempio: «{notizie[0]['titolo'][:70]}»")
         righe.append(
