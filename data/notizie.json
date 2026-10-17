@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-17T22:34:06Z",
+ "aggiornato": "2026-10-17T22:40:05Z",
  "notizie": [
   {
    "id": "95def0fc48c46549",
@@ -4532,6 +4532,16 @@
    "canale": "rss"
   },
   {
+   "id": "6e2855b46ade0bf1",
+   "fonte": "skytg24",
+   "titolo": "Serie A, Frosinone batte Sassuolo 4-2: tripletta di Raimondo. HIGHLIGHTS",
+   "estratto": "Il Frosinone batte il Sassuolo 4-2 grazie a una straordinaria tripletta di Raimondo, ora capocannoniere della Serie A con 7 gol. I giallazzurri sbloccano il match con Calò, subiscono il momentaneo…",
+   "link": "https://tg24.sky.it/sport/video/2026/10/17/serie-a-frosinone-sassuolo-4-2-video-gol-e-highlights-1132364",
+   "pubblicato": "2026-10-17T11:05:17Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "rss"
+  },
+  {
    "id": "11f1c3083d117ada",
    "fonte": "nicolaporro",
    "titolo": "Generazione Impresa, Regione Lombardia investe sui giovani",
@@ -4539,6 +4549,16 @@
    "link": "https://www.nicolaporro.it/generazione-impresa-regione-lombardia-investe-sui-giovani/",
    "pubblicato": "2026-10-17T11:05:02Z",
    "raccolto": "2026-10-17T22:34:06Z",
+   "canale": "rss"
+  },
+  {
+   "id": "87017b81d977936d",
+   "fonte": "skytg24",
+   "titolo": "Meteo, maltempo in arrivo: temperature in calo e pioggia fino a venerdì. Ecco dove",
+   "estratto": "L’Italia può dire addio all’anticiclone. Gli ultimi giorni di sole e temperature miti lasciano spazio all’arrivo di piogge diffuse. Una perturbazione atlantica porterà un peggioramento progressivo…",
+   "link": "https://tg24.sky.it/cronaca/2026/10/17/meteo-previsioni-maltempo",
+   "pubblicato": "2026-10-17T11:03:25Z",
+   "raccolto": "2026-10-17T22:40:05Z",
    "canale": "rss"
   },
   {
@@ -9959,6 +9979,246 @@
    "link": "https://www.ilfoglio.it/sport/2026/10/15/news/le-metamorfosi-di-claudio-giraldez-lallenatore-che-guida-il-celta-vigo--410537",
    "pubblicato": "2026-10-15T03:59:00Z",
    "raccolto": "2026-10-17T22:34:06Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "ffc1d46156e619ca",
+   "fonte": "ilfoglio",
+   "titolo": "La crisi di Rama si allarga. A Tirana gli studenti si uniscono ai fenicotteri contro la corruzione",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/editoriali/2026/10/15/news/la-crisi-di-rama-si-allarga-a-tirana-gli-studenti-si-uniscono-ai-fenicotteri-contro-la-corruzione--410614",
+   "pubblicato": "2026-10-15T03:58:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "12e5ddb9545a36c9",
+   "fonte": "ilfoglio",
+   "titolo": "I disastri della propaganda russa in Italia",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/politica/2026/10/15/news/i-disastri-della-propaganda-russa-in-italia--410590",
+   "pubblicato": "2026-10-15T03:58:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "8bebc13ab022cdfe",
+   "fonte": "ilfoglio",
+   "titolo": "La strana Europa della Torreense è il capolavoro di Luis Tralhao",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/sport/2026/10/15/news/la-strana-europa-della-torreense-e-una-questione-familiare--410563",
+   "pubblicato": "2026-10-15T03:58:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "e158202519c9cc1d",
+   "fonte": "ilfoglio",
+   "titolo": "Mosca arresta un giornalista giapponese. Un avvertimento a Tokyo (e un favore alla Cina)",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/esteri/2026/10/15/news/mosca-arresta-un-giornalista-giapponese-un-avvertimento-a-tokyo-e-un-favore-alla-cina--410616",
+   "pubblicato": "2026-10-15T03:56:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "faa8c2ae0c80ca85",
+   "fonte": "ilfoglio",
+   "titolo": "I due schermi da guardare per capire perché Putin ha bisogno di Trump",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/esteri/2026/10/15/news/i-due-schermi-da-guardare-per-capire-perche-putin-ha-bisogno-di-trump--410617",
+   "pubblicato": "2026-10-15T03:55:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "0b08dc04c755b60d",
+   "fonte": "ilfoglio",
+   "titolo": "L’Ue la Nato evitano lo scontro con Trump e minimizzano sul tradimento all’Ucraina",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/esteri/2026/10/15/news/lue-la-nato-evitano-lo-scontro-con-trump-e-minimizzano-sul-tradimento-allucraina--410620",
+   "pubblicato": "2026-10-15T03:54:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "ec52f9db8559f729",
+   "fonte": "ilfoglio",
+   "titolo": "Le Pen ritratta su Putin. Il taglio degli aiuti a Kyiv",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/esteri/2026/10/15/news/le-pen-ritratta-su-putin-il-taglio-degli-aiuti-a-kyiv--410595",
+   "pubblicato": "2026-10-15T03:52:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "ae41cffe22f953bd",
+   "fonte": "ilfoglio",
+   "titolo": "I “muri” di Melonesky. Contro i fratellastri di Putin: Vannacci, Conte, Salvini. Prove di iperpartito",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/politica/2026/10/15/news/i-muri-di-melonesky-contro-i-fratellastri-di-putin-vannacci-conte-salvini-prove-di-iperpartito--410637",
+   "pubblicato": "2026-10-15T03:33:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "0e554cb933d5888d",
+   "fonte": "ilfoglio",
+   "titolo": "Dai satelliti spia all’intelligence elettromagnetica, il contributo francese a Kyiv. Intervista a Yves Bourdillon",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/esteri/2026/10/15/news/dai-satelliti-spia-allintelligence-elettromagnetica-il-contributo-francese-a-kyiv-intervista-a-yves-bourdillon--410611",
+   "pubblicato": "2026-10-15T03:28:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "47c981e00696877b",
+   "fonte": "ilfoglio",
+   "titolo": "“Sensing Art - Capolavori oltre lo sguardo”, gli occhiali Ai di Meta un gran regalo di Brera",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/gran-milano/2026/10/15/news/sensing-art-capolavori-oltre-lo-sguardo-gli-occhiali-ai-di-meta-un-gran-regalo-di-brera--410576",
+   "pubblicato": "2026-10-15T03:28:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "94959d6a069b1885",
+   "fonte": "ilfoglio",
+   "titolo": "Non basta un “paifang” per risare a Chinatown una identità",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/gran-milano/2026/10/15/news/non-basta-un-paifang-per-risare-a-chinatown-una-identita--410574",
+   "pubblicato": "2026-10-15T03:22:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "d9b6cc7c49b3a049",
+   "fonte": "ilfoglio",
+   "titolo": "Il Papa al Gemelli. Niente più bivacchi di cronisti, le tv sono sulla collina e non c’è più il bollettino",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/roma-capoccia/2026/10/15/news/il-papa-al-gemelli-niente-piu-bivacchi-di-cronisti-le-tv-sono-sulla-collina-e-non-ce-piu-il-bollettino--410603",
+   "pubblicato": "2026-10-15T03:19:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "a6d686690b272fc0",
+   "fonte": "ilfoglio",
+   "titolo": "L’allarme che non c’è sui boss in gita",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/giustizia/2026/10/15/news/lallarme-che-non-ce-sui-boss-in-gita--410567",
+   "pubblicato": "2026-10-15T03:18:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "f6dc503b59c84746",
+   "fonte": "ilfoglio",
+   "titolo": "Di chi è la Torre di Chia che fu di PPP? Piccole follie del benecomunismo",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/cultura/2026/10/15/news/di-chi-e-la-torre-di-chia-che-fu-di-ppp-piccole-follie-del-benecomunismo--410602",
+   "pubblicato": "2026-10-15T03:14:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "9f57bcc934ebda97",
+   "fonte": "ilfoglio",
+   "titolo": "Meloni e il tetto al prezzo del gas",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/economia/2026/10/15/news/meloni-e-il-tetto-al-prezzo-del-gas--410622",
+   "pubblicato": "2026-10-15T03:11:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "6a7716f5e44bd9ba",
+   "fonte": "ilfoglio",
+   "titolo": "Come e perché il campo largo si è arenato sulle energie alternative",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/politica/2026/10/15/news/come-e-perche-il-campo-largo-si-e-arenato-sulle-energie-alternative--410561",
+   "pubblicato": "2026-10-15T03:05:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "d793995639fb5dbd",
+   "fonte": "ilfoglio",
+   "titolo": "Chi serve il caffè e chi se lo beve. Scholz sbaglia bersaglio e contesto",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/societa/2026/10/15/news/chi-serve-il-caffe-e-chi-se-lo-beve-scholz-sbaglia-bersaglio-e-contesto--410584",
+   "pubblicato": "2026-10-15T03:03:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "4d73e804ac459cc6",
+   "fonte": "ilfoglio",
+   "titolo": "Il Teatro Valle riapre ripartendo dai \"Sei personaggi” di Pirandello",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/roma-capoccia/2026/10/15/news/il-teatro-valle-riapre-ripartendo-dai-sei-personaggi-di-pirandello--410568",
+   "pubblicato": "2026-10-15T03:03:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "ab0bc166ffc7f137",
+   "fonte": "ilfoglio",
+   "titolo": "Ragioni per diffidare dai finti cultori della Carta che sognano un proporzionale per via giudiziaria",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/giustizia/2026/10/15/news/ragioni-per-diffidare-dai-finti-cultori-della-carta-che-sognano-un-proporzionale-per-via-giudiziaria--410583",
+   "pubblicato": "2026-10-15T03:01:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "217da19c2eb4645e",
+   "fonte": "ilfoglio",
+   "titolo": "Al via i lavori per il nuovo Museo del Novecento. Un punto al futuro per Milano",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/gran-milano/2026/10/15/news/al-via-i-lavori-per-il-nuovo-museo-del-novecento-un-punto-al-futuro-per-milano--410578",
+   "pubblicato": "2026-10-15T03:01:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "5bec18c9e48c1254",
+   "fonte": "ilfoglio",
+   "titolo": "Policlinico e Niguarda, la guerra della Sanità fa danni collaterali",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/gran-milano/2026/10/15/news/policlinico-e-niguarda-la-guerra-della-sanita-fa-danni-collaterali--410570",
+   "pubblicato": "2026-10-15T03:01:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "be706235c5552e5e",
+   "fonte": "ilfoglio",
+   "titolo": "Meno attenzione per Sanchez e Littizzetto, più per Najmeh Amini, condannata a morte per un post",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/rubriche/contro-mastro-ciliegia/2026/10/15/news/meno-attenzione-per-sanchez-e-littizzetto-piu-per-najmeh-amini-condannata-a-morte-per-un-post--410645",
+   "pubblicato": "2026-10-15T02:49:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "632ad93d82689d55",
+   "fonte": "ilfoglio",
+   "titolo": "I droni russi sul \"Futuro\" (non solo) di Lutsk",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/rubriche/piccola-posta/2026/10/15/news/i-droni-russi-sul-futuro-non-solo-di-lutsk--410587",
+   "pubblicato": "2026-10-15T02:47:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "7594f58b6acaaff9",
+   "fonte": "ilfoglio",
+   "titolo": "Il portabanane di Sigfrido",
+   "estratto": "",
+   "link": "https://www.ilfoglio.it/rubriche/andreas-version/2026/10/15/news/il-portabanane-di-sigfrido--410608",
+   "pubblicato": "2026-10-15T02:36:00Z",
+   "raccolto": "2026-10-17T22:40:05Z",
    "canale": "sitemap"
   },
   {
