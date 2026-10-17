@@ -1,0 +1,14 @@
+2026-10-17 22:34:08 WARNING giornalize.raccolta: lastampa: errore con https://www.lastampa.it/rss/politica.xml: irraggiungibile
+2026-10-17 22:34:08 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-17 22:34:08 WARNING giornalize.raccolta: ilgiornale: errore con https://www.ilgiornale.it/feed.xml: errore HTTP 404
+2026-10-17 22:34:08 WARNING giornalize.raccolta: ilpost: errore con https://www.ilpost.it/feed/: errore HTTP 403
+2026-10-17 22:34:09 WARNING giornalize.raccolta: scomodo: errore con https://www.scomodo.org/feed/: errore HTTP 403
+2026-10-17 22:34:10 WARNING giornalize.raccolta: facta: errore con https://facta.news/feed: errore HTTP 404
+2026-10-17 22:34:12 WARNING giornalize.raccolta: ilpost: trovato in automatico il feed https://www.ilpost.it/feed (conviene scriverlo in sources.yaml)
+2026-10-17 22:34:12 WARNING giornalize.raccolta: ilfoglio: trovato in automatico il sitemap https://www.ilfoglio.it/google-news-sitemap.xml (conviene scriverlo in sources.yaml)
+2026-10-17 22:34:14 WARNING giornalize.raccolta: ilgiornale: trovato in automatico il sitemap https://www.ilgiornale.it/arc/outboundfeeds/sitemap-news/latest/ (conviene scriverlo in sources.yaml)
+2026-10-17 22:34:14 WARNING giornalize.raccolta: avvenire: errore con https://www.avvenire.it/rss: errore HTTP 404
+2026-10-17 22:34:16 WARNING giornalize.raccolta: facta: trovato in automatico il feed https://facta.news/feed.xml (conviene scriverlo in sources.yaml)
+2026-10-17 22:34:17 WARNING giornalize.raccolta: pagellapolitica: trovato in automatico il feed https://pagellapolitica.it/feed.xml (conviene scriverlo in sources.yaml)
+2026-10-17 22:34:49 WARNING giornalize.raccolta: avvenire: trovato in automatico il sitemap https://www.avvenire.it/google-news-sitemap.xml (conviene scriverlo in sources.yaml)
+2026-10-17 22:34:50 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo
