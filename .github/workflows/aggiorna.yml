@@ -1,0 +1,82 @@
+# Aggiornamento automatico di Giornalize.
+# GitHub esegue questi passaggi da solo ogni 3 ore: raccoglie le notizie,
+# ricostruisce il sito e lo pubblica su GitHub Pages.
+
+name: Aggiorna Giornalize
+
+on:
+  schedule:
+    # Ogni 3 ore, al minuto 17 (orari UTC: in Italia è 1 o 2 ore più tardi).
+    # Per cambiare frequenza: "17 */2 * * *" = ogni 2 ore. Vedi README.
+    - cron: "17 */3 * * *"
+  # Pulsante "Run workflow" nella scheda Actions, per aggiornare subito.
+  workflow_dispatch:
+  # Quando modifichi fonti, impostazioni, testi o codice, il sito si
+  # ricostruisce subito.
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+      - "README.md"
+
+permissions:
+  contents: write   # per salvare le notizie raccolte nella cartella data/
+  pages: write      # per pubblicare il sito
+  id-token: write
+
+# Mai due aggiornamenti nello stesso momento.
+concurrency:
+  group: aggiorna-giornalize
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.pubblica.outputs.page_url }}
+    steps:
+      - name: Scarica il progetto
+        uses: actions/checkout@v7
+
+      - name: Prepara Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installa le librerie
+        run: pip install -r requirements.txt
+
+      - name: Controlla che tutto funzioni (solo dopo una modifica)
+        if: github.event_name != 'schedule'
+        run: python -m pytest -q
+
+      - name: Raccogli le notizie e costruisci il sito
+        run: python -m giornalize aggiorna
+
+      - name: Salva le notizie raccolte
+        run: |
+          git config user.name "giornalize-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Nessuna novità da salvare."
+          else
+            git commit -q -m "Aggiornamento notizie $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull -q --rebase origin main
+            git push -q origin HEAD:main
+          fi
+
+      - name: Prepara la pubblicazione
+        uses: actions/configure-pages@v6
+
+      - name: Carica il sito
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: Pubblica il sito
+        id: pubblica
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block titolo %}{{ sito.titolo }} · Fonti{% endblock %}
+
+{% block contenuto %}
+<div class="intro">
+  <h1>Fonti</h1>
+  <p>Tutte le fonti che {{ sito.titolo }} legge, divise per categoria. L'elenco cerca di coprire
+    tutto l'arco politico, così che chi legge possa confrontare punti di vista diversi.</p>
+  <p class="nota">L'orientamento accanto a ogni fonte è un'<strong>etichetta indicativa</strong>, non un
+    giudizio sulla qualità o sull'affidabilità. <a href="come-funziona.html#etichette">Come sono scelte le etichette</a>.</p>
+</div>
+
+{% for c in categorie %}
+<section class="categoria-fonti">
+  <h2><span class="pallino" style="--colore: {{ c.colore }}"></span>{{ c.nome }}</h2>
+  <ul class="elenco-fonti">
+    {% for f in fonti.values() if f.categoria == c.nome %}
+    {% set s = stato.get(f.id) %}
+    <li class="scheda-fonte{% if not f.attiva %} sospesa{% endif %}">
+      <div class="scheda-testa">
+        <h3>{{ f.nome }}</h3>
+        {% if f.badge %}<span class="badge">{{ f.badge }}</span>{% endif %}
+      </div>
+      <p class="scheda-dettagli">{{ f.tipo }}{% if f.orientamento_breve %} · <span>Orientamento indicativo: {{ f.orientamento }}</span>{% endif %}</p>
+      <p class="scheda-link">
+        {% if f.sito %}<a href="{{ f.sito }}" target="_blank" rel="noopener">{{ f.sito|replace('https://', '')|replace('www.', '') }}</a>{% endif %}
+        {% if f.instagram %}<a href="{{ f.instagram_url }}" target="_blank" rel="noopener">Instagram {{ f.instagram }}</a>{% if f.instagram_da_verificare %} <small>(account da verificare)</small>{% endif %}{% endif %}
+      </p>
+      <p class="scheda-stato">
+        {% if not f.attiva %}
+          <span class="stato stato-sospeso">Sospesa</span>
+        {% elif not s %}
+          <span class="stato">In attesa del primo aggiornamento</span>
+        {% elif s.esito == 'ok' %}
+          <span class="stato stato-ok">Raccolta attiva</span>
+        {% elif s.esito == 'parziale' %}
+          <span class="stato stato-ok">Raccolta attiva (alcuni feed non rispondono)</span>
+        {% elif s.esito == 'nessun_canale' %}
+          {% if f.instagram %}<span class="stato">Pubblica soprattutto su Instagram: in arrivo</span>
+          {% else %}<span class="stato stato-errore">Nessun feed disponibile</span>{% endif %}
+        {% else %}
+          <span class="stato stato-errore">Non raggiungibile all'ultimo aggiornamento</span>
+        {% endif %}
+        {% if f.attiva and s and s.esito in ('ok', 'parziale') %}
+          · {{ notizie_per_fonte[f.id] }} notizie nelle ultime {{ cfg.oggi.finestra_ore }} ore
+        {% endif %}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

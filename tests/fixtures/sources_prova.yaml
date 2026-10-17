@@ -1,0 +1,266 @@
+# Fonti usate solo dalle prove automatiche (indirizzi finti .example.it).
+fonti:
+- id: ansa
+  nome: ANSA
+  categoria: Agenzie e all-news
+  orientamento: Non schierata
+  sito: https://ansa.example.it
+  instagram: '@ansa.it'
+  feed:
+  - https://ansa.example.it/feed.xml
+- id: rainews
+  nome: Rai News
+  categoria: Agenzie e all-news
+  orientamento: Istituzionale
+  sito: https://rainews.example.it
+  instagram: '@rainews'
+  feed:
+  - https://rainews.example.it/feed.xml
+- id: skytg24
+  nome: Sky TG24
+  categoria: Agenzie e all-news
+  orientamento: Non schierata
+  sito: https://skytg24.example.it
+  instagram: '@skytg24'
+  feed:
+  - https://skytg24.example.it/feed.xml
+- id: corriere
+  nome: Corriere della Sera
+  categoria: Quotidiani nazionali
+  orientamento: Moderato / centrista
+  orientamento_breve: Moderato
+  sito: https://corriere.example.it
+  instagram: '@corriere'
+  feed:
+  - https://corriere.example.it/feed.xml
+- id: repubblica
+  nome: la Repubblica
+  categoria: Quotidiani nazionali
+  orientamento: Centro-sinistra
+  sito: https://repubblica.example.it
+  instagram: '@larepubblica'
+  feed:
+  - https://repubblica.example.it/feed.xml
+- id: lastampa
+  nome: La Stampa
+  categoria: Quotidiani nazionali
+  orientamento: Centrista / centro-sinistra moderato
+  orientamento_breve: Centrista
+  sito: https://lastampa.example.it
+  instagram: '@lastampa'
+  feed:
+  - https://lastampa.example.it/feed.xml
+- id: sole24ore
+  nome: Il Sole 24 Ore
+  categoria: Quotidiani nazionali
+  orientamento: Economico (editore Confindustria)
+  orientamento_breve: Economico
+  sito: https://sole24ore.example.it
+  instagram: '@ilsole_24ore'
+  feed:
+  - https://sole24ore.example.it/feed.xml
+- id: ilfatto
+  nome: Il Fatto Quotidiano
+  categoria: Quotidiani nazionali
+  orientamento: Anti-establishment, spesso vicino al M5S
+  orientamento_breve: Anti-establishment
+  sito: https://ilfatto.example.it
+  instagram: '@ilfattoquotidiano'
+  feed:
+  - https://ilfatto.example.it/feed.xml
+- id: manifesto
+  nome: il manifesto
+  categoria: Quotidiani nazionali
+  orientamento: Sinistra
+  sito: https://manifesto.example.it
+  instagram: '@ilmanifesto'
+  feed:
+  - https://manifesto.example.it/feed.xml
+- id: domani
+  nome: Domani
+  categoria: Quotidiani nazionali
+  orientamento: Progressista
+  sito: https://domani.example.it
+  instagram: '@domanigiornale'
+  feed:
+  - https://domani.example.it/feed.xml
+- id: avvenire
+  nome: Avvenire
+  categoria: Quotidiani nazionali
+  orientamento: Cattolico (editore legato alla CEI)
+  orientamento_breve: Cattolico
+  sito: https://avvenire.example.it
+  instagram: ''
+  feed:
+  - https://avvenire.example.it/feed.xml
+- id: ilgiornale
+  nome: Il Giornale
+  categoria: Quotidiani nazionali
+  orientamento: Centro-destra
+  sito: https://ilgiornale.example.it
+  instagram: '@ilgiornale'
+  feed:
+  - https://ilgiornale.example.it/feed.xml
+- id: libero
+  nome: Libero
+  categoria: Quotidiani nazionali
+  orientamento: Destra
+  sito: https://libero.example.it
+  instagram: '@liberoquotidiano'
+  feed:
+  - https://libero.example.it/feed.xml
+- id: laverita
+  nome: La Verità
+  categoria: Quotidiani nazionali
+  orientamento: Destra
+  sito: https://laverita.example.it
+  instagram: ''
+  feed:
+  - https://laverita.example.it/feed.xml
+- id: ilfoglio
+  nome: Il Foglio
+  categoria: Quotidiani nazionali
+  orientamento: Liberal-conservatore
+  sito: https://ilfoglio.example.it
+  instagram: '@ilfoglio_it'
+  feed:
+  - https://ilfoglio.example.it/feed.xml
+- id: ilpost
+  nome: Il Post
+  categoria: Testate online e settimanali
+  orientamento: Non schierato, esplicativo
+  orientamento_breve: Non schierato
+  sito: https://ilpost.example.it
+  instagram: '@ilpost'
+  feed:
+  - https://ilpost.example.it/feed.xml
+- id: fanpage
+  nome: Fanpage
+  categoria: Testate online e settimanali
+  orientamento: Generalista
+  sito: https://fanpage.example.it
+  instagram: '@fanpage.it'
+  feed:
+  - https://fanpage.example.it/feed.xml
+- id: linkiesta
+  nome: Linkiesta
+  categoria: Testate online e settimanali
+  orientamento: Liberale, riformista, europeista
+  orientamento_breve: Liberale
+  sito: https://linkiesta.example.it
+  instagram: '@linkiesta'
+  feed:
+  - https://linkiesta.example.it/feed.xml
+- id: open
+  nome: Open
+  categoria: Testate online e settimanali
+  orientamento: Generalista (fondata da Enrico Mentana)
+  orientamento_breve: Generalista
+  sito: https://open.example.it
+  instagram: '@open_giornaleonline'
+  feed:
+  - https://open.example.it/feed.xml
+- id: internazionale
+  nome: Internazionale
+  categoria: Testate online e settimanali
+  orientamento: Progressista
+  sito: https://internazionale.example.it
+  instagram: '@internazionale'
+  feed:
+  - https://internazionale.example.it/feed.xml
+- id: scomodo
+  nome: Scomodo
+  categoria: Testate online e settimanali
+  orientamento: Indipendente, punto di vista under 30
+  orientamento_breve: Indipendente
+  sito: https://scomodo.example.it
+  instagram: '@scomodo'
+  feed:
+  - https://scomodo.example.it/feed.xml
+- id: valigiablu
+  nome: Valigia Blu
+  categoria: Inchiesta e fact-checking
+  orientamento: Indipendente, verifica e critica dei media
+  orientamento_breve: Indipendente
+  sito: https://valigiablu.example.it
+  instagram: '@valigiablu'
+  feed:
+  - https://valigiablu.example.it/feed.xml
+- id: irpimedia
+  nome: IrpiMedia
+  categoria: Inchiesta e fact-checking
+  orientamento: Indipendente, non profit
+  orientamento_breve: Indipendente
+  sito: https://irpimedia.example.it
+  instagram: '@irpimedia'
+  feed:
+  - https://irpimedia.example.it/feed.xml
+- id: pagellapolitica
+  nome: Pagella Politica
+  categoria: Inchiesta e fact-checking
+  orientamento: Non schierato
+  sito: https://pagellapolitica.example.it
+  instagram: '@pagellapolitica'
+  feed:
+  - https://pagellapolitica.example.it/feed.xml
+- id: facta
+  nome: Facta
+  categoria: Inchiesta e fact-checking
+  orientamento: Non schierato
+  sito: https://facta.example.it
+  instagram: '@facta.news'
+  feed:
+  - https://facta.example.it/feed.xml
+- id: will
+  nome: Will
+  categoria: Divulgatori social
+  orientamento: Esplicativo, dichiaratamente non polarizzato
+  orientamento_breve: Esplicativo
+  sito: https://will.example.it
+  instagram: '@will_ita'
+  feed:
+  - https://will.example.it/feed.xml
+- id: factanza
+  nome: Factanza
+  categoria: Divulgatori social
+  orientamento: Esplicativo, dichiaratamente apolitico
+  orientamento_breve: Esplicativo
+  sito: https://factanza.example.it
+  instagram: '@factanza'
+  feed:
+  - https://factanza.example.it/feed.xml
+- id: torcha
+  nome: Torcha
+  categoria: Divulgatori social
+  orientamento: Esplicativo (politica ed economia)
+  orientamento_breve: Esplicativo
+  sito: https://torcha.example.it
+  instagram: '@torcha'
+  feed:
+  - https://torcha.example.it/feed.xml
+- id: progressista
+  nome: progressista.io
+  categoria: Divulgatori social
+  orientamento: Progressista (dichiarato)
+  orientamento_breve: Progressista
+  sito: https://progressista.example.it
+  instagram: '@progressista.io'
+  feed:
+  - https://progressista.example.it/feed.xml
+- id: nicolaporro
+  nome: Nicola Porro
+  categoria: Divulgatori social
+  orientamento: Liberal-conservatore
+  sito: https://nicolaporro.example.it
+  instagram: '@nicolaporro'
+  feed:
+  - https://nicolaporro.example.it/feed.xml
+- id: breakingitaly
+  nome: Breaking Italy
+  categoria: Divulgatori social
+  orientamento: Indipendente, commento
+  orientamento_breve: Indipendente
+  sito: https://breakingitaly.example.it
+  instagram: ''
+  feed:
+  - https://breakingitaly.example.it/feed.xml

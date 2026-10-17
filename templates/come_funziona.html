@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% set pc = cfg.poco_coperte %}
+{% block titolo %}{{ sito.titolo }} · Come funziona{% endblock %}
+
+{% block contenuto %}
+<article class="testo">
+  <h1>Come funziona</h1>
+  <p>{{ sito.titolo }} raccoglie in automatico le notizie da giornali, testate indipendenti e
+    pagine di divulgazione, le raggruppa per argomento e le mette una accanto all'altra.
+    Così vedi subito chi parla di cosa. Non scegliamo noi le notizie a mano: le regole sono
+    spiegate qui sotto.</p>
+
+  <h2 id="dati">Da dove vengono i dati</h2>
+  <ul>
+    <li><strong>Feed RSS</strong>: quasi tutti i giornali pubblicano un elenco aggiornato dei loro
+      articoli in un formato pensato apposta per essere letto da programmi come questo.</li>
+    <li><strong>News sitemap</strong>: per i siti senza RSS, usiamo l'elenco pubblico degli articoli che
+      i giornali preparano per i motori di ricerca.</li>
+    <li><strong>Canali YouTube</strong>: tramite il feed ufficiale che YouTube offre per ogni canale.</li>
+    <li><strong>Instagram</strong>: le pagine che pubblicano solo su Instagram verranno aggiunte
+      prossimamente, usando solo strumenti ufficiali.</li>
+  </ul>
+  <p>Non copiamo gli articoli, non aggiriamo gli abbonamenti e non salviamo immagini. Per ogni
+    notizia mostriamo solo titolo, un breve estratto (al massimo {{ cfg.estratto.max_caratteri }}
+    caratteri, preso dal feed), nome della fonte, data e ora e il <strong>link all'originale</strong>.</p>
+
+  <h2 id="aggiornamento">Ogni quanto si aggiorna</h2>
+  <p>Circa ogni {{ cfg.raccolta.ogni_quante_ore }} ore. Se una fonte non risponde o cambia formato,
+    il sito continua a funzionare con le altre e l'errore viene registrato. Lo stato di ogni fonte
+    è nella pagina <a href="fonti.html">Fonti</a>. Le notizie restano in archivio per
+    {{ cfg.raccolta.giorni_archivio }} giorni.</p>
+
+  <h2 id="argomenti">Come vengono raggruppate le notizie</h2>
+  <p>Un programma confronta le parole dei titoli e degli estratti delle ultime
+    {{ cfg.oggi.finestra_ore }} ore. Le parole rare (per esempio un nome proprio o un luogo) contano
+    più di quelle che compaiono ovunque (come «governo» o «Italia»). Due notizie che condividono
+    abbastanza parole importanti finiscono nello stesso gruppo. Non usiamo intelligenza artificiale.</p>
+  <p>Il nome di ogni argomento è formato dalle parole più ricorrenti nei titoli del gruppo.
+    Il metodo è semplice e a volte sbaglia: può separare la stessa notizia raccontata con parole
+    diverse, o unire notizie diverse con parole in comune. Per questo ogni card porta sempre
+    all'articolo originale.</p>
+  <p>In "Oggi" compaiono gli argomenti di cui parlano almeno {{ cfg.oggi.min_fonti_per_gruppo }}
+    fonti diverse, ordinati per numero di fonti. Le notizie di una sola fonte sono in fondo alla pagina.</p>
+
+  <h2 id="etichette">Le etichette di orientamento</h2>
+  <p>Accanto a ogni fonte c'è un'etichetta come «Centro-sinistra», «Destra», «Non schierato»
+    o «Cattolico». Sono <strong>etichette indicative e approssimative</strong>:</p>
+  <ul>
+    <li>descrivono la linea editoriale generale o l'editore della testata, come è comunemente
+      percepita o come la testata stessa la dichiara;</li>
+    <li>non sono un giudizio sulla qualità, sull'affidabilità o sulla correttezza dei singoli articoli;</li>
+    <li>non si applicano a ogni giornalista né a ogni articolo di quella fonte.</li>
+  </ul>
+  <p>Il pallino colorato invece indica la <strong>categoria</strong> della fonte:</p>
+  <ul class="legenda legenda-colonna">
+    {% for c in categorie %}<li><span class="pallino" style="--colore: {{ c.colore }}"></span>{{ c.nome }}</li>{% endfor %}
+  </ul>
+
+  <h2 id="poco-coperte">"Quello che i grandi giornali non raccontano"</h2>
+  <p>Questa sezione è costruita in automatico, solo contando le fonti. Un argomento compare se,
+    nelle ultime {{ cfg.oggi.finestra_ore }} ore:</p>
+  <ul>
+    <li>ne hanno parlato <strong>almeno {{ pc.min_fonti_alternative }}</strong> fonti tra:
+      {{ pc.categorie_alternative|join(', ') }};</li>
+    <li>e <strong>al massimo {{ pc.max_fonti_grandi }}</strong> {{ 'fonte' if pc.max_fonti_grandi == 1 else 'fonti' }} tra:
+      {{ pc.categorie_grandi|join(', ') }}.</li>
+  </ul>
+  <p>Il programma <strong>non stabilisce perché</strong> un argomento è poco coperto. Ci possono essere
+    molti motivi: la notizia è locale, non è ancora verificata, è considerata poco importante,
+    è falsa, oppure è stata trascurata. Sta a chi legge aprire le fonti e farsi un'idea.</p>
+  <p>Un limite da conoscere: alcuni giornali pubblicano nei loro feed solo una parte degli
+    articoli. Quindi una notizia può risultare "poco coperta" anche se un giornale ne ha parlato
+    in una pagina che il feed non include.</p>
+
+  <h2 id="posizione">Chi c'è dietro</h2>
+  <p>Chi ha creato il sito spiega la propria posizione nella pagina
+    <a href="perche.html">Perché esiste questo sito</a>. Quella pagina è un'opinione personale ed è
+    separata dalla raccolta automatica, che segue solo le regole descritte qui.</p>
+</article>
+{% endblock %}

@@ -1,0 +1,410 @@
+/* Giornalize — stile pensato prima per il telefono, poi per schermi più grandi. */
+
+:root {
+  --sfondo: #f7f6f2;
+  --superficie: #ffffff;
+  --testo: #1f2328;
+  --testo-tenue: #5c636b;
+  --bordo: #e2dfd7;
+  --accento: #a8661a;
+  --link: #1f5fa8;
+  --badge-sfondo: #efece4;
+  --ok: #2b7a4b;
+  --errore: #b03a2e;
+  --evidenzia: #fff1b8;
+  --ombra: 0 1px 2px rgba(0, 0, 0, .06);
+  --raggio: 10px;
+  --carattere: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --carattere-titoli: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --sfondo: #16181b;
+    --superficie: #1f2226;
+    --testo: #e8e6e1;
+    --testo-tenue: #a3a9b0;
+    --bordo: #33373d;
+    --accento: #e0a43a;
+    --link: #8cb8ec;
+    --badge-sfondo: #2b2f35;
+    --ok: #6cc391;
+    --errore: #f08b7f;
+    --evidenzia: #5a4a12;
+    --ombra: none;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --sfondo: #16181b;
+  --superficie: #1f2226;
+  --testo: #e8e6e1;
+  --testo-tenue: #a3a9b0;
+  --bordo: #33373d;
+  --accento: #e0a43a;
+  --link: #8cb8ec;
+  --badge-sfondo: #2b2f35;
+  --ok: #6cc391;
+  --errore: #f08b7f;
+  --evidenzia: #5a4a12;
+  --ombra: none;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--sfondo);
+  color: var(--testo);
+  font-family: var(--carattere);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a { color: var(--link); }
+
+.contenitore {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.salta {
+  position: absolute;
+  left: -999px;
+}
+.salta:focus { left: 16px; top: 8px; background: var(--superficie); padding: 8px; z-index: 10; }
+
+/* --- Testata e menu ------------------------------------------------------ */
+
+.testata {
+  background: var(--superficie);
+  border-bottom: 1px solid var(--bordo);
+}
+.testata > .contenitore { padding-top: 14px; padding-bottom: 6px; }
+
+.logo {
+  font-family: var(--carattere-titoli);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--testo);
+  text-decoration: none;
+  letter-spacing: -.01em;
+}
+.logo::after {
+  content: "";
+  display: inline-block;
+  width: .45em;
+  height: .45em;
+  margin-left: .12em;
+  background: var(--accento);
+  border-radius: 2px;
+}
+
+.motto {
+  margin: 2px 0 0;
+  color: var(--testo-tenue);
+  font-size: .9rem;
+}
+
+.menu { background: var(--superficie); }
+/* Sul telefono le voci vanno a capo, così sono tutte visibili. */
+.menu-voci {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 2px;
+  padding-bottom: 2px;
+}
+.menu-voci a {
+  flex: none;
+  padding: 8px 8px;
+  color: var(--testo-tenue);
+  text-decoration: none;
+  font-size: .95rem;
+  border-bottom: 3px solid transparent;
+}
+.menu-voci a[aria-current="page"] {
+  color: var(--testo);
+  font-weight: 600;
+  border-bottom-color: var(--accento);
+}
+
+/* --- Introduzione delle pagine ------------------------------------------ */
+
+main.contenitore { padding-top: 22px; padding-bottom: 40px; }
+
+h1 {
+  font-family: var(--carattere-titoli);
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin: 0 0 8px;
+}
+
+.intro p { margin: 0 0 10px; max-width: 68ch; }
+
+.nota {
+  font-size: .92rem;
+  color: var(--testo-tenue);
+  border-left: 3px solid var(--accento);
+  padding-left: 10px;
+}
+
+.vuoto { color: var(--testo-tenue); padding: 24px 0; }
+
+/* --- Legenda e pallini di categoria ------------------------------------- */
+
+.legenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+  font-size: .82rem;
+  color: var(--testo-tenue);
+}
+.legenda-colonna { flex-direction: column; font-size: .95rem; }
+.legenda li { display: flex; align-items: center; }
+
+.pallino {
+  display: inline-block;
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--colore, #888);
+  margin-right: 6px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: .72rem;
+  line-height: 1.3;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--badge-sfondo);
+  color: var(--testo-tenue);
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --- Filtri ---------------------------------------------------------------- */
+
+.filtri {
+  margin: 18px 0 8px;
+  background: var(--superficie);
+  border: 1px solid var(--bordo);
+  border-radius: var(--raggio);
+}
+.filtri summary {
+  cursor: pointer;
+  padding: 10px 14px;
+  font-weight: 600;
+}
+.filtri-campi {
+  display: grid;
+  gap: 10px;
+  padding: 0 14px 14px;
+}
+.filtri label {
+  display: grid;
+  gap: 4px;
+  font-size: .85rem;
+  color: var(--testo-tenue);
+}
+.filtri input, .filtri select, .filtri button {
+  font: inherit;
+  font-size: 16px; /* evita lo zoom automatico su iPhone */
+  padding: 8px 10px;
+  border: 1px solid var(--bordo);
+  border-radius: 8px;
+  background: var(--sfondo);
+  color: var(--testo);
+  width: 100%;
+}
+.filtri button { cursor: pointer; }
+.esito-filtri { font-size: .9rem; color: var(--testo-tenue); }
+
+/* --- Gruppi di notizie ----------------------------------------------------- */
+
+.gruppo {
+  margin: 22px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--bordo);
+}
+.gruppo-testa h2 {
+  font-family: var(--carattere-titoli);
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin: 0;
+}
+.riepilogo {
+  margin: 4px 0 10px;
+  font-size: .85rem;
+  color: var(--testo-tenue);
+}
+
+/* Sul telefono le card di un argomento scorrono di lato, una accanto all'altra. */
+.card-fila {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 8px;
+  margin: 0 -16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  scroll-padding-left: 16px;
+}
+.card-fila > .card {
+  flex: 0 0 82%;
+  max-width: 340px;
+  scroll-snap-align: start;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--superficie);
+  border: 1px solid var(--bordo);
+  border-radius: var(--raggio);
+  box-shadow: var(--ombra);
+  padding: 12px 14px;
+  min-width: 0;
+}
+.card[hidden], .gruppo[hidden] { display: none; }
+
+.card-fonte {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: .85rem;
+}
+.card-fonte .pallino { margin-right: 0; }
+.nome-fonte { font-weight: 700; }
+
+.card-titolo {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin: 0;
+}
+.card-titolo a { color: var(--testo); text-decoration: none; }
+.card-titolo a:hover { text-decoration: underline; }
+
+.estratto {
+  margin: 0;
+  font-size: .88rem;
+  color: var(--testo-tenue);
+}
+
+.card-piede {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: .82rem;
+  color: var(--testo-tenue);
+  padding-top: 4px;
+}
+.vai {
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 6px 0;
+}
+
+/* Notizie da una sola fonte: elenco compatto. */
+.singole summary { cursor: pointer; list-style-position: outside; }
+.singole summary h2 {
+  display: inline;
+  font-family: var(--carattere-titoli);
+  font-size: 1.15rem;
+}
+.conteggio { font-family: var(--carattere); font-size: .9rem; color: var(--testo-tenue); font-weight: 400; }
+.elenco-singole { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 8px; }
+.card-compatta { padding: 10px 12px; gap: 4px; }
+.card-compatta > a { color: var(--testo); text-decoration: none; font-weight: 600; line-height: 1.35; }
+.card-compatta .meta { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; font-size: .82rem; color: var(--testo-tenue); }
+.card-compatta .pallino { margin-right: 2px; }
+
+/* --- Pagina Fonti ---------------------------------------------------------- */
+
+.categoria-fonti h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  margin: 28px 0 10px;
+}
+.elenco-fonti { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.scheda-fonte {
+  background: var(--superficie);
+  border: 1px solid var(--bordo);
+  border-radius: var(--raggio);
+  padding: 12px 14px;
+}
+.scheda-fonte.sospesa { opacity: .6; }
+.scheda-testa { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.scheda-testa h3 { margin: 0; font-size: 1.05rem; }
+.scheda-fonte p { margin: 6px 0 0; font-size: .9rem; }
+.scheda-dettagli { color: var(--testo-tenue); }
+.scheda-link { display: flex; flex-wrap: wrap; gap: 4px 14px; overflow-wrap: anywhere; }
+.scheda-stato { font-size: .85rem !important; color: var(--testo-tenue); }
+.stato-ok { color: var(--ok); font-weight: 600; }
+.stato-errore { color: var(--errore); font-weight: 600; }
+
+/* --- Pagine di testo ------------------------------------------------------- */
+
+.testo { max-width: 68ch; }
+.testo h2 { font-family: var(--carattere-titoli); font-size: 1.3rem; margin: 28px 0 8px; }
+.testo li { margin-bottom: 6px; }
+.segnaposto {
+  background: var(--evidenzia);
+  color: inherit;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* --- Piè di pagina --------------------------------------------------------- */
+
+.piede {
+  border-top: 1px solid var(--bordo);
+  background: var(--superficie);
+  color: var(--testo-tenue);
+  font-size: .85rem;
+  padding: 16px 0 28px;
+}
+.piede p { margin: 4px 0; max-width: 72ch; }
+
+/* --- Schermi più grandi ------------------------------------------------------ */
+
+@media (min-width: 720px) {
+  h1 { font-size: 2.1rem; }
+  .menu { position: sticky; top: 0; z-index: 5; }
+  .menu-voci a { padding: 10px 10px; }
+  .filtri-campi { grid-template-columns: 2fr 1fr 1fr 1fr auto; align-items: end; }
+  .filtri button { width: auto; }
+  /* Su schermi larghi le card vanno a capo invece di scorrere. */
+  .card-fila {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+  }
+  .card-fila > .card { max-width: none; }
+  .elenco-fonti { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1000px) {
+  .elenco-fonti { grid-template-columns: repeat(3, 1fr); }
+}

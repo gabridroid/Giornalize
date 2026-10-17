@@ -1,0 +1,31 @@
+# Prova delle fonti: controlla quali feed funzionano e mostra un rapporto.
+# Si avvia a mano: scheda Actions -> "Prova le fonti" -> Run workflow.
+
+name: Prova le fonti
+
+on:
+  workflow_dispatch:
+    inputs:
+      fonti:
+        description: "Id delle fonti da provare, separati da spazi (vuoto = tutte)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  prova:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Prova i feed
+        env:
+          FONTI: ${{ github.event.inputs.fonti }}
+        run: python -m giornalize prova-fonti $FONTI

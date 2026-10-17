@@ -1,0 +1,92 @@
+# ============================================================================
+#  IMPOSTAZIONI DI GIORNALIZE
+# ============================================================================
+#  Qui si regolano le soglie e i comportamenti del sito.
+#  Dopo una modifica, il sito si ricostruisce da solo al successivo
+#  aggiornamento automatico (oppure subito, se il file viene modificato su
+#  GitHub: vedi README).
+# ============================================================================
+
+sito:
+  titolo: Giornalize
+  sottotitolo: Le notizie del giorno messe a confronto, fonte per fonte.
+  # Indirizzo pubblico del sito, quando sarà online (serve solo per i link
+  # di condivisione). Esempio: https://nomeutente.github.io/giornalize/
+  indirizzo: ""
+
+raccolta:
+  # Ogni quante ore si aggiorna il sito. È solo un'informazione mostrata
+  # nella pagina "Come funziona": l'orario vero si imposta nel file
+  # .github/workflows/aggiorna.yml (vedi README).
+  ogni_quante_ore: 3
+  # Quanto aspettare (in secondi) una fonte che non risponde.
+  timeout_secondi: 20
+  # Se tutti i feed di una fonte falliscono, provare a trovarne uno dal sito.
+  scoperta_automatica: true
+  # Per quanti giorni conservare le notizie raccolte.
+  giorni_archivio: 3
+  # Quante notizie al massimo leggere da ogni singolo feed.
+  max_notizie_per_feed: 80
+
+estratto:
+  # Lunghezza massima dell'estratto mostrato sotto il titolo.
+  max_caratteri: 200
+
+oggi:
+  # Finestra di tempo della pagina "Oggi" (in ore).
+  finestra_ore: 48
+  # Quante fonti diverse servono perché un argomento compaia come gruppo.
+  min_fonti_per_gruppo: 2
+  # Quante notizie "di una sola fonte" mostrare in fondo alla pagina.
+  max_notizie_singole: 120
+
+raggruppamento:
+  # Quanto devono assomigliarsi due notizie per finire nello stesso gruppo,
+  # da 0 (per niente) a 1 (identiche). Più alto = gruppi più piccoli e
+  # precisi; più basso = gruppi più grandi ma con più errori.
+  soglia_somiglianza: 0.25
+  # Quanto pesa il titolo rispetto all'estratto nel confronto.
+  peso_titolo: 2
+  # Quante parole chiave mostrare come nome dell'argomento.
+  parole_chiave: 4
+
+poco_coperte:
+  # Sezione "Quello che i grandi giornali non raccontano".
+  # Categorie che contano come "grandi giornali":
+  categorie_grandi:
+    - Agenzie e all-news
+    - Quotidiani nazionali
+  # Categorie che contano come fonti "indipendenti, di inchiesta o social":
+  categorie_alternative:
+    - Testate online e settimanali
+    - Inchiesta e fact-checking
+    - Divulgatori social
+  # Un argomento compare se ne parlano ALMENO questo numero di fonti
+  # alternative...
+  min_fonti_alternative: 2
+  # ...e AL MASSIMO questo numero di grandi giornali.
+  max_fonti_grandi: 1
+
+# Le categorie di fonti, con le parole usate nei conteggi
+# (es. "3 quotidiani · 2 testate online") e il colore del pallino.
+categorie:
+  - nome: Agenzie e all-news
+    singolare: agenzia o all-news
+    plurale: agenzie e all-news
+    colore: "#5b6b7f"
+  - nome: Quotidiani nazionali
+    singolare: quotidiano
+    plurale: quotidiani
+    colore: "#2f6fb0"
+  - nome: Testate online e settimanali
+    singolare: testata online
+    plurale: testate online
+    colore: "#2b8a6e"
+  - nome: Inchiesta e fact-checking
+    singolare: inchiesta/fact-checking
+    plurale: inchiesta/fact-checking
+    colore: "#b4532a"
+  - nome: Divulgatori social
+    singolare: divulgatore social
+    plurale: divulgatori social
+    colore: "#8a4fb0"

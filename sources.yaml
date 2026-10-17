@@ -1,0 +1,422 @@
+# ============================================================================
+#  FONTI DI GIORNALIZE
+# ============================================================================
+#
+#  Questo è l'unico file da modificare per aggiungere, togliere o correggere
+#  una fonte. Ogni fonte è un blocco che inizia con "- id:".
+#
+#  Campi di ogni fonte:
+#    id                  nome breve senza spazi né accenti, unico (es. "ilpost")
+#    nome                nome come appare sul sito
+#    categoria           una delle categorie definite in config.yaml
+#    tipo                descrizione breve (es. "Quotidiano")
+#    orientamento        etichetta di orientamento indicativa (testo completo)
+#    orientamento_breve  (facoltativo) versione corta mostrata nel badge
+#    sito                indirizzo del sito (o lasciare vuoto: "")
+#    instagram           account Instagram con la @ (o lasciare vuoto: "")
+#    instagram_da_verificare  true se l'account non è ancora stato controllato
+#    feed                elenco di indirizzi RSS/Atom da leggere
+#    sitemap             (facoltativo) elenco di "news sitemap" da leggere
+#                        se il sito non ha un feed RSS
+#    attiva              false per sospendere una fonte senza cancellarla
+#
+#  Se "feed" è vuoto o nessun feed risponde, il programma prova a trovarne
+#  uno da solo partendo dal "sito" e scrive nel registro (data/stato_fonti.json)
+#  quale indirizzo ha usato: conviene poi copiarlo qui.
+#
+#  ATTENZIONE agli spazi: YAML usa i rientri (2 spazi) per capire la struttura.
+#  Copiate un blocco esistente e cambiate solo i valori.
+#
+#  Gli indirizzi dei feed segnati "# da provare" sono stati cercati ma non
+#  ancora provati: vengono controllati automaticamente al primo avvio.
+# ============================================================================
+
+fonti:
+
+  # --------------------------------------------------------------------------
+  # Agenzie e all-news
+  # --------------------------------------------------------------------------
+  - id: ansa
+    nome: ANSA
+    categoria: Agenzie e all-news
+    tipo: Agenzia di stampa
+    orientamento: Non schierata
+    sito: https://www.ansa.it
+    instagram: "@ansa.it"
+    feed:
+      - https://www.ansa.it/sito/ansait_rss.xml
+      - https://www.ansa.it/sito/notizie/politica/politica_rss.xml
+      - https://www.ansa.it/sito/notizie/cronaca/cronaca_rss.xml
+    attiva: true
+
+  - id: rainews
+    nome: Rai News
+    categoria: Agenzie e all-news
+    tipo: Servizio pubblico
+    orientamento: Istituzionale
+    sito: https://www.rainews.it
+    instagram: "@rainews"
+    feed:
+      - https://www.rainews.it/rss/tutti
+      - https://www.rainews.it/rss/politica   # da provare
+    attiva: true
+
+  - id: skytg24
+    nome: Sky TG24
+    categoria: Agenzie e all-news
+    tipo: TV all-news privata
+    orientamento: Non schierata
+    sito: https://tg24.sky.it
+    instagram: "@skytg24"
+    feed:
+      - https://tg24.sky.it/rss/tg24.xml   # da provare
+    attiva: true
+
+  # --------------------------------------------------------------------------
+  # Quotidiani nazionali
+  # --------------------------------------------------------------------------
+  - id: corriere
+    nome: Corriere della Sera
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Moderato / centrista
+    orientamento_breve: Moderato
+    sito: https://www.corriere.it
+    instagram: "@corriere"
+    feed:
+      - https://xml2.corriereobjects.it/rss/homepage.xml
+      - https://xml2.corriereobjects.it/rss/politica.xml
+      - https://xml2.corriereobjects.it/rss/cronache.xml
+    attiva: true
+
+  - id: repubblica
+    nome: la Repubblica
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Centro-sinistra
+    sito: https://www.repubblica.it
+    instagram: "@larepubblica"
+    feed:
+      - https://www.repubblica.it/rss/homepage/rss2.0.xml
+      - https://www.repubblica.it/rss/politica/rss2.0.xml
+      - https://www.repubblica.it/rss/cronaca/rss2.0.xml
+    attiva: true
+
+  - id: lastampa
+    nome: La Stampa
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Centrista / centro-sinistra moderato
+    orientamento_breve: Centrista
+    sito: https://www.lastampa.it
+    instagram: "@lastampa"
+    feed:
+      - https://www.lastampa.it/rss/copertina.xml
+      - https://www.lastampa.it/rss/politica.xml   # da provare
+    attiva: true
+
+  - id: sole24ore
+    nome: Il Sole 24 Ore
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano economico
+    orientamento: Economico (editore Confindustria)
+    orientamento_breve: Economico
+    sito: https://www.ilsole24ore.com
+    instagram: "@ilsole_24ore"
+    instagram_da_verificare: true
+    feed:
+      - https://www.ilsole24ore.com/rss/italia.xml
+      - https://www.ilsole24ore.com/rss/economia.xml   # da provare
+    attiva: true
+
+  - id: ilfatto
+    nome: Il Fatto Quotidiano
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Anti-establishment, spesso vicino al M5S
+    orientamento_breve: Anti-establishment
+    sito: https://www.ilfattoquotidiano.it
+    instagram: "@ilfattoquotidiano"
+    feed:
+      - https://www.ilfattoquotidiano.it/feed/
+    attiva: true
+
+  - id: manifesto
+    nome: il manifesto
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Sinistra
+    sito: https://ilmanifesto.it
+    instagram: "@ilmanifesto"
+    feed:
+      - https://ilmanifesto.it/feed   # da provare
+    attiva: true
+
+  - id: domani
+    nome: Domani
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Progressista
+    sito: https://www.editorialedomani.it
+    instagram: "@domanigiornale"
+    instagram_da_verificare: true
+    feed:
+      - https://www.editorialedomani.it/rss   # da provare
+    attiva: true
+
+  - id: avvenire
+    nome: Avvenire
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Cattolico (editore legato alla CEI)
+    orientamento_breve: Cattolico
+    sito: https://www.avvenire.it
+    instagram: ""   # da cercare
+    feed:
+      - https://www.avvenire.it/rss   # da provare
+    attiva: true
+
+  - id: ilgiornale
+    nome: Il Giornale
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Centro-destra
+    sito: https://www.ilgiornale.it
+    instagram: "@ilgiornale"
+    feed:
+      - https://www.ilgiornale.it/feed.xml   # da provare
+    attiva: true
+
+  - id: libero
+    nome: Libero
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Destra
+    sito: https://www.liberoquotidiano.it
+    instagram: "@liberoquotidiano"
+    instagram_da_verificare: true
+    feed:
+      - https://www.liberoquotidiano.it/rss.xml   # da provare
+    attiva: true
+
+  - id: laverita
+    nome: La Verità
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Destra
+    sito: https://www.laverita.info
+    instagram: ""   # da cercare
+    feed:
+      - https://www.laverita.info/feeds/feed.rss   # da provare
+    attiva: true
+
+  - id: ilfoglio
+    nome: Il Foglio
+    categoria: Quotidiani nazionali
+    tipo: Quotidiano
+    orientamento: Liberal-conservatore
+    sito: https://www.ilfoglio.it
+    instagram: "@ilfoglio_it"
+    instagram_da_verificare: true
+    feed: []   # nessun indirizzo noto: viene cercato in automatico dal sito
+    attiva: true
+
+  # --------------------------------------------------------------------------
+  # Testate online e settimanali
+  # --------------------------------------------------------------------------
+  - id: ilpost
+    nome: Il Post
+    categoria: Testate online e settimanali
+    tipo: Testata online
+    orientamento: Non schierato, esplicativo
+    orientamento_breve: Non schierato
+    sito: https://www.ilpost.it
+    instagram: "@ilpost"
+    feed:
+      - https://www.ilpost.it/feed/
+    attiva: true
+
+  - id: fanpage
+    nome: Fanpage
+    categoria: Testate online e settimanali
+    tipo: Testata online
+    orientamento: Generalista
+    sito: https://www.fanpage.it
+    instagram: "@fanpage.it"
+    feed:
+      - https://www.fanpage.it/feed/
+    attiva: true
+
+  - id: linkiesta
+    nome: Linkiesta
+    categoria: Testate online e settimanali
+    tipo: Testata online
+    orientamento: Liberale, riformista, europeista
+    orientamento_breve: Liberale
+    sito: https://www.linkiesta.it
+    instagram: "@linkiesta"
+    feed:
+      - https://www.linkiesta.it/feed/
+    attiva: true
+
+  - id: open
+    nome: Open
+    categoria: Testate online e settimanali
+    tipo: Testata online
+    orientamento: Generalista (fondata da Enrico Mentana)
+    orientamento_breve: Generalista
+    sito: https://www.open.online
+    instagram: "@open_giornaleonline"
+    feed:
+      - https://www.open.online/feed/
+    attiva: true
+
+  - id: internazionale
+    nome: Internazionale
+    categoria: Testate online e settimanali
+    tipo: Settimanale
+    orientamento: Progressista
+    sito: https://www.internazionale.it
+    instagram: "@internazionale"
+    feed:
+      - https://www.internazionale.it/sitemaps/rss.xml   # da provare
+    attiva: true
+
+  - id: scomodo
+    nome: Scomodo
+    categoria: Testate online e settimanali
+    tipo: Mensile (carta + sito)
+    orientamento: Indipendente, punto di vista under 30
+    orientamento_breve: Indipendente
+    sito: https://www.scomodo.org
+    instagram: "@scomodo"
+    instagram_da_verificare: true
+    feed:
+      - https://www.scomodo.org/feed/   # da provare
+    attiva: true
+
+  # --------------------------------------------------------------------------
+  # Inchiesta e fact-checking
+  # --------------------------------------------------------------------------
+  - id: valigiablu
+    nome: Valigia Blu
+    categoria: Inchiesta e fact-checking
+    tipo: Testata indipendente
+    orientamento: Indipendente, verifica e critica dei media
+    orientamento_breve: Indipendente
+    sito: https://www.valigiablu.it
+    instagram: "@valigiablu"
+    instagram_da_verificare: true
+    feed:
+      - https://www.valigiablu.it/feed/
+    attiva: true
+
+  - id: irpimedia
+    nome: IrpiMedia
+    categoria: Inchiesta e fact-checking
+    tipo: Giornalismo d'inchiesta
+    orientamento: Indipendente, non profit
+    orientamento_breve: Indipendente
+    sito: https://irpimedia.irpi.eu
+    instagram: "@irpimedia"
+    instagram_da_verificare: true
+    feed:
+      - https://irpimedia.irpi.eu/feed/
+    attiva: true
+
+  - id: pagellapolitica
+    nome: Pagella Politica
+    categoria: Inchiesta e fact-checking
+    tipo: Fact-checking
+    orientamento: Non schierato
+    sito: https://pagellapolitica.it
+    instagram: "@pagellapolitica"
+    feed: []   # nessun indirizzo noto: viene cercato in automatico dal sito
+    attiva: true
+
+  - id: facta
+    nome: Facta
+    categoria: Inchiesta e fact-checking
+    tipo: Fact-checking
+    orientamento: Non schierato
+    sito: https://facta.news
+    instagram: "@facta.news"
+    instagram_da_verificare: true
+    feed:
+      - https://facta.news/feed   # da provare
+    attiva: true
+
+  # --------------------------------------------------------------------------
+  # Divulgatori social
+  # Will, Factanza, Torcha e progressista.io pubblicano quasi solo su
+  # Instagram: le loro notizie arriveranno con la Fase 2 (inserimento
+  # manuale e, se possibile, API ufficiale di Instagram).
+  # --------------------------------------------------------------------------
+  - id: will
+    nome: Will
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: Esplicativo, dichiaratamente non polarizzato
+    orientamento_breve: Esplicativo
+    sito: https://www.willmedia.it
+    instagram: "@will_ita"
+    feed: []   # solo Instagram: Fase 2
+    attiva: true
+
+  - id: factanza
+    nome: Factanza
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: Esplicativo, dichiaratamente apolitico
+    orientamento_breve: Esplicativo
+    sito: ""
+    instagram: "@factanza"
+    feed: []   # solo Instagram: Fase 2
+    attiva: true
+
+  - id: torcha
+    nome: Torcha
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: Esplicativo (politica ed economia)
+    orientamento_breve: Esplicativo
+    sito: ""
+    instagram: "@torcha"
+    feed: []   # solo Instagram: Fase 2
+    attiva: true
+
+  - id: progressista
+    nome: progressista.io
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: Progressista (dichiarato)
+    orientamento_breve: Progressista
+    sito: ""
+    instagram: "@progressista.io"
+    feed: []   # solo Instagram: Fase 2
+    attiva: true
+
+  - id: nicolaporro
+    nome: Nicola Porro
+    categoria: Divulgatori social
+    tipo: Giornalista / rassegna stampa
+    orientamento: Liberal-conservatore
+    sito: https://www.nicolaporro.it
+    instagram: "@nicolaporro"
+    instagram_da_verificare: true
+    feed:
+      - https://www.nicolaporro.it/feed/
+    attiva: true
+
+  - id: breakingitaly
+    nome: Breaking Italy
+    categoria: Divulgatori social
+    tipo: Divulgazione (YouTube)
+    orientamento: Indipendente, commento
+    orientamento_breve: Indipendente
+    sito: https://www.youtube.com/@breakingitaly
+    instagram: ""   # da cercare
+    feed:
+      # Feed RSS ufficiale che YouTube offre per ogni canale.
+      - https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg   # da provare
+    attiva: true

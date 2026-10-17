@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% from "_componenti.html" import gruppo, filtri, legenda with context %}
+{% set pc = cfg.poco_coperte %}
+{% block titolo %}{{ sito.titolo }} · Quello che i grandi giornali non raccontano{% endblock %}
+
+{% block contenuto %}
+<div class="intro">
+  <h1>Quello che i grandi giornali non raccontano</h1>
+  <p>Argomenti di cui, nelle ultime {{ cfg.oggi.finestra_ore }} ore, hanno parlato almeno
+    {{ pc.min_fonti_alternative }} fonti tra {{ pc.categorie_alternative|join(', ')|lower }},
+    e al massimo {{ pc.max_fonti_grandi }} tra {{ pc.categorie_grandi|join(' e ')|lower }}.</p>
+  <p class="nota">Questa sezione si limita a <strong>contare</strong> quante fonti ne parlano. Non
+    dice perché un argomento è poco coperto: può essere una notizia locale, non ancora verificata,
+    considerata poco rilevante, oppure trascurata. Leggi le fonti e giudica tu.
+    <a href="come-funziona.html#poco-coperte">Come funziona</a>.</p>
+  {{ legenda() }}
+</div>
+
+{{ filtri() }}
+
+{% if gruppi %}
+  {% for g in gruppi %}{{ gruppo(g) }}{% endfor %}
+{% else %}
+  <p class="vuoto">In questo momento nessun argomento rientra nei criteri.</p>
+{% endif %}
+{% endblock %}
+
+{% block script %}<script src="static/filtri.js" defer></script>{% endblock %}

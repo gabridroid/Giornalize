@@ -1,0 +1,7 @@
+# Sito generato (viene ricostruito ad ogni aggiornamento)
+site/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*.tmp
+.venv/

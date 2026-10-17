@@ -1,0 +1,8 @@
+# Librerie Python usate da Giornalize (installate in automatico da GitHub).
+feedparser==6.0.14
+requests==2.34.2
+PyYAML==6.0.3
+Jinja2==3.1.6
+Markdown==3.11.1
+tzdata==2026.5
+pytest==9.1.1

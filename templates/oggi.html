@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% from "_componenti.html" import gruppo, card, filtri, legenda with context %}
+{% block titolo %}{{ sito.titolo }} · Oggi{% endblock %}
+
+{% block contenuto %}
+<div class="intro">
+  <h1>Oggi</h1>
+  <p>Le notizie delle ultime {{ cfg.oggi.finestra_ore }} ore, raggruppate per argomento: per ogni
+    argomento vedi quali fonti ne parlano e come lo raccontano. Ogni titolo porta all'originale.</p>
+  {{ legenda() }}
+</div>
+
+{{ filtri() }}
+
+{% if gruppi %}
+  {% for g in gruppi %}{{ gruppo(g) }}{% endfor %}
+{% else %}
+  <p class="vuoto">Al momento non ci sono argomenti di cui parlano almeno {{ cfg.oggi.min_fonti_per_gruppo }} fonti.
+    Il sito si aggiorna da solo: riprova tra qualche ora.</p>
+{% endif %}
+
+{% if singole %}
+<section class="singole gruppo">
+  <details>
+    <summary><h2>Altre notizie, da una sola fonte <span class="conteggio">({{ singole|length }})</span></h2></summary>
+    <ul class="elenco-singole">
+      {% for n in singole %}
+      {% set f = fonti[n.fonte] %}
+      <li class="card card-compatta" data-fonte="{{ f.id }}" data-categoria="{{ f.categoria }}" data-orientamento="{{ f.badge }}" data-titolo="{{ n.titolo|lower }}">
+        <a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.titolo }}</a>
+        <span class="meta"><span class="pallino" style="--colore: {{ colori[f.categoria] }}"></span>{{ f.nome }}
+          {% if f.badge %}<span class="badge">{{ f.badge }}</span>{% endif %}
+          · <time datetime="{{ n.pubblicato }}">{{ n.pubblicato|data_breve }}</time></span>
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block script %}<script src="static/filtri.js" defer></script>{% endblock %}

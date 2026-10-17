@@ -1,0 +1,69 @@
+{# Pezzi riutilizzati in più pagine: la card di una notizia, un gruppo, i filtri. #}
+
+{% macro card(n) %}
+{% set f = fonti[n.fonte] %}
+<article class="card" data-fonte="{{ f.id }}" data-categoria="{{ f.categoria }}" data-orientamento="{{ f.badge }}" data-titolo="{{ n.titolo|lower }}">
+  <div class="card-fonte">
+    <span class="pallino" style="--colore: {{ colori[f.categoria] }}" title="{{ f.categoria }}"></span>
+    <span class="nome-fonte">{{ f.nome }}</span>
+    {% if f.badge %}<span class="badge" title="Orientamento indicativo: {{ f.orientamento }}">{{ f.badge }}</span>{% endif %}
+  </div>
+  <h3 class="card-titolo"><a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.titolo }}</a></h3>
+  {% if n.estratto %}<p class="estratto">{{ n.estratto }}</p>{% endif %}
+  <div class="card-piede">
+    <time datetime="{{ n.pubblicato }}">{{ n.pubblicato|data_breve }}</time>
+    <a class="vai" href="{{ n.link }}" target="_blank" rel="noopener">Vai alla fonte <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+{% endmacro %}
+
+{% macro gruppo(g) %}
+<section class="gruppo" id="g-{{ g.id }}">
+  <header class="gruppo-testa">
+    <h2>{{ g.parole_chiave|join(' · ')|iniziale_maiuscola if g.parole_chiave else 'Argomento' }}</h2>
+    <p class="riepilogo">{{ riepilogo(g) }}</p>
+  </header>
+  <div class="card-fila">
+    {% for n in ordina(g.notizie) %}{{ card(n) }}{% endfor %}
+  </div>
+</section>
+{% endmacro %}
+
+{% macro filtri() %}
+<details class="filtri" id="filtri">
+  <summary>Filtra e cerca</summary>
+  <div class="filtri-campi">
+    <label>Cerca nei titoli
+      <input type="search" id="f-testo" placeholder="es. sanità, scuola, pensioni" autocomplete="off">
+    </label>
+    <label>Categoria di fonte
+      <select id="f-categoria">
+        <option value="">Tutte</option>
+        {% for c in categorie %}<option>{{ c.nome }}</option>{% endfor %}
+      </select>
+    </label>
+    <label>Orientamento
+      <select id="f-orientamento">
+        <option value="">Tutti</option>
+        {% for o in orientamenti %}<option>{{ o }}</option>{% endfor %}
+      </select>
+    </label>
+    <label>Fonte
+      <select id="f-fonte">
+        <option value="">Tutte</option>
+        {% for f in fonti_attive %}<option value="{{ f.id }}">{{ f.nome }}</option>{% endfor %}
+      </select>
+    </label>
+    <button type="button" id="f-azzera">Azzera filtri</button>
+  </div>
+</details>
+<p class="esito-filtri" id="esito-filtri" aria-live="polite" hidden></p>
+{% endmacro %}
+
+{% macro legenda() %}
+<ul class="legenda" aria-label="Categorie di fonti">
+  {% for c in categorie %}
+  <li><span class="pallino" style="--colore: {{ c.colore }}"></span>{{ c.nome }}</li>
+  {% endfor %}
+</ul>
+{% endmacro %}

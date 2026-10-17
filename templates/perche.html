@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block titolo %}{{ sito.titolo }} · Perché esiste questo sito{% endblock %}
+
+{% block contenuto %}
+<article class="testo">
+  <h1>Perché esiste questo sito</h1>
+  <p class="nota">Questa pagina contiene un'opinione personale di chi ha creato {{ sito.titolo }}.
+    La raccolta e il raggruppamento delle notizie sono automatici e seguono solo le regole
+    descritte in <a href="come-funziona.html">Come funziona</a>.</p>
+  {{ testo|safe }}
+</article>
+{% endblock %}
