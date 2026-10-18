@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T13:27:31Z",
+ "aggiornato": "2026-10-18T13:28:59Z",
  "notizie": [
   {
    "id": "2dd517df02b8d589",
@@ -40,6 +40,16 @@
    "pubblicato": "2026-10-18T13:47:00Z",
    "raccolto": "2026-10-18T13:07:59Z",
    "canale": "rss"
+  },
+  {
+   "id": "c318e7852403a950",
+   "fonte": "actamedia",
+   "titolo": "❗️Parigi, 17 ottobre 2026 (corteo pomeridiano) ➡️ Segui _actamedia per non perdere i prossimi contenuti!",
+   "estratto": "Una giornata che ha visto diffondersi in tutta la Francia innumerevoli focolai di rivolta. Di rabbia? Certo, ma anche di inarrestabile vita, forza, sogni. A Parigi, in un corteo composto da…",
+   "link": "https://www.instagram.com/reel/DeowlqqIpQc/",
+   "pubblicato": "2026-10-18T13:27:47Z",
+   "raccolto": "2026-10-18T13:28:59Z",
+   "canale": "instagram"
   },
   {
    "id": "8cc01605b692e43a",
@@ -912,6 +922,26 @@
    "canale": "rss"
   },
   {
+   "id": "9ff2e5cffd21e10a",
+   "fonte": "libero",
+   "titolo": "A Washington la quarta edizione degli Italpress Awards",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/pillole/49400319/a_washington_la_quarta_edizione_degli_italpress_awards/",
+   "pubblicato": "2026-10-18T11:20:02Z",
+   "raccolto": "2026-10-18T13:28:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bb7c9c493e136a7a",
+   "fonte": "libero",
+   "titolo": "Schlein all'Assemblea Pd, vergogna contro Meloni: \"Come usano i violenti\"",
+   "estratto": "\"Non c'entriamo niente con i delinquenti\" visti nelle manifestazioni di questi giorni, \"li abbiamo sempre condannati, ma non possono usare i violenti per coprire la voce di migliaia di persone che…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49400312/elly-schlein-assemblea-pd-attacco-vergognoso-contro-meloni-come-usano-violenti/",
+   "pubblicato": "2026-10-18T11:20:00Z",
+   "raccolto": "2026-10-18T13:28:59Z",
+   "canale": "rss"
+  },
+  {
    "id": "aff55c71e524d47e",
    "fonte": "domani",
    "titolo": "Schlein rivendica l’unità del campo largo: «Allarghiamo l’alleanza e vinceremo»",
@@ -949,6 +979,16 @@
    "link": "https://www.ilpost.it/2026/10/18/movimento-stop-data-center-italia/",
    "pubblicato": "2026-10-18T11:13:04Z",
    "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
+   "id": "86d9f750c7bc92a7",
+   "fonte": "libero",
+   "titolo": "Betrayed - Tradita, il meglio del cinema Usa anni 80",
+   "estratto": "BETRAYED TRADITA La 7 cinema ore 23.20 Con Debra Winger, Tom Berenger e Eric Bogosian. Regia di Costa Gavras. Produzione USA 1988. Durata: 2 ore LA TRAMA Un'agente dell'FBI viene mandata in una…",
+   "link": "https://www.liberoquotidiano.it/articolo_blog/blog/giorgio-carbone/49391839/betrayed_tradita_meglio_cinema_usa_anni_80/",
+   "pubblicato": "2026-10-18T11:13:00Z",
+   "raccolto": "2026-10-18T13:28:59Z",
    "canale": "rss"
   },
   {
