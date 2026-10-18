@@ -1,5 +1,5 @@
 {
- "quando": "2026-10-18T13:25:39Z",
+ "quando": "2026-10-18T13:28:02Z",
  "token_presente": true,
  "account_id_presente": true,
  "codice": {
@@ -62,5 +62,43 @@
    "id": "17841400039600391"
   },
   "id": "17841419022062442"
+ },
+ "verifica_account": {
+  "ansa.it": "Invalid user id",
+  "rainews": "Invalid user id",
+  "skytg24": "ok",
+  "corriere": "ok",
+  "larepubblica": "ok",
+  "lastampa": "Invalid user id",
+  "ilsole_24ore": "ok",
+  "ilfattoquotidiano": "Invalid user id",
+  "ilmanifesto": "ok",
+  "domanigiornale": "Invalid user id",
+  "ilgiornale": "Invalid user id",
+  "liberoquotidiano": "ok",
+  "ilfoglio_it": "Invalid user id",
+  "ilpost": "Invalid user id",
+  "fanpage.it": "ok",
+  "linkiesta": "Invalid user id",
+  "open_giornaleonline": "ok",
+  "internazionale": "ok",
+  "valigiablu": "Invalid user id",
+  "irpimedia": "ok",
+  "pagellapolitica": "ok",
+  "facta.news": "ok",
+  "will_ita": "ok",
+  "factanza": "ok",
+  "torcha": "ok",
+  "progressista.io": "ok",
+  "nicolaporro": "ok",
+  "scomodo": "ok",
+  "vdnews": "ok",
+  "ispionline": "Invalid user id",
+  "theperiodoff": "ok",
+  "cnc_media": "ok",
+  "nxwss": "ok",
+  "chronocol.media": "ok",
+  "_actamedia": "ok",
+  "generazione": "ok"
  }
 }
