@@ -98,3 +98,6 @@
 2026-10-18 13:10:44 WARNING giornalize.raccolta: actamedia: errore con instagram @_actamedia: Instagram API: (#10) Application does not have permission for this action
 2026-10-18 13:10:44 WARNING giornalize.raccolta: generazione: errore con instagram @generazione: Instagram API: (#10) Application does not have permission for this action
 2026-10-18 13:10:48 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, will, factanza, torcha, progressista, scomodo, theperiod, cncmedia, nxwss, chronocol, actamedia, generazione
+2026-10-18 13:26:23 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-18 13:26:25 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-18 13:26:33 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo
