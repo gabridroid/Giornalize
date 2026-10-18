@@ -1,6 +1,1016 @@
 {
- "aggiornato": "2026-10-18T15:54:51Z",
+ "aggiornato": "2026-10-18T20:48:44Z",
  "notizie": [
+  {
+   "id": "bb28f70055646fd5",
+   "fonte": "skytg24",
+   "titolo": "Cindy Crawford ricorda il figlio Presley: \"Ti ameremo per sempre\"",
+   "estratto": "A quasi un mese dalla morte del 27enne, la famiglia rompe il silenzio con un messaggio carico di dolore e affetto. La madre, il padre Rande Gerber e la sorella Kaia condividono un omaggio sui…",
+   "link": "https://tg24.sky.it/spettacolo/2026/10/18/cindy-crawford-figlio-presley",
+   "pubblicato": "2026-10-18T21:31:47Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "11463132a2387b1e",
+   "fonte": "skytg24",
+   "titolo": "Vasco Rossi: \"Sono caduto in bici e ho rotto i legamenti della spalla\"",
+   "estratto": "\"Un dolore da svenire ma facevo finta di niente. Mi hanno consigliato un altro intervento\", ha scritto il rocker sui suoi profili social",
+   "link": "https://tg24.sky.it/spettacolo/musica/2026/10/18/vasco-rossi-caduta-bicicletta",
+   "pubblicato": "2026-10-18T21:15:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1469e74fcaa47f27",
+   "fonte": "rainews",
+   "titolo": "Serie A. Juventus-Lazio 0-3: i biancocelesti riagganciano l’Inter in vetta alla classifica",
+   "estratto": "Il Milan rischia ma vince 3-2 con l'Atalanta. Il Como vince in casa della Fiorentina 3-1. Crisi Udinese: sconfitta in casa anche dal Lecce. Segui la cronaca testuale",
+   "link": "https://www.rainews.it/maratona/2026/10/maratona-2026-10-calcio-serie-a-giornata-7-venezia-napoli-bologna-inter-roma-genoa-risultati-cronaca-aggiornamenti-diretta-highlights-sintesi-video-6c149848-caf5-42a5-8da6-f0773c193379.html",
+   "pubblicato": "2026-10-18T20:43:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bbd5be8eff7feb18",
+   "fonte": "ansa",
+   "titolo": "Serie A, Juventus-Lazio 0-3",
+   "estratto": "Si è giocata la settima giornata di campionato",
+   "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/18/serie-a-juventus-lazio-0-3_02c6a963-1886-4a93-92ec-be0857426a7b.html",
+   "pubblicato": "2026-10-18T20:37:18Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cdbb9dcde25876b6",
+   "fonte": "skytg24",
+   "titolo": "I titoli di Sky TG24 del 18 ottobre, edizione delle 19",
+   "estratto": "",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/i-titoli-di-sky-tg24-del-18-ottobre-edizione-delle-19-1132726",
+   "pubblicato": "2026-10-18T20:37:04Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "44bfb8b8b259034c",
+   "fonte": "ansa",
+   "titolo": "A Milano ancora scontri, Meloni convoca il vertice sulla sicurezza",
+   "estratto": "Neanche il tempo di contare i danni che nel centro della città è tornata la guerriglia urbana. Scontro Sala-Piantedosi sugli agenti. Sono oltre 200 i fermati, l'80% minorenni",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/a-milano-ancora-scontri-meloni-convoca-il-vertice-sulla-sicurezza_7945d5b5-a8b2-4eed-96ae-375261367822.html",
+   "pubblicato": "2026-10-18T20:34:06Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6a1e6c600ab8273e",
+   "fonte": "rainews",
+   "titolo": "Francia, scontri e proteste nelle città. Macron: \"Rabbia e vergogna, chi ha distrutto dovrà pagare\"",
+   "estratto": "\"Saremo intransigenti, anche divieto di assembramenti\" ha detto il presidente francese. Forti tensioni sociali e caro vita all'origine delle manifestazioni. Il ministero dell'Interno: \"Quasi 1000…",
+   "link": "https://www.rainews.it/maratona/2026/10/francia-ancora-tensioni-nelle-citta-scontri-tra-manifestanti-e-forze-dellordine-a151916e-529a-4834-ad39-e3080a6ac984.html",
+   "pubblicato": "2026-10-18T20:34:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f2003d08290742f1",
+   "fonte": "ansa",
+   "titolo": "Il poliziotto ferito al lavoro: 'Dobbiamo garantire la sicurezza'",
+   "estratto": "Angelo de Simone colpito da un sampietrino negli scontri a Milano, da anni in prima linea",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/il-poliziotto-ferito-al-lavoro-dobbiamo-garantire-la-sicurezza_870b61b1-18e9-4159-b7bf-fe9c6414bc06.html",
+   "pubblicato": "2026-10-18T20:33:31Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "65c4b35b9fc56ddc",
+   "fonte": "skytg24",
+   "titolo": "Serie A, Milan-Atalanta 3-2: gol e highlights",
+   "estratto": "",
+   "link": "https://tg24.sky.it/sport/video/2026/10/18/serie-a-milan-atalanta-3-2-gol-e-highlights-1132724",
+   "pubblicato": "2026-10-18T20:27:11Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "49b3d5ada7439a67",
+   "fonte": "skytg24",
+   "titolo": "Nord Sud Ovest Est, Sydney Sibilia e gli attori della serie su 883 per Alice nella Città",
+   "estratto": "Al Teatro Sistina, nell’ambito di Alice nella città, il festival dedicato al cinema e alle nuove generazioni che si svolge in parallelo alla Festa del Cinema di Roma, Sydney Sibilia, Elia Nuzzolo e…",
+   "link": "https://tg24.sky.it/spettacolo/serie-tv/2026/10/18/nord-sud-ovest-est-883-alice-nella-citta-festa-cinema-roma",
+   "pubblicato": "2026-10-18T20:16:31Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7c0281f5d0976411",
+   "fonte": "skytg24",
+   "titolo": "Festa Cinema Roma, La mia famiglia quasi perfetta con Garrel",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/cinema/video/2026/10/18/festa-cinema-roma-la-mia-famiglia-quasi-perfetta-garrel-1132664",
+   "pubblicato": "2026-10-18T20:11:48Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c4700149735bbadd",
+   "fonte": "skytg24",
+   "titolo": "Festa Cinema Roma, Noi un po' meglio di Luchetti",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/cinema/video/2026/10/18/festa-cinema-roma-noi-un-po-meglio-di-luchetti-1132693",
+   "pubblicato": "2026-10-18T20:11:36Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b83a54e3820e50ca",
+   "fonte": "skytg24",
+   "titolo": "Nord Sud Ovest Est alla Festa del Cinema di Roma",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/serie-tv/video/2026/10/18/nord-sud-ovest-est-festa-cinema-roma-883-1132714",
+   "pubblicato": "2026-10-18T20:11:34Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e7b1aa8f9a1c2878",
+   "fonte": "rainews",
+   "titolo": "Addio a Christiana Ruggeri, giornalista del Tg2 e scrittrice",
+   "estratto": "Professionista della Rai dal 2000, era alla guida della redazione Scienze dal maggio 2025. Nel corso della carriera ha firmato reportage internazionali, libri e iniziative dedicate all'ambiente e…",
+   "link": "https://www.rainews.it/articoli/2026/10/addio-a-christiana-ruggeri-giornalista-del-tg2-e-scrittrice-60750d15-9ff6-493c-b752-eb7edd270856.html",
+   "pubblicato": "2026-10-18T20:10:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "51ba851170e008c1",
+   "fonte": "skytg24",
+   "titolo": "Scontri a Milano, Fabio Vitale: \"Serve capire cosa muove questi ragazzi\"",
+   "estratto": "L'intervento del direttore di Sky TG24 Fabio Vitale sugli scontri di Milano e i nuovi disordini nel centro della città con decine di vetrine di negozi sfondate e numerosi saccheggiamenti.",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/scontri-milano-vitale-ragazzi-1132715",
+   "pubblicato": "2026-10-18T20:01:32Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e0162c443121c5bd",
+   "fonte": "laverita",
+   "titolo": "Detroit vale la visita. La città americana che si è reinventata il proprio futuro",
+   "estratto": "Dopo il fallimento finanziario del 2013, sulle tracce della nuova anima della «Motor city» tra arte, architettura e tanta storia",
+   "link": "https://www.laverita.info/turismo-e-viaggi/turismo-detroit",
+   "pubblicato": "2026-10-18T20:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5a54612a46fcefaa",
+   "fonte": "skytg24",
+   "titolo": "Scontri a Milano, Fabio Vitale: \"Dietro mini blitz potrebbe esserci regia\"",
+   "estratto": "L'intervento del direttore di Sky TG24 Fabio Vitale sugli scontri di Milano e i nuovi disordini nel centro della città con decine di vetrine di negozi sfondate e numerosi saccheggiamenti.",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/scontri-milano-vitale-regia-blitz-1132713",
+   "pubblicato": "2026-10-18T19:58:32Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "16567e5f581b96b9",
+   "fonte": "skytg24",
+   "titolo": "Papa recita l'Angelus: \"Riprendo gradualmente il mio lavoro\"",
+   "estratto": "\"Quest'esperienza - ha detto durante l'Angelus il Pontefice parlando dell'intervento che subito al polmone - mi ha fatto provare in modo particolare la vicinanza a quanti attraversano la malattia e…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/papa-recita-langelus-riprendo-gradualmente-il-mio-lavoro-1132703",
+   "pubblicato": "2026-10-18T19:56:43Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f42a3330c6dfab3f",
+   "fonte": "repubblica",
+   "titolo": "Lo show di Fiorello nello studio del Tg1: “Siamo come il campo largo”",
+   "estratto": "Il mini varietà nello studio del telegiornale per una “Edizione più che straordinaria” con Fabrizio Biggio TonyPitony e Annalisa per lanciare la nuova edizione della Pennicanza",
+   "link": "https://www.repubblica.it/spettacoli/tv-radio/2026/10/18/news/lo_show_di_fiorello_nello_studio_del_tg1_edizione_piu_che_straordinaria-425657078/",
+   "pubblicato": "2026-10-18T19:56:24Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8825df19bb464753",
+   "fonte": "ansa",
+   "titolo": "Fiorello torna su Rai1 con 'Tg1 edizione più che straordinaria': \"Una luce anche sulle proteste al Sud\"",
+   "estratto": "Annalisa, D'Alessio e TonyPitony nel mini varietà. La Pennicanza in terza serata su Rai1",
+   "link": "https://www.ansa.it/sito/notizie/cultura/2026/10/18/fiorello-torna-su-rai1-con-tg1-edizione-piu-che-straordinaria_9590baf9-3992-412d-8240-c474a17d986d.html",
+   "pubblicato": "2026-10-18T19:54:37Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8ba63b205a493f0a",
+   "fonte": "repubblica",
+   "titolo": "Schlein si candida a premier: “Pronta con o senza primarie”",
+   "estratto": "La segretaria incassa la proroga del mandato all’assemblea nazionale ma chiude la competizione ai gazebo per gli altri dem. E la minoranza si astiene: “Una forzatura”",
+   "link": "https://www.repubblica.it/politica/2026/10/18/news/elly_schlein_assemblea_pd_premier_primarie-425657073/",
+   "pubblicato": "2026-10-18T19:53:20Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "80ca0d3eda649e65",
+   "fonte": "open",
+   "titolo": "Fiorello torna su Rai 1 e trasforma lo studio del Tg in un varietà. Poi l’appello: «Accendete una luce sul Sud che protesta senza spaccare niente» – Il video",
+   "estratto": "Lo showman torna in prima serata su Rai 1 con \"Tg1 edizione più che straordinaria\". E lancia a sorpresa uno scoop: in arrivo un brano inedito di Mina",
+   "link": "https://www.open.online/2026/10/18/fiorello-ritorno-rai1-tg1-edizione-straordinaria-appello-sud-mina/",
+   "pubblicato": "2026-10-18T19:51:02Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6b854d108649002c",
+   "fonte": "repubblica",
+   "titolo": "Guerriglia a Milano, due giorni di razzie e violenze: 270 fermati, oltre cento i feriti",
+   "estratto": "La telefonata del ministro Piantedosi con il questore Megale. Altissima la quota di minori anche non imputabili",
+   "link": "https://milano.repubblica.it/cronaca/2026/10/18/news/guerriglia_milano_bilancio_fermati_feriti-425657062/",
+   "pubblicato": "2026-10-18T19:50:05Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cec1534b4a94899e",
+   "fonte": "ansa",
+   "titolo": "Sollecito, volontà precisa di ignorare l'ingiustizia nei miei confronti",
+   "estratto": "'Ho pagato io, non chi ha fatto gli errori' sottolinea parlando del processo di Perugia",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/sollecito-volonta-precisa-di-ignorare-lingiustizia-nei-miei-confronti_7e440022-47c6-4ed4-bbef-372c86a4961b.html",
+   "pubblicato": "2026-10-18T19:47:42Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f0e51a24efe72ab7",
+   "fonte": "domani",
+   "titolo": "Le parole e le pratiche che tradiscono l’inclusione a scuola",
+   "estratto": "Il linguaggio che continuiamo a usare quando parliamo di scuola e il lavoro che facciamo ogni giorno dicono di un’inclusione monca, incompiuta, fraintesa, ancora sostanzialmente concepita come…",
+   "link": "https://www.editorialedomani.it/fatti/inclusione-scuola-disabilita-sostegno-parole-documenti-pai-pratiche-jgnl1isi",
+   "pubblicato": "2026-10-18T19:45:55Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "23fc111d2e7c8adf",
+   "fonte": "ansa",
+   "titolo": "Macron: 'Rabbia e vergogna, chi ha distrutto deve pagare'",
+   "estratto": "'Potremmo vietare alcuni raduni'. Nuovi scontri a Parigi e Lione, è bufera politica",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/macron-denuncia-il-caos-in-francia-rabbia-e-vergogna_2aeef560-dded-49f0-b82b-97ffd9004684.html",
+   "pubblicato": "2026-10-18T19:36:37Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "41b1fc8ea1159e8e",
+   "fonte": "ansa",
+   "titolo": "Piantedosi vede vertici polizia e questore Milano, fermati oltre 200 violenti",
+   "estratto": "Autoconvocatisi improvvisamente e spontaneamente via social",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/piantedosi-vede-vertici-polizia-e-questore-milano-fermati-oltre-200-violenti_db824242-c4cf-454d-8a30-92d00b06fa93.html",
+   "pubblicato": "2026-10-18T19:36:34Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "31d706fcd6ec6f6d",
+   "fonte": "ilpost",
+   "titolo": "Emmanuel Macron ha detto che in Francia potrebbero essere vietate «alcune manifestazioni» per proteggere le città dalla violenza",
+   "estratto": "",
+   "link": "https://www.ilpost.it/2026/10/18/macron-discorso-violenza/",
+   "pubblicato": "2026-10-18T19:32:08Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f07f4965a04f1e46",
+   "fonte": "skytg24",
+   "titolo": "Odissea, Carl Brave: uno dei miei brani più importanti",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/video/2026/10/18/odissea-carl-brave-uno-dei-miei-brani-piu-importanti-1132087",
+   "pubblicato": "2026-10-18T19:31:48Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "771ccf1889febfac",
+   "fonte": "skytg24",
+   "titolo": "Scontri Milano, saccheggiati negozi vicini a Cordusio",
+   "estratto": "Nel centro di Milano continuano i disordini e i danneggiamenti. In via Orefici, nei pressi di piazza Cordusio e piazza Duomo, alcuni manifestanti hanno sfondato le vetrine dei negozi Under Armour e…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/milano-negozi-scontri-1132706",
+   "pubblicato": "2026-10-18T19:31:26Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cdb3cf9fe998907a",
+   "fonte": "ilfatto",
+   "titolo": "Il weekend di guerriglia dei giovanissimi a Milano spiazza il governo dei decreti Sicurezza, Meloni convoca una riunione d’urgenza sull’ordine pubblico",
+   "estratto": "Giovani, anzi giovanissimi. Minorenni ma in molti casi anche ragazzini sotto i 14 anni. L’ordine pubblico a Milano torna sotto scacco. Sabato era stato utilizzato il “pretesto” della manifestazione…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/guerriglia-milano-meloni-ordine-pubblico-notizie/8542585/",
+   "pubblicato": "2026-10-18T19:27:21Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "50ea2d5712821a1c",
+   "fonte": "ilgiornale",
+   "titolo": "Francia nel caos, Macron condanna le violenze: “Chi devasta e saccheggia sarà punito”",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/politica-estera/francia-nel-caos-macron-condanna-le-violenze-chi-devasta-e-saccheggia-sara-punito/",
+   "pubblicato": "2026-10-18T19:12:19Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "257f7540c0f1aad8",
+   "fonte": "repubblica",
+   "titolo": "Lo schiaffo di Zelensky a Trump: raid sul diesel di San Pietroburgo",
+   "estratto": "La città di Putin colpita duramente dai droni ucraini. In fiamme il terminal che deve rifornire di carburante gli Usa",
+   "link": "https://www.repubblica.it/esteri/2026/10/19/news/schiaffo_zelensky_trump_raid_diesel_san_pietroburgo-425656953/",
+   "pubblicato": "2026-10-18T19:10:45Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ad1f14eaec071d1b",
+   "fonte": "ilgiornale",
+   "titolo": "Milano interrompe il digiuno: prima vittoria casalinga",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/altri-sport/milano-interrompe-il-digiuno-prima-vittoria-casalinga/",
+   "pubblicato": "2026-10-18T19:09:54Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "0483e7af427f982d",
+   "fonte": "ansa",
+   "titolo": "Trump ai minimi, Vance: 'Deciderò sul 2028 dopo le midterm'",
+   "estratto": "Sondaggio del Wp: 'Presidente mai così debole'. Ocasio-Cortez soccorre El-Sayed con un milione di dollari",
+   "link": "https://www.ansa.it/sito/notizie/mondo/speciali/usa-midterm-2026/2026/10/18/trump-ai-minimi-vance-decidero-sul-2028-dopo-le-midterm_44c1c2e7-b990-461a-9a99-a499c9e7c11b.html",
+   "pubblicato": "2026-10-18T19:07:59Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b3d401f2f07fb519",
+   "fonte": "open",
+   "titolo": "Treviso, mettono psicofarmaci e lassativi nelle borracce dei compagni per scherzo, poi li deridono: quattro studenti a rischio sospensione",
+   "estratto": "L'episodio in un istituto superiore: i ragazzi sbeffeggiavano chi accusava sonnolenza improvvisa dopo aver bevuto l'acqua alterata con benzodiazepine. La scuola avvia l'iter disciplinare nel massimo…",
+   "link": "https://www.open.online/2026/10/18/treviso-scuola-psicofarmaci-borracce-compagni-sospensione/",
+   "pubblicato": "2026-10-18T19:07:25Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "faaffd24ca94f841",
+   "fonte": "skytg24",
+   "titolo": "Dilaga la protesta in Albania. Rama: la regia è di Russia e Iran",
+   "estratto": "Da cinque giorni Tirana è teatro di violenti scontri tra manifestanti che chiedono le dimissioni del premier Edi Rama e polizia. La protesta, nata contro il carovita e un progetto turistico legato a…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/dilaga-la-protesta-in-albania-rama-la-regia-e-di-russia-e-iran-1132700",
+   "pubblicato": "2026-10-18T19:05:43Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "568d8e2ab9894acd",
+   "fonte": "progressista",
+   "titolo": "8 MILIARDI di euro e 53 anni di tempo: ecco i veri numeri della \"remigrazione\" di Vannacci.",
+   "estratto": "In tv sembra tutto facile, ma la matematica non perdona. In Italia ci sono circa 339.000 stranieri irregolari. Rimpatriare una sola persona costa in media 7.340 euro (tra permanenza nei CPR…",
+   "link": "https://www.instagram.com/reel/DepYzQ5iSF_/",
+   "pubblicato": "2026-10-18T19:04:12Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "instagram"
+  },
+  {
+   "id": "d3e59ed9cd90283b",
+   "fonte": "laverita",
+   "titolo": "Robert d’Arabia ha la faccia come il… ciuffo",
+   "estratto": "Il grande antipatico del calcio italiano è atteso da una missione impossibile: riportare gli azzurri ai Mondiali. Aver lasciato in mezzo a un guado la Nazionale per i petroldollari non lo turba…",
+   "link": "https://www.laverita.info/storie-di-sport/roberto-mancini-ritratto",
+   "pubblicato": "2026-10-18T19:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4272490356b936d6",
+   "fonte": "ilgiornale",
+   "titolo": "Per vendere bisogna smettere di vendere. La lezione di Raffaele Ferraiuolo",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cucina/per-vendere-bisogna-smettere-di-vendere-la-lezione-di-raffaele-ferraiuolo/",
+   "pubblicato": "2026-10-18T18:58:25Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "6917c5644f9316ae",
+   "fonte": "domani",
+   "titolo": "Schlein s’incorona leader: «Sarò io, con gazebo o senza»",
+   "estratto": "La leader chiude la querelle sulla sua corsa a Palazzo Chigi: «Sono pronta». Sì della minoranza riformista. Avs lancia una piazza sul carovita. Conte: ci saremo, ma chiudiamo presto sul programma",
+   "link": "https://www.editorialedomani.it/politica/italia/schlein-palazzo-chigi-saro-io-primarie-assemblea-nazionale-pd-mu8z41qu",
+   "pubblicato": "2026-10-18T18:53:55Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d3879749dfcf1c42",
+   "fonte": "ansa",
+   "titolo": "Vasco: 'Sono caduto in bici e ho rotto i legamenti della spalla'",
+   "estratto": "Il rocker racconta di essere stato operato dopo la fine del tour",
+   "link": "https://www.ansa.it/sito/notizie/cultura/musica/2026/10/18/vasco-sono-caduto-in-bici-e-ho-rotto-i-legamenti-della-spalla_0178ca12-f96e-49a1-a577-19a81c721eca.html",
+   "pubblicato": "2026-10-18T18:53:12Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ae5116bcf17123ab",
+   "fonte": "domani",
+   "titolo": "Dall’alto e dal basso. La pressione che stringe la premier",
+   "estratto": "L’esecutivo è attanagliato dal basso dalle proteste di agricoltori e trasportatori soprattutto del Sud, un pezzo importante dell’elettorato di centro destra. Dall’alto invece dalle istituzioni…",
+   "link": "https://www.editorialedomani.it/idee/commenti/verso-le-elezioni-meloni-ue-crisi-sociale-erezee6p",
+   "pubblicato": "2026-10-18T18:50:16Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "aca54ab2934b85a3",
+   "fonte": "skytg24",
+   "titolo": "Scontri a Parigi, nuove violenze nella capitale francese",
+   "estratto": "Nuovi scontri e saccheggi sono in corso vicino a Place de la République a Parigi. Sono stati mobilitati gli agenti anti-sommossa. In particolare, gli agenti della compagnia CRS 8, specializzata nel…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/scontri-a-parigi-nuove-violenze-nella-capitale-francese-1132695",
+   "pubblicato": "2026-10-18T18:50:02Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "48d381d64c2b515b",
+   "fonte": "skytg24",
+   "titolo": "Sesto giorno di scontri a Tirana, centinaia di fermi",
+   "estratto": "Sono ripresi a Tirana, in Albania, gli scontri fra polizia e manifestanti che protestano da sei giorni per chiedere le dimissioni del premier socialista Edi Rama. Davanti al ministero…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/sesto-giorno-di-scontri-a-tirana-centinaia-di-fermi-1132686",
+   "pubblicato": "2026-10-18T18:50:01Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1fc23d2af00a86e3",
+   "fonte": "ansa",
+   "titolo": "Francia, le devastazioni all'indomani delle proteste violente",
+   "estratto": "Gli ingenti danni al Municipio di Limoges incendiato e lungo le strade di Lione",
+   "link": "https://www.ansa.it/sito/videogallery/mondo/2026/10/18/francia-le-devastazioni-allindomani-delle-proteste-violente_211315d1-16b0-4461-addc-0566091adb65.html",
+   "pubblicato": "2026-10-18T18:48:19Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "558511b31784afc2",
+   "fonte": "ilgiornale",
+   "titolo": "Chi è Angelo De Simone, il dirigente eroe della polizia che ha continuato a lavorare col volto coperto di sangue",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/attualita/chi-e-angelo-de-simone-il-dirigente-eroe-della-polizia-che-ha-continuato-a-lavorare-col-volto-coperto-di-sangue/",
+   "pubblicato": "2026-10-18T18:46:36Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "a7d637736b059bca",
+   "fonte": "domani",
+   "titolo": "La Francia vs l’algoritmo. Così si allontana dagli Usa",
+   "estratto": "La rabbia degli studenti nasce anche dal fatto che non si fidano dei criteri del sistema di orientamento. Dipendere da un algoritmo opaco provoca reazioni violente. Lo vedremo anche in altre…",
+   "link": "https://www.editorialedomani.it/idee/commenti/francia-liceali-proteste-algoritmo-tecnosetta-usa-lasbgoqn",
+   "pubblicato": "2026-10-18T18:44:58Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e7ead63f7d6099d9",
+   "fonte": "domani",
+   "titolo": "Kiev attacca, San Pietroburgo in fiamme: Zelensky risponde a Putin (e a Trump)",
+   "estratto": "Il raid ha mandato a fuoco il più grande deposito petrolifero della città, da cui passano 12 milioni di tonnellate di diesel l’anno. Il presidente dell’Ucraina ha parlato con Kushner e Witkoff. Il…",
+   "link": "https://www.editorialedomani.it/politica/mondo/ucraina-attacco-san-pietroburgo-fiamme-zelensky-putin-trump-swcya9cy",
+   "pubblicato": "2026-10-18T18:39:59Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0a01adda3da8888b",
+   "fonte": "domani",
+   "titolo": "Tra salute e filiera, per stare bene bisogna mangiare cibo sano",
+   "estratto": "Come promuovere diffusamente lo star bene è da considerarsi questione importante: un posto di rilievo nelle abitudini salutari ce l’hanno quelle relative al cibo sano alla capacità di mettere in…",
+   "link": "https://www.editorialedomani.it/idee/commenti/tra-salute-e-filiera-per-stare-bene-bisogna-mangiare-cibo-sano-jhr4qaun",
+   "pubblicato": "2026-10-18T18:34:45Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e1f9e68599459933",
+   "fonte": "ansa",
+   "titolo": "Tajani convoca riunione Fi sulla sicurezza, rafforzare Strade Sicure e Cdm a Milano",
+   "estratto": "Accelerare iter per rendere più facilmente imputabili i minori tra 14 e 17 anni",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/tajani-convoca-riunione-fi-sulla-sicurezza-rafforzare-strade-sicure-e-cdm-a-milano_c5ed4e05-e431-4a3d-bead-b4ab77b0fcb3.html",
+   "pubblicato": "2026-10-18T18:32:59Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d709458a9ac7d1c3",
+   "fonte": "repubblica",
+   "titolo": "Milan, 3-2 all'Atalanta col brivido. Sarri accusa: “Qualche giocatore può dire vaffa all’arbitro\"",
+   "estratto": "3-0 rossonero, poi escono gli ospiti e sfiorano il pareggio. Il tecnico toscano furioso con Rabiot, solo ammonito da Chiffi",
+   "link": "https://www.repubblica.it/sport/calcio/serie-a/2026/10/18/news/milan_atalanta_gol-425656911/",
+   "pubblicato": "2026-10-18T18:31:46Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3af1092cae561804",
+   "fonte": "libero",
+   "titolo": "Meloni al Niaf Gala 2026: Legame con Stati Uniti fondamentale",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/video-news-by-vista/49404325/meloni-al-niaf-gala-2026-legame-con-stati-uniti-fondamentale/",
+   "pubblicato": "2026-10-18T18:24:41Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "dec9c68bac85d4c9",
+   "fonte": "ansa",
+   "titolo": "'La Lega ha perso la sua anima', Garavaglia sfida Salvini",
+   "estratto": "Iezzi: 'Basta con gli slogan'. Congresso tra una settimana, sarà presentato il nuovo simbolo",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/la-lega-ha-perso-la-sua-anima-garavaglia-sfida-salvini_eae2af41-0216-40ad-9564-dcf2739ed482.html",
+   "pubblicato": "2026-10-18T18:23:29Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "533ea93bc86ef4eb",
+   "fonte": "libero",
+   "titolo": "Macron, \"rabbia e vergogna, nulla lo giustifica\": Francia a ferro e fuoco, il discorso alla Nazione",
+   "estratto": "\"Nulla giustifica o spiega quanto successo\": il presidente francese Emmanuel Macron lo ha detto nel discorso alla Nazione, commentando il caos e le devastazioni a margine delle manifestazioni di…",
+   "link": "https://www.liberoquotidiano.it/news/esteri/49403850/macron-rabbia-vergogna-nulla-giustifica-francia-ferro-fuoco-discorso-nazione/",
+   "pubblicato": "2026-10-18T18:23:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f11530b854c79479",
+   "fonte": "skytg24",
+   "titolo": "Violenti nubifragi in Spagna: fiumi di fango e un morto",
+   "estratto": "Forti piogge hanno colpito la Spagna provocando allagamenti, fiumi fango e ingenti danni materiali. A causa dell'ondata di maltempo, che ha interessato soprattutto Almeria e Cabrera de Mar, una…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/violenti-nubifragi-in-spagna-fiumi-di-fango-e-un-morto-1132689",
+   "pubblicato": "2026-10-18T18:18:24Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ba4df86a00927569",
+   "fonte": "rainews",
+   "titolo": "Poliziotto ferito a Milano: \"Mai vista una violenza simile\"",
+   "estratto": "Il dirigente di polizia colpito da una pietra in piazza Duomo racconta l'assalto dei giovani e l'emergenza sicurezza",
+   "link": "https://www.rainews.it/video/2026/10/poliziotto-ferito-a-milano-mai-vista-una-violenza-simile-71587375-0425-493f-9670-fd1486d03d9c.html",
+   "pubblicato": "2026-10-18T18:18:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9d95ccaffd4053be",
+   "fonte": "libero",
+   "titolo": "Garlasco, l'assist di Sollecito: \"Perché per me Stasi è innocente\"",
+   "estratto": "\"Mi sento ancora prigioniero di uno stigma che mi perseguita e che, di fatto, ha condizionato tante cose nella mia vita\": Raffaele Sollecito lo ha detto nello studio di Silvia Toffanin a Verissimo…",
+   "link": "https://www.liberoquotidiano.it/news/spettacoli/televisione/49403731/garlasco-assist-sollecito-perche-per-me-stasi-innocente/",
+   "pubblicato": "2026-10-18T18:17:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2193d8eb25108446",
+   "fonte": "ansa",
+   "titolo": "Moto contro un muretto a secco, due motociclisti muoiono in Salento",
+   "estratto": "Le vittime sono due uomini di 51 e 52 anni, l'ipotesi dell'alta velocità",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/moto-contro-un-muretto-a-secco-due-motociclisti-muoiono-in-salento_064ec063-41a3-4711-a278-824124dcde6a.html",
+   "pubblicato": "2026-10-18T18:06:49Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d7f1982ccfa93112",
+   "fonte": "ilgiornale",
+   "titolo": "Il Milan prima domina, poi subisce il ritorno dell’Atalanta: finisce 3-2 per i rossoneri",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/calcio/il-milan-prima-domina-poi-subisce-il-ritorno-dellatalanta-finisce-3-2-per-i-rossoneri/",
+   "pubblicato": "2026-10-18T18:05:17Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "caf68d9814c32023",
+   "fonte": "nicolaporro",
+   "titolo": "Chi li giustifica è complice",
+   "estratto": "Non ci sono scuse, non ci sono attenuanti. Sulla violenza di piazza di ieri non devono esistere i \"se\" e i \"ma\"",
+   "link": "https://www.nicolaporro.it/chi-li-giustifica-e-complice/",
+   "pubblicato": "2026-10-18T18:05:01Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3e98e516ad95bfce",
+   "fonte": "rainews",
+   "titolo": "Calcio, \"In un battito\": dramma e rinascita di Edoardo Bove",
+   "estratto": "Il documentario presentato alla Festa del Cinema di Roma racconta il malore in campo del giocatore, costretto poi ad abbandonare l'attività sportiva in Italia e il ritorno alle gare nel campionato…",
+   "link": "https://www.rainews.it/video/2026/10/calcio-in-un-battito-documentario-storia-malore-in-capo-dramma-e-rinascita-di-edoardo-bove-festa-cinema-roma-video-marco-cosenza-tg3-e0a4eefc-cc0e-4150-97b9-c246dbbd266b.html",
+   "pubblicato": "2026-10-18T18:05:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1c84055935d845df",
+   "fonte": "open",
+   "titolo": "Nuovi raid dell’Idf su Gaza: uccisi due bambini. L’appello di Netanyahu a 10 giorni dalle elezioni in Israele: «Si vota per la destra o per la Palestina»",
+   "estratto": "Il premier uscente incassa l'endorsement di Donald Trump e attacca la coalizione rivale: «Con loro saliranno al potere i partiti arabi»",
+   "link": "https://www.open.online/2026/10/18/raid-gaza-netanyahu-elezioni-destra-palestina/",
+   "pubblicato": "2026-10-18T18:04:52Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ea4a3995a86b156e",
+   "fonte": "ilfatto",
+   "titolo": "Guerriglia a Milano, in azione piccoli gruppi di giovani incappucciati: la strategia “a macchia di leopardo” per eludere la polizia",
+   "estratto": "Dieci, 15, al massimo 20 componenti. Tutti col cappuccio calato sulla testa, il volto coperto, per la stragrande maggioranza minorenni. Nel secondo giorno di guerriglia in centro a Milano, è parsa…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/guerriglia-milano-giovani-incappucciati-notizie/8542583/",
+   "pubblicato": "2026-10-18T18:04:36Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "08cb9d8b1d80be19",
+   "fonte": "rainews",
+   "titolo": "Milano: guerriglia urbana e devastazione in centro",
+   "estratto": "Sassaiole, vetrine infrante e saccheggi nel cuore della città: decine di giovani bloccati dalla polizia",
+   "link": "https://www.rainews.it/video/2026/10/milano-guerriglia-urbana-e-devastazione-in-centro-video-b448135f-b27f-4112-993a-756242464ba0.html",
+   "pubblicato": "2026-10-18T18:04:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "102e6e83f1fd2a57",
+   "fonte": "libero",
+   "titolo": "Paura in volo, il portellone si stacca subito dopo il decollo: cos'è successo ad alta quota",
+   "estratto": "Paura in volo: il portellone dell'aereo si stacca poco dopo il decollo e il velivolo è costretto all'atterraggio di emergenza. È successo in Nigeria a un aereo della Triton Aviation partito da Abuja…",
+   "link": "https://www.liberoquotidiano.it/news/esteri/49403609/paura-volo-portellone-si-stacca-subito-dopo-decollo-cos-e-successo-alta-quota/",
+   "pubblicato": "2026-10-18T18:04:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f65ac2dab33e29bf",
+   "fonte": "libero",
+   "titolo": "Serie A, il Milan batte l'Atalanta 3-2: continua la risalita in classifica",
+   "estratto": "Il Milan batte 3-2 a San Siro l'Atalanta nel match valido per la settima giornata di Serie A e continua la propria risalita in classifica, balzando momentaneamente al quarto posto con 15 punti…",
+   "link": "https://www.liberoquotidiano.it/news/sport/49403379/serie-a-il-milan-batte-l-atalanta-3-2-continua-la-risalita-in-classifica/",
+   "pubblicato": "2026-10-18T18:02:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4efd4246a83ded7f",
+   "fonte": "skytg24",
+   "titolo": "Il Ministero dell’Amore, se il cuore va in crisi il governo interiore cade: recensione",
+   "estratto": "E se per superare una delusione d’amore servisse convocare un Consiglio dei ministri? In Il Ministero dell’Amore anche un cuore spezzato diventa una questione di Stato: tra ministri, opposizioni…",
+   "link": "https://tg24.sky.it/spettacolo/cinema/2026/10/18/il-ministero-dell-amore-film-recensione",
+   "pubblicato": "2026-10-18T18:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d83078ade5cc2a7f",
+   "fonte": "laverita",
+   "titolo": "BF diventa un colosso dell’agritech. Rileva Diagram per mezzo miliardo",
+   "estratto": "Con l’ingresso della società controllata da Cdp Equity e Trilantic Europe, il gruppo di Vecchioni rafforza la propria strategia e punta sull’integrazione tra agroindustria, genetica e agricoltura di…",
+   "link": "https://www.laverita.info/aziende/bf-diagram",
+   "pubblicato": "2026-10-18T18:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8d5a1e461a7501f1",
+   "fonte": "ansa",
+   "titolo": "A. Fontana, a Milano delinquenti che devono essere trattati come tali",
+   "estratto": "'Vanno garantiti alle forze dell'ordine tutti gli strumenti per intervenire'",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/a.-fontana-a-milano-delinquenti-che-devono-essere-trattati-come-tali_a5465eea-4aaa-4872-8de2-39be3c7a58db.html",
+   "pubblicato": "2026-10-18T17:59:48Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e2aa0948903a3873",
+   "fonte": "laverita",
+   "titolo": "Milano, devastazione in via Torino: vetrine sfondate e negozi saccheggiati",
+   "estratto": "Tavolini, sedie e cestini lanciati contro le vetrine, un supermercato saccheggiato e veicoli danneggiati. Le immagini mostrano le nuove violenze nel centro di Milano.",
+   "link": "https://www.laverita.info/video/violenze-milano-via-torino",
+   "pubblicato": "2026-10-18T17:59:29Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2ca480e6bc0e849e",
+   "fonte": "ilfatto",
+   "titolo": "Posta le foto della compagna nuda (e inconsapevole) sottoponendola a violenze virtuali di sconosciuti per 12 anni",
+   "estratto": "Per 12 anni, nel Torinese, un uomo che oggi ha 55 anni ha postato sui social foto e video intimi della sua compagna – ignara di tutto – mettendola alla mercé di gruppi di uomini creati apposta, per…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/posta-le-foto-della-compagna-nuda-inconsapevole-sottopondendola-a-violenze-e-abusi-virtuali-di-sconosciuti-per-12-anni/8542586/",
+   "pubblicato": "2026-10-18T17:58:12Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2ac061337b74fc55",
+   "fonte": "rainews",
+   "titolo": "Raid di droni su San Pietroburgo e pioggia di missili sulle centrali ucraine",
+   "estratto": "Nel mirino di Kiev il terminal petrolifero della seconda città russa e un deposito VK. Mosca colpisce la rete elettrica facendo dieci vittime. Allarme sui cieli baltici con i caccia italiani in volo…",
+   "link": "https://www.rainews.it/video/2026/10/raid-di-droni-su-san-pietroburgo-e-pioggia-di-missili-su-centrali-ucraine-72186df4-8149-4512-b2f0-38ad25fb2820.html",
+   "pubblicato": "2026-10-18T17:58:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8af0e6f6f7a22664",
+   "fonte": "ilgiornale",
+   "titolo": "Le proteste incendiano la Francia e sui social volano Le Pen e Bardella",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/politica-internazionale/le-proteste-incendiano-la-francia-e-sui-social-volano-le-pen-e-bardella/",
+   "pubblicato": "2026-10-18T17:55:36Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "79e68e4d54941fdc",
+   "fonte": "ansa",
+   "titolo": "Portati in questura a Milano in 160 dopo gli scontri di oggi, l'80% minori",
+   "estratto": "Vandalismo e saccheggiamenti in zona Moscova, danneggiate le vetrine della Rinascente",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/portati-in-questura-a-milano-in-160-dopo-gli-scontri-di-oggi-l80-minori_9de5c8cf-262c-41df-a592-6fb68202baeb.html",
+   "pubblicato": "2026-10-18T17:54:39Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "20bcaf36e555ac55",
+   "fonte": "laverita",
+   "titolo": "Il sacco di Milano: negozi devastati e razzie. Fermati 160 giovani: l’80% è minorenne",
+   "estratto": "Centro in balìa dei violenti: assaltati supermercati e negozi, vetrine sfondate, merce rubata e bombe carta contro la polizia. Chiusi il Duomo e i locali della Galleria. Circa l’80% dei fermati è…",
+   "link": "https://www.laverita.info/video/cronaca-video/sacco-milano-giovani-fermati",
+   "pubblicato": "2026-10-18T17:54:28Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cf6cb7acc9946ccf",
+   "fonte": "ilgiornale",
+   "titolo": "La mossa degli Usa: droni LUCAS contro navi da guerra e lanciamissili mobili. Ecco cosa sappiamo",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/difesa/la-mossa-degli-usa-droni-lucas-contro-navi-da-guerra-e-lanciamissili-mobili-ecco-cosa-sappiamo/",
+   "pubblicato": "2026-10-18T17:51:37Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "0195fa883f552898",
+   "fonte": "skytg24",
+   "titolo": "Serie A, la Fiorentina cade in casa contro il Como: battuta 3-1. VIDEO",
+   "estratto": "Una buona Fiorentina non basta al Franchi per fermare il Como di Nico Paz e Liberali. La squadra di Fabregas si impone in trasferta 3-1, nella settima giornata di Serie A, ma la formazione di Vanoli…",
+   "link": "https://tg24.sky.it/sport/video/2026/10/18/serie-a-fiorentina-como-video-gol-highlights-1132672",
+   "pubblicato": "2026-10-18T17:51:22Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "16d66f822fb3f583",
+   "fonte": "skytg24",
+   "titolo": "Proteste a Milano, saccheggiato un supermercato. Distrutti dehors e tavolini. FOTO",
+   "estratto": "Dopo i momenti di tensione registrati nella giornata di ieri, a Milano si sono registrati, anche oggi 18 ottobre, nuovi disordini nel centro del capoluogo lombardo. Le ulteriori proteste si sono…",
+   "link": "https://tg24.sky.it/cronaca/2026/10/18/milano-scontri-saccheggi-foto",
+   "pubblicato": "2026-10-18T17:50:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "02b39e11112d5398",
+   "fonte": "ansa",
+   "titolo": "Bolletta sociale, diritti e patrimoniale. Le richieste di Avs",
+   "estratto": "Fratoianni: 'La tassa sui ricchi? Convinceremo Conte'. Bonelli: 'Siamo matti da votare'",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/bolletta-sociale-diritti-e-patrimoniale.-le-richieste-di-avs_b9911165-0282-47b3-817a-e02036289dea.html",
+   "pubblicato": "2026-10-18T17:46:37Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "28d69a770862ec60",
+   "fonte": "ilgiornale",
+   "titolo": "“Chi rompe paga”. Dopo la guerriglia, Salvini rilancia il claim già proposto dal Carroccio",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/interni/chi-rompe-paga-dopo-la-guerriglia-salvini-rilancia-il-claim-gia-proposto-dal-carroccio/",
+   "pubblicato": "2026-10-18T17:46:25Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "c9bc9bef602f3c82",
+   "fonte": "ansa",
+   "titolo": "Papa Leone all'Angelus dopo il ricovero: 'Riprenderò gradualmente'",
+   "estratto": "Apparso in buona forma ringrazia i fedeli: 'Questa esperienza mi ha avvicinato ai malati'",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/papa-leone-allangelus-dopo-il-ricovero-riprendero-gradualmente_74dcf119-92a0-46e7-986f-16343122a321.html",
+   "pubblicato": "2026-10-18T17:40:40Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f6b9e11d494596cb",
+   "fonte": "rainews",
+   "titolo": "Domande e rabbia per le devastazioni in Francia: \"Perché tutto questo?\"",
+   "estratto": "\"La maggior parte dei giovani che erano in piazza non c'entra niente\" dicono molti cittadini. A Marsiglia la Prefettura parla di 30.000 saccheggiatori e 8.000 rivoltosi in azione",
+   "link": "https://www.rainews.it/video/2026/10/domande-e-rabbia-per-le-devastazioni-in-francia-perche-tutto-questo-2efecd85-b282-49d8-b7f3-4683cebdbbbf.html",
+   "pubblicato": "2026-10-18T17:39:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2aee051f36e2794b",
+   "fonte": "domani",
+   "titolo": "Un mondo privatizzato: ecco perché i cittadini si sentono smarriti e soli",
+   "estratto": "Nel tempo della democrazia umiliata, il compito di un politico rimane uguale ma sono differenti i mezzi che egli trova a sua disposizione: non può mettere in salvo le nostre pensioni se non…",
+   "link": "https://www.editorialedomani.it/politica/mondo/politica-privatizzazione-ecco-perche-cittadini-smarriti-musk-palantir-q6w4urrp",
+   "pubblicato": "2026-10-18T17:36:51Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8baf7c2551c0796d",
+   "fonte": "ilgiornale",
+   "titolo": "Askatasuna rilancia e prepara la guerriglia: sabato di nuovo in piazza",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/attualita/askatasuna-rilancia-sabato-di-nuovo-in-piazza/",
+   "pubblicato": "2026-10-18T17:35:12Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "e06431e7157a2a2b",
+   "fonte": "ilgiornale",
+   "titolo": "La protesta pro-Pal prepara l’assedio delle università - La mappa dei rapporti con i Giovani musulmani",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/attualita/la-protesta-pro-pal-prepara-lassedio-delle-universita-la-mappa-dei-rapporti-con-i-giovani-musulmani/",
+   "pubblicato": "2026-10-18T17:35:05Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "1bfcb8449b63ac01",
+   "fonte": "domani",
+   "titolo": "La democrazia si difende offrendo un’idea di futuro",
+   "estratto": "L’impegno giovanile e gli scontri di certi gruppi con le forze dell’ordine sono due storie diverse. Ma una democrazia non si difende soltanto garantendo l’ordine nelle piazze. Si difende anche…",
+   "link": "https://www.editorialedomani.it/idee/commenti/la-democrazia-si-difende-offrendo-unidea-di-futuro-w0octm13",
+   "pubblicato": "2026-10-18T17:30:15Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "493252c61f81c178",
+   "fonte": "domani",
+   "titolo": "Verso Phobos, la luna della paura: il Giappone a caccia dei segreti di Marte",
+   "estratto": "La missione MMX (Martian Moons eXploration), da 350 milioni di dollari, punta più in alto: atterrare su Phobos, non una ma due volte e raccogliere, con due estrattori innovativi, qualche cucchiaiata…",
+   "link": "https://www.editorialedomani.it/ambiente/phobos-luna-giappone-parte-segreti-marte-jaxa-deimos-settimana-scienza-dihqsb27",
+   "pubblicato": "2026-10-18T17:30:07Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "de5ee02fda55c296",
+   "fonte": "domani",
+   "titolo": "Guerriglia a Milano. L’autunno caldo preoccupa Meloni",
+   "estratto": "Giovani incappucciati si sono scontrati con la polizia in zona Duomo. Atteso l’incontro con gli autotrasportatori. Polemica con le toghe",
+   "link": "https://www.editorialedomani.it/politica/italia/guerriglia-a-milano-lautunno-caldo-preoccupa-meloni-ivwmfw1t",
+   "pubblicato": "2026-10-18T17:30:03Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fd21ec70481fd7b1",
+   "fonte": "domani",
+   "titolo": "Gli studenti protestano, i docenti no: la fatica di lottare senza prospettiva",
+   "estratto": "L’insoddisfazione salariale dei lavoratori della scuola può tradursi in una rivendicazione capace di ottenere risultati? Le proteste scolastiche di questi giorni in Italia, Francia e Spagna offrono…",
+   "link": "https://www.editorialedomani.it/fatti/scuola-proteste-insegnanti-francia-italia-spagna-scioperi-salari-battaglia-sociale-jmrzehsn",
+   "pubblicato": "2026-10-18T17:17:53Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "10fdf03fce0e9140",
+   "fonte": "domani",
+   "titolo": "La disuguaglianza più dimenticata oggi è la povertà",
+   "estratto": "Intersezionalità non vuol dire stilare una classifica delle varie discriminazioni, al contrario, invita a cogliere la complessità dell’essere umano. Ma quando si analizzano le iniquità che solcano…",
+   "link": "https://www.editorialedomani.it/idee/cultura/disuguaglianza-dimenticata-poverta-questione-economica-festival-torino-kyxik9ek",
+   "pubblicato": "2026-10-18T17:12:41Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "46985d9e20c4cf41",
+   "fonte": "domani",
+   "titolo": "Carmen Gallo: «La poesia? C’è più attenzione. Ma rimangono i pregiudizi»",
+   "estratto": "La poeta e traduttrice ha vinto lo Strega Poesia 2026 per il suo Procne Machine (Einaudi), raccolta che ha al centro la storia di Procne e Filomela e una violenza che colpisce il corpo femminile…",
+   "link": "https://www.editorialedomani.it/idee/cultura/carmen-gallo-strega-poesia-2026-procne-machine-intervista-l5y0t5su",
+   "pubblicato": "2026-10-18T17:10:02Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9b34b31f22ba2b50",
+   "fonte": "rainews",
+   "titolo": "Caos Milano, facinorosi assaltano auto della Polizia Locale con estintore e altro",
+   "estratto": "Nuova giornata di scontri, guerriglia e saccheggi",
+   "link": "https://www.rainews.it/video/2026/10/caos-milano-facinorosi-assaltano-auto-locale-con-estintore-e-altro-5363d569-3f9e-40b8-b6c8-61ab5a4639a6.html",
+   "pubblicato": "2026-10-18T17:10:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6b67c623268d7451",
+   "fonte": "rainews",
+   "titolo": "Chiusi i mondiali di ciclismo su pista: quattro medaglie e vari piazzamenti per l'Italia",
+   "estratto": "Milan, record del mondo e oro nell’inseguimento individuale, doppio argento a squadre, uomini e donne e il terzo posto di Ganna per gli azzurri nel primo appuntamento verso Los Angeles 2028",
+   "link": "https://www.rainews.it/articoli/2026/10/ciclismo-su-pista-chiusi-mondiali-di-shanghai-quattro-medaglie-piazzamenti-per-italia-milan-record-mondo-oroargento-ganna-bronzo--7b56b241-1bd2-4d7c-8c4c-12c40c3e5caf.html",
+   "pubblicato": "2026-10-18T17:08:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "890034c553602cc7",
+   "fonte": "ansa",
+   "titolo": "Gran finale per l'Aeronautica Militare Balloon Cup, le squadre vincitrici",
+   "estratto": "La cerimonia di chiusura e la premiazione delle mongolfiere ad aria calda e a gas",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/gran-finale-per-laeronautica-militare-balloon-cup-le-squadre-vincitrici_0f82e957-43c2-4297-b3b9-29b445d01d05.html",
+   "pubblicato": "2026-10-18T17:07:27Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3255bbe84996e32d",
+   "fonte": "ansa",
+   "titolo": "Lo slogan 'Bismillah, c'est les ténèbres', il buio dalla Francia nelle piazze italiane",
+   "estratto": "A scandirlo in Italia e Oltralpe giovani di seconda generazione ma anche della Milano bene",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/lo-slogan-bismillah-cest-les-tenebres-il-buio-dalla-francia-nelle-piazze_d6168e37-f1c0-4c95-a12f-a600e75c34be.html",
+   "pubblicato": "2026-10-18T17:07:19Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e1fe4338256352b5",
+   "fonte": "domani",
+   "titolo": "L’Italia da record del ciclismo su pista, la fragile precarietà dietro l’eccellenza",
+   "estratto": "Le medaglie e i primati degli azzurri ai Mondiali di Shanghai illuminano un paradosso: l’eccellenza sopravvive senza impianti, costringendo gli atleti ad allenarsi all’estero. Ai giovani manca un…",
+   "link": "https://www.editorialedomani.it/sport/ciclismo-pista-italia-record-mondiali-precarieta-nascosta-dietro-cio-che-brilla-velodromi-anvm9cz0",
+   "pubblicato": "2026-10-18T17:05:19Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f0091b695172c69c",
+   "fonte": "libero",
+   "titolo": "Devastazione a Milano, escalation di violenza tra Cairoli e il Castello: sassi e bottiglie contro la polizia",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/libero-video/49403039/devastazione-milano-escalation-violenza-cairoli-castello-sassi-bottiglie-contro-polizia/",
+   "pubblicato": "2026-10-18T17:02:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "92d377617bfada67",
+   "fonte": "rainews",
+   "titolo": "Tg2 Dossier - Il giallo di via Poma - Puntata del 18/10/2026",
+   "estratto": "Maurizio Martinelli ripercorre il delitto di via Poma, uno dei casi irrisolti più controversi della cronaca italiana. A 36 anni dall'omicidio di Simonetta Cesaroni, le nuove indagini riaccendono gli…",
+   "link": "https://www.rainews.it/rubriche/tg2dossier/video/2026/10/Tg2-Dossier---Il-giallo-di-via-Poma---Puntata-del-18102026-37bcd971-a153-4dfb-810e-799ea777ff79.html",
+   "pubblicato": "2026-10-18T17:01:07Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b522f24425e266cf",
+   "fonte": "ansa",
+   "titolo": "Incendio su un minibus dopo il pellegrinaggio a Loreto, nessun ferito",
+   "estratto": "Il mezzo era diretto ad Ascoli. Le fiamme nel vano motore, intervengono i pompieri",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/incendio-su-un-minibus-dopo-il-pellegrinaggio-a-loreto-nessun-ferito_ecf9f701-5d16-42dc-aafc-260681c8ec72.html",
+   "pubblicato": "2026-10-18T17:00:47Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0ba0f69d593e6880",
+   "fonte": "laverita",
+   "titolo": "L’immigrazione di massa annacqua non solo la cultura ma pure la fede",
+   "estratto": "Sponsorizzata dai segretari dell’Onu e combattuta dai Papi, come Benedetto XVI.",
+   "link": "https://www.laverita.info/chiesa-e-fede/immigrazione-chiesa-cultura-fede",
+   "pubblicato": "2026-10-18T17:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
   {
    "id": "01188454af83d06f",
    "fonte": "skytg24",
@@ -22,6 +1032,56 @@
    "canale": "rss"
   },
   {
+   "id": "99fba7ef93d648dc",
+   "fonte": "nicolaporro",
+   "titolo": "Violenze di piazza, Calabresi come Sala: addio Milano se sarà sindaco",
+   "estratto": "Lo storico direttore si improvvisa nel fare distinguo dopo le devastazioni dei manifestanti nel centro meneghino. Poveri milanesi",
+   "link": "https://www.nicolaporro.it/politicoquotidiano/violenze-di-piazza-calabresi-come-sala-addio-milano-se-sara-sindaco/",
+   "pubblicato": "2026-10-18T16:53:15Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6b8e435217727abc",
+   "fonte": "ansa",
+   "titolo": "Bollette, sconto dal 2027, un nuovo decreto per fissare il tetto al gas",
+   "estratto": "Tecnici al lavoro, si ipotizza price cap a 58-59 euro con calo del 10% per famiglie",
+   "link": "https://www.ansa.it/sito/notizie/economia/2026/10/18/bollette-sconto-dal-2027-un-nuovo-decreto-per-fissare-il-tetto-al-gas_38f35727-60e4-4d21-b060-0f823a8c6eb2.html",
+   "pubblicato": "2026-10-18T16:52:28Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d6218acdd8117bf9",
+   "fonte": "open",
+   "titolo": "Garlasco, è scontro sull’impronta della scarpa. La difesa di Stasi gela Sempio: «Ringraziamo, ma rispediamo la perizia al mittente: per noi è un 44»",
+   "estratto": "I periti di Andrea Sempio sostengono che la traccia insanguinata appartenga a una taglia 40. Un assist che scagionerebbe entrambi, ma i legali di Alberto Stasi lo rifiutano categoricamente. E…",
+   "link": "https://www.open.online/2026/10/18/garlasco-impronta-scarpa-scontro-difese-stasi-sempio/",
+   "pubblicato": "2026-10-18T16:49:53Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c4c48dd8d2e122f2",
+   "fonte": "ansa",
+   "titolo": "'Studi economici dell'Ocse: Italia 2026' al centro dell'incontro al CNEL",
+   "estratto": "Appuntamento il 19 ottobre alle 10. La diretta su ANSA.it",
+   "link": "https://www.ansa.it/sito/notizie/eventi/2026/10/18/studi-economici-dellocse-italia-2026-al-centro-dellincontro-al-cnel_435e0769-2ff8-49e8-8057-f654e3b2fc98.html",
+   "pubblicato": "2026-10-18T16:42:34Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7eede9aecd67d5e6",
+   "fonte": "ilfatto",
+   "titolo": "Il nodo Ucraina nel Pd, Schlein: “Sostegno a Kiev, ma serve sforzo diplomatico”. I riformisti incalzano: “Invio armi resta linea rossa”",
+   "estratto": "Nel giorno in cui dall’assemblea nazionale del Partito democratico a Roma la segretaria dem Elly Schlein si è detta pronta a correre come “candidata premier della coalizione progressista, con o…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/pd-ucraina-schlein-armi-riformisti-video-notizie/8542492/",
+   "pubblicato": "2026-10-18T16:42:14Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "75c6a25a3afaa4c1",
    "fonte": "skytg24",
    "titolo": "Milano, opposizioni condannano violenze e attaccano governo",
@@ -29,6 +1089,16 @@
    "link": "https://tg24.sky.it/politica/video/2026/10/18/milano-opposizioni-condannano-violenze-e-attaccano-governo-1132652",
    "pubblicato": "2026-10-18T16:42:02Z",
    "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2e62cb7b4fcfe0be",
+   "fonte": "ansa",
+   "titolo": "Fabbricavano bottiglie incendiarie a corteo Torino, arrestati 3 minorenni",
+   "estratto": "Nella manifestazione di ieri anche fermi e decine di identificati tra i giovani in piazza",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/fabbricavano-bottiglie-incendiarie-a-corteo-torino-arrestati-3-minorenni_bb202117-0339-4075-ba53-f8af64b9bce7.html",
+   "pubblicato": "2026-10-18T16:41:49Z",
+   "raccolto": "2026-10-18T20:48:44Z",
    "canale": "rss"
   },
   {
@@ -42,6 +1112,86 @@
    "canale": "rss"
   },
   {
+   "id": "5b0e838f6947ac25",
+   "fonte": "ilpost",
+   "titolo": "Un drone ucraino ha sconfinato e si è schiantato in Lituania: due jet italiani erano decollati per abbatterlo",
+   "estratto": "",
+   "link": "https://www.ilpost.it/2026/10/18/drone-ucraino-lituania/",
+   "pubblicato": "2026-10-18T16:37:36Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e4748b81ed63a60f",
+   "fonte": "torcha",
+   "titolo": "Ieri, 17 ottobre, migliaia di persone sono scese in piazza in tredici città italiane contro il carovita, il caro carburanti e gli stipendi troppo bassi.",
+   "estratto": "A Milano, Torino e Bologna gruppi di giovanissimi si sono staccati dai cortei pacifici. Ne sono nati scontri con la polizia, vetrine rotte e danni in centro",
+   "link": "https://www.instagram.com/p/DepINUOjYMi/",
+   "pubblicato": "2026-10-18T16:37:06Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "instagram"
+  },
+  {
+   "id": "1fcc56d07777e4a2",
+   "fonte": "ansa",
+   "titolo": "A Milano saccheggiati negozi vicini a Cordusio, Galleria blindata",
+   "estratto": "Vetrine sfondate con il manubrio di un monopattino",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/a-milano-saccheggiati-negozi-vicini-a-cordusio-galleria-blindata_85cf47de-b0d4-4f45-9ee5-c16528ec7ba6.html",
+   "pubblicato": "2026-10-18T16:35:28Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "56e2e918b2ecb280",
+   "fonte": "domani",
+   "titolo": "Da “ordine” a “radical chic”, le parole per capire la destra",
+   "estratto": "Francesco Gallino ha curato un’antologia lessicale per leggere il mondo conservatore contemporaneo. Probabilmente i termini preferiti variano a seconda delle sensibilità: ma a unire tutti è un certo…",
+   "link": "https://www.editorialedomani.it/idee/cultura/ordine-radical-chic-parole-capire-destra-antologia-lessicale-saggio-qnim4a8u",
+   "pubblicato": "2026-10-18T16:33:30Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "609c22c813c96d41",
+   "fonte": "rainews",
+   "titolo": "Vela, vinco e mi rinnovo: Arca si rifarà il trucco in inverno",
+   "estratto": "L'imbarcazione di Furio Benussi che ha spopolato in questa stagione velica andrà in cantiere dopo la doppietta fra Trieste e Venezia",
+   "link": "https://www.rainews.it/video/2026/10/furio-benussi-arca-veleziana-2026-mare-vento-vela-successo-imbarcazione-restyling-vittoria-prosecco-doc--5f6c750d-d256-4c7f-aded-5a00f52b149c.html",
+   "pubblicato": "2026-10-18T16:33:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "037d3c07ac7e7d45",
+   "fonte": "ansa",
+   "titolo": "Precipita per oltre 50 metri sulle Alpi Giulie, morta alpinista tedesca",
+   "estratto": "Ha ceduto un appiglio su una parete del Grande Nabois, nel gruppo Jôf Fuart",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/precipita-per-oltre-50-metri-sulle-alpi-giulie-morta-alpinista-tedesca_bbc560d9-521c-48bd-aa55-cb9da8f6a3d5.html",
+   "pubblicato": "2026-10-18T16:28:28Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "46e2c6356e5c1550",
+   "fonte": "ansa",
+   "titolo": "Nubifragio all'Elba, alluvionato il lungomare di Cavo",
+   "estratto": "Allagamenti anche in altri paesi dell'isola, la protezione civile in azione",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/nubifragio-allelba-alluvionato-il-lungomare-di-cavo_ed6127e8-caca-487e-ab2e-3a708432c255.html",
+   "pubblicato": "2026-10-18T16:27:43Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "abe1fdeafde9dbda",
+   "fonte": "rainews",
+   "titolo": "Manifestanti a Milano, sassi e bombe carta, polizia risponde con idranti e lacrimogeni",
+   "estratto": "I ragazzi incappucciati e mascherati si sono asserragliati in piazza Mercanti",
+   "link": "https://www.rainews.it/video/2026/10/guerriglia-milano-lacrimogeni-e-idranti-contro-facinorosi-video-970fdfa8-d916-43b1-8ad0-d6fa59e546fb.html",
+   "pubblicato": "2026-10-18T16:25:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "78728fd2bd454578",
    "fonte": "skytg24",
    "titolo": "Padre picchiato dal branco, corteo di solidarietà a Napoli",
@@ -52,6 +1202,26 @@
    "canale": "rss"
   },
   {
+   "id": "321d5942f2deab06",
+   "fonte": "ansa",
+   "titolo": "Libreria Feltrinelli in stazione Torino riapre dopo assalto durante corteo",
+   "estratto": "Tra gli scaffali qualche traccia del passaggio dei manifestanti",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/libreria-feltrinelli-in-stazione-torino-riapre-dopo-assalto-durante-corteo_e4316a31-bc74-43e5-a664-5589997cf381.html",
+   "pubblicato": "2026-10-18T16:13:31Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c1d53bc15730e5b5",
+   "fonte": "factanza",
+   "titolo": "In Asia, centinaia di persone creano video in cui persone musulmane protestano contro lo stile di vita occidentale, chiedono che nei supermercati venga…",
+   "estratto": "Oppure postano finti sfoghi di pensionati europei che non arrivano a fine mese, a differenza degli immigrati che vivono di sussidi; sondaggi in cui si chiede se si è favorevoli alla remigrazione, e…",
+   "link": "https://www.instagram.com/reel/DepECB3A7Qg/",
+   "pubblicato": "2026-10-18T16:09:09Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "instagram"
+  },
+  {
    "id": "7d3a43ee2dbbce65",
    "fonte": "skytg24",
    "titolo": "Ecuador, prete muore schiacciato dalla croce durante la messa in diretta social",
@@ -59,6 +1229,46 @@
    "link": "https://tg24.sky.it/cronaca/2026/10/18/ecuador-prete-muore-schiacciato-croce-video",
    "pubblicato": "2026-10-18T16:08:08Z",
    "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "599a2bb7a69c7643",
+   "fonte": "avvenire",
+   "titolo": "Gil e i volontari israeliani tornati in Cisgiordania. «I nostri corpi a difesa dei villaggi»",
+   "estratto": "",
+   "link": "https://www.avvenire.it/mondo/gil-e-i-volontari-israeliani-tornati-in-cisgiordania-i-nostri-corpi-a-difesa-dei-villaggi_114485",
+   "pubblicato": "2026-10-18T16:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "b20ae7af0071468d",
+   "fonte": "avvenire",
+   "titolo": "Sopravvissuti grazie ai neuroni specchio. Ecco come",
+   "estratto": "",
+   "link": "https://www.avvenire.it/idee-e-commenti/sopravvissuti-grazie-ai-neuroni-specchio-ecco-come_114463",
+   "pubblicato": "2026-10-18T16:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "3aa3a9298b413e94",
+   "fonte": "laverita",
+   "titolo": "L’ipocrisia della sinistra sulla casa: no Airbnb, sì ai resort da 2.500 euro",
+   "estratto": "A Firenze il sindaco dem Funaro ha varato le norme più severe d’Italia contro gli affitti brevi, eppure in centro continuano a nascere nuove strutture extra lusso anche al posto degli studentati…",
+   "link": "https://www.laverita.info/sinistra-a-pezzi/sinistra-firenze-casa-airbnb",
+   "pubblicato": "2026-10-18T16:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8d4897717ab6ee19",
+   "fonte": "rainews",
+   "titolo": "Milano, le immagini dell'assalto al Carrefour di via Torino",
+   "estratto": "Proteste contro il caro vita, nuove tensioni in centro a Milano, negozi assaltati",
+   "link": "https://www.rainews.it/video/2026/10/milano-le-immagini-dellassalto-al-carrefour-di-via-torino-video-879bb9db-7f17-435d-a4fb-05a1635434cf.html",
+   "pubblicato": "2026-10-18T15:59:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
    "canale": "rss"
   },
   {
@@ -162,6 +1372,26 @@
    "canale": "rss"
   },
   {
+   "id": "2f7ce4c480f0d516",
+   "fonte": "rainews",
+   "titolo": "Caro-vita, secondo giorno di guerriglia a Milano: nuovi saccheggi in centro dopo gli scontri di ieri",
+   "estratto": "Manifestanti fermati. Arresti e feriti da entrambe le parti, dalle proteste al caos urbano, Meloni convoca vertice sull’ordine pubblico",
+   "link": "https://www.rainews.it/maratona/2026/10/caro-vita-secondo-giorno-di-guerriglia-a-milano-nuovi-saccheggi-in-centro-dopo-gli-scontri-di-ieri-f03a282c-8ad7-411b-826e-f50b88ca9ebe.html",
+   "pubblicato": "2026-10-18T15:53:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fa973bf2307bf670",
+   "fonte": "laverita",
+   "titolo": "Ceuta, la polizia allontana i migranti da un accampamento",
+   "estratto": "Gli agenti spagnoli hanno trasferito un gruppo di migranti da un accampamento di fortuna vicino a una zona industriale a un centro di accoglienza temporaneo.",
+   "link": "https://www.laverita.info/cronache-dellinvasione/ceuta-sgombero-accampamento-migranti-2",
+   "pubblicato": "2026-10-18T15:52:42Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "1b9bae6729dcceb5",
    "fonte": "skytg24",
    "titolo": "Abruzzo, Mondiale di papere galleggianti sul fiume Aterno",
@@ -172,6 +1402,26 @@
    "canale": "rss"
   },
   {
+   "id": "73aa12a47a14513b",
+   "fonte": "ilgiornale",
+   "titolo": "L’associazione amica del Pd che finanzia i terroristi di Gaza replica al Giornale: “Non ci spaventate”. Ma ecco la verità sul giro di denaro",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/interni/lassociazione-amica-del-pd-che-finanzia-i-terroristi-di-gaza-replica-al-giornale-non-ci-spaventate-ma-ecco-la-verita-sul-giro-di-denaro/",
+   "pubblicato": "2026-10-18T15:52:14Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "bcf16f66541afebf",
+   "fonte": "rainews",
+   "titolo": "Milano, i giovani in piazza Duomo: \"Protestiamo per far sentire la nostra voce\"",
+   "estratto": "Volti coperti e rabbia tra i ragazzi che si difendono: \"La violenza non appartiene a tutti, chiediamo solo attenzione e un futuro migliore\"",
+   "link": "https://www.rainews.it/video/2026/10/milano-i-giovani-in-piazza-duomo-protestiamo-per-far-sentire-la-nostra-voce-9b25903c-c8da-48c5-a1eb-e51f85bd943c.html",
+   "pubblicato": "2026-10-18T15:52:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "1cd7b7208db3eeda",
    "fonte": "skytg24",
    "titolo": "Scontri a Milano, un testimone: \"Erano giovanissimi, hanno rubato anche soldi\"",
@@ -179,6 +1429,16 @@
    "link": "https://tg24.sky.it/cronaca/video/2026/10/18/scontri-a-milano-un-testimone-hanno-rubato-anche-soldi-1132645",
    "pubblicato": "2026-10-18T15:51:05Z",
    "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8cb9320c79cbcfab",
+   "fonte": "libero",
+   "titolo": "Fiorentina-Como 1-3: i viola sempre più a picco",
+   "estratto": "Il Como vince 3-1 al 'Franchi' contro la Fiorentina nel match valido per la settima giornata di Serie A e sale a quota 14 punti, momentaneamente al quarto posto. Liberali, lanciato da Fabregas a…",
+   "link": "https://www.liberoquotidiano.it/news/sport/49402674/serie-a-fiorentina-como-1-3-viola-sempre-piu-picco/",
+   "pubblicato": "2026-10-18T15:51:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
    "canale": "rss"
   },
   {
@@ -200,6 +1460,16 @@
    "pubblicato": "2026-10-18T15:44:40Z",
    "raccolto": "2026-10-18T15:54:51Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "a1bacb8c71475bb6",
+   "fonte": "laverita",
+   "titolo": "Papa Leone torna all’Angelus dopo l’operazione: «Eravamo tristi»",
+   "estratto": "Circa 15.000 persone in Piazza San Pietro per il primo Angelus di Leone XIV dopo il ricovero e l'intervento. Tra i fedeli commozione e sollievo per il ritorno del Pontefice.",
+   "link": "https://www.laverita.info/video/papa-leone-angelus-dopo-operazione",
+   "pubblicato": "2026-10-18T15:44:14Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
   },
   {
    "id": "f13f24a8803039d8",
@@ -342,6 +1612,16 @@
    "canale": "rss"
   },
   {
+   "id": "dccb3256d1e6d32e",
+   "fonte": "repubblica",
+   "titolo": "Il Como riparte con un tris: Liberali, Nico Paz e Douvikas stendono la Fiorentina",
+   "estratto": "La squadra di Fabregas vince 3-1 al Franchi e si rilancia. Polemiche viola per un fallo di Milla in occasione del primo gol dei lariani",
+   "link": "https://www.repubblica.it/sport/calcio/serie-a/2026/10/18/news/fiorentina_como_gol_liberali-425656646/",
+   "pubblicato": "2026-10-18T15:24:17Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "8e8668b7d56110c5",
    "fonte": "ilpost",
    "titolo": "Breve storia dell’ex Ilva, dalla Grande depressione a oggi",
@@ -369,6 +1649,16 @@
    "link": "https://tg24.sky.it/cronaca/video/2026/10/18/milano-chi-sono-i-violenti-che-hanno-devastato-la-citta-1132624",
    "pubblicato": "2026-10-18T15:22:17Z",
    "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "967c70e3c7c14bab",
+   "fonte": "libero",
+   "titolo": "Sala contro Piantedosi: \"Pochi agenti in strada\", \"Radical chic\". Volano stracci",
+   "estratto": "Duro botta e risposta tra il sindaco di Milano Giuseppe Sala e il ministro dell'Interno Matteo Piantedosi. Tutto è partito dalle parole del primo cittadino che, parlando delle violenze di sabato 18…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49402431/sala-contro-piantedosi-pochi-agenti-strada-radical-chic-volano-stracci/",
+   "pubblicato": "2026-10-18T15:21:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
    "canale": "rss"
   },
   {
@@ -429,6 +1719,16 @@
    "link": "https://tg24.sky.it/politica/video/2026/10/18/milano-gelmini-condanna-netta-lo-faccia-anche-opposizione-1132633",
    "pubblicato": "2026-10-18T15:16:42Z",
    "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fbb6d911eb64faac",
+   "fonte": "libero",
+   "titolo": "LA POLIZIA DI STATO, IL CORAGGIO DI ESSERCI: UN GRAZIE A TUTTE LE DONNE E A TUTTI GLI UOMINI CHE OGNI GIORNO PROTEGGONO LA NOSTRA VITA",
+   "estratto": "Ci sono uniformi che, per tante persone, rappresentano molto più di un lavoro. Rappresentano una presenza, una speranza, una mano tesa nel momento della paura. Rappresentano la certezza che, anche…",
+   "link": "https://www.liberoquotidiano.it/news/general/49402312/la_polizia_di_stato_il_coraggio_di_esserci_un_grazie_a_tutte_le_donne_e_a_tutti_gli_uomini_che_ogni_giorno_proteggono_la_n/",
+   "pubblicato": "2026-10-18T15:14:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
    "canale": "rss"
   },
   {
@@ -532,6 +1832,16 @@
    "canale": "rss"
   },
   {
+   "id": "1125d94b84bab966",
+   "fonte": "libero",
+   "titolo": "Milano, saccheggi e vetrine sfondate: ancora violenza, Meloni convoca un vertice",
+   "estratto": "Nuove tensioni a Milano: dopo i disordini di sabato 17 ottobre, quando il corteo contro il carovita si è trasformato in una manifestazione di violenza, con tanto di scontri, lanci di sassi…",
+   "link": "https://www.liberoquotidiano.it/news/milano/49402308/milano-saccheggi-vetrine-sfondate-ancora-violenza-meloni-convoca-vertice/",
+   "pubblicato": "2026-10-18T15:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "76bd5fb2b7479b69",
    "fonte": "repubblica",
    "titolo": "Scontri a Milano, nuova guerriglia in centro. Assaltati e saccheggiati negozi in via Torino",
@@ -610,6 +1920,16 @@
    "pubblicato": "2026-10-18T14:40:33Z",
    "raccolto": "2026-10-18T15:54:51Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "adab5c4a2f7c231f",
+   "fonte": "libero",
+   "titolo": "Roma, 28enne marocchino rapina un turista a colpi di catena: chi interviene",
+   "estratto": "Un turista è stato rapinato a colpi di catena da un marocchino di 28 anni a Roma. A salvarlo un carabiniere fuori servizio presente al momento dell'aggressione. Stando a quanto ricostruito dalle…",
+   "link": "https://www.liberoquotidiano.it/news/italia/49402191/roma-28enne-marocchino-rapina-turista-colpi-catena-chi-interviene/",
+   "pubblicato": "2026-10-18T14:38:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
   },
   {
    "id": "f44b4f378e761ba2",
@@ -692,6 +2012,16 @@
    "canale": "rss"
   },
   {
+   "id": "0ebba2a7c6e887f5",
+   "fonte": "libero",
+   "titolo": "Lussemburgo, 141 monete d'oro sotto un campo arato: l'incredibile scoperta",
+   "estratto": "Un tesoro nascosto quello che due archeologi dilettanti hanno trovato sotto un campo arato nei pressi di Holzthum, nel nord del Lussemburgo: si tratta di ben 141 monete d’oro romane, oltre alle…",
+   "link": "https://www.liberoquotidiano.it/news/esteri/49401969/lussemburgo-141-monete-oro-sotto-campo-arato-incredibile-scoperta/",
+   "pubblicato": "2026-10-18T14:25:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "b9643f9e7a3f3191",
    "fonte": "ansa",
    "titolo": ">ANSA-LA-STORIA/ In Abruzzo l'inusuale mondiale di papere galleggianti",
@@ -709,6 +2039,16 @@
    "link": "https://www.ilpost.it/2026/10/18/mix-videogiochi-ai/",
    "pubblicato": "2026-10-18T14:20:00Z",
    "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "45e2483ecc2a64a7",
+   "fonte": "libero",
+   "titolo": "Verissimo, Luciana Littizzetto: \"'Perché mi sono iscritta a un'app di incontri\"",
+   "estratto": "Luciana Littizzetto iscritta a un'app per incontri: lo ha confessato lei stessa nel salotto di Silvia Toffanin a Verissimo su Canale 5, anche se ha subito precisato di averlo fatto solo \"per…",
+   "link": "https://www.liberoquotidiano.it/news/spettacoli/televisione/49401849/verissimo-luciana-littizzetto-perche-iscritta-app-incontri/",
+   "pubblicato": "2026-10-18T14:15:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
    "canale": "rss"
   },
   {
@@ -740,6 +2080,26 @@
    "pubblicato": "2026-10-18T14:13:56Z",
    "raccolto": "2026-10-18T15:54:51Z",
    "canale": "instagram"
+  },
+  {
+   "id": "0248c6e161338617",
+   "fonte": "libero",
+   "titolo": "Le immagini dei disastri nelle città a opera degli africani",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/migliori-video/49401837/le-immagini-dei-disastri-nelle-citta-a-opera-degli-africani/",
+   "pubblicato": "2026-10-18T14:12:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ad1f6cdf1381ca15",
+   "fonte": "libero",
+   "titolo": "Lo scellerato programma di Avs, ribadiamo: sono matti",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/migliori-video/49401848/lo-scellerato-programma-di-avs-ribadiamo-sono-matti/",
+   "pubblicato": "2026-10-18T14:11:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
   },
   {
    "id": "8dac3432560fada7",
@@ -1542,6 +2902,16 @@
    "canale": "rss"
   },
   {
+   "id": "887b611c57c144dd",
+   "fonte": "libero",
+   "titolo": "Chicco dei Ragazzi della Terza C, l'ultimo folle nemico di Repubblica",
+   "estratto": "Era inevitabile e inevitabilmente è accaduto. Anche I ragazzi della Terza C ormai adulti, vaccinati e liberi di dire la loro, persino di sostenere Giorgia Meloni e attaccare la retorica pro-Pal…",
+   "link": "https://www.liberoquotidiano.it/news/personaggi/49401043/chicco-ragazzi-terza-c-ultimo-folle-bersaglio-repubblica/",
+   "pubblicato": "2026-10-18T12:18:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "7bf369da442f98a8",
    "fonte": "ansa",
    "titolo": "Kiev: 'Nella notte raid di Mosca con missile Iskander e 180 droni, 152 abbattuti'",
@@ -1652,6 +3022,16 @@
    "canale": "rss"
   },
   {
+   "id": "36d789ba650b4e09",
+   "fonte": "libero",
+   "titolo": "Schlein, festa rovinata e doccia gelata all'assemblea Pd: \"Entro il 31 dicembre\", la lettera di Bernard Dika",
+   "estratto": "Basta una lettera a rovinare la festa annunciata per Elly Sclein. Da Pistoia un gruppo di 14 membri delle assemblee nazionale e regionale del Pd - tra cui il sottosegretario alla presidenza di Giani…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49400444/schlein-festa-rovinata-bernard-dika-diktat-entro-31-dicembre-doccia-gelata-assemblea-pd/",
+   "pubblicato": "2026-10-18T12:04:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "0ccc715a13c7895f",
    "fonte": "rainews",
    "titolo": "TG1 Libri del 18/10/2026",
@@ -1670,6 +3050,16 @@
    "pubblicato": "2026-10-18T12:00:33Z",
    "raccolto": "2026-10-18T13:07:59Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "046944b5c983fde6",
+   "fonte": "libero",
+   "titolo": "Aumenti ai giudici, anche prof universitari e militari fanno ricorso",
+   "estratto": "La sentenza del Consiglio di Stato sul ricalcolo delle retribuzioni dei magistrati ha scoperchiato il vaso di Pandora. Dopo la vittoria delle toghe, ora anche professori universitari e militari sono…",
+   "link": "https://www.liberoquotidiano.it/news/giustizia/49400440/aumenti-ai-giudici-anche-prof-universitari-e-militari-fanno-ricorso/",
+   "pubblicato": "2026-10-18T12:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
   },
   {
    "id": "e2dd9a0ec9cfecec",
@@ -1762,6 +3152,16 @@
    "canale": "rss"
   },
   {
+   "id": "aa4a1c237fe7b7e4",
+   "fonte": "libero",
+   "titolo": "Bollette, per famiglie e imprese il risparmio vale 7 miliardi",
+   "estratto": "Un risparmio per famiglie e imprese di quasi 7 miliardi. Che potrebbe tradursi in una agevolazione annua di oltre 100 euro annui per le utenze domestiche, e in una sforbiciata da 3mila a 20mila euro…",
+   "link": "https://www.liberoquotidiano.it/news/economia/49400437/bollette-per-famiglie-e-imprese-il-risparmio-vale-7-miliardi/",
+   "pubblicato": "2026-10-18T11:54:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "5755c7f01f10cfea",
    "fonte": "ilfatto",
    "titolo": "“Ecco il vero prezzo del pollo”, protesta di Essere Animali di fronte a un supermercato Esselunga",
@@ -1812,6 +3212,16 @@
    "canale": "rss"
   },
   {
+   "id": "19ca49d202477ef6",
+   "fonte": "libero",
+   "titolo": "Lorenzo Cuocolo: \"La protesta non può danneggiare lo studio\"",
+   "estratto": "«Non esistono diritti tiranni: il diritto alla protesta non può schiacciare quello allo studio. Va trovato un bilanciamento, lo chiede anche la Corte Costituzionale, che non attribuisce alla facoltà…",
+   "link": "https://www.liberoquotidiano.it/news/italia/49400435/lorenzo-cucolo-protesta-non-puo-danneggiare-studio/",
+   "pubblicato": "2026-10-18T11:49:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "83d5fe4d522c72ec",
    "fonte": "repubblica",
    "titolo": "Francia, governo sotto accusa dopo le violenze nei cortei: “Non ha saputo fermare i black bloc”",
@@ -1840,6 +3250,16 @@
    "pubblicato": "2026-10-18T11:45:28Z",
    "raccolto": "2026-10-18T13:26:20Z",
    "canale": "instagram"
+  },
+  {
+   "id": "cb1283b4422db914",
+   "fonte": "libero",
+   "titolo": "Il portavoce degli studenti contro chi sfascia le città: \"Piazza anti-democratica\"",
+   "estratto": "Dissociazione. È questa la parola che meglio spiega cosa sta accadendo nel mondo della scuola italiana. O, almeno, in quella parte del mondo scolastico scesa in piazza seguendo l’onda lunga delle…",
+   "link": "https://www.liberoquotidiano.it/news/italia/49400433/alessandro-micco-portavoce-degli-studenti-contro-chi-sfascia-le-citta-piazza-anti-democratica-/",
+   "pubblicato": "2026-10-18T11:45:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
   },
   {
    "id": "23f5ef3fa64ad71c",
@@ -1889,6 +3309,16 @@
    "link": "https://www.lastampa.it/esteri/2026/10/18/news/sacerdote_muore_durante_la_messa_schiacciato_dalla_croce_di_legno_staccatasi_dalla_parete-15769989/",
    "pubblicato": "2026-10-18T11:39:00Z",
    "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "74a192259b8538e7",
+   "fonte": "libero",
+   "titolo": "Raffaele Marra: \"Nel mio libro denuncio il lato oscuro dei Cinque Stelle\"",
+   "estratto": "Sono passati dieci anni dal primo importante trionfo elettorale del Movimento 5 stelle, la conquista del Comune di Roma, propedeutica a quella del governo nazionale, ottenuta nel 2018 e mantenuta…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49400431/raffaele-marra-denuncio-lato-oscuro-cinque-stelle/",
+   "pubblicato": "2026-10-18T11:39:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
    "canale": "rss"
   },
   {
@@ -4672,6 +6102,16 @@
    "canale": "instagram"
   },
   {
+   "id": "cb55c2f5f6db416c",
+   "fonte": "repubblica",
+   "titolo": "Dubois distrugge Wardley: il peso massimo con il padre padrone ora può correre da solo",
+   "estratto": "Il titolo mondiale dei pesi massimi Wbo dominato dal londinese che si impone in due round. Potrebbe essere la svolta per un ragazzo noto per il rapporto di dipendenza con il genitore Dave",
+   "link": "https://www.repubblica.it/sport/vari/2026/10/18/news/dubois_wardley_risultato_pesi_massimi_mondiale-425655992/",
+   "pubblicato": "2026-10-18T07:25:23Z",
+   "raccolto": "2026-10-18T20:48:44Z",
+   "canale": "rss"
+  },
+  {
    "id": "39125cdb8cd1c278",
    "fonte": "ansa",
    "titolo": "Trump: \"Il congelamento delle nuove sanzioni alla Russia è un'ottima decisione\"",
@@ -5929,6 +7369,16 @@
    "link": "https://europe.repubblica.it/en/news/2026/10/18/news/luna_rossa_max_sirena_climate_crisis_sailing_americas_cup-425654289/",
    "pubblicato": "2026-10-18T04:00:00Z",
    "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "457fa4da60f0ac49",
+   "fonte": "repubblica",
+   "titolo": "Napoli, la denuncia: “Io, sequestrata e violentata da più persone in una casa al Vasto”",
+   "estratto": "La vittima è una 18enne ucraina che vive a Pozzuoli: “Mi hanno portata in una casa con otto persone. Due di loro, hanno abusato di me”. I medici: segni di aggressione fisica e sessuale. Indaga la…",
+   "link": "https://napoli.repubblica.it/cronaca/2026/10/18/news/napoli_la_denuncia_sequestrata_e_violentata_da_piu_persone_in_una_casa_al_vasto-425655719/",
+   "pubblicato": "2026-10-18T04:00:00Z",
+   "raccolto": "2026-10-18T20:48:44Z",
    "canale": "rss"
   },
   {
@@ -16520,326 +17970,6 @@
    "pubblicato": "2026-10-15T21:00:00Z",
    "raccolto": "2026-10-17T22:34:06Z",
    "canale": "rss"
-  },
-  {
-   "id": "aa52e426b2e600e9",
-   "fonte": "lastampa",
-   "titolo": "Dal mare al panettone, le giornate che riempiono la noia del Parlamento",
-   "estratto": "A molti di noi è sfuggito, ma dovete sapere che in Italia non c’è solo il sacrosanto giorno della memoria o contro la violenza sulle donne, quelle date simboliche che hanno il senso di dare…",
-   "link": "https://www.lastampa.it/rubriche/l-oblo/2026/10/16/audio/dal_mare_al_panettone_le_giornate_che_riempiono_la_noia_del_parlamento-15767655/",
-   "pubblicato": "2026-10-15T20:38:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "13c7f37ccb94619e",
-   "fonte": "domani",
-   "titolo": "L’Ue deve chiudere il bilancio ma Meloni blocca tutti con la «flessibilità»",
-   "estratto": "Macron: «Fate presto» coi negoziati sul budget. Le elezioni sono dietro l’angolo e Le Pen minaccia già di tagliare i contributi francesi all’Ue. Eppure una buona parte del summit dei leader è…",
-   "link": "https://www.editorialedomani.it/politica/europa/meloni-consiglio-europeo-energia-prezzi-flessibilita-bilancio-g93w2lds",
-   "pubblicato": "2026-10-15T19:14:45Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "9dd0e88f350db541",
-   "fonte": "domani",
-   "titolo": "Il domani dell’Europa? Si deciderà in otto elezioni",
-   "estratto": "Francia. Spagna, Italia, Polonia, Grecia, Finlandia, Slovacchia ed Estonia andranno al voto il prossimo anno. Una tornata elettorale che, vista l’avanzata delle destre, mette a rischio il processo…",
-   "link": "https://www.editorialedomani.it/idee/commenti/domani-europa-otto-elezioni-commento-mario-giro-pgzewl7g",
-   "pubblicato": "2026-10-15T19:14:04Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "e7a600ce16a9a31e",
-   "fonte": "domani",
-   "titolo": "Fucilazione in diretta, Trump fa dietrofront (incalzato dai sondaggi)",
-   "estratto": "Sconfessato Hegseth: l’esecuzione di Nidal Hasan non sarà più in “live streaming”. Gli attivisti a Domani: «Il tycoon ha ceduto alle pressioni». L’80% degli americani contrari alla barbarie. E…",
-   "link": "https://www.editorialedomani.it/politica/mondo/usa-fucilazione-streaming-trump-dietrofront-incalzato-sondaggi-midterm-sd69195u",
-   "pubblicato": "2026-10-15T19:02:48Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "c179cbfe504685cb",
-   "fonte": "progressista",
-   "titolo": "Sai che a volte chi lancia i sassi e distrugge le vetrine durante le proteste è la polizia stessa? 🤯",
-   "estratto": "In Francia, durante delle manifestazioni pacifiche, un \"manifestante\" violento col volto coperto è stato rincorso e smascherato da un eurodeputato. Indovina un po'? Era un poliziotto in borghese…",
-   "link": "https://www.instagram.com/reel/DehqUIYFcmJ/",
-   "pubblicato": "2026-10-15T19:02:39Z",
-   "raccolto": "2026-10-18T13:26:20Z",
-   "canale": "instagram"
-  },
-  {
-   "id": "f2c17ce3c446933d",
-   "fonte": "domani",
-   "titolo": "La lezione spagnola: al campo lento serve più velocità",
-   "estratto": "Domenica a Roma assemblea Pd per rinviare il congresso di marzo. Poi saranno finiti gli alibi per non convocare il tavolo del programma",
-   "link": "https://www.editorialedomani.it/politica/italia/schlein-vertice-bruxelles-socialisti-partito-democratico-campo-largo-elezioni-nh5t6mbe",
-   "pubblicato": "2026-10-15T19:01:57Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "ff9ccf463e2a73fc",
-   "fonte": "domani",
-   "titolo": "La manovra delle briciole. Caro benzina, protesta dei tir",
-   "estratto": "Il Dpb è di 23,5 miliardi di euro. Serve anche il contributo delle banche, che già dicono no. Scoppia la protesta dei tir. E Trump risponde a Meloni sul diesel russo: «É un successo»",
-   "link": "https://www.editorialedomani.it/politica/italia/manovra-briciole-caro-benzina-protesta-tir-giorgetti-y5evzthl",
-   "pubblicato": "2026-10-15T18:59:24Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "11c8fc91ab204ddd",
-   "fonte": "domani",
-   "titolo": "Una manovra pensata per chi sta bene e per la maggioranza",
-   "estratto": "Un Paese che non cresce da troppo tempo avrebbe bisogno di ben altre e chiare scelte: più giustizia fiscale, più investimenti, meno mance. Una manovra che dica dove vuole andare l’Italia nei…",
-   "link": "https://www.editorialedomani.it/idee/commenti/una-manovra-pensata-per-chi-sta-bene-e-per-la-maggioranza-e99yz3hv",
-   "pubblicato": "2026-10-15T18:58:18Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "28ef5a4a5314f9e8",
-   "fonte": "domani",
-   "titolo": "Iran, il tycoon vuole usare «la madre di tutte le bombe»",
-   "estratto": "È l’arma più potente a disposizione delle forze Usa: Donald vuole usarla per mettere fine alla guerra. Un'uscita “pirotecnica”, in senso letterale",
-   "link": "https://www.editorialedomani.it/politica/mondo/guerra-stati-uniti-iran-tycoon-madre-tutte-bombe-r5rt13r2",
-   "pubblicato": "2026-10-15T18:44:56Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "b15f7019cd634ef5",
-   "fonte": "ilfoglio",
-   "titolo": "Un posto al sole: Michele indaga su Mori mentre Giulia trova il coraggio di parlare a Luca",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/televisione/2026/10/15/news/un-posto-al-sole-michele-indaga-su-mori-mentre-giulia-trova-il-coraggio-di-parlare-a-luca--410750",
-   "pubblicato": "2026-10-15T18:40:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "f29d8d3fab80d638",
-   "fonte": "repubblica",
-   "titolo": "Mattarella richiama le Camere: “Troppe giornate nazionali senza criteri omogenei, contenete numero”",
-   "estratto": "La lettera del capo dello Stato ai presidenti di Camera e Senato",
-   "link": "https://www.repubblica.it/politica/2026/10/15/news/mattarella_richiama_camere_giornate_nazionali-425649952/",
-   "pubblicato": "2026-10-15T18:33:40Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "e59b4a3123769e34",
-   "fonte": "domani",
-   "titolo": "Leone riprende a lavorare dal Gemelli. Parolin: «Sono preoccupato ma mi fido dei medici». Possibile Angelus dal Gemelli",
-   "estratto": "Il pontefice ha risposto bene all’intervento e ha già ripreso le attività. Resta da capire se e come il papa reciterà l’Angelus della domenica. «Se sta bene lo farà dal Gemelli», ha sottolineato il…",
-   "link": "https://www.editorialedomani.it/politica/mondo/papa-leone-condizioni-salute-intervento-gemelli-angelus-domenica-viaggio-sudamerica-twcyuea9",
-   "pubblicato": "2026-10-15T18:25:18Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "d37774379c064493",
-   "fonte": "ilfoglio",
-   "titolo": "Ilva non chiude, dicono. Ma il decreto del governo è la pietra tombale sullo stabilimento",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/economia/2026/10/15/news/ilva-non-chiude-dicono-ma-il-decreto-del-governo-e-la-pietra-tombale-sullo-stabilimento--410736",
-   "pubblicato": "2026-10-15T18:10:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "726dd7bb038ae142",
-   "fonte": "rainews",
-   "titolo": "Lo scontro politico per i dati Istat e sulla manovra",
-   "estratto": "Per la maggioranza i dati odierni segnano una diminuzione rispetto al 2024.Le opposizioni incalzano: \"La relazione Istata rappresenta un altro fallimento del governo\"",
-   "link": "https://www.rainews.it/video/2026/10/lo-scontro-politico-per-i-dati-istat-e-sulla-manovra--9b16f994-a793-47b6-9be9-d1dfaa660ed2.html",
-   "pubblicato": "2026-10-15T18:08:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "e643b6b77c4c74d9",
-   "fonte": "ilfoglio",
-   "titolo": "Il monito, con sorridente sbadiglio, di Mattarella sulle troppe giornate nazionali in calendario",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/politica/2026/10/15/news/il-monito-con-sorridente-sbadiglio-di-mattarella-sulle-troppe-giornate-nazionali-in-calendario--410734",
-   "pubblicato": "2026-10-15T18:07:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "3b3d6a67ee10d621",
-   "fonte": "ilfoglio",
-   "titolo": "I dati Istat smentiscono la percezione sulla povertà, ma i salari bassi restano un problema",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/economia/2026/10/15/news/i-dati-istat-smentiscono-la-percezione-sulla-poverta-ma-i-salari-bassi-restano-un-problema--410729",
-   "pubblicato": "2026-10-15T17:50:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "88f1ac280271bdb0",
-   "fonte": "domani",
-   "titolo": "Un candidato fake contro il premierato surrettizio",
-   "estratto": "La nuova legge elettorale mette in discussione le prerogative del capo dello stato obbligando le coalizioni a «suggerire» un candidato premier. Le opposizioni devono fare una mossa per difendere il…",
-   "link": "https://www.editorialedomani.it/idee/commenti/un-candidato-fake-contro-il-premierato-surrettizio-vka5ub9e",
-   "pubblicato": "2026-10-15T17:49:06Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "292ba05e33e51971",
-   "fonte": "domani",
-   "titolo": "Per costruire un “noi” non bastano le primarie",
-   "estratto": "Se si ritiene che l’ascesa delle destre radicali minacci i fondamentali della democrazia costituzionale, allora l’unità delle forze alternative deve avere un significato politico, non solo…",
-   "link": "https://www.editorialedomani.it/idee/commenti/per-costruire-un-noi-non-bastano-le-primarie-li30nnhh",
-   "pubblicato": "2026-10-15T17:48:18Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "a03fb1e534878106",
-   "fonte": "domani",
-   "titolo": "Ucraina, i ricatti di Musk e la tregua che non c’è. Kiev non ha più Patriot",
-   "estratto": "Starlink ferma per 24 ore, poi il tecno-miliardario attacca: «Zelensky si dimetta». Dopo gli ultimi raid della Russia, Kiev è tornata a colpire le raffinerie russe",
-   "link": "https://www.editorialedomani.it/politica/mondo/ucraina-i-ricatti-di-musk-e-la-tregua-che-non-ce-kiev-non-ha-piu-patriot-glew2y80",
-   "pubblicato": "2026-10-15T17:32:18Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "657ebdd394f3eefe",
-   "fonte": "breakingitaly",
-   "titolo": "Perché anche l’Arabia Saudita è adesso sotto attacco?",
-   "estratto": "",
-   "link": "https://www.youtube.com/shorts/dCjtLbHdB-8",
-   "pubblicato": "2026-10-15T17:31:33Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "1199fceba44e4329",
-   "fonte": "rainews",
-   "titolo": "Manovra da 23,5 miliardi: il piano tra extra deficit Ue e prelievo alle banche",
-   "estratto": "Il Documento Programmatico inviato a Bruxelles destina 5 miliardi alle famiglie e 4,5 alla difesa, ma frena sull'Irpef e penalizza la sanità. L'Abi contesta il contributo non concordato chiesto a…",
-   "link": "https://www.rainews.it/video/2026/10/manovra-da-235-miliardi-il-piano-tra-extra-deficit-ue-e-prelievo-alle-banche-5b44df51-7e73-4f29-b415-b134e4bceafc.html",
-   "pubblicato": "2026-10-15T17:30:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "88ca4bd7d4d697de",
-   "fonte": "domani",
-   "titolo": "L’ex ambasciatore Armbruster: «L’America alone è l’errore strategico di Trump»",
-   "estratto": "«L’obiettivo di Putin è dividere gli europei dagli Usa, scommette sulla stanchezza di Trump.La vera posta in gioco è la sovranità strategica»",
-   "link": "https://www.editorialedomani.it/politica/mondo/ex-ambasciatore-armbruster-america-alone-errore-strategico-trump-jedkqmsn",
-   "pubblicato": "2026-10-15T17:29:33Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "b365626f383ff0c3",
-   "fonte": "breakingitaly",
-   "titolo": "Trump sta ricattando Zelensky con Starlink?",
-   "estratto": "",
-   "link": "https://www.youtube.com/watch?v=8Kj6VLlLhJw",
-   "pubblicato": "2026-10-15T17:27:36Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "e27b25de261ad91a",
-   "fonte": "lastampa",
-   "titolo": "Verbano, cercatore di funghi disperso recuperato con l'elicottero",
-   "estratto": "Un uomo del 1963, uscito per cercare funghi in una zona montana e non rientrato, è stato ritrovato e soccorso nel pomeriggio di oggi – giovedì 15 – a Caprezzo, in località Cappella Porta. A…",
-   "link": "https://www.lastampa.it/verbano-cusio-ossola/2026/10/15/video/verbano_cercatore_di_funghi_disperso_recuperato_con_lelicottero-15767503/",
-   "pubblicato": "2026-10-15T17:26:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "1af17049c0e537be",
-   "fonte": "domani",
-   "titolo": "L’infinita battaglia contro le fantasie del Medioevo",
-   "estratto": "Giuseppe Sergi sostiene che la battaglia contro gli stereotipi non è un’attività accessoria dello storico, un lusso comunicativo, ma un momento costitutivo del suo lavoro",
-   "link": "https://www.editorialedomani.it/idee/cultura/la-storia-non-e-dei-pigri-vedi-alla-voce-medioevo-inventato-mdwkydp6",
-   "pubblicato": "2026-10-15T17:16:57Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "395da31a9326e92b",
-   "fonte": "domani",
-   "titolo": "Quattro artisti che devi assolutamente seguire questo mese",
-   "estratto": "I fumetti e le illustrazioni sono una parte importante degli inserti di Domani, Finzioni e Cibo. Ogni mese, vi consigliamo i profili di illustratori che per noi dovreste da tenere d’occhio",
-   "link": "https://www.editorialedomani.it/idee/cultura/quattro-artisti-che-devi-assolutamente-seguire-questo-mese-w32xqyov",
-   "pubblicato": "2026-10-15T17:12:40Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "47f8c608de2b07cc",
-   "fonte": "domani",
-   "titolo": "La sfida di Whalefall: Perdersi nelle viscere di una balena (buona)",
-   "estratto": "In anteprima a Roma, il film di Brian Duffield è una variante inaspettata del mito di Pinocchio. Perché oltre al rapporto padre-figlio, gli ingredienti sono quelli di un survival thriller",
-   "link": "https://www.editorialedomani.it/idee/cultura/whalefall-film-festival-cinema-roma-balena-buona-ns8srmvh",
-   "pubblicato": "2026-10-15T17:12:15Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "fa3b2991931dc660",
-   "fonte": "ilfoglio",
-   "titolo": "“Amici della coesione”vs “frugali” al Consiglio europeo",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/di-cosa-parlare-stasera-a-cena/2026/10/15/news/amici-della-coesionevs-frugali-al-consiglio-europeo--410674",
-   "pubblicato": "2026-10-15T17:00:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "13a0975c6508e673",
-   "fonte": "factanza",
-   "titolo": "Da settimane, diversi Paesi del mondo, inclusi alcuni europei, sono attraversati da proteste che hanno come protagonisti gli studenti.",
-   "estratto": "Stanchi, insoddisfatti e incompresi da una classe politica a cui sembra non importare del loro futuro, centinaia di migliaia di giovani sono scesi in piazza per rivendicare i propri diritti e il…",
-   "link": "https://www.instagram.com/p/DehWI-jgG6O/",
-   "pubblicato": "2026-10-15T16:04:55Z",
-   "raccolto": "2026-10-18T13:26:20Z",
-   "canale": "instagram"
-  },
-  {
-   "id": "787a370efe0dfd64",
-   "fonte": "breakingitaly",
-   "titolo": "Raphaël Glucksmann ha vinto le primarie del centrosinistra in Francia",
-   "estratto": "",
-   "link": "https://www.youtube.com/shorts/7lGY1uM9Wuw",
-   "pubblicato": "2026-10-15T16:00:27Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "55fed5d8f7b122d5",
-   "fonte": "nxwss",
-   "titolo": "La Squadra mobile di Cagliari ha arrestato un uomo accusato di violenza sessuale sulla figlia, che all’epoca dei fatti aveva 12 anni.",
-   "estratto": "Tutto è iniziato circa un anno fa. La ragazza è arrivata in ospedale incinta e i medici hanno segnalato subito il caso a polizia e Procura. La gravidanza è stata interrotta e i magistrati hanno…",
-   "link": "https://www.instagram.com/p/DehVn43OtnS/",
-   "pubblicato": "2026-10-15T16:00:27Z",
-   "raccolto": "2026-10-18T13:26:20Z",
-   "canale": "instagram"
-  },
-  {
-   "id": "6cb192afe88714c1",
-   "fonte": "ilfoglio",
-   "titolo": "Il Gran Muftì alleato di Hitler e le radici dell'antisemitismo di Hamas",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/cultura/2026/10/15/news/il-gran-mufti-alleato-di-hitler-e-le-radici-dellantisemitismo-di-hamas--410697",
-   "pubblicato": "2026-10-15T15:56:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
   }
  ]
 }
