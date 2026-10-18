@@ -24,7 +24,7 @@ def _chiama(url: str, params: dict) -> dict:
     return dati
 
 
-def esegui(percorso: Path, versione: str = "v24.0") -> dict:
+def esegui(percorso: Path, versione: str = "v24.0", nomi_da_verificare: list[str] | None = None) -> dict:
     token = os.environ.get("INSTAGRAM_TOKEN", "")
     account = os.environ.get("INSTAGRAM_ACCOUNT_ID", "")
     base = f"https://graph.facebook.com/{versione}"
@@ -50,6 +50,14 @@ def esegui(percorso: Path, versione: str = "v24.0") -> dict:
                 "fields": f"business_discovery.username({nome_utente}){{username}}", "access_token": token})
         risultato["business_discovery_su_altro_account"] = _chiama(f"{base}/{account}", {
             "fields": "business_discovery.username(instagram){username,media_count}", "access_token": token})
+    if token and account and nomi_da_verificare:
+        # Per ogni account Instagram in sources.yaml: esiste ed è professionale?
+        verifiche = {}
+        for nome in nomi_da_verificare:
+            r = _chiama(f"{base}/{account}", {
+                "fields": f"business_discovery.username({nome}){{username,media_count}}", "access_token": token})
+            verifiche[nome] = "ok" if "business_discovery" in r else r.get("errore", r).get("message", "errore")
+        risultato["verifica_account"] = verifiche
     testo = json.dumps(risultato, ensure_ascii=False, indent=1)
     assert not token or token not in testo, "il codice non deve finire nel file"
     percorso.write_text(testo, encoding="utf-8")

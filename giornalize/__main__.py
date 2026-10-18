@@ -156,7 +156,9 @@ def main(argv: list[str] | None = None) -> int:
             return comando_aggiungi_post(config)
         if argomenti.comando == "diagnosi-instagram":
             from .diagnosi import esegui
-            esegui(CARTELLA_DATI / "diagnosi_instagram.json", config.impostazioni.get("instagram", {}).get("versione_api", "v24.0"))
+            nomi = [f.instagram.lstrip("@") for f in config.fonti if f.instagram]
+            esegui(CARTELLA_DATI / "diagnosi_instagram.json",
+                   config.impostazioni.get("instagram", {}).get("versione_api", "v24.0"), nomi)
             return 0
         if argomenti.comando in ("aggiorna", "raccogli"):
             comando_raccogli(config)
