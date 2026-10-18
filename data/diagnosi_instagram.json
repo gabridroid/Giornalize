@@ -39,10 +39,6 @@
   "expires_at": 0,
   "data_access_expires_at": 1800104710
  },
- "me": {
-  "id": "1172664748529769",
-  "name": "Gabriele Todesco"
- },
  "proprio_account": {
   "errore": {
    "message": "(#100) Tried accessing nonexisting field (account_type)",

@@ -39,11 +39,16 @@ def esegui(percorso: Path, versione: str = "v24.0") -> dict:
         risultato["codice"] = {k: dati.get(k) for k in (
             "type", "is_valid", "app_id", "application", "scopes", "granular_scopes",
             "expires_at", "data_access_expires_at", "profile_id", "error") if k in dati} if isinstance(dati, dict) else dati
-        risultato["me"] = _chiama(f"{base}/me", {"fields": "id,name", "access_token": token})
+        risultato.get("codice", {}).pop("profile_id", None)
     if token and account:
-        risultato["proprio_account"] = _chiama(f"{base}/{account}", {
-            "fields": "id,username,account_type", "access_token": token})
-        risultato["business_discovery"] = _chiama(f"{base}/{account}", {
+        # Solo dati pubblici dell'account Instagram di Giornalize: mai nomi di persone.
+        proprio = _chiama(f"{base}/{account}", {"fields": "username,media_count", "access_token": token})
+        risultato["proprio_account"] = proprio
+        nome_utente = proprio.get("username")
+        if nome_utente:
+            risultato["business_discovery_su_se_stesso"] = _chiama(f"{base}/{account}", {
+                "fields": f"business_discovery.username({nome_utente}){{username}}", "access_token": token})
+        risultato["business_discovery_su_altro_account"] = _chiama(f"{base}/{account}", {
             "fields": "business_discovery.username(instagram){username,media_count}", "access_token": token})
     testo = json.dumps(risultato, ensure_ascii=False, indent=1)
     assert not token or token not in testo, "il codice non deve finire nel file"
