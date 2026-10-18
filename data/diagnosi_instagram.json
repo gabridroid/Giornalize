@@ -1,5 +1,5 @@
 {
- "quando": "2026-10-18T13:11:15Z",
+ "quando": "2026-10-18T13:25:39Z",
  "token_presente": true,
  "account_id_presente": true,
  "codice": {
@@ -13,6 +13,7 @@
    "ads_read",
    "business_management",
    "instagram_basic",
+   "instagram_manage_insights",
    "pages_read_engagement",
    "public_profile"
   ],
@@ -33,11 +34,14 @@
     "scope": "instagram_basic"
    },
    {
+    "scope": "instagram_manage_insights"
+   },
+   {
     "scope": "pages_read_engagement"
    }
   ],
   "expires_at": 0,
-  "data_access_expires_at": 1800104710
+  "data_access_expires_at": 1800105868
  },
  "proprio_account": {
   "id": "17841419022062442",
@@ -45,21 +49,18 @@
   "username": "giornalize"
  },
  "business_discovery_su_se_stesso": {
-  "errore": {
-   "message": "(#10) Application does not have permission for this action",
-   "type": "OAuthException",
-   "code": 10,
-   "error_subcode": null,
-   "error_user_msg": null
-  }
+  "business_discovery": {
+   "username": "giornalize",
+   "id": "17841419022062442"
+  },
+  "id": "17841419022062442"
  },
  "business_discovery_su_altro_account": {
-  "errore": {
-   "message": "(#10) Application does not have permission for this action",
-   "type": "OAuthException",
-   "code": 10,
-   "error_subcode": null,
-   "error_user_msg": null
-  }
+  "business_discovery": {
+   "username": "instagram",
+   "media_count": 8620,
+   "id": "17841400039600391"
+  },
+  "id": "17841419022062442"
  }
 }
