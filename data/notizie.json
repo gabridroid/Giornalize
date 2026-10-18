@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T13:26:20Z",
+ "aggiornato": "2026-10-18T13:27:31Z",
  "notizie": [
   {
    "id": "2dd517df02b8d589",
@@ -1500,6 +1500,16 @@
    "pubblicato": "2026-10-18T10:20:03Z",
    "raccolto": "2026-10-18T11:12:47Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "2701dd469dca6a8d",
+   "fonte": "lastampa",
+   "titolo": "In Piemonte oltre 3 mila sfratti in un anno: Torino e Alessandria le più colpite dalla crisi",
+   "estratto": "I dati del Viminale evidenziano una crescita della morosità incolpevole. La Cgil: senza reddito non si può pagare un affitto",
+   "link": "https://www.lastampa.it/alessandria/2026/10/18/news/in_piemonte_oltre_3_mila_sfratti_in_un_anno_torino_e_alessandria_le_piu_colpite_dalla_crisi-15769943/",
+   "pubblicato": "2026-10-18T10:18:00Z",
+   "raccolto": "2026-10-18T13:27:31Z",
+   "canale": "rss"
   },
   {
    "id": "f1dee90b317e69b0",
