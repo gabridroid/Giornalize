@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T07:31:25Z",
+ "aggiornato": "2026-10-18T07:36:39Z",
  "notizie": [
   {
    "id": "e1b907a0b111eda4",
@@ -39,6 +39,36 @@
    "link": "https://tg24.sky.it/cronaca/video/2026/10/18/pagine-la-rassegna-stampa-di-sky-tg24-del-18-ottobre-1132572",
    "pubblicato": "2026-10-18T07:51:00Z",
    "raccolto": "2026-10-18T07:29:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a65c9cdc7a7c7be2",
+   "fonte": "ilpost",
+   "titolo": "Domenica 18 ottobre",
+   "estratto": "Le foto dal mondo, man mano che arrivano",
+   "link": "https://www.ilpost.it/2026/10/18/domenica-18-ottobre-3/",
+   "pubblicato": "2026-10-18T07:33:02Z",
+   "raccolto": "2026-10-18T07:36:39Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8df287dd434da796",
+   "fonte": "ansa",
+   "titolo": "Muore nello scontro con l'auto dell'ex, accusa femminicidio",
+   "estratto": "",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/muore-nello-scontro-con-lauto-dellex-accusa-femminicidio_df46c31f-7782-446c-9c71-149bc4d5863a.html",
+   "pubblicato": "2026-10-18T07:32:25Z",
+   "raccolto": "2026-10-18T07:36:39Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fa40c4103c54c37e",
+   "fonte": "repubblica",
+   "titolo": "Diritti delle donne, Sabina Belli: “La maternità è vista ancora quasi come una malattia”",
+   "estratto": "L’intervista in occasione di ReWriters, il festival della sostenibilità sociale. Parla la presidente di Kering Italia, per undici anni ad di Pomellato: dagli stipendi agli asili nido, cosa serve per…",
+   "link": "https://www.repubblica.it/cronaca/2026/10/18/news/diritti_donne_maternita_sabina_belli_intervista_rewriters_festival-425656005/",
+   "pubblicato": "2026-10-18T07:31:52Z",
+   "raccolto": "2026-10-18T07:36:39Z",
    "canale": "rss"
   },
   {
@@ -2452,6 +2482,16 @@
    "canale": "rss"
   },
   {
+   "id": "43dabf98ce8dfd66",
+   "fonte": "repubblica",
+   "titolo": "L’Occidente e il secondo fronte di Putin",
+   "estratto": "Il presidente russo, mentre è impantanato nella trincea della guerra in Ucraina, ha già vinto la grande battaglia di retrovia, quella diplomatica e mediatica. Che ha come posta in palio la pubblica…",
+   "link": "https://www.repubblica.it/commenti/2026/10/18/news/il_secondo_fronte_di_putin-425655165/",
+   "pubblicato": "2026-10-17T22:01:00Z",
+   "raccolto": "2026-10-18T07:36:39Z",
+   "canale": "rss"
+  },
+  {
    "id": "3af8bd5b266ee447",
    "fonte": "manifesto",
    "titolo": "Francia: le barricate e le macerie",
@@ -2979,6 +3019,16 @@
    "link": "https://www.ilpost.it/flashes/il-crollo-del-municipio-di-limoges-dato-alle-fiamme-durante-le-proteste-in-francia/",
    "pubblicato": "2026-10-17T20:58:09Z",
    "raccolto": "2026-10-17T22:34:06Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a0d5ce4f579fce80",
+   "fonte": "repubblica",
+   "titolo": "Roma-Genoa, le pagelle: Lulli non si ferma mai, Osmajic va a sbattere sul muro giallorosso",
+   "estratto": "Promossi e bocciati della gara dell’Olimpico",
+   "link": "https://www.repubblica.it/sport/calcio/2026/10/17/news/roma_genoa_pagelle-425655623/",
+   "pubblicato": "2026-10-17T20:53:38Z",
+   "raccolto": "2026-10-18T07:36:39Z",
    "canale": "rss"
   },
   {
@@ -3569,6 +3619,16 @@
    "link": "https://www.open.online/2026/10/17/francia-incendio-ufficio-turistico-lione-batman-video/",
    "pubblicato": "2026-10-17T18:50:31Z",
    "raccolto": "2026-10-17T22:34:06Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3124c5d81e02fcb9",
+   "fonte": "repubblica",
+   "titolo": "Le pagelle di Bologna-Inter: Bernardeschi non illumina, Carlos Augusto decisivo",
+   "estratto": "Promossi e bocciati della gara del Dall’Ara",
+   "link": "https://www.repubblica.it/sport/calcio/serie-a/2026/10/17/news/pagelle_bologna_inter-425655375/",
+   "pubblicato": "2026-10-17T18:47:09Z",
+   "raccolto": "2026-10-18T07:36:39Z",
    "canale": "rss"
   },
   {
@@ -4969,6 +5029,16 @@
    "link": "https://www.editorialedomani.it/politica/mondo/coloni-israeliani-attaccano-un-convoglio-europeo-in-cisgiordania-kxxh28iq",
    "pubblicato": "2026-10-17T15:44:31Z",
    "raccolto": "2026-10-17T22:34:06Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b3b39d0938dfcf5e",
+   "fonte": "repubblica",
+   "titolo": "Le pagelle di Venezia-Napoli: Stankovic è una saracinesca, Lucca un fantasma",
+   "estratto": "Promossi e bocciati della gara del Penzo",
+   "link": "https://www.repubblica.it/sport/calcio/serie-a/2026/10/17/news/venezia_napoli_pagelle-425655001/",
+   "pubblicato": "2026-10-17T15:43:58Z",
+   "raccolto": "2026-10-18T07:36:39Z",
    "canale": "rss"
   },
   {
