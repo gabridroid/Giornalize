@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T13:09:21Z",
+ "aggiornato": "2026-10-18T13:10:41Z",
  "notizie": [
   {
    "id": "2dd517df02b8d589",
@@ -139,6 +139,16 @@
    "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/18/un-super-lecce-schianta-ludinese-3-0-esterno-e-runjaic-a-rischio_c6865c6e-554a-4fd9-a729-bc399f86e2a3.html",
    "pubblicato": "2026-10-18T12:57:10Z",
    "raccolto": "2026-10-18T13:07:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8d2545503dd4b754",
+   "fonte": "rainews",
+   "titolo": "Vela, Arca fa il bis: dopo la Barcolana vince anche in Laguna",
+   "estratto": "Lo scafo di Benussi ha preceduto Prosecco Doc e Corsara al traguardo di Piazza San Marco: oltre 320 barche in acqua",
+   "link": "https://www.rainews.it/articoli/2026/10/vela-arca-fa-il-bis-dopo-la-barcolana-vince-anche-in-laguna--c0731f13-7628-4e78-9ecc-18708907711c.html",
+   "pubblicato": "2026-10-18T12:56:00Z",
+   "raccolto": "2026-10-18T13:10:41Z",
    "canale": "rss"
   },
   {
@@ -15108,16 +15118,6 @@
    "estratto": "",
    "link": "https://www.ilfoglio.it/roma-capoccia/2026/10/15/news/carocci-non-si-candida-ma-scrive-un-racconto-programma--410670",
    "pubblicato": "2026-10-15T13:33:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "8d7327f2d4fb5f33",
-   "fonte": "ilfoglio",
-   "titolo": "Cosa c'è di sconvolgente nella storia dei due adolescenti della famigerata minicar",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/rubriche/bandiera-bianca/2026/10/15/news/cosa-ce-di-sconvolgente-nella-storia-dei-due-adolescenti-della-famigerata-minicar--410662",
-   "pubblicato": "2026-10-15T13:10:00Z",
    "raccolto": "2026-10-17T22:34:06Z",
    "canale": "sitemap"
   }
