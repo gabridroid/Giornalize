@@ -449,8 +449,9 @@ fonti:
     sito: https://scomodo.org
     instagram: "@scomodo"
     instagram_da_verificare: true
-    # Al primo controllo il sito ha rifiutato l'accesso ai server di GitHub
-    # (errore 403). Resta attiva nel caso cambi; non aggiriamo il blocco.
+    # Il sito risponde ai server di GitHub con una pagina di controllo
+    # anti-robot invece del feed. Resta attiva nel caso cambi; non aggiriamo
+    # il blocco. Intanto i suoi articoli si possono aggiungere a mano.
     feed:
       - https://scomodo.org/feed/
     attiva: true
@@ -464,7 +465,8 @@ fonti:
     sito: https://www.vdnews.it
     instagram: "@vdnews"
     instagram_da_verificare: true
-    feed: []   # cercato in automatico dal sito
+    feed:
+      - https://www.vdnews.it/rss
     attiva: true
 
   - id: claim
@@ -474,7 +476,7 @@ fonti:
     orientamento: ""   # da definire
     sito: https://claimrivista.it
     instagram: ""   # da cercare
-    feed: []   # cercato in automatico dal sito
+    feed: []   # nessun feed trovato: i post si aggiungono a mano
     attiva: true
 
   - id: ispi
@@ -486,7 +488,8 @@ fonti:
     sito: https://www.ispionline.it/it/pubblicazioni
     instagram: "@ispionline"
     instagram_da_verificare: true
-    feed: []   # cercato in automatico dal sito
+    feed:
+      - https://www.ispionline.it/it/feed
     attiva: true
 
   - id: theperiod
