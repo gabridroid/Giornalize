@@ -1,6 +1,826 @@
 {
- "aggiornato": "2026-10-18T13:28:59Z",
+ "aggiornato": "2026-10-18T15:54:51Z",
  "notizie": [
+  {
+   "id": "01188454af83d06f",
+   "fonte": "skytg24",
+   "titolo": "Limoges, incendiato il comune: crollati il tetto e la torre",
+   "estratto": "A Limoges, in Francia, il comune è stato gravemente danneggiato da un incendio appiccato da alcuni manifestanti durante i violenti disordini e la giornata di proteste contro il caro vita e i tagli…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/limoges-incendio-comune-tetto-torre-1132656",
+   "pubblicato": "2026-10-18T16:53:39Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4ddad4351c901973",
+   "fonte": "skytg24",
+   "titolo": "Tirana, via il selciato dopo gli scontri: 388 indagati",
+   "estratto": "Sono state rimosse le pietre del selciato dal viale principale di Tirana dopo che i manifestanti le avevano lanciate contro la polizia nel corso di scontri sempre più violenti. Le manifestazioni…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/tirana-selciato-scontri-indagati-1132655",
+   "pubblicato": "2026-10-18T16:53:26Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "75c6a25a3afaa4c1",
+   "fonte": "skytg24",
+   "titolo": "Milano, opposizioni condannano violenze e attaccano governo",
+   "estratto": "Elly Schlein, Giuseppe Conte e l'Alleanza Verdi-Sinistra condannano fermamente gli episodi di violenza, ma accusano il governo di usarli come pretesto per criminalizzare il dissenso e ignorare il…",
+   "link": "https://tg24.sky.it/politica/video/2026/10/18/milano-opposizioni-condannano-violenze-e-attaccano-governo-1132652",
+   "pubblicato": "2026-10-18T16:42:02Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e5372ebf5776e201",
+   "fonte": "skytg24",
+   "titolo": "Nubifragio all'Elba, vasti allagamenti nella zona di Cavo",
+   "estratto": "Un grosso nubifragio all'Elba ha colpito in particolare la zona nord orientale dell'isola e soprattutto la frazione di Cavo, nel comune di Rio (Livorno), la stessa Rio Marina e l'abitato di Bagnaia…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/nubifragio-elba-allagamenti-cavo-1132653",
+   "pubblicato": "2026-10-18T16:41:45Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "78728fd2bd454578",
+   "fonte": "skytg24",
+   "titolo": "Padre picchiato dal branco, corteo di solidarietà a Napoli",
+   "estratto": "Una manifestazione di circa 500 persone a Napoli, organizzata in piazza Vanvitelli al Vomero dalla Rete per la sicurezza, per chiedere maggiore sicurezza per le strade della città, a partire dalla…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/padre-picchiato-branco-corteo-solidarieta-napoli-1132648",
+   "pubblicato": "2026-10-18T16:14:48Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7d3a43ee2dbbce65",
+   "fonte": "skytg24",
+   "titolo": "Ecuador, prete muore schiacciato dalla croce durante la messa in diretta social",
+   "estratto": "La pesante struttura si è staccata improvvisamente dalla parete alle spalle del sacerdote, che è deceduto sul colpo. Non sono ancora state chiarite le cause del distacco",
+   "link": "https://tg24.sky.it/cronaca/2026/10/18/ecuador-prete-muore-schiacciato-croce-video",
+   "pubblicato": "2026-10-18T16:08:08Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6d025ef3fabe60a1",
+   "fonte": "skytg24",
+   "titolo": "Scontri a Milano, tornano rabbia e saccheggi in centro VIDEO",
+   "estratto": "Il Reparto mobile della polizia, in tenuta antisommossa, è intervenuto in via Torino a Milano, dove alcuni manifestanti sono stati fermati dopo i saccheggi. All'altezza del Carrobbio i cordoni degli…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/sconti-a-milano-tornano-rabbia-e-saccheggi-in-centro-video-1132674",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cdd042817b274d97",
+   "fonte": "skytg24",
+   "titolo": "Scontri a Milano, i tafferugli con gli agenti. VIDEO",
+   "estratto": "Già 60 ragazzi, ma il numero sembra destinato a crescere, sono stati accompagnati in Questura a Milano. Provvedimenti che arrivano nella seconda giornata di protesta a Milano: nessun corteo…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/scontri-a-milano-i-tafferugli-con-gli-agenti-video-1132673",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c3b22c6729852129",
+   "fonte": "skytg24",
+   "titolo": "Scontri a Milano, saccheggiati negozi in via Torino. VIDEO",
+   "estratto": "Questo pomeriggio sono entrati in azione diversi gruppi, piccoli e molto veloci. Incappucciati e vestiti di nero hanno preso di mira le vetrine di alcuni negozi, poi saccheggiati. Danneggiate anche…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/scontri-a-milano-saccheggiati-negozi-in-via-torino-1132675",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0aaf07e11707f72e",
+   "fonte": "skytg24",
+   "titolo": "Milano, gli scontri con polizia in centro. VIDEO",
+   "estratto": "Piccoli gruppi e velocissimi. Arrivano, rompono, portano via e scappano. Una modalità con cui hanno messo a ferro e fuoco Milano ieri e che oggi i giovani scesi in piazza provano a replicare. Da San…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/milano-gli-scontri-con-polizia-in-centro-video-1132670",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "45ee1c2b8bbc8688",
+   "fonte": "skytg24",
+   "titolo": "Romania, caccia F-16 abbattono due droni russi sul Mar Nero",
+   "estratto": "I caccia F-16 delle forze armate romene hanno abbattuto due droni sulle acque territoriali del Paese. Il ministro della Difesa Radu Miruta ha dichiarato che si tratta probabilmente di velivoli russi…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/romania-caccia-droni-russi-mar-nero-1132676",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4c8d5e0dcfcbddda",
+   "fonte": "skytg24",
+   "titolo": "Milano, ancora tensione in centro: assaltati negozi. Meloni convoca riunione domani. LIVE",
+   "estratto": "Nel centro del capoluogo lombardo, dopo gli scontri di ieri, gruppi di giovani hanno assaltato nuovamente le vetrine dei negozi tra piazza Duomo e via Torino. Saccheggiato un supermercato, distrutti…",
+   "link": "https://tg24.sky.it/cronaca/2026/10/18/milano-proteste-ultime-notizie-diretta",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bd1d17022606f4dc",
+   "fonte": "skytg24",
+   "titolo": "Giorgia Meloni non firma il Dpcm per gli aumenti da un miliardo ai magistrati",
+   "estratto": "Lo ha confermato la premier in un'intervista concessa all'Adnkronos: \"In coscienza non posso mettere la mia firma su un Dpcm con il quale dovrei destinare quasi un miliardo di euro agli aumenti di…",
+   "link": "https://tg24.sky.it/politica/2026/10/18/meloni-dpcm-aumenti-magistrati",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bdae4328da148c6b",
+   "fonte": "libero",
+   "titolo": "Motori Magazine - 18/10/2026",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/49401820/undefined/",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d7dcb5aeaed29c9b",
+   "fonte": "libero",
+   "titolo": "Tg Ambiente - 18/10/2026",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/49401058/undefined/",
+   "pubblicato": "2026-10-18T15:54:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6cea7ccd61cb32ae",
+   "fonte": "open",
+   "titolo": "Nuovi scontri e saccheggi a Parigi, Trump: «Colpa dell’immigrazione, chiudete le frontiere». Stasera il discorso di Macron alla nazione",
+   "estratto": "Circa 2mila arresti per le violenze e i saccheggi di ieri. Il ministro Laurent Nuñez: «Atti violenti compiuti da delinquenti e individui dell'estrema sinistra»",
+   "link": "https://www.open.online/2026/10/18/francia-proteste-trump-discorso-macron/",
+   "pubblicato": "2026-10-18T15:53:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1b9bae6729dcceb5",
+   "fonte": "skytg24",
+   "titolo": "Abruzzo, Mondiale di papere galleggianti sul fiume Aterno",
+   "estratto": "Il fiume Aterno, nel tratto tra Tione degli Abruzzi e Acciano all'interno del Parco Naturale Regionale Sirente-Velino, ha ospitato la prima edizione del \"World Duck Race Championship\", il \"Mondiale…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/abruzzo-mondiale-di-papere-galleggianti-sul-fiume-aterno-1132643",
+   "pubblicato": "2026-10-18T15:52:20Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1cd7b7208db3eeda",
+   "fonte": "skytg24",
+   "titolo": "Scontri a Milano, un testimone: \"Erano giovanissimi, hanno rubato anche soldi\"",
+   "estratto": "La protesta a Milano degenerata in guerriglia urbana non ha portato solo danni e distruzione, ma anche saccheggi, come un testimone ha riportato a Sky TG24.",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/scontri-a-milano-un-testimone-hanno-rubato-anche-soldi-1132645",
+   "pubblicato": "2026-10-18T15:51:05Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a15131bedcdbb836",
+   "fonte": "ilgiornale",
+   "titolo": "Legge 104, dal Progetto di Vita alle modifiche procedurali, cosa cambia nel 2027",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cittadini/legge-104-dal-progetto-di-vita-alle-modifiche-procedurali-cosa-cambia-nel-2027/",
+   "pubblicato": "2026-10-18T15:47:35Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "9e1ebe513072e2ee",
+   "fonte": "ilgiornale",
+   "titolo": "Serie A, il Como cala il tris alla Fiorentina e si avvicina alla zona Champions",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/calcio/serie-a-il-como-cala-il-tris-alla-fiorentina-e-si-avvicina-alla-zona-champions/",
+   "pubblicato": "2026-10-18T15:44:40Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "f13f24a8803039d8",
+   "fonte": "ansa",
+   "titolo": "Milano: centinaia di giovani a gruppetti in piazza Duomo, 50 portati in questura",
+   "estratto": "Alcuni lanciano tavolini e sedie contro le vetrine",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/centinaia-di-giovani-a-gruppetti-in-piazza-duomo-50-portati-in-questura_57da2060-1834-4ed4-a7a9-19a0843c94bd.html",
+   "pubblicato": "2026-10-18T15:42:42Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "71817e868555df53",
+   "fonte": "ansa",
+   "titolo": "Corteo studentesco a Torino, il gip si riserva su tre minori arrestati",
+   "estratto": "Udienza di convalida a Torino, resta in carcere un 17enne fermato durante occupazione",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/corteo-studentesco-a-torino-il-gip-si-riserva-su-tre-minori-arrestati_ce689355-e1f6-4bf8-8064-e2b8be7111ea.html",
+   "pubblicato": "2026-10-18T15:42:41Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9d4d02e9a627bfc4",
+   "fonte": "nicolaporro",
+   "titolo": "Violenze a Milano, Cacciari: “Condannare e basta. Questi episodi fanno dimenticare le giuste cause delle manifestazioni”",
+   "estratto": "“E’ assolutamente da dementi concentrarsi sulle violenze di questi delinquenti e non sulle cause della crisi economica del Paese che, sia dal punto di vista della scuola sia da quello della sanità…",
+   "link": "https://www.nicolaporro.it/milanoquotidiano/violenze-a-milano-cacciari-condannare-e-basta-questi-episodi-fanno-dimenticare-le-giuste-cause-delle-manifestazioni/",
+   "pubblicato": "2026-10-18T15:40:15Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6a19b710c8f0147f",
+   "fonte": "nicolaporro",
+   "titolo": "Milano il giorno dopo: nuova guerriglia in centro",
+   "estratto": "Nuovi gruppi di violenti tra le vie milanesi: lanciati petardi e colpito la vetrina del negozio “Champions”",
+   "link": "https://www.nicolaporro.it/milano-il-giorno-dopo-nuova-guerriglia-in-centro/",
+   "pubblicato": "2026-10-18T15:38:44Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "484d12dc9498ed13",
+   "fonte": "ansa",
+   "titolo": "Scontri ai cortei, 'Pochi agenti in strada', scoppia la polemica tra Piantedosi e Sala. Danni per 1 milione di euro",
+   "estratto": "Il ministro dell'Interno: 'Azioni da professionisti del disordine. Anche i minorenni non resteranno impuniti'. Schlein: 'Condanniamo i delinquenti, ma non li usino per coprire le proteste pacifiche'",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/pochi-agenti-in-strada-scoppia-la-polemica-tra-piantedosi-e-sala.-danni-per_397d8359-98ac-4ba2-840f-a55dcb988745.html",
+   "pubblicato": "2026-10-18T15:35:19Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9de2021dbc8ecf51",
+   "fonte": "ansa",
+   "titolo": "Lega, 'subito un decreto, fermo preventivo anche per i minorenni'",
+   "estratto": "\"Trasformare in provvedimento urgente alcune delle misure del ddl sicurezza in Senato\"",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/lega-subito-un-decreto-fermo-preventivo-anche-per-i-minorenni_2d0a96ea-84c9-4737-ba97-72b2376b7d55.html",
+   "pubblicato": "2026-10-18T15:34:48Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "eda380f4f536fb52",
+   "fonte": "ansa",
+   "titolo": "Anm, 'se la premier non firma su stipendi faremo valere i nostri diritti come tutti'",
+   "estratto": "Il vicesegretario Celli: 'il governo decide sul Dpcm, noi valuteremo un ricorso'",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/anm-se-la-premier-non-firma-su-stipendi-faremo-valere-i-nostri-diritti-come_8cce168d-9317-4d96-be8a-04d56e7104d0.html",
+   "pubblicato": "2026-10-18T15:32:29Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d47af781b2780ef9",
+   "fonte": "skytg24",
+   "titolo": "Serie A, l'Udinese dominata dal Lecce che vince fuori casa 3-0",
+   "estratto": "Colpo esterno del Lecce di Di Francesco che si impone in Friuli 3-0 sull'Udinese e mette nei guai il tecnico bianconero Runjaić alla quinta sconfitta consecutiva. Tante le occasioni per i…",
+   "link": "https://tg24.sky.it/sport/video/2026/10/18/serie-a-udinese-lecce-0-3-video-gol-e-highlights-1132640",
+   "pubblicato": "2026-10-18T15:31:21Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6eeb4b373d2c9c77",
+   "fonte": "ilgiornale",
+   "titolo": "Ancora tensioni a Milano, migliaia di giovani in piazza: petardi contro la polizia, vetrine sfondate e negozi saccheggiati. Agenti schierati in Duomo - DIRETTA",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/attualita/ancora-tensioni-a-milano-migliaia-di-giovani-in-piazza-petardi-contro-la-polizia-vetrine-sfondate-e-negozi-saccheggiati-agenti-schierati-in-duomo/",
+   "pubblicato": "2026-10-18T15:31:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "e4832e234b4fbcf0",
+   "fonte": "rainews",
+   "titolo": "Aumenti da 1 miliardo ai magistrati: Giorgia Meloni non firma il Dpcm",
+   "estratto": "\"Dieci volte tanto quello che serve per l'autotrasporto, pronta ad ascoltare l'Anm\" convinta che \"la gran parte dei magistrati comprenda la situazione e le priorità del momento\". Perché i magistrati…",
+   "link": "https://www.rainews.it/articoli/2026/10/fonti-chigi-meloni-non-firma-il-dpcm-per-aumenti-da-1-miliardo-ai-magistrati-942854cf-4d92-4e0c-abe2-3e4846e05e2f.html",
+   "pubblicato": "2026-10-18T15:30:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fec9e9a71e86760c",
+   "fonte": "nicolaporro",
+   "titolo": "Milano, secondo giorno di devastazioni in centro: assaltato un Carrefour, saccheggiati i negozi in via Torino",
+   "estratto": "Non si ferma l’ondata di violenze nel centro di Milano. Dopo la giornata di sabato 17 ottobre, segnata da scontri con le forze dell’ordine, vetrine distrutte e negozi saccheggiati, anche nel…",
+   "link": "https://www.nicolaporro.it/milanoquotidiano/milano-secondo-giorno-di-devastazioni-in-centro-assaltato-un-carrefour-saccheggiati-i-negozi-in-via-torino/",
+   "pubblicato": "2026-10-18T15:29:37Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7de6d32d08ed409a",
+   "fonte": "ansa",
+   "titolo": "Fonti Chigi, Meloni non firma il Dpcm per gli aumenti da 1 miliardo ai magistrati",
+   "estratto": "\"Dieci volte tanto quello che serve per l'autotrasporto, pronta ad ascoltare l'Anm\". Il vice segretario dell'Anm Celli: 'Se la premier non firma sugli stipendi faremo valere i nostri diritti come…",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/fonti-chigi-meloni-non-firma-il-dpcm-per-aumenti-da-1-miliardo-ai-magistrati_91f8da6f-3aa1-4323-bfcd-b3c42aac4a2c.html",
+   "pubblicato": "2026-10-18T15:28:43Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f5afbd164cc9f1f1",
+   "fonte": "ilfatto",
+   "titolo": "Meloni non darà gli stipendi arretrati ai magistrati: “Non posso firmare”. La replica: “Faremo valere i nostri diritti”",
+   "estratto": "“In coscienza non posso mettere la mia firma su un Dpcm con il quale dovrei destinare quasi 1 miliardo di euro agli aumenti di stipendio dei magistrati“. Giorgia Meloni non ha esitazioni. La somma…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/giorgia-meloni-non-restituira-gli-stipendi-arretrati-ai-magistrati-non-posso-firmare-la-replica-faremo-valere-i-nostri-diritti/8542443/",
+   "pubblicato": "2026-10-18T15:27:22Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "90b3faca1668ba9c",
+   "fonte": "sole24ore",
+   "titolo": "Nuovi scontri in centro a Milano, Meloni convoca vertice sulla sicurezza",
+   "estratto": "Secondo round di guerriglia urbana a Milano dove centinaia di giovanissimi si sono dati prima appuntamento in piazza Duomo per poi spostarsi in un clima di forte tensione in via...",
+   "link": "https://www.ilsole24ore.com/art/nuovi-scontri-centro-milano-meloni-convoca-vertice-sicurezza-AJViNbnB",
+   "pubblicato": "2026-10-18T15:26:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8e8668b7d56110c5",
+   "fonte": "ilpost",
+   "titolo": "Breve storia dell’ex Ilva, dalla Grande depressione a oggi",
+   "estratto": "Ora che l'acciaieria di Taranto ha avviato la chiusura",
+   "link": "https://www.ilpost.it/2026/10/18/ex-ilva-storia/",
+   "pubblicato": "2026-10-18T15:24:15Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "06873e24570bbd0c",
+   "fonte": "skytg24",
+   "titolo": "Russia, attacco con droni ucraini: un morto e 15 feriti",
+   "estratto": "Una persona è rimasta uccisa e 15 sono rimaste ferite in un attacco con droni ucraini contro impianti petroliferi, strutture logistiche e centri dati a San Pietroburgo e nella regione di Leningrado…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/russia-attacco-droni-ucraini-1-morto-15-feriti-1132638",
+   "pubblicato": "2026-10-18T15:23:23Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b7e826bd6ea3fe86",
+   "fonte": "skytg24",
+   "titolo": "Scontri a Milano, chi sono i violenti che hanno devastato la città",
+   "estratto": "Milano, ma anche Torino e Bologna. Chi sono i violenti che si sono infiltrati nei vari cortei e che hanno messo a ferro e fuoco diverse città. Cosa si sa di loro? Un punto nel servizio.",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/milano-chi-sono-i-violenti-che-hanno-devastato-la-citta-1132624",
+   "pubblicato": "2026-10-18T15:22:17Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6d7f24b92fe14256",
+   "fonte": "skytg24",
+   "titolo": "Schlein: \"Pronta a essere candidata premier con o senza le primarie\"",
+   "estratto": "\"Sono pronta a guidare questa comunità e a guidarla come candidata alla presidenza del consiglio, con o senza le primarie\", ha detto la segretaria Pd Elly Schlein all'assemblea nazionale del Pd…",
+   "link": "https://tg24.sky.it/politica/video/2026/10/18/schlein-candidata-premier-pronta-con-o-senza-primarie-1132626",
+   "pubblicato": "2026-10-18T15:20:38Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f5906f7431f1cfae",
+   "fonte": "skytg24",
+   "titolo": "\"Riempi il piatto vuoto\": l'iniziativa di Terraperta",
+   "estratto": "Tremila piatti di ceramica disposti in Piazza Maggiore, a Bologna: questo è il cuore di \"Riempi il piatto vuoto\", l'iniziativa che torna in occasione della Giornata mondiale dell'alimentazione e che…",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/riempi-il-piatto-vuoto-liniziativa-di-terraperta-1132629",
+   "pubblicato": "2026-10-18T15:19:36Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7465bc67f3c98268",
+   "fonte": "skytg24",
+   "titolo": "Milano, Conte: \"Condanno la violenza ma governo non ignori disagio\"",
+   "estratto": "\"Il governo non può assolutamente permettersi di fronte a delle proteste, a qualche episodio anche di violenza che va fermamente condannato, di negare invece quella che è la radice, il disagio…",
+   "link": "https://tg24.sky.it/politica/video/2026/10/18/milano-conte-no-a-violenza-ma-governo-non-ignori-disagio-1132632",
+   "pubblicato": "2026-10-18T15:18:06Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fe50ef02396a36a6",
+   "fonte": "ilpost",
+   "titolo": "Nel centro di Milano ci sono nuovi disordini",
+   "estratto": "Decine di ragazzi hanno sfondato vetrine e pensiline in via Torino, il giorno dopo i violenti scontri in piazza Duomo",
+   "link": "https://www.ilpost.it/2026/10/18/proteste-ragazzi-milano-domenica/",
+   "pubblicato": "2026-10-18T15:18:04Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5869ce669292981e",
+   "fonte": "ilfatto",
+   "titolo": "Nuova giornata di guerriglia a Milano, gruppi di giovani assaltano diversi negozi in Via Torino",
+   "estratto": "Per il secondo giorno consecutivo è guerriglia urbana a Milano. Centinaia di giovanissimi si sono dati prima appuntamento in piazza Duomo e poi hanno invaso via Torino. I negozi hanno iniziato…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/guerriglia-milano-assalto-negozi-notizie/8542455/",
+   "pubblicato": "2026-10-18T15:17:32Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "aa20b5ed67d71ebe",
+   "fonte": "skytg24",
+   "titolo": "Scontri Milano, Gelmini: \"Condanna netta, lo faccia anche opposizione\"",
+   "estratto": "\"Ancora violenza a Milano, Piazza Duomo trasformata in una zona di guerriglia urbana. Tutto questo è inaccettabile e come Noi moderati condanniamo senza se e senza ma, l'accaduto. Cosa aspetta il…",
+   "link": "https://tg24.sky.it/politica/video/2026/10/18/milano-gelmini-condanna-netta-lo-faccia-anche-opposizione-1132633",
+   "pubblicato": "2026-10-18T15:16:42Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "74bbe1a64e0f2fe8",
+   "fonte": "skytg24",
+   "titolo": "Francia, caos proteste: guerriglia urbana e danni a Parigi",
+   "estratto": "Violente proteste contro il caro vita e il degrado dei servizi pubblici hanno scosso la Francia. A Parigi, mentre centinaia di migliaia di persone hanno manifestato pacificamente, alcuni gruppi…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/francia-proteste-danni-parigi-1132621",
+   "pubblicato": "2026-10-18T15:13:22Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3be469825050c37b",
+   "fonte": "repubblica",
+   "titolo": "Guerriglia a Milano, via Torino devastata: in 2mila assaltano e saccheggiano i negozi",
+   "estratto": "Nuova giornata di scontri in centro a Milano, dopo le devastazioni di ieri",
+   "link": "https://milano.repubblica.it/cronaca/2026/10/18/diretta/milano_guerriglia_giovani_centro-425656615/",
+   "pubblicato": "2026-10-18T15:08:13Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "762bf0f69f261496",
+   "fonte": "ilfatto",
+   "titolo": "Si stacca all’improvviso il crocifisso alle sue spalle e lo centra in pieno: parroco muore durante la messa sotto gli occhi dei fedeli presenti",
+   "estratto": "Il sacerdote redentorista Patricio Alfredo Sánchez Molinari ha perso la vita dopo essere stato colpito alla testa da una pesante croce di legno staccatasi dalla parete. La tragedia si è consumata a…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/si-stacca-allimprovviso-il-crocifisso-alle-sue-spalle-e-lo-centra-in-pieno-parroco-muore-durante-la-messa-sotto-gli-occhi-dei-fedeli-presenti/8542441/",
+   "pubblicato": "2026-10-18T15:08:09Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "45dd939998275d01",
+   "fonte": "ansa",
+   "titolo": "Giovani di nuovo in piazza a Milano sfondano le vetrine",
+   "estratto": "Assaltato un supermercato Carrefour",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/giovani-di-nuovo-in-piazza-a-milano-sfondano-le-vetrine_9940673e-de74-495f-a1c3-1742a621a4c9.html",
+   "pubblicato": "2026-10-18T15:06:02Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7255f715576ee467",
+   "fonte": "skytg24",
+   "titolo": "Festa Cinema Roma, recensione di L'essere amato: Javier Bardem e il prezzo delle assenze",
+   "estratto": "Un padre e una figlia, tredici anni di silenzio e un set cinematografico che riapre ferite mai rimarginate. Con L’essere amato (El ser querido), Rodrigo Sorogoyen racconta un confronto familiare in…",
+   "link": "https://tg24.sky.it/spettacolo/cinema/2026/10/18/l-essere-amato-film-recensione-javier-bardem",
+   "pubblicato": "2026-10-18T15:04:39Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "245d52d8a91c5a58",
+   "fonte": "skytg24",
+   "titolo": "Proteste in Francia, Trump: \"Chiuda le frontiere prima che sia troppo tardi\"",
+   "estratto": "Il Paese “è in fiamme”, ha detto il presidente statunitense commentando i violenti scontri in varie parti della nazione. “L'immigrazione di persone provenienti da un mondo completamente diverso…",
+   "link": "https://tg24.sky.it/mondo/2026/10/18/proteste-francia-trump",
+   "pubblicato": "2026-10-18T15:02:39Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "11ac8776d1d1fd49",
+   "fonte": "open",
+   "titolo": "Milano, ancora tensioni in piazza Duomo: petardi contro la polizia, supermercati e negozi saccheggiati. Meloni convoca riunione sull’ordine pubblico – La diretta",
+   "estratto": "Dopo le tensioni di ieri, nuovo appello sui social nel centro cittadino. La polizia schiera i reparti e attiva i controlli attorno alla piazza: gruppi di ragazzi lanciano botti e si disperdono verso…",
+   "link": "https://www.open.online/2026/10/18/milano-presidio-carovita-proteste-notizie-18-ottobre/",
+   "pubblicato": "2026-10-18T15:02:11Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "078270bc4b50e0f2",
+   "fonte": "nicolaporro",
+   "titolo": "Aumento stipendi magistrati, il “no” di Meloni: “Non firmo”",
+   "estratto": "Il premier mette al primo posto l’emergenza carburanti e gli aiuti all’autotrasporto: \"Sono convinta che la gran parte delle toghe comprenda la situazione\"",
+   "link": "https://www.nicolaporro.it/politicoquotidiano/aumento-stipendi-magistrati-il-no-di-meloni-non-firmo/",
+   "pubblicato": "2026-10-18T15:00:11Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "93d0d1b6f4cb71ac",
+   "fonte": "ansa",
+   "titolo": "Scontri di piazza, Meloni convoca per domani un vertice sull'ordine pubblico",
+   "estratto": "La decisione della premier dopo i disordini di questi giorni nelle manifestazioni",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/scontri-di-piazza-meloni-convoca-per-domani-un-vertice-sullordine-pubblico_ff55f44c-05eb-4618-a09f-4519d228aa18.html",
+   "pubblicato": "2026-10-18T15:00:07Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "332a0def93b3c18e",
+   "fonte": "laverita",
+   "titolo": "I progressisti contro il progresso dell’IA",
+   "estratto": "Dimenticati i cicli medievali, gli uomini dell’Ottocento scoprirono un nuovo modo di lavorare che portò con sé alienazione e nevrosi che Marx tollerò per il riscatto operaio. Ora che le macchine…",
+   "link": "https://www.laverita.info/pensiero-forte/progressisti-intelligenza-artificiale",
+   "pubblicato": "2026-10-18T15:00:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "76bd5fb2b7479b69",
+   "fonte": "repubblica",
+   "titolo": "Scontri a Milano, nuova guerriglia in centro. Assaltati e saccheggiati negozi in via Torino",
+   "estratto": "Nuova chiamata sui social, almeno 2mila giovani: gli agenti schierati identificano chi arriva in piazza Duomo. Idranti pronti a entrare in azione",
+   "link": "https://milano.repubblica.it/cronaca/2026/10/18/news/scontri_milano_petardi_piazza_duomo-425656584/",
+   "pubblicato": "2026-10-18T14:58:15Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e05435743810a91b",
+   "fonte": "ilfatto",
+   "titolo": "Scontri a Milano, nuova guerriglia in centro: vetrine sfondate, assaltato un Carrefour. 60 giovani portati in Questura",
+   "estratto": "",
+   "link": "https://www.ilfattoquotidiano.it/cronaca/live-post/2026/10/18/scontri-milano-piazza-duomo-guerriglia-notizie/8542444/",
+   "pubblicato": "2026-10-18T14:56:15Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "27f9c2cadb73db02",
+   "fonte": "domani",
+   "titolo": "Al Jazeera, a Gaza almeno cinque persone uccise dall’Idf: due bambini",
+   "estratto": "Nel nord della Striscia l’esercito israeliano ha ucciso un bambino, mentre Misk Hazem al Dalu, di sei anni, è stata uccisa nel campo profughi di Al Maghazi, nella parte centrale dell’enclave. A Gaza…",
+   "link": "https://www.editorialedomani.it/politica/mondo/gaza-morti-feriti-attacco-israeliano-due-bambini-funerale-collettivo-jitormfa",
+   "pubblicato": "2026-10-18T14:55:07Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "eb46f1f70a8345f1",
+   "fonte": "domani",
+   "titolo": "Rimborsi ai magistrati, Meloni non firmerà il Dpcm. Dura replica delle toghe",
+   "estratto": "In seguito a un contenzioso amministrativo, lo Stato dovrebbe conguagliare circa un miliardo di euro per stipendi versati non correttamente ai magistrati. Secondo fonti di palazzo Chigi, la premier…",
+   "link": "https://www.editorialedomani.it/politica/italia/rimborsi-ai-magistrati-meloni-orientata-a-non-firmare-il-dpcm-htsg4yti",
+   "pubblicato": "2026-10-18T14:51:18Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "86c8ba12ca69de73",
+   "fonte": "skytg24",
+   "titolo": "Festa del Cinema di Roma, Edoardo Bove si racconta nel doc \"In un battito\"",
+   "estratto": "Dal malore in campo al ritorno al calcio. “In un battito” ripercorre i quindici mesi che hanno segnato la vita del centrocampista dopo Fiorentina-Inter. Diretto da Giovanni Troilo e prodotto da…",
+   "link": "https://tg24.sky.it/spettacolo/cinema/2026/10/18/festa-cinema-roma-edoardo-bove-in-un-battito",
+   "pubblicato": "2026-10-18T14:49:24Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "890ac50c22f34c17",
+   "fonte": "nicolaporro",
+   "titolo": "Ex Ilva, la Cassazione decide sull’area a caldo. Ma l’aria di Taranto non è irrespirabile",
+   "estratto": "Martedì la Suprema Corte la Cassazione decide sull’area a caldo dell’ex Ilva. I dati Arpa e le bonifiche raccontano un capoluogo diverso dal 2013: ribaltone plausibile?",
+   "link": "https://www.nicolaporro.it/economia-finanza/ef-economia/ex-ilva-cassazione-area-a-caldo-taranto-dati-arpa/",
+   "pubblicato": "2026-10-18T14:43:17Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3560662bb2addf55",
+   "fonte": "ansa",
+   "titolo": "La giornata di scontri in piazza, dalla chiamata sui social da una sigla sconosciuta agli arresti",
+   "estratto": "Confcommercio: 'Tra Milano e Bologna danni per 1 milione di euro'",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/la-giornata-di-scontri-in-piazza-dalla-chiamata-sui-social-da-una-sigla-sconosciuta_59d80aae-d045-4d8d-98e9-8e43612a389b.html",
+   "pubblicato": "2026-10-18T14:40:37Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c3728fb4dc269fbd",
+   "fonte": "ilgiornale",
+   "titolo": "Meloni dice no al miliardo per le toghe: “In coscienza non posso firmare”",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/magistratura/meloni-dice-no-al-miliardo-per-le-toghe-in-coscienza-non-posso-firmare/",
+   "pubblicato": "2026-10-18T14:40:33Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "f44b4f378e761ba2",
+   "fonte": "ilgiornale",
+   "titolo": "Proteste a Milano, ecco chi difende i minorenni dalla polizia",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/nazionale/proteste-a-milano-ecco-chi-difende-i-minorenni-dalla-polizia/",
+   "pubblicato": "2026-10-18T14:37:41Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "2b938337af903da5",
+   "fonte": "ilfatto",
+   "titolo": "È morto a 66 anni il principe Vitaliano Borromeo Arese: “Custode lungimirante di una storia secolare del Lago Maggiore”",
+   "estratto": "È morto all’età di 66 anni il principe Vitaliano Borromeo Arese, presidente di Kaleon e figura di spicco dell’imprenditoria italiana. Nel corso degli ultimi quindici anni ha legato indissolubilmente…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/e-morto-a-66-anni-il-principe-vitaliano-borromeo-arese-custode-lungimirante-di-una-storia-secolare-del-lago-maggiore/8542417/",
+   "pubblicato": "2026-10-18T14:32:22Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c0b7c9071bb922f4",
+   "fonte": "repubblica",
+   "titolo": "Anche il Fondo monetario vede i nuvoloni. Il debito è la minaccia numero uno",
+   "estratto": "Dagli incontri di Bangkok emerge la preoccupazione per il futuro prossimo. Tra i pericoli maggiori, l’alto indebitamento nelle economie avanzate e i disequilibri tra Stati Uniti e Cina",
+   "link": "https://www.repubblica.it/economia/2026/10/18/news/fondo_monetario_debito_minaccia-425656591/",
+   "pubblicato": "2026-10-18T14:29:54Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "02c9d8898aa7222f",
+   "fonte": "ilpost",
+   "titolo": "Sta per partire una sonda verso una delle due lune di Marte",
+   "estratto": "L'agenzia spaziale giapponese vuole raggiungere Phobos, di cui sappiamo poco, e riportarne indietro un pezzetto",
+   "link": "https://www.ilpost.it/2026/10/18/missione-spaziale-giapponese-phobos-marte/",
+   "pubblicato": "2026-10-18T14:29:35Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8dc73f8549f1882d",
+   "fonte": "open",
+   "titolo": "Morte di David Rossi, la rivelazione di Giletti: «La commissione farà i nomi: ecco chi fu il mandante dell’omicidio» – Il video",
+   "estratto": "Il conduttore de \"Lo stato delle cose\" lancia una clamorosa anticipazione in un video social che gli è costato una querela",
+   "link": "https://www.open.online/2026/10/18/david-rossi-giletti-mandante-mussari-commissione-inchiesta-video/",
+   "pubblicato": "2026-10-18T14:29:24Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7efb18d535b6b904",
+   "fonte": "ilfatto",
+   "titolo": "Due bambini uccisi a Gaza dagli attacchi dell’Idf in 24 ore: 340 minori morti dall’inizio del cessate il fuoco",
+   "estratto": "Da più di un anno a Gaza è in vigore il cessate il fuoco, ma solo domenica due bambini palestinesi sono stati uccisi dal fuoco delle Forze di difesa israeliane, come riporta l’agenzia Wafa. Secondo…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/gaza-bambini-uccisi-idf-notizie/8542411/",
+   "pubblicato": "2026-10-18T14:28:55Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bd58cc9a95d1e417",
+   "fonte": "ilfatto",
+   "titolo": "Massimo Giletti sul caso David Rossi: “Per la commissione d’inchiesta tra i presunti mandanti dell’omicidio c’è Mussari”. L’ex presidente Mps: “Una follia, lo querelo”",
+   "estratto": "“Per la commissione d’inchiesta sulla morte del manager di Monte dei Paschi David Rossi il presunto mandante dell’omicidio sarebbe stato l’ex presidente di Mps, Giuseppe Mussari. E’ quanto riporta…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/massimo-giletti-sul-caso-david-rossi-per-la-commissione-dinchiesta-tra-i-presunti-mandanti-dellomicidio-ce-lex-presidente-mps/8542407/",
+   "pubblicato": "2026-10-18T14:27:32Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "abe0d7009141212e",
+   "fonte": "ansa",
+   "titolo": "Nubifragio all'Elba, allagamenti nella zona di Cavo",
+   "estratto": "Il Comune di Rio: 'Danni forti sul lungomare'",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/nubifragio-allelba-allagamenti-nella-zona-di-cavo_a45d53d6-0995-44be-a32c-4e3336c507bb.html",
+   "pubblicato": "2026-10-18T14:25:24Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b9643f9e7a3f3191",
+   "fonte": "ansa",
+   "titolo": ">ANSA-LA-STORIA/ In Abruzzo l'inusuale mondiale di papere galleggianti",
+   "estratto": "Una gara per l'ambiente. E, come a Berlino per calcio, vittoria dell'Italia sulla Francia",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/ansa-la-storia-in-abruzzo-linusuale-mondiale-di-papere-galleggianti_cfda80ab-6d29-4d01-8760-0845ed23f82e.html",
+   "pubblicato": "2026-10-18T14:20:27Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "15e12531eb93420f",
+   "fonte": "ilpost",
+   "titolo": "I mix di videogiochi fatti con l’AI",
+   "estratto": "Non sono fatti per giocarci davvero, ma dicono molto sul futuro del settore",
+   "link": "https://www.ilpost.it/2026/10/18/mix-videogiochi-ai/",
+   "pubblicato": "2026-10-18T14:20:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4702802ef715fbc8",
+   "fonte": "ilfatto",
+   "titolo": "Marattin si offre al centrodestra: “Se son rose fioriranno”. Calenda lo attacca: “Va a fare il cespuglio con Salvini”",
+   "estratto": "Dai Ds al Pd, poi Italia viva. La rottura con Matteo Renzi, segretario del Partito liberaldemocratico per acclamazione e, ora, il probabile ingresso in Forza Italia. Ciò che è certo, nella parabola…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/marattin-centrodestra-calenda-scontro-notizie/8542399/",
+   "pubblicato": "2026-10-18T14:14:33Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "53ffe7bedd3d0556",
+   "fonte": "ansa",
+   "titolo": "Approvata all'unanimità la proroga del mandato di Schlein alla guida del Pd",
+   "estratto": "Nel voto da remoto c'è stato un astenuto e un contrario",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/approvata-allunanimita-la-proroga-del-mandato-di-schlein-alla-guida-del-pd_4c877d80-d08f-4912-a968-eec2e5bd0e40.html",
+   "pubblicato": "2026-10-18T14:14:19Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "03284236b0450e39",
+   "fonte": "will",
+   "titolo": "Le immagini delle violenze che hanno attraversato la Francia stanno facendo il giro del mondo.",
+   "estratto": "Ma, come sta accadendo anche in Italia, raccontano solo una parte di quello che è successo. Centinaia di migliaia di persone sono scese in piazza per chiedere scuole migliori, salari più dignitosi e…",
+   "link": "https://www.instagram.com/reel/Deo3nq1i3WY/",
+   "pubblicato": "2026-10-18T14:13:56Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "instagram"
+  },
+  {
+   "id": "8dac3432560fada7",
+   "fonte": "ilfatto",
+   "titolo": "Ricina, ipotesi movente sentimentale? Gianni Di Vita ammette la relazione con una donna: il marito di lei incontrò Antonella Di Ielsi",
+   "estratto": "Una relazione extraconiugale rimasta nascosta per anni, un matrimonio in crisi e un incontro avvenuto il giorno prima della data ritenuta più probabile per l’avvelenamento. Sono gli elementi che si…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/ricina-gianni-di-vita-ammette-la-relazione-con-una-donna-il-marito-di-lei-incontro-antonella-di-ielsi/8542414/",
+   "pubblicato": "2026-10-18T14:06:48Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cef07e8280babd58",
+   "fonte": "ilpost",
+   "titolo": "Il governo vuole che i pedoni facciano più attenzione sulle strisce",
+   "estratto": "Una modifica proposta per il Codice della strada li obbliga a fermarsi e ad assicurarsi che gli automobilisti si fermino, prima di attraversare",
+   "link": "https://www.ilpost.it/2026/10/18/regole-pedoni-nuovo-codice-strada/",
+   "pubblicato": "2026-10-18T14:05:33Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3842713136d474bc",
+   "fonte": "ilgiornale",
+   "titolo": "“Siete dei vandali”. “Ci battiamo anche per te”. Il faccia a faccia a Milano tra un poliziotto e una manifestante",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/nazionale/siete-dei-vandali-ci-battiamo-anche-per-te-il-faccia-a-faccia-a-milano-tra-un-poliziotto-e-una-manifestante/",
+   "pubblicato": "2026-10-18T14:03:52Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "3d152fded824a85b",
+   "fonte": "open",
+   "titolo": "Un miliardo di euro ai magistrati? Giorgia Meloni si chiama fuori: «Non firmerò il decreto». L’Anm: «Faremo valere i nostri diritti»",
+   "estratto": "La premier annuncia all’Adnkronos che non firmerà il Dpcm per riconoscere circa 970 milioni di euro tra arretrati e aumenti di stipendio: «Mandino pure un commissario»",
+   "link": "https://www.open.online/2026/10/18/stipendi-arretrati-magistrati-giorgia-meloni-firma-decreto/",
+   "pubblicato": "2026-10-18T14:03:46Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "62de927a3f2c0164",
+   "fonte": "nicolaporro",
+   "titolo": "Milei sbarca in Italia, motosega accesa su Stato e burocrazia",
+   "estratto": "A Milano nasce un nuovo think tank per promuovere la libertà economica, tagliare i vincoli burocratici e rimettere in discussione il ruolo dello Stato nell’economia e nella società",
+   "link": "https://www.nicolaporro.it/politicoquotidiano/milei-sbarca-in-italia-motosega-accesa-su-stato-e-burocrazia/",
+   "pubblicato": "2026-10-18T14:03:34Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bffa34eb2f2872ae",
+   "fonte": "rainews",
+   "titolo": "Netanyahu: \"Elezioni saranno cruciali, si vota per la destra o per la Palestina\"",
+   "estratto": "Il premier si rivolge all'elettorale ebraico a pochi giorni dalle politiche del 27 ottobre prossimo, ma secondo gli ultimi sondaggi il blocco di destra guidato dal premier pur restando in testa ai…",
+   "link": "https://www.rainews.it/articoli/2026/10/netanyahu-elezioni-saranno-cruciali-si-vota-per-la-destra-o-per-la-palestina-eb56de90-1086-4da4-a27d-195338b32f88.html",
+   "pubblicato": "2026-10-18T14:01:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4a0f95d9b6518efc",
+   "fonte": "laverita",
+   "titolo": "Avere energia verde senza suicidarsi è possibile. Ecco come",
+   "estratto": "La dipendenza da idrocarburi ci rende vulnerabili sul piano geopolitico. Ma la decarbonizzazione va sottratta all’ideologia.",
+   "link": "https://www.laverita.info/ambiente/energia-green-strategie",
+   "pubblicato": "2026-10-18T14:00:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cad2d3071cc131c0",
+   "fonte": "ilgiornale",
+   "titolo": "Schlein si prenota Palazzo Chigi e sfida Conte: “Mi candido con o senza primarie”",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/interni/schlein-si-prenota-palazzo-chigi-e-sfida-conte-mi-candido-con-o-senza-primarie/",
+   "pubblicato": "2026-10-18T13:59:37Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "sitemap"
+  },
   {
    "id": "2dd517df02b8d589",
    "fonte": "skytg24",
@@ -9,6 +829,46 @@
    "link": "https://tg24.sky.it/mondo/video/2026/10/18/papa-leone-xiv-angelus-1132617",
    "pubblicato": "2026-10-18T13:59:23Z",
    "raccolto": "2026-10-18T13:07:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "09c7373ae997776e",
+   "fonte": "ansa",
+   "titolo": "Drone sospetto in Lituania, intervengono i caccia italiani",
+   "estratto": "Nato: 'Pronti a reagire a ogni minaccia'. Ieri un altro caso in Romania. Danneggiata la recinzione dello scalo di Lipsia",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/allarme-in-lituania-per-possibile-drone-popolazione-invitata-ad-andare-nei-rifugi_5919d6be-2347-43cb-bc66-245437e9ed27.html",
+   "pubblicato": "2026-10-18T13:58:48Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b3d756086fea1880",
+   "fonte": "ilfatto",
+   "titolo": "Ex Ilva, migliaia di persone in corteo a Taranto con le croci coi nomi dei morti: “Lo stabilimento va chiuso ma vanno tutelati i lavoratori”",
+   "estratto": "“Ognuno porta la sua croce, la mia si chiama Miriam. Aveva solo cinque anni”. Antonella Massaro è in testa al corteo partito sabato pomeriggio da piazzale Democrate, a Taranto. La manifestazione…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/ex-ilva-taranto-manifestazione-chiusura-notizie/8542326/",
+   "pubblicato": "2026-10-18T13:58:16Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c7ab37a849a2e07d",
+   "fonte": "ansa",
+   "titolo": "Le famiglie delle vittime del 7 ottobre e degli ostaggi chiedono un'indagine penale contro Netanyahu",
+   "estratto": "Netanyahu: 'Elezioni cruciali, si vota per la destra o per la Palestina'",
+   "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/le-famiglie-delle-vittime-del-7-ottobre-e-degli-ostaggi-chiedono-unindagine-penale_b83ace76-5a3b-45fc-aedf-ce5bfc7eddeb.html",
+   "pubblicato": "2026-10-18T13:56:25Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b5dab2fc5ef92f88",
+   "fonte": "ilfatto",
+   "titolo": "“La tv italiana si è impigrita, si vedono sempre gli stessi palinsesti e gli stessi show”: Fiorello torna stasera su Rai 1 dopo 15 anni con un programma misterioso di 15 minuti. Ecco cosa sappiamo",
+   "estratto": "Un ritorno in prima serata su Rai 1 atteso da 15 anni, fissato per oggi, domenica 18 ottobre, alle 20.30. Eppure, a poche ore dalla messa in onda, del nuovo progetto televisivo di Fiorello non si…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/la-tv-italiana-si-e-impigrita-si-vedono-sempre-gli-stessi-palinsesti-e-gli-stessi-show-fiorello-torna-stasera-su-rai-1-dopo-15-anni-con-un-programma-misterioso-di-15-minuti-ecco-c/8542406/",
+   "pubblicato": "2026-10-18T13:54:25Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -32,6 +892,16 @@
    "canale": "rss"
   },
   {
+   "id": "048d65a82aed5bae",
+   "fonte": "repubblica",
+   "titolo": "Meloni sugli stipendi dei magistrati: “Non firmerò il decreto sugli aumenti”",
+   "estratto": "La premier all’Adnkronos: “Il Consiglio di Stato nomini pure un commissario, in tutta coscienza non posso destinare 1 miliardo” alle retribuzioni. La cifra è quella stabilita dalle sentenze dei…",
+   "link": "https://www.repubblica.it/economia/2026/10/18/news/meloni_non_firmo_decreto_stipendi_magistrati-425656555/",
+   "pubblicato": "2026-10-18T13:50:51Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "01780301f136b73b",
    "fonte": "skytg24",
    "titolo": "Assemblea Pd, Schlein: \"Pronta a essere candidata premier con o senza le primarie\"",
@@ -39,6 +909,76 @@
    "link": "https://tg24.sky.it/politica/2026/10/18/assemblea-nazionale-pd-schlein",
    "pubblicato": "2026-10-18T13:47:00Z",
    "raccolto": "2026-10-18T13:07:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "296eea317884303c",
+   "fonte": "ansa",
+   "titolo": "Serie A: Milan-Atalanta in campo alle 18 DIRETTA",
+   "estratto": "Le foto e la cronaca",
+   "link": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/18/serie-a-milan-atalanta-in-campo-alle-18-diretta_0af62bdd-e013-406b-8cb4-08048eb4690a.html",
+   "pubblicato": "2026-10-18T13:43:30Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "32bce89768ec3206",
+   "fonte": "sole24ore",
+   "titolo": "Meloni: «Non firmo decreto per dare ora un miliardo di euro ai magistrati, mia priorità le fasce deboli»",
+   "estratto": "“Se il Consiglio di Stato lo riterrà opportuno, nomini pure il commissario. Ciascuno si assumerà le proprie responsabilità. Ma in coscienza non posso mettere la mia firma su un Dpcm...",
+   "link": "https://www.ilsole24ore.com/art/meloni-non-firmo-decreto-dare-ora-1-mld-euro-magistrati-mia-priorita-fasce-deboli-AJsjNYnB",
+   "pubblicato": "2026-10-18T13:41:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "37cf53ef8500a423",
+   "fonte": "rainews",
+   "titolo": "Assemblea Pd, Elly Schlein: \"Pronta a essere candidata premier con o senza le primarie\"",
+   "estratto": "\"Sono pronta a guidare questa comunità alla presidenza del consiglio\". Lo ha detto la segretaria all'Assemblea nazionale del Partito Democratico. “Se faremo le primarie saranno una festa”",
+   "link": "https://www.rainews.it/articoli/2026/10/assemblea-pd-elly-schlein-pronta-a-essere-candidata-premier-con-o-senza-le-primarie-04e8b9be-8afc-48b8-81b7-c6d59f0bd3bd.html",
+   "pubblicato": "2026-10-18T13:37:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1361d94ddd75546e",
+   "fonte": "libero",
+   "titolo": "Milano ferita dalla violenza: non è protesta, è delinquenza. Gentaglia che va punita con il carcere. Solidarietà alle forze dell’ordine",
+   "estratto": "Una città devastata nelle strade e nell’anima, agenti aggrediti, vetrine distrutte e scene di inaudita violenza. Quando la protesta diventa devastazione, non esistono giustificazioni: la violenza va…",
+   "link": "https://www.liberoquotidiano.it/news/general/49401823/milano-ferita-dalla-violenza-non-e-protesta-e-delinquenza-gentaglia-che-va-punita-con-il-carcere-solidarieta-alle-forze-/",
+   "pubblicato": "2026-10-18T13:35:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fed84c7f17fc2df0",
+   "fonte": "ilfatto",
+   "titolo": "“È stato travolgente e terrificante, non posso portare il peso del mondo sulle mie spalle. Klara? Mercoledì si sbarazzerebbe di lei facendola saltare in aria”: Jenna Ortega presenta il nuovo film alla Festa di Roma",
+   "estratto": "“A volte è stato travolgente e terrificante, ti senti disconnesso dal mondo che ti circonda; sono consapevole di essere un personaggio pubblico, so bene che le persone sono libere di farsi le loro…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/e-stato-travolgente-e-terrificante-non-posso-portare-il-peso-del-mondo-sulle-mie-spalle-klara-mercoledi-si-sbarazzerebbe-di-lei-facendola-saltare-in-aria-jenna-ortega-presenta-il-nuovo-film-al/8542391/",
+   "pubblicato": "2026-10-18T13:34:11Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1460bcdc8110c3ab",
+   "fonte": "ansa",
+   "titolo": "Salvini, maggiore libertà d'azione alle forze dell'ordine su idranti a taser",
+   "estratto": "\"So quanto è difficile gestire l'ordine pubblico, un abbraccio a gli agenti feriti\"",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/salvini-maggiore-liberta-dazione-alle-forze-dellordine-su-idranti-a-taser_ef8b5346-1bd2-4c32-855e-234ad1fbd14f.html",
+   "pubblicato": "2026-10-18T13:31:19Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1b30a1ccfd73c168",
+   "fonte": "repubblica",
+   "titolo": "Undicimila manifestanti, 28 arresti (12 minorenni) e 141 agenti feriti: il bollettino delle piazze",
+   "estratto": "Il bilancio, ancora provvisorio, è quello raccolto dagli investigatori al termine delle manifestazioni di sabato 17 ottobre del Nord Italia",
+   "link": "https://www.repubblica.it/politica/2026/10/18/news/manifestazioni_milano_torino_bologna_brescia_arrestati_feriti-425656547/",
+   "pubblicato": "2026-10-18T13:30:54Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -50,6 +990,16 @@
    "pubblicato": "2026-10-18T13:27:47Z",
    "raccolto": "2026-10-18T13:28:59Z",
    "canale": "instagram"
+  },
+  {
+   "id": "537ab3010c924de8",
+   "fonte": "lastampa",
+   "titolo": "Milano, nuova guerriglia in centro: ecco il momento dell'assalto ai negozi",
+   "estratto": "Nuove tensioni a Milano, dopo gli scontri di ieri. Assaltati i negozi in zona piazza Duomo. Nelle immagini le vetrine spaccate dai vandali e l'assalto ai negozi. Di Andrea Siravo",
+   "link": "https://www.lastampa.it/cronaca/2026/10/18/video/milano_nuova_guerriglia_in_centro_ecco_il_momento_dellassalto_ai_negozi-15770064/",
+   "pubblicato": "2026-10-18T13:25:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
   },
   {
    "id": "8cc01605b692e43a",
@@ -70,6 +1020,16 @@
    "pubblicato": "2026-10-18T13:23:35Z",
    "raccolto": "2026-10-18T13:26:20Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "6387650e983ba561",
+   "fonte": "laverita",
+   "titolo": "Il centrodestra al bivio dei balzelli: «Abolire per sempre la sugar tax»",
+   "estratto": "Industria in pressing. Il sottosegretario alla Salute Marcello Gemmato: con l’imposta non cala il consumo di bibite edulcorate.",
+   "link": "https://www.laverita.info/governo/sugar-tax-abolizione-governo",
+   "pubblicato": "2026-10-18T13:22:36Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
   },
   {
    "id": "318b6d730849d9d3",
@@ -172,6 +1132,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "d2af0312e4a88704",
+   "fonte": "libero",
+   "titolo": "Giorgia Meloni: \"Non firmo l'aumento di stipendio ai magistrati. Ognuno si assuma le sue responsabilità\"",
+   "estratto": "\"Direttore non firmerò\". Risponde così, senza giri di parole, la presidente del Consiglio Giorgia Meloni raggiunta al telefono dal direttore dell'Adnkronos Davide Desario. \"In coscienza - spiega la…",
+   "link": "https://www.liberoquotidiano.it/news/giustizia/49401064/giorgia_meloni_non_firmo_aumento_stipendio_magistrati_ognuno_assuma_responsabilita_/",
+   "pubblicato": "2026-10-18T13:10:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "25ee7dfba72159db",
    "fonte": "ilfatto",
    "titolo": "“Il segreto della mia longevità? Niente fumo né alcol, la mia dieta è fatta di verdure e minestroni. Sento tutti i giorni la messa e recito il rosario”: Pierina compie 110 anni, la sua storia",
@@ -242,6 +1212,16 @@
    "canale": "rss"
   },
   {
+   "id": "2cd6184cdd38a191",
+   "fonte": "libero",
+   "titolo": "Galeazzo Bignami spiana la sinistra: \"Finché avete Ilaria Salis, non stupitevi\"",
+   "estratto": "\"Innanzitutto, solidarietà e davvero grazie alle nostre forze dell'ordine perché difendono tutti noi, difendono la nostra sicurezza, nonostante una sinistra pronta a scagliarsi contro il loro…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49401062/galeazzo-bignami-spiana-sinistra-finche-avete-ilaria-salis-non-stupitevi/",
+   "pubblicato": "2026-10-18T13:04:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "0145e149bba9ca4b",
    "fonte": "ilfatto",
    "titolo": "Conte: “Sulla politica estera non ci divideremo come Meloni e Salvini. Noi siamo seri”",
@@ -279,6 +1259,16 @@
    "link": "https://www.rainews.it/articoli/2026/10/vela-arca-fa-il-bis-dopo-la-barcolana-vince-anche-in-laguna--c0731f13-7628-4e78-9ecc-18708907711c.html",
    "pubblicato": "2026-10-18T12:56:00Z",
    "raccolto": "2026-10-18T13:10:41Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cd49031f5e7fbfd3",
+   "fonte": "libero",
+   "titolo": "Elly Schlein \"candidata premier con o senza primarie\": come si va a schiantare",
+   "estratto": "Il dado è tratto, Giuseppe Conte è allevato: la segretaria del Pd Elly Schlein si candiderà a Palazzo Chigi, \"con e senza primarie\". Usa proprio queste parole, la leader dem, a scanso di equivoci…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49401053/elly-schlein-candidata-premier-con-o-senza-primarie-come-si-va-schiantare/",
+   "pubblicato": "2026-10-18T12:56:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -322,6 +1312,16 @@
    "canale": "rss"
   },
   {
+   "id": "bd0bcf115b9a58ea",
+   "fonte": "lastampa",
+   "titolo": "Milano, ancora guerriglia in centro: vetrine sfondate e un supermercato saccheggiato",
+   "estratto": "Sessanta sono stati già fermati per l’identificazione e accompagnati in questura",
+   "link": "https://www.lastampa.it/cronaca/2026/10/18/diretta/milano_piazza_duomo_cosa_succede_oggi_diretta-15770038/",
+   "pubblicato": "2026-10-18T12:50:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "2e234e1e1af1c9ce",
    "fonte": "skytg24",
    "titolo": "Schlein: \"Non usino violenti per coprire proteste pacifiche\"",
@@ -339,6 +1339,36 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/scontri-ai-cortei-piantedosi-azioni-da-professionisti-del-disordine.-crosetto-chi-crea_397d8359-98ac-4ba2-840f-a55dcb988745.html",
    "pubblicato": "2026-10-18T12:49:00Z",
    "raccolto": "2026-10-18T13:07:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "32d26d60e2e36170",
+   "fonte": "rainews",
+   "titolo": "Guida per gioco il trattore e viene travolto: muore a 16 anni",
+   "estratto": "Tragedia nelle campagne di Cortona, nella frazione di Terontola Alta. Sedicenne muore nella notte schiacciato dal trattore che stava guidando, forse per gioco. Indagini in corso",
+   "link": "https://www.rainews.it/video/2026/10/toscana-cortona-guida-il-trattore-morto-un-ragazzo-7e68a6e8-095d-4ccd-a6a8-1421fee7b461.html",
+   "pubblicato": "2026-10-18T12:49:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d9be5be8f9a349b6",
+   "fonte": "lastampa",
+   "titolo": "Ha lasciato Ingegneria per fare il contadino nella valle del porro: “Orgoglioso di questo lavoro”",
+   "estratto": "La storia di Fabio Fissore, ex studente universitario a Torino che ha scelto di abbandonare gli studi al Politecnico per proseguire la tradizione di famiglia: coltivare la terra a Cervere come il…",
+   "link": "https://www.lastampa.it/cuneo/2026/10/18/news/la_storia_di_fabio_fissore_dal_politecnico_alla_valle_del_porro_orgoglioso_di_questo_lavoro-15770036/",
+   "pubblicato": "2026-10-18T12:48:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5a479f11fa7c412b",
+   "fonte": "libero",
+   "titolo": "Russia, attacco a San Pietroburgo. Drone nei cieli della Lituania, si alzano i caccia italiani",
+   "estratto": "Un altro inquietante \"incidente militare\" per misurare la prontezza della reazione difensiva di Europa e Nato. Due caccia Eurofighter italiani sono decollati in risposta a un allarme sulla presenza…",
+   "link": "https://www.liberoquotidiano.it/news/esteri/49401051/russia-attacco-san-pietroburgo-drone-lituania-decollano-caccia-italiani/",
+   "pubblicato": "2026-10-18T12:46:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -402,6 +1432,16 @@
    "canale": "rss"
   },
   {
+   "id": "b7242e8f0acfc208",
+   "fonte": "repubblica",
+   "titolo": "Regno Unito, il suicidio di una 14enne è stato “favorito dall’algoritmo di TikTok”",
+   "estratto": "Il medico legale accusa la piattaforma, il cui algoritmo ha alimentato l’esposizione della giovane a contenuti sull’autolesionismo",
+   "link": "https://www.repubblica.it/esteri/2026/10/18/news/suicidio_favorito_dall_algoritmo_di_tiktok-425656478/",
+   "pubblicato": "2026-10-18T12:39:27Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "fc30ca9c53af8f92",
    "fonte": "ilfatto",
    "titolo": "“Credo che fosse destino che trovassi esattamente la cifra che mi serviva”. Compra per 30 euro una borsa usata in un mercatino, poi l’incredibile scoperta: all’interno c’era una busta piena di soldi",
@@ -419,6 +1459,16 @@
    "link": "https://www.rainews.it/video/2026/10/terrificante-racconto-di-una-giovane-ucraina-denuncia-una-violenza-di-gruppo-curata-al-cardarelli-7736141c-9fd4-41c4-ba04-254525fe77ef.html",
    "pubblicato": "2026-10-18T12:39:00Z",
    "raccolto": "2026-10-18T13:07:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d6bcdcc171599328",
+   "fonte": "lastampa",
+   "titolo": "Gaza, i raid di Israele uccidono 5 persone tra cui 2 bimbi di 9 e 7 anni. Unicef: 340 i minori morti",
+   "estratto": "Tra le vittime un bambino di nove anni e una bimba di sette. Dall'entrata in vigore del cessate il fuoco, nell'ottobre 2025, i morti nella Striscia hanno superato quota 1500. L'Unicef: oltre 340…",
+   "link": "https://www.lastampa.it/esteri/2026/10/18/news/gaza_raid_israeliani_uccidono_due_bambini_unicef_340_minori_morti-15770034/",
+   "pubblicato": "2026-10-18T12:38:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -462,6 +1512,16 @@
    "canale": "rss"
   },
   {
+   "id": "01170ce8c5aa76fe",
+   "fonte": "libero",
+   "titolo": "Elvo Zornitta: \"Non ero io Unabomber, ma mi hanno rovinato la vita con una prova falsificata\"",
+   "estratto": "Elvo Zornitta per 22 anni - pedinamenti, perquisizioni, intercettazioni - è stato sospettato di essere Unabomber, il bombarolo che ha terrorizzato il Nord Est tra il 1993 e il 2006 con 33 attentati…",
+   "link": "https://www.liberoquotidiano.it/news/giustizia/49401047/elvo-zornitta-non-ero-io-unabomber-ma-mi-hanno-rovinato-la-vita-con-una-prova-falsificata-/",
+   "pubblicato": "2026-10-18T12:29:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "25e2c3bbe230b8e1",
    "fonte": "sole24ore",
    "titolo": "Dall’alluminio alla chimica verde, ecco le vertenze aperte in Sardegna",
@@ -472,6 +1532,16 @@
    "canale": "rss"
   },
   {
+   "id": "be00250a7b9a143e",
+   "fonte": "libero",
+   "titolo": "Il colonnello Stirpe: \"I comandanti Usa sono più fedeli alla Nato che alla Casa Bianca\"",
+   "estratto": "Quali potranno essere gli effetti delle ultime prese di posizione di Donald Trump sul conflitto in Ucraina? Ne parliamo con Orio Giorgio Stirpe: colonnello della riserva e analista militare…",
+   "link": "https://www.liberoquotidiano.it/news/esteri/49401045/il-colonnello-stirpe-i-comandanti-usa-sono-piu-fedeli-alla-nato-che-alla-casa-bianca-/",
+   "pubblicato": "2026-10-18T12:25:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "7bf369da442f98a8",
    "fonte": "ansa",
    "titolo": "Kiev: 'Nella notte raid di Mosca con missile Iskander e 180 droni, 152 abbattuti'",
@@ -479,6 +1549,16 @@
    "link": "https://www.ansa.it/sito/notizie/mondo/2026/10/18/kiev-nella-notte-raid-di-mosca-con-missile-iskander-e-180-droni_aa8179f8-9ed0-4e75-951a-7b37f41f374e.html",
    "pubblicato": "2026-10-18T12:16:52Z",
    "raccolto": "2026-10-18T13:07:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "18906065e973ea24",
+   "fonte": "repubblica",
+   "titolo": "A Washington alla cena degli italoamericani tra rapporti in crisi, Trump e le elezioni di Midterm",
+   "estratto": "Al 51esimo anniversario della National Italian American Foundation l’amicizia in difficoltà tra i due Paesi e i dilemmi della comunità verso il voto di novembre",
+   "link": "https://www.repubblica.it/esteri/2026/10/18/news/cena_niaf_italoamericani_usa_trump_meloni-425656448/",
+   "pubblicato": "2026-10-18T12:16:21Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -552,6 +1632,16 @@
    "canale": "rss"
   },
   {
+   "id": "c3b1d20b697a6a4e",
+   "fonte": "libero",
+   "titolo": "I fedeli in piazza San Pietro: felici di vedere il Papa, inaspettato",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49401831/i-fedeli-in-piazza-san-pietro-felici-di-vedere-il-papa-inaspettato/",
+   "pubblicato": "2026-10-18T12:05:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "d15d69a63749d99b",
    "fonte": "laverita",
    "titolo": "Anche l’Ue è un mondo al contrario: comanda chi ha fallito",
@@ -599,6 +1689,16 @@
    "link": "https://www.rainews.it/video/2026/10/la-folla-dei-fedeli-in-piazza-per-rivedere-leone-xiv-dopo-il-ricovero-tanti-auguri-al-papa-e40ddc5f-9a45-4e02-a333-3c59a344325c.html",
    "pubblicato": "2026-10-18T11:59:00Z",
    "raccolto": "2026-10-18T13:07:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "eeec301e489af3f6",
+   "fonte": "libero",
+   "titolo": "\"Noi, un po' meglio\", Luchetti: famiglia e adozioni lontano da cliché",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49401825/-noi-un-po-meglio-luchetti-famiglia-e-adozioni-lontano-da-cliche-/",
+   "pubblicato": "2026-10-18T11:59:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -762,6 +1862,16 @@
    "canale": "rss"
   },
   {
+   "id": "a86b96b288d11a70",
+   "fonte": "lastampa",
+   "titolo": "Trump attacca Macron: “La Francia sta bruciando, chiudete le frontiere prima che sia troppo tardi”",
+   "estratto": "Dopo gli scontri, il presidente americano attacca l’immigrazione. Quasi 1.800 arresti, sindaci contro il governo sulla gestione della sicurezza",
+   "link": "https://www.lastampa.it/esteri/2026/10/18/news/trump-francia-scontri-chiudere-frontiere-15769994/",
+   "pubblicato": "2026-10-18T11:42:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
    "id": "3b525ab4ccf1a1e7",
    "fonte": "sole24ore",
    "titolo": "Protesta Tir, martedì il tavolo sull’autotrasporto. Salvini pronto a sbloccare le risorse",
@@ -769,6 +1879,26 @@
    "link": "https://www.ilsole24ore.com/art/protesta-tir-martedi-tavolo-sull-autotrasporto-salvini-pronto-sbloccare-risorse-AJzZUUnB",
    "pubblicato": "2026-10-18T11:41:00Z",
    "raccolto": "2026-10-18T13:07:59Z",
+   "canale": "rss"
+  },
+  {
+   "id": "989df0ea7df396a2",
+   "fonte": "lastampa",
+   "titolo": "Sacerdote muore durante la Messa schiacciato dalla croce di legno staccatasi dalla parete",
+   "estratto": "La tragedia durante la funzione di sabato pomeriggio davanti ai fedeli presenti e in diretta sui social",
+   "link": "https://www.lastampa.it/esteri/2026/10/18/news/sacerdote_muore_durante_la_messa_schiacciato_dalla_croce_di_legno_staccatasi_dalla_parete-15769989/",
+   "pubblicato": "2026-10-18T11:39:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
+   "canale": "rss"
+  },
+  {
+   "id": "566c647eee4c8859",
+   "fonte": "rainews",
+   "titolo": "Piazza Duomo, il giorno dopo: vetrine sfondate e danni a Milano",
+   "estratto": "Il centro trasformato in un campo di battaglia: \"Hanno spaccato tutto\" raccontano i commercianti. Le vie dello shopping tra le zone più colpite dagli scontri",
+   "link": "https://www.rainews.it/video/2026/10/piazza-duomo-il-giorno-dopo-vetrine-sfondate-e-danni-a-milano-3512aa5e-14fc-403e-acb7-608d0b269732.html",
+   "pubblicato": "2026-10-18T11:38:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -789,6 +1919,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/18/oroscopo-della-settimana-del-19-ottobre-tornano-per-tutti-vecchie-fiamme-in-amore-capricorno-sul-lavoro-scegli-con-cura-chi-coinvolgere-acquario-affronta-un-discorso-che-rimandi-da-troppo-tempo/8542288/",
    "pubblicato": "2026-10-18T11:36:20Z",
    "raccolto": "2026-10-18T11:39:37Z",
+   "canale": "rss"
+  },
+  {
+   "id": "476410545054a485",
+   "fonte": "libero",
+   "titolo": "Schlein e i sonadggi: secondo voi a quanto arriverà il Pd alle urne?",
+   "estratto": "[{\"image\":{\"mediaId\":null,\"mediaUrl\":null},\"text\":\"Sopra il 24%\",\"index\":0},{\"image\":{\"mediaId\":null,\"mediaUrl\":null},\"text\":\"Tra il 22 e il…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49400429/schlein_e_i_sonadggi_secondo_voi_a_quanto_arrivera_il_pd_alle_urne_/",
+   "pubblicato": "2026-10-18T11:33:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -849,6 +1989,16 @@
    "link": "https://tg24.sky.it/politica/video/2026/10/18/scontri-milano-sala-risarcimento-per-negozi-danneggianti-1132581",
    "pubblicato": "2026-10-18T11:26:07Z",
    "raccolto": "2026-10-18T11:12:47Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cb7837f2a03a4c3b",
+   "fonte": "lastampa",
+   "titolo": "Meloni non firma il decreto per gli aumenti da 1 miliardo per i magistrati",
+   "estratto": "Secondo le stime solo per l'autotrasporto servono almeno 100 milioni. Il governo li sta cercando voce per voce, perché ogni euro conta",
+   "link": "https://www.lastampa.it/politica/2026/10/18/news/meloni_no_all_aumento_di_stipendi_dei_magistrati_io_penso_alle_fasce_deboli-15769983/",
+   "pubblicato": "2026-10-18T11:26:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -1619,6 +2769,16 @@
    "link": "https://tg24.sky.it/economia/video/2026/10/18/manovra-orsini-fare-cose-che-servono-al-paese-1132573",
    "pubblicato": "2026-10-18T10:14:28Z",
    "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "120d0fa054b3bcdc",
+   "fonte": "libero",
+   "titolo": "Milano, guerriglia in piazza: \"Chi sta offrendo avvocati agli arrestati\", la vergogna della sinistra",
+   "estratto": "Avvocati offerti gratis ai violenti arrestati in piazza a Milano. La denuncia è di Romano La Russa, storico esponente della destra meneghina, big di Fratelli d'Italia, fratello del presidente del…",
+   "link": "https://www.liberoquotidiano.it/news/milano/49399813/milano-guerriglia-chi-sta-offrendo-avvocati-arrestati-vergogna-sinistra/",
+   "pubblicato": "2026-10-18T10:14:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -2829,6 +3989,16 @@
    "link": "https://www.repubblica.it/esteri/dossier/lena/2026/10/18/news/deterrenza_nucleare_europea_debole_esercitazioni_italia-425656072/",
    "pubblicato": "2026-10-18T08:27:02Z",
    "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8fc5cd4a1b511a3c",
+   "fonte": "lastampa",
+   "titolo": "Due fratelli da 110 e lode dalla Siria a Novara “La nostra vita ricomincia qui dall’Università”",
+   "estratto": "Lei è arrivata con una laurea in Medicina, ora ha vinto un dottorato in Biotecnologie, lui vuole continuare gli studi dopo aver completato Farmacia nel suo Paese",
+   "link": "https://www.lastampa.it/novara/2026/10/18/news/upo_siria_a_novara_universita_fratelli_medicina_farmacia-15769909/",
+   "pubblicato": "2026-10-18T08:26:00Z",
+   "raccolto": "2026-10-18T15:54:51Z",
    "canale": "rss"
   },
   {
@@ -15668,146 +16838,6 @@
    "estratto": "",
    "link": "https://www.ilfoglio.it/cultura/2026/10/15/news/il-gran-mufti-alleato-di-hitler-e-le-radici-dellantisemitismo-di-hamas--410697",
    "pubblicato": "2026-10-15T15:56:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "d4f9dbf06dd262a1",
-   "fonte": "lastampa",
-   "titolo": "Vigo, nell'hotel dove l'Italia costruì la vittoria dei Mondiali: ecco come appare dopo 44 anni",
-   "estratto": "La città di Vigo, Spagna, in questi giorni è centro dell'attenzione dei calciofili e dei tifosi della Juventus per l'impegno dei bianconeri in Europa League, ma è anche luogo storico per il calcio…",
-   "link": "https://www.lastampa.it/sport/2026/10/15/video/vigo_italia_mundial_1982_ritiro_bearzot_pontevedra-15767363/",
-   "pubblicato": "2026-10-15T15:39:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "d5c67139038975ae",
-   "fonte": "ilfoglio",
-   "titolo": "Una scritta contro l’Ice non dovrebbe bastare per essere cacciati da uno stadio",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/sport/2026/10/15/news/una-scritta-contro-lice-non-dovrebbe-bastare-per-essere-cacciati-da-uno-stadio--410687",
-   "pubblicato": "2026-10-15T15:22:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "f0e97c3343430228",
-   "fonte": "ilfoglio",
-   "titolo": "Chi è lo sfidante di Matteo Salvini: identikit di Massimo Garavaglia, leghista \"draghiano\"",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/politica/2026/10/15/news/chi-e-lo-sfidante-di-matteo-salvini-identikit-di-massimo-garavaglia-leghista-draghiano--410682",
-   "pubblicato": "2026-10-15T15:04:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "0bdfbb8ad58a0759",
-   "fonte": "repubblica",
-   "titolo": "Sondaggi politici: il campo largo avanti sul centrodestra, continua il calo di Vannacci",
-   "estratto": "La Supermedia Youtrend settimanale sulle intenzioni di voto degli italiani",
-   "link": "https://www.repubblica.it/politica/2026/10/15/news/sondaggi_politici_fdi_pd_m5s_fi-425650092/",
-   "pubblicato": "2026-10-15T14:51:11Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "d325e5631dc96dfa",
-   "fonte": "ilfoglio",
-   "titolo": "Il governo Meloni ha esagerato con le giornate nazionali (e non è l'unico). Il richiamo di Mattarella",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/politica/2026/10/15/news/il-governo-meloni-ha-esagerato-con-le-giornate-nazionali-e-non-e-lunico-il-richiamo-di-mattarella--410678",
-   "pubblicato": "2026-10-15T14:50:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "4c24f065ee0f05c7",
-   "fonte": "torcha",
-   "titolo": "Il cibo europeo è davvero migliore di quello americano?",
-   "estratto": "Sui social spopolano confronti tra alimenti europei e statunitensi, ma spesso le immagini sono fuorvianti: si paragonano prodotti artigianali con quelli industriali, oppure si giudica la qualità dal…",
-   "link": "https://www.instagram.com/reel/DehNVm7NPbX/",
-   "pubblicato": "2026-10-15T14:49:55Z",
-   "raccolto": "2026-10-18T13:26:20Z",
-   "canale": "instagram"
-  },
-  {
-   "id": "24be0fb6b7e113ee",
-   "fonte": "valigiablu",
-   "titolo": "L’accordo di Trump sul diesel che conviene solo a Putin",
-   "estratto": "L'intesa di Trump sul diesel russo offre a Mosca una vittoria simbolica, lasciando a secco le difese di Kyiv e senza reali benefici sui prezzi globali.",
-   "link": "https://www.valigiablu.it/accordo-trump-diesel-russia-ucraina-putin/",
-   "pubblicato": "2026-10-15T14:38:09Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "7a71f79520557a21",
-   "fonte": "actamedia",
-   "titolo": "🔎 Sollevarsi è inutile? ➡️ Segui _actamedia per non perdere i prossimi contenuti!",
-   "estratto": "📖 Leggi l’articolo completo con una nostra breve introduzione su actamedia.org! Leggere oggi Sollevarsi è inutile? di Michel Foucault produce un interessante riverbero di quesiti, tensioni…",
-   "link": "https://www.instagram.com/p/DehKH68iM_P/",
-   "pubblicato": "2026-10-15T14:19:55Z",
-   "raccolto": "2026-10-18T13:26:20Z",
-   "canale": "instagram"
-  },
-  {
-   "id": "31f5ad853cbe57c3",
-   "fonte": "ilfoglio",
-   "titolo": "Gualtieri studia il metodo Mamdani. Da New York a Roma, la sinistra cerca voti con l’affordability",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/roma-capoccia/2026/10/15/news/gualtieri-studia-il-metodo-mamdani-da-new-york-a-roma-la-sinistra-cerca-voti-con-laffordability--410677",
-   "pubblicato": "2026-10-15T14:11:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "b60824eaba360d9c",
-   "fonte": "vdnews",
-   "titolo": "In Francia gli studenti boicottano le lezioni online: invitano chiunque",
-   "estratto": "La protesta dalle strade si sposta nella didattica a distanza",
-   "link": "https://www.vdnews.it/esteri/2026/10/15/news/in-francia-gli-studenti-boicottano-le-lezioni-online-invitano-chiunque-22919443/",
-   "pubblicato": "2026-10-15T14:09:00Z",
-   "raccolto": "2026-10-18T09:18:33Z",
-   "canale": "rss"
-  },
-  {
-   "id": "2a8c2b766685da1f",
-   "fonte": "rainews",
-   "titolo": "Ministro Urso: \"Innovazione come leva della crescita delle imprese e della competitività del Paese\"",
-   "estratto": "Nel suo videomessaggio a \"L'Europa del fare innovazione\", il ministro Urso ha parlato del Piano Transizione 5.0 e dell'importanza di investire in tecnologie quantistiche e data center, puntando…",
-   "link": "https://www.rainews.it/video/2026/10/ministro-urso-innovazione-come-leva-della-crescita-delle-imprese-e-della-competitivita-del-paese-03c953af-5cdf-4e43-8ba2-6b7181032a61.html",
-   "pubblicato": "2026-10-15T14:08:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "9d163cabd70470d5",
-   "fonte": "vdnews",
-   "titolo": "Sally Rooney non venderà più i suoi libri nel Regno Unito",
-   "estratto": "a causa del suo sostegno a Palestine Action, classificata come organizzazione terroristica dal governo britannico",
-   "link": "https://www.vdnews.it/esteri/2026/10/15/news/sally-rooney-non-vendera-piu-i-suoi-libri-nel-regno-unito-22917169/",
-   "pubblicato": "2026-10-15T14:08:00Z",
-   "raccolto": "2026-10-18T09:18:33Z",
-   "canale": "rss"
-  },
-  {
-   "id": "52673c12d604121f",
-   "fonte": "ilfoglio",
-   "titolo": "La sottile linea su Kyiv e Ue, la posizione di Meloni e il centrosinistra. Parla Delrio",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/politica/2026/10/15/news/la-sottile-linea-su-kyiv-e-ue-la-posizione-di-meloni-e-il-centrosinistra-parla-delrio--410672",
-   "pubblicato": "2026-10-15T13:42:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "da8c7f20be57a1d3",
-   "fonte": "ilfoglio",
-   "titolo": "Carocci non si candida, ma scrive un racconto-programma",
-   "estratto": "",
-   "link": "https://www.ilfoglio.it/roma-capoccia/2026/10/15/news/carocci-non-si-candida-ma-scrive-un-racconto-programma--410670",
-   "pubblicato": "2026-10-15T13:33:00Z",
    "raccolto": "2026-10-17T22:34:06Z",
    "canale": "sitemap"
   }
