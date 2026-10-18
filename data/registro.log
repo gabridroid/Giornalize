@@ -43,3 +43,6 @@
 2026-10-18 11:12:49 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
 2026-10-18 11:12:50 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
 2026-10-18 11:13:14 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo
+2026-10-18 11:32:47 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-18 11:32:48 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-18 11:33:11 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo

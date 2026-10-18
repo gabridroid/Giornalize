@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T11:12:47Z",
+ "aggiornato": "2026-10-18T11:32:45Z",
  "notizie": [
   {
    "id": "44c8dbd068ecf815",
@@ -42,6 +42,26 @@
    "canale": "rss"
   },
   {
+   "id": "2028096ad880136f",
+   "fonte": "nicolaporro",
+   "titolo": "Stabilicum, il piano dei giudici per fermare la legge elettorale",
+   "estratto": "Trenta ricorsi e 99 avvocati per contestare la riforma prima del voto: il sospetto è che si voglia aggirare le regole per trasformare la Consulta in una terza Camera dopo la sconfitta in Parlamento",
+   "link": "https://www.nicolaporro.it/politicoquotidiano/stabilicum-il-piano-dei-giudici-per-fermare-la-legge-elettorale/",
+   "pubblicato": "2026-10-18T11:28:55Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a617acc510342d1d",
+   "fonte": "ilpost",
+   "titolo": "Il primo Angelus di papa Leone XIV dopo il ricovero",
+   "estratto": "",
+   "link": "https://www.ilpost.it/flashes/primo-angelus-papa-leone-ricovero/",
+   "pubblicato": "2026-10-18T11:28:16Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
    "id": "b3a13ade940b9cfe",
    "fonte": "skytg24",
    "titolo": "Scontri Milano, Sala: \"Pochi agenti, pericolo sottovalutato\"",
@@ -59,6 +79,66 @@
    "link": "https://tg24.sky.it/politica/video/2026/10/18/scontri-milano-sala-risarcimento-per-negozi-danneggianti-1132581",
    "pubblicato": "2026-10-18T11:26:07Z",
    "raccolto": "2026-10-18T11:12:47Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2900cf810c050152",
+   "fonte": "repubblica",
+   "titolo": "I sindaci di centrosinistra delle grandi città: “Diciamo no alle violenze, governo ci convochi”",
+   "estratto": "I nove primi cittadini di Roma, Milano, Genova, Torino, Bari, Cagliari, Bologna, Firenze e Napoli si appellano all’esecutivo dopo gli scontri in piazza: “Carovita fa soffrire i cittadini”",
+   "link": "https://www.repubblica.it/politica/2026/10/18/news/sindaci_centrosinistra_violenze_milano-425656394/",
+   "pubblicato": "2026-10-18T11:24:38Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
+   "id": "76de1c146fb37d96",
+   "fonte": "ilfatto",
+   "titolo": "Travaglio sul Nove: “Le proteste degli studenti sono la resa dei conti di una politica lontana dalle esigenze delle persone”",
+   "estratto": "“È ovvio e naturale che questa sia la resa dei conti rispetto a una politica che viaggia lontana anni luce dalle esigenze delle persone”. Queste le parole di Marco Travaglio, ospite di Accordi &…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/proteste-studenti-travaglio-riarmo-notizie/8542029/",
+   "pubblicato": "2026-10-18T11:21:01Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a3436489121046e9",
+   "fonte": "ilfatto",
+   "titolo": "Padellaro sul Nove: “Patrimoniale è una parola feticcio. È lo stesso problema che ebbe il Pd con lo ius soli”",
+   "estratto": "“Ci sono delle parole feticcio in Italia che non si possono usare, tipo patrimoniale”. Così Antonio Padellaro ad Accordi & Disaccordi, il talk condotto da Luca Sommi tutti i sabati sul Nove…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/patrimoniale-padellaro-parola-feticcio-notizie/8541998/",
+   "pubblicato": "2026-10-18T11:20:14Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bb0e95ff3a6fc313",
+   "fonte": "ansa",
+   "titolo": "Schlein, pronti da subito al programma, ma per allargare l'alleanza",
+   "estratto": "Ora manca un miglio",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/schlein-pronti-da-subito-al-programma-ma-per-allargare-lalleanza_49703cd8-1280-4e2e-897d-964ebc06e144.html",
+   "pubblicato": "2026-10-18T11:20:03Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
+   "id": "aff55c71e524d47e",
+   "fonte": "domani",
+   "titolo": "Schlein rivendica l’unità del campo largo: «Allarghiamo l’alleanza e vinceremo»",
+   "estratto": "La segretaria del Pd al Roma per l’assemblea nazionale che ne prorogherà il mandato, lancia la sua sfida a Meloni, che non sta ascoltando le piazze e il cui governo è il «più longevo e anche…",
+   "link": "https://www.editorialedomani.it/politica/italia/schlein-assemblea-nazionale-pd-primarie-campo-largo-ucraina-be2m41m6",
+   "pubblicato": "2026-10-18T11:17:39Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b3499808d2e53541",
+   "fonte": "ilpost",
+   "titolo": "Le proteste contro i data center sono arrivate anche in Italia",
+   "estratto": "Decine di comitati si sono riuniti per chiedere una moratoria, mentre intorno a Milano i progetti continuano ad aumentare",
+   "link": "https://www.ilpost.it/2026/10/18/movimento-stop-data-center-italia/",
+   "pubblicato": "2026-10-18T11:13:04Z",
+   "raccolto": "2026-10-18T11:32:45Z",
    "canale": "rss"
   },
   {
@@ -269,6 +349,16 @@
    "link": "https://www.rainews.it/articoli/2026/10/leone-xiv-papa-angelus-san-pietro-intervento-degenza-gemelli-malattia-polmone-tumore-af2efc9e-f5bb-422e-8c31-b79752118393.html",
    "pubblicato": "2026-10-18T10:56:00Z",
    "raccolto": "2026-10-18T11:12:47Z",
+   "canale": "rss"
+  },
+  {
+   "id": "494147dc6d419919",
+   "fonte": "rainews",
+   "titolo": "Mimmo Muolo: \"Incontro del Papa con ragazza ucraina, un chiaro messaggio a Putin a fermare guerra\"",
+   "estratto": "La telefonata del Papa a Putin e la presenza della ragazza ucraina all'uscita dell'ospedale Gemelli di Roma: segnali inequivocabili della politica estera di Leone XIV per la pace in Ucraina. Il…",
+   "link": "https://www.rainews.it/video/2026/10/mimmo-muolo-incontro-del-papa-con-ragazza-ucraina-un-chiaro-messaggio-a-putin-a-fermare-guerra-888ac379-e88f-4bab-91c9-cb761a9f6e08.html",
+   "pubblicato": "2026-10-18T10:56:00Z",
+   "raccolto": "2026-10-18T11:32:45Z",
    "canale": "rss"
   },
   {
@@ -540,6 +630,16 @@
    "pubblicato": "2026-10-18T10:17:00Z",
    "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
+  },
+  {
+   "id": "1644c99a03bf868b",
+   "fonte": "avvenire",
+   "titolo": "Il Papa all’Angelus: grazie del sostegno. Superata la fase delicata. Ora riprenderò gradualmente le attività",
+   "estratto": "",
+   "link": "https://www.avvenire.it/chiesa/papa/il-papa-allangelus-grazie-del-sostegno-riprendero-gradualmente-le-attivita_114484",
+   "pubblicato": "2026-10-18T10:15:00Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "sitemap"
   },
   {
    "id": "029f376f14f2692b",
@@ -1062,6 +1162,16 @@
    "canale": "rss"
   },
   {
+   "id": "19cf5dbfa980d8cd",
+   "fonte": "lastampa",
+   "titolo": "Schlein dall’assemblea Pd: “Pronti a governare. Primarie? Non abbiamo paura, saranno una festa”",
+   "estratto": "Schlein mette subito in chiaro quale debba essere il percorso. «Prima il programma comune, poi ci occupiamo della guida», scandisce davanti ai dirigenti dem",
+   "link": "https://www.lastampa.it/politica/2026/10/18/news/schlein-assemblea-pd-primarie-centrosinistra-programma-leadership-15769932/",
+   "pubblicato": "2026-10-18T09:28:00Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
    "id": "fb43d98ea6436fc4",
    "fonte": "ansa",
    "titolo": "Studenti sul ponte di Rialto a Venezia, 'caro Veneto quanto ci costi'",
@@ -1462,6 +1572,16 @@
    "canale": "rss"
   },
   {
+   "id": "0e7ee679a32da672",
+   "fonte": "libero",
+   "titolo": "Allegri, tam tam impazzito da Napoli: \"Cosa pensa De Laurentiis\", ora rischia davvero",
+   "estratto": "Ora per Massimiliano Allegri è già arrivato il momento del \"non può più sbagliare\". Le voci che provengono da Napoli descrivono un patron Aurelio De Laurentiis, deluso, arrabbiatissimo, \"stupito dal…",
+   "link": "https://www.liberoquotidiano.it/news/sport/49398960/allegri_tam_tam_impazzito_napoli_cosa_pensa_de_laurentiis_ora_rischia_davvero/",
+   "pubblicato": "2026-10-18T08:48:00Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
    "id": "fe4474c5803f4d5b",
    "fonte": "ilfatto",
    "titolo": "La cartolina scritta da un prigioniero in un lager nazista arriva alla famiglia dopo 82 anni: “Il mio bisnonno tornò a casa, ma i suoi figli non lo riconobbero e scapparono impauriti”",
@@ -1499,6 +1619,16 @@
    "link": "https://www.lastampa.it/cronaca/2026/10/18/news/la_fatica_sul_volto_la_serenita_l_abbraccio_della_folla_il_ritorno_di_leone_dopo_l_intervento-15769915/",
    "pubblicato": "2026-10-18T08:45:00Z",
    "raccolto": "2026-10-18T11:12:47Z",
+   "canale": "rss"
+  },
+  {
+   "id": "da36f24a83710bd5",
+   "fonte": "libero",
+   "titolo": "Chivu, la sfuriata negli spogliatoi durante Bologna-Inter: retroscena clamoroso",
+   "estratto": "\"Mai visto un Chivu così furioso\", scrive la Gazzetta dello Sport. Il retroscena dal mondo Inter descrive il mister Cristian Chivu fuori di sé al termine del primo tempo dei nerazzurri al Dall'Ara…",
+   "link": "https://www.liberoquotidiano.it/news/sport/49398847/chivu_sfuriata_spogliatoi_bologna_inter_perche_perso_voce/",
+   "pubblicato": "2026-10-18T08:45:00Z",
+   "raccolto": "2026-10-18T11:32:45Z",
    "canale": "rss"
   },
   {
@@ -1552,6 +1682,16 @@
    "canale": "rss"
   },
   {
+   "id": "7d19e88ec6083e99",
+   "fonte": "libero",
+   "titolo": "Così è caduto il muro tra scienza e filosofia",
+   "estratto": "La distinzione fra scienza e filosofia è nata in epoca recente. Per tutta l’antichità classica e anche in epoca medievale il sapere era uno solo. E così pure nel Rinascimento italiano. Nell’antica…",
+   "link": "https://www.liberoquotidiano.it/news/cultura/49398844/cosi_e_caduto_il_muro_tra_scienza_e_filosofia/",
+   "pubblicato": "2026-10-18T08:35:00Z",
+   "raccolto": "2026-10-18T11:32:45Z",
+   "canale": "rss"
+  },
+  {
    "id": "edb42bfc0c9940ff",
    "fonte": "ilfatto",
    "titolo": "“Non siamo preparati, temo siano le prime prove di violenza”, il sindaco Sala dopo la guerriglia a Milano",
@@ -1559,6 +1699,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/18/non-siamo-preparati-temo-siano-le-prime-prove-di-violenza-il-sindaco-sala-dopo-la-guerriglia-a-milano/8542211/",
    "pubblicato": "2026-10-18T08:31:42Z",
    "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "30dbc69273f498bf",
+   "fonte": "libero",
+   "titolo": "Elly Schlein con i tacchi alti: com'è finita sul tappeto rosso",
+   "estratto": "In principio erano le sneakers sotto ai jeans e a giacche destrutturate, di taglio maschile, con i colori pastello magari suggeriti dall’amica armocromista di Bologna: così Elly Schlein, fresca…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49398842/elly-schlein-con-i-tacchi-alti-com-e-finita-sul-tappeto-rosso/",
+   "pubblicato": "2026-10-18T08:31:00Z",
+   "raccolto": "2026-10-18T11:32:45Z",
    "canale": "rss"
   },
   {
@@ -14170,26 +14320,6 @@
    "pubblicato": "2026-10-15T12:01:00Z",
    "raccolto": "2026-10-17T22:34:06Z",
    "canale": "sitemap"
-  },
-  {
-   "id": "478e5406a6fb1306",
-   "fonte": "lastampa",
-   "titolo": "Europa, debito, mercati: ecco perché l'ultima manovra del governo Meloni è piccola",
-   "estratto": "Alla vigilia delle elezioni, il governo Meloni prepara una manovra insolitamente prudente. Tra vincoli europei, debito pubblico e timori dei mercati, anche la premier più forte della storia…",
-   "link": "https://www.lastampa.it/rubriche/il-capitale/2026/10/15/news/senza_soldi-15767001/",
-   "pubblicato": "2026-10-15T11:18:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "353d03545df8962d",
-   "fonte": "repubblica",
-   "titolo": "Ue, Meloni al prevertice degli Amici della coesione: “Ora serve un bilancio ambizioso”",
-   "estratto": "Il cancelliere tedesco Merz: “Va ridotto in modo significativo”",
-   "link": "https://www.repubblica.it/politica/2026/10/15/news/merz_consiglio_europeo_bilancio_comune_difesa-425649413/",
-   "pubblicato": "2026-10-15T11:16:15Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
   }
  ]
 }
