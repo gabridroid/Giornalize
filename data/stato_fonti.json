@@ -1,7 +1,7 @@
 {
  "ansa": {
   "fonte": "ansa",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 123,
   "canali_ok": [
@@ -11,11 +11,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "rainews": {
   "fonte": "rainews",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 81,
   "canali_ok": [
@@ -24,11 +24,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "skytg24": {
   "fonte": "skytg24",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -36,11 +36,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "corriere": {
   "fonte": "corriere",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 118,
   "canali_ok": [
@@ -50,11 +50,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "repubblica": {
   "fonte": "repubblica",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -64,11 +64,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "lastampa": {
   "fonte": "lastampa",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 73,
   "canali_ok": [
@@ -76,11 +76,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "sole24ore": {
   "fonte": "sole24ore",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 24,
   "canali_ok": [
@@ -89,11 +89,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "ilfatto": {
   "fonte": "ilfatto",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 25,
   "canali_ok": [
@@ -101,11 +101,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "manifesto": {
   "fonte": "manifesto",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 50,
   "canali_ok": [
@@ -113,11 +113,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "domani": {
   "fonte": "domani",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -125,11 +125,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "avvenire": {
   "fonte": "avvenire",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -137,11 +137,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "ilgiornale": {
   "fonte": "ilgiornale",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -149,11 +149,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "libero": {
   "fonte": "libero",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 60,
   "canali_ok": [
@@ -161,11 +161,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "laverita": {
   "fonte": "laverita",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -173,11 +173,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "ilfoglio": {
   "fonte": "ilfoglio",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 16,
   "canali_ok": [
@@ -185,11 +185,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "ilpost": {
   "fonte": "ilpost",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 65,
   "canali_ok": [
@@ -197,11 +197,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "fanpage": {
   "fonte": "fanpage",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
@@ -214,7 +214,7 @@
  },
  "linkiesta": {
   "fonte": "linkiesta",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 12,
   "canali_ok": [
@@ -222,11 +222,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "open": {
   "fonte": "open",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 12,
   "canali_ok": [
@@ -234,11 +234,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "internazionale": {
   "fonte": "internazionale",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 6,
   "canali_ok": [
@@ -246,11 +246,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "valigiablu": {
   "fonte": "valigiablu",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -258,11 +258,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "irpimedia": {
   "fonte": "irpimedia",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 40,
   "canali_ok": [
@@ -270,11 +270,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "pagellapolitica": {
   "fonte": "pagellapolitica",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -282,11 +282,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "facta": {
   "fonte": "facta",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -294,53 +294,59 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "will": {
   "fonte": "will",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
   "errori": [
-   "ricerca automatica: nessun feed trovato in automatico"
+   "instagram @will_ita: Instagram API: (#10) Application does not have permission for this action"
   ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "factanza": {
   "fonte": "factanza",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @factanza: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "torcha": {
   "fonte": "torcha",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @torcha: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "progressista": {
   "fonte": "progressista",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @progressista.io: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "nicolaporro": {
   "fonte": "nicolaporro",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 50,
   "canali_ok": [
@@ -348,11 +354,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "breakingitaly": {
   "fonte": "breakingitaly",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 15,
   "canali_ok": [
@@ -360,11 +366,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "scomodo": {
   "fonte": "scomodo",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
@@ -377,7 +383,7 @@
  },
  "vdnews": {
   "fonte": "vdnews",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 33,
   "canali_ok": [
@@ -385,11 +391,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "claim": {
   "fonte": "claim",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "nessun_canale",
   "notizie": 0,
   "canali_ok": [],
@@ -401,7 +407,7 @@
  },
  "ispi": {
   "fonte": "ispi",
-  "ora": "2026-10-18T11:32:45Z",
+  "ora": "2026-10-18T11:39:37Z",
   "esito": "ok",
   "notizie": 2,
   "canali_ok": [
@@ -409,65 +415,77 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-10-18T11:32:45Z"
+  "ultimo_successo": "2026-10-18T11:39:37Z"
  },
  "theperiod": {
   "fonte": "theperiod",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @theperiodoff: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "cncmedia": {
   "fonte": "cncmedia",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @cnc_media: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "nxwss": {
   "fonte": "nxwss",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @nxwss: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "chronocol": {
   "fonte": "chronocol",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @chronocol.media: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "actamedia": {
   "fonte": "actamedia",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @_actamedia: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "generazione": {
   "fonte": "generazione",
-  "ora": "2026-10-18T11:32:45Z",
-  "esito": "nessun_canale",
+  "ora": "2026-10-18T11:39:37Z",
+  "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
-  "errori": [],
+  "errori": [
+   "instagram @generazione: Instagram API: (#10) Application does not have permission for this action"
+  ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  }

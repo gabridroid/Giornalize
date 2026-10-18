@@ -46,3 +46,16 @@
 2026-10-18 11:32:47 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
 2026-10-18 11:32:48 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
 2026-10-18 11:33:11 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo
+2026-10-18 11:39:39 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-18 11:39:39 WARNING giornalize.raccolta: factanza: errore con instagram @factanza: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:39 WARNING giornalize.raccolta: will: errore con instagram @will_ita: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:39 WARNING giornalize.raccolta: torcha: errore con instagram @torcha: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:40 WARNING giornalize.raccolta: progressista: errore con instagram @progressista.io: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:40 WARNING giornalize.raccolta: theperiod: errore con instagram @theperiodoff: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:40 WARNING giornalize.raccolta: cncmedia: errore con instagram @cnc_media: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:40 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-18 11:39:40 WARNING giornalize.raccolta: nxwss: errore con instagram @nxwss: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:40 WARNING giornalize.raccolta: generazione: errore con instagram @generazione: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:40 WARNING giornalize.raccolta: actamedia: errore con instagram @_actamedia: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:40 WARNING giornalize.raccolta: chronocol: errore con instagram @chronocol.media: Instagram API: (#10) Application does not have permission for this action
+2026-10-18 11:39:45 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, will, factanza, torcha, progressista, scomodo, theperiod, cncmedia, nxwss, chronocol, actamedia, generazione
