@@ -1,6 +1,516 @@
 {
- "aggiornato": "2026-10-18T07:36:39Z",
+ "aggiornato": "2026-10-18T09:18:33Z",
  "notizie": [
+  {
+   "id": "f169a74407aae4b1",
+   "fonte": "skytg24",
+   "titolo": "Limoges, municipio dato alle fiamme durante proteste",
+   "estratto": "Durante le proteste che hanno interessato tutto il Paese, è stato dato alle fiamme lo storico municipio della città francese di Limoges. Un video girato da un testimone oculare ha immortalato il…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/limoges-municipio-fiamme-proteste-1132577",
+   "pubblicato": "2026-10-18T10:17:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "029f376f14f2692b",
+   "fonte": "skytg24",
+   "titolo": "Health, artrite psoriasica e salute mentale: la sfida della diagnosi precoce",
+   "estratto": "",
+   "link": "https://tg24.sky.it/cronaca/video/2026/10/18/health-artrite-psoriasica-e-salute-mentale-la-sfida-della-diagnosi-precoce-1132576",
+   "pubblicato": "2026-10-18T10:14:29Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8ff97fd9c49f74a6",
+   "fonte": "skytg24",
+   "titolo": "Manovra, Orsini: \"Fare cose che servono al paese\"",
+   "estratto": "Sulla manovra interviene il presidente di Confindustria, parlando al convegno dei giovani imprenditori: \"No alle mancette elettorali bisogna fare le cose che servono al Paese\"",
+   "link": "https://tg24.sky.it/economia/video/2026/10/18/manovra-orsini-fare-cose-che-servono-al-paese-1132573",
+   "pubblicato": "2026-10-18T10:14:28Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5875a07d55e2c433",
+   "fonte": "skytg24",
+   "titolo": "Canada, incendio in una base militare in Alberta: morti",
+   "estratto": "Le autorità canadesi hanno riferito che alcune persone sono rimaste uccise e ferite in un grave incidente che ha provocato un incendio in una delle basi militari più attive del Paese. È stato visto…",
+   "link": "https://tg24.sky.it/mondo/video/2026/10/18/canada-incendio-in-una-base-militare-in-alberta-morti-1132574",
+   "pubblicato": "2026-10-18T09:49:55Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d926dfeaa98cdce9",
+   "fonte": "skytg24",
+   "titolo": "Oltre 800mila persone a cortei in Francia, polizia: “Numero record di 855 fermi a Parigi”",
+   "estratto": "Un manifestante sceso in strada a Parigi contro il carovita è morto per arresto cardiaco. Devastato il municipio di Limoges, nella Francia centro-occidentale: l’incendio è stato circoscritto ma il…",
+   "link": "https://tg24.sky.it/mondo/2026/10/18/francia-proteste-manifestazioni",
+   "pubblicato": "2026-10-18T09:23:05Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3d7b20ef95d6c57c",
+   "fonte": "skytg24",
+   "titolo": "Festa Cinema Roma: Paolo Genovese racconta il suo film",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/video/2026/10/18/festa-cinema-roma-paolo-genovese-racconta-il-suo-film-1131373",
+   "pubblicato": "2026-10-18T09:18:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f8ca6f4888e52581",
+   "fonte": "skytg24",
+   "titolo": "Le prigioni dell'amore ne \"Il rumore delle cose nuove\" alla Festa di Roma",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/video/2026/10/18/le-prigioni-dellamore-ne-il-rumore-delle-cose-nuove-alla-festa-di-roma-1131437",
+   "pubblicato": "2026-10-18T09:18:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7788f2935b97085c",
+   "fonte": "skytg24",
+   "titolo": "Festa del Cinema di Roma, è il giorno del biopic su Pino Daniele",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/video/2026/10/18/festa-del-cinema-di-roma-e-il-giorno-del-biopic-su-pino-daniele-1131958",
+   "pubblicato": "2026-10-18T09:18:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8d8e4feef16898a7",
+   "fonte": "skytg24",
+   "titolo": "Carlo Acutis il goivane santo al cinema dal 15 ottobre",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/video/2026/10/18/carlo-acutis-il-goivane-santo-al-cinema-dal-15-ottobre-1132058",
+   "pubblicato": "2026-10-18T09:18:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1e505991f2581d79",
+   "fonte": "skytg24",
+   "titolo": "Festa Cinema Roma: Corrado Guzzanti in \"Il MInistero dell'amore\"",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/video/2026/10/18/festa-cinema-roma-corrado-guzzanti-in-il-ministero-dellamore-1132200",
+   "pubblicato": "2026-10-18T09:18:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "161a1402d61ddb00",
+   "fonte": "skytg24",
+   "titolo": "Festa Cinema Roma: Pif e Guzzanti ne Il Ministero dell'amore",
+   "estratto": "",
+   "link": "https://tg24.sky.it/spettacolo/video/2026/10/18/festa-cinema-roma-pif-e-guzzanti-ne-il-ministero-dellamore-1132251",
+   "pubblicato": "2026-10-18T09:18:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a4079fdde6407795",
+   "fonte": "libero",
+   "titolo": "Italpress Awards, Riotta \"Importante far conoscere Italia in Usa e viceversa\"",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/49398383/undefined/",
+   "pubblicato": "2026-10-18T09:18:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cb539e9966f53fe6",
+   "fonte": "libero",
+   "titolo": "Italpress Awards, Tanzilli (FS) \"Vogliamo diventare la metropolitana d'Europa\"",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/49398252/undefined/",
+   "pubblicato": "2026-10-18T09:18:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0b48ae52b8380741",
+   "fonte": "skytg24",
+   "titolo": "Donna morta nello scontro con l’auto dell’ex a Cassano Magnago: si indaga per femminicidio",
+   "estratto": "È cambiata da omicidio stradale a femminicidio l'ipotesi di reato per il 73enne indagato per la morte dell'ex compagna, deceduta venerdì in uno scontro frontale nel Varesotto. Secondo l'accusa…",
+   "link": "https://tg24.sky.it/cronaca/2026/10/18/cassano-magnago-donna-morta-scontro-auto-ex-femminicidio",
+   "pubblicato": "2026-10-18T09:17:41Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ea3b477579cc60a7",
+   "fonte": "ilgiornale",
+   "titolo": "La sinistra condanna a metà. “Quei ragazzi vanno ascoltati”",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cronaca-locale/la-sinistra-condanna-a-meta-quei-ragazzi-vanno-ascoltati/",
+   "pubblicato": "2026-10-18T09:15:53Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "92404ada8277095a",
+   "fonte": "repubblica",
+   "titolo": "Era il Neanderthal più amato. È giallo sul primo colpo di lancia della storia che lo ha ucciso",
+   "estratto": "Shanidar A è vissuto 75mila anni fa. I suoi compagni lo hanno accudito in vita e sepolto con affetto dopo la morte. Non è chiaro allora chi e perché abbia scagliato l’arma che gli ha perforato il…",
+   "link": "https://www.repubblica.it/cronaca/2026/10/18/news/uomo_neanderthal_shanidar_a_ucciso_lancia-425656175/",
+   "pubblicato": "2026-10-18T09:14:44Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4de4eb0cc645fd97",
+   "fonte": "ansa",
+   "titolo": "Schlein: 'Progressisti uniti, non faremo più alle destre il favore di dividerci'",
+   "estratto": "\"Insieme costruiremo l'alternativa\"",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/18/schlein-progressisti-uniti-non-faremo-piu-alle-destre-il-favore-di-dividerci_68325ea6-8145-45ec-add6-1db6a16ef38a.html",
+   "pubblicato": "2026-10-18T09:14:39Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b4e77191ecc59365",
+   "fonte": "ilfatto",
+   "titolo": "Il gesto di Barbara D’Urso per Ornella Muti spiazza tutti, poi l’affondo ad Anna Safroncik: “Sei pesante, sei veramente pesante”. Cos’è successo a Ballando con le Stelle",
+   "estratto": "La soap opera che vede protagonisti Barbara D’Urso, Ornella Muti e Pasquale La Rocca è già arrivata al capolinea? A giudicare da quanto accaduto nella terza puntata di “Ballando con le stelle” in…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/il-gesto-di-barbara-durso-per-ornella-muti-spiazza-tutti-poi-laffondo-ad-anna-safroncik-sei-pesante-sei-veramente-pesante-cose-successo-a-ballando-con-le-stelle/8542237/",
+   "pubblicato": "2026-10-18T09:13:15Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4a565650e032eda6",
+   "fonte": "ilfatto",
+   "titolo": "“Le borse in vetrina qui costano quanto lo stipendio di mio padre. Questo è l’unico modo per farci sentire, lo facciamo anche per i nostri genitori”. Le parole di un manifestante 16enne tra le barricate di fuoco di piazza Duomo",
+   "estratto": "“La vedi la roba in quelle vetrine? Costa un mese di stipendio di mio padre che fa il ristoratore”. Y. ha sedici anni e parla al Fattoquotidiano.it di fronte a una barricata in fiamme a pochi passi…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/le-borse-in-vetrina-qui-costano-quanto-lo-stipendio-di-mio-padre-questo-e-lunico-modo-per-farci-sentire-16enne-tra-le-barr/8542131/",
+   "pubblicato": "2026-10-18T09:11:42Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d3ff783245a1abf4",
+   "fonte": "open",
+   "titolo": "Pierina Buffon morta nello schianto con l’ex, cambia l’accusa per l’uomo: da omicidio stradale a femminicidio. Il figlio: «È stata inseguita»",
+   "estratto": "La Procura di Busto Arsizio ipotizza che l'incidente sulla tangenziale di Cassano Magnago sia stato provocato volontariamente dall’ex compagno della donna, Fulvio Ielmini, 73 anni. La donna lo aveva…",
+   "link": "https://www.open.online/2026/10/18/pierina-buffon-morta-schianto-ex-accusa-femminicidio/",
+   "pubblicato": "2026-10-18T09:08:23Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "af787b3ef002f96f",
+   "fonte": "ansa",
+   "titolo": "Tar annulla decreto di estradizione verso gli Usa di un hacker",
+   "estratto": "Membro di un gruppo che paralizzò ospedali statunitensi ottenendo ingente riscatto",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/tar-annulla-decreto-di-estradizione-verso-gli-usa-di-un-hacker_b21a4145-1cbd-46d8-b4a0-dc4226992056.html",
+   "pubblicato": "2026-10-18T09:07:52Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c71c77e501d22a73",
+   "fonte": "ilgiornale",
+   "titolo": "Scale mobili e ascensori. Il disagio viaggia in metrò",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cronaca-locale/scale-mobili-e-ascensori-il-disagio-viaggia-in-metro/",
+   "pubblicato": "2026-10-18T09:06:52Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "2895fd305c624af4",
+   "fonte": "sole24ore",
+   "titolo": "Lega, dal metodo Maroni per Milano all’economia liberale: così Garavaglia lancia l’Opa sul partito",
+   "estratto": "La carta sul tavolo è stata calata in settimana con l’annuncio della candidatura al congresso nazionale. Ora Massimo Garavaglia, attuale presidente della commissione Finanze della Lega, definisce il…",
+   "link": "https://www.ilsole24ore.com/art/lega-metodo-maroni-milano-all-economia-liberale-cosi-garavaglia-lancia-l-opa-partito-AJmwiQnB",
+   "pubblicato": "2026-10-18T09:05:38Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "db22890f7708fe94",
+   "fonte": "ansa",
+   "titolo": "Sala 'sottovalutato il momento esplosivo, ieri pochi agenti'",
+   "estratto": "'Dobbiamo essere pronti perché cose simili succederanno ancora'",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/sala-sottovalutato-il-momento-esplosivo-ieri-pochi-agenti_90dd7cd1-b17d-409d-bf63-686969927cce.html",
+   "pubblicato": "2026-10-18T09:04:27Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8a508fa3deeed384",
+   "fonte": "ilfatto",
+   "titolo": "“Ho scritto una lettera a Stasi, per me è innocente. Io ancora prigioniero di uno stigma che mi perseguita. Amanda Knox? Ci volevamo bene, chissà cosa sarebbe successo tra noi”: così Raffaele Sollecito",
+   "estratto": "A quasi vent’anni dall’omicidio di Meredith Kercher a Perugia, il peso del passato continua a segnare il presente di Raffaele Sollecito. Ospite nel salotto di Silvia Toffanin a “Verissimo“, nella…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/ho-scritto-una-lettera-a-stasi-per-me-e-innocente-io-ancora-prigioniero-di-uno-stigma-che-mi-perseguita-amanda-knox-ci-volevamo-bene-chissa-cosa-sarebbe-successo-cosi-raffaele-sollecito/8542230/",
+   "pubblicato": "2026-10-18T09:03:43Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "494a0527d68b8480",
+   "fonte": "ilgiornale",
+   "titolo": "Dagli attivisti di “Italia in Piazza” al Fronte rivoluzionario italiano: la rete dietro la protesta che ha messo a ferro e fuoco Milano - Esclusivo",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/nazionale/dagli-attivisti-di-italia-in-piazza-al-fronte-rivoluzionario-italiano-la-rete-dietro-la-protesta-che-ha-messo-a-ferro-e-fuoco-milano-esclusivo/",
+   "pubblicato": "2026-10-18T09:02:56Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "e7c801cdda06727e",
+   "fonte": "sole24ore",
+   "titolo": "Matex Tv punta a costruire una rete nazionale di emittenti regionali",
+   "estratto": "Locale e globale, insieme. Si chiama Matex tv ed è la piattaforma che punta a costruire una rete nazionale di televisioni regionali. Assieme ma senza perdere le proprie peculiarità e...",
+   "link": "https://www.ilsole24ore.com/art/matex-tv-punta-costruire-rete-nazionale-emittenti-regionali-AJCvu5mB",
+   "pubblicato": "2026-10-18T09:02:21Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b354008a779638de",
+   "fonte": "ilgiornale",
+   "titolo": "Scontri a Milano, Salvini: “Scene vergognose, riproporremo disegno di legge ‘Chi rompe paga’”",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/interni/scontri-a-milano-salvini-scene-vergognose-riproporremo-disegno-di-legge-chi-rompe-paga/",
+   "pubblicato": "2026-10-18T09:01:54Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "a386ec8e7e954da6",
+   "fonte": "nicolaporro",
+   "titolo": "Landini proclama lo sciopero generale contro una manovra che non c’è",
+   "estratto": "L’Udu, la rete studentesca finanziata dalla stessa Cgil, sarà a fianco di Landini. Il Paese bloccato ancora una volta di venerdì per motivi politici",
+   "link": "https://www.nicolaporro.it/economia-finanza/ef-economia/landini-proclama-lo-sciopero-generale-contro-una-manovra-che-non-ce/",
+   "pubblicato": "2026-10-18T09:00:35Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "78d42533ff86dd6d",
+   "fonte": "nicolaporro",
+   "titolo": "Zuppa di Porro del 18 ottobre 2026",
+   "estratto": "Basta con sta retorica degli studenti: ma di che parlate. Urlano contro il caro vita armati da iphone e sono diventati 7,8 milioni, in calo dell’8 per cento, mentre i docenti sono aunmatati di un…",
+   "link": "https://www.nicolaporro.it/zuppa-di-porro/zuppa-di-porro-del-18-ottobre-2026/",
+   "pubblicato": "2026-10-18T08:59:18Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6105a31dbdda6c44",
+   "fonte": "ilgiornale",
+   "titolo": "New York perde un mito: si spengono le luci sullo storico hotel Plaza, sfondo di “Mamma, ho riperso l’aereo”",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cronaca-internazionale/new-york-perde-un-mito-si-spengono-le-luci-sullo-storico-hotel-plaza-sfondo-di-mamma-ho-riperso-laereo/",
+   "pubblicato": "2026-10-18T08:59:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "82b7110fa806d040",
+   "fonte": "domani",
+   "titolo": "Canada, almeno sette morti nell’incendio in una base militare. Il ministro della Difesa: «Situazione in evoluzione»",
+   "estratto": "L’esercito ha confermato che ci sono state vittime e feriti, senza però rilasciare alcun dettaglio sul bilancio. È accaduto nell’area di addestramento della base di Wainwright intorno alle 16, ora…",
+   "link": "https://www.editorialedomani.it/politica/mondo/canada-morti-feriti-incendio-base-militare-wainwright-v6iw3kl5",
+   "pubblicato": "2026-10-18T08:57:50Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "639715b317f899c9",
+   "fonte": "ilfatto",
+   "titolo": "Pierina Buffon, da incidente stradale a femminicidio: l’ipotesi dello schianto volontario dopo la denuncia per stalking",
+   "estratto": "Da omicidio stradale, da subito sospetto, a femminicidio. Cambia l’ipotesi di reato per Fulvio Ielmini, 73 anni, indagato per la morte dell’ex compagna Pierina Buffon, 69 anni, deceduta giovedì…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/undefined-55/8542223/",
+   "pubblicato": "2026-10-18T08:54:31Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d263bf95068b1a1a",
+   "fonte": "ilpost",
+   "titolo": "Le gare di canottaggio che iniziano sulla spiaggia",
+   "estratto": "Si chiamano, con poca fantasia, canottaggio costiero: saranno alle Olimpiadi e per vincerle bisogna fare tante cose oltre a remare",
+   "link": "https://www.ilpost.it/2026/10/18/canottaggio-costiero-beach-sprint-olimpiadi-2028/",
+   "pubblicato": "2026-10-18T08:52:21Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c9e4b0b047cb3348",
+   "fonte": "repubblica",
+   "titolo": "Assemblea Pd, le news: oggi il sì alla proroga del mandato di Schlein",
+   "estratto": "L’appuntamento per i 960 delegati dem è alla Nuvola di Roma: modifica dell'articolo 8 dello Statuto per consentire alla segretaria di guidare il partito fino alle elezioni politiche",
+   "link": "https://www.repubblica.it/politica/2026/10/18/diretta/pd_assemblea_nazionale_oggi_schlein_statuto_primarie-425656131/",
+   "pubblicato": "2026-10-18T08:50:43Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fe4474c5803f4d5b",
+   "fonte": "ilfatto",
+   "titolo": "La cartolina scritta da un prigioniero in un lager nazista arriva alla famiglia dopo 82 anni: “Il mio bisnonno tornò a casa, ma i suoi figli non lo riconobbero e scapparono impauriti”",
+   "estratto": "Un messaggio scritto a mano il 5 giugno 1944 dal campo di prigionia tedesco di Heilbronn-Neckargartach ha impiegato ottantadue anni per coprire la distanza che lo separava da Selva di Cadore, nel…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/la-cartolina-scritta-da-un-prigioniero-in-un-lager-nazista-arriva-alla-famiglia-dopo-82-anni-il-mio-bisnonno-torno-a-casa-ma-i-suoi-figli-non-lo-riconobbero-e-scapparono-impauriti/8542217/",
+   "pubblicato": "2026-10-18T08:47:59Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "89e961dd78d4ea1c",
+   "fonte": "laverita",
+   "titolo": "Landini soffia sul fuoco: «La manovra fa schifo, ora sciopero generale»",
+   "estratto": "Il leader Cgil supera a sinistra la Schlein e rilancia la patrimoniale. Poi replica alla «Verità» e ammette: «Paghiamo gli studenti da 20 anni».",
+   "link": "https://www.laverita.info/sinistra-a-pezzi/landini-cgil-sciopero-generale-manovra",
+   "pubblicato": "2026-10-18T08:47:34Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "19ea36794570e10b",
+   "fonte": "ansa",
+   "titolo": "L'ovaio non va in pensione, dopo la menopausa continua a cambiare",
+   "estratto": "Ha un ruolo attivo nell'invecchiamento e si rimodella",
+   "link": "https://www.ansa.it/canale_scienza/notizie/biotech/2026/10/18/lovaio-non-va-in-pensione-dopo-la-menopausa-continua-a-cambiare_5261fe9c-1eca-497e-b1ce-a9af4ee9991a.html",
+   "pubblicato": "2026-10-18T08:45:10Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "dd6c3e9a255ec7ff",
+   "fonte": "open",
+   "titolo": "Per 12 anni invia le foto della compagna nuda a 60 uomini, operaio patteggia due anni per revenge porn",
+   "estratto": "L'uomo ha condiviso foto e video intimi su Facebook e Telegram con profili falsi. «I danni subiti sono incalcolabili», dice la donna",
+   "link": "https://www.open.online/2026/10/18/torino-55enne-invia-foto-compagna-nuda-uomini-revenge-porn/",
+   "pubblicato": "2026-10-18T08:43:38Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4f7b44678296b259",
+   "fonte": "ansa",
+   "titolo": "Crosetto: 'Entro la fine dell'anno nuovo pacchetto di aiuti a Kiev'",
+   "estratto": "Il ministro della Difesa nell'intervista alla Bbc",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/crosetto-entro-fine-dellanno-nuovo-pacchetto-di-aiuti-a-kiev_d5f3a95d-9207-423d-b345-ee07fe1e1623.html",
+   "pubblicato": "2026-10-18T08:42:20Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "eaeb42fbfb116b73",
+   "fonte": "nicolaporro",
+   "titolo": "Maranza, centri sociali, violenti: le nostre città in mano a loro",
+   "estratto": "La protesta non rappresenta tutti gli studenti: tra centri sociali, estremisti e teppisti, a occupare le piazze sono le frange più politicizzate, mentre chi vuole studiare resta ostaggio dei soliti…",
+   "link": "https://www.nicolaporro.it/maranza-centri-sociali-violenti-le-nostre-citta-in-mano-a-loro/",
+   "pubblicato": "2026-10-18T08:41:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "96e6b9cdebe12897",
+   "fonte": "ilfatto",
+   "titolo": "“Unità per cambiare l’Italia”: assemblea nazionale del Partito Democratico – La Diretta",
+   "estratto": "",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/assemblea-nazionale-pd-unita-italia-diretta/8542209/",
+   "pubblicato": "2026-10-18T08:37:51Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "08183c22b343253d",
+   "fonte": "laverita",
+   "titolo": "Proteste violente e il frutto marcio dei cattivi maestri",
+   "estratto": "Intanto le vere vittime sono i ragazzi che si dissociano e a cui nessuno dà retta. Di Micco, portavoce delle consulte studentesche: «I teppisti sono una minoranza».",
+   "link": "https://www.laverita.info/scuola/proteste-studentesche-violenza-di-micco",
+   "pubblicato": "2026-10-18T08:36:15Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "edb42bfc0c9940ff",
+   "fonte": "ilfatto",
+   "titolo": "“Non siamo preparati, temo siano le prime prove di violenza”, il sindaco Sala dopo la guerriglia a Milano",
+   "estratto": "“La preoccupazione è altissima”. Il giorno dopo la guerriglia urbana che ha devastato il centro di Milano, Beppe Sala affida a Rtl 102.5 la sua inquietudine per quanto accaduto e per quello che…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/non-siamo-preparati-temo-siano-le-prime-prove-di-violenza-il-sindaco-sala-dopo-la-guerriglia-a-milano/8542211/",
+   "pubblicato": "2026-10-18T08:31:42Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2fbedbd78e8137bc",
+   "fonte": "laverita",
+   "titolo": "Cuciniamo insieme | Rose di mele",
+   "estratto": "È iniziata la stagione delle mele – per la verità si trovano sempre – ma, all’inizio dell’autunno portano profumo e dolcezza sulle nostre tavole. In Appennino si coltivano le mele antiche: le…",
+   "link": "https://www.laverita.info/video/rose-mele-ricetta-facile",
+   "pubblicato": "2026-10-18T08:30:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "beae7c05f963b5e6",
+   "fonte": "ilfatto",
+   "titolo": "“È lei, è la scroccona seriale. È arrivata in città, state attenti”: scatta l’allarme a Rovereto dopo gli avvistamenti della 57enne con 300 denunce alle spalle, i commercianti creano una chat anti-truffe",
+   "estratto": "È bastato qualche avvistamento, un paio di fotogrammi ripresi dalle telecamere di sorveglianza, per far partire il tam tam e scatenare il panico tra i commercianti di Rovereto. Sì, perché la fama…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/e-lei-e-la-scroccona-seriale-e-arrivata-in-citta-state-attenti-scatta-lallarme-a-rovereto-dopo-gli-avvistamenti-della-57enne-con-300-denunce-alle-spalle-i-commercianti-creano-una-chat-anti/8542214/",
+   "pubblicato": "2026-10-18T08:29:29Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8057dbd6ed5cf301",
+   "fonte": "repubblica",
+   "titolo": "Ecco perché la deterrenza europea è pericolosamente debole. E cosa sta accadendo in Italia",
+   "estratto": "L’Alleanza sta tenendo esercitazioni nucleari nel nostro Paese in un clima di forte tensione, scrive il quotidiano tedesco Welt. Crescono le frizioni con Mosca, così come i dubbi sull’ombrello degli…",
+   "link": "https://www.repubblica.it/esteri/dossier/lena/2026/10/18/news/deterrenza_nucleare_europea_debole_esercitazioni_italia-425656072/",
+   "pubblicato": "2026-10-18T08:27:02Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c6512313e3dec5d3",
+   "fonte": "repubblica",
+   "titolo": "Il sindaco Sala sugli scontri in piazza Duomo: “Ieri pochi agenti, sottovalutato il momento”",
+   "estratto": "L’allarme del primo cittadino: “Non ce l’ho col questore ma ho l’impressione che non siamo preparati a quel che può succedere”",
+   "link": "https://milano.repubblica.it/cronaca/2026/10/18/news/beppe_sala_scontri_in_piazza_duomo_pochi_agenti-425656066/",
+   "pubblicato": "2026-10-18T08:25:11Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3159ae60e69534b3",
+   "fonte": "ilgiornale",
+   "titolo": "“Metà sono minori, l’altra metà pirla”. “Domani vai a lavorare”. La rabbia dei genitori dopo la devastazione di Milano",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/nazionale/meta-sono-minori-laltra-meta-pirla-domani-vai-a-lavorare-la-rabbia-dei-genitori-dopo-la-devastazione-di-milano/",
+   "pubblicato": "2026-10-18T08:22:36Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "ac8848c2cbeb8ff2",
+   "fonte": "ilfatto",
+   "titolo": "“Sì, faccio sogni peccaminosi. Mi sono iscritta a un’app di incontri, sono uscita con alcuni uomini ma ho visto dei mostri. Io al parco con un passeggino? Ci manca solo un nipote”: così Luciana Littizzetto",
+   "estratto": "Un profilo in incognito su un’app di incontri per studiare la fauna dei cuori solitari, la realtà quotidiana del ruolo di caregiver per una madre novantatreenne e il rifiuto categorico, almeno per…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/luciana-littizzetto-faccio-sogni-peccaminosi-mi-sono-iscritta-a-unapp-di-incontri-sono-uscita-con-alcuni-uomini-ma-ho-visto-dei-mostri-io-al-parco-con-un-passeggino-ci-manca-solo-un-nipote/8542201/",
+   "pubblicato": "2026-10-18T08:19:27Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "73db638d41536750",
+   "fonte": "ansa",
+   "titolo": "Deva Cassel: “Tre mesi di danza da zero per L’amore immortale”",
+   "estratto": "L'attrice è una ballerina nella versione romantica del Fantasma dell’opera",
+   "link": "https://www.ansa.it/sito/videogallery/spettacolo/2026/10/18/deva-cassel-tre-mesi-di-danza-da-zero-per-lamore-immortale_7ed12045-5576-48fa-975b-9f1fc54b27d0.html",
+   "pubblicato": "2026-10-18T08:15:01Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
   {
    "id": "e1b907a0b111eda4",
    "fonte": "skytg24",
@@ -9,6 +519,26 @@
    "link": "https://tg24.sky.it/cronaca/2026/10/18/prime-pagine-quotidiani-oggi-18-ottobre",
    "pubblicato": "2026-10-18T08:15:00Z",
    "raccolto": "2026-10-18T07:29:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2f72f306f6c69a23",
+   "fonte": "repubblica",
+   "titolo": "Chi sono i devastatori di Milano: nessun leader o schema, solo la caccia allo sbirro",
+   "estratto": "Quasi la metà di quelli finiti in questura sono minorenni, non hanno gruppi di riferimento ma rabbia da sfogare e da riprendere e postare sui social",
+   "link": "https://milano.repubblica.it/cronaca/2026/10/18/news/chi_sono_i_devastatori_di_milano_scontri_duomo-425656048/",
+   "pubblicato": "2026-10-18T08:09:31Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cd77d26857e02e47",
+   "fonte": "ilfatto",
+   "titolo": "Nomi e indirizzi dei presunti responsabili delle violenze a Milano su Instagram: minaccia o provocazione? “Qualcuno ci è cascato”",
+   "estratto": "La guerriglia urbana che sabato 17 ottobre ha devastato il centro di Milano lascia strascichi anche sui social network. Dopo gli scontri, le vetrine infrante, i negozi saccheggiati e gli incendi che…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/nomi-indirizzi-e-presunte-ronde-su-instragram-la-provocazione-social-dopo-gli-scontri-di-milano-qualcuno-ci-e-cascato/8542175/",
+   "pubblicato": "2026-10-18T08:06:36Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -22,6 +552,76 @@
    "canale": "rss"
   },
   {
+   "id": "9a1185d5b1b43011",
+   "fonte": "ilgiornale",
+   "titolo": "Auto, così rischi lo stop alla revisione per colpa della targa, stangata da 200 euro",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cittadini/auto-cosi-rischi-lo-stop-alla-revisione-per-colpa-della-targa-stangata-da-200-euro/",
+   "pubblicato": "2026-10-18T08:05:59Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "98ae3e7d00ba34d9",
+   "fonte": "sole24ore",
+   "titolo": "Tessera sanitaria, finti rimborsi e bonus: come evitare le truffe con le mail trappola",
+   "estratto": "L’ultimo allarme in ordine di tempo è stato lanciato dal ministero della Salute attraverso i suoi profili social: «Sono in circolazione e-mail che utilizzano indebitamente il nome del...",
+   "link": "https://www.ilsole24ore.com/art/tessera-sanitaria-finti-rimborsi-e-bonus-come-evitare-truffe-le-mail-trappola-AJMsXPnB",
+   "pubblicato": "2026-10-18T08:05:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5ee3891c98b5023a",
+   "fonte": "ilgiornale",
+   "titolo": "Francia, proteste e violenze da Parigi a Limoges: 855 fermi nella capitale, incendiato un municipio storico",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cronache/francia-proteste-e-violenze-da-parigi-a-limoges-855-fermi-nella-capitale-incendiato-un-municipio-storico/",
+   "pubblicato": "2026-10-18T08:04:24Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "83ccc92b62c9ce6a",
+   "fonte": "sole24ore",
+   "titolo": "Piacentini: «Più Ai in azienda e che sia gestita dall’alto»",
+   "estratto": "«Non c’è più spazio per imprenditori che non conoscono l’intelligenza artificiale e delegano tutto alla struttura. Il cambiamento deve essere gestito dall’alto». È quasi un vademecum per…",
+   "link": "https://www.ilsole24ore.com/art/piacentini-piu-in-azienda-e-che-sia-gestita-dall-alto-AJx9tPnB",
+   "pubblicato": "2026-10-18T08:02:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fc0898199c828e06",
+   "fonte": "ilfatto",
+   "titolo": "“Esistono entità che ci guidano. Se credo ai fantasmi? Non lo so, ma ho avuto esperienze paranormali”: la confessione di Deva Cassel",
+   "estratto": "Tra atmosfere oniriche, sedute spiritiche e il palcoscenico dell’Opéra Garnier, Deva Cassel fa il suo debutto da protagonista sul grande schermo. Alla Festa del Cinema di Roma, l’attrice ventiduenne…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/esistono-entita-che-ci-guidano-se-credo-ai-fantasmi-non-lo-so-ma-ho-avuto-esperienze-paranormali-la-confessione-di-deva-cassel/8542192/",
+   "pubblicato": "2026-10-18T08:00:56Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4dcd6effa5486852",
+   "fonte": "ilpost",
+   "titolo": "I luoghi delle proteste e delle devastazioni in Francia",
+   "estratto": "Sono stati assaltati e saccheggiati negozi un po' ovunque, e in diverse città anche le sedi dei municipi e di uffici pubblici",
+   "link": "https://www.ilpost.it/2026/10/18/luoghi-proteste-francia-devastazioni/",
+   "pubblicato": "2026-10-18T08:00:35Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1602323015189639",
+   "fonte": "ilgiornale",
+   "titolo": "“Sono stanco, mi prendo una pausa”. Zverev si gioca il primo posto nella classifica mondiale",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/tennis/sono-stanco-mi-prendo-una-pausa-zverev-si-gioca-il-primo-posto-nella-classifica-mondiale/",
+   "pubblicato": "2026-10-18T08:00:34Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "823dd808b794dcf6",
    "fonte": "skytg24",
    "titolo": "Vigil, da stasera la terza stagione in esclusiva su Sky e NOW",
@@ -29,6 +629,46 @@
    "link": "https://tg24.sky.it/spettacolo/serie-tv/2026/10/18/vigil-terza-stagione-sky-now",
    "pubblicato": "2026-10-18T08:00:00Z",
    "raccolto": "2026-10-18T07:31:25Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b97fd58b84a2fd77",
+   "fonte": "ilgiornale",
+   "titolo": "Il bilancio della guerriglia nella piazze: agenti feriti gravi a Milano, 12 poliziotti in ospedale a Bologna",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/nazionale/il-bilancio-della-guerriglia-nella-piazze-agenti-feriti-gravi-a-milano-12-poliziotti-in-ospedale-a-bologna/",
+   "pubblicato": "2026-10-18T07:57:49Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "e4fe81e39d837982",
+   "fonte": "ilgiornale",
+   "titolo": "Mercedes tra futuro e storia: arriva il GT SUV e la Classe S celebra 140 anni sulla strada",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/auto-moto-motori/mercedes-tra-futuro-e-storia-arriva-il-gt-suv-e-la-classe-s-celebra-140-anni-sulla-strada/",
+   "pubblicato": "2026-10-18T07:54:19Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "0a570dbd69430d35",
+   "fonte": "open",
+   "titolo": "Dai «gilets jeunes» a Parigi agli scontri a Tirana contro il governo Rama, la rabbia dei giovani travolge l’Europa: «Stiamo salvando il nostro futuro»",
+   "estratto": "Carovita, tagli all’istruzione e corruzione portano migliaia di persone in piazza in Francia, Albania e Belgio. Tra rivendicazioni, scontri e devastazioni, cresce il malessere di una generazione che…",
+   "link": "https://www.open.online/2026/10/18/proteste-carovita-europa-francia-albania-belgio-giovani/",
+   "pubblicato": "2026-10-18T07:52:35Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "39f37b9667e2154b",
+   "fonte": "nicolaporro",
+   "titolo": "SIETE DELLE BESTIE",
+   "estratto": "Milano, Torino e Bologna a ferro e fuoco: i soliti teppisti devastano tutto e attaccano le forze dell'ordine durante la protesta. E la sinistra? Li coccola",
+   "link": "https://www.nicolaporro.it/siete-delle-bestie/",
+   "pubblicato": "2026-10-18T07:52:25Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -40,6 +680,96 @@
    "pubblicato": "2026-10-18T07:51:00Z",
    "raccolto": "2026-10-18T07:29:26Z",
    "canale": "rss"
+  },
+  {
+   "id": "1384ed7970b7afc6",
+   "fonte": "ilfatto",
+   "titolo": "“Il sesso nello Spazio? Nessuno ci ha mai pensato, è ridotto ad una barzelletta e nessuno studia davvero come fare. Manca la privacy e la contraccezione è un problema”: parla Eleanor Armstrong",
+   "estratto": "Sesso nello spazio? Ci vogliono regole sul consenso, spazi sicuri, procedure di protezione. Sciocco e sciocca chi ancora non ci aveva pensato. Anche in orbita o direttamente su Marte il sesso mica…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/il-sesso-nello-spazio-nessuno-ci-ha-mai-pensato-e-ridotto-ad-una-barzelletta-e-nessuno-studia-davvero-come-fare-manca-la-privacy-e-la-contraccezione-e-un-problema-parla-eleanor-armstrong/8542179/",
+   "pubblicato": "2026-10-18T07:49:31Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f4a754ff98306e90",
+   "fonte": "ilfatto",
+   "titolo": "Tragedia a Forcella Pordoi sulle Dolomiti: escursionista 36enne precipita per 300 metri e muore davanti alla famiglia",
+   "estratto": "Un volo fatale di circa trecento metri nel vuoto ha trasformato una vacanza in montagna in tragedia. Nella tarda mattinata di sabato 17 ottobre, un’escursionista statunitense di 36 anni ha perso la…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/tragedia-a-forcella-pordoi-escursionista-36enne-precipita-per-300-metri-e-muore-davanti-alla-famiglia/8542176/",
+   "pubblicato": "2026-10-18T07:43:29Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3cf5566dbe4abf2b",
+   "fonte": "ilfatto",
+   "titolo": "I presidi italiani guadagnano tre volte gli insegnanti: il rapporto Eurydice fotografa il record europeo",
+   "estratto": "I presidi italiani guadagnano quasi tre volte tanto gli insegnanti della scuola secondaria di primo grado. A dirlo è il rapporto sugli “Stipendi dei capi d’istituto in Europa” pubblicato da…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/stipendi-presidi-insegnanti-italia-record-europeo-notizie/8540880/",
+   "pubblicato": "2026-10-18T07:40:35Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d5e34b42629676c9",
+   "fonte": "ansa",
+   "titolo": "Carmen Gallo: 'Nobel Carson una maestra, riattiva l'immaginazione'",
+   "estratto": "\"Per la poesia italiana è un momento felice\"",
+   "link": "https://www.ansa.it/sito/notizie/cultura/libri/2026/10/17/carmen-gallo-nobel-carson-una-maestra-riattiva-limmaginazione_2d795611-a41d-4bd7-88c4-98d00609555a.html",
+   "pubblicato": "2026-10-18T07:40:20Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6f8b9fdf387cbe68",
+   "fonte": "ilfatto",
+   "titolo": "Ricercatrice per un progetto Ue sospesa dal suo istituto in Argentina per aver svelato le conseguenze sulla popolazione dell’uso massiccio di agrofarmaci",
+   "estratto": "Ha eseguito una ricerca sulla presenza di veleni agricoli in esseri umani e animali, nel sudovest di Buenos Aires, coinvolgendo 73 volontari. Lo studio, iniziato nel 2020, finanziato da fondi Ue…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/pesticidi-sangue-ricercatrice-argentina-notizie/8538092/",
+   "pubblicato": "2026-10-18T07:39:55Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "96b117d7c2a92fb9",
+   "fonte": "ilfatto",
+   "titolo": "La Germania introduce la sugar tax per incentivare un’alimentazione più sana: 900 milioni di gettito a regime",
+   "estratto": "Il governo tedesco introdurrà una tassa sulle bevande zuccherate. A partire dal 1° luglio 2027, è prevista l’applicazione di un’imposta di 26 centesimi sulle bevande con un contenuto di zucchero…",
+   "link": "https://www.ilfattoquotidiano.it/2026/10/18/la-germania-introduce-la-sugar-tax-per-incentivare-unalimentazione-piu-sana-900-milioni-di-gettito-a-regime/8538257/",
+   "pubblicato": "2026-10-18T07:38:29Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "96a88e99ad954a3b",
+   "fonte": "ansa",
+   "titolo": "Nell'era del digitale c'è ancora spazio per i walkman, Sony rilancia e iPhone s'ispira",
+   "estratto": "Dispositivi dedicati a musica e collezionisti, melafonino ha un'app che simula il lettore",
+   "link": "https://www.ansa.it/canale_tecnologia/notizie/novita_recensioni/2026/10/17/nellera-del-digitale-ce-ancora-spazio-per-i-walkman-sony-rilancia-con_1af1e923-5f6a-4d1d-b2a3-46ffdbb2630a.html",
+   "pubblicato": "2026-10-18T07:38:18Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "30a3cb62d6246570",
+   "fonte": "ansa",
+   "titolo": "Keoghan: 'Ho sempre creato le mie occasioni, anche per interpretare Ringo nei Beatles'",
+   "estratto": "L'attore protagonista di una masterclass a Alice nella città, dove presenta Butterfly Jam",
+   "link": "https://www.ansa.it/sito/notizie/speciali/festa-del-cinema-di-roma-/2026/10/17/keoghan-ho-sempre-creato-le-mie-occasioni-anche-per-interpretare-ringo-nei_1b407ca1-cd18-4d74-acd3-5766296899fb.html",
+   "pubblicato": "2026-10-18T07:37:33Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0ca5ca49a5b00926",
+   "fonte": "ilgiornale",
+   "titolo": "Canada, violento incendio alla base militare di Wainwright: 7 morti e molti feriti",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cronaca-internazionale/canada-violento-incendio-alla-base-militare-di-wainwright-7-morti-e-diversi-feriti/",
+   "pubblicato": "2026-10-18T07:34:50Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "sitemap"
   },
   {
    "id": "a65c9cdc7a7c7be2",
@@ -59,6 +789,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/muore-nello-scontro-con-lauto-dellex-accusa-femminicidio_df46c31f-7782-446c-9c71-149bc4d5863a.html",
    "pubblicato": "2026-10-18T07:32:25Z",
    "raccolto": "2026-10-18T07:36:39Z",
+   "canale": "rss"
+  },
+  {
+   "id": "93d03f97524e6cc2",
+   "fonte": "ansa",
+   "titolo": "Jenna Ortega, tra social e IA stiamo perdendo sempre più le relazioni umane",
+   "estratto": "E' alla Festa del cinema di Roma con Klara e il sole di Waititi da un libro di Ishiguro",
+   "link": "https://www.ansa.it/sito/notizie/speciali/festa-del-cinema-di-roma-/2026/10/17/jenna-ortega-tra-social-e-ia-stiamo-perdendo-sempre-piu-le-relazioni-umane_e68a4746-0744-4fb6-89d7-defa6b0ac872.html",
+   "pubblicato": "2026-10-18T07:31:55Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -352,6 +1092,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "c8935367fc23c778",
+   "fonte": "libero",
+   "titolo": "Realpolitik, il video choc delle violenze in piazza: il gesto vergognoso di queste due ragazzine",
+   "estratto": "\"Eccola qua, l'immagine che resterà\". A Realpolitik, su Rete 4, Tommaso Labate manda in onda un video girato da LocalTeam in piazza Duomo a Milano, durante la guerriglia scatenata da studenti…",
+   "link": "https://www.liberoquotidiano.it/news/spettacoli/televisione/49398387/realpolitik-video-choc-violenze-piazza-gesto-vergognoso-queste-due-ragazzine/",
+   "pubblicato": "2026-10-18T07:08:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
    "id": "37b8e1323d97a23c",
    "fonte": "ilgiornale",
    "titolo": "Il risveglio di Milano dopo la furia dei giovanissimi: vetrine sfondate, saccheggi e decine di fermati",
@@ -360,6 +1110,16 @@
    "pubblicato": "2026-10-18T07:07:15Z",
    "raccolto": "2026-10-18T07:29:26Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "cc4f497427c18c24",
+   "fonte": "libero",
+   "titolo": "Guerriglia e devastazione a Milano, Meloni: condannare senza ambiguità",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49399553/guerriglia-e-devastazione-a-milano-meloni-condannare-senza-ambiguita-/",
+   "pubblicato": "2026-10-18T07:07:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
   },
   {
    "id": "de0c9cab82087d1a",
@@ -372,6 +1132,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "58adb1277a327b28",
+   "fonte": "libero",
+   "titolo": "Realpolitik, Sandra Amurri zittita da Filini: \"Cocaina? Ma si vergogni\"",
+   "estratto": "Si comincia discutendo delle manifestazioni studentesche e si finisce con la cocaina attribuita al «politico vostro». Sandra Amurri, a Realpolitik su Rete 4, imbocca una scorciatoia piuttosto…",
+   "link": "https://www.liberoquotidiano.it/news/spettacoli/televisione/49398412/realpolitik-sandra-amurri-zittita-filini-cocaina-ma-si-vergogni/",
+   "pubblicato": "2026-10-18T06:59:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
    "id": "d56eaa1f87b3d7b1",
    "fonte": "skytg24",
    "titolo": "Proteste contro caro-vita, guerriglia a Milano. Scontri anche a Torino e Bologna",
@@ -379,6 +1149,36 @@
    "link": "https://tg24.sky.it/cronaca/2026/10/18/proteste-scontri-milano-bologna-torino",
    "pubblicato": "2026-10-18T06:56:17Z",
    "raccolto": "2026-10-18T07:29:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "97f7aec845416d44",
+   "fonte": "libero",
+   "titolo": "Meloni: in tempi di crisi resta fondamentale il legame Italia-Usa",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49399072/meloni-in-tempi-di-crisi-resta-fondamentale-il-legame-italia-usa/",
+   "pubblicato": "2026-10-18T06:56:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4db12c52632522f0",
+   "fonte": "libero",
+   "titolo": "Silenzio (imbarazzato) a sinistra sull'Anpi cacciata dagli ebrei",
+   "estratto": "Ma chi è stato ad appaltare ad Anpi il monopolio della memoria? E quando? L’Associazione partigiani senza più partigiani, e senza rappresentarli nemmeno tutti, da qualche tempo si muove come un…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49398260/silenzio_imbarazzato_a_sinistra_sull_anpi_cacciata_dagli_ebrei/",
+   "pubblicato": "2026-10-18T06:55:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ad57725fcab3c2e6",
+   "fonte": "libero",
+   "titolo": "Silvia Salis, \"chiediamo i danni\": chi attacca la sindaca, slavina politica e giudiziaria",
+   "estratto": "Dopo che il Consiglio di Stato ha confermato che l’esclusione della Duemilagrandieventi, vincitrice del bando, dalla gara per l’organizzazione del concerto di Capodanno era illegale, la società…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49398258/silvia-salis-richiesta-danni-chi-contro-sindaca-slavina-politica-giudiziaria/",
+   "pubblicato": "2026-10-18T06:52:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -399,6 +1199,26 @@
    "link": "https://www.open.online/2026/10/18/canada-incendio-base-militare-alberta-morti-feriti-video/",
    "pubblicato": "2026-10-18T06:51:25Z",
    "raccolto": "2026-10-18T07:29:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7e65e1622a30d386",
+   "fonte": "lastampa",
+   "titolo": "“Barolo en primeur”, l’asta internazionale punta a un nuovo record con le annate storiche",
+   "estratto": "L’evento con le barrique delle più grandi cantine di Langa in cinque anni ha raccolto oltre 4,5 milioni di euro: il ricavato a sostegno di decine di progetti in tutto il mondo dalla Cambogia al Roero",
+   "link": "https://www.lastampa.it/cuneo/2026/10/18/news/barolo_en_primeur-15769868/",
+   "pubblicato": "2026-10-18T06:51:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3cb5f5e53ddf6581",
+   "fonte": "libero",
+   "titolo": "Ranucci, \"bomba per non essere più un paria\": la versione di Lavitola",
+   "estratto": "Più che una «bomba d’amore», quella che Valter Lavitola ha fatto piazzare davanti alla casa di Sigfrido Ranucci, doveva fungere da ascensore sociale e consentire al mandante dell’attentato di…",
+   "link": "https://www.liberoquotidiano.it/news/giustizia/49398256/ranucci-lavitola-bomba-per-non-essere-piu-paria/",
+   "pubblicato": "2026-10-18T06:49:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -442,6 +1262,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "2dd31639d8f01c0d",
+   "fonte": "libero",
+   "titolo": "David Rossi, \"vi do i nomi di chi l'ha ucciso\": Mps, terremoto definitivo",
+   "estratto": "«Nella giornata di ieri sono state presentate due annotazioni. Sono stati riferiti i nominativi di due soggetti che potrebbero essere il mandante e l’esecutore della morte di David Rossi». A…",
+   "link": "https://www.liberoquotidiano.it/news/giustizia/49398248/david-rossi-vi-do-nomi-di-chi-ha-ucciso-mps-terremoto-definitivo/",
+   "pubblicato": "2026-10-18T06:44:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
    "id": "10761fca07daf6b9",
    "fonte": "ilgiornale",
    "titolo": "Piazza buona e cattiva? La solita Litania",
@@ -459,6 +1289,36 @@
    "link": "https://www.rainews.it/video/2026/10/proteste-in-francia-in-fiamme-il-municipio-di-limoges-il-video-9031af0e-0a31-4bc2-8c3c-556d450b4ce0.html",
    "pubblicato": "2026-10-18T06:39:00Z",
    "raccolto": "2026-10-18T07:29:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2c1449070e5d0fb3",
+   "fonte": "libero",
+   "titolo": "Landini, \"facciamo come gli studenti\": la frase oscena nel giorno del caos",
+   "estratto": "Da tempo Maurizio Landini non è più solo il segretario nazionale della Cgil, ma a tutti gli effetti è anche uno dei leader del “campo largo”. Anzi, per quel che si è visto e soprattutto sentito…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49398123/landini_facciamo_come_studenti_frase_oscena_giorno_caos/",
+   "pubblicato": "2026-10-18T06:38:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "627a6982091f4f57",
+   "fonte": "libero",
+   "titolo": "Sinistra violenta in piazza, c'è chi giustidica: l'ultima vergogna del campo largo",
+   "estratto": "Piazza Duomo sotto assedio, negozi saccheggiati in Galleria Vittorio Emanuele, un cantiere dato alle fiamme, quattro poliziotti feriti e più di cinquanta manifestanti fermati (più della metà…",
+   "link": "https://www.liberoquotidiano.it/news/milano/49398004/sinistra-violenta-piazza-c-e-chi-giustfica-ultima-vergogna-campo-largo/",
+   "pubblicato": "2026-10-18T06:33:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0eaafbe4f7ae1e4e",
+   "fonte": "lastampa",
+   "titolo": "Spalletti-Gattuso, l’incrocio ideale per lucidare le ruggini azzurre",
+   "estratto": "Per divincolarsi dai cattivi propositi sputati fuori nel concitato finale di Cagliari-Juventus, Spalletti dice che in ogni partita ci si gioca più del ...",
+   "link": "https://www.lastampa.it/sport/2026/10/18/news/spalletti-gattuso_l_incrocio_ideale_per_lucidare_le_ruggini_azzurre-15769852/",
+   "pubblicato": "2026-10-18T06:31:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -552,6 +1412,46 @@
    "canale": "rss"
   },
   {
+   "id": "be9ef0f58194ec5a",
+   "fonte": "lastampa",
+   "titolo": "Sinner allunga il regno da numero 1 e avvicina l’addio a Cahill",
+   "estratto": "Altre due settimane almeno per il sorpasso di Zverev. Aumentano i rumors sull’addio al coach",
+   "link": "https://www.lastampa.it/sport/2026/10/18/news/sinner_allunga_il_regno_da_n_1_e_si_avvicina_l_addio_a_cahill-15769841/",
+   "pubblicato": "2026-10-18T06:22:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "202001de5f20adc5",
+   "fonte": "libero",
+   "titolo": "La Guardia di Finanza, al servizio della legalità e del Paese: un ringraziamento a donne e uomini che difendono il nostro futuro",
+   "estratto": "Ci sono istituzioni che rappresentano molto più di un’uniforme, di un distintivo o di una divisa. Sono istituzioni che, attraverso il lavoro quotidiano delle donne e degli uomini che ne fanno parte…",
+   "link": "https://www.liberoquotidiano.it/news/italia/49398001/la_guardia_di_finanza_al_servizio_della_legalita_e_del_paese_un_ringraziamento_a_donne_e_uomini_che_difendono_il_nostro_fu/",
+   "pubblicato": "2026-10-18T06:22:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e3f1f6c69abbf338",
+   "fonte": "libero",
+   "titolo": "Milano sotto assedio: questa non è manifestazione, è violenza che va punita con la galera",
+   "estratto": "Oggi, in piazza Duomo, nel cuore di Milano, abbiamo assistito a scene che fanno venire i brividi e che suscitano profonda indignazione. Le immagini della devastazione, degli scontri e delle…",
+   "link": "https://www.liberoquotidiano.it/news/italia/49397999/milano_sotto_assedio_questa_non_e_manifestazione_e_violenza_che_va_punita_con_la_galera/",
+   "pubblicato": "2026-10-18T06:18:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bd50c62ac87f1b95",
+   "fonte": "libero",
+   "titolo": "Proteste in Francia, le immagini del municipio di Limoges in fiamme",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49398803/proteste-in-francia-le-immagini-del-municipio-di-limoges-in-fiamme/",
+   "pubblicato": "2026-10-18T06:10:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
    "id": "47db35285833c389",
    "fonte": "ilgiornale",
    "titolo": "Addio a Erede, l’avvocato dei grandi della finanza",
@@ -560,6 +1460,16 @@
    "pubblicato": "2026-10-18T06:08:47Z",
    "raccolto": "2026-10-18T07:29:26Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "9ce638066fc24196",
+   "fonte": "libero",
+   "titolo": "Violenti di sinistra fuori controllo: a Limoges brucia il municipio e crolla la torre",
+   "estratto": "Come un terremoto. Il sabato di violenze in tutta la Francia ha nel crollo della torre dell'orologio del Municipio di Limoges la sua copertina drammatica e sconvolgente. L'edificio del XIX secolo…",
+   "link": "https://www.liberoquotidiano.it/news/esteri/49397756/violenza_sinistra_limoges_brucia_municipio_crolla_torre/",
+   "pubblicato": "2026-10-18T06:04:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
   },
   {
    "id": "a1fc7c0dcf776489",
@@ -612,6 +1522,16 @@
    "canale": "rss"
   },
   {
+   "id": "3f759c987951be17",
+   "fonte": "libero",
+   "titolo": "Milano, maranza e compagni saccheggiano il negozio di scarpe: ecco la \"rivolta\" della sinistra",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/libero-video/49397754/milano-maranza-compagni-saccheggiano-negozio-scarpe-ecco-rivolta-sinistra/",
+   "pubblicato": "2026-10-18T06:00:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
    "id": "4a387335c56939e8",
    "fonte": "ilpost",
    "titolo": "C’è stato un grosso incendio in una base militare in Canada: ci sono dei morti",
@@ -630,6 +1550,26 @@
    "pubblicato": "2026-10-18T05:54:53Z",
    "raccolto": "2026-10-18T07:29:26Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "23b0d7e2ab21f49d",
+   "fonte": "libero",
+   "titolo": "Milano devastata da maranza e compagni. Il poliziotto contro la ragazzina: \"Siete vandali!\"",
+   "estratto": "\"Ci battiamo anche per i tuoi diritti\", dice una ragazza con il telefonino in mano, mentre riprende piazza Duomo in fiamme. \"Vandali, siete solo dei vandali\", ribatte un funzionario della Polizia…",
+   "link": "https://www.liberoquotidiano.it/news/italia/49397751/milano_devastata_maranza_compagni_poliziotto_urla_vandali_ragazza/",
+   "pubblicato": "2026-10-18T05:49:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "935197ee598ef355",
+   "fonte": "lastampa",
+   "titolo": "Ultimatum di Lo Russo sullo stadio del Toro: “Il progetto entro il 31 dicembre”",
+   "estratto": "Palazzo Civico attende ancora il piano per l’Olimpico annunciato in primavera dalla società granata. Ma senza un’intesa l’amministrazione dovrà avviare nel 2027 una nuova procedura di concessione",
+   "link": "https://www.lastampa.it/torino/2026/10/18/news/stadio_toro_ultimatum_lo_russo_progetto-15769827/",
+   "pubblicato": "2026-10-18T05:47:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
   },
   {
    "id": "4297c6b32b9de049",
@@ -689,6 +1629,16 @@
    "link": "https://www.rainews.it/video/2026/10/festa-del-cinema-di-roma-javier-bardem-riceve-il-premio-alla-carriera-da-paolo-sorrentino-68cd26ae-e27f-4414-be6a-43e045c59bd4.html",
    "pubblicato": "2026-10-18T05:10:00Z",
    "raccolto": "2026-10-18T07:29:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4a7ca7c5f7f51a09",
+   "fonte": "lastampa",
+   "titolo": "“Negli zaini molotov, petardi e pietre”: a Torino dodici fermati per gli scontri organizzati sui social",
+   "estratto": "Ci sono anche dieci minorenni tra i giovani identificati per gli scontri al termine del corteo di ieri in centro contro il carovita",
+   "link": "https://www.lastampa.it/torino/2026/10/18/news/molotov_petardi_pietre_corteo_carovita_fermati-15769800/",
+   "pubblicato": "2026-10-18T05:08:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -1210,6 +2160,26 @@
    "pubblicato": "2026-10-18T04:00:00Z",
    "raccolto": "2026-10-18T04:38:58Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "ca51996e49c4378d",
+   "fonte": "repubblica",
+   "titolo": "The priest bringing New York’s Italian community together — one game at a time",
+   "estratto": "Father Luigi Portarulo who serves at the historic St. Patrick’s Cathedral, has brought the Italian community together through faith, social activities and a shared passion for sport, from running to…",
+   "link": "https://europe.repubblica.it/en/lifestyle/2026/10/17/news/father_luigi_portarulo_new_york_italian_community-425654536/",
+   "pubblicato": "2026-10-18T04:00:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "64666259c2a437cf",
+   "fonte": "repubblica",
+   "titolo": "Luna Rossa CEO Max Sirena: “Our race against the climate crisis and changing winds”",
+   "estratto": "Unpredictable weather conditions and extreme temperatures complicate training for Italy’s team as it prepares to compete in the 2027 America’s Cup in Naples. “We must raise awareness of the need to…",
+   "link": "https://europe.repubblica.it/en/news/2026/10/18/news/luna_rossa_max_sirena_climate_crisis_sailing_americas_cup-425654289/",
+   "pubblicato": "2026-10-18T04:00:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
   },
   {
    "id": "40e65d50d839740a",
@@ -1869,6 +2839,36 @@
    "link": "https://bologna.repubblica.it/cronaca/2026/10/18/news/bacio_sui_social_valanga_omofoba_cristian_luca_nonna-425655565/",
    "pubblicato": "2026-10-17T23:00:00Z",
    "raccolto": "2026-10-18T04:38:58Z",
+   "canale": "rss"
+  },
+  {
+   "id": "85e952d7b89cdb99",
+   "fonte": "repubblica",
+   "titolo": "L’ultima minaccia Maga: “Pronta la legge marziale se perdiamo le midterm”",
+   "estratto": "Le indiscrezioni di Axios: misure straordinarie nel caso in cui Trump ritenesse truccato il voto. Il rischio di un nuovo 6 gennaio",
+   "link": "https://www.repubblica.it/esteri/2026/10/18/news/trump_legge_marziale_elezioni_midterm-425655541/",
+   "pubblicato": "2026-10-17T23:00:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "060af3e3a3e26bb7",
+   "fonte": "repubblica",
+   "titolo": "La morte di Pierina Buffon, quell’amore finito a maggio e le denunce di lei. “Era diventato molesto”",
+   "estratto": "“Si era rivolta ai carabinieri perché non ne poteva più, era ossessivo” dicono i parenti. Lo trovava sempre sotto casa",
+   "link": "https://milano.repubblica.it/cronaca/2026/10/18/news/morte_pierina_buffon_ex_denunce_cassano_magnano-425655545/",
+   "pubblicato": "2026-10-17T23:00:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "08dc66dd08c56624",
+   "fonte": "repubblica",
+   "titolo": "Si scontra con l’auto dell’ex e muore. “Nessun incidente, è femminicidio”",
+   "estratto": "La Jaguar dell’uomo andava a 140 all’ora. Il figlio di lei: lo ha fatto apposta. La procura: da omicidio stradale a volontario",
+   "link": "https://milano.repubblica.it/cronaca/2026/10/18/news/scontra_auto_ex_morta_figlio_accuse_femminicidio_cassano_magnago_pierina_buffon-425655534/",
+   "pubblicato": "2026-10-17T23:00:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -4039,6 +5039,16 @@
    "link": "https://www.ansa.it/sito/notizie/politica/2026/10/17/sala-ragioni-protesta-comprensibili-le-violenze-ingiustificabili_b9f6aac8-cd91-40fe-a1c6-e98ffc04d3c5.html",
    "pubblicato": "2026-10-17T17:53:55Z",
    "raccolto": "2026-10-17T22:34:06Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e9f7978ea3ab7759",
+   "fonte": "ansa",
+   "titolo": "Partire nel 2027, nove tendenze chiave per non smettere di desiderare viaggi nonostante tutto",
+   "estratto": "Travel Predictions sulle nuove modalità dal valore sociale alla riconciliazione",
+   "link": "https://www.ansa.it/canale_lifestyle/notizie/tempo_libero/2026/10/13/partire-nel-2027-nove-tendenze-chiave-per-non-smettere-di-desiderare_c6a27aa4-379a-4e18-9581-a89ccca9b412.html",
+   "pubblicato": "2026-10-17T17:51:53Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -8382,6 +9392,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "1b1f87c04c639d53",
+   "fonte": "repubblica",
+   "titolo": "Maradona loses half his face in Naples — and gets it back after a social media outcry",
+   "estratto": "When a shutter bearing the football legend’s portrait broke, tourists lost one of the city’s favourite selfie spots. A local carpenter has now come to the rescue",
+   "link": "https://europe.repubblica.it/en/sport/2026/10/17/news/in_naples_diego_armando_maradona_mural_loses_half_its_face__and_social_media_erupts-425653025/",
+   "pubblicato": "2026-10-17T04:00:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
    "id": "ca495e342d15b27b",
    "fonte": "internazionale",
    "titolo": "Di notte è meglio se lavorano i robot",
@@ -11752,6 +12772,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "b60824eaba360d9c",
+   "fonte": "vdnews",
+   "titolo": "In Francia gli studenti boicottano le lezioni online: invitano chiunque",
+   "estratto": "La protesta dalle strade si sposta nella didattica a distanza",
+   "link": "https://www.vdnews.it/esteri/2026/10/15/news/in-francia-gli-studenti-boicottano-le-lezioni-online-invitano-chiunque-22919443/",
+   "pubblicato": "2026-10-15T14:09:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
+   "canale": "rss"
+  },
+  {
    "id": "2a8c2b766685da1f",
    "fonte": "rainews",
    "titolo": "Ministro Urso: \"Innovazione come leva della crescita delle imprese e della competitività del Paese\"",
@@ -11759,6 +12789,16 @@
    "link": "https://www.rainews.it/video/2026/10/ministro-urso-innovazione-come-leva-della-crescita-delle-imprese-e-della-competitivita-del-paese-03c953af-5cdf-4e43-8ba2-6b7181032a61.html",
    "pubblicato": "2026-10-15T14:08:00Z",
    "raccolto": "2026-10-17T22:34:06Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9d163cabd70470d5",
+   "fonte": "vdnews",
+   "titolo": "Sally Rooney non venderà più i suoi libri nel Regno Unito",
+   "estratto": "a causa del suo sostegno a Palestine Action, classificata come organizzazione terroristica dal governo britannico",
+   "link": "https://www.vdnews.it/esteri/2026/10/15/news/sally-rooney-non-vendera-piu-i-suoi-libri-nel-regno-unito-22917169/",
+   "pubblicato": "2026-10-15T14:08:00Z",
+   "raccolto": "2026-10-18T09:18:33Z",
    "canale": "rss"
   },
   {
@@ -11948,36 +12988,6 @@
    "estratto": "«Chi fa trapelare segreti militari dovrebbe essere fucilato». Donald Trump alza i toni durante un comizio a Bullhead City, in Arizona, riferendosi alle fughe di notizie sui bombardamenti americani…",
    "link": "https://www.lastampa.it/esteri/2026/10/15/video/trump_arizona_attacchi_trans_dem_spie-15766886/",
    "pubblicato": "2026-10-15T09:19:00Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "dc43f60553df813e",
-   "fonte": "repubblica",
-   "titolo": "Tangentopoli, Morto Silvano Larini: l’uomo del “Conto protezione” amico fidato di Bettino Craxi",
-   "estratto": "Aveva 91 anni, ad annunciarlo con un necrologio la moglie Viviana: al pool di Mani Pulite raccontò che su quel conto transitavano i finanziamenti illeciti ai socialisti",
-   "link": "https://milano.repubblica.it/cronaca/2026/10/15/news/silvano_larini_morto_tangentopoli_conto_protezione-425649394/",
-   "pubblicato": "2026-10-15T08:41:10Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "377a8a981685ab5b",
-   "fonte": "pagellapolitica",
-   "titolo": "Non è chiaro a che punto siano le Case di Comunità in Italia",
-   "estratto": "Il governo ha dichiarato raggiunti gli obiettivi europei, ma mancano dati aggiornati sui servizi effettivamente offerti ai cittadini",
-   "link": "https://pagellapolitica.it/articoli/case-comunita-italia",
-   "pubblicato": "2026-10-15T08:11:50Z",
-   "raccolto": "2026-10-17T22:34:06Z",
-   "canale": "rss"
-  },
-  {
-   "id": "ce9d0bb15c6ce10d",
-   "fonte": "valigiablu",
-   "titolo": "La vita sotto l’occupazione russa: come si sopravvive e si muore a Oleshky",
-   "estratto": "Vasyl Berezka e sua moglie Liudmyla sono riusciti a fuggire da Oleshky, città occupata dell’oblast di Kherson: hanno raccontato la storia di una città da cui è ormai quasi impossibile uscire, dove…",
-   "link": "https://www.valigiablu.it/oleshky-trappola-scudi-umani-occupazione-russa/",
-   "pubblicato": "2026-10-15T07:52:34Z",
    "raccolto": "2026-10-17T22:34:06Z",
    "canale": "rss"
   }

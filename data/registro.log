@@ -28,3 +28,10 @@
 2026-10-18 07:36:40 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
 2026-10-18 07:36:41 WARNING giornalize.raccolta: scomodo: errore con https://www.scomodo.org/feed/: errore HTTP 403
 2026-10-18 07:37:11 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo
+2026-10-18 09:18:34 WARNING giornalize.raccolta: rainews: errore con https://www.rainews.it/rss/tutti: errore HTTP 404
+2026-10-18 09:18:35 WARNING giornalize.raccolta: rainews: errore con https://www.rainews.it/rss/politica: errore HTTP 404
+2026-10-18 09:18:35 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-18 09:18:37 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: non è un feed leggibile (<unknown>:2:119: not well-formed (invalid token))
+2026-10-18 09:18:38 WARNING giornalize.raccolta: vdnews: trovato in automatico il feed https://www.vdnews.it/rss (conviene scriverlo in sources.yaml)
+2026-10-18 09:18:39 WARNING giornalize.raccolta: ispi: trovato in automatico il feed https://www.ispionline.it/it/feed (conviene scriverlo in sources.yaml)
+2026-10-18 09:19:06 WARNING giornalize: Fonti non raggiungibili in questo giro: rainews, fanpage, scomodo
