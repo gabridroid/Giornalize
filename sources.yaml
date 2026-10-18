@@ -127,7 +127,6 @@ fonti:
     orientamento_breve: Economico
     sito: https://www.ilsole24ore.com
     instagram: "@ilsole_24ore"
-    instagram_da_verificare: true
     feed:
       - https://www.ilsole24ore.com/rss/italia.xml
       - https://www.ilsole24ore.com/rss/economia.xml
@@ -200,7 +199,6 @@ fonti:
     orientamento: Destra
     sito: https://www.liberoquotidiano.it
     instagram: "@liberoquotidiano"
-    instagram_da_verificare: true
     feed:
       - https://www.liberoquotidiano.it/rss.xml
     attiva: true
@@ -325,7 +323,6 @@ fonti:
     orientamento_breve: Indipendente
     sito: https://irpimedia.irpi.eu
     instagram: "@irpimedia"
-    instagram_da_verificare: true
     feed:
       - https://irpimedia.irpi.eu/feed/
     attiva: true
@@ -348,7 +345,6 @@ fonti:
     orientamento: Non schierato
     sito: https://facta.news
     instagram: "@facta.news"
-    instagram_da_verificare: true
     feed:
       - https://facta.news/feed.xml
     attiva: true
@@ -414,7 +410,6 @@ fonti:
     orientamento: Liberal-conservatore
     sito: https://www.nicolaporro.it
     instagram: "@nicolaporro"
-    instagram_da_verificare: true
     feed:
       - https://www.nicolaporro.it/feed/
     attiva: true
@@ -448,7 +443,6 @@ fonti:
     orientamento_breve: Indipendente
     sito: https://scomodo.org
     instagram: "@scomodo"
-    instagram_da_verificare: true
     # Il sito risponde ai server di GitHub con una pagina di controllo
     # anti-robot invece del feed. Resta attiva nel caso cambi; non aggiriamo
     # il blocco. Intanto i suoi articoli si possono aggiungere a mano.
@@ -464,7 +458,6 @@ fonti:
     orientamento_breve: Generalista
     sito: https://www.vdnews.it
     instagram: "@vdnews"
-    instagram_da_verificare: true
     feed:
       - https://www.vdnews.it/rss
     attiva: true
@@ -500,7 +493,6 @@ fonti:
     orientamento_breve: Femminista
     sito: ""
     instagram: "@theperiodoff"
-    instagram_da_verificare: true
     feed: []   # solo Instagram
     instagram_api: true
     attiva: true
@@ -513,7 +505,6 @@ fonti:
     orientamento_breve: Generalista
     sito: ""
     instagram: "@cnc_media"
-    instagram_da_verificare: true
     feed: []   # solo Instagram
     instagram_api: true
     attiva: true
@@ -525,7 +516,6 @@ fonti:
     orientamento: ""   # da definire
     sito: ""
     instagram: "@nxwss"
-    instagram_da_verificare: true
     feed: []   # solo Instagram
     instagram_api: true
     attiva: true
@@ -537,7 +527,6 @@ fonti:
     orientamento: ""   # da definire
     sito: ""
     instagram: "@chronocol.media"
-    instagram_da_verificare: true
     feed: []   # solo Instagram
     instagram_api: true
     attiva: true
@@ -549,7 +538,6 @@ fonti:
     orientamento: ""   # da definire
     sito: ""
     instagram: "@_actamedia"
-    instagram_da_verificare: true
     feed: []   # solo Instagram
     instagram_api: true
     attiva: true
@@ -561,7 +549,6 @@ fonti:
     orientamento: ""   # da definire
     sito: ""
     instagram: "@generazione"
-    instagram_da_verificare: true
     feed: []   # solo Instagram
     instagram_api: true
     attiva: true
