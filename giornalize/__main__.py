@@ -72,6 +72,9 @@ def comando_raccogli(config) -> None:
     )
     if in_errore:
         log.warning("Fonti non raggiungibili in questo giro: %s", ", ".join(in_errore))
+    if any("codice di accesso di Instagram" in e for s in stati.values() for e in s["errori"]):
+        log.error("ATTENZIONE: il codice di Instagram è scaduto. I post Instagram non vengono letti "
+                  "finché non lo rinnovi (README, capitolo 5.3).")
     if stati and not funzionanti:
         log.error("Nessuna fonte ha risposto: problema di rete? Il sito userà le notizie già raccolte.")
 

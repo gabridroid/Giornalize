@@ -114,3 +114,16 @@ def test_api_instagram(config, ora, monkeypatch):
         {"error": {"message": "Invalid user id"}}, 400))
     notizie, stato = raccolta.raccogli_fonte(fonte, config, ora)
     assert stato["esito"] == "errore" and "Invalid user id" in stato["errori"][0]
+
+
+def test_codice_scaduto_spiegato(config, ora, monkeypatch):
+    fonte = config.fonti_per_id["torcha"]
+    fonte.instagram, fonte.instagram_api, fonte.feed, fonte.sito = "@torcha", True, [], ""
+    monkeypatch.setenv("INSTAGRAM_TOKEN", "vecchio")
+    monkeypatch.setenv("INSTAGRAM_ACCOUNT_ID", "123")
+    monkeypatch.setattr(instagram.requests, "get", lambda url, params, timeout: _Risposta(
+        {"error": {"message": "Error validating access token: Session has expired",
+                   "type": "OAuthException", "code": 190}}, 400))
+    _, stato = raccolta.raccogli_fonte(fonte, config, ora)
+    assert stato["esito"] == "errore"
+    assert "va rinnovato" in stato["errori"][0]

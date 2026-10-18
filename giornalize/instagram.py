@@ -64,6 +64,10 @@ class ErrorePost(Exception):
     """Un post scritto male: il messaggio spiega cosa correggere."""
 
 
+class CodiceScaduto(ValueError):
+    """Il codice di accesso dell'API di Instagram va rinnovato."""
+
+
 # --- Post aggiunti a mano ------------------------------------------------------
 
 
@@ -256,7 +260,15 @@ def leggi_api(fonte: Fonte, config: Configurazione, ora: datetime) -> list[dict]
     )
     dati = risposta.json() if risposta.content else {}
     if "error" in dati:
-        raise ValueError(f"Instagram API: {dati['error'].get('message', 'errore sconosciuto')}")
+        errore = dati["error"]
+        # Codice 190 = codice di accesso scaduto o non più valido (anche dopo i
+        # 90 giorni di "accesso ai dati" di Meta).
+        if errore.get("code") == 190 or errore.get("type") == "OAuthException" and "token" in errore.get("message", "").lower():
+            raise CodiceScaduto(
+                "il codice di accesso di Instagram è scaduto o non è più valido: "
+                "va rinnovato (README, capitolo 5.3)"
+            )
+        raise ValueError(f"Instagram API: {errore.get('message', 'errore sconosciuto')}")
     risposta.raise_for_status()
 
     notizie = []

@@ -233,7 +233,29 @@ Actions → New repository secret**:
 - `INSTAGRAM_ACCOUNT_ID`: il numero che identifica il tuo account Instagram professionale.
 
 Finché questi due segreti non ci sono, l'API resta spenta e tutto il resto funziona normalmente.
-La configurazione la facciamo insieme, passo per passo, quando decidi di procedere.
+
+### 5.3 Rinnovare il codice di Instagram
+
+Il codice della Pagina non scade, ma Meta chiede di riconfermare l'accesso ai dati **circa ogni
+90 giorni**. Quando serve te ne accorgi così:
+- nella pagina **Fonti** del sito, le pagine Instagram risultano "Non raggiungibili";
+- nel file `data/registro.log` compare: «ATTENZIONE: il codice di Instagram è scaduto».
+
+Per rinnovarlo (circa 5 minuti, dal computer):
+
+1. Apri <https://developers.facebook.com/tools/explorer>, scegli l'app **Giornalize** e clicca
+   **Generate Access Token** (permessi: `instagram_basic`, `pages_show_list`,
+   `pages_read_engagement`). Conferma nella finestra di Facebook.
+2. Clicca la "i" accanto al codice → **Open in Access Token Tool** → in fondo **Estendi token
+   d'accesso**. Copia il nuovo codice.
+3. Torna nell'Explorer, incolla il codice nel campo **Access Token**, scrivi nella barra delle
+   richieste `me/accounts?fields=name,access_token,instagram_business_account` e premi **Submit**.
+4. Copia il valore di `access_token` della Pagina Giornalize. Controlla su
+   <https://developers.facebook.com/tools/debug/accesstoken> che la scadenza sia **Mai**.
+5. Su GitHub: **Settings → Secrets and variables → Actions** → `INSTAGRAM_TOKEN` → **Update**
+   (la matita) → incolla il nuovo codice → **Update secret**.
+
+Il numero `INSTAGRAM_ACCOUNT_ID` non cambia.
 
 ## 6. Cambiare le impostazioni e le soglie
 
