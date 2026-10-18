@@ -136,7 +136,8 @@ def comando_aggiungi_post(config) -> int:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="giornalize", description="Comandi di Giornalize")
-    parser.add_argument("comando", choices=["aggiorna", "raccogli", "costruisci", "prova-fonti", "aggiungi-post"])
+    parser.add_argument("comando", choices=["aggiorna", "raccogli", "costruisci", "prova-fonti", "aggiungi-post",
+                                            "diagnosi-instagram"])
     parser.add_argument("fonti", nargs="*", help="(solo per prova-fonti) id delle fonti da provare")
     parser.add_argument("-v", "--verboso", action="store_true", help="mostra più dettagli")
     argomenti = parser.parse_args(argv)
@@ -153,6 +154,10 @@ def main(argv: list[str] | None = None) -> int:
             return comando_prova_fonti(config, argomenti.fonti)
         if argomenti.comando == "aggiungi-post":
             return comando_aggiungi_post(config)
+        if argomenti.comando == "diagnosi-instagram":
+            from .diagnosi import esegui
+            esegui(CARTELLA_DATI / "diagnosi_instagram.json", config.impostazioni.get("instagram", {}).get("versione_api", "v24.0"))
+            return 0
         if argomenti.comando in ("aggiorna", "raccogli"):
             comando_raccogli(config)
         if argomenti.comando in ("aggiorna", "costruisci"):
