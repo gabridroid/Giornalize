@@ -1,0 +1,64 @@
+{
+ "quando": "2026-10-18T13:09:54Z",
+ "token_presente": true,
+ "account_id_presente": true,
+ "codice": {
+  "type": "USER",
+  "is_valid": true,
+  "app_id": "1086596357498062",
+  "application": "Giornalize",
+  "scopes": [
+   "pages_show_list",
+   "ads_management",
+   "ads_read",
+   "business_management",
+   "instagram_basic",
+   "pages_read_engagement",
+   "public_profile"
+  ],
+  "granular_scopes": [
+   {
+    "scope": "pages_show_list"
+   },
+   {
+    "scope": "ads_management"
+   },
+   {
+    "scope": "ads_read"
+   },
+   {
+    "scope": "business_management"
+   },
+   {
+    "scope": "instagram_basic"
+   },
+   {
+    "scope": "pages_read_engagement"
+   }
+  ],
+  "expires_at": 0,
+  "data_access_expires_at": 1800104710
+ },
+ "me": {
+  "id": "1172664748529769",
+  "name": "Gabriele Todesco"
+ },
+ "proprio_account": {
+  "errore": {
+   "message": "(#100) Tried accessing nonexisting field (account_type)",
+   "type": "OAuthException",
+   "code": 100,
+   "error_subcode": null,
+   "error_user_msg": null
+  }
+ },
+ "business_discovery": {
+  "errore": {
+   "message": "(#10) Application does not have permission for this action",
+   "type": "OAuthException",
+   "code": 10,
+   "error_subcode": null,
+   "error_user_msg": null
+  }
+ }
+}
