@@ -34,6 +34,7 @@ class Fonte:
     sitemap: list[str] = field(default_factory=list)
     escludi: list[str] = field(default_factory=list)
     mostra_estratto: bool = True
+    instagram_api: bool = False
     attiva: bool = True
 
     def esclusa(self, link: str) -> bool:

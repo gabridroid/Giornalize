@@ -1,0 +1,81 @@
+# Modulo "Aggiungi un post": quando il proprietario del progetto apre (o
+# corregge) una issue con il modulo, il post viene controllato, salvato in
+# contenuti/post_instagram.yaml e il sito si aggiorna.
+
+name: Aggiungi un post
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write   # per salvare il post
+  issues: write     # per rispondere e chiudere la issue
+  actions: write    # per far partire l'aggiornamento del sito
+
+concurrency:
+  group: aggiungi-post
+  cancel-in-progress: false
+
+jobs:
+  aggiungi:
+    # Solo le issue del modulo, aperte, e solo se scritte dal proprietario.
+    if: >-
+      startsWith(github.event.issue.title, '[Post]') &&
+      github.event.issue.state == 'open' &&
+      github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Scarica il progetto
+        uses: actions/checkout@v7
+
+      - name: Prepara Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installa le librerie
+        run: pip install -r requirements.txt
+
+      - name: Controlla e aggiungi il post
+        id: post
+        continue-on-error: true
+        env:
+          TESTO_MODULO: ${{ github.event.issue.body }}
+          ESITO_MODULO: ${{ runner.temp }}/esito.md
+        run: python -m giornalize aggiungi-post
+
+      - name: Salva il post
+        if: steps.post.outcome == 'success'
+        env:
+          NUMERO: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "giornalize-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contenuti/post_instagram.yaml
+          git commit -q -m "Aggiunto un post dal modulo (issue $NUMERO)"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
+
+      - name: Aggiorna il sito
+        if: steps.post.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run aggiorna.yml --ref main -R "$GITHUB_REPOSITORY"
+
+      - name: Rispondi nella issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMERO: ${{ github.event.issue.number }}
+          ESITO: ${{ steps.post.outcome }}
+        run: |
+          if [ ! -s "$RUNNER_TEMP/esito.md" ]; then
+            echo "❌ Qualcosa è andato storto: apri la scheda Actions per i dettagli." > "$RUNNER_TEMP/esito.md"
+          fi
+          gh issue comment "$NUMERO" -R "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/esito.md"
+          if [ "$ESITO" = "success" ]; then
+            gh issue close "$NUMERO" -R "$GITHUB_REPOSITORY"
+          fi

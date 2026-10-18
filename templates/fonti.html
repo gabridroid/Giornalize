@@ -21,7 +21,7 @@
         <h3>{{ f.nome }}</h3>
         {% if f.badge %}<span class="badge">{{ f.badge }}</span>{% endif %}
       </div>
-      <p class="scheda-dettagli">{{ f.tipo }}{% if f.orientamento_breve %} · <span>Orientamento indicativo: {{ f.orientamento }}</span>{% endif %}</p>
+      <p class="scheda-dettagli">{{ f.tipo }}{% if f.orientamento_breve %} · <span>Orientamento indicativo: {{ f.orientamento }}</span>{% elif not f.orientamento %} · <span>Orientamento: da definire</span>{% endif %}</p>
       <p class="scheda-link">
         {% if f.sito %}<a href="{{ f.sito }}" target="_blank" rel="noopener">{{ f.sito|replace('https://', '')|replace('www.', '') }}</a>{% endif %}
         {% if f.instagram %}<a href="{{ f.instagram_url }}" target="_blank" rel="noopener">Instagram {{ f.instagram }}</a>{% if f.instagram_da_verificare %} <small>(account da verificare)</small>{% endif %}{% endif %}
@@ -36,12 +36,12 @@
         {% elif s.esito == 'parziale' %}
           <span class="stato stato-ok">Raccolta attiva (alcuni feed non rispondono)</span>
         {% elif s.esito == 'nessun_canale' %}
-          {% if f.instagram %}<span class="stato">Pubblica soprattutto su Instagram: in arrivo</span>
+          {% if f.instagram %}<span class="stato">Solo Instagram: post aggiunti a mano</span>
           {% else %}<span class="stato stato-errore">Nessun feed disponibile</span>{% endif %}
         {% else %}
           <span class="stato stato-errore">Non raggiungibile all'ultimo aggiornamento</span>
         {% endif %}
-        {% if f.attiva and s and s.esito in ('ok', 'parziale') %}
+        {% if f.attiva and (notizie_per_fonte[f.id] or (s and s.esito in ('ok', 'parziale'))) %}
           · {{ notizie_per_fonte[f.id] }} notizie nelle ultime {{ cfg.oggi.finestra_ore }} ore
         {% endif %}
       </p>

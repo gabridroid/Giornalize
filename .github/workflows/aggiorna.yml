@@ -54,6 +54,10 @@ jobs:
         run: python -m pytest -q
 
       - name: Raccogli le notizie e costruisci il sito
+        env:
+          # Facoltativi: servono solo per l'API di Instagram (vedi README).
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
         run: python -m giornalize aggiorna
 
       - name: Salva le notizie raccolte

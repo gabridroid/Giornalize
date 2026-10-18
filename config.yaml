@@ -63,14 +63,32 @@ poco_coperte:
     - Inchiesta e fact-checking
     - Divulgatori social
   # Un argomento compare se ne parlano ALMENO questo numero di fonti
-  # alternative...
-  min_fonti_alternative: 2
+  # alternative... (con 1 la pagina mostra anche gli argomenti segnalati da
+  # una sola fonte, in una parte separata)
+  min_fonti_alternative: 1
   # ...e AL MASSIMO questo numero di grandi giornali.
   max_fonti_grandi: 1
   # Un argomento viene scartato se somiglia almeno così tanto (da 0 a 1) a
   # un argomento che i grandi giornali hanno coperto: di solito è un pezzo
   # della stessa storia finito in un gruppo a parte. 0 = controllo spento.
   somiglianza_con_argomenti_coperti: 0.20
+  # Nella parte "segnalate da una sola fonte", quante volte al massimo può
+  # comparire ogni fonte (per equilibrio).
+  max_argomenti_per_fonte: 4
+  # In che ordine mostrare gli argomenti segnalati da una sola fonte:
+  # prima le categorie in cima a questo elenco, poi i più recenti.
+  priorita_categorie:
+    - Inchiesta e fact-checking
+    - Divulgatori social
+    - Testate online e settimanali
+
+instagram:
+  # Impostazioni dell'API ufficiale di Instagram (si attiva solo dopo aver
+  # inserito i segreti INSTAGRAM_TOKEN e INSTAGRAM_ACCOUNT_ID su GitHub:
+  # vedi README). Le fonti lette con l'API hanno "instagram_api: true".
+  versione_api: v24.0
+  # Quanti post recenti leggere per ogni account a ogni aggiornamento.
+  post_per_account: 10
 
 # Le categorie di fonti, con le parole usate nei conteggi
 # (es. "3 quotidiani · 2 testate online") e il colore del pallino.

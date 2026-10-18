@@ -22,6 +22,10 @@
 #                        esempio "/sport/" o "/en/" (articoli in inglese)
 #    mostra_estratto     (facoltativo) false per non mostrare l'estratto,
 #                        se quello del feed non è utile
+#    instagram_api       (facoltativo) true per leggere i post con l'API
+#                        ufficiale di Instagram, quando sarà attivata
+#                        (vedi README). Per le pagine solo Instagram si
+#                        possono comunque aggiungere i post a mano.
 #    attiva              false per sospendere una fonte senza cancellarla
 #
 #  Se "feed" è vuoto o nessun feed risponde, il programma prova a trovarne
@@ -240,6 +244,10 @@ fonti:
     instagram: "@ilpost"
     feed:
       - https://www.ilpost.it/feed
+    escludi:          # podcast, newsletter e rubriche fotografiche
+      - "/episodes/"
+      - "/newsletter/"
+      - "/weekly-beasts"
     attiva: true
 
   - id: fanpage
@@ -289,21 +297,8 @@ fonti:
     instagram: "@internazionale"
     feed:
       - https://www.internazionale.it/sitemaps/rss.xml
-    attiva: true
-
-  - id: scomodo
-    nome: Scomodo
-    categoria: Testate online e settimanali
-    tipo: Mensile (carta + sito)
-    orientamento: Indipendente, punto di vista under 30
-    orientamento_breve: Indipendente
-    sito: https://www.scomodo.org
-    instagram: "@scomodo"
-    instagram_da_verificare: true
-    # Al primo controllo Scomodo ha rifiutato l'accesso ai server di GitHub
-    # (errore 403). Resta attiva nel caso cambi; non aggiriamo il blocco.
-    feed:
-      - https://www.scomodo.org/feed/
+    escludi:
+      - "/redirect/"  # recensioni di dischi e libri
     attiva: true
 
   # --------------------------------------------------------------------------
@@ -372,7 +367,8 @@ fonti:
     orientamento_breve: Esplicativo
     sito: https://www.willmedia.it
     instagram: "@will_ita"
-    feed: []   # solo Instagram: Fase 2
+    feed: []   # solo Instagram
+    instagram_api: true
     attiva: true
 
   - id: factanza
@@ -383,7 +379,8 @@ fonti:
     orientamento_breve: Esplicativo
     sito: ""
     instagram: "@factanza"
-    feed: []   # solo Instagram: Fase 2
+    feed: []   # solo Instagram
+    instagram_api: true
     attiva: true
 
   - id: torcha
@@ -394,7 +391,8 @@ fonti:
     orientamento_breve: Esplicativo
     sito: ""
     instagram: "@torcha"
-    feed: []   # solo Instagram: Fase 2
+    feed: []   # solo Instagram
+    instagram_api: true
     attiva: true
 
   - id: progressista
@@ -405,7 +403,8 @@ fonti:
     orientamento_breve: Progressista
     sito: ""
     instagram: "@progressista.io"
-    feed: []   # solo Instagram: Fase 2
+    feed: []   # solo Instagram
+    instagram_api: true
     attiva: true
 
   - id: nicolaporro
@@ -433,4 +432,133 @@ fonti:
       - https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg
     # La descrizione dei video è quasi sempre promozionale: niente estratto.
     mostra_estratto: false
+    attiva: true
+
+  # --------------------------------------------------------------------------
+  # Pagine di divulgazione aggiunte nella Fase 2.
+  # Gli orientamenti con "# proposta" sono un suggerimento da confermare;
+  # quelli vuoti ("") sono da definire: finché restano vuoti, sul sito non
+  # compare nessuna etichetta per quella fonte.
+  # --------------------------------------------------------------------------
+  - id: scomodo
+    nome: Scomodo
+    categoria: Divulgatori social
+    tipo: Rivista (carta + sito)
+    orientamento: Indipendente, punto di vista under 30
+    orientamento_breve: Indipendente
+    sito: https://scomodo.org
+    instagram: "@scomodo"
+    instagram_da_verificare: true
+    # Al primo controllo il sito ha rifiutato l'accesso ai server di GitHub
+    # (errore 403). Resta attiva nel caso cambi; non aggiriamo il blocco.
+    feed:
+      - https://scomodo.org/feed/
+    attiva: true
+
+  - id: vdnews
+    nome: VD News
+    categoria: Divulgatori social
+    tipo: Divulgazione (video)
+    orientamento: Generalista, attenzione a diritti, lavoro e ambiente   # proposta
+    orientamento_breve: Generalista
+    sito: https://www.vdnews.it
+    instagram: "@vdnews"
+    instagram_da_verificare: true
+    feed: []   # cercato in automatico dal sito
+    attiva: true
+
+  - id: claim
+    nome: Claim
+    categoria: Divulgatori social
+    tipo: Rivista
+    orientamento: ""   # da definire
+    sito: https://claimrivista.it
+    instagram: ""   # da cercare
+    feed: []   # cercato in automatico dal sito
+    attiva: true
+
+  - id: ispi
+    nome: ISPI
+    categoria: Divulgatori social
+    tipo: Istituto di ricerca (politica internazionale)
+    orientamento: Istituto di ricerca indipendente   # proposta
+    orientamento_breve: Istituto di ricerca
+    sito: https://www.ispionline.it/it/pubblicazioni
+    instagram: "@ispionline"
+    instagram_da_verificare: true
+    feed: []   # cercato in automatico dal sito
+    attiva: true
+
+  - id: theperiod
+    nome: thePeriod
+    categoria: Divulgatori social
+    tipo: Divulgazione e newsletter
+    orientamento: Femminista (dichiarato)   # proposta
+    orientamento_breve: Femminista
+    sito: ""
+    instagram: "@theperiodoff"
+    instagram_da_verificare: true
+    feed: []   # solo Instagram
+    instagram_api: true
+    attiva: true
+
+  - id: cncmedia
+    nome: CNC Media
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: Generalista, per un pubblico giovane   # proposta
+    orientamento_breve: Generalista
+    sito: ""
+    instagram: "@cnc_media"
+    instagram_da_verificare: true
+    feed: []   # solo Instagram
+    instagram_api: true
+    attiva: true
+
+  - id: nxwss
+    nome: nxwss
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: ""   # da definire
+    sito: ""
+    instagram: "@nxwss"
+    instagram_da_verificare: true
+    feed: []   # solo Instagram
+    instagram_api: true
+    attiva: true
+
+  - id: chronocol
+    nome: chronocol.media
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: ""   # da definire
+    sito: ""
+    instagram: "@chronocol.media"
+    instagram_da_verificare: true
+    feed: []   # solo Instagram
+    instagram_api: true
+    attiva: true
+
+  - id: actamedia
+    nome: Acta Media
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: ""   # da definire
+    sito: ""
+    instagram: "@_actamedia"
+    instagram_da_verificare: true
+    feed: []   # solo Instagram
+    instagram_api: true
+    attiva: true
+
+  - id: generazione
+    nome: Generazione
+    categoria: Divulgatori social
+    tipo: Divulgazione
+    orientamento: ""   # da definire
+    sito: ""
+    instagram: "@generazione"
+    instagram_da_verificare: true
+    feed: []   # solo Instagram
+    instagram_api: true
     attiva: true

@@ -18,12 +18,13 @@ tutto si fa modificando due file di testo direttamente dal sito di GitHub.
 2. [I file del progetto](#2-i-file-del-progetto)
 3. [Mettere il sito online (la prima volta)](#3-mettere-il-sito-online-la-prima-volta)
 4. [Aggiungere, togliere o correggere una fonte](#4-aggiungere-togliere-o-correggere-una-fonte)
-5. [Cambiare le impostazioni e le soglie](#5-cambiare-le-impostazioni-e-le-soglie)
-6. [Scrivere la pagina "Perché esiste questo sito"](#6-scrivere-la-pagina-perché-esiste-questo-sito)
-7. [Aggiornare il sito](#7-aggiornare-il-sito)
-8. [Controllare gli errori](#8-controllare-gli-errori)
-9. [Costi e limiti](#9-costi-e-limiti)
-10. [Per chi vuole provarlo sul proprio computer](#10-per-chi-vuole-provarlo-sul-proprio-computer)
+5. [Instagram: aggiungere i post](#5-instagram-aggiungere-i-post)
+6. [Cambiare le impostazioni e le soglie](#6-cambiare-le-impostazioni-e-le-soglie)
+7. [Scrivere la pagina "Perché esiste questo sito"](#7-scrivere-la-pagina-perché-esiste-questo-sito)
+8. [Aggiornare il sito](#8-aggiornare-il-sito)
+9. [Controllare gli errori](#9-controllare-gli-errori)
+10. [Costi e limiti](#10-costi-e-limiti)
+11. [Per chi vuole provarlo sul proprio computer](#11-per-chi-vuole-provarlo-sul-proprio-computer)
 
 ---
 
@@ -53,12 +54,14 @@ tutto si fa modificando due file di testo direttamente dal sito di GitHub.
 | `sources.yaml` | L'elenco delle fonti | **Sì** |
 | `config.yaml` | Impostazioni: soglie, finestre di tempo, nomi delle categorie | **Sì**, ogni tanto |
 | `contenuti/perche-esiste.md` | Il testo della pagina "Perché esiste questo sito" | **Sì** |
+| `contenuti/post_instagram.yaml` | I post aggiunti a mano (anche con il modulo "Aggiungi un post") | **Sì**, o con il modulo |
 | `data/` | Le notizie raccolte e il registro degli errori (si aggiorna da solo) | No |
 | `templates/` | L'aspetto delle pagine (HTML) | Solo per cambiare testi fissi |
 | `static/` | Colori e stile (`stile.css`), filtri (`filtri.js`) | Raramente |
 | `giornalize/` | Il programma in Python | No |
 | `tests/` | Le prove automatiche del programma | No |
-| `.github/workflows/` | Le istruzioni per GitHub (aggiornamento ogni 3 ore) | Solo per cambiare la frequenza |
+| `.github/workflows/` | Le istruzioni per GitHub (aggiornamento ogni 3 ore, modulo dei post) | Solo per cambiare la frequenza |
+| `.github/ISSUE_TEMPLATE/` | Il modulo "Aggiungi un post" | No |
 
 ## 3. Mettere il sito online (la prima volta)
 
@@ -182,7 +185,57 @@ Nella pagina **Fonti** del sito, accanto a ogni fonte, c'è scritto se la raccol
 Se una fonte risulta "Non raggiungibile" per giorni, il suo indirizzo è probabilmente cambiato:
 cerca il nuovo feed (vedi sopra), sostituiscilo in `sources.yaml` e lancia **Prova le fonti**.
 
-## 5. Cambiare le impostazioni e le soglie
+## 5. Instagram: aggiungere i post
+
+Instagram non offre un feed RSS: per le pagine che pubblicano solo lì ci sono due strade, che
+possono convivere.
+
+### 5.1 Aggiungere un post a mano (funziona già)
+
+**Dal telefono o dal computer, con il modulo:**
+
+1. Apri il repository su GitHub → scheda **Issues** → **New issue** → **Aggiungi un post**.
+2. Compila: link al post, fonte (es. `Factanza` o `@factanza`), titolo, un breve riassunto
+   scritto da te e, se vuoi, data e ora del post. Se le lasci vuote si usa l'ora attuale.
+3. Premi **Create**. Entro un paio di minuti compare un commento:
+   - ✅ il post è stato aggiunto, la issue si chiude da sola e il sito si aggiorna;
+   - ❌ c'è qualcosa da correggere (per esempio una fonte che non esiste): modifica la issue
+     e il controllo riparte da solo.
+
+Il modulo funziona solo se la issue la apri tu, proprietario del progetto: le issue aperte da
+altre persone vengono ignorate.
+
+**Oppure direttamente nel file** `contenuti/post_instagram.yaml`, con la matita, seguendo
+l'esempio scritto in cima al file.
+
+Sul sito il riassunto compare come «Riassunto di Giornalize», per distinguerlo dal testo
+della fonte. Il post resta visibile per le ore indicate in `oggi.finestra_ore` (48), a partire
+dalla sua data. Per toglierlo, cancellalo dal file.
+
+La fonte deve già esistere in `sources.yaml`. Per una pagina nuova aggiungila prima lì
+(capitolo 4), anche senza feed (`feed: []`).
+
+### 5.2 API ufficiale di Instagram (facoltativa, da attivare)
+
+Con l'API ufficiale di Meta (funzione "Business Discovery") il programma legge da solo gli
+ultimi post pubblici delle pagine con `instagram_api: true` in `sources.yaml`. Funziona solo per
+gli account **professionali** (Business o Creator), che sono la quasi totalità delle pagine di
+divulgazione.
+
+È **gratuita**, ma richiede alcuni account:
+- un tuo account Instagram **professionale** (si cambia gratis dalle impostazioni dell'app);
+- una **Pagina Facebook** collegata a quell'account;
+- un account sviluppatore Meta e una "app" su <https://developers.facebook.com>.
+
+Alla fine si ottengono due codici da inserire su GitHub in **Settings → Secrets and variables →
+Actions → New repository secret**:
+- `INSTAGRAM_TOKEN`: il codice di accesso;
+- `INSTAGRAM_ACCOUNT_ID`: il numero che identifica il tuo account Instagram professionale.
+
+Finché questi due segreti non ci sono, l'API resta spenta e tutto il resto funziona normalmente.
+La configurazione la facciamo insieme, passo per passo, quando decidi di procedere.
+
+## 6. Cambiare le impostazioni e le soglie
 
 Apri `config.yaml` e modifica i numeri come per `sources.yaml`. I più utili:
 
@@ -191,7 +244,9 @@ Apri `config.yaml` e modifica i numeri come per `sources.yaml`. I più utili:
 | `oggi.finestra_ore` | Quante ore indietro guarda la pagina "Oggi" | 48 |
 | `oggi.min_fonti_per_gruppo` | Quante fonti servono perché un argomento compaia come gruppo | 2 |
 | `raggruppamento.soglia_somiglianza` | Quanto devono assomigliarsi due notizie per stare nello stesso gruppo (da 0 a 1) | 0.30 |
-| `poco_coperte.min_fonti_alternative` | Sezione "Poco raccontate": minimo di fonti indipendenti/inchiesta/social | 2 |
+| `poco_coperte.min_fonti_alternative` | Sezione "Poco raccontate": minimo di fonti indipendenti/inchiesta/social | 1 |
+| `poco_coperte.max_argomenti_per_fonte` | Sezione "Poco raccontate", parte "una sola fonte": quante volte al massimo può comparire ogni fonte | 4 |
+| `poco_coperte.priorita_categorie` | Sezione "Poco raccontate", parte "una sola fonte": quali categorie mostrare per prime | Inchiesta, Divulgatori, Testate online |
 | `poco_coperte.max_fonti_grandi` | Sezione "Poco raccontate": massimo di agenzie e quotidiani nazionali | 1 |
 | `poco_coperte.somiglianza_con_argomenti_coperti` | Scarta dalla sezione i "pezzi" di storie già coperte dai grandi giornali (0 = controllo spento) | 0.20 |
 | `poco_coperte.categorie_grandi` | Quali categorie contano come "grandi giornali" | Agenzie e all-news, Quotidiani nazionali |
@@ -204,7 +259,7 @@ Apri `config.yaml` e modifica i numeri come per `sources.yaml`. I più utili:
 Cambia di 0.05 alla volta. La soglia iniziale (0.30) è stata scelta confrontando i gruppi
 ottenuti con le prime 900 notizie vere raccolte.
 
-## 6. Scrivere la pagina "Perché esiste questo sito"
+## 7. Scrivere la pagina "Perché esiste questo sito"
 
 Il testo è nel file `contenuti/perche-esiste.md`. Si modifica come gli altri file (matita →
 Commit changes). In cima al file c'è una breve spiegazione del formato.
@@ -217,7 +272,7 @@ Commit changes). In cima al file c'è una breve spiegazione del formato.
 - La parola "censura" va usata **solo** in questa pagina: il resto del sito non la usa mai e
   una prova automatica lo controlla.
 
-## 7. Aggiornare il sito
+## 8. Aggiornare il sito
 
 - **In automatico**: ogni 3 ore, senza fare niente.
 - **Subito**: scheda **Actions** → **Aggiorna Giornalize** → **Run workflow**.
@@ -233,7 +288,7 @@ gli aggiornamenti programmati se per 60 giorni nessuno modifica il progetto. Le 
 dal programma dovrebbero bastare a evitarlo. Se però ricevi un'email che lo segnala, vai in
 **Actions** → **Aggiorna Giornalize** e clicca **Enable workflow**.
 
-## 8. Controllare gli errori
+## 9. Controllare gli errori
 
 Ci sono tre posti dove guardare:
 
@@ -249,7 +304,7 @@ Ci sono tre posti dove guardare:
 Una fonte irraggiungibile **non** fa diventare rosso l'aggiornamento: è normale che ogni tanto
 un sito non risponda. Il programma la salta e riprova al giro successivo.
 
-## 9. Costi e limiti
+## 10. Costi e limiti
 
 - **Costi**: zero. GitHub, GitHub Actions e GitHub Pages sono gratuiti per i progetti pubblici,
   e questo sito usa una piccola parte dei limiti gratuiti. L'unico costo possibile è un dominio
@@ -259,10 +314,13 @@ un sito non risponda. Il programma la salta e riprova al giro successivo.
 - **Feed incompleti**: alcuni giornali mettono nel feed solo una parte dei loro articoli. Quindi
   una notizia può risultare "poco raccontata" anche se un giornale ne ha parlato. Il sito lo
   spiega nella pagina "Come funziona".
-- **Instagram**: le pagine che pubblicano solo su Instagram (Will, Factanza, Torcha,
-  progressista.io) arriveranno nella Fase 2.
+- **Instagram**: per le pagine che pubblicano solo su Instagram, finché l'API non è attiva i
+  post vanno aggiunti a mano (capitolo 5).
+- **Siti che bloccano i programmi automatici**: alcuni siti (oggi Fanpage e Scomodo) rifiutano
+  l'accesso ai server di GitHub. Non aggiriamo il blocco: i loro articoli si possono aggiungere
+  a mano come i post Instagram.
 
-## 10. Per chi vuole provarlo sul proprio computer
+## 11. Per chi vuole provarlo sul proprio computer
 
 Serve Python 3.12 o più recente. Dal terminale, nella cartella del progetto:
 

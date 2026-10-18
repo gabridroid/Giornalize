@@ -5,6 +5,8 @@
     python -m giornalize costruisci    solo costruzione del sito (cartella site/)
     python -m giornalize prova-fonti   prova tutti i feed e stampa un rapporto
     python -m giornalize prova-fonti ansa ilpost   prova solo alcune fonti
+    python -m giornalize aggiungi-post   aggiunge un post dal modulo di GitHub
+                                         (testo del modulo nella variabile TESTO_MODULO)
 """
 
 from __future__ import annotations
@@ -15,7 +17,7 @@ import os
 import sys
 from pathlib import Path
 
-from . import archivio
+from . import archivio, instagram
 from .config import RADICE, ErroreConfigurazione, carica
 from .raccolta import raccogli_fonte, raccogli_tutto
 from .sito import Costruttore
@@ -111,9 +113,27 @@ def comando_prova_fonti(config, ids: list[str]) -> int:
     return 0
 
 
+def comando_aggiungi_post(config) -> int:
+    """Usato dal modulo "Aggiungi un post" su GitHub. Scrive l'esito nel file
+    indicato da ESITO_MODULO, che GitHub pubblica come commento."""
+    esito = Path(os.environ.get("ESITO_MODULO", CARTELLA_DATI / "esito_modulo.md"))
+    try:
+        notizia = instagram.aggiungi_da_modulo(os.environ.get("TESTO_MODULO", ""), config, archivio.ora_utc())
+    except instagram.ErrorePost as e:
+        esito.write_text(f"❌ Il post non è stato aggiunto: {e}.\n\nCorreggi il modulo (modifica "
+                         "questa issue) e verrà controllato di nuovo.", encoding="utf-8")
+        log.error("Post non aggiunto: %s", e)
+        return 1
+    fonte = config.fonti_per_id[notizia["fonte"]]
+    esito.write_text(f"✅ Aggiunto: **{notizia['titolo']}** ({fonte.nome}).\n\nIl sito si aggiorna "
+                     "tra un paio di minuti.", encoding="utf-8")
+    log.info("Post aggiunto: %s (%s)", notizia["titolo"], fonte.id)
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="giornalize", description="Comandi di Giornalize")
-    parser.add_argument("comando", choices=["aggiorna", "raccogli", "costruisci", "prova-fonti"])
+    parser.add_argument("comando", choices=["aggiorna", "raccogli", "costruisci", "prova-fonti", "aggiungi-post"])
     parser.add_argument("fonti", nargs="*", help="(solo per prova-fonti) id delle fonti da provare")
     parser.add_argument("-v", "--verboso", action="store_true", help="mostra più dettagli")
     argomenti = parser.parse_args(argv)
@@ -128,6 +148,8 @@ def main(argv: list[str] | None = None) -> int:
     try:
         if argomenti.comando == "prova-fonti":
             return comando_prova_fonti(config, argomenti.fonti)
+        if argomenti.comando == "aggiungi-post":
+            return comando_aggiungi_post(config)
         if argomenti.comando in ("aggiorna", "raccogli"):
             comando_raccogli(config)
         if argomenti.comando in ("aggiorna", "costruisci"):

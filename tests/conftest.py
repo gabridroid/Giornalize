@@ -46,3 +46,14 @@ def internet_finto(monkeypatch, ora):
 
     monkeypatch.setattr(raccolta, "scarica", scarica_finto)
     return risposte
+
+
+@pytest.fixture(autouse=True)
+def post_manuali_vuoti(monkeypatch, tmp_path):
+    """Le prove non leggono il vero file dei post aggiunti a mano."""
+    from giornalize import instagram
+    percorso = tmp_path / "post_instagram.yaml"
+    monkeypatch.setattr(instagram, "FILE_MANUALI", percorso)
+    monkeypatch.delenv("INSTAGRAM_TOKEN", raising=False)
+    monkeypatch.delenv("INSTAGRAM_ACCOUNT_ID", raising=False)
+    return percorso

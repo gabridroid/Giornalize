@@ -50,12 +50,39 @@ def sito(config, notizie, ora, tmp_path):
     return tmp_path / "site", costruttore.prepara(ora), riassunto
 
 
-def test_sezione_poco_coperte(sito):
+def test_sezione_poco_coperte(sito, config):
     _, dati, _ = sito
-    trovati = {argomento_atteso(g.notizie[0]) for g in dati["poco_coperte"]}
+    pc = config["poco_coperte"]
+    piu_fonti = {argomento_atteso(g.notizie[0]) for g in dati["poco_piu_fonti"]}
     # asili: 3 alternative + 1 quotidiano; sbarchi: 3 alternative; affitti: 3 + 1;
     # rai: 2 alternative + 1 quotidiano. Gli altri argomenti hanno molti grandi giornali.
-    assert trovati == {"asili", "sbarchi", "affitti", "rai"}
+    assert piu_fonti == {"asili", "sbarchi", "affitti", "rai"}
+    # una sola fonte alternativa, al massimo un grande giornale
+    una_fonte = dati["poco_una_fonte"]
+    fonti_singole = {f for g in una_fonte for f in g.fonti}
+    assert {"nicolaporro", "breakingitaly"} <= fonti_singole
+    for g in una_fonte:
+        cat = [config.fonti_per_id[f].categoria for f in g.fonti]
+        assert sum(c in pc["categorie_alternative"] for c in cat) == 1
+        assert sum(c in pc["categorie_grandi"] for c in cat) <= pc["max_fonti_grandi"]
+
+
+def test_poco_coperte_massimo_per_fonte(config, ora, tmp_path):
+    from datetime import timedelta
+    notizie = [
+        {"id": f"p{i}", "fonte": "nicolaporro", "titolo": titolo,
+         "estratto": "", "link": f"https://www.nicolaporro.it/{i}", "pubblicato": raccolta.iso(ora - timedelta(hours=i)),
+         "raccolto": raccolta.iso(ora), "canale": "rss"}
+        for i, titolo in enumerate([
+            "La rassegna stampa del mattino", "Tasse sulla casa, il conto per le famiglie",
+            "Energia nucleare, il dibattito torna in Parlamento", "Scuola, i presidi contro le nuove regole",
+            "Calcio, il derby finisce in pareggio", "Treni in ritardo sulla linea adriatica",
+            "Vaccini antinfluenzali, partita la campagna",
+        ])
+    ]
+    archivio.scrivi(tmp_path / "data" / "notizie.json", notizie, ora)
+    dati = Costruttore(config, tmp_path / "data", tmp_path / "site").prepara(ora)
+    assert len(dati["poco_una_fonte"]) == config["poco_coperte"]["max_argomenti_per_fonte"]
 
 
 class _Link(HTMLParser):

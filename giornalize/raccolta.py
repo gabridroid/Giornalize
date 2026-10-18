@@ -21,8 +21,9 @@ from urllib.parse import urljoin
 import feedparser
 import requests
 
+from . import instagram
 from .config import Configurazione, Fonte
-from .testo import chiave_link, prepara_estratto, pulisci_link, pulisci_titolo
+from .testo import chiave_link, prepara_estratto, pulisci_link, pulisci_titolo, solo_data
 
 log = logging.getLogger("giornalize.raccolta")
 
@@ -68,6 +69,8 @@ def _crea_notizia(
     titolo = pulisci_titolo(titolo, fonte.nome)
     link = pulisci_link(link)
     if not titolo or not link.startswith(("http://", "https://")) or fonte.esclusa(link):
+        return None
+    if solo_data(titolo):  # es. "Domenica 18 ottobre": gallerie fotografiche, non notizie
         return None
     # Date mancanti o "nel futuro" (fusi orari sbagliati nel feed): si usa
     # il momento in cui la notizia è stata raccolta.
@@ -313,14 +316,17 @@ def raccogli_fonte(fonte: Fonte, config: Configurazione, ora: datetime | None = 
     }
     notizie: list[dict] = []
     canali = [("rss", u) for u in fonte.feed] + [("sitemap", u) for u in fonte.sitemap]
+    if fonte.instagram_api and fonte.instagram and instagram.api_configurata():
+        canali.append(("instagram", f"instagram {fonte.instagram}"))
 
     for tipo, url in canali:
         try:
-            contenuto = scarica(url, timeout)
-            if tipo == "rss":
-                trovate = leggi_feed(fonte, contenuto, config, ora)
+            if tipo == "instagram":
+                trovate = instagram.leggi_api(fonte, config, ora)
+            elif tipo == "rss":
+                trovate = leggi_feed(fonte, scarica(url, timeout), config, ora)
             else:
-                trovate = leggi_sitemap(fonte, contenuto, config, ora, timeout)
+                trovate = leggi_sitemap(fonte, scarica(url, timeout), config, ora, timeout)
             notizie += trovate
             stato["canali_ok"].append(url)
             log.info("%s: %d notizie da %s", fonte.id, len(trovate), url)
@@ -329,7 +335,9 @@ def raccogli_fonte(fonte: Fonte, config: Configurazione, ora: datetime | None = 
             stato["errori"].append(messaggio)
             log.warning("%s: errore con %s", fonte.id, messaggio)
 
-    if not stato["canali_ok"] and fonte.sito and config["raccolta"].get("scoperta_automatica", True):
+    solo_instagram = canali and all(t == "instagram" for t, _ in canali)
+    if (not stato["canali_ok"] and fonte.sito and not solo_instagram
+            and config["raccolta"].get("scoperta_automatica", True)):
         try:
             tipo, url, trovate = scopri_feed(fonte.sito, fonte, config, ora)
             notizie += trovate

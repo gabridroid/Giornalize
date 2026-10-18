@@ -1,0 +1,41 @@
+name: Aggiungi un post
+description: Segnala un post (di Instagram o di un altro sito) da mostrare su Giornalize
+title: "[Post] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Compila i campi e premi **Create** (o **Submit new issue**). Il post viene controllato e
+        aggiunto al sito in automatico: l'esito compare qui sotto come commento entro un paio di minuti.
+        Funziona solo per il proprietario del progetto.
+  - type: input
+    id: link
+    attributes:
+      label: Link al post
+      placeholder: https://www.instagram.com/p/...
+    validations:
+      required: true
+  - type: input
+    id: fonte
+    attributes:
+      label: Fonte
+      description: Nome, id o account Instagram della fonte (es. «Factanza» o «@factanza»). Deve essere già presente in sources.yaml.
+    validations:
+      required: true
+  - type: input
+    id: titolo
+    attributes:
+      label: Titolo
+      description: Il titolo da mostrare sul sito (di solito la prima frase del post).
+    validations:
+      required: true
+  - type: textarea
+    id: riassunto
+    attributes:
+      label: Riassunto
+      description: Due righe scritte da te, al massimo 200 caratteri. Sul sito comparirà come «Riassunto di Giornalize».
+  - type: input
+    id: data
+    attributes:
+      label: Data e ora del post
+      description: Per esempio 2026-10-18 09:30 (ora italiana). Se lo lasci vuoto si usa l'ora attuale.

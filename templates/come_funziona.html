@@ -17,8 +17,9 @@
     <li><strong>News sitemap</strong>: per i siti senza RSS, usiamo l'elenco pubblico degli articoli che
       i giornali preparano per i motori di ricerca.</li>
     <li><strong>Canali YouTube</strong>: tramite il feed ufficiale che YouTube offre per ogni canale.</li>
-    <li><strong>Instagram</strong>: le pagine che pubblicano solo su Instagram verranno aggiunte
-      prossimamente, usando solo strumenti ufficiali.</li>
+    <li><strong>Instagram</strong>: per le pagine che pubblicano solo su Instagram, i post vengono
+      segnalati a mano da chi cura il sito (con un breve riassunto, indicato come tale) oppure letti
+      con l'API ufficiale di Instagram. Mostriamo solo il link al post e il testo, mai le immagini.</li>
   </ul>
   <p>Non copiamo gli articoli, non aggiriamo gli abbonamenti e non salviamo immagini. Per ogni
     notizia mostriamo solo titolo, un breve estratto (al massimo {{ cfg.estratto.max_caratteri }}
@@ -60,8 +61,8 @@
   <p>Questa sezione è costruita in automatico, solo contando le fonti. Un argomento compare se,
     nelle ultime {{ cfg.oggi.finestra_ore }} ore:</p>
   <ul>
-    <li>ne hanno parlato <strong>almeno {{ pc.min_fonti_alternative }}</strong> fonti tra:
-      {{ pc.categorie_alternative|join(', ') }};</li>
+    <li>ne {{ 'ha' if pc.min_fonti_alternative == 1 else 'hanno' }} parlato <strong>almeno {{ pc.min_fonti_alternative }}</strong>
+      {{ 'fonte' if pc.min_fonti_alternative == 1 else 'fonti' }} tra: {{ pc.categorie_alternative|join(', ') }};</li>
     <li>e <strong>al massimo {{ pc.max_fonti_grandi }}</strong> {{ 'fonte' if pc.max_fonti_grandi == 1 else 'fonti' }} tra:
       {{ pc.categorie_grandi|join(', ') }};</li>
     {% if pc.somiglianza_con_argomenti_coperti %}
@@ -70,6 +71,15 @@
       sembri una notizia ignorata.</li>
     {% endif %}
   </ul>
+  <p>La sezione è divisa in due parti: prima gli argomenti raccontati da <strong>più fonti
+    indipendenti</strong>, poi quelli <strong>segnalati da una sola fonte</strong>. Una sola fonte è
+    un indizio più debole, quindi quella parte va letta come un elenco di segnalazioni da
+    approfondire. Per equilibrio, nella seconda parte ogni fonte compare al massimo
+    {{ pc.max_argomenti_per_fonte }} volte: così una fonte che pubblica moltissimo non riempie da
+    sola la pagina. Sono mostrate prima le fonti di queste categorie, nell'ordine:
+    {{ pc.priorita_categorie|join(', ') }}.</p>
+  <p>Alcuni contenuti che non sono notizie (podcast, newsletter, gallerie fotografiche, recensioni)
+    vengono esclusi in base al loro indirizzo.</p>
   <p>Il programma <strong>non stabilisce perché</strong> un argomento è poco coperto. Ci possono essere
     molti motivi: la notizia è locale, non è ancora verificata, è considerata poco importante,
     è falsa, oppure è stata trascurata. Sta a chi legge aprire le fonti e farsi un'idea.</p>

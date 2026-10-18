@@ -7,9 +7,10 @@
     <span class="pallino" style="--colore: {{ colori[f.categoria] }}" title="{{ f.categoria }}"></span>
     <span class="nome-fonte">{{ f.nome }}</span>
     {% if f.badge %}<span class="badge" title="Orientamento indicativo: {{ f.orientamento }}">{{ f.badge }}</span>{% endif %}
+    {% if 'instagram.com/' in n.link %}<span class="badge badge-canale">Instagram</span>{% endif %}
   </div>
   <h3 class="card-titolo"><a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.titolo }}</a></h3>
-  {% if n.estratto %}<p class="estratto">{{ n.estratto }}</p>{% endif %}
+  {% if n.estratto %}<p class="estratto">{% if n.canale == 'manuale' %}<span class="riassunto-mano">Riassunto di {{ sito.titolo }}:</span> {% endif %}{{ n.estratto }}</p>{% endif %}
   <div class="card-piede">
     <time datetime="{{ n.pubblicato }}">{{ n.pubblicato|data_breve }}</time>
     <a class="vai" href="{{ n.link }}" target="_blank" rel="noopener">Vai alla fonte <span aria-hidden="true">↗</span></a>

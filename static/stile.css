@@ -195,6 +195,15 @@ h1 {
   text-overflow: ellipsis;
 }
 
+.badge-canale { background: transparent; border: 1px solid var(--bordo); }
+.riassunto-mano { font-weight: 600; }
+.sottosezione {
+  font-family: var(--carattere-titoli);
+  font-size: 1.35rem;
+  margin: 30px 0 4px;
+}
+.sottosezione + .nota, .sottosezione + .gruppo { margin-top: 8px; }
+
 /* --- Filtri ---------------------------------------------------------------- */
 
 .filtri {

@@ -13,9 +13,11 @@ from zoneinfo import ZoneInfo
 import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from . import instagram
 from .archivio import data, leggi, leggi_stato
 from .config import RADICE, Configurazione
 from .raggruppa import Gruppo, raggruppa, somiglianza_gruppi
+from .testo import chiave_link, solo_data
 
 log = logging.getLogger("giornalize.sito")
 
@@ -84,14 +86,19 @@ class Costruttore:
 
     def prepara(self, ora: datetime) -> dict:
         cfg = self.config
+        # Notizie raccolte in automatico + post aggiunti a mano (senza doppioni).
+        archivio = leggi(self.cartella_dati / "notizie.json")
+        link_noti = {chiave_link(n["link"]) for n in archivio}
+        manuali = [n for n in instagram.leggi_post_manuali(cfg) if chiave_link(n["link"]) not in link_noti]
         notizie = [
-            n for n in leggi(self.cartella_dati / "notizie.json")
+            n for n in archivio + manuali
             if n["fonte"] in cfg.fonti_per_id
             and cfg.fonti_per_id[n["fonte"]].attiva
             and not cfg.fonti_per_id[n["fonte"]].esclusa(n["link"])
+            and not solo_data(n["titolo"])
         ]
         inizio = ora - timedelta(hours=cfg["oggi"]["finestra_ore"])
-        recenti = [n for n in notizie if data(n) >= inizio]
+        recenti = [n for n in notizie if inizio <= data(n) <= ora + timedelta(hours=1)]
 
         r = cfg["raggruppamento"]
         gruppi = raggruppa(recenti, r["soglia_somiglianza"], r["peso_titolo"], r["parole_chiave"])
@@ -112,28 +119,56 @@ class Costruttore:
                 conteggio[n["fonte"]] += 1
                 singole.append(n)
 
-        pc = cfg["poco_coperte"]
-        coperti = [g for g in gruppi if self.conta(g, pc["categorie_grandi"]) > pc["max_fonti_grandi"]]
-        limite = pc.get("somiglianza_con_argomenti_coperti", 0)
-        poco_coperte = [
-            g for g in gruppi
-            if self.conta(g, pc["categorie_alternative"]) >= pc["min_fonti_alternative"]
-            and self.conta(g, pc["categorie_grandi"]) <= pc["max_fonti_grandi"]
-            # Scarta i "pezzi" di argomenti che i grandi giornali hanno coperto
-            # ma che il raggruppamento ha separato (es. un dettaglio di una
-            # storia molto raccontata).
-            and not (limite and any(somiglianza_gruppi(g, c) >= limite for c in coperti))
-        ]
-        poco_coperte.sort(key=lambda g: (self.conta(g, pc["categorie_alternative"]), g.ultimo), reverse=True)
+        poco_piu_fonti, poco_una_fonte = self.poco_coperte(gruppi)
 
         return {
             "notizie": notizie,
             "recenti": recenti,
             "gruppi": multipli,
             "singole": singole,
-            "poco_coperte": poco_coperte,
+            "poco_coperte": poco_piu_fonti + poco_una_fonte,
+            "poco_piu_fonti": poco_piu_fonti,
+            "poco_una_fonte": poco_una_fonte,
             "stato": leggi_stato(self.cartella_dati / "stato_fonti.json"),
         }
+
+    def poco_coperte(self, gruppi: list[Gruppo]) -> tuple[list[Gruppo], list[Gruppo]]:
+        """Sezione "Quello che i grandi giornali non raccontano".
+        Restituisce due elenchi: argomenti raccontati da più fonti
+        alternative, e argomenti segnalati da una sola fonte alternativa."""
+        pc = self.config["poco_coperte"]
+        alternative = lambda g: self.conta(g, pc["categorie_alternative"])  # noqa: E731
+        coperti = [g for g in gruppi if self.conta(g, pc["categorie_grandi"]) > pc["max_fonti_grandi"]]
+        limite = pc.get("somiglianza_con_argomenti_coperti", 0)
+        scelti = [
+            g for g in gruppi
+            if alternative(g) >= pc["min_fonti_alternative"]
+            and self.conta(g, pc["categorie_grandi"]) <= pc["max_fonti_grandi"]
+            # Scarta i "pezzi" di argomenti che i grandi giornali hanno coperto
+            # ma che il raggruppamento ha separato (es. un dettaglio di una
+            # storia molto raccontata).
+            and not (limite and any(somiglianza_gruppi(g, c) >= limite for c in coperti))
+        ]
+        piu_fonti = sorted((g for g in scelti if alternative(g) >= 2),
+                           key=lambda g: (alternative(g), g.ultimo), reverse=True)
+
+        # Argomenti di una sola fonte alternativa: al massimo N per fonte, così
+        # nessuna fonte (magari molto prolifica) riempie da sola la sezione.
+        massimo = pc.get("max_argomenti_per_fonte", 4)
+        priorita = {c: i for i, c in enumerate(pc.get("priorita_categorie", []))}
+
+        def fonte_alternativa(g):
+            return next(f for f in g.fonti if self.config.fonti_per_id[f].categoria in pc["categorie_alternative"])
+
+        per_fonte: Counter = Counter()
+        una_fonte = []
+        for g in sorted((g for g in scelti if alternative(g) < 2), key=lambda g: g.ultimo, reverse=True):
+            fonte = fonte_alternativa(g)
+            if per_fonte[fonte] < massimo:
+                per_fonte[fonte] += 1
+                una_fonte.append(g)
+        una_fonte.sort(key=lambda g: priorita.get(self.config.fonti_per_id[fonte_alternativa(g)].categoria, 99))
+        return piu_fonti, una_fonte
 
     # -- scrittura -----------------------------------------------------------
 
@@ -166,7 +201,8 @@ class Costruttore:
         pagine = {
             "index.html": ("oggi.html", {"pagina": "oggi", "gruppi": dati["gruppi"], "singole": dati["singole"],
                                           "totale_recenti": len(dati["recenti"])}),
-            "poco-coperte.html": ("poco_coperte.html", {"pagina": "poco", "gruppi": dati["poco_coperte"]}),
+            "poco-coperte.html": ("poco_coperte.html", {"pagina": "poco", "piu_fonti": dati["poco_piu_fonti"],
+                                                        "una_fonte": dati["poco_una_fonte"]}),
             "fonti.html": ("fonti.html", {"pagina": "fonti", "stato": dati["stato"],
                                           "notizie_per_fonte": notizie_per_fonte}),
             "come-funziona.html": ("come_funziona.html", {"pagina": "come"}),
@@ -182,6 +218,7 @@ class Costruttore:
             "notizie_finestra": len(dati["recenti"]),
             "gruppi": len(dati["gruppi"]),
             "poco_coperte": len(dati["poco_coperte"]),
+            "post_manuali": sum(1 for n in dati["recenti"] if n.get("canale") == "manuale"),
             "singole": len(dati["singole"]),
         }
         log.info("Sito costruito in %s: %s", self.cartella_sito, riassunto)

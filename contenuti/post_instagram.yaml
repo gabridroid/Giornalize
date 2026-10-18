@@ -1,0 +1,23 @@
+# ============================================================================
+#  POST AGGIUNTI A MANO
+# ============================================================================
+#  Qui si aggiungono i post (di Instagram o di qualsiasi altro sito) che il
+#  programma non riesce a raccogliere da solo.
+#
+#  Il modo più comodo, anche dal telefono, è il modulo su GitHub:
+#  scheda "Issues" -> "New issue" -> "Aggiungi un post". Il post viene
+#  scritto qui in automatico.
+#
+#  Si può anche scrivere a mano, copiando questo esempio:
+#
+#  - fonte: factanza                  # id, nome o @account della fonte
+#    link: https://www.instagram.com/p/CODICE/
+#    titolo: Il titolo che vuoi mostrare
+#    riassunto: Due righe scritte da te (al massimo 200 caratteri).
+#    data: 2026-10-18 09:30           # giorno e ora (ora italiana)
+#
+#  Il post compare sul sito per le ore indicate in config.yaml (oggi:
+#  finestra_ore), a partire dalla sua data.
+# ============================================================================
+
+[]

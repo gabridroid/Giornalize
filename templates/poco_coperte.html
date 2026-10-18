@@ -6,9 +6,10 @@
 {% block contenuto %}
 <div class="intro">
   <h1>Quello che i grandi giornali non raccontano</h1>
-  <p>Argomenti di cui, nelle ultime {{ cfg.oggi.finestra_ore }} ore, hanno parlato almeno
-    {{ pc.min_fonti_alternative }} fonti tra {{ pc.categorie_alternative|join(', ')|lower }},
-    e al massimo {{ pc.max_fonti_grandi }} tra {{ pc.categorie_grandi|join(' e ')|lower }}.</p>
+  <p>Argomenti di cui, nelle ultime {{ cfg.oggi.finestra_ore }} ore, ha parlato almeno
+    {{ pc.min_fonti_alternative }} {{ 'fonte' if pc.min_fonti_alternative == 1 else 'fonti' }} tra
+    {{ pc.categorie_alternative|join(', ')|lower }}, e al massimo {{ pc.max_fonti_grandi }}
+    tra {{ pc.categorie_grandi|join(' e ')|lower }}.</p>
   <p class="nota">Questa sezione si limita a <strong>contare</strong> quante fonti ne parlano. Non
     dice perché un argomento è poco coperto: può essere una notizia locale, non ancora verificata,
     considerata poco rilevante, oppure trascurata. Leggi le fonti e giudica tu.
@@ -18,10 +19,21 @@
 
 {{ filtri() }}
 
-{% if gruppi %}
-  {% for g in gruppi %}{{ gruppo(g) }}{% endfor %}
-{% else %}
+{% if not piu_fonti and not una_fonte %}
   <p class="vuoto">In questo momento nessun argomento rientra nei criteri.</p>
+{% endif %}
+
+{% if piu_fonti %}
+<h2 class="sottosezione">Raccontate da più fonti indipendenti</h2>
+{% for g in piu_fonti %}{{ gruppo(g) }}{% endfor %}
+{% endif %}
+
+{% if una_fonte %}
+<h2 class="sottosezione">Segnalate da una sola fonte indipendente</h2>
+<p class="nota">Una sola fonte non basta a dire che una notizia sia importante o verificata: sono
+  segnalazioni da approfondire. Per equilibrio, ogni fonte compare qui al massimo
+  {{ pc.max_argomenti_per_fonte }} volte.</p>
+{% for g in una_fonte %}{{ gruppo(g) }}{% endfor %}
 {% endif %}
 {% endblock %}
 

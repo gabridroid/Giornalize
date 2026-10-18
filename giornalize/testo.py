@@ -119,6 +119,19 @@ def prepara_estratto(grezzo: str, titolo: str, massimo: int) -> str:
     return taglia(testo, massimo)
 
 
+_SOLO_DATA = re.compile(
+    r"^(luned[iì]|marted[iì]|mercoled[iì]|gioved[iì]|venerd[iì]|sabato|domenica)?\s*\d{1,2}\s+"
+    r"(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)"
+    r"(\s+\d{4})?$",
+    re.IGNORECASE,
+)
+
+
+def solo_data(titolo: str) -> bool:
+    """True per i titoli fatti solo di una data, come "Domenica 18 ottobre"."""
+    return bool(_SOLO_DATA.match(titolo.strip()))
+
+
 def normalizza_titolo(titolo: str) -> str:
     """Versione "semplificata" di un titolo, per riconoscere i doppioni."""
     t = unicodedata.normalize("NFKD", titolo.lower())
