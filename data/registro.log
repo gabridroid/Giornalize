@@ -146,3 +146,6 @@
 2026-10-21 04:54:48 WARNING giornalize.raccolta: breakingitaly: errore con https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg: errore HTTP 404
 2026-10-21 04:54:49 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: non è un feed leggibile (<unknown>:2:119: not well-formed (invalid token))
 2026-10-21 04:54:54 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, breakingitaly, scomodo
+2026-10-21 11:55:49 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-21 11:55:51 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-21 11:55:59 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo
