@@ -98,6 +98,9 @@ def comando_prova_fonti(config, ids: list[str]) -> int:
         dettagli = []
         if stato["trovato_in_automatico"]:
             dettagli.append(f"trovato in automatico: {stato['trovato_in_automatico']} (copialo in sources.yaml)")
+        from .raccolta import CANDIDATI_VISTI
+        if CANDIDATI_VISTI.get(fonte.id):
+            dettagli.append("indirizzi visti sul sito: " + ", ".join(CANDIDATI_VISTI[fonte.id][:25]))
         dettagli += stato["errori"]
         senza_data = sum(1 for n in notizie if n["pubblicato"] == n["raccolto"])
         if senza_data:

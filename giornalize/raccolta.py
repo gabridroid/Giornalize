@@ -31,6 +31,9 @@ USER_AGENT = "Mozilla/5.0 (compatible; GiornalizeBot/1.0; lettore di feed RSS)"
 
 # Percorsi dove spesso si trova il feed di un sito, provati se non ne
 # troviamo uno indicato nella pagina principale.
+# Indirizzi candidati visti durante la ricerca automatica (solo per il rapporto).
+CANDIDATI_VISTI: dict[str, list[str]] = {}
+
 PERCORSI_FEED_COMUNI = ["/feed/", "/rss", "/rss.xml", "/feed.xml", "/feed", "/rss/", "/index.xml"]
 
 
@@ -277,10 +280,14 @@ def scopri_feed(sito: str, fonte: Fonte, config: Configurazione, ora: datetime) 
     try:
         robots = scarica(urljoin(sito, "/robots.txt"), timeout).decode("utf-8", errors="replace")
         for riga in robots.splitlines():
-            if riga.lower().startswith("sitemap:") and "news" in riga.lower():
-                candidati.append(("sitemap", riga.split(":", 1)[1].strip()))
+            if riga.lower().startswith("sitemap:"):
+                indirizzo = riga.split(":", 1)[1].strip()
+                CANDIDATI_VISTI.setdefault(fonte.id, []).append(indirizzo)
+                if "news" in indirizzo.lower():
+                    candidati.append(("sitemap", indirizzo))
     except Exception:
         pass
+    CANDIDATI_VISTI.setdefault(fonte.id, []).extend(u for _, u in candidati if u not in CANDIDATI_VISTI[fonte.id])
 
     visti = set()
     for tipo, url in candidati:
