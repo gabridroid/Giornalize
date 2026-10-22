@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% from "_componenti.html" import storia with context %}
+{% set fdr = cfg.fuori_dai_radar %}
+{% block titolo %}{{ sito.titolo }} · Fuori dai radar{% endblock %}
+
+{% block contenuto %}
+<div class="intro">
+  <h1>Fuori dai radar</h1>
+  <p class="sommario">Storie delle ultime {{ cfg.tutte.finestra_ore }} ore raccontate da almeno
+    {{ fdr.min_fonti_alternative }} fonti indipendenti (testate online, inchiesta, divulgatori) e
+    quasi assenti nei feed di agenzie e quotidiani nazionali.</p>
+  <p class="nota">Comparire qui <strong>non</strong> vuol dire che una notizia sia vera, importante o
+    ignorata di proposito: vuol dire solo che, nei feed che leggiamo, i grandi giornali ne parlano poco.
+    Molti giornali mettono nei feed solo una parte dei loro articoli: con «Verifica tu» puoi cercare la
+    notizia direttamente sui loro siti. Opinioni, rubriche, rassegne e dirette non contano.
+    <a href="come-funziona.html#fuori-dai-radar">Le regole complete</a>.</p>
+</div>
+
+{% if piu_fonti %}
+  {% for s in piu_fonti %}{{ storia(s, estratti=true) }}{% endfor %}
+{% else %}
+  <p class="vuoto">In questo momento nessuna storia rientra nei criteri. Il sito si aggiorna da solo: riprova tra qualche ora.</p>
+{% endif %}
+
+{% if singole %}
+<details class="sezione-chiusa">
+  <summary>
+    <span class="sottosezione">Segnalazioni di una sola fonte <span class="conteggio">({{ singole|length }})</span></span>
+    <span class="nota-summary">Solo da testate di {{ fdr.segnalazioni_singole_da|join(', ')|lower }}. Da approfondire.</span>
+  </summary>
+  <p class="nota">Una sola fonte non basta a dire che una notizia sia importante o verificata: sono
+    spunti da leggere con attenzione, mostrati a parte per completezza.</p>
+  {% for s in singole %}{{ storia(s, estratti=true, livello=3) }}{% endfor %}
+</details>
+{% endif %}
+{% endblock %}

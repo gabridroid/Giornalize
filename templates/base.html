@@ -9,23 +9,21 @@
   <meta name="theme-color" content="#16181b" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f2328'/%3E%3Crect x='6' y='8' width='9' height='16' rx='2' fill='%23f7f6f2'/%3E%3Crect x='17' y='8' width='9' height='16' rx='2' fill='%23e0a43a'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="static/stile.css">
+  {% block testa %}{% endblock %}
 </head>
 <body>
   <a class="salta" href="#contenuto">Vai al contenuto</a>
   <header class="testata">
-    <div class="contenitore">
+    <div class="contenitore testata-riga">
       <a class="logo" href="index.html">{{ sito.titolo }}</a>
-      <p class="motto">{{ sito.sottotitolo }}</p>
-    </div>
-    <nav class="menu" aria-label="Sezioni">
-      <div class="contenitore menu-voci">
+      <nav class="menu" aria-label="Sezioni">
         <a href="index.html" {% if pagina == 'oggi' %}aria-current="page"{% endif %}>Oggi</a>
-        <a href="poco-coperte.html" {% if pagina == 'poco' %}aria-current="page"{% endif %}>Poco raccontate</a>
+        <a href="fuori-dai-radar.html" {% if pagina == 'radar' %}aria-current="page"{% endif %}>Fuori dai radar</a>
+        <a href="tutte.html" {% if pagina == 'tutte' %}aria-current="page"{% endif %}>Tutte</a>
         <a href="fonti.html" {% if pagina == 'fonti' %}aria-current="page"{% endif %}>Fonti</a>
-        <a href="come-funziona.html" {% if pagina == 'come' %}aria-current="page"{% endif %}>Come funziona</a>
-        <a href="perche.html" {% if pagina == 'perche' %}aria-current="page"{% endif %}>Perché</a>
-      </div>
-    </nav>
+        <a href="come-funziona.html" {% if pagina == 'come' %}aria-current="page"{% endif %}>Metodo</a>
+      </nav>
+    </div>
   </header>
 
   <main id="contenuto" class="contenitore">
@@ -36,11 +34,14 @@
     <div class="contenitore">
       <p>Aggiornato il <time datetime="{{ aggiornato_iso }}">{{ aggiornato }}</time>.
         Si aggiorna da solo circa ogni {{ cfg.raccolta.ogni_quante_ore }} ore.</p>
-      <p>{{ sito.titolo }} non ripubblica gli articoli: mostra titolo, un breve estratto e il
-        link all'originale. Le etichette di orientamento sono
-        <a href="come-funziona.html#etichette">indicative</a>.</p>
+      <p>{{ sito.titolo }} non ripubblica gli articoli: mostra il titolo, a volte un breve estratto, e
+        porta sempre all'originale. Le aree politiche delle fonti sono
+        <a href="come-funziona.html#aree">indicative</a>.</p>
+      <p><a href="come-funziona.html">Come funziona</a> · <a href="fonti.html">Fonti</a> ·
+        <a href="perche.html">Perché esiste questo sito</a></p>
     </div>
   </footer>
+  <script src="static/tempo.js" defer></script>
   {% block script %}{% endblock %}
 </body>
 </html>

@@ -1,42 +1,24 @@
 {% extends "base.html" %}
-{% from "_componenti.html" import gruppo, card, filtri, legenda with context %}
+{% from "_componenti.html" import storia, tempo with context %}
 {% block titolo %}{{ sito.titolo }} · Oggi{% endblock %}
 
 {% block contenuto %}
 <div class="intro">
   <h1>Oggi</h1>
-  <p>Le notizie delle ultime {{ cfg.oggi.finestra_ore }} ore, raggruppate per argomento: per ogni
-    argomento vedi quali fonti ne parlano e come lo raccontano. Ogni titolo porta all'originale.</p>
-  {{ legenda() }}
+  <p class="sommario">Le storie più raccontate nelle ultime {{ cfg.oggi.finestra_ore }} ore e come le
+    raccontano fonti diverse. Aggiornato {{ tempo(aggiornato_iso) }}.
+    <a href="come-funziona.html">Come funziona</a></p>
 </div>
 
-{{ filtri() }}
-
-{% if gruppi %}
-  {% for g in gruppi %}{{ gruppo(g) }}{% endfor %}
+{% if storie %}
+  {% for s in storie %}{{ storia(s, apertura=loop.first, estratti=loop.first) }}{% endfor %}
 {% else %}
-  <p class="vuoto">Al momento non ci sono argomenti di cui parlano almeno {{ cfg.oggi.min_fonti_per_gruppo }} fonti.
+  <p class="vuoto">Al momento nessuna storia è raccontata da almeno {{ cfg.oggi.min_fonti }} fonti diverse.
     Il sito si aggiorna da solo: riprova tra qualche ora.</p>
 {% endif %}
 
-{% if singole %}
-<section class="singole gruppo">
-  <details>
-    <summary><h2>Altre notizie, da una sola fonte <span class="conteggio">({{ singole|length }})</span></h2></summary>
-    <ul class="elenco-singole">
-      {% for n in singole %}
-      {% set f = fonti[n.fonte] %}
-      <li class="card card-compatta" data-fonte="{{ f.id }}" data-categoria="{{ f.categoria }}" data-orientamento="{{ f.badge }}" data-titolo="{{ n.titolo|lower }}">
-        <a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.titolo }}</a>
-        <span class="meta"><span class="pallino" style="--colore: {{ colori[f.categoria] }}"></span>{{ f.nome }}
-          {% if f.badge %}<span class="badge">{{ f.badge }}</span>{% endif %}
-          · <time datetime="{{ n.pubblicato }}">{{ n.pubblicato|data_breve }}</time></span>
-      </li>
-      {% endfor %}
-    </ul>
-  </details>
-</section>
-{% endif %}
+<nav class="altre-sezioni" aria-label="Altre sezioni">
+  <a href="tutte.html"><strong>Tutte le notizie</strong><span>Tutte le storie e le notizie di una sola fonte, con i filtri</span></a>
+  <a href="fuori-dai-radar.html"><strong>Fuori dai radar</strong><span>Storie raccontate da fonti indipendenti e poco presenti sui grandi giornali</span></a>
+</nav>
 {% endblock %}
-
-{% block script %}<script src="static/filtri.js" defer></script>{% endblock %}

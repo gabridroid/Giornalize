@@ -9,6 +9,9 @@ Metodo (gratuito, senza intelligenza artificiale):
 4. le notizie vengono esaminate in ordine di tempo: ognuna entra nel gruppo
    a cui somiglia di più, se la somiglianza supera la soglia scelta in
    config.yaml, altrimenti apre un gruppo nuovo.
+5. secondo passaggio: i gruppi che parlano della stessa vicenda da angoli
+   diversi (es. "scontri a Milano" e "Piantedosi sui danni") vengono uniti in
+   una "storia", con una soglia più bassa.
 """
 
 from __future__ import annotations
@@ -20,12 +23,22 @@ from dataclasses import dataclass, field
 
 from .testo import parole
 
+MIN_PAROLE_IN_COMUNE = 2
+
 
 @dataclass
 class Gruppo:
     notizie: list[dict] = field(default_factory=list)
     centroide: dict[str, float] = field(default_factory=dict)
     parole_chiave: list[str] = field(default_factory=list)
+    vettori: dict[str, dict[str, float]] = field(default_factory=dict)  # id notizia -> vettore
+    filoni: list["Gruppo"] = field(default_factory=list)  # solo per le storie
+
+    def centralita(self, notizia: dict) -> float:
+        """Quanto una notizia rappresenta il gruppo (somiglianza con il centroide)."""
+        v = self.vettori.get(notizia["id"], {})
+        norma = _norma(self.centroide)
+        return _prodotto(v, self.centroide) / norma if norma else 0.0
 
     @property
     def id(self) -> str:
@@ -80,6 +93,12 @@ def _norma(v: dict[str, float]) -> float:
     return math.sqrt(sum(x * x for x in v.values()))
 
 
+def _in_comune(a: dict[str, float], b: dict[str, float]) -> int:
+    if len(a) > len(b):
+        a, b = b, a
+    return sum(1 for r in a if r in b)
+
+
 def _prodotto(a: dict[str, float], b: dict[str, float]) -> float:
     if len(a) > len(b):
         a, b = b, a
@@ -103,8 +122,13 @@ def raggruppa(notizie: list[dict], soglia: float, peso_titolo: int = 2, n_parole
             candidati |= indice[r]
         migliore, punteggio = None, 0.0
         for g in candidati:
+            centroide = gruppi[g].centroide
+            # Una sola parola in comune (es. "sport") non basta a dire che due
+            # notizie parlano della stessa cosa.
+            if _in_comune(v, centroide) < MIN_PAROLE_IN_COMUNE:
+                continue
             # v ha già norma 1: basta dividere per la norma del centroide
-            s = _prodotto(v, gruppi[g].centroide) / norme[g]
+            s = _prodotto(v, centroide) / norme[g]
             if s > punteggio:
                 migliore, punteggio = g, s
         if migliore is not None and punteggio >= soglia:
@@ -115,6 +139,7 @@ def raggruppa(notizie: list[dict], soglia: float, peso_titolo: int = 2, n_parole
             norme.append(1.0)
             g = len(gruppi) - 1
         gruppi[g].notizie.append(ordinate[i])
+        gruppi[g].vettori[ordinate[i]["id"]] = v
         membri[g].append(i)
         for r, x in v.items():
             gruppi[g].centroide[r] = gruppi[g].centroide.get(r, 0.0) + x
@@ -152,7 +177,8 @@ def _unisci_simili(gruppi: list[Gruppo], membri: list[list[int]], soglia: float)
         candidati = dict.fromkeys(a for r in _parole_principali(centroide) for a in indice[r])
         destinazione = next(
             (a for a in candidati
-             if _prodotto(centroide, gruppi[a].centroide) / (norma * norme[a]) >= soglia),
+             if _in_comune(centroide, gruppi[a].centroide) >= MIN_PAROLE_IN_COMUNE
+             and _prodotto(centroide, gruppi[a].centroide) / (norma * norme[a]) >= soglia),
             None,
         )
         if destinazione is None:
@@ -162,6 +188,7 @@ def _unisci_simili(gruppi: list[Gruppo], membri: list[list[int]], soglia: float)
                 indice[r].append(g)
             continue
         gruppi[destinazione].notizie += gruppi[g].notizie
+        gruppi[destinazione].vettori.update(gruppi[g].vettori)
         membri[destinazione] += membri[g]
         for r, x in centroide.items():
             gruppi[destinazione].centroide[r] = gruppi[destinazione].centroide.get(r, 0.0) + x
@@ -193,3 +220,71 @@ def _parole_chiave(gruppo: Gruppo, forme: list[Counter], quante: int) -> list[st
             scelta = scelta.capitalize()
         risultato.append(scelta)
     return risultato
+
+
+def _unisci_in(storia: Gruppo, gruppo: Gruppo) -> None:
+    storia.notizie += gruppo.notizie
+    storia.vettori.update(gruppo.vettori)
+    storia.filoni.append(gruppo)
+    for r, x in gruppo.centroide.items():
+        storia.centroide[r] = storia.centroide.get(r, 0.0) + x
+
+
+def raggruppa_storie(gruppi: list[Gruppo], soglia_storie: float, soglia_aggancio: float) -> list[Gruppo]:
+    """Secondo passaggio: unisce i gruppi della stessa vicenda in "storie".
+
+    - I gruppi con almeno due fonti si uniscono tra loro se i loro centroidi
+      si somigliano almeno `soglia_storie` (unione progressiva: prima le
+      coppie più simili, ricalcolando il centroide dopo ogni unione).
+    - I gruppi di una sola fonte si agganciano alla storia più simile solo se
+      la somiglianza è almeno `soglia_aggancio` (più alta, per prudenza).
+    """
+    def nuova(g: Gruppo) -> Gruppo:
+        s = Gruppo(parole_chiave=list(g.parole_chiave))
+        _unisci_in(s, g)
+        return s
+
+    multi = sorted((g for g in gruppi if len(g.fonti) >= 2), key=lambda g: -len(g.fonti))
+    storie = [nuova(g) for g in multi]
+    norme = [_norma(s.centroide) or 1.0 for s in storie]
+    vive = set(range(len(storie)))
+
+    def somiglia(i, j):
+        return _prodotto(storie[i].centroide, storie[j].centroide) / (norme[i] * norme[j])
+
+    coppie = {(i, j): somiglia(i, j) for i in vive for j in vive if i < j}
+    while coppie:
+        (i, j), valore = max(coppie.items(), key=lambda kv: kv[1])
+        if valore < soglia_storie:
+            break
+        for g in storie[j].filoni:
+            _unisci_in(storie[i], g)
+        norme[i] = _norma(storie[i].centroide) or 1.0
+        vive.discard(j)
+        coppie = {k: v for k, v in coppie.items() if j not in k and i not in k}
+        for k in vive:
+            if k != i:
+                coppie[(min(i, k), max(i, k))] = somiglia(i, k)
+    storie = [storie[i] for i in sorted(vive)]
+    norme = [_norma(s.centroide) or 1.0 for s in storie]
+
+    singoli = []
+    for g in gruppi:
+        if len(g.fonti) >= 2:
+            continue
+        ng = _norma(g.centroide) or 1.0
+        migliore, punteggio = None, 0.0
+        for k, s in enumerate(storie):
+            valore = _prodotto(g.centroide, s.centroide) / (ng * norme[k])
+            if valore > punteggio:
+                migliore, punteggio = k, valore
+        if migliore is not None and punteggio >= soglia_aggancio:
+            _unisci_in(storie[migliore], g)
+        else:
+            singoli.append(nuova(g))
+
+    for s in storie + singoli:
+        s.notizie.sort(key=lambda n: n["pubblicato"], reverse=True)
+        principale = max(s.filoni, key=lambda f: (len(f.fonti), len(f.notizie)))
+        s.parole_chiave = list(principale.parole_chiave)
+    return storie + singoli

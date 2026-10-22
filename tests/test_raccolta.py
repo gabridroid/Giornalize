@@ -8,7 +8,9 @@ from giornalize import raccolta
 
 def test_tutte_le_fonti_funzionano(config, internet_finto, ora):
     notizie, stati = raccolta.raccogli_tutto(config, ora)
-    assert len(notizie) == len(dati_prova.NOTIZIE)
+    # tutte tranne lo sport, escluso dai filtri di config.yaml
+    titoli = {n["titolo"] for n in notizie}
+    assert titoli == {t for _, _, t, _, _ in dati_prova.NOTIZIE} - {"Serie A, il Napoli vince il derby del sud"}
     assert stati["ansa"]["esito"] == "ok"
     assert all(n["link"].startswith("https://") for n in notizie)
     assert all(len(n["estratto"]) <= config["estratto"]["max_caratteri"] for n in notizie)
@@ -103,3 +105,14 @@ def test_feed_fermo_segnalato(config, internet_finto, ora):
     notizie, stato = raccolta.raccogli_fonte(fonte, config, ora)
     assert notizie == [] and stato["esito"] == "errore"
     assert "feed fermo" in stato["errori"][0]
+
+
+def test_sezione_del_feed_esclusa(config, ora):
+    feed = b"""<?xml version="1.0"?><rss version="2.0"><channel><title>x</title>
+    <item><title>Il Como batte il Manchester United</title><link>https://ilpost.example.it/como</link>
+      <category>Sport</category><pubDate>Fri, 16 Oct 2026 20:00:00 GMT</pubDate></item>
+    <item><title>Cosa c'e' nella manovra</title><link>https://ilpost.example.it/manovra</link>
+      <category>Italia</category><pubDate>Fri, 16 Oct 2026 20:00:00 GMT</pubDate></item>
+    </channel></rss>"""
+    notizie = raccolta.leggi_feed(config.fonti_per_id["ilpost"], feed, config, ora)
+    assert [n["link"] for n in notizie] == ["https://ilpost.example.it/manovra"]

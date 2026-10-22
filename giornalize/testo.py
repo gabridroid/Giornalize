@@ -132,6 +132,15 @@ def solo_data(titolo: str) -> bool:
     return bool(_SOLO_DATA.match(titolo.strip()))
 
 
+def maiuscole_in_minuscole(testo: str) -> str:
+    """Un titolo scritto quasi tutto in MAIUSCOLO diventa "Come una frase"."""
+    lettere = [c for c in testo if c.isalpha()]
+    if lettere and sum(c.isupper() for c in lettere) / len(lettere) > 0.7:
+        testo = testo.lower()
+        return testo[:1].upper() + testo[1:]
+    return testo
+
+
 def normalizza_titolo(titolo: str) -> str:
     """Versione "semplificata" di un titolo, per riconoscere i doppioni."""
     t = unicodedata.normalize("NFKD", titolo.lower())

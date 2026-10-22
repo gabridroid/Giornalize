@@ -4,24 +4,24 @@
 {% block contenuto %}
 <div class="intro">
   <h1>Fonti</h1>
-  <p>Tutte le fonti che {{ sito.titolo }} legge, divise per categoria. L'elenco cerca di coprire
+  <p class="sommario">Tutte le fonti che {{ sito.titolo }} legge, divise per tipo. L'elenco cerca di coprire
     tutto l'arco politico, così che chi legge possa confrontare punti di vista diversi.</p>
-  <p class="nota">L'orientamento accanto a ogni fonte è un'<strong>etichetta indicativa</strong>, non un
-    giudizio sulla qualità o sull'affidabilità. <a href="come-funziona.html#etichette">Come sono scelte le etichette</a>.</p>
+  <p class="nota">L'area politica accanto a ogni fonte è <strong>indicativa e approssimativa</strong>, non un
+    giudizio sulla qualità o sull'affidabilità. <a href="come-funziona.html#aree">Come sono scelte le aree</a>.</p>
 </div>
 
 {% for c in categorie %}
 <section class="categoria-fonti">
-  <h2><span class="pallino" style="--colore: {{ c.colore }}"></span>{{ c.nome }}</h2>
+  <h2>{{ c.nome }}</h2>
   <ul class="elenco-fonti">
     {% for f in fonti.values() if f.categoria == c.nome %}
     {% set s = stato.get(f.id) %}
     <li class="scheda-fonte{% if not f.attiva %} sospesa{% endif %}">
       <div class="scheda-testa">
         <h3>{{ f.nome }}</h3>
-        {% if f.badge %}<span class="badge">{{ f.badge }}</span>{% endif %}
+        <span class="badge badge-area"><i class="segno" style="--colore: {{ colori_aree[f.area] }}"></i>{{ f.area }}</span>
       </div>
-      <p class="scheda-dettagli">{{ f.tipo }}{% if f.orientamento_breve %} · <span>Orientamento indicativo: {{ f.orientamento }}</span>{% elif not f.orientamento %} · <span>Orientamento: da definire</span>{% endif %}</p>
+      <p class="scheda-dettagli">{{ f.tipo }}{% if f.orientamento %} · {{ f.orientamento }}{% else %} · descrizione da definire{% endif %}</p>
       <p class="scheda-link">
         {% if f.sito %}<a href="{{ f.sito }}" target="_blank" rel="noopener">{{ f.sito|replace('https://', '')|replace('www.', '') }}</a>{% endif %}
         {% if f.instagram %}<a href="{{ f.instagram_url }}" target="_blank" rel="noopener">Instagram {{ f.instagram }}</a>{% if f.instagram_da_verificare %} <small>(account da verificare)</small>{% endif %}{% endif %}
@@ -42,7 +42,7 @@
           <span class="stato stato-errore">Non raggiungibile all'ultimo aggiornamento</span>
         {% endif %}
         {% if f.attiva and (notizie_per_fonte[f.id] or (s and s.esito in ('ok', 'parziale'))) %}
-          · {{ notizie_per_fonte[f.id] }} notizie nelle ultime {{ cfg.oggi.finestra_ore }} ore
+          · {{ notizie_per_fonte[f.id] }} notizie nelle ultime {{ cfg.tutte.finestra_ore }} ore
         {% endif %}
       </p>
     </li>

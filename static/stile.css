@@ -86,11 +86,17 @@ a { color: var(--link); }
   background: var(--superficie);
   border-bottom: 1px solid var(--bordo);
 }
-.testata > .contenitore { padding-top: 14px; padding-bottom: 6px; }
+.testata-riga {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 20px;
+  padding-top: 10px;
+}
 
 .logo {
   font-family: var(--carattere-titoli);
-  font-size: 1.6rem;
+  font-size: 1.45rem;
   font-weight: 700;
   color: var(--testo);
   text-decoration: none;
@@ -106,29 +112,27 @@ a { color: var(--link); }
   border-radius: 2px;
 }
 
-.motto {
-  margin: 2px 0 0;
-  color: var(--testo-tenue);
-  font-size: .9rem;
-}
-
-.menu { background: var(--superficie); }
-/* Sul telefono le voci vanno a capo, così sono tutte visibili. */
-.menu-voci {
+/* Il menu sta sempre su una riga: se lo schermo è stretto, scorre di lato. */
+.menu {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0 2px;
-  padding-bottom: 2px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin: 0 -16px;
+  padding: 0 10px;
+  width: calc(100% + 32px);
 }
-.menu-voci a {
+.menu::-webkit-scrollbar { display: none; }
+.menu a {
   flex: none;
-  padding: 8px 8px;
+  padding: 8px 6px 7px;
   color: var(--testo-tenue);
   text-decoration: none;
-  font-size: .95rem;
+  font-size: .93rem;
+  white-space: nowrap;
   border-bottom: 3px solid transparent;
 }
-.menu-voci a[aria-current="page"] {
+.menu a[aria-current="page"] {
   color: var(--testo);
   font-weight: 600;
   border-bottom-color: var(--accento);
@@ -136,19 +140,21 @@ a { color: var(--link); }
 
 /* --- Introduzione delle pagine ------------------------------------------ */
 
-main.contenitore { padding-top: 22px; padding-bottom: 40px; }
+main.contenitore { padding-top: 18px; padding-bottom: 40px; }
 
 h1 {
   font-family: var(--carattere-titoli);
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   line-height: 1.2;
-  margin: 0 0 8px;
+  margin: 0 0 4px;
 }
 
-.intro p { margin: 0 0 10px; max-width: 68ch; }
+.intro { margin-bottom: 8px; }
+.intro p { margin: 0 0 10px; max-width: 70ch; }
+.sommario { color: var(--testo-tenue); font-size: .95rem; }
 
 .nota {
-  font-size: .92rem;
+  font-size: .9rem;
   color: var(--testo-tenue);
   border-left: 3px solid var(--accento);
   padding-left: 10px;
@@ -156,58 +162,43 @@ h1 {
 
 .vuoto { color: var(--testo-tenue); padding: 24px 0; }
 
-/* --- Legenda e pallini di categoria ------------------------------------- */
-
-.legenda {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 14px;
-  list-style: none;
-  padding: 0;
-  margin: 6px 0 0;
-  font-size: .82rem;
-  color: var(--testo-tenue);
-}
-.legenda-colonna { flex-direction: column; font-size: .95rem; }
-.legenda li { display: flex; align-items: center; }
-
-.pallino {
-  display: inline-block;
-  flex: none;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--colore, #888);
-  margin-right: 6px;
-}
-
 .badge {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   font-size: .72rem;
   line-height: 1.3;
-  padding: 2px 7px;
+  padding: 1px 7px;
   border-radius: 999px;
   background: var(--badge-sfondo);
   color: var(--testo-tenue);
   white-space: nowrap;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-weight: 400;
+}
+.riassunto-mano { font-weight: 600; }
+
+/* Quadratino colorato dell'area politica. */
+.segno {
+  display: inline-block;
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: var(--colore, #999);
+  margin-right: 5px;
+  vertical-align: 0;
 }
 
-.badge-canale { background: transparent; border: 1px solid var(--bordo); }
-.riassunto-mano { font-weight: 600; }
 .sottosezione {
   font-family: var(--carattere-titoli);
-  font-size: 1.35rem;
-  margin: 30px 0 4px;
+  font-size: 1.3rem;
+  margin: 30px 0 6px;
 }
-.sottosezione + .nota, .sottosezione + .gruppo { margin-top: 8px; }
+.conteggio { font-family: var(--carattere); font-size: .9rem; color: var(--testo-tenue); font-weight: 400; }
 
 /* --- Filtri ---------------------------------------------------------------- */
 
 .filtri {
-  margin: 18px 0 8px;
+  margin: 14px 0 8px;
   background: var(--superficie);
   border: 1px solid var(--bordo);
   border-radius: var(--raggio);
@@ -241,122 +232,178 @@ h1 {
 .filtri button { cursor: pointer; }
 .esito-filtri { font-size: .9rem; color: var(--testo-tenue); }
 
-/* --- Gruppi di notizie ----------------------------------------------------- */
+/* --- Storie ------------------------------------------------------------------ */
 
-.gruppo {
-  margin: 22px 0 0;
-  padding-top: 16px;
+.storia {
+  padding: 18px 0 16px;
   border-top: 1px solid var(--bordo);
 }
-.gruppo-testa h2 {
+.storia[hidden], .titolo-fonte[hidden], .sezione[hidden] { display: none; }
+
+.storia-titolo {
   font-family: var(--carattere-titoli);
   font-size: 1.25rem;
   line-height: 1.25;
   margin: 0;
 }
-.riepilogo {
-  margin: 4px 0 10px;
-  font-size: .85rem;
+.storia-meta {
+  margin: 4px 0 8px;
+  font-size: .82rem;
   color: var(--testo-tenue);
 }
 
-/* Sul telefono le card di un argomento scorrono di lato, una accanto all'altra. */
-.card-fila {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  padding-bottom: 8px;
-  margin: 0 -16px;
-  padding-left: 16px;
-  padding-right: 16px;
-  scroll-padding-left: 16px;
+/* La prima storia di "Oggi" è più in evidenza. */
+.apertura {
+  background: var(--superficie);
+  border: 1px solid var(--bordo);
+  border-top: 4px solid var(--accento);
+  border-radius: var(--raggio);
+  padding: 14px 16px 12px;
+  margin: 8px 0 6px;
+  box-shadow: var(--ombra);
 }
-.card-fila { align-items: flex-start; }
-.card-fila > .card {
-  flex: 0 0 82%;
-  max-width: 340px;
-  scroll-snap-align: start;
+.apertura + .storia { border-top: 0; }
+.apertura .storia-titolo { font-size: 1.5rem; }
+.occhiello {
+  margin: 0 0 4px;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--accento);
 }
 
-.card {
+/* Barra "chi ne parla". */
+.copertura { margin: 0 0 10px; }
+.barra {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
+  gap: 2px;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 520px;
+}
+.barra span { background: var(--colore); flex-basis: 0; min-width: 4px; }
+.barra-legenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+  margin: 5px 0 0;
+  font-size: .76rem;
+  color: var(--testo-tenue);
+}
+.barra-legenda span { display: inline-flex; align-items: center; white-space: nowrap; }
+
+/* Titoli a confronto e liste di titoli. */
+.elenco-titoli {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.titolo-fonte {
+  display: grid;
+  align-content: start;
+  gap: 2px;
+  padding-left: 10px;
+  border-left: 2px solid var(--bordo);
+  min-width: 0;
+}
+.chi {
+  font-size: .8rem;
+  color: var(--testo-tenue);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 5px;
+}
+.chi strong { color: var(--testo); font-weight: 650; }
+.chi .segno { margin-right: 0; }
+.area { font-style: italic; }
+.titolo-link {
+  color: var(--testo);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+.titolo-link:hover, .titolo-link:focus { text-decoration: underline; color: var(--link); }
+.freccia { color: var(--link); font-weight: 400; }
+.estratto {
+  margin: 2px 0 0;
+  font-size: .86rem;
+  color: var(--testo-tenue);
+}
+/* Sul telefono gli estratti della storia d'apertura restano brevi. */
+@media (max-width: 719px) {
+  .confronto .estratto {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+  }
+}
+.altri {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+  font-size: .85rem;
+  color: var(--testo-tenue);
+}
+.altri a { color: var(--testo); text-decoration: none; }
+.altri a:hover { text-decoration: underline; }
+
+.verifica { margin: 10px 0 0; font-size: .88rem; }
+.verifica a { font-weight: 600; text-decoration: none; }
+
+.tutte-fonti { margin-top: 10px; font-size: .95rem; }
+.tutte-fonti > summary {
+  cursor: pointer;
+  color: var(--link);
+  font-size: .88rem;
+  font-weight: 600;
+  padding: 6px 0;
+}
+.tutte-fonti > .elenco-titoli { margin: 6px 0 4px; }
+
+.compatta { padding: 14px 0 12px; }
+.compatta .storia-titolo { font-size: 1.08rem; }
+.compatta .copertura { margin-bottom: 2px; }
+
+/* Notizie da una sola fonte. */
+.elenco-singole { gap: 12px; margin-top: 10px; }
+
+/* Sezioni chiuse (segnalazioni di una sola fonte). */
+.sezione-chiusa {
+  margin-top: 26px;
+  border-top: 1px solid var(--bordo);
+  padding-top: 6px;
+}
+.sezione-chiusa > summary { cursor: pointer; padding: 8px 0; }
+.sezione-chiusa > summary .sottosezione { margin: 0; display: inline; }
+.nota-summary { display: block; font-size: .85rem; color: var(--testo-tenue); margin-top: 4px; }
+
+/* Collegamenti alle altre sezioni, in fondo a "Oggi". */
+.altre-sezioni {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+}
+.altre-sezioni a {
+  display: grid;
+  gap: 2px;
+  padding: 12px 14px;
   background: var(--superficie);
   border: 1px solid var(--bordo);
   border-radius: var(--raggio);
-  box-shadow: var(--ombra);
-  padding: 12px 14px;
-  min-width: 0;
-}
-.card[hidden], .gruppo[hidden] { display: none; }
-
-.card-fonte {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-  font-size: .85rem;
-}
-.card-fonte .pallino { margin-right: 0; }
-.nome-fonte { font-weight: 700; }
-
-.card-titolo {
-  font-size: 1rem;
-  line-height: 1.35;
-  margin: 0;
-}
-.card-titolo a { color: var(--testo); text-decoration: none; }
-.card-titolo a:hover { text-decoration: underline; }
-
-.estratto {
-  margin: 0;
-  font-size: .88rem;
-  color: var(--testo-tenue);
-}
-
-.card-piede {
-  margin-top: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px;
-  font-size: .82rem;
-  color: var(--testo-tenue);
-  padding-top: 4px;
-}
-.vai {
-  font-weight: 600;
   text-decoration: none;
-  white-space: nowrap;
-  padding: 6px 0;
 }
-
-/* Altri articoli della stessa fonte, dentro la card. */
-.altri {
-  border-top: 1px solid var(--bordo);
-  padding-top: 6px;
-  font-size: .82rem;
-}
-.altri summary { cursor: pointer; color: var(--link); padding: 4px 0; }
-.altri ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 6px; }
-.altri li a { color: var(--testo); }
-.altri time { color: var(--testo-tenue); white-space: nowrap; }
-
-/* Notizie da una sola fonte: elenco compatto. */
-.singole summary { cursor: pointer; list-style-position: outside; }
-.singole summary h2 {
-  display: inline;
-  font-family: var(--carattere-titoli);
-  font-size: 1.15rem;
-}
-.conteggio { font-family: var(--carattere); font-size: .9rem; color: var(--testo-tenue); font-weight: 400; }
-.elenco-singole { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 8px; }
-.card-compatta { padding: 10px 12px; gap: 4px; }
-.card-compatta > a { color: var(--testo); text-decoration: none; font-weight: 600; line-height: 1.35; }
-.card-compatta .meta { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; font-size: .82rem; color: var(--testo-tenue); }
-.card-compatta .pallino { margin-right: 2px; }
+.altre-sezioni strong::after { content: " →"; }
+.altre-sezioni span { color: var(--testo-tenue); font-size: .88rem; }
 
 /* --- Pagina Fonti ---------------------------------------------------------- */
 
@@ -388,6 +435,8 @@ h1 {
 .testo { max-width: 68ch; }
 .testo h2 { font-family: var(--carattere-titoli); font-size: 1.3rem; margin: 28px 0 8px; }
 .testo li { margin-bottom: 6px; }
+.legenda-aree { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.legenda-aree li { display: inline-flex; align-items: center; margin: 0; }
 .segnaposto {
   background: var(--evidenzia);
   color: inherit;
@@ -406,24 +455,30 @@ h1 {
 }
 .piede p { margin: 4px 0; max-width: 72ch; }
 
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 /* --- Schermi più grandi ------------------------------------------------------ */
 
 @media (min-width: 720px) {
-  h1 { font-size: 2.1rem; }
-  .menu { position: sticky; top: 0; z-index: 5; }
-  .menu-voci a { padding: 10px 10px; }
+  h1 { font-size: 2rem; }
+  .testata { position: sticky; top: 0; z-index: 5; }
+  .testata-riga { flex-wrap: nowrap; padding-top: 0; }
+  .menu { margin: 0 0 0 auto; padding: 0; width: auto; }
+  .menu a { padding: 16px 9px 13px; }
   .filtri-campi { grid-template-columns: 2fr 1fr 1fr 1fr auto; align-items: end; }
   .filtri button { width: auto; }
-  /* Su schermi larghi le card vanno a capo invece di scorrere. */
-  .card-fila {
-    display: grid;
-    align-items: stretch;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    overflow: visible;
-    margin: 0;
-    padding: 0;
-  }
-  .card-fila > .card { max-width: none; }
+  .storia-titolo { font-size: 1.35rem; }
+  .apertura { padding: 20px 24px 16px; }
+  .apertura .storia-titolo { font-size: 1.85rem; }
+  .confronto { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 24px; row-gap: 14px; }
+  .altre-sezioni { grid-template-columns: 1fr 1fr; }
   .elenco-fonti { grid-template-columns: repeat(2, 1fr); }
 }
 

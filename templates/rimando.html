@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block titolo %}{{ sito.titolo }} · Pagina spostata{% endblock %}
+{% block testa %}
+  <meta http-equiv="refresh" content="0; url={{ destinazione }}">
+  <link rel="canonical" href="{{ destinazione }}">
+  <meta name="robots" content="noindex">
+{% endblock %}
+
+{% block contenuto %}
+<div class="intro">
+  <h1>Pagina spostata</h1>
+  <p>Questa pagina ora si trova qui: <a href="{{ destinazione }}">{{ destinazione }}</a>.</p>
+</div>
+{% endblock %}

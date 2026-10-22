@@ -68,8 +68,19 @@ def test_titolo_dalla_didascalia():
     titolo, resto = instagram.titolo_da_didascalia(
         "Cosa sappiamo dello sciopero di venerdì 🚆\n\nTreni e bus fermi per 24 ore. #sciopero @trenitalia"
     )
-    assert titolo == "Cosa sappiamo dello sciopero di venerdì 🚆"
+    assert titolo == "Cosa sappiamo dello sciopero di venerdì"
     assert resto == "Treni e bus fermi per 24 ore."
+
+
+def test_titolo_social_ripulito():
+    # prima frase, senza emoji, hashtag, inviti e MAIUSCOLE
+    assert instagram.titolo_social(
+        "🔴 IL GOVERNO APPROVA IL DECRETO SUI TRASPORTI. Ecco cosa cambia 👇 Seguici per altri aggiornamenti! #news"
+    ) == "Il governo approva il decreto sui trasporti."
+    assert instagram.titolo_social("Link in bio 👆 #politica") == ""
+    # una prima frase troppo corta si unisce alla seguente
+    assert instagram.titolo_social("Ci risiamo. Il Parlamento rinvia ancora la legge sul fine vita.") == (
+        "Ci risiamo. Il Parlamento rinvia ancora la legge sul fine vita.")
 
 
 class _Risposta:

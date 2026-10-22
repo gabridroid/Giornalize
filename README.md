@@ -3,8 +3,17 @@
 > *Le notizie sono tante. Ma chi decide quali arrivano a te?*
 
 Giornalize raccoglie in automatico le notizie di giornali, testate indipendenti e
-pagine di divulgazione, le raggruppa per argomento e le mette una accanto all'altra.
-Così chi legge vede subito chi parla di cosa. Ogni notizia porta sempre all'articolo originale.
+pagine di divulgazione, riconosce quando parlano della stessa storia e mette i loro titoli
+uno sotto l'altro. Così chi legge vede chi ne parla e **come** la racconta. Ogni titolo porta
+sempre all'articolo originale.
+
+Le pagine del sito:
+- **Oggi** (la home): le 10 storie più raccontate delle ultime 24 ore, con la barra «chi ne
+  parla» per area politica e 4 titoli a confronto;
+- **Fuori dai radar**: storie raccontate da fonti indipendenti e poco presenti nei feed dei
+  grandi giornali;
+- **Tutte**: tutto quello che è stato raccolto nelle ultime 48 ore, con i filtri;
+- **Fonti** e **Metodo** (come funziona); in fondo alla pagina, **Perché esiste questo sito**.
 
 Questa guida spiega come mettere online il sito, come aggiungere o togliere una fonte, come
 cambiare le impostazioni e cosa fare se qualcosa non va. Non serve saper programmare: quasi
@@ -34,9 +43,10 @@ tutto si fa modificando due file di testo direttamente dal sito di GitHub.
  sources.yaml          GitHub (ogni 3 ore, gratis)                      Sito pubblico
  (le fonti)     ──►   1. legge i feed RSS di tutte le fonti     ──►   https://NOME.github.io/giornalize/
  config.yaml           2. toglie i doppioni
- (le soglie)           3. raggruppa le notizie per argomento
-                       4. costruisce le pagine del sito
-                       5. le pubblica su GitHub Pages
+ (le soglie)           3. toglie sport e spettacolo
+                       4. raggruppa le notizie in storie
+                       5. costruisce le pagine del sito
+                       6. le pubblica su GitHub Pages
 ```
 
 - **Feed RSS**: quasi ogni giornale pubblica un elenco aggiornato dei propri articoli, pensato
@@ -57,7 +67,7 @@ tutto si fa modificando due file di testo direttamente dal sito di GitHub.
 | `contenuti/post_instagram.yaml` | I post aggiunti a mano (anche con il modulo "Aggiungi un post") | **Sì**, o con il modulo |
 | `data/` | Le notizie raccolte e il registro degli errori (si aggiorna da solo) | No |
 | `templates/` | L'aspetto delle pagine (HTML) | Solo per cambiare testi fissi |
-| `static/` | Colori e stile (`stile.css`), filtri (`filtri.js`) | Raramente |
+| `static/` | Colori e stile (`stile.css`), filtri (`filtri.js`), orari tipo "2 ore fa" (`tempo.js`) | Raramente |
 | `giornalize/` | Il programma in Python | No |
 | `tests/` | Le prove automatiche del programma | No |
 | `.github/workflows/` | Le istruzioni per GitHub (aggiornamento ogni 3 ore, modulo dei post) | Solo per cambiare la frequenza |
@@ -148,8 +158,8 @@ Copia un blocco esistente, incollalo in fondo e cambia i valori. Esempio:
     nome: Nuova Fonte               # come apparirà sul sito
     categoria: Testate online e settimanali
     tipo: Testata online
-    orientamento: Progressista      # etichetta indicativa (testo completo)
-    orientamento_breve: Progressista  # facoltativo: testo corto per il badge
+    orientamento: Progressista      # descrizione libera e indicativa della linea editoriale
+    area: centro-sinistra           # posizione indicativa sull'asse sinistra-destra
     sito: https://www.nuovafonte.it
     instagram: "@nuovafonte"
     feed:
@@ -163,6 +173,10 @@ Regole importanti:
 - La **categoria** deve essere scritta esattamente come una di queste: `Agenzie e all-news`,
   `Quotidiani nazionali`, `Testate online e settimanali`, `Inchiesta e fact-checking`,
   `Divulgatori social`.
+- L'**area** deve essere una di queste: `sinistra`, `centro-sinistra`, `centro`, `centro-destra`,
+  `destra`, `non collocabile`. Regola usata finora: l'area si ricava dalla descrizione in
+  `orientamento`; se la descrizione non parla di sinistra o destra (per esempio "Cattolico",
+  "Economico", "Non schierato") la fonte è `non collocabile`. Se manca, vale `non collocabile`.
 - Gli account Instagram vanno tra virgolette (`"@nome"`), perché la @ confonde il formato YAML.
 
 **Come trovare il feed RSS di un sito:**
@@ -209,7 +223,7 @@ altre persone vengono ignorate.
 l'esempio scritto in cima al file.
 
 Sul sito il riassunto compare come «Riassunto di Giornalize», per distinguerlo dal testo
-della fonte. Il post resta visibile per le ore indicate in `oggi.finestra_ore` (48), a partire
+della fonte. Il post resta visibile per le ore indicate in `tutte.finestra_ore` (48), a partire
 dalla sua data. Per toglierlo, cancellalo dal file.
 
 La fonte deve già esistere in `sources.yaml`. Per una pagina nuova aggiungila prima lì
@@ -244,8 +258,8 @@ Il codice della Pagina non scade, ma Meta chiede di riconfermare l'accesso ai da
 Per rinnovarlo (circa 5 minuti, dal computer):
 
 1. Apri <https://developers.facebook.com/tools/explorer>, scegli l'app **Giornalize** e clicca
-   **Generate Access Token** (permessi: `instagram_basic`, `pages_show_list`,
-   `pages_read_engagement`). Conferma nella finestra di Facebook.
+   **Generate Access Token** (permessi: `instagram_basic`, `instagram_manage_insights`,
+   `pages_show_list`, `pages_read_engagement`). Conferma nella finestra di Facebook.
 2. Clicca la "i" accanto al codice → **Open in Access Token Tool** → in fondo **Estendi token
    d'accesso**. Copia il nuovo codice.
 3. Torna nell'Explorer, incolla il codice nel campo **Access Token**, scrivi nella barra delle
@@ -263,23 +277,42 @@ Apri `config.yaml` e modifica i numeri come per `sources.yaml`. I più utili:
 
 | Impostazione | Cosa fa | Valore iniziale |
 |---|---|---|
-| `oggi.finestra_ore` | Quante ore indietro guarda la pagina "Oggi" | 48 |
-| `oggi.min_fonti_per_gruppo` | Quante fonti servono perché un argomento compaia come gruppo | 2 |
+| `oggi.finestra_ore` | Quante ore indietro guarda la pagina "Oggi" | 24 |
+| `oggi.max_storie` | Quante storie al massimo nella pagina "Oggi" | 10 |
+| `oggi.min_fonti` | Quante fonti diverse servono perché una storia vada in "Oggi" | 3 |
+| `oggi.titoli_a_confronto` | Quanti titoli mostrare uno sotto l'altro in ogni storia | 4 |
+| `oggi.titolo_preferito_da` | Da quali categorie prendere per primo il titolo della storia | Agenzie e all-news |
+| `tutte.finestra_ore` | Quante ore indietro guardano "Tutte" e "Fuori dai radar" | 48 |
+| `tutte.max_notizie_singole_per_fonte` | In "Tutte", quante notizie di una sola fonte mostrare per ogni fonte | 8 |
 | `raggruppamento.soglia_somiglianza` | Quanto devono assomigliarsi due notizie per stare nello stesso gruppo (da 0 a 1) | 0.30 |
-| `poco_coperte.min_fonti_alternative` | Sezione "Poco raccontate": minimo di fonti indipendenti/inchiesta/social | 1 |
-| `poco_coperte.max_argomenti_per_fonte` | Sezione "Poco raccontate", parte "una sola fonte": quante volte al massimo può comparire ogni fonte | 4 |
-| `poco_coperte.priorita_categorie` | Sezione "Poco raccontate", parte "una sola fonte": quali categorie mostrare per prime | Inchiesta, Divulgatori, Testate online |
-| `poco_coperte.max_fonti_grandi` | Sezione "Poco raccontate": massimo di agenzie e quotidiani nazionali | 1 |
-| `poco_coperte.somiglianza_con_argomenti_coperti` | Scarta dalla sezione i "pezzi" di storie già coperte dai grandi giornali (0 = controllo spento) | 0.20 |
-| `poco_coperte.categorie_grandi` | Quali categorie contano come "grandi giornali" | Agenzie e all-news, Quotidiani nazionali |
+| `raggruppamento.soglia_storie` | Quanto devono assomigliarsi due gruppi per diventare una sola storia | 0.18 |
+| `raggruppamento.soglia_aggancio` | Quanto deve assomigliare una notizia di una sola fonte a una storia per entrarci | 0.25 |
+| `fuori_dai_radar.min_fonti_alternative` | Minimo di fonti indipendenti (testate online, inchiesta, divulgatori) | 2 |
+| `fuori_dai_radar.max_fonti_grandi` | Massimo di agenzie e quotidiani nazionali | 1 |
+| `fuori_dai_radar.segnalazioni_singole_da` | Da quali categorie si accettano le segnalazioni di una sola fonte | Inchiesta e fact-checking |
+| `fuori_dai_radar.somiglianza_con_argomenti_coperti` | Scarta i "pezzi" di storie già coperte dai grandi giornali (0 = controllo spento) | 0.20 |
+| `fuori_dai_radar.escludi_indirizzi` / `escludi_titoli` | Cosa non conta per "Fuori dai radar" (opinioni, rubriche, rassegne, dirette...) | vedi file |
 | `estratto.max_caratteri` | Lunghezza massima dell'estratto | 200 |
+| `aree` | I nomi e i colori delle aree politiche | sinistra … destra, non collocabile |
+
+**Escludere sport, spettacolo e altre sezioni.** Nella parte `filtri` di `config.yaml` ci sono
+tre elenchi, validi per tutte le fonti:
+- `escludi_indirizzi`: una notizia è scartata se il suo indirizzo contiene uno di questi pezzi
+  (es. `"/sport/"`, `"/spettacoli/"`);
+- `escludi_titoli`: ...oppure se il titolo corrisponde a una di queste espressioni (es.
+  `"^serie a\\b"` = titoli che iniziano con "Serie A");
+- `escludi_sezioni_feed`: ...oppure se il feed della fonte la mette in una di queste sezioni
+  (es. `sport`): serve per i giornali che non scrivono la sezione nell'indirizzo.
+
+Per aggiungere una voce, copia una riga dell'elenco e cambia il testo tra virgolette. Per
+escludere qualcosa di una sola fonte, usa invece `escludi` in `sources.yaml`.
 
 **Come tarare il raggruppamento.** Guarda la pagina "Oggi" per qualche giorno:
-- se vedi **notizie diverse nello stesso gruppo**, alza `soglia_somiglianza` (es. da 0.30 a 0.35);
-- se vedi **la stessa notizia spezzata in più gruppi**, abbassala (es. a 0.25).
+- se vedi **notizie diverse nella stessa storia**, alza `soglia_storie` (es. da 0.18 a 0.20);
+- se vedi **la stessa storia spezzata in più storie**, abbassala (es. a 0.16).
 
-Cambia di 0.05 alla volta. La soglia iniziale (0.30) è stata scelta confrontando i gruppi
-ottenuti con le prime 900 notizie vere raccolte.
+Cambia di 0.02 alla volta. I valori iniziali sono stati scelti provando su circa 3.000 notizie
+vere: con 0.16 si univano vicende diverse, con 0.20 la stessa storia finiva divisa in due.
 
 ## 7. Scrivere la pagina "Perché esiste questo sito"
 
@@ -334,13 +367,20 @@ un sito non risponda. Il programma la salta e riprova al giro successivo.
 - **Intelligenza artificiale**: non è usata. Il raggruppamento confronta le parole dei titoli.
   Si potrà valutare in futuro: ha un costo e va segnalata sul sito.
 - **Feed incompleti**: alcuni giornali mettono nel feed solo una parte dei loro articoli. Quindi
-  una notizia può risultare "poco raccontata" anche se un giornale ne ha parlato. Il sito lo
-  spiega nella pagina "Come funziona".
+  una notizia può finire in "Fuori dai radar" anche se un giornale ne ha parlato. Il sito lo
+  spiega e offre il link «Verifica tu», che la cerca sui siti dei grandi giornali.
 - **Instagram**: per le pagine che pubblicano solo su Instagram, finché l'API non è attiva i
   post vanno aggiunti a mano (capitolo 5).
 - **Siti che bloccano i programmi automatici**: alcuni siti (oggi Fanpage e Scomodo) rifiutano
   l'accesso ai server di GitHub. Non aggiriamo il blocco: i loro articoli si possono aggiungere
   a mano come i post Instagram.
+- **Fonti senza feed**: Il Foglio e Claim oggi non hanno un feed che funzioni. Restano
+  nell'elenco e si possono aggiungere a mano; il programma riprova a ogni giro.
+- **Sport e spettacolo**: i filtri si basano su indirizzi, titoli e sezioni dei feed, quindi ogni
+  tanto qualche articolo passa lo stesso. Si corregge aggiungendo una voce ai filtri (capitolo 6).
+- **Corriere della Sera**: a ottobre 2026 i vecchi feed del Corriere si erano fermati; ora usa
+  quelli nuovi (`feed-hp` e `dynamic-feed`). Se tornasse a 0 notizie, lancia **Prova le fonti**:
+  il rapporto mostra gli indirizzi trovati sul sito.
 
 ## 11. Per chi vuole provarlo sul proprio computer
 

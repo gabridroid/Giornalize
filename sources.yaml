@@ -10,8 +10,10 @@
 #    nome                nome come appare sul sito
 #    categoria           una delle categorie definite in config.yaml
 #    tipo                descrizione breve (es. "Quotidiano")
-#    orientamento        etichetta di orientamento indicativa (testo completo)
-#    orientamento_breve  (facoltativo) versione corta mostrata nel badge
+#    orientamento        descrizione libera e indicativa della linea editoriale
+#    area                posizione indicativa su un solo asse, una tra:
+#                        sinistra, centro-sinistra, centro, centro-destra,
+#                        destra, non collocabile (vedi config.yaml, "aree")
 #    sito                indirizzo del sito (o lasciare vuoto: "")
 #    instagram           account Instagram con la @ (o lasciare vuoto: "")
 #    instagram_da_verificare  true se l'account non è ancora stato controllato
@@ -46,6 +48,7 @@ fonti:
     categoria: Agenzie e all-news
     tipo: Agenzia di stampa
     orientamento: Non schierata
+    area: non collocabile
     sito: https://www.ansa.it
     instagram: "@ansa.it"
     feed:
@@ -59,6 +62,7 @@ fonti:
     categoria: Agenzie e all-news
     tipo: Servizio pubblico
     orientamento: Istituzionale
+    area: non collocabile
     sito: https://www.rainews.it
     instagram: "@rainews"
     feed:
@@ -71,6 +75,7 @@ fonti:
     categoria: Agenzie e all-news
     tipo: TV all-news privata
     orientamento: Non schierata
+    area: non collocabile
     sito: https://tg24.sky.it
     instagram: "@skytg24"
     feed:
@@ -85,7 +90,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Moderato / centrista
-    orientamento_breve: Moderato
+    area: centro
     sito: https://www.corriere.it
     instagram: "@corriere"
     # I vecchi feed xml2.corriereobjects.it sono fermi (ultima notizia 2024):
@@ -104,6 +109,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Centro-sinistra
+    area: centro-sinistra
     sito: https://www.repubblica.it
     instagram: "@larepubblica"
     feed:
@@ -117,7 +123,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Centrista / centro-sinistra moderato
-    orientamento_breve: Centrista
+    area: centro
     sito: https://www.lastampa.it
     instagram: "@lastampa"
     feed:
@@ -129,7 +135,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano economico
     orientamento: Economico (editore Confindustria)
-    orientamento_breve: Economico
+    area: non collocabile   # da decidere: la descrizione non sta sull'asse sinistra-destra
     sito: https://www.ilsole24ore.com
     instagram: "@ilsole_24ore"
     feed:
@@ -142,7 +148,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Anti-establishment, spesso vicino al M5S
-    orientamento_breve: Anti-establishment
+    area: non collocabile   # da decidere: la descrizione non sta sull'asse sinistra-destra
     sito: https://www.ilfattoquotidiano.it
     instagram: "@ilfattoquotidiano"
     feed:
@@ -154,6 +160,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Sinistra
+    area: sinistra
     sito: https://ilmanifesto.it
     instagram: "@ilmanifesto"
     feed:
@@ -165,6 +172,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Progressista
+    area: centro-sinistra
     sito: https://www.editorialedomani.it
     instagram: "@domanigiornale"
     instagram_da_verificare: true
@@ -177,7 +185,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Cattolico (editore legato alla CEI)
-    orientamento_breve: Cattolico
+    area: non collocabile   # da decidere: la descrizione non sta sull'asse sinistra-destra
     sito: https://www.avvenire.it
     instagram: ""   # da cercare
     feed: []   # Avvenire nessun feed RSS trovato: si usa la news sitemap
@@ -190,6 +198,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Centro-destra
+    area: centro-destra
     sito: https://www.ilgiornale.it
     instagram: "@ilgiornale"
     feed: []   # Il Giornale nessun feed RSS trovato: si usa la news sitemap
@@ -202,10 +211,15 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Destra
+    area: destra
     sito: https://www.liberoquotidiano.it
     instagram: "@liberoquotidiano"
     feed:
       - https://www.liberoquotidiano.it/rss.xml
+    escludi:          # comunicati stampa e video d'agenzia ripubblicati
+      - "/tv-news/"
+      - "/general/"
+      - "/libero-video/"
     attiva: true
 
   - id: laverita
@@ -213,6 +227,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Destra
+    area: destra
     sito: https://www.laverita.info
     instagram: ""   # da cercare
     feed:
@@ -224,6 +239,7 @@ fonti:
     categoria: Quotidiani nazionali
     tipo: Quotidiano
     orientamento: Liberal-conservatore
+    area: centro-destra
     sito: https://www.ilfoglio.it
     instagram: "@ilfoglio_it"
     instagram_da_verificare: true
@@ -242,7 +258,7 @@ fonti:
     categoria: Testate online e settimanali
     tipo: Testata online
     orientamento: Non schierato, esplicativo
-    orientamento_breve: Non schierato
+    area: non collocabile
     sito: https://www.ilpost.it
     instagram: "@ilpost"
     feed:
@@ -258,6 +274,7 @@ fonti:
     categoria: Testate online e settimanali
     tipo: Testata online
     orientamento: Generalista
+    area: non collocabile
     sito: https://www.fanpage.it
     instagram: "@fanpage.it"
     # Al primo controllo Fanpage ha rifiutato l'accesso ai server di GitHub
@@ -272,7 +289,7 @@ fonti:
     categoria: Testate online e settimanali
     tipo: Testata online
     orientamento: Liberale, riformista, europeista
-    orientamento_breve: Liberale
+    area: centro
     sito: https://www.linkiesta.it
     instagram: "@linkiesta"
     feed:
@@ -284,7 +301,7 @@ fonti:
     categoria: Testate online e settimanali
     tipo: Testata online
     orientamento: Generalista (fondata da Enrico Mentana)
-    orientamento_breve: Generalista
+    area: non collocabile
     sito: https://www.open.online
     instagram: "@open_giornaleonline"
     feed:
@@ -296,6 +313,7 @@ fonti:
     categoria: Testate online e settimanali
     tipo: Settimanale
     orientamento: Progressista
+    area: centro-sinistra
     sito: https://www.internazionale.it
     instagram: "@internazionale"
     feed:
@@ -312,7 +330,7 @@ fonti:
     categoria: Inchiesta e fact-checking
     tipo: Testata indipendente
     orientamento: Indipendente, verifica e critica dei media
-    orientamento_breve: Indipendente
+    area: non collocabile
     sito: https://www.valigiablu.it
     instagram: "@valigiablu"
     instagram_da_verificare: true
@@ -325,7 +343,7 @@ fonti:
     categoria: Inchiesta e fact-checking
     tipo: Giornalismo d'inchiesta
     orientamento: Indipendente, non profit
-    orientamento_breve: Indipendente
+    area: non collocabile
     sito: https://irpimedia.irpi.eu
     instagram: "@irpimedia"
     feed:
@@ -337,6 +355,7 @@ fonti:
     categoria: Inchiesta e fact-checking
     tipo: Fact-checking
     orientamento: Non schierato
+    area: non collocabile
     sito: https://pagellapolitica.it
     instagram: "@pagellapolitica"
     feed:
@@ -348,6 +367,7 @@ fonti:
     categoria: Inchiesta e fact-checking
     tipo: Fact-checking
     orientamento: Non schierato
+    area: non collocabile
     sito: https://facta.news
     instagram: "@facta.news"
     feed:
@@ -365,7 +385,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: Esplicativo, dichiaratamente non polarizzato
-    orientamento_breve: Esplicativo
+    area: non collocabile
     sito: https://www.willmedia.it
     instagram: "@will_ita"
     feed: []   # solo Instagram
@@ -377,7 +397,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: Esplicativo, dichiaratamente apolitico
-    orientamento_breve: Esplicativo
+    area: non collocabile
     sito: ""
     instagram: "@factanza"
     feed: []   # solo Instagram
@@ -389,7 +409,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: Esplicativo (politica ed economia)
-    orientamento_breve: Esplicativo
+    area: non collocabile
     sito: ""
     instagram: "@torcha"
     feed: []   # solo Instagram
@@ -401,7 +421,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: Progressista (dichiarato)
-    orientamento_breve: Progressista
+    area: centro-sinistra
     sito: ""
     instagram: "@progressista.io"
     feed: []   # solo Instagram
@@ -413,6 +433,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Giornalista / rassegna stampa
     orientamento: Liberal-conservatore
+    area: centro-destra
     sito: https://www.nicolaporro.it
     instagram: "@nicolaporro"
     feed:
@@ -424,7 +445,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione (YouTube)
     orientamento: Indipendente, commento
-    orientamento_breve: Indipendente
+    area: non collocabile
     sito: https://www.youtube.com/@breakingitaly
     instagram: ""   # da cercare
     feed:
@@ -445,7 +466,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Rivista (carta + sito)
     orientamento: Indipendente, punto di vista under 30
-    orientamento_breve: Indipendente
+    area: non collocabile
     sito: https://scomodo.org
     instagram: "@scomodo"
     # Il sito risponde ai server di GitHub con una pagina di controllo
@@ -460,7 +481,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione (video)
     orientamento: Generalista, attenzione a diritti, lavoro e ambiente   # proposta
-    orientamento_breve: Generalista
+    area: non collocabile
     sito: https://www.vdnews.it
     instagram: "@vdnews"
     feed:
@@ -472,6 +493,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Rivista
     orientamento: ""   # da definire
+    area: non collocabile
     sito: https://claimrivista.it
     instagram: ""   # da cercare
     feed: []   # nessun feed trovato: i post si aggiungono a mano
@@ -482,7 +504,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Istituto di ricerca (politica internazionale)
     orientamento: Istituto di ricerca indipendente   # proposta
-    orientamento_breve: Istituto di ricerca
+    area: non collocabile
     sito: https://www.ispionline.it/it/pubblicazioni
     instagram: "@ispionline"
     instagram_da_verificare: true
@@ -495,7 +517,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione e newsletter
     orientamento: Femminista (dichiarato)   # proposta
-    orientamento_breve: Femminista
+    area: non collocabile
     sito: ""
     instagram: "@theperiodoff"
     feed: []   # solo Instagram
@@ -507,7 +529,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: Generalista, per un pubblico giovane   # proposta
-    orientamento_breve: Generalista
+    area: non collocabile
     sito: ""
     instagram: "@cnc_media"
     feed: []   # solo Instagram
@@ -519,6 +541,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: ""   # da definire
+    area: non collocabile
     sito: ""
     instagram: "@nxwss"
     feed: []   # solo Instagram
@@ -530,6 +553,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: ""   # da definire
+    area: non collocabile
     sito: ""
     instagram: "@chronocol.media"
     feed: []   # solo Instagram
@@ -541,6 +565,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: ""   # da definire
+    area: non collocabile
     sito: ""
     instagram: "@_actamedia"
     feed: []   # solo Instagram
@@ -552,6 +577,7 @@ fonti:
     categoria: Divulgatori social
     tipo: Divulgazione
     orientamento: ""   # da definire
+    area: non collocabile
     sito: ""
     instagram: "@generazione"
     feed: []   # solo Instagram

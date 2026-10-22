@@ -4,6 +4,7 @@ fonti:
   nome: ANSA
   categoria: Agenzie e all-news
   orientamento: Non schierata
+  area: non collocabile
   sito: https://ansa.example.it
   instagram: '@ansa.it'
   feed:
@@ -12,6 +13,7 @@ fonti:
   nome: Rai News
   categoria: Agenzie e all-news
   orientamento: Istituzionale
+  area: non collocabile
   sito: https://rainews.example.it
   instagram: '@rainews'
   feed:
@@ -20,6 +22,7 @@ fonti:
   nome: Sky TG24
   categoria: Agenzie e all-news
   orientamento: Non schierata
+  area: non collocabile
   sito: https://skytg24.example.it
   instagram: '@skytg24'
   feed:
@@ -28,7 +31,7 @@ fonti:
   nome: Corriere della Sera
   categoria: Quotidiani nazionali
   orientamento: Moderato / centrista
-  orientamento_breve: Moderato
+  area: centro
   sito: https://corriere.example.it
   instagram: '@corriere'
   feed:
@@ -37,6 +40,7 @@ fonti:
   nome: la Repubblica
   categoria: Quotidiani nazionali
   orientamento: Centro-sinistra
+  area: centro-sinistra
   sito: https://repubblica.example.it
   instagram: '@larepubblica'
   feed:
@@ -45,7 +49,7 @@ fonti:
   nome: La Stampa
   categoria: Quotidiani nazionali
   orientamento: Centrista / centro-sinistra moderato
-  orientamento_breve: Centrista
+  area: centro
   sito: https://lastampa.example.it
   instagram: '@lastampa'
   feed:
@@ -54,7 +58,7 @@ fonti:
   nome: Il Sole 24 Ore
   categoria: Quotidiani nazionali
   orientamento: Economico (editore Confindustria)
-  orientamento_breve: Economico
+  area: non collocabile
   sito: https://sole24ore.example.it
   instagram: '@ilsole_24ore'
   feed:
@@ -63,7 +67,7 @@ fonti:
   nome: Il Fatto Quotidiano
   categoria: Quotidiani nazionali
   orientamento: Anti-establishment, spesso vicino al M5S
-  orientamento_breve: Anti-establishment
+  area: non collocabile
   sito: https://ilfatto.example.it
   instagram: '@ilfattoquotidiano'
   feed:
@@ -72,6 +76,7 @@ fonti:
   nome: il manifesto
   categoria: Quotidiani nazionali
   orientamento: Sinistra
+  area: sinistra
   sito: https://manifesto.example.it
   instagram: '@ilmanifesto'
   feed:
@@ -80,6 +85,7 @@ fonti:
   nome: Domani
   categoria: Quotidiani nazionali
   orientamento: Progressista
+  area: centro-sinistra
   sito: https://domani.example.it
   instagram: '@domanigiornale'
   feed:
@@ -88,7 +94,7 @@ fonti:
   nome: Avvenire
   categoria: Quotidiani nazionali
   orientamento: Cattolico (editore legato alla CEI)
-  orientamento_breve: Cattolico
+  area: non collocabile
   sito: https://avvenire.example.it
   instagram: ''
   feed:
@@ -97,6 +103,7 @@ fonti:
   nome: Il Giornale
   categoria: Quotidiani nazionali
   orientamento: Centro-destra
+  area: centro-destra
   sito: https://ilgiornale.example.it
   instagram: '@ilgiornale'
   feed:
@@ -105,6 +112,7 @@ fonti:
   nome: Libero
   categoria: Quotidiani nazionali
   orientamento: Destra
+  area: destra
   sito: https://libero.example.it
   instagram: '@liberoquotidiano'
   feed:
@@ -113,6 +121,7 @@ fonti:
   nome: La Verità
   categoria: Quotidiani nazionali
   orientamento: Destra
+  area: destra
   sito: https://laverita.example.it
   instagram: ''
   feed:
@@ -121,6 +130,7 @@ fonti:
   nome: Il Foglio
   categoria: Quotidiani nazionali
   orientamento: Liberal-conservatore
+  area: centro-destra
   sito: https://ilfoglio.example.it
   instagram: '@ilfoglio_it'
   feed:
@@ -129,7 +139,7 @@ fonti:
   nome: Il Post
   categoria: Testate online e settimanali
   orientamento: Non schierato, esplicativo
-  orientamento_breve: Non schierato
+  area: non collocabile
   sito: https://ilpost.example.it
   instagram: '@ilpost'
   feed:
@@ -138,6 +148,7 @@ fonti:
   nome: Fanpage
   categoria: Testate online e settimanali
   orientamento: Generalista
+  area: non collocabile
   sito: https://fanpage.example.it
   instagram: '@fanpage.it'
   feed:
@@ -146,7 +157,7 @@ fonti:
   nome: Linkiesta
   categoria: Testate online e settimanali
   orientamento: Liberale, riformista, europeista
-  orientamento_breve: Liberale
+  area: centro
   sito: https://linkiesta.example.it
   instagram: '@linkiesta'
   feed:
@@ -155,7 +166,7 @@ fonti:
   nome: Open
   categoria: Testate online e settimanali
   orientamento: Generalista (fondata da Enrico Mentana)
-  orientamento_breve: Generalista
+  area: non collocabile
   sito: https://open.example.it
   instagram: '@open_giornaleonline'
   feed:
@@ -164,6 +175,7 @@ fonti:
   nome: Internazionale
   categoria: Testate online e settimanali
   orientamento: Progressista
+  area: centro-sinistra
   sito: https://internazionale.example.it
   instagram: '@internazionale'
   feed:
@@ -172,7 +184,7 @@ fonti:
   nome: Scomodo
   categoria: Testate online e settimanali
   orientamento: Indipendente, punto di vista under 30
-  orientamento_breve: Indipendente
+  area: non collocabile
   sito: https://scomodo.example.it
   instagram: '@scomodo'
   feed:
@@ -181,7 +193,7 @@ fonti:
   nome: Valigia Blu
   categoria: Inchiesta e fact-checking
   orientamento: Indipendente, verifica e critica dei media
-  orientamento_breve: Indipendente
+  area: non collocabile
   sito: https://valigiablu.example.it
   instagram: '@valigiablu'
   feed:
@@ -190,7 +202,7 @@ fonti:
   nome: IrpiMedia
   categoria: Inchiesta e fact-checking
   orientamento: Indipendente, non profit
-  orientamento_breve: Indipendente
+  area: non collocabile
   sito: https://irpimedia.example.it
   instagram: '@irpimedia'
   feed:
@@ -199,6 +211,7 @@ fonti:
   nome: Pagella Politica
   categoria: Inchiesta e fact-checking
   orientamento: Non schierato
+  area: non collocabile
   sito: https://pagellapolitica.example.it
   instagram: '@pagellapolitica'
   feed:
@@ -207,6 +220,7 @@ fonti:
   nome: Facta
   categoria: Inchiesta e fact-checking
   orientamento: Non schierato
+  area: non collocabile
   sito: https://facta.example.it
   instagram: '@facta.news'
   feed:
@@ -215,7 +229,7 @@ fonti:
   nome: Will
   categoria: Divulgatori social
   orientamento: Esplicativo, dichiaratamente non polarizzato
-  orientamento_breve: Esplicativo
+  area: non collocabile
   sito: https://will.example.it
   instagram: '@will_ita'
   feed:
@@ -224,7 +238,7 @@ fonti:
   nome: Factanza
   categoria: Divulgatori social
   orientamento: Esplicativo, dichiaratamente apolitico
-  orientamento_breve: Esplicativo
+  area: non collocabile
   sito: https://factanza.example.it
   instagram: '@factanza'
   feed:
@@ -233,7 +247,7 @@ fonti:
   nome: Torcha
   categoria: Divulgatori social
   orientamento: Esplicativo (politica ed economia)
-  orientamento_breve: Esplicativo
+  area: non collocabile
   sito: https://torcha.example.it
   instagram: '@torcha'
   feed:
@@ -242,7 +256,7 @@ fonti:
   nome: progressista.io
   categoria: Divulgatori social
   orientamento: Progressista (dichiarato)
-  orientamento_breve: Progressista
+  area: centro-sinistra
   sito: https://progressista.example.it
   instagram: '@progressista.io'
   feed:
@@ -251,6 +265,7 @@ fonti:
   nome: Nicola Porro
   categoria: Divulgatori social
   orientamento: Liberal-conservatore
+  area: centro-destra
   sito: https://nicolaporro.example.it
   instagram: '@nicolaporro'
   feed:
@@ -259,7 +274,7 @@ fonti:
   nome: Breaking Italy
   categoria: Divulgatori social
   orientamento: Indipendente, commento
-  orientamento_breve: Indipendente
+  area: non collocabile
   sito: https://breakingitaly.example.it
   instagram: ''
   feed:

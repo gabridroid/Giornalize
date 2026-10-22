@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% from "_componenti.html" import storia_compatta, riga, filtri with context %}
+{% block titolo %}{{ sito.titolo }} · Tutte le notizie{% endblock %}
+
+{% block contenuto %}
+<div class="intro">
+  <h1>Tutte le notizie</h1>
+  <p class="sommario">Tutto quello che {{ sito.titolo }} ha raccolto nelle ultime {{ cfg.tutte.finestra_ore }} ore,
+    escluse le sezioni di sport e spettacolo. Prima le storie raccontate da più fonti, poi le
+    notizie di una sola fonte. <a href="come-funziona.html">Come funziona</a></p>
+</div>
+
+{{ filtri() }}
+
+<section class="sezione" aria-labelledby="t-storie">
+  <h2 class="sottosezione" id="t-storie">Raccontate da più fonti <span class="conteggio">({{ storie|length }})</span></h2>
+  {% for s in storie %}{{ storia_compatta(s) }}{% else %}<p class="vuoto">Nessuna storia in questo momento.</p>{% endfor %}
+</section>
+
+{% if singole %}
+<section class="sezione storia-singole" aria-labelledby="t-singole">
+  <h2 class="sottosezione" id="t-singole">Da una sola fonte <span class="conteggio">({{ singole|length }})</span></h2>
+  <p class="nota">Le più recenti, al massimo {{ cfg.tutte.max_notizie_singole_per_fonte }} per ogni fonte.</p>
+  <ul class="elenco-titoli elenco-singole">
+    {% for n in singole %}{{ riga(n) }}{% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block script %}<script src="static/filtri.js" defer></script>{% endblock %}

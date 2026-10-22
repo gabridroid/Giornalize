@@ -67,11 +67,11 @@ def scarica(url: str, timeout: float) -> bytes:
 
 def _crea_notizia(
     fonte: Fonte, titolo: str, link: str, sommario: str, pubblicato: datetime | None,
-    canale: str, config: Configurazione, ora: datetime,
+    canale: str, config: Configurazione, ora: datetime, sezioni: list[str] = (),
 ) -> dict | None:
     titolo = pulisci_titolo(titolo, fonte.nome)
     link = pulisci_link(link)
-    if not titolo or not link.startswith(("http://", "https://")) or fonte.esclusa(link):
+    if not titolo or not link.startswith(("http://", "https://")) or config.scartata(fonte, link, titolo, sezioni):
         return None
     if solo_data(titolo):  # es. "Domenica 18 ottobre": gallerie fotografiche, non notizie
         return None
@@ -167,6 +167,8 @@ def leggi_feed(fonte: Fonte, contenuto: bytes, config: Configurazione, ora: date
             "rss",
             config,
             ora,
+            # Le sezioni dichiarate nel feed (es. "Sport"), usate dai filtri.
+            [t.get("term", "") for t in voce.get("tags") or []],
         )
         if notizia:
             notizie.append(notizia)

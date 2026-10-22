@@ -27,7 +27,7 @@ import requests
 import yaml
 
 from .config import RADICE, Configurazione, Fonte
-from .testo import pulisci_link, taglia
+from .testo import maiuscole_in_minuscole, pulisci_link, taglia
 
 log = logging.getLogger("giornalize.instagram")
 
@@ -217,27 +217,48 @@ def api_configurata() -> bool:
 
 
 _HASHTAG = re.compile(r"(^|\s)[#@][\w.]+")
+# Emoji e simboli decorativi (frecce, pallini, punti esclamativi colorati...).
+_EMOJI = re.compile(
+    "[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\u2190-\u21FF\u2300-\u23FF"
+    "\u25A0-\u25FF\uFE0F\u200D\u20E3]+"
+)
+# Frasi di invito ("Segui @pagina per non perdere...", "link in bio"...): si tolgono.
+_INVITO = re.compile(
+    r"\b(segui(teci|ci)?|follow|iscriviti|link in bio|clicca|scopri di più|leggi (di più|l'articolo)|"
+    r"salva (il|questo) post|condividi (il|questo) post|commenta)\b",
+    re.IGNORECASE,
+)
+_FRASI = re.compile(r"(?<=[.!?…])\s+")
 
 
-def _pulisci_didascalia(didascalia: str) -> str:
-    testo = _HASHTAG.sub(" ", didascalia or "")
-    return re.sub(r"\s+", " ", testo).strip()
+def pulisci_social(testo: str) -> str:
+    """Toglie emoji, hashtag, menzioni e frasi di invito da un testo social."""
+    testo = _EMOJI.sub(" ", testo or "")
+    testo = _HASHTAG.sub(" ", testo)
+    frasi = [f for f in _FRASI.split(re.sub(r"\s+", " ", testo).strip()) if f and not _INVITO.search(f)]
+    return " ".join(frasi).strip(" -–—:·|")
+
+
+def titolo_social(testo: str, massimo: int = 140) -> str:
+    """Titolo leggibile da una didascalia: prima frase, senza emoji né inviti."""
+    pulito = pulisci_social(testo)
+    prima = _FRASI.split(pulito, maxsplit=1)[0] if pulito else ""
+    if len(prima) < 25 and len(pulito) > len(prima):  # frase troppo corta: si tiene anche la seguente
+        prima = " ".join(_FRASI.split(pulito)[:2])
+    return taglia(maiuscole_in_minuscole(prima), massimo)
 
 
 def titolo_da_didascalia(didascalia: str) -> tuple[str, str]:
-    """Divide la didascalia in (titolo, resto): il titolo è la prima riga o
-    la prima frase."""
-    righe = [r.strip() for r in (didascalia or "").splitlines() if _pulisci_didascalia(r)]
+    """Divide la didascalia in (titolo, resto): il titolo è la prima frase
+    della prima riga, ripulita da emoji, hashtag e inviti."""
+    righe = [r.strip() for r in (didascalia or "").splitlines() if pulisci_social(r)]
     if not righe:
         return "", ""
-    prima = _pulisci_didascalia(righe[0])
-    resto = _pulisci_didascalia(" ".join(righe[1:]))
-    if len(prima) > 160:
-        frase = re.match(r"(.{30,160}?[.!?])\s", prima + " ")
-        if frase:
-            resto = (prima[frase.end():] + " " + resto).strip()
-            prima = frase.group(1)
-    return taglia(prima, 160), resto
+    titolo = titolo_social(righe[0])
+    prima = pulisci_social(righe[0])
+    resto_prima = prima[len(titolo.rstrip("…")):].strip() if prima.lower().startswith(titolo.rstrip("…").lower()) else ""
+    resto = pulisci_social(" ".join([resto_prima] + righe[1:]))
+    return titolo, resto
 
 
 def leggi_api(fonte: Fonte, config: Configurazione, ora: datetime) -> list[dict]:

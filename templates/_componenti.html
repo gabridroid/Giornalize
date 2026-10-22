@@ -1,43 +1,82 @@
-{# Pezzi riutilizzati in più pagine: la card di una notizia, un gruppo, i filtri. #}
+{# Pezzi riutilizzati in più pagine: una storia, la barra "chi ne parla", un titolo, i filtri. #}
 
-{% macro card(n, altri=[]) %}
+{# Ora di pubblicazione: il browser la trasforma in "2 ore fa" (static/tempo.js). #}
+{% macro tempo(iso) -%}
+<time class="rel" datetime="{{ iso }}">{{ iso|data_breve }}</time>
+{%- endmacro %}
+
+{# Barra "chi ne parla": quante fonti per area politica, con la legenda scritta. #}
+{% macro barra(s) %}
+{% set testo %}{% for a, n in s.copertura %}{{ a.nome }} {{ n }}{{ ', ' if not loop.last }}{% endfor %}{% endset %}
+<div class="copertura">
+  <div class="barra" role="img" aria-label="Chi ne parla, per area politica indicativa: {{ testo }}">
+    {% for a, n in s.copertura %}<span style="--colore: {{ a.colore }}; flex-grow: {{ n }}"></span>{% endfor %}
+  </div>
+  <p class="barra-legenda" aria-hidden="true">
+    {% for a, n in s.copertura %}<span><i class="segno" style="--colore: {{ a.colore }}"></i>{{ a.nome }} {{ n }}</span>{% endfor %}
+  </p>
+</div>
+{% endmacro %}
+
+{# Un titolo di una fonte: chi, quando, e il titolo che porta all'originale. #}
+{% macro riga(n, altri=[], estratto=false) %}
 {% set f = fonti[n.fonte] %}
-<article class="card" data-fonte="{{ f.id }}" data-categoria="{{ f.categoria }}" data-orientamento="{{ f.badge }}" data-titolo="{{ n.titolo|lower }}{% for a in altri %} {{ a.titolo|lower }}{% endfor %}">
-  <div class="card-fonte">
-    <span class="pallino" style="--colore: {{ colori[f.categoria] }}" title="{{ f.categoria }}"></span>
-    <span class="nome-fonte">{{ f.nome }}</span>
-    {% if f.badge %}<span class="badge" title="Orientamento indicativo: {{ f.orientamento }}">{{ f.badge }}</span>{% endif %}
-    {% if 'instagram.com/' in n.link %}<span class="badge badge-canale">Instagram</span>{% endif %}
-  </div>
-  <h3 class="card-titolo"><a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.titolo }}</a></h3>
-  {% if n.estratto %}<p class="estratto">{% if n.canale == 'manuale' %}<span class="riassunto-mano">Riassunto di {{ sito.titolo }}:</span> {% endif %}{{ n.estratto }}</p>{% endif %}
-  <div class="card-piede">
-    <time datetime="{{ n.pubblicato }}">{{ n.pubblicato|data_breve }}</time>
-    <a class="vai" href="{{ n.link }}" target="_blank" rel="noopener">Vai alla fonte <span aria-hidden="true">↗</span></a>
-  </div>
+<li class="titolo-fonte" data-fonte="{{ f.id }}" data-area="{{ f.area }}" data-categoria="{{ f.categoria }}" data-titolo="{{ n.titolo|lower }}{% for a in altri %} {{ a.titolo|lower }}{% endfor %}">
+  <span class="chi"><i class="segno" style="--colore: {{ colori_aree[f.area] }}"></i><strong>{{ f.nome }}</strong>
+    <span class="area">{{ f.area }}</span>{% if n.canale in ('instagram', 'manuale') %} <span class="badge">Instagram</span>{% endif %}
+    · {{ tempo(n.pubblicato) }}</span>
+  <a class="titolo-link" href="{{ n.link }}" target="_blank" rel="noopener">{{ n.titolo }}<span class="freccia" aria-hidden="true">&nbsp;↗</span></a>
+  {% if estratto and n.estratto %}
+  <p class="estratto">{% if n.canale == 'manuale' %}<span class="riassunto-mano">Riassunto di {{ sito.titolo }}:</span> {% endif %}{{ n.estratto }}</p>
+  {% endif %}
   {% if altri %}
-  <details class="altri">
-    <summary>{{ 'Altro articolo' if altri|length == 1 else 'Altri ' ~ altri|length ~ ' articoli' }} di {{ f.nome }}</summary>
-    <ul>
-      {% for a in altri %}
-      <li><a href="{{ a.link }}" target="_blank" rel="noopener">{{ a.titolo }}</a> <time datetime="{{ a.pubblicato }}">{{ a.pubblicato|data_breve }}</time></li>
-      {% endfor %}
-    </ul>
-  </details>
+  <ul class="altri">
+    {% for a in altri %}
+    <li><a href="{{ a.link }}" target="_blank" rel="noopener">{{ a.titolo }}<span class="freccia" aria-hidden="true">&nbsp;↗</span></a> · {{ tempo(a.pubblicato) }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</li>
+{% endmacro %}
+
+{# Elenco di tutte le fonti di una storia, chiuso finché non lo si apre. #}
+{% macro tutte_le_fonti(s, estratti=false) %}
+<details class="tutte-fonti">
+  <summary>Tutte le fonti ({{ s.tutte|length }}){% if s.gruppo.notizie|length > s.tutte|length %} · {{ s.gruppo.notizie|length }} articoli{% endif %}</summary>
+  <ul class="elenco-titoli">
+    {% for n, altri in s.tutte %}{{ riga(n, altri, estratti) }}{% endfor %}
+  </ul>
+</details>
+{% endmacro %}
+
+{# Una storia completa: titolo, chi ne parla, titoli a confronto, tutte le fonti. #}
+{% macro storia(s, apertura=false, estratti=false, livello=2) %}
+<article class="storia{% if apertura %} apertura{% endif %}" id="s-{{ s.id }}" data-titolo="{{ s.titolo|lower }}">
+  {% if apertura %}<p class="occhiello">La storia più raccontata</p>{% endif %}
+  <h{{ livello }} class="storia-titolo">{{ s.titolo }}</h{{ livello }}>
+  <p class="storia-meta">{{ s.fonti|length }} {{ 'fonte' if s.fonti|length == 1 else 'fonti' }}
+    · titolo di {{ s.fonte_titolo }} · ultimo articolo {{ tempo(s.ultimo) }}</p>
+  {{ barra(s) }}
+  <ul class="confronto elenco-titoli" aria-label="Come la raccontano">
+    {% for n in s.confronto %}{{ riga(n, estratto=estratti) }}{% endfor %}
+  </ul>
+  {% if s.verifica %}
+  <p class="verifica"><a href="{{ s.verifica }}" target="_blank" rel="noopener">Verifica tu: cerca la notizia sui siti dei grandi giornali<span aria-hidden="true">&nbsp;↗</span></a></p>
+  {% endif %}
+  {% if s.tutte|length > s.confronto|length or s.gruppo.notizie|length > s.confronto|length %}
+  {{ tutte_le_fonti(s) }}
   {% endif %}
 </article>
 {% endmacro %}
 
-{% macro gruppo(g) %}
-<section class="gruppo" id="g-{{ g.id }}">
-  <header class="gruppo-testa">
-    <h2>{{ g.parole_chiave|join(' · ')|iniziale_maiuscola if g.parole_chiave else 'Argomento' }}</h2>
-    <p class="riepilogo">{{ riepilogo(g) }}</p>
-  </header>
-  <div class="card-fila">
-    {% for n, altri in per_fonte(g.notizie) %}{{ card(n, altri) }}{% endfor %}
-  </div>
-</section>
+{# Versione corta per la pagina "Tutte le notizie": titolo, barra e fonti chiuse. #}
+{% macro storia_compatta(s) %}
+<article class="storia compatta" id="s-{{ s.id }}" data-titolo="{{ s.titolo|lower }}">
+  <h3 class="storia-titolo">{{ s.titolo }}</h3>
+  <p class="storia-meta">{{ s.fonti|length }} fonti · titolo di {{ s.fonte_titolo }} · ultimo articolo {{ tempo(s.ultimo) }}</p>
+  {{ barra(s) }}
+  {{ tutte_le_fonti(s) }}
+</article>
 {% endmacro %}
 
 {% macro filtri() %}
@@ -47,16 +86,16 @@
     <label>Cerca nei titoli
       <input type="search" id="f-testo" placeholder="es. sanità, scuola, pensioni" autocomplete="off">
     </label>
-    <label>Categoria di fonte
-      <select id="f-categoria">
+    <label>Area politica
+      <select id="f-area">
         <option value="">Tutte</option>
-        {% for c in categorie %}<option>{{ c.nome }}</option>{% endfor %}
+        {% for a in aree %}<option>{{ a.nome }}</option>{% endfor %}
       </select>
     </label>
-    <label>Orientamento
-      <select id="f-orientamento">
+    <label>Tipo di fonte
+      <select id="f-categoria">
         <option value="">Tutti</option>
-        {% for o in orientamenti %}<option>{{ o }}</option>{% endfor %}
+        {% for c in categorie %}<option>{{ c.nome }}</option>{% endfor %}
       </select>
     </label>
     <label>Fonte
@@ -65,16 +104,8 @@
         {% for f in fonti_attive %}<option value="{{ f.id }}">{{ f.nome }}</option>{% endfor %}
       </select>
     </label>
-    <button type="button" id="f-azzera">Azzera filtri</button>
+    <button type="button" id="f-azzera">Azzera</button>
   </div>
 </details>
 <p class="esito-filtri" id="esito-filtri" aria-live="polite" hidden></p>
-{% endmacro %}
-
-{% macro legenda() %}
-<ul class="legenda" aria-label="Categorie di fonti">
-  {% for c in categorie %}
-  <li><span class="pallino" style="--colore: {{ c.colore }}"></span>{{ c.nome }}</li>
-  {% endfor %}
-</ul>
 {% endmacro %}

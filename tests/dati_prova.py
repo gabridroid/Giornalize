@@ -130,6 +130,12 @@ NOTIZIE = [
      "Il commissario tecnico punta sui giovani.", None),
     ("avvenire", 15, "Povertà educativa, il rapporto: un minore su sette senza servizi",
      "I dati del nuovo rapporto sulla povertà educativa in Italia.", None),
+    # Una verifica di una sola fonte di fact-checking: va tra le segnalazioni.
+    ("facta", 10, "Il video del ponte crollato in Liguria è del 2018, non di questa settimana",
+     "Il filmato condiviso sui social come recente risale al crollo del ponte Morandi.", None),
+    # Sport: escluso dai filtri di config.yaml in base al titolo.
+    ("ilpost", 3, "Serie A, il Napoli vince il derby del sud",
+     "Due gol nel secondo tempo decidono la partita.", None),
 ]
 
 

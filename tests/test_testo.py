@@ -1,5 +1,6 @@
 from giornalize.testo import (
     chiave_link,
+    maiuscole_in_minuscole,
     parole,
     prepara_estratto,
     pulisci_link,
@@ -48,3 +49,9 @@ def test_parole_significative():
     assert "ucrain" in radici and "migrant" in radici
     assert "dice" not in radici and "il" not in radici
     assert parole("migranti")[0][0] == parole("migrante")[0][0]
+
+
+def test_maiuscole_in_minuscole():
+    assert maiuscole_in_minuscole("ULTIM'ORA: CROLLA UN PONTE") == "Ultim'ora: crolla un ponte"
+    # titoli normali, anche con sigle, restano come sono
+    assert maiuscole_in_minuscole("La Ue e la Nato sul piano per l'Ucraina") == "La Ue e la Nato sul piano per l'Ucraina"

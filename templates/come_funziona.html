@@ -1,14 +1,27 @@
 {% extends "base.html" %}
-{% set pc = cfg.poco_coperte %}
+{% set fdr = cfg.fuori_dai_radar %}
+{% set r = cfg.raggruppamento %}
 {% block titolo %}{{ sito.titolo }} · Come funziona{% endblock %}
 
 {% block contenuto %}
 <article class="testo">
   <h1>Come funziona</h1>
-  <p>{{ sito.titolo }} raccoglie in automatico le notizie da giornali, testate indipendenti e
-    pagine di divulgazione, le raggruppa per argomento e le mette una accanto all'altra.
-    Così vedi subito chi parla di cosa. Non scegliamo noi le notizie a mano: le regole sono
-    spiegate qui sotto.</p>
+  <p>{{ sito.titolo }} raccoglie in automatico le notizie da agenzie, quotidiani, testate indipendenti
+    e pagine di divulgazione, riconosce quando parlano della stessa storia e le mette una sotto
+    l'altra. Così vedi chi ne parla e <strong>come</strong> la racconta. Nessuno sceglie le notizie a
+    mano: le regole sono tutte qui sotto, e ogni titolo porta sempre all'articolo originale.</p>
+
+  <h2 id="pagine">Le pagine</h2>
+  <ul>
+    <li><a href="index.html">Oggi</a>: le {{ cfg.oggi.max_storie }} storie raccontate da più fonti diverse
+      nelle ultime {{ cfg.oggi.finestra_ore }} ore (almeno {{ cfg.oggi.min_fonti }} fonti). Contano di più
+      le storie con più fonti e quelle più recenti.</li>
+    <li><a href="fuori-dai-radar.html">Fuori dai radar</a>: storie raccontate da fonti indipendenti e
+      poco presenti nei feed dei grandi giornali (le regole sono <a href="#fuori-dai-radar">più sotto</a>).</li>
+    <li><a href="tutte.html">Tutte le notizie</a>: tutto quello che è stato raccolto nelle ultime
+      {{ cfg.tutte.finestra_ore }} ore, con i filtri per area politica, tipo di fonte e testata.</li>
+    <li><a href="fonti.html">Fonti</a>: l'elenco delle fonti, con l'area indicativa e lo stato della raccolta.</li>
+  </ul>
 
   <h2 id="dati">Da dove vengono i dati</h2>
   <ul>
@@ -17,75 +30,88 @@
     <li><strong>News sitemap</strong>: per i siti senza RSS, usiamo l'elenco pubblico degli articoli che
       i giornali preparano per i motori di ricerca.</li>
     <li><strong>Canali YouTube</strong>: tramite il feed ufficiale che YouTube offre per ogni canale.</li>
-    <li><strong>Instagram</strong>: per le pagine che pubblicano solo su Instagram, i post vengono
-      segnalati a mano da chi cura il sito (con un breve riassunto, indicato come tale) oppure letti
-      con l'API ufficiale di Instagram. Mostriamo solo il link al post e il testo, mai le immagini.</li>
+    <li><strong>Instagram</strong>: i post delle pagine pubbliche sono letti con l'API ufficiale di
+      Instagram, oppure segnalati a mano da chi cura il sito (con un breve riassunto, indicato come tale).
+      Come titolo usiamo la prima frase della didascalia, senza emoji, hashtag e inviti a seguire la
+      pagina. Mostriamo solo il testo e il link al post, mai le immagini.</li>
   </ul>
   <p>Non copiamo gli articoli, non aggiriamo gli abbonamenti e non salviamo immagini. Per ogni
-    notizia mostriamo solo titolo, un breve estratto (al massimo {{ cfg.estratto.max_caratteri }}
+    notizia mostriamo solo titolo, a volte un breve estratto (al massimo {{ cfg.estratto.max_caratteri }}
     caratteri, preso dal feed), nome della fonte, data e ora e il <strong>link all'originale</strong>.</p>
+  <p>Il sito si aggiorna circa ogni {{ cfg.raccolta.ogni_quante_ore }} ore. Se una fonte non risponde,
+    il sito continua con le altre; lo stato di ogni fonte è nella pagina <a href="fonti.html">Fonti</a>.</p>
 
-  <h2 id="aggiornamento">Ogni quanto si aggiorna</h2>
-  <p>Circa ogni {{ cfg.raccolta.ogni_quante_ore }} ore. Se una fonte non risponde o cambia formato,
-    il sito continua a funzionare con le altre e l'errore viene registrato. Lo stato di ogni fonte
-    è nella pagina <a href="fonti.html">Fonti</a>. Le notizie restano in archivio per
-    {{ cfg.raccolta.giorni_archivio }} giorni.</p>
+  <h2 id="esclusi">Cosa lasciamo fuori</h2>
+  <p>{{ sito.titolo }} si occupa di attualità, politica, economia, esteri e società. Per questo
+    vengono escluse in automatico le sezioni di <strong>sport, spettacolo, cinema, musica, televisione,
+    gossip, oroscopo, motori e cucina</strong> e le pagine che contengono solo video. L'esclusione si basa
+    sull'indirizzo dell'articolo (per esempio «/sport/») e su pochi titoli ricorrenti (come
+    «Grande Fratello»), uguali per tutte le fonti.</p>
 
-  <h2 id="argomenti">Come vengono raggruppate le notizie</h2>
-  <p>Un programma confronta le parole dei titoli e degli estratti delle ultime
-    {{ cfg.oggi.finestra_ore }} ore. Le parole rare (per esempio un nome proprio o un luogo) contano
-    più di quelle che compaiono ovunque (come «governo» o «Italia»). Due notizie che condividono
-    abbastanza parole importanti finiscono nello stesso gruppo. Non usiamo intelligenza artificiale.</p>
-  <p>Il nome di ogni argomento è formato dalle parole più ricorrenti nei titoli del gruppo.
-    Il metodo è semplice e a volte sbaglia: può separare la stessa notizia raccontata con parole
-    diverse, o unire notizie diverse con parole in comune. Per questo ogni card porta sempre
-    all'articolo originale.</p>
-  <p>In "Oggi" compaiono gli argomenti di cui parlano almeno {{ cfg.oggi.min_fonti_per_gruppo }}
-    fonti diverse, ordinati per numero di fonti. Le notizie di una sola fonte sono in fondo alla pagina.</p>
+  <h2 id="storie">Come nascono le storie</h2>
+  <p>Un programma confronta le parole dei titoli e degli estratti. Le parole rare (un nome, un luogo)
+    contano più di quelle che compaiono ovunque (come «governo» o «Italia»). Non usiamo intelligenza
+    artificiale. Il lavoro avviene in due passaggi:</p>
+  <ol>
+    <li><strong>Gruppi stretti</strong>: le notizie molto simili tra loro (per esempio lo stesso fatto
+      riportato da più giornali) finiscono nello stesso gruppo.</li>
+    <li><strong>Storie</strong>: i gruppi che parlano della stessa vicenda vengono riuniti, così i
+      diversi aspetti di una storia (il fatto, le reazioni, gli sviluppi) stanno sotto un unico titolo.
+      Una notizia di una sola fonte entra in una storia solo se le somiglia molto.</li>
+  </ol>
+  <p>Il <strong>titolo della storia</strong> è il titolo vero di uno degli articoli, il più
+    rappresentativo: lo cerchiamo prima tra le agenzie, che di solito scrivono titoli più asciutti,
+    poi tra le fonti non collocabili politicamente, infine tra tutte. Accanto c'è sempre scritto
+    di quale fonte è.</p>
+  <p>Sotto il titolo trovi fino a {{ cfg.oggi.titoli_a_confronto }} <strong>titoli a confronto</strong>,
+    di fonti diverse: li scegliamo cercando di coprire aree politiche diverse, partendo dalle più
+    lontane tra loro. Tutte le altre fonti sono nell'elenco «Tutte le fonti», che si apre con un tocco.</p>
+  <p>Il metodo è semplice e a volte sbaglia: può separare la stessa storia raccontata con parole
+    diverse, o unire due vicende con parole in comune. Per questo ogni titolo porta all'originale.</p>
 
-  <h2 id="etichette">Le etichette di orientamento</h2>
-  <p>Accanto a ogni fonte c'è un'etichetta come «Centro-sinistra», «Destra», «Non schierato»
-    o «Cattolico». Sono <strong>etichette indicative e approssimative</strong>:</p>
-  <ul>
-    <li>descrivono la linea editoriale generale o l'editore della testata, come è comunemente
-      percepita o come la testata stessa la dichiara;</li>
-    <li>non sono un giudizio sulla qualità, sull'affidabilità o sulla correttezza dei singoli articoli;</li>
-    <li>non si applicano a ogni giornalista né a ogni articolo di quella fonte.</li>
+  <h2 id="aree">Le aree politiche</h2>
+  <p id="etichette">Ogni fonte ha un'<strong>area</strong> su un solo asse, da sinistra a destra:</p>
+  <ul class="legenda-aree">
+    {% for a in aree %}<li><i class="segno" style="--colore: {{ a.colore }}"></i>{{ a.nome }}</li>{% endfor %}
   </ul>
-  <p>Il pallino colorato invece indica la <strong>categoria</strong> della fonte:</p>
-  <ul class="legenda legenda-colonna">
-    {% for c in categorie %}<li><span class="pallino" style="--colore: {{ c.colore }}"></span>{{ c.nome }}</li>{% endfor %}
-  </ul>
-
-  <h2 id="poco-coperte">"Quello che i grandi giornali non raccontano"</h2>
-  <p>Questa sezione è costruita in automatico, solo contando le fonti. Un argomento compare se,
-    nelle ultime {{ cfg.oggi.finestra_ore }} ore:</p>
+  <p>L'area è ricavata dalla descrizione della linea editoriale della testata, come è comunemente
+    percepita o come la testata stessa la dichiara (la trovi nella pagina <a href="fonti.html">Fonti</a>).
+    Quando quella descrizione non parla di sinistra o destra (per esempio una testata cattolica,
+    economica, istituzionale o dichiaratamente non schierata) la fonte è <strong>non collocabile</strong>:
+    preferiamo non forzarla su un asse che non la descrive.</p>
+  <p>Le aree sono <strong>indicative e approssimative</strong>:</p>
   <ul>
-    <li>ne {{ 'ha' if pc.min_fonti_alternative == 1 else 'hanno' }} parlato <strong>almeno {{ pc.min_fonti_alternative }}</strong>
-      {{ 'fonte' if pc.min_fonti_alternative == 1 else 'fonti' }} tra: {{ pc.categorie_alternative|join(', ') }};</li>
-    <li>e <strong>al massimo {{ pc.max_fonti_grandi }}</strong> {{ 'fonte' if pc.max_fonti_grandi == 1 else 'fonti' }} tra:
-      {{ pc.categorie_grandi|join(', ') }};</li>
-    {% if pc.somiglianza_con_argomenti_coperti %}
-    <li>e non somiglia troppo a un argomento che i grandi giornali hanno invece coperto. Serve a
-      evitare che un dettaglio di una storia molto raccontata, finito per caso in un gruppo a parte,
-      sembri una notizia ignorata.</li>
+    <li>descrivono la linea generale della testata, non ogni giornalista né ogni articolo;</li>
+    <li>non sono un giudizio sulla qualità, sull'affidabilità o sulla correttezza;</li>
+    <li>possono essere discusse e corrette: l'elenco è pubblico.</li>
+  </ul>
+  <p>La <strong>barra «chi ne parla»</strong> sotto ogni storia mostra quante fonti di ogni area ne
+    hanno scritto. Serve a vedere a colpo d'occhio se una storia è raccontata da tutto l'arco politico
+    o soprattutto da una parte. Non dice nulla su come ne parlano: per quello ci sono i titoli.</p>
+
+  <h2 id="fuori-dai-radar">Fuori dai radar</h2>
+  <p>Questa pagina è costruita in automatico, solo contando le fonti. Una storia compare se, nelle
+    ultime {{ cfg.tutte.finestra_ore }} ore:</p>
+  <ul>
+    <li>ne hanno parlato <strong>almeno {{ fdr.min_fonti_alternative }}</strong> fonti diverse tra:
+      {{ fdr.categorie_alternative|join(', ')|lower }};</li>
+    <li>e <strong>al massimo {{ fdr.max_fonti_grandi }}</strong> {{ 'fonte' if fdr.max_fonti_grandi == 1 else 'fonti' }}
+      tra: {{ fdr.categorie_grandi|join(', ')|lower }};</li>
+    {% if fdr.somiglianza_con_argomenti_coperti %}
+    <li>e non somiglia troppo a una storia che i grandi giornali hanno invece raccontato (così un
+      dettaglio di una storia molto seguita non sembra una notizia trascurata).</li>
     {% endif %}
   </ul>
-  <p>La sezione è divisa in due parti: prima gli argomenti raccontati da <strong>più fonti
-    indipendenti</strong>, poi quelli <strong>segnalati da una sola fonte</strong>. Una sola fonte è
-    un indizio più debole, quindi quella parte va letta come un elenco di segnalazioni da
-    approfondire. Per equilibrio, nella seconda parte ogni fonte compare al massimo
-    {{ pc.max_argomenti_per_fonte }} volte: così una fonte che pubblica moltissimo non riempie da
-    sola la pagina. Sono mostrate prima le fonti di queste categorie, nell'ordine:
-    {{ pc.priorita_categorie|join(', ') }}.</p>
-  <p>Alcuni contenuti che non sono notizie (podcast, newsletter, gallerie fotografiche, recensioni)
-    vengono esclusi in base al loro indirizzo.</p>
-  <p>Il programma <strong>non stabilisce perché</strong> un argomento è poco coperto. Ci possono essere
-    molti motivi: la notizia è locale, non è ancora verificata, è considerata poco importante,
-    è falsa, oppure è stata trascurata. Sta a chi legge aprire le fonti e farsi un'idea.</p>
-  <p>Un limite da conoscere: alcuni giornali pubblicano nei loro feed solo una parte degli
-    articoli. Quindi una notizia può risultare "poco coperta" anche se un giornale ne ha parlato
-    in una pagina che il feed non include.</p>
+  <p>Non contano: opinioni, editoriali, rubriche, lettere, podcast, newsletter, rassegne stampa,
+    riepiloghi del giorno, dirette e i contenuti senza una data di pubblicazione leggibile.</p>
+  <p>A parte, in un elenco chiuso, ci sono le <strong>segnalazioni di una sola fonte</strong>, ma solo
+    se viene da una testata di {{ fdr.segnalazioni_singole_da|join(', ')|lower }}: una sola fonte è un
+    indizio debole, quindi sono spunti da approfondire.</p>
+  <p>Il programma <strong>non stabilisce perché</strong> una storia è poco presente: può essere
+    locale, non ancora verificata, considerata poco rilevante, oppure trascurata. Un limite importante:
+    molti giornali mettono nei feed solo una parte dei loro articoli, quindi una notizia può sembrare
+    assente anche se un giornale l'ha pubblicata. Per questo ogni storia ha il link
+    <strong>«Verifica tu»</strong>, che la cerca direttamente sui siti dei grandi giornali.</p>
 
   <h2 id="posizione">Chi c'è dietro</h2>
   <p>Chi ha creato il sito spiega la propria posizione nella pagina
