@@ -171,3 +171,10 @@
 2026-10-22 15:27:31 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
 2026-10-22 15:27:31 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-10-22 15:28:04 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo, ispi
+2026-10-22 15:29:51 WARNING giornalize.raccolta: corriere: errore con https://xml2.corriereobjects.it/rss/homepage.xml: feed fermo: l'ultima notizia è del 2024-05-13
+2026-10-22 15:29:51 WARNING giornalize.raccolta: corriere: errore con https://xml2.corriereobjects.it/rss/cronache.xml: feed fermo: l'ultima notizia è del 2026-06-07
+2026-10-22 15:29:52 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-22 15:29:54 WARNING giornalize.raccolta: corriere: trovato in automatico il sitemap https://www.corriere.it/salute/il-medico-risponde/news/sitemap.xml (conviene scriverlo in sources.yaml)
+2026-10-22 15:29:54 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-22 15:29:54 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-22 15:30:25 WARNING giornalize: Fonti non raggiungibili in questo giro: ilfoglio, fanpage, scomodo, ispi

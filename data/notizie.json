@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-22T15:27:27Z",
+ "aggiornato": "2026-10-22T15:29:50Z",
  "notizie": [
   {
    "id": "ca365b1896b6ccc3",
@@ -69,6 +69,26 @@
    "link": "https://tg24.sky.it/cronaca/approfondimenti/blocco-tir-carenza-merci",
    "pubblicato": "2026-10-22T15:34:25Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "024fa2fed5463b4e",
+   "fonte": "nxwss",
+   "titolo": "«La società non può rivolgersi ai giovani con un atteggiamento di indifferenza o, peggio, di meschina sottovalutazione».",
+   "estratto": "È il richiamo del presidente della Repubblica Sergio Mattarella, intervenuto in occasione della cerimonia di consegna delle onorificenze ai Cavalieri del Lavoro, nominati il 27 maggio 2026. Il Capo…",
+   "link": "https://www.instagram.com/p/DezTonfuAHW/",
+   "pubblicato": "2026-10-22T15:29:33Z",
+   "raccolto": "2026-10-22T15:29:50Z",
+   "canale": "instagram"
+  },
+  {
+   "id": "75226d3516531b16",
+   "fonte": "ilpost",
+   "titolo": "Macron vuole limitare il più possibile le manifestazioni",
+   "estratto": "Ha chiesto ai prefetti di non autorizzare quelle organizzate da gruppi «senza legittimità», nel tentativo di evitare altri scontri e disordini",
+   "link": "https://www.ilpost.it/2026/10/22/macron-vuole-limitare-il-piu-possibile-le-manifestazioni/",
+   "pubblicato": "2026-10-22T15:28:56Z",
+   "raccolto": "2026-10-22T15:29:50Z",
    "canale": "rss"
   },
   {
@@ -240,6 +260,16 @@
    "pubblicato": "2026-10-22T15:26:10Z",
    "raccolto": "2026-10-22T15:26:26Z",
    "canale": "instagram"
+  },
+  {
+   "id": "f056f5cb7958c7e6",
+   "fonte": "ansa",
+   "titolo": "Scontri a Milano, Nordio: 'Massici arresti di minori, vogliamo ampliare le carceri giovanili'",
+   "estratto": "'Quel sistema penitenziario è in sofferenza, istituti per maggiorenni siano anche per loro'. Le opposizioni attaccano",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/10/22/scontri-a-milano-nordio-massici-arresti-di-minori-vogliamo-ampliare-le-carceri-giovanili_8833a264-5004-485d-931e-6256bc03fd2a.html",
+   "pubblicato": "2026-10-22T15:24:47Z",
+   "raccolto": "2026-10-22T15:29:50Z",
+   "canale": "rss"
   },
   {
    "id": "f7b77f473d8695d4",
@@ -720,6 +750,16 @@
    "pubblicato": "2026-10-22T14:42:00Z",
    "raccolto": "2026-10-22T15:26:26Z",
    "canale": "rss"
+  },
+  {
+   "id": "d973473bdb2a179b",
+   "fonte": "corriere",
+   "titolo": "Dabete di tipo 2",
+   "estratto": "",
+   "link": "https://www.corriere.it/salute/il-medico-risponde/diabete/26-10-22/dabete-di-tipo-2/",
+   "pubblicato": "2026-10-22T14:41:21Z",
+   "raccolto": "2026-10-22T15:29:50Z",
+   "canale": "sitemap"
   },
   {
    "id": "3209742b675ce697",
@@ -38468,26 +38508,6 @@
    "estratto": "Alessandro Barbano dialoga con Sarantis Thanopulos, Massimiliano Valerii e Stefano Vicari",
    "link": "https://www.linkiesta.it/2026/10/minicar-proteste-milano-piazza-duomo/",
    "pubblicato": "2026-10-19T15:30:41Z",
-   "raccolto": "2026-10-19T20:36:57Z",
-   "canale": "rss"
-  },
-  {
-   "id": "23e400cd5608e081",
-   "fonte": "ilfatto",
-   "titolo": "Liste d’attesa, la Corte dei conti: “Più fondi, ma non diminuiscono i tempi. Risorse inutilizzate, personale insufficiente e sistemi di controllo carenti”",
-   "estratto": "Di fronte alla mancanza di personale e di sistemi di monitoraggio inadeguati, l’incremento delle risorse stanziate non porta necessariamente all’aumento delle prestazioni offerte, e quindi alla…",
-   "link": "https://www.ilfattoquotidiano.it/2026/10/19/liste-attesa-sanita-corte-conti-fondi-medici-infermieri-notizie/8542893/",
-   "pubblicato": "2026-10-19T15:28:56Z",
-   "raccolto": "2026-10-19T20:36:57Z",
-   "canale": "rss"
-  },
-  {
-   "id": "25cdebfe3ff11175",
-   "fonte": "ilfatto",
-   "titolo": "Omicidio Vassallo, il ricorso della procura di Salerno contro l’assoluzione del pentito Ridosso: “Confessione attendibile e coerente con i verbali delle indagini”",
-   "estratto": "“Romolo Ridosso non è un collaboratore di giustizia le cui dichiarazioni per essere credibili devono essere valutate ricercando riscontri obiettivi individualizzanti – così come sostenuto nella…",
-   "link": "https://www.ilfattoquotidiano.it/2026/10/19/omicidio-vassallo-il-ricorso-della-procura-di-salerno-contro-lassoluzione-del-pentito-ridosso-confessione-attendibile-e-coerente-con-i-verbali-delle-indagini/8543432/",
-   "pubblicato": "2026-10-19T15:28:45Z",
    "raccolto": "2026-10-19T20:36:57Z",
    "canale": "rss"
   }
