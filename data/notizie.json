@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-22T15:26:26Z",
+ "aggiornato": "2026-10-22T15:27:27Z",
  "notizie": [
   {
    "id": "ca365b1896b6ccc3",
@@ -79,6 +79,26 @@
    "link": "https://tg24.sky.it/politica/video/2026/10/22/mattarella-salari-stelle-al-merito-lavoro-1133695",
    "pubblicato": "2026-10-22T15:28:51Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1a7038683cf48c6e",
+   "fonte": "libero",
+   "titolo": "Lavoro, Mattarella \"Evitare che dai logaritmi nasca un nuovo asservimento\"",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/49433013/undefined/",
+   "pubblicato": "2026-10-22T15:27:27Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6debd70e34676a13",
+   "fonte": "libero",
+   "titolo": "Mattarella \"Lavoro è simbolo della dignità, nessuno può essere asservito\"",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/49432996/undefined/",
+   "pubblicato": "2026-10-22T15:27:27Z",
+   "raccolto": "2026-10-22T15:27:27Z",
    "canale": "rss"
   },
   {
@@ -220,6 +240,16 @@
    "pubblicato": "2026-10-22T15:26:10Z",
    "raccolto": "2026-10-22T15:26:26Z",
    "canale": "instagram"
+  },
+  {
+   "id": "f7b77f473d8695d4",
+   "fonte": "ansa",
+   "titolo": "Studentessa in Erasmus violentata a Milano, il gip: 'Un'aggressione brutale'",
+   "estratto": "Resta in carcere il fermato, il giudice nell'ordinanza a carico del 31enne: 'L'ha considerata come un oggetto'",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/studentessa-in-erasmus-violentata-a-milano-il-gip-unaggressione-brutale_d0a5830f-a0e4-40b1-b3ad-33edf674b8fd.html",
+   "pubblicato": "2026-10-22T15:24:14Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
   },
   {
    "id": "56805ee6cac70a53",
@@ -1702,6 +1732,16 @@
    "canale": "rss"
   },
   {
+   "id": "db5f6e48f316c4d3",
+   "fonte": "libero",
+   "titolo": "Magistrato toglie il bambino alla mamma perché è troppo affettuosa. Ma stiamo impazzendo?",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/migliori-video/49433296/magistrato-toglie-il-bambino-alla-mamma-perche-e-troppo-affettuosa-ma-stiamo-impazzendo-/",
+   "pubblicato": "2026-10-22T13:14:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
    "id": "e70a79e12d537a7a",
    "fonte": "domani",
    "titolo": "La nuova frontiera dei “materiali viventi”. Ma la sfida è passare dalla ricerca all’industria",
@@ -1709,6 +1749,16 @@
    "link": "https://www.editorialedomani.it/ambiente/materiali-viventi-biologia-unione-europa-ricerca-industria-lo69hvpi",
    "pubblicato": "2026-10-22T13:11:07Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "32418561f1a39c30",
+   "fonte": "libero",
+   "titolo": "AI Strategy Bootcamp a Ercolano",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49434037/ai-strategy-bootcamp-a-ercolano/",
+   "pubblicato": "2026-10-22T13:11:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
    "canale": "rss"
   },
   {
@@ -1772,6 +1822,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "66607a4daa1c398d",
+   "fonte": "libero",
+   "titolo": "Mattarella: ai giovani va data fiducia, ampiamente e concretamente",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49434014/mattarella-ai-giovani-va-data-fiducia-ampiamente-e-concretamente/",
+   "pubblicato": "2026-10-22T13:08:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
    "id": "b68bea6c334cb817",
    "fonte": "ilgiornale",
    "titolo": "Il premio Nobel Aghion: “Ai e nucleare strategici per la transizione Green”",
@@ -1799,6 +1859,26 @@
    "link": "https://www.editorialedomani.it/fatti/via-facile-gita-scolastica--crociera-educazione-qrs4bgfh",
    "pubblicato": "2026-10-22T13:06:58Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c2b0052ed3a67bfa",
+   "fonte": "libero",
+   "titolo": "Lavoro, Mattarella: la società coesa è più sicura",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49433897/lavoro-mattarella-la-societa-coesa-e-piu-sicura/",
+   "pubblicato": "2026-10-22T13:03:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
+   "id": "91547120ca6c4bc3",
+   "fonte": "libero",
+   "titolo": "Erri De Luca: da mia madre ho imparato compassione e senso di giustizia",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49433895/erri-de-luca-da-mia-madre-ho-imparato-compassione-e-senso-di-giustizia/",
+   "pubblicato": "2026-10-22T13:02:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
    "canale": "rss"
   },
   {
@@ -1922,6 +2002,16 @@
    "canale": "rss"
   },
   {
+   "id": "3f37c842f4656ea4",
+   "fonte": "libero",
+   "titolo": "Bille August: con \"Me, you\" racconto primo amore e ferite della guerra",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49433871/bille-august-con-me-you-racconto-primo-amore-e-ferite-della-guerra/",
+   "pubblicato": "2026-10-22T12:54:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
    "id": "c83f1486875b98a5",
    "fonte": "repubblica",
    "titolo": "Nico Paz, il cerchio magico: da papà Pablo alla compagna Emma, con Fabregas come tutore",
@@ -1962,6 +2052,36 @@
    "canale": "rss"
   },
   {
+   "id": "f86b777193b9beda",
+   "fonte": "libero",
+   "titolo": "Bastoni \"mai più centrale\": Inter, cosa filtra dopo il cartellino rosso",
+   "estratto": "L’Inter batte lo Shakhtar 1-0, ma ancora una volta deve ringraziare la panchina. Cristian Chivu cambia la partita con le sostituzioni, Carlos Augusto segna e nel finale Josep Martinez evita che la…",
+   "link": "https://www.liberoquotidiano.it/news/sport/49432978/bastoni-mai-piu-centrale-inter-cosa-filtra-dopo-cartellino-rosso/",
+   "pubblicato": "2026-10-22T12:48:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8213afc777298e3c",
+   "fonte": "libero",
+   "titolo": "Ebola, l'Oms: ora in Anfrica scenario epidemico più complesso",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49433863/ebola-l-oms-ora-in-anfrica-scenario-epidemico-piu-complesso/",
+   "pubblicato": "2026-10-22T12:47:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
+   "id": "dfb4e5940b9ea43a",
+   "fonte": "libero",
+   "titolo": "DACHSER & FERCAM Italia: sostenibilità concreta e mobilità del futuro",
+   "estratto": "La sostenibilità non è solo una questione di tecnologie, ma soprattutto di persone, collaborazione e capacità di trasformare le idee in progetti concreti. È questa la visione che guida DACHSER ed…",
+   "link": "https://www.liberoquotidiano.it/news/general/49432948/dachser-fercam-italia-sostenibilita-concreta-e-mobilita-del-futuro/",
+   "pubblicato": "2026-10-22T12:45:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
    "id": "c5ee1948c4d891e0",
    "fonte": "repubblica",
    "titolo": "Il governo s’incensa per salari in aumento, ma i prezzi crescono di più. E la realtà smonta le slide",
@@ -1972,6 +2092,16 @@
    "canale": "rss"
   },
   {
+   "id": "0f28174940206690",
+   "fonte": "libero",
+   "titolo": "Livorno, Ceccardi: arabo ai poliziotti integrazione al contrario",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49433848/livorno-ceccardi-arabo-ai-poliziotti-integrazione-al-contrario/",
+   "pubblicato": "2026-10-22T12:43:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
    "id": "d89def5092406ab3",
    "fonte": "skytg24",
    "titolo": "Alluvione in Australia, reporter salva un automobilista",
@@ -1979,6 +2109,16 @@
    "link": "https://tg24.sky.it/mondo/video/2026/10/22/alluvione-in-australia-reporter-salva-un-automobilista-1133657",
    "pubblicato": "2026-10-22T12:42:20Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b308508398f1a104",
+   "fonte": "libero",
+   "titolo": "IA, Metta: dare spazio a pensiero critico",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49433846/ia-metta-dare-spazio-a-pensiero-critico/",
+   "pubblicato": "2026-10-22T12:42:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
    "canale": "rss"
   },
   {
@@ -2009,6 +2149,16 @@
    "link": "https://www.liberoquotidiano.it/news/pillole/49432927/protesta_tir_salvini_oggi_interventi_anche_per_i_piu_piccoli_/",
    "pubblicato": "2026-10-22T12:40:14Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "028d7fcc78c565f7",
+   "fonte": "libero",
+   "titolo": "50° Congresso SUMAI: l'allarme sulle Case della Comunità",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49433844/50-congresso-sumai-l-allarme-sulle-case-della-comunita-/",
+   "pubblicato": "2026-10-22T12:40:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
    "canale": "rss"
   },
   {
@@ -3589,6 +3739,16 @@
    "link": "https://www.ilpost.it/flashes/percorsi-tour-de-france-2027/",
    "pubblicato": "2026-10-22T10:55:01Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b662ae19537ff5b6",
+   "fonte": "libero",
+   "titolo": "Sinner, \"l'operazione non dà garanzie\": crisi senza ritorno?",
+   "estratto": "Quello patito da Jannik Sinner è un infortunio lungo, ostico, da maneggiare con cura. E per il quale nemmeno l'operazione chirurgica dà garanzie di recupero immediato. A parlare è uno che Jannik lo…",
+   "link": "https://www.liberoquotidiano.it/news/sport/49432208/sinner-operazione-nessuna-garanzia-crisi-senza-ritorno/",
+   "pubblicato": "2026-10-22T10:55:00Z",
+   "raccolto": "2026-10-22T15:27:27Z",
    "canale": "rss"
   },
   {

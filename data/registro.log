@@ -165,3 +165,9 @@
 2026-10-22 15:26:28 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
 2026-10-22 15:26:30 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
 2026-10-22 15:26:38 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo
+2026-10-22 15:27:28 WARNING giornalize.raccolta: corriere: errore con https://xml2.corriereobjects.it/rss/homepage.xml: feed fermo: l'ultima notizia è del 2024-05-13
+2026-10-22 15:27:28 WARNING giornalize.raccolta: corriere: errore con https://xml2.corriereobjects.it/rss/cronache.xml: feed fermo: l'ultima notizia è del 2026-09-29
+2026-10-22 15:27:29 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-22 15:27:31 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-22 15:27:31 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-22 15:28:04 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo, ispi
