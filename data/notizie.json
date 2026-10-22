@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-22T15:31:56Z",
+ "aggiornato": "2026-10-22T15:33:48Z",
  "notizie": [
   {
    "id": "ca365b1896b6ccc3",
@@ -72,6 +72,16 @@
    "canale": "rss"
   },
   {
+   "id": "ffc030f64ed4c751",
+   "fonte": "ilgiornale",
+   "titolo": "Tra i 15 e i 16 anni, incensurati, residenti tra periferie e hinterland delle grandi città: chi sono i baby maranza. Nordio: “Ampliare le carceri minorili”",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/governo/tra-i-15-e-i-16-anni-incensurati-residenti-tra-periferie-e-hinterland-delle-grandi-citta-chi-sono-i-baby-maranza-nordio-ampliare-le-carceri-minorili/",
+   "pubblicato": "2026-10-22T15:30:09Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "a6d8917c5f7ba726",
    "fonte": "linkiesta",
    "titolo": "Cosa succede se Trump perde le elezioni di metà mandato",
@@ -90,6 +100,16 @@
    "pubblicato": "2026-10-22T15:29:33Z",
    "raccolto": "2026-10-22T15:29:50Z",
    "canale": "instagram"
+  },
+  {
+   "id": "e4e03229062bf2b6",
+   "fonte": "ilgiornale",
+   "titolo": "Il cinema sta benone. E ancor di più in tv",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/cinema/il-cinema-sta-benone-e-ancor-di-piu-in-tv/",
+   "pubblicato": "2026-10-22T15:29:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "75226d3516531b16",
@@ -272,6 +292,16 @@
    "canale": "instagram"
   },
   {
+   "id": "fc818c9c4c05c3b4",
+   "fonte": "corriere",
+   "titolo": "Sally Rooney, il caso della scrittrice irlandese (e dei libri ritirati in Uk) accende la polemica a Londra: vera censura o mossa pubblicitaria?",
+   "estratto": "Sul settimanale New Statesman appello di molti intellettuali in difesa di Rooney e la richiesta che il governo cambi la legislazione anti-terrorismo",
+   "link": "https://www.corriere.it/esteri/26_ottobre_22/sally-rooney-il-caso-della-scrittrice-irlandese-e-dei-libri-ritirati-in-uk-accende-la-polemica-nel-regno-unito-censura-o-mossa-56f920eb-b64f-484c-a5fb-f2491a2e4xlk.shtml",
+   "pubblicato": "2026-10-22T15:25:22Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "f056f5cb7958c7e6",
    "fonte": "ansa",
    "titolo": "Scontri a Milano, Nordio: 'Massici arresti di minori, vogliamo ampliare le carceri giovanili'",
@@ -302,6 +332,16 @@
    "canale": "rss"
   },
   {
+   "id": "8883658f47966d14",
+   "fonte": "corriere",
+   "titolo": "Hormuz «riapre», perché il gasolio costa caro?",
+   "estratto": "La ripresa delle esportazioni dal Golfo non risolve la crisi",
+   "link": "https://video.corriere.it/esteri/oriente-occidente/hormuz-riapre-perche-il-gasolio-costa-caro/9dc9ddc4-ee18-4cc1-bfb9-6bb1df7e6xlk",
+   "pubblicato": "2026-10-22T15:23:13Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "10e355b500b27cd8",
    "fonte": "ilfatto",
    "titolo": "“Interrompa subito la diretta”: in Ue scoppia il caso della consigliera dei Patrioti che trasmetteva all’esterno informazioni riservate sul bilancio",
@@ -309,6 +349,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/22/interrompa-subito-la-diretta-in-ue-scoppia-il-caso-della-consigliera-dei-patrioti-che-trasmetteva-allesterno-informazioni-riservate-sul-bilancio/8546518/",
    "pubblicato": "2026-10-22T15:22:57Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c5b6318b73f69fc7",
+   "fonte": "corriere",
+   "titolo": "Il segreto dell’anello di Lady Diana: la storia del gioiello che oggi brilla al dito di Kate",
+   "estratto": "Scelto da Lady Diana nel 1981, il celebre anello con zaffiro blu e diamanti nasconde un dettaglio sorprendente. Questo pezzo custodisce una storia di amore, memoria e continuità reale",
+   "link": "https://www.corriere.it/moda/26_ottobre_22/il-segreto-dell-anello-di-lady-diana-la-storia-del-gioiello-che-oggi-brilla-al-dito-di-kate-middleton-e641962c-3bfe-47e5-a3c1-0f5ffc5ccxlk.shtml",
+   "pubblicato": "2026-10-22T15:22:50Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -352,6 +402,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "f931da1e05e6ad3c",
+   "fonte": "corriere",
+   "titolo": "Cosmo e gli scontri a Milano: «La violenza? Non mi piace, ma non la condanno: ascoltiamo i ragazzi. Da Fedez ragionamenti nichilisti e distruttivi»",
+   "estratto": "Il cantautore pubblica sui social un brano, «Il Futuro», scritto a giugno ma apparentemente profetico. «Questi giovani non hanno una coscienza politica attiva, ma la loro protesta si collega a…",
+   "link": "https://www.corriere.it/spettacoli/26_ottobre_22/cosmo-scontri-milano-c0cf830d-9fc0-4d43-bc35-660d21051xlk.shtml",
+   "pubblicato": "2026-10-22T15:19:19Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "9361c58f10ec6888",
    "fonte": "ansa",
    "titolo": "Studentessa in Erasmus violentata a Milano, resta in carcere l'aggressore",
@@ -362,6 +422,16 @@
    "canale": "rss"
   },
   {
+   "id": "1ce95a68429e7abe",
+   "fonte": "corriere",
+   "titolo": "Borse: Europa in rosso e spread fino a 128 punti, Brent sopra i 112 dollari. E il diesel vola a 2,3 euro",
+   "estratto": "Il Brent fallisce la discesa e il Wti tratta appena sotto i 100, mentre la tensione in Medio Oriente non accenna a diminuire",
+   "link": "https://www.corriere.it/economia/finanza/diretta-live/26_ottobre_22/borse-in-diretta-prezzo-petrolio-di-oggi-22-ottobre-europa-in-rosso-e-spread-a-119-punti-brent-a-111-dollari-diesel-alle-stelle.shtml",
+   "pubblicato": "2026-10-22T15:19:01Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "f9af3711c1eeb45e",
    "fonte": "ansa",
    "titolo": "Ultimi sondaggi in Serbia delineano esito incerto fra studenti e Vucic",
@@ -369,6 +439,16 @@
    "link": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/22/ultimi-sondaggi-in-serbia-delineano-esito-incerto-fra-studenti-e-vucic_d8126705-a2ba-4af3-a301-8e49118dd6a9.html",
    "pubblicato": "2026-10-22T15:17:47Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3ee7d1728b7a7900",
+   "fonte": "corriere",
+   "titolo": "William e la Royal family ad Aberfan 60 anni dopo la strage dei bambini",
+   "estratto": "Sui passi di Elisabetta II, Carlo III, la regina Camilla e l'erede al trono William si sono recati ad Aberfan per commemorare il disastro minerario che fu, per la vita, il «rimpianto» della regina",
+   "link": "https://video.corriere.it/esteri/william-e-la-royal-family-60-anni-dopo-la-strage-dei-bambini-ad-aberfan/94ef7a66-33d0-4c6e-910a-3fda6e217xlk",
+   "pubblicato": "2026-10-22T15:15:18Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -409,6 +489,16 @@
    "link": "https://tg24.sky.it/politica/video/2026/10/22/nordio-carcere-minorile-in-sofferenza-serve-ampliare-1133693",
    "pubblicato": "2026-10-22T15:13:45Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "36ecbbb89db9db52",
+   "fonte": "corriere",
+   "titolo": "Sanità, le liste d'attesa per visite ed esami in tutte le regioni: i miglioramenti di Abruzzo e Lombardia",
+   "estratto": "Nei primi 9 mesi del 2026 garantiti entro i tempi d'attesa stabiliti oltre due milioni di visite e accertamenti in più (rispetto allo stesso periodo del 2025). Ma circa 4 milioni di prestazioni…",
+   "link": "https://www.corriere.it/salute/26_ottobre_22/sanita-liste-d-attesa-per-visite-ed-esami-le-regioni-migliori-e-peggiori-i-dati-di-agenas-b77f987f-f898-4a81-89a9-09b6ac0f5xlk.shtml",
+   "pubblicato": "2026-10-22T15:13:34Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -682,6 +772,36 @@
    "canale": "rss"
   },
   {
+   "id": "365aff183417ae07",
+   "fonte": "corriere",
+   "titolo": "Il video della rissa tra deputati di opposizione e maggioranza al parlamento albanese",
+   "estratto": "Da giorni nel Paese la protesta contro il governo Rama",
+   "link": "https://video.corriere.it/esteri/il-video-della-rissa-tra-deputati-di-opposizione-e-maggioranza-al-parlamento-albanese/00b4d981-0c56-4885-a4b0-babe2a4c2xlk",
+   "pubblicato": "2026-10-22T14:52:09Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "00af2c88b5481e20",
+   "fonte": "corriere",
+   "titolo": "Salento, ventenne trovato impiccato in giardino: l'ombra di una sfida social. La Procura indaga su pc e cellulare",
+   "estratto": "La famiglia chiede di fare piena luce sulla morte del ragazzo. L'inchiesta è al momento contro ignoti",
+   "link": "https://lecce.corriere.it/notizie/cronaca/26_ottobre_22/salento-ventenne-trovato-impiccato-in-giardino-l-ombra-di-una-sfida-social-la-procura-indaga-su-computer-e-cellulare-a0b10803-5e80-43b4-b4cc-e53ee009dxlk.shtml",
+   "pubblicato": "2026-10-22T14:51:39Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "67e748122ea9fc0e",
+   "fonte": "corriere",
+   "titolo": "Rcs Academy: come diventare giornalisti nell'era dell'AI con il «Metodo Corriere»",
+   "estratto": "L'intelligenza artificiale non sostituisce il cronista, la potenzia: al via il Master Metodo Corriere per governare il cambiamento e difendere la verità dei fatti",
+   "link": "https://www.corriere.it/cronache/26_ottobre_22/rcs-academy-come-diventare-giornalisti-nell-era-dell-ai-con-il-metodo-corriere-7ae5f7d8-7693-43b0-9b22-974417fb2xlk.shtml",
+   "pubblicato": "2026-10-22T14:51:23Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "f87a18fb3a2d322f",
    "fonte": "sole24ore",
    "titolo": "Dal Pnrr spinta da 34 miliardi per la mobilità. «Ora la sfida è completare le opere»",
@@ -689,6 +809,16 @@
    "link": "https://www.ilsole24ore.com/art/dal-pnrr-spinta-34-miliardi-la-mobilita-ora-sfida-e-completare-opere-AJ11XZrB",
    "pubblicato": "2026-10-22T14:51:00Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e30ffb7993894d53",
+   "fonte": "corriere",
+   "titolo": "Risolto il «giallo» dell'anello con tre diamanti lasciato nei bagni di Montecitorio: ritrovata la proprietaria",
+   "estratto": "Simonetta Matone, ex magistrata di lungo corso oggi deputata della Lega, racconta il ritrovamento: «Prima ho chiesto alle colleghe, poi l'ho consegnato ai commessi: ora vediamo chi si farà avanti»",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_22/montecitorio-anello-diamanti-10df20c5-1b30-48ea-a11f-bd4a389adxlk.shtml",
+   "pubblicato": "2026-10-22T14:50:23Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -759,6 +889,26 @@
    "link": "https://tg24.sky.it/politica/video/2026/10/22/milano-salvini-para-folgore-potranno-intervenire-coi-lince-1133686",
    "pubblicato": "2026-10-22T14:42:00Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3d141a5e42a9e980",
+   "fonte": "corriere",
+   "titolo": "Blocco dei tir, il Cdm approva il decreto: 105 milioni per il gasolio, aiuti anche per agricoltura e pesca. Meloni: «Rimuovere i blocchi, no alle intimidazioni»",
+   "estratto": "Il Consiglio dei ministri ha approvato il decreto che introduce misure di sostegno ai settori dell'autotrasporto, dell'agricoltura e della pesca. Il gasolio in autostrada arriva a 2,3 euro",
+   "link": "https://www.corriere.it/economia/trasporti/diretta-live/26_ottobre_22/autotrasportatori-la-protesta-in-diretta.shtml",
+   "pubblicato": "2026-10-22T14:41:48Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "023b6cc2a92571e0",
+   "fonte": "corriere",
+   "titolo": "Alberto Vacchi compra l’Hotel de la Poste di Cortina: ospitò «Vacanze di Natale», Hemingway e Liz Taylor",
+   "estratto": "Il progetto di riqualificazione prevede 55 camere e suites, il restauro dello storico Bar del Posta, due ristoranti, una spa e spazi per eventi privati",
+   "link": "https://www.corriere.it/economia/life/26_ottobre_22/alberto-vacchi-compra-l-hotel-de-la-poste-di-cortina-l-albergo-di-vacanze-di-natale-che-ospito-hemingway-e-liz-taylor-8092563c-b717-4ffc-b034-1e3a218edxlk.shtml",
+   "pubblicato": "2026-10-22T14:41:27Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -859,6 +1009,16 @@
    "link": "https://www.ilpost.it/2026/10/22/spot-ohio-meta-mandato-stati-uniti/",
    "pubblicato": "2026-10-22T14:36:21Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2576da56fb212cc3",
+   "fonte": "corriere",
+   "titolo": "Kiev: «Evacuazione forzata di famiglie con bambini da Kramatorsk e Slovyansk» | Putin punta su Trump: il fronte è in stallo, lui incassa concessioni",
+   "estratto": "Le notizie sul conflitto tra Ucraina e Russia di giovedì 22 ottobre, in diretta. Mosca: «Ci stiamo avviando alla fine del conflitto»",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_ottobre_22/ucraina-russia-news-guerra.shtml",
+   "pubblicato": "2026-10-22T14:36:11Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -1002,6 +1162,16 @@
    "canale": "rss"
   },
   {
+   "id": "c35cc794f47387b4",
+   "fonte": "corriere",
+   "titolo": "«Il ricettario delle meraviglie» di Camilla De Falco, morta a 8 anni per neuroblastoma, fa innamorare l'Italia: è primo in classifica",
+   "estratto": "Sfogliando queste pagine possiamo accogliere ciò che Camilla ci ha lasciato. Le sue preferenze, il suo entusiasmo per la cucina, il lavoro fatto insieme a mamma Alice. Possiamo conoscere qualcosa di…",
+   "link": "https://www.corriere.it/cook/news/26_ottobre_22/ricettario-meraviglie-camilla-libro-24da9fa3-dbe5-4f57-90ea-73e81f3fbxlk.shtml",
+   "pubblicato": "2026-10-22T14:25:21Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "1d2919d57ee35314",
    "fonte": "avvenire",
    "titolo": "Diritti delle persone con balbuzie, accordo storico tra Anci e Lea: ecco cosa cambia",
@@ -1069,6 +1239,16 @@
    "link": "https://www.ansa.it/sito/videogallery/italia/2026/10/22/pescherecci-fermi-a-pescara-camplone-caro-carburante-vanifica-vantaggio-economico_5a2cb2fd-8024-4311-a793-477559659246.html",
    "pubblicato": "2026-10-22T14:20:13Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "253a5e12e7a77f80",
+   "fonte": "corriere",
+   "titolo": "L’Economia d’Italia: Piemonte. La diretta video",
+   "estratto": "La diretta streaming del terzo appuntamento de L'Economia d'Italia",
+   "link": "https://video.corriere.it/l-economia-d-italia-piemonte-la-diretta/0645b96b-5d36-4f94-ac52-dd9e9bb5cxlk",
+   "pubblicato": "2026-10-22T14:20:08Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -1232,6 +1412,16 @@
    "canale": "rss"
   },
   {
+   "id": "77c8db8b9c0c3217",
+   "fonte": "corriere",
+   "titolo": "Sequestro Shalabayeva, disposto il processo di Appello ter per i cinque poliziotti imputati",
+   "estratto": "Il pg della Cassazione aveva chiesto un nuovo Appello per i cinque poliziotti",
+   "link": "https://roma.corriere.it/notizie/cronaca/26_ottobre_22/sequestro-shalabayeva-processo-appello-poliziotti-c2c1fa51-2cb0-45bc-99c9-1b9c2aa84xlk.shtml",
+   "pubblicato": "2026-10-22T14:08:02Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "173bca4dbf718cfe",
    "fonte": "ilfatto",
    "titolo": "“Il principe William verso Harry ha più apatia che rabbia”: la riconciliazione tra i due fratelli si allontana",
@@ -1259,6 +1449,16 @@
    "link": "https://tg24.sky.it/spettacolo/2026/10/22/mara-venier-compleanno",
    "pubblicato": "2026-10-22T14:03:51Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6a1f18724f9de5d4",
+   "fonte": "corriere",
+   "titolo": "Salvini: «A Milano parà pronti a intervenire con i Lince». Nordio: «Servono più carceri minorili».Emanato il decreto Sicurezza, la firma di Mattarella",
+   "estratto": "E sulle proteste dei camionisti: «Vi è una forte probabilità che vi sia una strumentalizzazione e una infiltrazione»",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_22/nordio-massicci-arresti-di-minori-vogliamo-ampliare-le-carceri-giovanili-1a2c42db-a82c-4607-9be1-ef72cbe29xlk.shtml",
+   "pubblicato": "2026-10-22T14:03:40Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -1299,6 +1499,16 @@
    "link": "https://www.open.online/2026/10/22/protesta-tir-scenografia-non-arriva-salta-spettacolo-sannazzaro-napoli/",
    "pubblicato": "2026-10-22T14:01:26Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a7e42a809a82b2aa",
+   "fonte": "corriere",
+   "titolo": "Chi è Matt Rizzetta, l'italoamericano che sogna il Napoli calcio. Ma De Laurentiis: «Non vendo»",
+   "estratto": "Rizzetta, 43 anni, ha rilanciato il basket a Napoli e ha incontrato De Laurentiis. Il patron dei partenopei ha rifiutato due miliardi: «Non voglio andare in pensione»",
+   "link": "https://www.corriere.it/sport/26_ottobre_22/chi-e-matt-rizzetta-napoli-c949fabb-9b5b-4626-b262-f8b81e263xlk.shtml",
+   "pubblicato": "2026-10-22T14:01:15Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -1482,6 +1692,16 @@
    "canale": "rss"
   },
   {
+   "id": "9844569d3f23b60a",
+   "fonte": "corriere",
+   "titolo": "Fedez denunciato da 4 fan per un'aggressione fuori da una discoteca a Milano: «Gli abbiamo chiesto un selfie, ci ha preso a botte con i bodyguard» | Il video",
+   "estratto": "L'episodio la sera del 15 ottobre davanti al «The club». I legali del rapper: «Ha reagito all'aggressione di alcuni giovani alterati»",
+   "link": "https://milano.corriere.it/notizie/cronaca/26_ottobre_22/fedez-denunciato-da-quattro-fan-per-un-aggressione-fuori-dalla-discoteca-a-milano-gli-abbiamo-chiesto-un-selfie-ci-ha-preso-a-f413d0c8-919b-4e0f-9f5e-d450023b9xlk.shtml",
+   "pubblicato": "2026-10-22T13:42:24Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "8aa174a41aea96dd",
    "fonte": "skytg24",
    "titolo": "La Cina crolla in borsa, azioni entrano in mercato orso: cosa sta succedendo",
@@ -1489,6 +1709,16 @@
    "link": "https://tg24.sky.it/economia/2026/10/22/cina-crollo-borsa-mercato-orso",
    "pubblicato": "2026-10-22T13:41:12Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ae9a9c46d0ae5230",
+   "fonte": "corriere",
+   "titolo": "«Mistero diesel»: perché i prezzi sono alle stelle se dal Golfo Persico arriva più petrolio",
+   "estratto": "La guerra non ha soltanto interrotto le forniture; ha cambiato le rotte, i costi di trasporto, le condizioni di sicurezza e gli equilibri fra i grandi esportatori",
+   "link": "https://www.corriere.it/oriente-occidente-federico-rampini/26_ottobre_22/perche-prezzi-alle-stelle-se-arriva-piu-petrolio-12f6699f-26a0-4e3d-8a7a-2fe84e6e4xlk.shtml",
+   "pubblicato": "2026-10-22T13:40:49Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -1559,6 +1789,16 @@
    "link": "https://www.repubblica.it/cronaca/2026/10/22/news/shalabayeva_cassazione_verdetto_cortese-425667246/",
    "pubblicato": "2026-10-22T13:35:39Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "801ce1cb8c9afa39",
+   "fonte": "corriere",
+   "titolo": "Lega, corsa per il ruolo di segretario federale: Salvini e i dieci «ribelli» veneti a sostegno di Massimo Garavaglia. «Non temiamo ritorsioni»",
+   "estratto": "Sono dieci le firme venete a sostegno della candidatura di Massimo Garavaglia a segretario federale della Lega contro Matteo Salvini",
+   "link": "https://corrieredelveneto.corriere.it/notizie/politica/26_ottobre_22/lega-corsa-per-il-ruolo-di-segretario-federale-salvini-e-i-dieci-ribelli-veneti-a-sostegno-di-massimo-garavaglia-non-temiamo-135ec1a0-bac6-4274-a3cb-b8b859a2dxlk.shtml",
+   "pubblicato": "2026-10-22T13:35:29Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -1682,6 +1922,26 @@
    "canale": "rss"
   },
   {
+   "id": "4eb87e105c3dde21",
+   "fonte": "libero",
+   "titolo": "Ucraina, Brusylo \"Positivo portare avanti i colloqui per arrivare alla pace\"",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/pillole/49433235/ucraina_brusylo_positivo_portare_avanti_i_colloqui_per_arrivare_alla_pace_/",
+   "pubblicato": "2026-10-22T13:27:09Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c5f5e82f82ed7ba8",
+   "fonte": "libero",
+   "titolo": "Ilaria Salis e la sfuriata davanti a tutti. FdI: \"Questa è la sinistra che ci rappresenta in Europa\"",
+   "estratto": "Un'Ilaria Salis fuori di sé quella andata in onda a L'Aria Che Tira. L'europarlamentare di Alleanza Verdi e Sinistra italiana si è collegata da Strasburgo dove la sua sfuriata non è passata…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49433250/ilaria-salis-sfuriata-davanti-tutti-fdi-questa-sinistra-ci-rappresenta-europa/",
+   "pubblicato": "2026-10-22T13:26:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "a77aa89363cf74e4",
    "fonte": "skytg24",
    "titolo": "Crisi ex Ilva, sindacati pronti a una nuova mobilitazione",
@@ -1742,6 +2002,36 @@
    "canale": "rss"
   },
   {
+   "id": "92f7b62df2131b50",
+   "fonte": "corriere",
+   "titolo": "Strasburgo boccia (dopo 9 anni) il ricorso presentato da Silvio Berlusconi: «Non ci fu violazione dei diritti dell’uomo nella condanna per frode fiscale»",
+   "estratto": "Sentenza della Cedu a 16 anni dalla Cassazione sui diritti tv Mediaset. Si astengono sia il giudice ordinario italiano (un magistrato) sia il giudice «ad hoc» che doveva sostituirlo (un professore…",
+   "link": "https://milano.corriere.it/notizie/cronaca/26_ottobre_22/strasburgo-boccia-il-ricorso-di-silvio-berlusconi-nessuna-violazione-dei-diritti-dell-uomo-nella-sua-condanna-per-frode-fiscale-b0a0dac5-9baf-4098-a2cd-ec3e1a906xlk.shtml",
+   "pubblicato": "2026-10-22T13:21:18Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "038eaf602cc02f3f",
+   "fonte": "libero",
+   "titolo": "Audiovisivo, Anica: in sala numeri pre-Covid, crescono pay e streaming",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49434155/audiovisivo-anica-in-sala-numeri-pre-covid-crescono-pay-e-streaming/",
+   "pubblicato": "2026-10-22T13:19:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5b70ebf3549c82b0",
+   "fonte": "libero",
+   "titolo": "Studenti universitari manifestano a Parigi dopo la revoca del divieto",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/tv-news/49434054/studenti-universitari-manifestano-a-parigi-dopo-la-revoca-del-divieto/",
+   "pubblicato": "2026-10-22T13:17:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "d9ca89ebff3a81dc",
    "fonte": "ilfatto",
    "titolo": "Il Como non cambia mai idea di calcio: i numeri dietro la storica vittoria contro il Manchester United",
@@ -1749,6 +2039,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/22/como-manchester-united-champions-league-idea-numeri-storica-vittoria/8546621/",
    "pubblicato": "2026-10-22T13:16:53Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7dfc4b6c5332b0d6",
+   "fonte": "corriere",
+   "titolo": "AI, giornalismo e democrazia: l’agorà rischia di frantumarsi",
+   "estratto": "Dagli algoritmi usati a Gaza al sistema dell’informazione: il saggio dello storico Gozzini e dell'ex condirettore dell’agenzia Agi Pratellesi, pubblicato da Edizioni Scientifiche Italiane",
+   "link": "https://www.corriere.it/cultura/libri/26_ottobre_22/ai-giornalismo-e-democrazia-l-agora-rischia-di-frantumarsi-bdc15afd-d7c4-4628-ba6a-b36088256xlk.shtml",
+   "pubblicato": "2026-10-22T13:16:30Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -1922,6 +2222,16 @@
    "canale": "rss"
   },
   {
+   "id": "cfc8b1b237aba210",
+   "fonte": "corriere",
+   "titolo": "Wade Wilson, storia del killer col sorriso del Joker. «Usavo il mio fascino per fare sesso, ma pensavo soltanto a uccidere»",
+   "estratto": "Nel 2019 Wilson uccide due donne sconosciute nel giro di poche ore. Condannato a due pene di morte, in carcere ha ricevuto centinaia di lettere (e migliaia di dollari) dalle sue fan",
+   "link": "https://www.corriere.it/esteri/26_ottobre_22/wade-wilson-tatuaggi-joker-uccidere-69eec3f3-e721-4bfc-b576-43b489125xlk.shtml",
+   "pubblicato": "2026-10-22T13:04:02Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "c2b0052ed3a67bfa",
    "fonte": "libero",
    "titolo": "Lavoro, Mattarella: la società coesa è più sicura",
@@ -1959,6 +2269,16 @@
    "link": "https://www.nicolaporro.it/economia-finanza/risparmi-e-investimenti/petrolio-debito-francese-e-timori-sullia-perche-le-borse-stanno-perdendo/",
    "pubblicato": "2026-10-22T13:00:46Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1b708c6e0110cfbe",
+   "fonte": "corriere",
+   "titolo": "Grave falla su Internet, siti governativi offline per prevenire attacchi. L'esperto: «Rischi molto seri»",
+   "estratto": "Le vulnerabilità del software, utilizzato per sviluppare milioni di applicazioni web, è considerata molto grave: potrebbero consentire agli aggressori di prendere il controllo dei server e accedere…",
+   "link": "https://www.corriere.it/tecnologia/26_ottobre_22/internet-e-la-falla-di-php-siti-offline-per-prevenire-attacchi-l-esperto-situazione-grave-a-rischio-molte-applicazioni-vecchie-b6ee45e0-af9b-4845-a5b0-1008f39daxlk.shtml",
+   "pubblicato": "2026-10-22T13:00:45Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -2092,6 +2412,16 @@
    "canale": "rss"
   },
   {
+   "id": "2b849f182ec653dd",
+   "fonte": "corriere",
+   "titolo": "Sciopero nei teatri, niente spettacoli tra Trento e Bolzano: «Proposte misere»",
+   "estratto": "Coinvolti 150 lavoratori della cultura. La denuncia dei sindacati: «Contratti fermi da nove anni, nello stesso periodo inflazione al 23%»",
+   "link": "https://corrieredeltrentino.corriere.it/notizie/cronaca/26_ottobre_22/sciopero-nei-teatri-in-tutta-la-regione-saltati-gli-spettacoli-tra-trento-e-bolzano-proposte-misere-per-il-rinnovo-8f46eff7-fa4c-48b8-a381-3bb953be1xlk.shtml",
+   "pubblicato": "2026-10-22T12:49:39Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "1f860990f30b0d77",
    "fonte": "skytg24",
    "titolo": "Judi Dench: \"Per una malattia agli occhi non posso più recitare né leggere\"",
@@ -2129,6 +2459,16 @@
    "link": "https://www.liberoquotidiano.it/news/tv-news/49433863/ebola-l-oms-ora-in-anfrica-scenario-epidemico-piu-complesso/",
    "pubblicato": "2026-10-22T12:47:00Z",
    "raccolto": "2026-10-22T15:27:27Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a44e244f1032c137",
+   "fonte": "corriere",
+   "titolo": "Alto Adige, in fiamme uno chalet per vacanze a Racines: 16 persone evacuate nella notte, struttura devastata",
+   "estratto": "Allarme nella tarda serata di mercoledì: fondamentale l'intervento dei vigili del fuoco volontari della zona",
+   "link": "https://corrieredellaltoadige.corriere.it/notizie/cronaca/26_ottobre_22/alto-adige-in-fiamme-uno-chalet-per-vacanze-a-racines-16-persone-evacuate-nella-notte-struttura-devastata-dal-rogo-9b335942-e0c9-430d-ade4-6592ce189xlk.shtml",
+   "pubblicato": "2026-10-22T12:46:30Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -2272,6 +2612,16 @@
    "canale": "rss"
   },
   {
+   "id": "d7fac7f347607885",
+   "fonte": "corriere",
+   "titolo": "Bruno Vespa contro la rappresentante degli studenti universitari scatena le polemiche sui social: «Voi giovani, quando parlate, documentatevi prima»",
+   "estratto": "Il conduttore criticato per i toni usati a «Porta a Porta» con Sabrina Brizzola",
+   "link": "https://video.corriere.it/politica/bruno-vespa-contro-la-rappresentante-degli-studenti-universitari-scatena-le-polemiche-sui-social-voi-giovani-quando-parlate-documentatevi-prima/486ecfa1-e716-4452-ac18-d1d7b8b3bxlk",
+   "pubblicato": "2026-10-22T12:37:15Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "f1554cc2bdc416fe",
    "fonte": "skytg24",
    "titolo": "Halloween, le 21 serie tv da guardare e riguardare nella Notte delle Streghe. FOTO",
@@ -2342,6 +2692,16 @@
    "canale": "rss"
   },
   {
+   "id": "0a761dbdcaa75843",
+   "fonte": "corriere",
+   "titolo": "Fiori, arte e presentazioni di libri: trent'anni di progetti a «La giardineria»",
+   "estratto": "Bolzano, Martina Schullian ha ereditato l'azienda del padre: «Ho combinato le due cose, ho aperto la giardineria ai libri e alla musica, all’arte. Di giorno mi occupo della gestione dell’azienda, la…",
+   "link": "https://corrieredellaltoadige.corriere.it/notizie/cultura-e-tempo-libero/26_ottobre_22/fiori-arte-e-presentazioni-di-libri-trent-anni-di-progetti-a-la-giardineria-d4e5d8de-438c-49bb-a517-af6df3823xlk.shtml",
+   "pubblicato": "2026-10-22T12:30:43Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "5130e9ceef9be92e",
    "fonte": "laverita",
    "titolo": "La Francia minaccia l’euro, Usa salva-Italia",
@@ -2349,6 +2709,16 @@
    "link": "https://www.laverita.info/i-nodi-dellue/francia-crisi-euro-blackrock-italia",
    "pubblicato": "2026-10-22T12:30:00Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1f2eb8aff1e91ee2",
+   "fonte": "libero",
+   "titolo": "Conte diventa scudo umano per Scarpinato",
+   "estratto": "L’uomo del decreto e delle conferenze stampa a notte inoltrata, il premier per tutte le stagioni giallorosse e gialloverdi, ieri per l’occasione è tornato avvocato del popolo: il suo, ovviamente. I…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49432907/conte-diventa-scudo-umano-scarpinato/",
+   "pubblicato": "2026-10-22T12:30:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -2572,6 +2942,26 @@
    "canale": "rss"
   },
   {
+   "id": "eecbddeeb7fafaef",
+   "fonte": "libero",
+   "titolo": "Porta a Porta, Vespa riprende la coordinatrice dell'Udu: \"Dovete studiare quando venite qui\"",
+   "estratto": "“C'è un tasso di abbandono scolastico molto alto”: la coordinatrice dell’Unione degli Universitari (Udu) Sabrina Brizzola lo ha detto nello studio di Bruno Vespa a Porta a Porta, nella puntata…",
+   "link": "https://www.liberoquotidiano.it/news/personaggi/49432588/porta-a-porta-vespa-riprende-coordinatrice-udu-dovete-studiare-quando-venite-qui/",
+   "pubblicato": "2026-10-22T12:16:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "77eb8dcb658d4a47",
+   "fonte": "corriere",
+   "titolo": "La preside dell'11enne \"casseur\": «Nei video l'avevo riconosciuto subito dagli occhi. I prof piangevano» | Chi è il «bambino con il passamontagna»",
+   "estratto": "La dirigente: «Abbiamo investito tanto su di lui, anche sul piano emotivo. E continueremo a farlo»",
+   "link": "https://milano.corriere.it/notizie/cronaca/26_ottobre_22/la-preside-e-i-prof-dell-undicenne-che-ha-partecipato-alla-guerriglia-urbana-noi-devastati-lui-e-gia-tornato-in-classe-a-scuola-5cfbf7f2-3327-4096-b6d1-575c77e2axlk.shtml",
+   "pubblicato": "2026-10-22T12:14:41Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "be0657e9681577fe",
    "fonte": "libero",
    "titolo": "\"É un mondo difficile\", Mottica tra Carotone e drammi generazionali",
@@ -2579,6 +2969,36 @@
    "link": "https://www.liberoquotidiano.it/news/tv-news/49433702/-e-un-mondo-difficile-mottica-tra-carotone-e-drammi-generazionali/",
    "pubblicato": "2026-10-22T12:13:00Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c3488e01cc4437bf",
+   "fonte": "corriere",
+   "titolo": "Perché si sono fermati i tir: dalla crisi di Hormuz al caro gasolio, agli aiuti in ritardo. Tutte le ragioni della protesta",
+   "estratto": "Il carburante pesa fino al 40% sui costi delle imprese, ma le tariffe non tengono il passo. Ecco che cosa è successo e perché la crisi non è risolta",
+   "link": "https://www.corriere.it/economia/finanza/26_ottobre_22/autotrasportatori-scioperano-perche-21df47a4-6cb1-44de-bf18-706dfca20xlk.shtml",
+   "pubblicato": "2026-10-22T12:12:52Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "69ffd0a78891ee3f",
+   "fonte": "corriere",
+   "titolo": "Shamonda virus, in Francia primo caso al mondo di infezione umana. Cos'è, come si trasmette e quali sono i rischi",
+   "estratto": "La trasmissione avviene con la puntura di un moscerino",
+   "link": "https://www.corriere.it/salute/26_ottobre_22/shamonda-virus-in-francia-primo-caso-al-mondo-di-infezione-umana-cos-e-come-si-trasmette-e-quali-sono-i-rischi-e404a6d7-fc61-4789-addb-51cbca2afxlk.shtml",
+   "pubblicato": "2026-10-22T12:12:21Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ae73a76dafc10f82",
+   "fonte": "corriere",
+   "titolo": "Tutte le merci bloccate dalla protesta degli autotrasportatori, settore per settore: frutta, pesce, latte e ora anche i fiori",
+   "estratto": "Problemi di approvvigionamento anche per carburanti. E a breve potrebbero verificarsi problemi anche per i farmaci",
+   "link": "https://roma.corriere.it/notizie/cronaca/26_ottobre_22/merci-bloccate-protesta-autotrasportatori-018dc374-cc02-4057-a562-7986e8b8dxlk.shtml",
+   "pubblicato": "2026-10-22T12:12:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -2699,6 +3119,16 @@
    "link": "https://www.rainews.it/rubriche/tg2medicina33/video/2026/10/Tg2-Medicina-33-del-22102026-2fd7b0e7-a509-4bda-8241-5bf0ba0e6872.html",
    "pubblicato": "2026-10-22T12:02:42Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "772d1b924b0955e0",
+   "fonte": "corriere",
+   "titolo": "Meloni: «Accordo con gli autotrasportatori, le risorse stanno già arrivando»",
+   "estratto": "Il video messaggio social della presidente del Consiglio dopo il Cdm",
+   "link": "https://video.corriere.it/politica/meloni-sui-social-accordo-con-gli-autotrasportatori-non-promesse-ma-risorse-che-stanno-gia-arrivando/4a4fc1a7-8046-456a-80ce-9090d9266xlk",
+   "pubblicato": "2026-10-22T12:02:03Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -3022,6 +3452,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "d86171046d0f2db8",
+   "fonte": "corriere",
+   "titolo": "A Napoli la polizia scorta un'autocisterna durante le proteste per il caro carburante",
+   "estratto": "",
+   "link": "https://video.corriere.it/cronaca/video-verticali/a-napoli-la-polizia-scorta-un-autocisterna-durante-le-proteste-per-il-caro-carburante/c6c291fd-68e8-4215-b018-097a744d6xlk",
+   "pubblicato": "2026-10-22T11:46:05Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "533fd2934feef06a",
    "fonte": "rainews",
    "titolo": "Vertenza Eurallumina, operai asserragliati a 60 metri d'altezza",
@@ -3122,6 +3562,26 @@
    "canale": "rss"
   },
   {
+   "id": "3377cee272151bef",
+   "fonte": "corriere",
+   "titolo": "Alluvione in Australia: due passanti (tra cui un giornalista televisivo) salvano un uomo da un'auto che sta affondando",
+   "estratto": "",
+   "link": "https://video.corriere.it/esteri/video-verticali/alluvione-in-australia-due-passanti-tra-cui-un-giornalista-televisivo-salvano-un-uomo-da-un-auto-che-sta-affondando/3119f1df-9464-4521-ab5f-ed33483dcxlk",
+   "pubblicato": "2026-10-22T11:42:30Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5fd75996a8f9d833",
+   "fonte": "corriere",
+   "titolo": "Garisenda, il video in time-lapse sui lavori: «Realizzati i 70 micropali»",
+   "estratto": "Il Comune ha pubblicato su YouTube il video in time-lapse che riprende la realizzazione dei 70 micropali su cui poggeranno le fondazioni necessarie a garantire la tenuta dei due tralicci",
+   "link": "https://video.corrieredibologna.corriere.it/bologna-il-video-in-time-lapse-sui-lavori-di-sicurezza-della-torre-garisenda-il-comune-realizzati-i-70-micropali-su-cui-poggeranno-le-fondazioni-per-i-tralicci/2ad07147-c87c-4114-a282-1542d4051xlk",
+   "pubblicato": "2026-10-22T11:41:48Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "634726ec2f701a98",
    "fonte": "rainews",
    "titolo": "Lavatrici, cellulari e aspirapolveri: da oggi scatta il diritto alla riparazione, cosa cambia",
@@ -3149,6 +3609,16 @@
    "link": "https://www.liberoquotidiano.it/news/spettacoli/televisione/49432321/l-aria-che-tira-augusta-montaruli-lezione-karima-moual-vieni-casa-mia-ti-faccio-vedere/",
    "pubblicato": "2026-10-22T11:41:00Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "706b8104c8b8695a",
+   "fonte": "corriere",
+   "titolo": "«Una storia di mani»: il video della Lega del Filo d'Oro nella giornata europea per i sordociechi",
+   "estratto": "La raccolta fondi per ampliare e rafforzare la rete dei servizi",
+   "link": "https://video.corriere.it/cronaca/una-storia-di-mani-il-video-della-lega-del-filo-d-oro-nella-giornata-europea-per-i-sordociechi/2729291c-caec-4f51-aa59-456b66e51xlk",
+   "pubblicato": "2026-10-22T11:40:32Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -3432,6 +3902,16 @@
    "canale": "rss"
   },
   {
+   "id": "cb63b508b5c63b9b",
+   "fonte": "corriere",
+   "titolo": "Imi e rinnovo dei contratti, scintille sul bilancio. I sindaci temono per la tenuta delle casse comunali",
+   "estratto": "Morandell (Svp): «Ridurre le aliquote per chi affitta a residenti e lavoratori»",
+   "link": "https://corrieredellaltoadige.corriere.it/notizie/politica/26_ottobre_22/imi-e-rinnovo-dei-contratti-ancora-scintille-sul-bilancio-i-sindaci-temono-per-la-tenuta-delle-casse-comunali-3daadc05-d855-4132-958d-e37327f2dxlk.shtml",
+   "pubblicato": "2026-10-22T11:16:10Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "b3a6b53cbd85ba2b",
    "fonte": "vdnews",
    "titolo": "Che fine faranno gli abitanti di Spin Time? A Roma la protesta contro lo sgombero",
@@ -3522,6 +4002,16 @@
    "canale": "rss"
   },
   {
+   "id": "5efacadcd63c3486",
+   "fonte": "corriere",
+   "titolo": "Permessi di soggiorno record nel 2025: +47% in un anno. Forte spinta dai ricongiungimenti familiari",
+   "estratto": "Il dato comunicato dall'Istat: nel 2025 rilasciati oltre 426.000 permessi. In calo (-15%) le richieste di asilo",
+   "link": "https://www.corriere.it/cronache/26_ottobre_22/migranti-permessi-di-soggiorno-record-47-nel-2025-e-il-dato-piu-alto-degli-ultimi-15-anni-79512b6d-a664-4fd8-8836-f6318124fxlk.shtml",
+   "pubblicato": "2026-10-22T11:10:14Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "5b97d19fc0e91116",
    "fonte": "ansa",
    "titolo": "Preside si 'infiltra' nella chat degli studenti per evitare l'occupazione",
@@ -3569,6 +4059,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/prime-nevicate-sui-passi-dolomitici-attivi-i-servizia-invernali-sulla-rete_222594bb-e383-4e87-90ee-9c0e129408b5.html",
    "pubblicato": "2026-10-22T11:06:16Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8ae93b2848f8c444",
+   "fonte": "corriere",
+   "titolo": "Il consiglio dei Ministri approva il decreto aiuti per gli autotrasportatori e l'agricoltura",
+   "estratto": "",
+   "link": "https://video.corriere.it/il-consiglio-dei-ministri-approva-il-decreto-aiuti-per-gli-autotrasportatori-e-l-agricoltura/dfefe601-0429-42d0-9df9-8e85749c7xlk",
+   "pubblicato": "2026-10-22T11:06:10Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -3752,6 +4252,16 @@
    "canale": "rss"
   },
   {
+   "id": "020b5b6423578eab",
+   "fonte": "corriere",
+   "titolo": "Festa del Cinema di Roma, Federica Brignone in abito rosso (lungo) con il fidanzato James Mbaye (in jeans)",
+   "estratto": "Elegante e luminosa, la campionessa dello sci si concede una serata mondana nella Capitale accanto al compagno. Look a contrasto, sguardi d’intesa e sorrisi: così la coppia conquista i fotografi",
+   "link": "https://www.corriere.it/moda/26_ottobre_22/federica-brignone-in-abito-rosso-lungo-con-il-fidanzato-james-mbaye-in-jeans-i-sorrisi-della-coppia-alla-festa-del-cinema-di-roma-0a823301-bbd0-4fd7-add7-e917e3a15xlk.shtml",
+   "pubblicato": "2026-10-22T10:58:31Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "1b1a871b27d92952",
    "fonte": "open",
    "titolo": "«Riconosciuto da quegli occhi inconfondibili», parla la preside dell’11enne tra i devastatori di Milano: «I docenti piangevano per l’impotenza»",
@@ -3802,6 +4312,16 @@
    "canale": "rss"
   },
   {
+   "id": "892c8e9cd9ce8378",
+   "fonte": "corriere",
+   "titolo": "Il figlio di Eleonora Giorgi diventerà papà di una bambina che si chiamerà come la nonna",
+   "estratto": "Nel giorno in cui l'indimenticata attrice, scomparsa il 3 marzo 2025, avrebbe compiuto 73 anni, il primogenito ha annunciato il lieto evento, di cui racconterà i particolari nella prossima puntata…",
+   "link": "https://www.corriere.it/spettacoli/26_ottobre_22/eleonora-giorgi-il-figlio-andrea-rizzoli-diventera-papa-di-una-bambina-che-si-chiamera-come-la-nonna-50ae12b7-addf-4006-9315-3c3d20403xlk.shtml",
+   "pubblicato": "2026-10-22T10:55:01Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "b662ae19537ff5b6",
    "fonte": "libero",
    "titolo": "Sinner, \"l'operazione non dà garanzie\": crisi senza ritorno?",
@@ -3839,6 +4359,16 @@
    "link": "https://www.lastampa.it/cronaca/2026/10/22/news/minori_fuori_controllo_i_lettori_si_dividono_chiudete_i_social_la_colpa_e_degli_adulti-15773705/",
    "pubblicato": "2026-10-22T10:51:00Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c708732a4e2da2c4",
+   "fonte": "corriere",
+   "titolo": "Viaggio a Rio de Janeiro, dove 763 favelas sono pronte a voltare le spalle alla sinistra",
+   "estratto": "Reportage da Rio de Janeiro, tra i quartieri proletari e le favelas dove si guarda a destra e e le case dei «radical chic» di Copacabana. Mentre nella chiesa evangelica di Michelle Bolsonaro si vota…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_22/elezioni-brasile-rio-de-janeiro-citta-f346e645-00cb-4bec-976a-9beba8ac0xlk.shtml",
+   "pubblicato": "2026-10-22T10:49:18Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -3972,6 +4502,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "cc74110f116385a8",
+   "fonte": "corriere",
+   "titolo": "«Sentirete parlare di me». Midterm, viaggio nell’Ohio deluso da Trump: la rivincita del «senatore operaio» Sherrod Brown",
+   "estratto": "Sconfitto 2 anni fa grazie ai milioni dei signori del denaro digitale, il democratico populista torna in corsa ed è avanti di 6-8 punti. Nel campo repubblicano, intanto, il candidato governatore…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_22/sherrod-brown-ohio-midterm-9235ad0b-7935-42f3-92dd-3ad770618xlk.shtml",
+   "pubblicato": "2026-10-22T10:39:48Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "1e8dadc973e7e008",
    "fonte": "ansa",
    "titolo": "Borsa: l'Europa in profondo rosso con Milano a -2%",
@@ -4059,6 +4599,16 @@
    "link": "https://www.ansa.it/sito/notizie/politica/2026/10/22/via-libera-unanime-della-camera-alla-legge-sul-gratuito-patrocinio_aca32b8e-53ec-4e0c-bb3e-6f2b81261509.html",
    "pubblicato": "2026-10-22T10:33:15Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b537687fb67182fa",
+   "fonte": "corriere",
+   "titolo": "Ucraina, crateri enormi sulle strade dopo bombardamenti russi: 2 morti e 34 feriti nella notte",
+   "estratto": "Il bilancio delle vittime è stato riferito dal presidente ucraino su X",
+   "link": "https://video.corriere.it/esteri/ucraina-crateri-enormi-sulle-strade-dopo-bombardamenti-russi-2-morti-e-34-feriti-nella-notte/9719a71e-3c35-4856-a6d1-b0560f0ebxlk",
+   "pubblicato": "2026-10-22T10:32:47Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -4162,6 +4712,16 @@
    "canale": "rss"
   },
   {
+   "id": "b6100ca7be1b9a41",
+   "fonte": "corriere",
+   "titolo": "Mattarella: «Dare fiducia ai giovani, concretamente: la Repubblica ha bisogno della loro passione»",
+   "estratto": "Il monito del presidente della Repubblica arriva in occasione della consegna delle stelle al merito del lavoro",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_22/mattarella-fiducia-giovani-a4b1d9dc-71bd-40b4-8356-8d7663784xlk.shtml",
+   "pubblicato": "2026-10-22T10:28:23Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "0da9084edaf87fad",
    "fonte": "laverita",
    "titolo": "Santanchè, chiesto il processo per bancarotta e truffa allo Stato",
@@ -4179,6 +4739,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/22/azerbaigian-turchia-laicita-hijab-notizie/8546421/",
    "pubblicato": "2026-10-22T10:26:19Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f920340b72c2a58f",
+   "fonte": "corriere",
+   "titolo": "Chiesto un terzo processo per Santanchè: bancarotta, falsi bilanci e truffa allo Stato nel dissesto di due società",
+   "estratto": "L’ex ministra ha già in corso il processo Visibilia in Tribunale, mentre il 4 novembre la Consulta scioglierà il conflitto sollevato dal Parlamento contro i magistrati sulla truffa Covid all’Inps",
+   "link": "https://milano.corriere.it/notizie/cronaca/26_ottobre_22/daniela-santanche-chiesto-il-rinvio-a-giudizio-per-bancarotta-fraudolenta-e-truffa-d53491c4-e430-4bbb-83fb-31336b496xlk.shtml",
+   "pubblicato": "2026-10-22T10:25:37Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -4612,6 +5182,16 @@
    "canale": "rss"
   },
   {
+   "id": "3014f377846136ee",
+   "fonte": "corriere",
+   "titolo": "Palestra, sauna, vasca d'immersione e una stazione hyperice per il recupero: il truck da sogno di Mcllroy per continuare a vincere",
+   "estratto": "Il golfista avrà a disposizione una palestra super all'avanguardia su quattro ruote, che lo seguirà nei tornei in giro per il mondo",
+   "link": "https://www.corriere.it/sport/26_ottobre_22/mcllroy-golf-truck-da-sogno-7d391005-b346-4bfb-b8c4-658d49141xlk.shtml",
+   "pubblicato": "2026-10-22T10:08:47Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "0d390cda534b4121",
    "fonte": "skytg24",
    "titolo": "Migranti Ceuta, Italia e Spagna concordano stop a sospensione Schengen",
@@ -4662,6 +5242,16 @@
    "canale": "rss"
   },
   {
+   "id": "fdec66bd0a52f487",
+   "fonte": "corriere",
+   "titolo": "Le proteste e l’effetto-contagio: perché in Italia e Francia il caos nelle piazze si riversa su spread e mercati (e tocca tutti noi)",
+   "estratto": "Il legame tra spread sui bond sovrani e proteste violente di piazza emerge in modo sempre più chiaro: i mercati temono che i paesi colpiti dalle proteste siano costretti a spendere per calmare la…",
+   "link": "https://www.corriere.it/economia/finanza/26_ottobre_22/proteste-effetto-contagio-italia-francia-spread-693508a8-debe-41db-a39c-8e66c3bbbxlk.shtml",
+   "pubblicato": "2026-10-22T10:03:48Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "0d2500f1579fb87c",
    "fonte": "ansa",
    "titolo": "Le stelle cadenti nate dalla cometa di Halley illuminano il cielo",
@@ -4679,6 +5269,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/valori-controvento-nel-lavoro-sociale-non-ci-sono-eroi_7674c862-5f3e-4ad1-b733-1eba9871d3be.html",
    "pubblicato": "2026-10-22T10:02:01Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b8357ab197fa4ac5",
+   "fonte": "corriere",
+   "titolo": "40 anni di Dylan Dog, One Piece, Gta: è la Milan Games Week & Cartoomics, evento principe della cultura pop",
+   "estratto": "A firmare la locandina della kermesse è per la prima volta un'artista giapponese: Posuka Demizu, illustratrice del manga di culto \"The Promised Neverland\".",
+   "link": "https://www.corriere.it/tecnologia/26_ottobre_22/40-anni-di-dylan-dog-one-piece-e-gta-torna-la-milan-games-week-cartoomics-evento-principe-della-cultura-pop-1d922b2b-cb5f-4817-abcf-f25777eb3xlk.shtml",
+   "pubblicato": "2026-10-22T10:01:57Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -6032,6 +6632,16 @@
    "canale": "rss"
   },
   {
+   "id": "8f3516ae4f811d34",
+   "fonte": "corriere",
+   "titolo": "Emergenza abitativa, i sindaci trentini in audizione a Roma: «Case troppo costose, a rischio la tenuta sociale»",
+   "estratto": "I vertici del Consiglio delle autonomie accolti dalla deputata meloniana Alessia Ambrosi: «Ormai anche le valli soffrono come le grandi città»",
+   "link": "https://corrieredeltrentino.corriere.it/notizie/politica/26_ottobre_22/emergenza-abitativa-i-sindaci-trentini-in-audizione-a-roma-case-troppo-costose-a-rischio-la-tenuta-sociale-699ef58a-3d85-472a-8b52-5722b3978xlk.shtml",
+   "pubblicato": "2026-10-22T09:35:54Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "2a148ec0415250a4",
    "fonte": "ansa",
    "titolo": "'Bancarotta e truffa allo Stato', pm chiedono il processo per Santanchè",
@@ -6079,6 +6689,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/sanita-i-tempi-dattesa-solo-la-principale-criticita-per-il-74-degli-italiani_cf2ad6e2-dc30-40f3-b4b8-c92f246b7c98.html",
    "pubblicato": "2026-10-22T09:32:29Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cfdb6690806fd8a8",
+   "fonte": "corriere",
+   "titolo": "Xi celebra la Lunga Marcia e valuta l’opportunità del vertice trilaterale con Trump e Putin (in cui si parlerà anche di Ucraina)",
+   "estratto": "Ancora nessuna reazione pubblica di Pechino alla proposta russa. Xi per ora parla di economia interna e controllo del Partito sull’esercito",
+   "link": "https://www.corriere.it/esteri/26_ottobre_22/xi-jinping-vertice-trump-putin-ucraina-870ae555-dee0-4c29-b21a-dfed54b88xlk.shtml",
+   "pubblicato": "2026-10-22T09:32:07Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -6222,6 +6842,16 @@
    "canale": "rss"
   },
   {
+   "id": "ee9188da9829fac9",
+   "fonte": "corriere",
+   "titolo": "Trump loda fan che ha dato pugno a contestatore durante comizio: «È un grande»",
+   "estratto": "La scenetta durante il comizio in South Carolina",
+   "link": "https://video.corriere.it/esteri/trump-loda-fan-che-ha-dato-pugno-a-contestatore-durante-comizio-e-un-grande/4b76bcdb-898d-4ecc-ad40-f395d2dc0xlk",
+   "pubblicato": "2026-10-22T09:23:35Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "7e84e711020c7b58",
    "fonte": "open",
    "titolo": "Lasciano proseguire da soli i figli di 13 e 16 anni in montagna, ma non controllano l’apertura del rifugio. Fratelli salvati nella notte in ipotermia",
@@ -6332,6 +6962,26 @@
    "canale": "rss"
   },
   {
+   "id": "801b2edfe0dad575",
+   "fonte": "corriere",
+   "titolo": "Blocco agli ingressi della scuola, sospese le lezioni al Copernico: «Per evitare disordini»",
+   "estratto": "Le assenze non verranno conteggiate. La protesta dopo il blocco degli accessi messo due giorni fa al liceo Minghetti",
+   "link": "https://corrieredibologna.corriere.it/notizie/cronaca/26_ottobre_22/blocco-agli-ingressi-sospese-le-lezioni-al-liceo-copernico-di-bologna-la-dirigente-evitiamo-problemi-di-ordine-pubblico-59bd1412-7326-439e-a50b-5cce3f402xlk.shtml",
+   "pubblicato": "2026-10-22T09:15:58Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c5e2fd15353f44fc",
+   "fonte": "corriere",
+   "titolo": "Pulisic e la cantante Megan Moroney hanno un flirt? L'indizio social durante lo show di Victoria's Secret",
+   "estratto": "La cantante statunitense e il giocatore del Milan sono finiti al centro del gossip. Già in estate erano stati visti insieme in un locale a Nashville",
+   "link": "https://www.corriere.it/sport/calcio/serie-a/26_ottobre_22/pulisic-megan-moroney-fidanzati-2801eae0-d564-4b3d-b759-6f5b670e7xlk.shtml",
+   "pubblicato": "2026-10-22T09:15:28Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "677fe32a4dffbf69",
    "fonte": "libero",
    "titolo": "Attacco russo all'Ucraina: morti e feriti anche a Kiev",
@@ -6339,6 +6989,16 @@
    "link": "https://www.liberoquotidiano.it/news/tv-news/49432199/attacco-russo-all-ucraina-morti-e-feriti-anche-a-kiev/",
    "pubblicato": "2026-10-22T09:15:00Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b8078087c0e6aa80",
+   "fonte": "corriere",
+   "titolo": "Muore a 63 anni in Vespa in Cina, stava facendo il giro del mondo da sola. Il marito era morto allo stesso modo nel 2024",
+   "estratto": "Lui aveva perso la vita in sella davanti ai suoi occhi nel 2024, a Trieste. L’amica vespista: «Aveva un coraggio immenso e pure dopo un viaggio da sola in Iraq mi aveva raccontato stupita della…",
+   "link": "https://www.corriere.it/cronache/26_ottobre_22/il-giro-del-mondo-in-vespa-per-il-sogno-condiviso-con-il-marito-morto-in-uno-scontro-sandra-perde-la-vita-in-cina-8ebf4d26-35a0-4771-881a-271b08d96xlk.shtml",
+   "pubblicato": "2026-10-22T09:13:49Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -6592,6 +7252,16 @@
    "canale": "rss"
   },
   {
+   "id": "e433a28a9ee09073",
+   "fonte": "corriere",
+   "titolo": "Florida, pescatore ucciso da un alligatore sulla riva del lago. La specie è protetta, ma ancora per poco - Le foto",
+   "estratto": "L'animale responsabile dell'attacco è stato individuato ed eliminato, ma i repubblicani spingono per facilitare gli abbattimenti. E in Louisiana in questi giorni è ripartita la caccia come attività…",
+   "link": "https://www.corriere.it/animali/animali-selvatici/26_ottobre_22/pescatore-ucciso-dall-alligatore-sulla-spiaggia-in-florida-secondo-caso-in-un-anno-la-specie-resta-protetta-ma-forse-ancora-per-b685e4e6-8404-4a33-9a3c-ea9c2bb33xlk.shtml",
+   "pubblicato": "2026-10-22T08:59:44Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "bcc8ec0b6148b27d",
    "fonte": "nicolaporro",
    "titolo": "Sicurezza, multe decuplicate per i reati di devastazione come a Milano",
@@ -6702,6 +7372,16 @@
    "canale": "rss"
   },
   {
+   "id": "d34bf2c96430b667",
+   "fonte": "corriere",
+   "titolo": "Case popolari, Emilia-Romagna approva delibera che cambia i requisiti: «Stop a residenza storica»",
+   "estratto": "Il testo recepisce la sentenza della Corte costituzionale. La Regione lascia però ai Comuni la possibilità di assegnare punteggi premiali assumendosene la responsabilità. Fratelli d'Italia: «Si…",
+   "link": "https://corrieredibologna.corriere.it/notizie/cronaca/26_ottobre_22/emilia-romagna-la-regione-approva-all-alba-la-delibera-che-cambia-i-requisiti-per-le-case-popolari-stop-alla-residenza-storica-5c58c324-7cb1-4f05-af02-600649580xlk.shtml",
+   "pubblicato": "2026-10-22T08:51:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "177da16d0632b02e",
    "fonte": "ilgiornale",
    "titolo": "Citroën ë-C5 Aircross: comfort da ammiraglia e fino a 520 km di autonomia, la prova del SUV elettrico",
@@ -6762,6 +7442,26 @@
    "canale": "rss"
   },
   {
+   "id": "c489ae53156a08b9",
+   "fonte": "corriere",
+   "titolo": "Il prete che ha mostrato il dito medio ai ragazzi durante i disordini: «Pentito? No, ho risposto. Mica ho tirato un pugno»",
+   "estratto": "Padre Giannicola Maria Simone, 65 anni, ha reagito al gestaccio che gli ha fatto un adolescente. «Lavoro con i ragazzi da una vita e ogni tanto bisogna anche dirgli “Stai attento a quello che fai”»",
+   "link": "https://milano.corriere.it/notizie/cronaca/26_ottobre_22/milano-il-video-virale-del-prete-che-mostra-il-dito-medio-ai-ragazzi-durante-i-disordini-pentito-no-ho-risposto-mica-ho-tirato-226140a6-8205-40c1-a365-e9bdad944xlk.shtml",
+   "pubblicato": "2026-10-22T08:46:34Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0086351dc9a9ade9",
+   "fonte": "corriere",
+   "titolo": "Il Borussia vince a Baku, poi scappa dallo stadio: niente docce in spogliatoio per il rischio legionella",
+   "estratto": "La squadra di Kovac ha preferito tornare subito in albergo dopo la partita seguendo una direttiva interna per tutelare la salute dei giocatori",
+   "link": "https://www.corriere.it/sport/calcio/champions-league/26_ottobre_22/borussia-dortmund-niente-docce-baku-legionella-e58cfbcc-313c-4a48-9b25-e0a4ae18cxlk.shtml",
+   "pubblicato": "2026-10-22T08:45:17Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "5121b337d459321f",
    "fonte": "libero",
    "titolo": "Si è legittimato l'odio pro-Pal: così nascono le rivolte europee",
@@ -6769,6 +7469,26 @@
    "link": "https://www.liberoquotidiano.it/news/europa/49430862/si_e_legittimato_l_odio_pro-pal_cosi_nascono_le_rivolte_europee/",
    "pubblicato": "2026-10-22T08:45:00Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "66ac5c9cbc2f6588",
+   "fonte": "corriere",
+   "titolo": "Insulti e gestacci al prete durante gli scontri a Milano e il sacerdote reagisce mostrando il dito medio",
+   "estratto": "La scena ripresa domenica durante le violenze in centro",
+   "link": "https://video.corriere.it/cronaca/insulti-e-gestacci-al-prete-durante-gli-scontri-a-milano-e-il-sacerdote-reagisce-mostrando-il-dito-medio/2853b0a0-faed-454a-afe4-dcdb35a72xlk",
+   "pubblicato": "2026-10-22T08:44:16Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5a378204b85fd526",
+   "fonte": "corriere",
+   "titolo": "Che fine ha fatto Maxi Lopez? È diventato uno chef: «Nessuno mi riconosce più come calciatore»",
+   "estratto": "L'ex bomber argentino ha iniziato a dedicarsi alla cucina in Argentina e ha pure partecipato a «MasterChef Celebrity»",
+   "link": "https://www.corriere.it/sport/calcio/26_ottobre_22/che-fine-ha-fatto-maxi-lopez-chef-3151ecea-f05f-4f7f-a65c-ed349adb8xlk.shtml",
+   "pubblicato": "2026-10-22T08:44:13Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -6820,6 +7540,16 @@
    "pubblicato": "2026-10-22T08:38:14Z",
    "raccolto": "2026-10-22T11:58:16Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "89fe5fad2210a69d",
+   "fonte": "corriere",
+   "titolo": "Stop alla sospensione di Schengen tra Italia e Spagna: revocate le restrizioni alle frontiere",
+   "estratto": "La decisione di non prolungare i controlli di frontiera dopo un colloquio tra il ministro Piantedosi e il suo omologo di Madrid",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_22/stop-alle-restrizioni-di-schengen-torna-la-pace-tra-italia-e-spagna-672971cc-5924-434f-bcf9-5c7061de1xlk.shtml",
+   "pubblicato": "2026-10-22T08:35:26Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "f14057bab4557d7c",
@@ -7562,6 +8292,16 @@
    "canale": "rss"
   },
   {
+   "id": "512bb80fdc9679ee",
+   "fonte": "corriere",
+   "titolo": "«Remigrazione», «Più educatori»: Milano si divide in due piazze",
+   "estratto": "In via Torino Luca Bernardo di FnV: «Attività sociali per integrare i ragazzi»",
+   "link": "https://video.corriere.it/milano/remigrazione-piu-educatori-dalla-cgil-a-futuro-nazionale-di-vannacci-dopo-l-assalto-milano-si-divide-in-due-piazze/7dc23a13-ccfd-4f6b-b9de-82f396ac0xlk",
+   "pubblicato": "2026-10-22T07:17:52Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "bd7f5cec842b76d5",
    "fonte": "lastampa",
    "titolo": "Il Cdm approva il decreto aiuti per oltre mezzo miliardo. Meloni: “Le merci tornano a circolare”",
@@ -7769,6 +8509,16 @@
    "link": "https://www.ilpost.it/2026/10/22/electronic-arts-bioware-chiuso/",
    "pubblicato": "2026-10-22T06:55:58Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f1b56b417408f6df",
+   "fonte": "corriere",
+   "titolo": "Pensioni, i tagli fanno perdere fino a 35 mila euro: le simulazioni da 1.000 a 4.000 euro al mese",
+   "estratto": "Le simulazioni della Cgil misurano l’effetto cumulativo delle revisioni dei coefficienti",
+   "link": "https://www.corriere.it/economia/finanza/26_ottobre_22/pensioni-2027-i-tagli-agli-assegni-fanno-perdere-fino-a-35-mila-euro-le-simulazioni-per-assegni-da-1000-a-4000-euro-al-mese-ac83b861-476b-4bd7-888a-93b4b14efxlk.shtml",
+   "pubblicato": "2026-10-22T06:54:55Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -8022,6 +8772,16 @@
    "canale": "rss"
   },
   {
+   "id": "490d01e194bfe01f",
+   "fonte": "corriere",
+   "titolo": "Riccardo Magi, il radicale «Don Chisciotte» tra scioperi della fame e sos agli alleati",
+   "estratto": "A Montecitorio ha perso anche l’appoggio di Benedetto Della Vedova. Di più: il suo ex sodale dentro +Europa da un po’ di tempo è diventato il suo peggior nemico, e vai a capire perché",
+   "link": "https://www.corriere.it/politica/26_ottobre_22/riccardo-magi-il-radicale-don-chisciotte-tra-scioperi-della-fame-e-sos-aglialleati-cbb93424-d24c-4877-89ae-f6c682d1dxlk.shtml",
+   "pubblicato": "2026-10-22T06:21:36Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "e839617ed79d7941",
    "fonte": "ansa",
    "titolo": "Aggressioni violente per rapina a Roma, arrestati 4 giovanissimi",
@@ -8079,6 +8839,16 @@
    "link": "https://www.liberoquotidiano.it/news/general/49429408/_la_liberta_di_scegliere_alla_fondazione_de_gasperi_presentata_indagine_swg_sulle_normative_alimentari_e_sul_rapporto_tra_/",
    "pubblicato": "2026-10-22T06:11:00Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "541f898dabc86b8a",
+   "fonte": "corriere",
+   "titolo": "Proteste degli studenti, scontro in consiglio regionale. Il Pd attacca la Lega: «Sconcertante chiedere l’esercito»",
+   "estratto": "La consigliera del Carroccio: «Ci sono immagini che speravamo di non vedere nella nostra comunità». Nel frattempo, la staffetta tra governatori è ancora ferma, Kompatscher: «Pronto a dimettermi…",
+   "link": "https://corrieredeltrentino.corriere.it/notizie/politica/26_ottobre_22/proteste-degli-studenti-scontro-in-consiglio-regionale-il-pd-attacca-la-lega-sconcertante-chiedere-l-esercito-ac5c8fc8-d32e-4e67-9a40-7c5104c87xlk.shtml",
+   "pubblicato": "2026-10-22T06:10:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -8432,6 +9202,16 @@
    "canale": "rss"
   },
   {
+   "id": "67169729a929728c",
+   "fonte": "corriere",
+   "titolo": "Il professor Montorsi: «Ogni anno una paziente mi scrive: “Grazie per la vita che mi ha dato”. Le serie tv? Superate dalla realtà»",
+   "estratto": "Marco Montorsi: «In sala sempre più superspecialisti. L'AI e le tecniche di simulazione sono nostre alleate»",
+   "link": "https://www.corriere.it/cronache/26_ottobre_22/dottor-marco-montorsi-humanitas-intervista-18764d58-e5d6-4b12-b037-18a571bd3xlk.shtml",
+   "pubblicato": "2026-10-22T05:29:42Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "46f3e0933f358d84",
    "fonte": "chronocol",
    "titolo": "Dopo mesi di lavoro e di test è online la prima versione del portale delle mobilitazioni di Chrono!",
@@ -8442,6 +9222,16 @@
    "canale": "instagram"
   },
   {
+   "id": "a16b59d22b8c6a3c",
+   "fonte": "corriere",
+   "titolo": "Il 14enne investito non rispondeva al telefono, papà e fratello escono per cercarlo in strada",
+   "estratto": "Il ragazzo abita a Martinengo e martedì sera 20 ottobre stava tornando a casa a piedi dopo l'allenamento di calcio. Il tratto in cui l'automobilista lo ha travolto alle spalle è senza lampioni",
+   "link": "https://bergamo.corriere.it/notizie/cronaca/26_ottobre_22/ghisalba-il-14enne-investito-e-gravissimo-non-rispondeva-al-telefono-papa-e-fratello-sono-usciti-a-cercarlo-per-strada-cd1b5e5c-c517-4c51-bca2-fbebca50cxlk.shtml",
+   "pubblicato": "2026-10-22T05:28:03Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "cf74b653d793c295",
    "fonte": "ilpost",
    "titolo": "Gli studenti protestano anche in Grecia",
@@ -8449,6 +9239,16 @@
    "link": "https://www.ilpost.it/2026/10/22/proteste-studenti-grecia/",
    "pubblicato": "2026-10-22T05:25:11Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "afc6075dfc98fa20",
+   "fonte": "corriere",
+   "titolo": "Sciopero autotrasportatori, la strategia e i controlli incrociati per evitare che la protesta si allarghi",
+   "estratto": "I casi di minacce e gomme tagliate. Le verifiche su autotrasportatori con precedenti penali",
+   "link": "https://www.corriere.it/politica/26_ottobre_22/autostrasporti-controlli-infiltrazioni-8d137390-cab5-4ff8-99f7-383fac7b2xlk.shtml",
+   "pubblicato": "2026-10-22T05:22:14Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -8472,6 +9272,16 @@
    "canale": "rss"
   },
   {
+   "id": "9e24abd5c115278d",
+   "fonte": "corriere",
+   "titolo": "In Brasile Lula contro Bolsonaro, l’eterna sfida finale",
+   "estratto": "Di presidenti di sinistra in America Latina ne sono rimasti due: quanti ne resteranno dopo il ballottaggio del 25 ottobre in Brasile?",
+   "link": "https://video.corriere.it/cronaca/approfondimenti/in-brasile-lula-contro-bolsonaro-l-eterna-sfida-finale/172696ea-c936-45ba-86fc-a69214870xlk",
+   "pubblicato": "2026-10-22T05:14:37Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "73e7bc976f9a7480",
    "fonte": "ilgiornale",
    "titolo": "Il Btp Valore oltre 12 miliardi",
@@ -8480,6 +9290,16 @@
    "pubblicato": "2026-10-22T05:11:36Z",
    "raccolto": "2026-10-22T11:58:16Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "8161944a9c9ddd19",
+   "fonte": "corriere",
+   "titolo": "L'angelo dei muscoli, i pesi da 40 kg per rinforzare il collo, le partite di tennis: come Kimi ha trasformato il suo fisico",
+   "estratto": "Kimi Antonelli potrebbe vincere il suo primo Mondiale ad appena 20 anni. Sempre accanto a lui l' «angelo» dei muscoli, il performance coach Sergi Avila, custode di un corpo che cambia. E che…",
+   "link": "https://www.corriere.it/sport/formula-1/26_ottobre_22/kimi-antonelli-allenamenti-mondiale-cosa-fa-2d245a1e-f449-4117-bf4b-d635df4a9xlk.shtml",
+   "pubblicato": "2026-10-22T05:10:36Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "4aaefb2991453183",
@@ -8492,6 +9312,46 @@
    "canale": "sitemap"
   },
   {
+   "id": "2ed4bb82a7f19020",
+   "fonte": "corriere",
+   "titolo": "«I guerrieri della notte» in tv: i mattoni lanciati contro la troupe, le riprese spostate per colpa dei troppi curiosi, chi non c'è più | 8 segreti",
+   "estratto": "La pellicola del 1979, diretta da Walter Hill, torna giovedì 22 ottobre su Sky Cinema Action alle 23.05",
+   "link": "https://www.corriere.it/spettacoli/cinema-serie-tv/cards/i-guerrieri-della-notte-in-tv-i-mattoni-lanciati-contro-la-troupe-le-riprese-spostate-per-colpa-dei-troppi-curiosi-chi-non-c-e/il-libro_principale.shtml",
+   "pubblicato": "2026-10-22T05:09:16Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ebec0d24cec6b167",
+   "fonte": "corriere",
+   "titolo": "Kuleba: «Gli Usa non moriranno per l’Europa, impariamo a vivere senza di loro»",
+   "estratto": "L’ex ministro degli Esteri ucraino: «La promessa della Nato non si basa soltanto sull’articolo 5, ma sull’idea che l’America ci difenderà. Se questo elemento viene meno, l’intera equazione crolla»",
+   "link": "https://www.corriere.it/esteri/26_ottobre_22/kuleba-ucraina-intervista-e20a9bbb-093d-4e42-bf43-6c6e2cc70xlk.shtml",
+   "pubblicato": "2026-10-22T05:07:44Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0202685ebb9dde28",
+   "fonte": "corriere",
+   "titolo": "Geppi Cucciari torna in tv: ex cestista, laureata in Giurisprudenza (e ha lavorato da un notaio), la vita privata",
+   "estratto": "La conduttrice torna su Rai 3 da giovedì 22 ottobre in prima serata con il varietà culturale Splendida Cornice",
+   "link": "https://www.corriere.it/spettacoli/cards/geppi-cucciari-torna-in-tv-ex-cestista-e-laureata-in-giurisprudenza-e-ha-lavorato-da-un-notaio-9-segreti/ha-lavorato-da-un-notaio_principale.shtml",
+   "pubblicato": "2026-10-22T05:06:02Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f9199ec56b7d3dde",
+   "fonte": "corriere",
+   "titolo": "Putin punta su Trump: il fronte è in stallo, ma lui incassa concessioni. Così il Cremlino cerca di sfruttare il fattore tempo (anche per ragioni di bilancio)",
+   "estratto": "Quel che non riesce ai suoi carri armati — territori, smilitarizzazione dell’Ucraina, nessuna Nato a Kiev — Putin prova a ottenerlo facendo leva sulla Casa Bianca. Con il fronte in stallo, il…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_22/putin-trump-ucraina-tempo-5ea68af0-dfa8-4d5e-b80c-c92f68106xlk.shtml",
+   "pubblicato": "2026-10-22T05:05:58Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "ee5f8476864d1938",
    "fonte": "sole24ore",
    "titolo": "Le imprese centenarie capofila dell’innovazione: «Viviamo a lungo perché cambiamo»",
@@ -8499,6 +9359,16 @@
    "link": "https://www.ilsole24ore.com/art/le-imprese-centenarie-capofila-dell-innovazione-viviamo-lungo-perche-cambiamo-AJyRlOqB",
    "pubblicato": "2026-10-22T05:04:00Z",
    "raccolto": "2026-10-22T11:58:16Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d376161505aaf0b3",
+   "fonte": "corriere",
+   "titolo": "Cosa potranno fare i militari inviati a Milano? I timori della Difesa: senza taser, manette e spray urticanti sono inutili e in pericolo",
+   "estratto": "Il rischio che l’impiego sia poco incisivo e in alcuni casi addirittura pericoloso per i militari. I dubbi tra i sindacati e i funzionari di polizia sulla «partecipazione violenta»",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_22/militari-milano-timori-difesa-a796780f-8f43-4393-9976-00d69b025xlk.shtml",
+   "pubblicato": "2026-10-22T05:02:48Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -8622,6 +9492,16 @@
    "canale": "rss"
   },
   {
+   "id": "cf9eaac756b4ce25",
+   "fonte": "corriere",
+   "titolo": "I medici del Papa dopo gli esami istologici: «Non è necessaria alcuna ulteriore terapia» | Può riprendere le sue attività? Dovrà fare controlli periodici?",
+   "estratto": "Dopo i risultati degli esami istologici confermata la diagnosi iniziale e la buona riuscita dell'intervento",
+   "link": "https://roma.corriere.it/notizie/vaticano-news/26_ottobre_21/papa-leone-xiv-il-bollettino-del-gemelli-non-e-necessaria-alcuna-ulteriore-terapia-27e522d3-7119-4051-aeee-be2fc943cxlk.shtml",
+   "pubblicato": "2026-10-22T04:51:34Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "23138054e4b0528d",
    "fonte": "ilgiornale",
    "titolo": "La grande guerra che si combatte (anche) nel sottosuolo",
@@ -8660,6 +9540,16 @@
    "pubblicato": "2026-10-22T04:32:09Z",
    "raccolto": "2026-10-22T04:54:43Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "0a7de6e70e142b81",
+   "fonte": "corriere",
+   "titolo": "Fiato sospeso: in Brasile va in scena l'ultimo duello",
+   "estratto": "",
+   "link": "https://www.corriere.it/newsletter/mondo-capovolto/26_ottobre_22/fiato-sospeso-in-brasile-va-in-scena-l-ultimo-duello-468916c1-37ee-451a-840a-569ccf30axlk.shtml",
+   "pubblicato": "2026-10-22T04:32:07Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "b7d23533264ce4c6",
@@ -8702,6 +9592,16 @@
    "canale": "rss"
   },
   {
+   "id": "e5ec670f6dbb5e51",
+   "fonte": "corriere",
+   "titolo": "Trincia: «Garlasco trasformato in uno spettacolo quotidiano per fare ascolti»",
+   "estratto": "«L’uomo sbagliato - Un’inchiesta dal vivo», debutto teatrale del giornalista, approda domenica 25 ottobre alla ChorusLife Arena: la storia del serial killer Ezzedine Sebai",
+   "link": "https://bergamo.corriere.it/notizie/cultura-e-spettacoli/26_ottobre_22/pablo-trincia-a-bergamo-garlasco-e-stato-trasformato-in-uno-spettacolo-quotidiano-per-fare-ascolti-chi-ha-fatto-piu-male-a-7d6573f3-6b66-417e-8dd2-c02db74c7xlk.shtml",
+   "pubblicato": "2026-10-22T04:30:08Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "e0aea6eb3a6a103c",
    "fonte": "ilfatto",
    "titolo": "“La fine del mondo è prevista per le 14: sarà la Francia ad aggiudicarsela”, disse Macron",
@@ -8729,6 +9629,16 @@
    "link": "https://www.rainews.it/video/2026/10/-napoli-5-arresti-per-associazione-a-delinquere-finalizzata-al-traffico-e-al-maltrattamento-di-anim-fff050b3-93d0-4029-a0e4-11331a2c85aa.html",
    "pubblicato": "2026-10-22T04:28:00Z",
    "raccolto": "2026-10-22T04:54:43Z",
+   "canale": "rss"
+  },
+  {
+   "id": "dfe3a86357e17c39",
+   "fonte": "corriere",
+   "titolo": "«Violenze alle ragazze», la psicosi delle chat: centinaia di genitori tengono i figli a casa da scuola per paura",
+   "estratto": "Nei giorni delle proteste di piazza studentesche sono circolati messaggi allarmanti. Al Weil di Treviglio classi dimezzate. La comunicazione congiunta dei dirigenti: «Nessun pericolo reale»",
+   "link": "https://bergamo.corriere.it/notizie/cronaca/26_ottobre_22/bergamo-violenze-alle-studentesse-e-aggressioni-la-psicosi-nelle-chat-centinaia-di-genitori-tengono-i-figli-a-casa-da-scuola-522be76c-16b3-479f-a900-38e39b616xlk.shtml",
+   "pubblicato": "2026-10-22T04:23:56Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -8940,6 +9850,16 @@
    "pubblicato": "2026-10-22T04:00:00Z",
    "raccolto": "2026-10-22T04:54:43Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "b278cf44cf7fdc99",
+   "fonte": "corriere",
+   "titolo": "Negli anni '50 don Milani avviò un’esperienza educativa nuova: come si chiamava? | Sudoku e cruciverba: gioca",
+   "estratto": "Quale imperatore fece costruire il Colosseo? Al genere Camellia appartiene una pianta dalla quale si ricava quale bevanda? Cosa studia l’ontologia? Il Patto di bilancio europeo è noto con quale…",
+   "link": "https://www.corriere.it/giochi/news/26_ottobre_22/il-quiz-del-corriere-del-22-ottobre-don-milani-avvio-un-esperienza-educativa-nuova-come-si-chiamava-eba9240f-29b8-455a-b347-e4233ebbexlk.shtml",
+   "pubblicato": "2026-10-22T04:00:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "d11c4d1abbaeb124",
@@ -9179,6 +10099,16 @@
    "link": "https://www.ilsole24ore.com/art/mappatura-ministero-locazioni-turistiche-toccano-quota-590mila-AJmmzgqB",
    "pubblicato": "2026-10-22T03:02:02Z",
    "raccolto": "2026-10-22T04:54:43Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cf851e5d20f84e3d",
+   "fonte": "corriere",
+   "titolo": "Quanto costa quella pera che buttiamo via: la «diseconomia» dello spreco alimentare vale 13 miliardi",
+   "estratto": "Per produrla sono serviti terra, acqua, energia, fertilizzanti, fitosanitari, macchine agricole e lavoro. Poi è stata raccolta, selezionata, conservata, confezionata, trasportata, esposta e venduta…",
+   "link": "https://www.corriere.it/cook/opinioni/26_ottobre_22/quanto-costa-davvero-quella-pera-che-decidiamo-di-buttare-la-diseconomia-dello-spreco-alimentare-vale-piu-di-13-miliardi-3b5d670c-ff5d-49af-ac30-f1e0c5e45xlk.shtml",
+   "pubblicato": "2026-10-22T03:02:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -9849,6 +10779,16 @@
    "link": "https://www.repubblica.it/esteri/2026/10/22/diretta/guerra_ucraina_russia_news_oggi-425665195/",
    "pubblicato": "2026-10-21T22:24:56Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "39fc96a162314b48",
+   "fonte": "corriere",
+   "titolo": "Guerra Iran-Usa, le notizie in diretta dal Medio Oriente | Il New York Times: «Usa e Israele preparano un nuovo attacco in Iran dopo il voto delle Midterm». Cisgiordania, i due italiani arrestati a Masafer Yatta sono arrivati in Italia",
+   "estratto": "Le notizie sul conflitto tra Israele, Usa e Iran di giovedì 22 ottobre, in diretta.",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_ottobre_22/iran-usa-news-diretta.shtml",
+   "pubblicato": "2026-10-21T22:24:39Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -10782,6 +11722,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "33f86073be5573c2",
+   "fonte": "corriere",
+   "titolo": "«Racconto ai ragazzi cos’è la democrazia»: il comico israeliano che parla alla generazione cresciuta con Bibi (e che ora dovrà votare)",
+   "estratto": "Dopo che gli è stato tolto il programma televisivo, Schleien gira il Paese per incontrare chi voterà per la prima volta e non ha conosciuto altri governi se non quello di Netanyahu",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/comico-schleien-parla-ragazzi-netanyahu-voto-209042f5-9791-4116-922b-e2aa85540xlk.shtml",
+   "pubblicato": "2026-10-21T21:01:41Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "0d75b993c2b9b746",
    "fonte": "skytg24",
    "titolo": "Champions, Como-Manchester United 4-1: gol e highlights",
@@ -11022,6 +11972,16 @@
    "canale": "rss"
   },
   {
+   "id": "eb4e3305d311434f",
+   "fonte": "corriere",
+   "titolo": "I militari nelle città e i sono i loro limiti: domande e risposte",
+   "estratto": "Domande e risposte sui compiti dei militari dispiegati nelle città",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_21/strade-sicure-cosa-possono-fare-militari-9d14c43c-c600-49ab-98bd-ea4b4c0e3xlk.shtml",
+   "pubblicato": "2026-10-21T20:32:31Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "2803d49cedacc1e3",
    "fonte": "ilfatto",
    "titolo": "Bufera sull’inviato Usa Witkoff: dopo la liberazione di Hubbard ha definito Putin “compassionevole”. Trump e Vance lo difendono",
@@ -11049,6 +12009,16 @@
    "link": "https://www.rainews.it/articoli/2026/10/protesta-tir-la-priorita-e-rimuovere-i-blocchi-il-viminale-garantira-i-beni-di-prima-necessita-78b0d654-623a-4eef-b65f-868819a52228.html",
    "pubblicato": "2026-10-21T20:18:00Z",
    "raccolto": "2026-10-21T21:46:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c6f05adbfcb681d4",
+   "fonte": "corriere",
+   "titolo": "Primarie, chi si «iscrive»? Da Fratoianni a Gabrielli e Salis, i possibili nomi se la corsa si allarga",
+   "estratto": "Le ipotesi oltre il duello Conte-Schlein. E Mastella: «Mi candido»",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_21/primarie-possibili-nomi-d3d863e4-117b-4a1c-98fb-8bfac9aebxlk.shtml",
+   "pubblicato": "2026-10-21T20:08:40Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -11192,6 +12162,16 @@
    "canale": "rss"
   },
   {
+   "id": "7602870af1763465",
+   "fonte": "corriere",
+   "titolo": "Le Grandi interviste di Montanelli, venerdì il secondo libro gratis con il «Corriere»",
+   "estratto": "Nel volume gli incontri con Alberto Moravia, Cesare Merzagora, Ante Pavelic, Roger Peyrefitte, Giorgio La Pira, Ezra Pound, Mario Soldati, Gloria Swanson",
+   "link": "https://www.corriere.it/cronache/26_ottobre_21/le-grandi-interviste-di-montanelli-venerdi-il-secondo-libro-gratis-con-il-corriere-f9b973ec-9b41-4a46-a3e3-2d3433b4dxlk.shtml",
+   "pubblicato": "2026-10-21T19:56:34Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "4c2940bd01b352cf",
    "fonte": "rainews",
    "titolo": "Ochakiv, la cittadina ucraina al fronte dove nascono 40 bambini all’anno",
@@ -11232,6 +12212,16 @@
    "canale": "rss"
   },
   {
+   "id": "872e954f6765cbe2",
+   "fonte": "corriere",
+   "titolo": "Casellati alle Nazioni Unite per presentare le riforme italiane. Il sottosegretario Ryder: «Cambio di paradigma»",
+   "estratto": "Nell'agenda della ministra per le Riforme istituzionali anche una tappa a Filadelfia nel caffè «gemello» di quello dell'Aquila",
+   "link": "https://www.corriere.it/politica/26_ottobre_21/casellati-alle-nazioni-unite-per-presentare-le-riforme-italiane-il-sottosegretario-ryder-cambio-di-paradigma-22b447b6-01fc-467c-b92c-4b553975fxlk.shtml",
+   "pubblicato": "2026-10-21T19:48:02Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "269ff3a0e6418467",
    "fonte": "ansa",
    "titolo": "Governo teme infiltrazioni criminali. La preoccupazione della premier",
@@ -11249,6 +12239,16 @@
    "link": "https://www.open.online/2026/10/21/papa-leone-esami-istologici-tumore-nessuna-terapia/",
    "pubblicato": "2026-10-21T19:44:12Z",
    "raccolto": "2026-10-21T21:46:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "71213fee9f03770b",
+   "fonte": "corriere",
+   "titolo": "Witkoff incontra Hubbard e gli dice: «Ti saluta Putin»",
+   "estratto": "",
+   "link": "https://video.corriere.it/esteri/video-verticali/witkoff-incontra-hubbard-e-gli-dice-ti-saluta-putin/c4cc26f9-f9e4-461e-b774-c995a9486xlk",
+   "pubblicato": "2026-10-21T19:37:32Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -11752,6 +12752,16 @@
    "canale": "rss"
   },
   {
+   "id": "2c8728da1cf074e8",
+   "fonte": "corriere",
+   "titolo": "Carlo III e il sultano: il Re parla in arabo, ringrazia l'Oman per Hormuz (poi parla di William)",
+   "estratto": "Il ricevimento a Windsor ha chiuso la prima giornata della visita nel Regno Unito di Sultan Haitham bin Tarik, accolto la mattina da William e celebrato al banchetto con Kate e la Royal family",
+   "link": "https://video.corriere.it/esteri/carlo-iii-e-il-sultano-il-re-parla-in-arabo-ringrazia-l-oman-per-hormuz-poi-parla-di-william/6b798589-5385-4ac1-bfa8-bee91fb00xlk",
+   "pubblicato": "2026-10-21T18:21:48Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "348371b81a2e2b5b",
    "fonte": "ilpost",
    "titolo": "L’editore di Thélyson Orélien, scrittore al centro di un discusso caso sull’AI, dice che il suo libro è stato scritto con l’aiuto dell’AI",
@@ -11779,6 +12789,16 @@
    "link": "https://www.editorialedomani.it/politica/mondo/putin-compassionevole-witkoff-inchina-zar-zelensky-summit-cina-usa-dx3drogb",
    "pubblicato": "2026-10-21T18:19:39Z",
    "raccolto": "2026-10-21T21:46:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9f676043a321f8e1",
+   "fonte": "corriere",
+   "titolo": "Decreto Sicurezza, una soluzione contrastata che il governo però rivendica",
+   "estratto": "A destra le misure sembrano anche una mossa per togliere spazio a Vannacci, mentre dall’opposizione arrivano critiche",
+   "link": "https://www.corriere.it/politica/26_ottobre_21/decreto-sicurezza-una-soluzione-contrastata-che-il-governo-pero-rivendica-99fdd168-3f31-4065-9ae8-8771c79a1xlk.shtml",
+   "pubblicato": "2026-10-21T18:19:18Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -12412,6 +13432,26 @@
    "canale": "rss"
   },
   {
+   "id": "4c2e4048c1e6bb18",
+   "fonte": "corriere",
+   "titolo": "Milano, il video di un bambino coinvolto negli scontri",
+   "estratto": "",
+   "link": "https://video.corriere.it/cronaca/video-verticali/milano-il-video-di-un-bambino-coinvolto-negli-scontri/43bdef15-4a8b-4a7b-83b2-d960cad98xlk",
+   "pubblicato": "2026-10-21T17:40:44Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3436c9b8bc003ac9",
+   "fonte": "corriere",
+   "titolo": "Il Papa saluta i fedeli in piazza San Pietro",
+   "estratto": "",
+   "link": "https://video.corriere.it/cronaca/video-verticali/il-papa-saluta-i-fedeli-in-piazza-san-pietro/39ae14c1-7fa7-430c-9be3-5f1f02c78xlk",
+   "pubblicato": "2026-10-21T17:38:46Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "9beb7afd6c33d3cb",
    "fonte": "rainews",
    "titolo": "TikTok rafforza l'attività di moderazione attraverso la tecnologia",
@@ -12429,6 +13469,26 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/21/nascite-ancora-in-calo-colpito-soprattutto-il-sud_b8ff3ecc-4471-464f-9787-fc25e56e71b7.html",
    "pubblicato": "2026-10-21T17:37:22Z",
    "raccolto": "2026-10-21T21:46:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "21fe6f5ee25bf63c",
+   "fonte": "corriere",
+   "titolo": "Sala: «Non sono contrario all’arrivo dei militari, sabato giornata delicata»",
+   "estratto": "",
+   "link": "https://video.corriere.it/cronaca/video-verticali/sala-non-sono-contrario-all-arrivo-dei-militari-sabato-giornata-delicata/ec49f88c-c10e-4ca0-8b73-24fe71349xlk",
+   "pubblicato": "2026-10-21T17:36:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "82a63cbfbabb4447",
+   "fonte": "corriere",
+   "titolo": "Trump alla moglie: «Non so se la tua firma conti qualcosa»",
+   "estratto": "",
+   "link": "https://video.corriere.it/esteri/video-verticali/trump-alla-moglie-non-so-se-la-tua-firma-conti-qualcosa/17b8cd62-2e06-43fe-989f-74bc192d6xlk",
+   "pubblicato": "2026-10-21T17:33:41Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -13052,6 +14112,16 @@
    "canale": "rss"
   },
   {
+   "id": "6abbf2ec790ee413",
+   "fonte": "corriere",
+   "titolo": "Enrico Ruggeri su Marracash: «Quei ragazzi sognano il lusso che lui si può concedere facendo pagare i biglietti dei concerti 120 euro»",
+   "estratto": "Il cantautore a Un giorno da pecora",
+   "link": "https://video.corriere.it/cronaca/enrico-ruggeri-su-marracash-quei-ragazzi-sognano-il-lusso-che-lui-si-puo-concedere-facendo-pagare-i-biglietti-dei-concerti-120-euro/dd978c4f-e5f8-428f-935e-d0197652cxlk",
+   "pubblicato": "2026-10-21T16:45:35Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "9d87540c01e5d200",
    "fonte": "ilfatto",
    "titolo": "Mattarella sfida i magnati del tech: “Il controllo dei monopoli è libertà”. E cita Einaudi che li definiva “origine dei mali sociali”",
@@ -13099,6 +14169,26 @@
    "link": "https://www.ilpost.it/2026/10/21/russia-disposta-nuovi-colloqui-ucraina/",
    "pubblicato": "2026-10-21T16:43:24Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "691a46a0e2ae7631",
+   "fonte": "corriere",
+   "titolo": "Supermercati, in Puglia scorte di prodotti freschi verso l'esaurimento",
+   "estratto": "Scorte di ortofrutta, carne, pesce, salumi e latticini potrebbero esaurirsi entro il fine settimana. Federdistribuzione conferma l’allarme: consegne ridotte e irregolari, mentre iniziano a svuotarsi…",
+   "link": "https://bari.corriere.it/notizie/cronaca/26_ottobre_21/caro-carburanti-scaffali-vuoti-e-consegne-a-rilento-nei-supermercati-della-capitanata-l-emergenza-non-e-finita-5ae3bf57-6724-453d-a7d3-8b1c800b7xlk.shtml",
+   "pubblicato": "2026-10-21T16:42:33Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "03d98f2f742645b6",
+   "fonte": "corriere",
+   "titolo": "Blocco autotrasportatori, l'allarme dei sindaci di Bari e Napoli: «Salvini anticipi incontro, rischio paralisi delle città»",
+   "estratto": "Lo scrivono in una nota congiunta Vito Leccese e Gaetano Manfredi: «La situazione nelle città del Mezzogiorno resta estremamente critica e rischia di aggravarsi ulteriormente con il passare delle…",
+   "link": "https://bari.corriere.it/notizie/cronaca/26_ottobre_21/blocco-autotrasportatoti-l-allarme-dei-sindaci-di-bari-e-napoli-salvini-anticipi-incontro-rischio-paralisi-delle-citta-1d7af510-34b4-4bea-9caf-cf0e4850dxlk.shtml",
+   "pubblicato": "2026-10-21T16:42:06Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -13359,6 +14449,16 @@
    "link": "https://tg24.sky.it/politica/video/2026/10/21/via-libera-del-cdm-al-nuovo-decreto-sicurezza-1133389",
    "pubblicato": "2026-10-21T16:18:24Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d254d65c9193a7e3",
+   "fonte": "corriere",
+   "titolo": "Violenza \"politica”, la lezione Usa",
+   "estratto": "Prima di Parigi e Milano tutto accadde a New York nel 2020",
+   "link": "https://video.corriere.it/esteri/oriente-occidente/violenza-politica-la-lezione-usa/277f0496-4e80-46de-aa0a-42cd5bceexlk",
+   "pubblicato": "2026-10-21T16:18:05Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -13702,6 +14802,16 @@
    "canale": "rss"
   },
   {
+   "id": "5429c9575a943018",
+   "fonte": "corriere",
+   "titolo": "Così la startup italiana Generative Bionics insegnerà ai robot a muoversi nel mondo",
+   "estratto": "La startup fuoriuscita dall'Istituto Italiano di Tecnologia pronta a creare la prima infrastruttura in Europa per la Physical AI per dare «conoscenza» dell'ambiente ai suoi umanoidi Gene.01",
+   "link": "https://www.corriere.it/tecnologia/26_ottobre_21/generative-bionics-costruira-la-prima-data-factory-per-addestrare-robot-in-italia-397b1603-4003-4730-b225-7e366bcffxlk.shtml",
+   "pubblicato": "2026-10-21T16:00:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "40f0e7a934417342",
    "fonte": "skytg24",
    "titolo": "Festa del Cinema, due personaggi e una regia per Lundini",
@@ -13952,6 +15062,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "8bb5f503654a2383",
+   "fonte": "corriere",
+   "titolo": "L'incontro dell'inviato Usa Witkoff con Hubbard, l'americano liberato dopo 4 anni di carcere in Russia: «Putin ti manda i suoi saluti»",
+   "estratto": "Stephen Hubbard accusato da Mosca di aver combattuto come mercenario in Ucraina",
+   "link": "https://video.corriere.it/esteri/l-incontro-dell-inviato-usa-witkoff-con-hubbard-l-americano-liberato-dopo-4-anni-di-carcere-in-russia-putin-ti-manda-i-suoi-saluti/552201f5-0e8c-41ec-8d0d-3495b7960xlk",
+   "pubblicato": "2026-10-21T15:38:02Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "ed8cf4d036104bc9",
    "fonte": "avvenire",
    "titolo": "Il sindaco di Parma: «Così la strategia della paura ha svuotato le scuole»",
@@ -14022,6 +15142,16 @@
    "canale": "rss"
   },
   {
+   "id": "0e11e912503876ae",
+   "fonte": "corriere",
+   "titolo": "L'AfD e le 421mila mail rubate e diffuse online: frasi antisemite, svastiche, auguri di Natale con il saluto «Heil Hitler», inviti a «sparare» ai migranti",
+   "estratto": "Hackerati e divulgati, oltre alle mail, anche programmi strategici, carte d’identità, conti bancari e fatture",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/afd-leak-mail-rubate-hacker-c7dc2394-0d38-4304-bdfd-f9ed08ff5xlk.shtml",
+   "pubblicato": "2026-10-21T15:29:53Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "a6908b80455e8599",
    "fonte": "repubblica",
    "titolo": "Carburante per aerei, forniture ferme o a singhiozzo in cinque scali del Sud. Wizzair: ora soluzioni",
@@ -14080,6 +15210,16 @@
    "pubblicato": "2026-10-21T15:25:02Z",
    "raccolto": "2026-10-21T17:16:03Z",
    "canale": "instagram"
+  },
+  {
+   "id": "1ca5f0df81ed9189",
+   "fonte": "corriere",
+   "titolo": "Proteste studentesche e disordini a Trento, interviene Urzì (FdI): «Sinistra ambigua, noi con i cittadini e contro i devastatori»",
+   "estratto": "La violenza accende il dibattito politico. Il Pd: «Condanniamo i fatti ma la maggioranza deve aprire subito un tavolo col personale scolastico e ascoltare i giovani»",
+   "link": "https://corrieredeltrentino.corriere.it/notizie/politica/26_ottobre_21/proteste-studentesche-e-disordini-a-trento-interviene-urzi-fdi-sinistra-ambigua-noi-con-i-cittadini-e-contro-i-devastatori-561981a7-a6c7-4562-a005-d2b4e6e59xlk.shtml",
+   "pubblicato": "2026-10-21T15:24:06Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "454b2254a7ad61f7",
@@ -14222,6 +15362,16 @@
    "canale": "rss"
   },
   {
+   "id": "e674fb01b8e7c29f",
+   "fonte": "corriere",
+   "titolo": "Il vicepremier thailandese Sihasak: «Non scegliamo tra Usa e Cina. Con l’Europa accordo possibile entro l’anno»",
+   "estratto": "A Roma per i colloqui con l'Italia e il Vaticano: «Dialogare con il Myanmar non significa legittimare il regime. L’Asean deve essere più flessibile sul principio di non ingerenza»",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/vicepremier-thailandese-sihasak-intervista-cfc6e021-1965-4275-8ad4-4b2ea3b5fxlk.shtml",
+   "pubblicato": "2026-10-21T15:14:40Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "8be6ff51a061b0df",
    "fonte": "ansa",
    "titolo": "Calcio, definitive condanne per ultras Juventus al processo Last Banner",
@@ -14239,6 +15389,16 @@
    "link": "https://www.liberoquotidiano.it/news/esteri/49425330/guarda-un-video-porno-mentre-guida-finisce-in-tragedia-cosa-scopre-la-polizia/",
    "pubblicato": "2026-10-21T15:12:00Z",
    "raccolto": "2026-10-21T21:46:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bc070ae157b80846",
+   "fonte": "corriere",
+   "titolo": "iPhone Duo, la nostra prova in anteprima del pieghevole: un gioiello da 2.500 euro che ci obbliga a cambiare abitudini",
+   "estratto": "Costruito in titanio con una cerniera ingegnerizzata al millimetro, risolve il problema della piega e delle ditate tipico dei concorrenti. Ma ci sono compromessi e il prezzo...",
+   "link": "https://www.corriere.it/offerte-recensioni/tecnologia/smartphone/26_ottobre_21/iphone-duo-prova-anteprima-pieghevole-890592f6-cd9d-44b8-b20a-0c1a0ebe7xlk.shtml",
+   "pubblicato": "2026-10-21T15:09:40Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -14482,6 +15642,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "b20e52d2390670f1",
+   "fonte": "corriere",
+   "titolo": "Fa 75 minuti di straordinari in 4 giorni: le Poste la sanzionano ma il giudice le dà ragione",
+   "estratto": "La donna si era trattenuta per completare alcune pratiche ma aveva segnalato l'esigenza dopo il termine stabilito dall'azienda. Il sindacato: «Criticità organizzative»",
+   "link": "https://corrieredelveneto.corriere.it/notizie/belluno/cronaca/26_ottobre_21/dipendente-delle-poste-fa-75-minuti-di-straordinari-in-4-giorni-per-smaltire-le-pratiche-l-azienda-la-sanziona-ma-il-giudice-da-2888c2f6-c85f-4a1e-b246-49ed3f32cxlk.shtml",
+   "pubblicato": "2026-10-21T14:49:33Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "191ac741677b69f6",
    "fonte": "ilfatto",
    "titolo": "Il ritrovamento straordinario in Toscana: Tiziana e Valter tornano a casa con 25 chili di fungo",
@@ -14509,6 +15679,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/21/abusi-sessuali-al-preseminario-la-cassazione-vaticana-annulla-la-condanna-di-don-martinelli-e-ordina-lappello-bis/8545657/",
    "pubblicato": "2026-10-21T14:49:14Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "08c8fcb9d473657e",
+   "fonte": "corriere",
+   "titolo": "Elezioni, come andrà a finire? Paolo Mieli prevede «la sorpresona»",
+   "estratto": "Un estratto dalla diretta tv «Perché la sinistra non riesce più ad essere protagonista?» riservata ai nostri abbonati per le Conversazioni del Corriere",
+   "link": "https://video.corriere.it/politica/come-andra-a-finire-paolo-mieli-prevede-la-sorpresona-elettorale/fb9f824d-7788-4ee9-bff4-630af3a6dxlk",
+   "pubblicato": "2026-10-21T14:49:07Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -14609,6 +15789,16 @@
    "link": "https://tg24.sky.it/mondo/2026/10/21/proteste-francia-sciopero-generale-5-novembre",
    "pubblicato": "2026-10-21T14:39:29Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "402840ed41317003",
+   "fonte": "corriere",
+   "titolo": "Madre e figlia avvelenate con la ricina, lo sfogo di Gianni Di Vita: «Sono passati dieci mesi, sono esasperato»",
+   "estratto": "Il padre e marito delle due donne intervistato a \"La vita in diretta\"",
+   "link": "https://video.corriere.it/cronaca/madre-e-figlia-avvelenate-con-la-ricina-lo-sfogo-di-gianni-di-vita-sono-passati-dieci-mesi-sono-esasperato/6605ba11-fef5-41c4-bd7a-cdd98665exlk",
+   "pubblicato": "2026-10-21T14:38:27Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -14729,6 +15919,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/21/basket-grecia-terremoto-arrestato-presidente-federazione-sequestri-match-truccati-scommesse/8545671/",
    "pubblicato": "2026-10-21T14:28:02Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e135b63249eedcce",
+   "fonte": "corriere",
+   "titolo": "Merano, la Provincia investe: dal nuovo Cura Resort all'ippodromo di Maia, ecco tutti i progetti in campo",
+   "estratto": "Seduta di Giunta a Castel Tirolo. In programma anche il centro di mobilità: lavori nel 2028",
+   "link": "https://corrieredellaltoadige.corriere.it/notizie/politica/26_ottobre_21/merano-la-provincia-investe-dal-nuovo-cura-resort-all-ippodromo-di-maia-ecco-tutti-i-progetti-in-campo-20342baa-1d23-4dfc-80ef-558bc3629xlk.shtml",
+   "pubblicato": "2026-10-21T14:27:12Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -14942,6 +16142,16 @@
    "canale": "rss"
   },
   {
+   "id": "034fde78889fa149",
+   "fonte": "corriere",
+   "titolo": "Trento, corteo con oltre 500 studenti: «Le violenze rovinano il nostro messaggio». Cinque denunce per i disordini del giorno prima",
+   "estratto": "L'assessora provinciale all'istruzione incontra i giovani in piazza: «Chi si infiltra in queste manifestazioni danneggia il diritto di tutti a esporre le proprie idee in modo pacifico»",
+   "link": "https://corrieredeltrentino.corriere.it/notizie/cronaca/26_ottobre_21/trento-corteo-con-oltre-500-studenti-le-violenze-rovinano-il-nostro-messaggio-cinque-denunce-per-i-disordini-del-giorno-prima-89649e22-0983-4575-9564-300e0ef41xlk.shtml",
+   "pubblicato": "2026-10-21T14:09:45Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "7d61e5b2b708feff",
    "fonte": "repubblica",
    "titolo": "Divieto social agli under 14, opposizioni: “Noi sempre pronti a votarlo, era stata Meloni a frenare”",
@@ -15042,6 +16252,16 @@
    "canale": "rss"
   },
   {
+   "id": "1ee3a92f4271ddc0",
+   "fonte": "corriere",
+   "titolo": "Auto e moto d’Epoca: a Bologna il più grande salone europeo del motorismo storico",
+   "estratto": "Torna a BolognaFiere dal 22 al 25 ottobre l'evento più atteso nel settore classic e youngtimer con numeri già da record: oltre 235 mila metri quadrati espositivi, 14 padiglioni, più di 5 mila…",
+   "link": "https://www.corriere.it/motori/26_ottobre_21/auto-e-moto-d-epoca-2026-al-via-a-bologna-il-piu-grande-salone-europeo-del-motorismo-storico-9a6cc3cc-d393-48df-8736-a1e593abbxlk.shtml",
+   "pubblicato": "2026-10-21T14:00:48Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "2ab7a120790a11d4",
    "fonte": "skytg24",
    "titolo": "Ferrari 12Cilindri Manuale, sensazioni di guida analogiche: la prova in pista a Balocco",
@@ -15089,6 +16309,16 @@
    "link": "https://www.liberoquotidiano.it/news/politica/49424313/l-aria-che-tira-scintille-ravetto-salis-ce-la-fa-o-no-becera-propaganda/",
    "pubblicato": "2026-10-21T13:56:00Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "aa4790691cbd376c",
+   "fonte": "corriere",
+   "titolo": "Stalker perseguita per mesi una chirurga: «I figli di Belen e Chiara Ferragni sono i miei»",
+   "estratto": "La 34enne di Copparo (Ferrara) è stata condannata. La persecuzione (anche con video sui social), ha avuto un forte impatto sulla vita privata della dottoressa, è iniziata dopo che la donna si era…",
+   "link": "https://corrieredibologna.corriere.it/notizie/cronaca/26_ottobre_21/stalker-chirurga-belen-rodriguez-chiara-ferragni-e92c8a73-9064-47ca-9fe8-11bc54ec3xlk.shtml",
+   "pubblicato": "2026-10-21T13:55:57Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -15342,6 +16572,16 @@
    "canale": "rss"
   },
   {
+   "id": "64bd4495e5d11f86",
+   "fonte": "corriere",
+   "titolo": "Donald Trump a Melania: «Non so se la tua firma conti qualcosa»",
+   "estratto": "La replica della First Lady: «Ovviamente no, la tua è più importante»",
+   "link": "https://video.corriere.it/esteri/donald-trump-a-melania-non-so-se-la-tua-firma-conti-qualcosa/c072378a-b80d-49d8-98c2-3e1f8d336xlk",
+   "pubblicato": "2026-10-21T13:41:49Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "7d99e45909878a10",
    "fonte": "repubblica",
    "titolo": "Scontri Duomo, l’identificato più giovane ha 11 anni: dalla scuola media ai video della guerriglia",
@@ -15562,6 +16802,16 @@
    "canale": "rss"
   },
   {
+   "id": "f00850b71f0448ef",
+   "fonte": "corriere",
+   "titolo": "Continua la protesta degli autotrasportatori: nuovi blocchi sulla Caserta-Salerno e traffico in tilt",
+   "estratto": "Un gruppo di mezzi pesanti in presidio allo svincolo",
+   "link": "https://video.corriere.it/cronaca/continua-la-protesta-degli-autotrasportatori-nuovi-blocchi-sulla-caserta-salerno-e-traffico-in-tilt/4bca9d57-cc91-4d3d-bf1b-001d31673xlk",
+   "pubblicato": "2026-10-21T13:17:22Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "6395dffc6051fea3",
    "fonte": "ilpost",
    "titolo": "Che cosa sono i riot",
@@ -15652,6 +16902,16 @@
    "canale": "rss"
   },
   {
+   "id": "11553b39e9c84234",
+   "fonte": "corriere",
+   "titolo": "Il momento in cui un aereo militare russo si schianta a Kaliningrad",
+   "estratto": "Entrambi i piloti si sono eiettati dal caccia",
+   "link": "https://video.corriere.it/esteri/il-momento-in-cui-un-aereo-militare-russo-si-schianta-a-kaliningrad/9ed6a3b1-42ed-4226-b473-85d12c52cxlk",
+   "pubblicato": "2026-10-21T13:03:26Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "704858af13ee2503",
    "fonte": "avvenire",
    "titolo": "Come cambia lo shopping ai tempi dell'Intelligenza Artificiale",
@@ -15709,6 +16969,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/21/scontri-a-milano-il-piu-giovane-identificato-ha-11-anni-_9e2c86ab-2740-45fb-9f7e-c8f4b98ac424.html",
    "pubblicato": "2026-10-21T12:53:29Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fb724006143c44dc",
+   "fonte": "corriere",
+   "titolo": "De Gasperi e la missione in America, gli aiuti e gli applausi del Congresso: «È un uomo di coraggio»",
+   "estratto": "Nel 1947 il viaggio del presidente negli Stati Uniti. La storica copertina illustrata della Domenica del Corriere",
+   "link": "https://corrieredellaltoadige.corriere.it/notizie/politica/26_ottobre_21/de-gasperi-e-la-missione-in-america-gli-aiuti-e-gli-applausi-del-congresso-e-un-uomo-di-coraggio-13a4b39a-26a3-45a0-a5ba-0d1662432xlk.shtml",
+   "pubblicato": "2026-10-21T12:52:50Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -16119,6 +17389,26 @@
    "link": "https://tg24.sky.it/spettacolo/video/2026/10/21/scontri-milano-ghali-1133314",
    "pubblicato": "2026-10-21T12:15:48Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4c0cb4b8683fae55",
+   "fonte": "corriere",
+   "titolo": "Foggia, tre colpi di pistola contro l'auto di un imprenditore. Indaga la polizia",
+   "estratto": "La dinamica dell'accaduto è al vaglio della squadra mobile, che sta tentando di ricostruire i fatti sulla base delle dichiarazioni dell'uomo e delle immagini della videosorveglianza",
+   "link": "https://foggia.corriere.it/notizie/cronaca/26_ottobre_21/foggia-tre-colpi-di-pistola-contro-l-auto-di-un-imprenditore-indaga-la-polizia-09a71276-a99c-4e07-ae39-d93e45328xlk.shtml",
+   "pubblicato": "2026-10-21T12:15:02Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c8970dc3add555d5",
+   "fonte": "corriere",
+   "titolo": "Gasolio, Ucraina, Iran: di cosa hanno parlato Witkoff e Putin oggi a San Pietroburgo",
+   "estratto": "Lo zar ha accolto l’inviato di Trump con la scarcerazione di Hubbard e l’annuncio delle prime spedizioni di gasolio verso gli Stati Uniti. Witkoff porta idee per la pace, il Cremlino: «Molto dipende…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/gasolio-ucraina-iran-di-cosa-hanno-parlato-witkoff-e-putin-oggi-a-san-pietroburgo-8a4e6c30-ecdc-4072-8eee-3fe69dba4xlk.shtml",
+   "pubblicato": "2026-10-21T12:14:23Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -16732,6 +18022,16 @@
    "canale": "rss"
   },
   {
+   "id": "f470834152f59d02",
+   "fonte": "corriere",
+   "titolo": "Stephen Hubbard, chi è il 74enne insegnante e veterano statunitense liberato dalla Russia",
+   "estratto": "Putin ha accolto la richiesta del presidente degli Usa senza che «fosse chiesto nulla in cambio». I 25 anni in Giappone, la compagna ucraina e le posizioni filo-russe",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/stephen-hubbard-chi-e-il-74enne-insegnate-e-veterano-statunitense-liberato-dalla-russia-81974848-14c4-49d7-8f16-7fbe8dd2cxlk.shtml",
+   "pubblicato": "2026-10-21T11:36:43Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "dd7403621d9fc033",
    "fonte": "ilfatto",
    "titolo": "Emissioni e clima, per l’Onu se tutto va bene andrà male: rispettando ‘solo’ gli impegni attuali il riscaldamento salirà a 2,6°C (l’obiettivo era 1,5)",
@@ -16860,6 +18160,16 @@
    "pubblicato": "2026-10-21T11:26:14Z",
    "raccolto": "2026-10-21T11:55:48Z",
    "canale": "rss"
+  },
+  {
+   "id": "967b06bdbc2dbb40",
+   "fonte": "corriere",
+   "titolo": "Le 'Scintille' di Gabriella Greison diventano un libro: dalla serie video nasce un volume che insegna a individuare connessioni piuttosto che trovare colpevoli",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_21/le-scintille-di-gabriella-greison-diventano-un-libro-dal-successo-dalla-serie-video-un-volume-che-spiega-la-legge-nascosta-f4af7943-e38a-494a-8c2a-9a38a96acxlk.shtml",
+   "pubblicato": "2026-10-21T11:24:21Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "ba8840171847267d",
@@ -17000,6 +18310,16 @@
    "pubblicato": "2026-10-21T11:18:21Z",
    "raccolto": "2026-10-21T11:55:48Z",
    "canale": "rss"
+  },
+  {
+   "id": "6efae5c0e005ec4f",
+   "fonte": "corriere",
+   "titolo": "Tartufo bianco pregiato, torna il Salone nazionale a Città di Castello: tre weekend tra degustazioni e cercatori",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_21/tartufo-bianco-pregiato-torna-il-salone-nazionale-a-citta-di-castello-tre-weekend-tra-degustazioni-e-cercatori-4f5c7097-0e9b-414c-87a5-d54e63e13xlk.shtml",
+   "pubblicato": "2026-10-21T11:18:13Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "3782c64214ccc199",
@@ -17382,6 +18702,16 @@
    "canale": "rss"
   },
   {
+   "id": "f85f9e8aee9020c4",
+   "fonte": "corriere",
+   "titolo": "Il voto si avvicina e i repubblicani Usa sono sempre più preoccupati",
+   "estratto": "",
+   "link": "https://www.corriere.it/il-punto/america-cina/26_ottobre_21/il-voto-si-avvicina-e-i-repubblicani-usa-sono-sempre-piu-preoccupati-6f5ce62a-634c-4b5c-b476-2b034f17dxlk.shtml",
+   "pubblicato": "2026-10-21T11:01:15Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "53cf197333c5953e",
    "fonte": "progressista",
    "titolo": "La spesa che nel 2021 costava 100 euro oggi ne costa 121. E il governo Meloni continua a fare finta di niente.",
@@ -17430,6 +18760,16 @@
    "pubblicato": "2026-10-21T10:59:14Z",
    "raccolto": "2026-10-21T11:55:48Z",
    "canale": "rss"
+  },
+  {
+   "id": "b38bfb80a3d16373",
+   "fonte": "corriere",
+   "titolo": "Leone XIV sulla papamobile a otto giorni dall'operazione al polmone: saluta i fedeli in piazza San Pietro",
+   "estratto": "",
+   "link": "https://video.corriere.it/leone-xiv-sulla-papamobile-a-otto-giorni-dall-operazione-al-polmone-saluta-i-fedeli-in-piazza-san-pietro/08e8e451-d048-45c3-866b-e1be90f79xlk",
+   "pubblicato": "2026-10-21T10:57:07Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "53a6875702616e86",
@@ -17512,6 +18852,16 @@
    "canale": "rss"
   },
   {
+   "id": "565f4ef8e2500a91",
+   "fonte": "corriere",
+   "titolo": "Rubio: «Trump non c'entra con i rallentamenti di Starlink»",
+   "estratto": "Segretario di Stato Usa: «Non possiamo imporre a un'azienda privata le decisioni da prendere»",
+   "link": "https://video.corriere.it/esteri/rubio-trump-non-c-entra-con-i-rallentamenti-di-starlink/1e18a1f8-d6b4-4d9d-b21a-b212eaf79xlk",
+   "pubblicato": "2026-10-21T10:48:37Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "83403edaa4aa0023",
    "fonte": "ansa",
    "titolo": "Alzato il Mose a Venezia, 'è la prima volta nella stagione'",
@@ -17559,6 +18909,16 @@
    "link": "https://www.rainews.it/articoli/2026/10/geopolitica-piazze-analisi-andrea-molle-sui-disordini-possibili-influenze-esterne-64f19d83-25cd-4158-b3a5-2e31a231c7e3.html",
    "pubblicato": "2026-10-21T10:46:00Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8806240307b1b8f0",
+   "fonte": "corriere",
+   "titolo": "Zelensky e Klitschko, Kiev va sul ring al buio",
+   "estratto": "Tra blackout e rifugi promessi, si riaccende la vecchia rivalità tra il presidente e il sindaco, ex campione dei pesi massimi. In piazza chiedono le dimissioni di Klitschko, mentre la capitale…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/zelensky-e-klitschko-kiev-va-sul-ring-al-buio-0edf0dbf-dfae-4301-bfa4-4576dadaaxlk.shtml",
+   "pubblicato": "2026-10-21T10:44:49Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -17679,6 +19039,16 @@
    "link": "https://www.laverita.info/storie-di-sport/coppa-italia-riforma",
    "pubblicato": "2026-10-21T10:40:28Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "99d2eb87f465766f",
+   "fonte": "corriere",
+   "titolo": "Proteste in Francia, Macron risponde a Trump: «Usa i nostri problemi per le sue campagne elettorali». E Le Pen vola nei sondaggi",
+   "estratto": "Il presidente francese da Doha: «Da Trump commenti inaccettabili e stupidi». Le Pen e Melenchon rafforzano la loro posizione, politica francese sempre più polarizzata",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/proteste-in-francia-macron-risponde-a-trump-usa-i-nostri-problemi-per-le-sue-campagne-elettorali-e-le-pen-vola-nei-sondaggi-305171fe-267c-4900-be84-d24ff8ec7xlk.shtml",
+   "pubblicato": "2026-10-21T10:39:16Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -17969,6 +19339,16 @@
    "link": "https://www.rainews.it/rubriche/world24/video/2026/10/World24-del-14102026-e2611117-7587-464d-ae07-bac3cbcf9fbd.html",
    "pubblicato": "2026-10-21T10:24:46Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7d4e60cf8661a1a0",
+   "fonte": "corriere",
+   "titolo": "America, Cina, Europa: figli poveri contro padri ricchi. Una nuova «invidia sociale»?",
+   "estratto": "Negli Stati Uniti gli ultrasettantacinquenni sono diventati la fascia di età più ricca, in Italia il patrimonio immobiliare è nelle mani delle generazioni mature e nei giovani la fiducia vacilla…",
+   "link": "https://www.corriere.it/oriente-occidente-federico-rampini/26_ottobre_21/america-cina-europa-figli-poveri-contro-padri-ricchi-una-nuova-invidia-sociale-f2523cef-3f8c-4ecb-ba0b-ec3929833xlk.shtml",
+   "pubblicato": "2026-10-21T10:24:34Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -18672,6 +20052,16 @@
    "canale": "rss"
   },
   {
+   "id": "cfca47c88777eff2",
+   "fonte": "corriere",
+   "titolo": "L'inviato speciale degli Stati Uniti Steve Witkoff arrivato a San Pietroburgo per incontrare Putin: il video",
+   "estratto": "L'inviato di Trump accolto in aeroporto da Kirill Dmitriev",
+   "link": "https://video.corriere.it/esteri/l-inviato-speciale-degli-stati-uniti-steve-witkoff-arrivato-a-san-pietroburgo-per-incontrare-putin-il-video/7f042eed-6235-458f-b9e6-ec1b84a78xlk",
+   "pubblicato": "2026-10-21T09:57:17Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "97ac4dbec0a9edb2",
    "fonte": "ilpost",
    "titolo": "Nonostante tutto, Netanyahu è ancora lì",
@@ -18759,6 +20149,16 @@
    "link": "https://tg24.sky.it/economia/2026/10/21/tesla-spacex-fusione-elon-musk",
    "pubblicato": "2026-10-21T09:41:13Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c94c14043fadd930",
+   "fonte": "corriere",
+   "titolo": "Australia, amputate le gambe della parlamentare travolta da un'auto: il conducente incriminato per «atto intenzionale»",
+   "estratto": "Il marito di Helen Haines: «È viva, questa è la cosa più importante per noi». L'avvocato del 43enne Brendan Nugent: soffre di problemi di salute mentale",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/australia-amputate-gambe-parlamentare-travolta-auto-conducente-incriminato-atto-intenzionale-b44bed45-2c38-4f89-bfa3-1f93fe3dcxlk.shtml",
+   "pubblicato": "2026-10-21T09:41:09Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -18909,6 +20309,16 @@
    "link": "https://www.repubblica.it/politica/2026/10/21/news/rossi-doria_decreto_cortei_pene_ai_minori_intervista-425662132/",
    "pubblicato": "2026-10-21T09:27:17Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5d5658dd2aecb57f",
+   "fonte": "corriere",
+   "titolo": "Sentiero Viel del Pan, in tre anni 39 incidenti e due morti. Fugatti: «Ma la manutenzione è continua»",
+   "estratto": "Il presidente della Provincia sui rischi legati ai social: «Permane il problema di chi promuove percorsi che richiedono preparazione tecnica e fisica senza evidenziare tali aspetti e anzi…",
+   "link": "https://corrieredeltrentino.corriere.it/notizie/politica/26_ottobre_21/sentiero-viel-del-pan-in-tre-anni-39-incidente-e-due-morti-fugatti-ma-la-manutenzione-e-continua-c6d29b26-b948-42d4-8acc-d595b53dfxlk.shtml",
+   "pubblicato": "2026-10-21T09:27:10Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -19129,6 +20539,16 @@
    "link": "https://www.rainews.it/rubriche/tg2italia/video/2026/10/TG2-Italia-Europa-del-21102026-7de61886-cd3e-4171-b0e8-7c03896a4f64.html",
    "pubblicato": "2026-10-21T09:12:41Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "09ace8757203f48a",
+   "fonte": "corriere",
+   "titolo": "Lega, Garavaglia ha raccolto tutte le firme per sfidare Salvini a congresso",
+   "estratto": "La corsa contro il tempo dell'ex ministro del Turismo è riuscita. Sabato 24 e domenica 25 a Milano le assise straordinarie",
+   "link": "https://www.corriere.it/politica/26_ottobre_21/lega-garavaglia-ha-raccolto-tutte-le-firme-per-sfidare-salvini-a-congresso-d2d8d0a3-5390-455e-acc6-ff104a986xlk.shtml",
+   "pubblicato": "2026-10-21T09:12:09Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -19382,6 +20802,16 @@
    "canale": "rss"
   },
   {
+   "id": "a0538b37b8c5e7d4",
+   "fonte": "corriere",
+   "titolo": "Francia, aereo militare precipita vicino a Nancy: un morto, disperso il secondo pilota",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_21/francia-aereo-militare-precipita-vicino-a-nancy-un-morto-disperso-il-secondo-pilota-21c6e5d3-5f2f-4294-9001-b550544cexlk.shtml",
+   "pubblicato": "2026-10-21T08:49:29Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "d1fd855a035b5f78",
    "fonte": "open",
    "titolo": "Zelensky, la cocaina e lo «sguardo vuoto» a NBC? La “prova” è un video tagliato",
@@ -19632,6 +21062,16 @@
    "canale": "rss"
   },
   {
+   "id": "24cc66b0025a844a",
+   "fonte": "corriere",
+   "titolo": "Smantellata a Milano la «banca occulta» della criminalità: coinvolta la Quarta mafia foggiana",
+   "estratto": "Il meccanismo finanziario clandestino sarebbe stato capace, secondo le indagini dello Scico della finanza, di produrre oltre 110 milioni di euro di fatture false e riciclare a livello internazionale…",
+   "link": "https://foggia.corriere.it/notizie/cronaca/26_ottobre_21/smantellata-la-banca-occulta-della-criminalita-organizzata-in-lombardia-coinvolta-la-quarta-mafia-foggiana-89e5eaeb-52c1-4168-9818-6aaf4b4b3xlk.shtml",
+   "pubblicato": "2026-10-21T08:21:34Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "3373af606b2bf540",
    "fonte": "ilpost",
    "titolo": "In Portogallo continuano le proteste contro i prezzi degli affitti e delle case",
@@ -19799,6 +21239,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/21/maltempo-crolla-un-albero-su-unauto-a-jesolo-un-morto_1332d126-519b-4e5f-89ac-26d860b59888.html",
    "pubblicato": "2026-10-21T08:05:57Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "496a53ee881d612c",
+   "fonte": "corriere",
+   "titolo": "Torino, in Sala Rossa è scontro su «piazza Fallaci». Il Pd: «Oriana personaggio divisivo»",
+   "estratto": "Il suo nome è diventato il nuovo terreno di scontro tra maggioranza e opposizione dopo il no del Pd alla richiesta di Forza Italia di intitolarle l'area verde della piazzetta senza nome nel cuore di…",
+   "link": "https://torino.corriere.it/notizie/politica/26_ottobre_21/torino-in-sala-rossa-e-scontro-su-piazza-fallaci-il-pd-oriana-personaggio-divisivo-506fa54d-3676-430f-acee-e6b0551ebxlk.shtml",
+   "pubblicato": "2026-10-21T08:04:47Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -20029,6 +21479,16 @@
    "link": "https://www.repubblica.it/esteri/2026/10/21/news/italia_kallas_esteri_von_der_leyen_seae_francia_germania-425661827/",
    "pubblicato": "2026-10-21T07:48:06Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1a267be3024a3c06",
+   "fonte": "corriere",
+   "titolo": "Hegseth da Netanyahu a una settimana dal voto, ma il Bibi «guerriero» cala ancora nei sondaggi",
+   "estratto": "L’opposizione però non ha i seggi per la maggioranza",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/hegseth-netanyahu-elezioni-c4dd80ee-cb83-4ec0-a564-5443f4db4xlk.shtml",
+   "pubblicato": "2026-10-21T07:47:58Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -20352,6 +21812,16 @@
    "canale": "rss"
   },
   {
+   "id": "d0d74d7be72d1cab",
+   "fonte": "corriere",
+   "titolo": "Dall'America all'Europa, le rivolte diventano un’arma elettorale: «Quello che è successo è solo l'inizio»",
+   "estratto": "I messaggi di Trump, quelli di Steve Bannon, i tentativi di mettere nelle conclusioni del Consiglio europeo avvertimenti sull’«immigrazione irregolare» segnano un cambio di passo?",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/america-europa-rivolte-arma-elettorale-68a7ca50-bf93-41d2-bdc6-e200d24b9xlk.shtml",
+   "pubblicato": "2026-10-21T07:09:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "dbca3647fd3734c6",
    "fonte": "lastampa",
    "titolo": "Pensioni 2027, assegni più bassi e uscita più lontana: quanto si perde e quando conviene aspettare",
@@ -20369,6 +21839,16 @@
    "link": "https://tg24.sky.it/spettacolo/musica/2026/10/21/unfauno-chiara-chiara-video",
    "pubblicato": "2026-10-21T07:07:00Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4aaf68a9e7915693",
+   "fonte": "corriere",
+   "titolo": "La Nobel Ressa: «L'AI ci ha messo sull'orlo del baratro, da decenni i soprusi di Big Tech cambiano la nostra biologia. Ecco come uscirne»",
+   "estratto": "La giornalista premio Nobel 2021: «Chi rilascia modelli di AI di frontiera deve essere sottoposto a monitraggi indipendenti come per il nucleare. Rischiamo di capire troppo tardi quello che sta…",
+   "link": "https://www.corriere.it/tecnologia/26_ottobre_21/maria-ressa-nobel-ai-intervista-833ae91b-ad76-4c02-84d2-0bcfeed7dxlk.shtml",
+   "pubblicato": "2026-10-21T07:06:38Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -20902,6 +22382,16 @@
    "canale": "rss"
   },
   {
+   "id": "7fc66e0c49059bb1",
+   "fonte": "corriere",
+   "titolo": "Roberta Bertacchi, la riesumazione della salma ordinata dopo l'accesso alle chat con il fidanzato. «Era precipitata in una relazione tossica»",
+   "estratto": "",
+   "link": "https://lecce.corriere.it/notizie/cronaca/26_ottobre_21/roberta-bertacchi-salma-riesumazione-316e1748-9267-45f0-a8db-95ead6c14xlk.shtml",
+   "pubblicato": "2026-10-21T05:43:56Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "503eaf11122a919a",
    "fonte": "linkiesta",
    "titolo": "Se l’Ucraina cede, l’Europa finisce a pezzi",
@@ -20972,6 +22462,16 @@
    "canale": "rss"
   },
   {
+   "id": "d70d3a9267b24cea",
+   "fonte": "corriere",
+   "titolo": "Raffaele Giuliani, il filosofo-influencer candidato a Terni: «Gli scontri di Milano? Esproprio proletario»",
+   "estratto": "Giuliani imperversa in Rete schierandosi genericamente con la protesta milanese e contro i media che ne esaltano le caratteristiche negative",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_21/raffaele-giuliani-il-filosofo-influencer-candidato-a-terni-gli-scontri-di-milano-esproprio-proletario-6356869d-640b-46ac-91a1-9e29d76aaxlk.shtml",
+   "pubblicato": "2026-10-21T05:32:31Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "44b264df870c73aa",
    "fonte": "ilgiornale",
    "titolo": "Antonelli, il “bimbo” che ha fame di record",
@@ -20990,6 +22490,16 @@
    "pubblicato": "2026-10-21T05:30:32Z",
    "raccolto": "2026-10-21T11:55:48Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "fe6e66ab5a20d68f",
+   "fonte": "corriere",
+   "titolo": "Le villette abusive di Aviatico rase al suolo: caso chiuso dopo 15 anni di battaglie",
+   "estratto": "Dei tre rustici al centro della lunga vicenda giudiziaria restano solo le macerie",
+   "link": "https://bergamo.corriere.it/notizie/cronaca/26_ottobre_21/le-villette-abusive-di-aviatico-rase-al-suolo-terminata-la-demolizione-caso-chiuso-dopo-15-anni-di-battaglie-482b61c2-cc41-43f1-a6ab-ca53139d2xlk.shtml",
+   "pubblicato": "2026-10-21T05:30:15Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "47d8055599e74e79",
@@ -21042,6 +22552,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "8e68320d2991cda4",
+   "fonte": "corriere",
+   "titolo": "Gentiloni: «Attenti alle risposte radicali. Il rischio è sognare Mamdani e svegliarsi con Mélenchon»",
+   "estratto": "L’ex premier: i gazebo? Meglio a più voci e bisogna fissare subito una data",
+   "link": "https://www.corriere.it/politica/26_ottobre_21/gentiloni-intervista-6d096a6a-1bb8-45fc-b347-5906e9f8exlk.shtml",
+   "pubblicato": "2026-10-21T05:22:22Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "0dcc6dc402c9099e",
    "fonte": "lastampa",
    "titolo": "Uno su cinque è a mezzo servizio, infermieri allo stremo: in Piemonte la sanità in codice rosso",
@@ -21049,6 +22569,16 @@
    "link": "https://www.lastampa.it/alessandria/2026/10/21/news/sanita_carenza_infermieri_piemonte_asl_polemica_assunzioni-15772524/",
    "pubblicato": "2026-10-21T05:22:00Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c7347423e452f801",
+   "fonte": "corriere",
+   "titolo": "Poteri di polizia per i militari: il braccio di ferro, poi lo stop del Colle. Crosetto: «Sono deluso e preoccupato»",
+   "estratto": "Crosetto era a favore, le perplessità di Piantedosi e Pisani",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_21/poteri-polizia-militari-braccio-ferro-5b3abc8a-343c-4bda-8a40-04bf2c7bdxlk.shtml",
+   "pubblicato": "2026-10-21T05:20:11Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -21082,6 +22612,26 @@
    "canale": "rss"
   },
   {
+   "id": "054899ce128f455a",
+   "fonte": "corriere",
+   "titolo": "Andrea Riccardi: «Ricordo quando Wojtyla urlò: \"Andrò da solo nei Balcani\". Speravo di cambiare il mondo. Oggi la guerra è stata riabilitata»",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_21/andrea-riccardi-intervista-libro-4a1918c8-0f63-4aae-8c0f-7cd049430xlk.shtml",
+   "pubblicato": "2026-10-21T05:11:41Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "908be90d779b655b",
+   "fonte": "corriere",
+   "titolo": "Se Dugin esulta mentre la rivolta pilotata dai social brucia l’Europa",
+   "estratto": "C'è un problema di contesto e un problema di pretesto",
+   "link": "https://video.corriere.it/esteri/ultima-fenice-democrazie-autocrazie/se-dugin-esulta-mentre-la-rivolta-pilotata-dai-social-brucia-l-europa/f6dd8ac6-2561-4685-b7e3-4bd997d9exlk",
+   "pubblicato": "2026-10-21T05:11:11Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "18fd53e261abfc04",
    "fonte": "lastampa",
    "titolo": "Schiaffo di un prof allo studente durante l’occupazione del Giolitti. Il preside: “Non lo condanno”",
@@ -21089,6 +22639,16 @@
    "link": "https://www.lastampa.it/torino/2026/10/21/news/scuola_gioilitti_schiaffo_professore_occupazione-15772503/",
    "pubblicato": "2026-10-21T05:11:00Z",
    "raccolto": "2026-10-21T17:16:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "25841d5b95ed0c43",
+   "fonte": "corriere",
+   "titolo": "I sospetti di «ombre russe» dietro gli scontri in piazza di Milano. Crosetto: «È guerra ibrida»",
+   "estratto": "A Palazzo Chigi sono convinti che «entità esterne» abbiano soffiato sul fuoco. Ma Salvini: non credo a una regia. Copasir convocato d’urgenza",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_21/ombre-russe-scontri-piazza-milano-e46c4e08-96be-4f20-a52e-3bc1a82ebxlk.shtml",
+   "pubblicato": "2026-10-21T05:10:30Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -21292,6 +22852,16 @@
    "canale": "rss"
   },
   {
+   "id": "c8ef7a093c642a8e",
+   "fonte": "corriere",
+   "titolo": "Il nuovo decreto sulla sicurezza, punto per punto: che cosa cambia da oggi",
+   "estratto": "Imputabilità dei minorenni, soldati a Milano, nuovi reati: il decreto legge varato martedì dal governo, spiegato nel dettaglio",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_21/nuovo-decreo-sicurezza-cosa-cambia-e3dc08e0-cda5-4c4a-81c8-68cfe48a8xlk.shtml",
+   "pubblicato": "2026-10-21T04:52:17Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "a069c376d8025802",
    "fonte": "ilgiornale",
    "titolo": "O’Leary: voli più cari del 20%",
@@ -21409,6 +22979,16 @@
    "link": "https://www.lastampa.it/cuneo/2026/10/21/news/aib_denunciato-15772473/",
    "pubblicato": "2026-10-21T04:30:00Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c22f845fb3fdbda7",
+   "fonte": "corriere",
+   "titolo": "«Italia in piazza», l'organizzatrice di Bologna: «Il corteo nato dalle storie social create con l'IA. Poi collettivi e maranza ci hanno usato»",
+   "estratto": "Samanta, 21 anni, è una delle quattro che ha convocato la manifestazione poi degenerata negli scontri: «Il problema è che noi giovani non riusciamo a prenderci una casa in una città come Bologna…",
+   "link": "https://corrieredibologna.corriere.it/notizie/politica/26_ottobre_21/italia-in-piazza-l-organizzatrice-di-bologna-il-corteo-nato-dalle-storie-social-create-con-l-ia-poi-collettivi-e-maranza-ci-eed39b28-bdab-487c-b11c-4061aad01xlk.shtml",
+   "pubblicato": "2026-10-21T04:30:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -21710,6 +23290,16 @@
    "pubblicato": "2026-10-21T03:42:00Z",
    "raccolto": "2026-10-21T11:55:48Z",
    "canale": "rss"
+  },
+  {
+   "id": "f9b6186446c9c00c",
+   "fonte": "corriere",
+   "titolo": "Il Quiz del Corriere del 21 ottobre: il virus Hiv è responsabile di quale malattia?",
+   "estratto": "",
+   "link": "https://www.corriere.it/giochi/news/26_ottobre_21/il-quiz-del-corriere-del-21-ottobre-il-virus-hiv-e-responsabile-di-quale-malattia-d21f1c94-46b8-452d-ba62-939f01149xlk.shtml",
+   "pubblicato": "2026-10-21T03:42:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "e97910c5b2fc35d4",
@@ -22172,6 +23762,16 @@
    "canale": "rss"
   },
   {
+   "id": "e39ea6bee0b2cf3f",
+   "fonte": "corriere",
+   "titolo": "Le notizie sul conflitto tra Israele, Usa e Iran di mercoledì 21 ottobre",
+   "estratto": ", in diretta. Ft: Netanyahu voleva attaccare Teheran a inizio ottobre, il presidente Usa si è opposto.",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_ottobre_21/guerra-iran-usa-le-notizie-in-diretta-dal-medio-oriente.shtml",
+   "pubblicato": "2026-10-20T23:12:34Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "01aa3b8162a26db2",
    "fonte": "rainews",
    "titolo": "TIR, il governo promette aiuti. Stop ai blocchi in Sicilia, si continua in altre regioni del Sud",
@@ -22519,6 +24119,16 @@
    "link": "https://www.liberoquotidiano.it/news/politica/49417883/sondaggio-noto-campo-largo-sconfitto-conte-schlein-leader-cifre-clamorose-centrodestra/",
    "pubblicato": "2026-10-20T22:29:00Z",
    "raccolto": "2026-10-21T04:54:46Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7352bedb426760fd",
+   "fonte": "corriere",
+   "titolo": "Le notizie sul conflitto tra Ucraina e Russia di mercoledì 21 ottobre",
+   "estratto": ", in diretta. Putin a Witkoff: «Rilasciato il cittadino Usa Hubbard, vorrei incontrare Trump in Cina». Domani la prima petroliera russa parte per gli Usa",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_ottobre_21/guerra-ucraina-russia-le-notizie-in-diretta-zelensky-dopo-l-incontro-con-witkoff-a-oslo-abbiamo-idee-chiare-su-come-raggiungere.shtml",
+   "pubblicato": "2026-10-20T22:18:12Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -23072,6 +24682,16 @@
    "canale": "rss"
   },
   {
+   "id": "00b0ce35ab8be8c2",
+   "fonte": "corriere",
+   "titolo": "La principessa Kate con la tiara del cuore al banchetto per il sultano. Carlo loda in arabo gli sforzi dell'Oman a difesa di Hormuz (e il figlio William)",
+   "estratto": "Il meglio del pomp and pageantry dei Windsor per la cena di Stato. In tavola anche té aromatizzati. Centosessanta gli invitati. Oggi il sultano a Downing Street",
+   "link": "https://www.corriere.it/esteri/26_ottobre_21/la-principessa-kate-con-la-tiara-del-cuore-al-banchetto-per-il-sultano-re-carlo-loda-in-arabo-gli-sforzi-dell-oman-a-difesa-di-4f997dc9-5cbc-431e-8612-64ba37775xlk.shtml",
+   "pubblicato": "2026-10-20T22:01:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "651d388cfc07277e",
    "fonte": "skytg24",
    "titolo": "Trump: \"I presidenti Usa perdono sempre le midterm\"",
@@ -23129,6 +24749,16 @@
    "link": "https://www.repubblica.it/economia/rubriche/outlook/2026/10/21/news/rivolte_in_francia_e_italia_due_paesi_per_vecchi_che_si_sono_dimenticati_dei_loro_giovani-425661116/",
    "pubblicato": "2026-10-20T22:00:00Z",
    "raccolto": "2026-10-21T11:55:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "157a29803c91bc52",
+   "fonte": "corriere",
+   "titolo": "Da Pio a Francesco, i Papi sul Corriere",
+   "estratto": "I momenti più importanti dell’ultimo secolo e mezzo della Santa Sede: l’elezione di Giovanni Paolo II, il passo indietro di Benedetto XVI, la scomparsa dei pontefici più amati. Con la prima uscita…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/da-pio-a-francesco-i-papi-sul-corriere-2a09bf45-f403-40fd-b7a8-f58117c2cxlk.shtml",
+   "pubblicato": "2026-10-20T21:58:33Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -23462,6 +25092,16 @@
    "canale": "rss"
   },
   {
+   "id": "54a26427e064ea49",
+   "fonte": "corriere",
+   "titolo": "Primarie, le tensioni tra Pd e M5S Conte: solo Elly e io? Ci siano altri",
+   "estratto": "«No al duello rusticano». I sospetti tra i dem. Schlein: senza, tocca al leader del primo partito",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_20/primarie-le-tensioni-tra-pd-e-m5s-conte-solo-elly-e-io-ci-siano-altri-a49f22e2-480d-4b59-847d-778b0a032xlk.shtml",
+   "pubblicato": "2026-10-20T20:17:07Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "165cda6cf04fcf81",
    "fonte": "ilfatto",
    "titolo": "Carburante esaurito a Napoli per le proteste degli autotrasportatori. Lunghe code davanti alle stazioni aperte: “Situazione surreale”",
@@ -23519,6 +25159,16 @@
    "link": "https://www.open.online/2026/10/20/pordenone-padre-figlio-caduti-terrazzo-salvi-auto/",
    "pubblicato": "2026-10-20T20:03:27Z",
    "raccolto": "2026-10-20T23:56:04Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e2d75ce8de2bfecc",
+   "fonte": "corriere",
+   "titolo": "Lupi: «No allo scaricabile tra sindaco e governo. Milano ha le risorse, diamoci da fare»",
+   "estratto": "Il leader di Noi Moderati: serviva più attenzione per le periferie",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_20/lupi-no-allo-scaricabile-tra-sindaco-e-governo-la-citta-ha-le-risorse-diamoci-da-fare-4608d5b9-1646-47af-838b-5c827fcc0xlk.shtml",
+   "pubblicato": "2026-10-20T20:02:24Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -23602,6 +25252,16 @@
    "canale": "rss"
   },
   {
+   "id": "d2552b8d79a39c26",
+   "fonte": "corriere",
+   "titolo": "Sciopero autotraportatori, scaffali vuoti nel Casertano",
+   "estratto": "",
+   "link": "https://video.corriere.it/cronaca/video-verticali/sciopero-autotraportatori-scaffali-vuoti-nel-casertano/d54230ef-6048-4266-aec8-0c521354fxlk",
+   "pubblicato": "2026-10-20T19:44:14Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "48d55d2a8139b44f",
    "fonte": "skytg24",
    "titolo": "Meloni: \"Chiedo chiarezza alle forze politiche, grave giustificare\"",
@@ -23620,6 +25280,16 @@
    "pubblicato": "2026-10-20T19:41:47Z",
    "raccolto": "2026-10-20T23:56:04Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "5e1c7c6af4b0ff5f",
+   "fonte": "corriere",
+   "titolo": "Milano, i disordini ripresi da chi era in strada",
+   "estratto": "Sui social le riprese video degli autori delle devastazioni",
+   "link": "https://video.corriere.it/cronaca/video-verticali/milano-i-disordini-ripresi-da-chi-era-in-strada/bf5cbcbc-e3da-4965-b966-b424e90abxlk",
+   "pubblicato": "2026-10-20T19:38:50Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "cdfdb797a7bdeb34",
@@ -24010,6 +25680,16 @@
    "pubblicato": "2026-10-20T19:08:51Z",
    "raccolto": "2026-10-20T19:19:17Z",
    "canale": "rss"
+  },
+  {
+   "id": "eff3cb97dac596d4",
+   "fonte": "corriere",
+   "titolo": "Matteo Lancini: «Condanno le violenze, ma i ragazzi non vedono un futuro: gli abbiamo trasmesso un modello violento di società»",
+   "estratto": "",
+   "link": "https://video.corriere.it/milano/matteo-lancini-condanno-le-violenze-ma-i-ragazzi-non-vedono-un-futuro-gli-abbiamo-trasmesso-un-modello-violento-di-societa/1211fa56-7a32-4036-b37e-ed3d4e5e2xlk",
+   "pubblicato": "2026-10-20T19:07:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "8ffa332abb659e57",
@@ -24430,6 +26110,16 @@
    "pubblicato": "2026-10-20T18:22:24Z",
    "raccolto": "2026-10-20T19:19:17Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "24ce923ad5d84140",
+   "fonte": "corriere",
+   "titolo": "La competizione al rallentatore che può acuire le divisioni",
+   "estratto": "Nel Campo largo è in atto una guerra sui tempi tra Giuseppe Conte e la segretaria del Pd, Elly Schlein",
+   "link": "https://www.corriere.it/politica/26_ottobre_20/la-competizione-al-rallentatore-che-puo-acuire-le-divisioni-a4732186-12ed-4b98-a96a-c2b2e4270xlk.shtml",
+   "pubblicato": "2026-10-20T18:22:10Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "36bc5b53b6395f69",
@@ -24979,6 +26669,16 @@
    "link": "https://tg24.sky.it/spettacolo/musica/2026/10/20/scontri-milano-fedez-marracash",
    "pubblicato": "2026-10-20T17:40:00Z",
    "raccolto": "2026-10-20T19:19:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fc031739893cb601",
+   "fonte": "corriere",
+   "titolo": "Meloni spiega le novità del decreto sicurezza in un video sui social",
+   "estratto": "La presidente del Consiglio: «Ecco le misure che abbiamo approvato per contrastare la violenza e tutelare la sicurezza dei cittadini»",
+   "link": "https://video.corriere.it/politica/meloni-spiega-le-novita-del-decreto-sicurezza-in-un-video-sui-social/ef078634-e0a4-4729-9148-090cd5572xlk",
+   "pubblicato": "2026-10-20T17:38:50Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -25632,6 +27332,16 @@
    "canale": "rss"
   },
   {
+   "id": "597b9e4a16c6b530",
+   "fonte": "corriere",
+   "titolo": "Il consiglio dei Ministri sulle nuove misure per la sicurezza. La conferenza stampa in diretta",
+   "estratto": "",
+   "link": "https://video.corriere.it/il-consiglio-dei-ministri-sulle-nuove-misure-per-la-sicurezza-la-conferenza-stampa-in-diretta/5b94ee0e-7fec-4929-962c-a679716a2xlk",
+   "pubblicato": "2026-10-20T16:54:30Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "8399ccaa4998f926",
    "fonte": "ilfatto",
    "titolo": "Zeekr, oltre 4.100 chilometri in 24 ore sul raccordo anulare di Roma",
@@ -25872,6 +27582,16 @@
    "canale": "instagram"
   },
   {
+   "id": "dfbbbcaf81758a85",
+   "fonte": "corriere",
+   "titolo": "Il bambino che chiede di accendere ai passanti, «Respirare l'aria di Milano equivale a fumare 445 sigarette l'anno»: la video-provocazione",
+   "estratto": "L'iniziativa dell'Associazione Cittadini per l'aria per sensibilizzare sullo smog e sulla qualità dell'aria",
+   "link": "https://video.corriere.it/cronaca/il-bambino-che-chiede-una-sigaretta-ai-passanti-respirare-l-aria-di-milano-equivale-a-445-sigarette-l-anno-la-video-provocazione/9dd004c2-1f7d-49cd-ba2a-31ec52a0axlk",
+   "pubblicato": "2026-10-20T16:26:44Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "753d9ed58f8e69b5",
    "fonte": "skytg24",
    "titolo": "Scontri Milano, udienze convalida 11 minorenni arrestati",
@@ -26002,6 +27722,16 @@
    "canale": "instagram"
   },
   {
+   "id": "bc7a3988c390d9b9",
+   "fonte": "corriere",
+   "titolo": "Le parole di Zelensky: «Trump, le restrizioni e la disponibilità a negoziare»",
+   "estratto": "«Siamo comunque grati al popolo americano e alla squadra di Trump che vuole porre fine alla guerra. Ci incontriamo, ci parliamo»",
+   "link": "https://video.corriere.it/esteri/le-parole-di-zelensky-trump-le-restrizioni-e-la-disponibilita-a-negoziare/a0e0b8db-5796-4768-94db-2ebd9ac83xlk",
+   "pubblicato": "2026-10-20T16:12:02Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "71bd95293b108e51",
    "fonte": "libero",
    "titolo": "Albania, ottavo giorno di scontri tra manifestanti e polizia",
@@ -26092,6 +27822,16 @@
    "canale": "rss"
   },
   {
+   "id": "a2a021ad0b946d2f",
+   "fonte": "corriere",
+   "titolo": "Harry chiede «riconciliazione, ma qualcuno non la vuole». La vita dei «privati cittadini» Sussex",
+   "estratto": "Una settimana fa la prima uscita di coppia a Nottingham col sapore di una visita Royal. Oggi il principe dichiara: «Con quanto accade nel mondo, la cosa più importante è riconciliarsi»",
+   "link": "https://video.corriere.it/esteri/harry-chiede-riconciliazione-ma-qualcuno-non-la-vuole-la-vita-dei-privati-cittadini-sussex/f8fc99f9-8183-4285-9710-27f0ca7a0xlk",
+   "pubblicato": "2026-10-20T16:06:26Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "ecfc488ed9283449",
    "fonte": "linkiesta",
    "titolo": "Domande a margine delle città che bruciano: solo spontaneismo? Chi ne approfitta?",
@@ -26120,6 +27860,16 @@
    "pubblicato": "2026-10-20T16:01:34Z",
    "raccolto": "2026-10-20T19:19:17Z",
    "canale": "rss"
+  },
+  {
+   "id": "c40bfd06e7e80950",
+   "fonte": "corriere",
+   "titolo": "La sindaca di Perugia denuncia gli insulti sessisti: «I risarcimenti a un fondo per le donne vittime di violenza»",
+   "estratto": "",
+   "link": "https://video.corriere.it/video-verticali/la-sindaca-di-perugia-denuncia-gli-insulti-sessisti-i-risarcimenti-a-un-fondo-per-le-donne-vittime-di-violenza/a7a4c476-4213-47ed-8e2e-18e8b1a80xlk",
+   "pubblicato": "2026-10-20T16:01:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "afa1ea592e824f66",
@@ -26169,6 +27919,16 @@
    "link": "https://www.laverita.info/video/economia-video/bolzano-manovra-anti-carovita",
    "pubblicato": "2026-10-20T16:00:00Z",
    "raccolto": "2026-10-20T19:19:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "01ff35406ebd4b81",
+   "fonte": "corriere",
+   "titolo": "Indonesia, incendio a bordo di un traghetto: l'evacuazione dei passeggeri",
+   "estratto": "Tutte salve le persone che erano a bordo",
+   "link": "https://video.corriere.it/esteri/indonesia-incendio-a-bordo-di-un-traghetto-l-evacuazione-dei-passeggeri/74d231a4-690a-412d-9b83-a98dea00exlk",
+   "pubblicato": "2026-10-20T15:59:03Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -26502,6 +28262,26 @@
    "canale": "rss"
   },
   {
+   "id": "69374118a523c693",
+   "fonte": "corriere",
+   "titolo": "Un'altra tragedia per la famiglia Kennedy: muore a 42 anni Kyle, nipote di Bob. «Circostanze sotto indagine»",
+   "estratto": "Kyle Kennedy aveva subito una grave lesione al midollo spinale nel 2020. Lo scorso dicembre era scomparsa a 35 anni, a causa di una leucemia, Tatiana Schlossberg, nipote di Jfk",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/un-altra-tragedia-per-la-famiglia-kennedy-muore-a-42-anni-kyle-nipote-di-bob-circostanze-sotto-indagine-1292596c-46bb-492a-9784-b9cf3a075xlk.shtml",
+   "pubblicato": "2026-10-20T15:32:45Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "940cbb827d774299",
+   "fonte": "corriere",
+   "titolo": "Negozianti e volontari in strada per ripulire Parigi dopo le violenze",
+   "estratto": "Coprifuoco notturno in Place de la République e nel quartiere commerciale di Les Halles",
+   "link": "https://video.corriere.it/esteri/negozianti-e-volontari-in-strada-per-ripulire-parigi-dopo-le-violenze/ba581c31-4b6b-4e25-809d-f0a880c42xlk",
+   "pubblicato": "2026-10-20T15:32:22Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "fe4566f8624f2479",
    "fonte": "skytg24",
    "titolo": "Missione giapponese per la prima volta verso luna di Marte",
@@ -26642,6 +28422,16 @@
    "canale": "rss"
   },
   {
+   "id": "3d57728b397f5f28",
+   "fonte": "corriere",
+   "titolo": "«Simu a lamera - Siamo alla fame!»: il grido in dialetto degli autotrasportatori calabresi",
+   "estratto": "",
+   "link": "https://video.corriere.it/simu-a-lamera-siamo-alla-fame-il-grido-in-dialetto-degli-autotrasportatori-calabresi/241aa426-a91d-46e6-beee-4d0133b26xlk",
+   "pubblicato": "2026-10-20T15:24:40Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "bc509e192166b54a",
    "fonte": "avvenire",
    "titolo": "Subaru e-Outback, anche l’avventura cambia energia",
@@ -26702,6 +28492,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "69cd4411457c83de",
+   "fonte": "corriere",
+   "titolo": "«Kim Jong-un è in coma dopo un'emorragia cerebrale»: ma la Corea del Nord diffonde subito una sua foto",
+   "estratto": "La notizia, «strillata» dai tabloid britannici, arriverebbe da presunte fonti cinesi: ma il regime ha prontamente risposto, pubblicando foto del Maresciallo insieme alla figlia (in un negozio di…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/kim-jong-un-coma-emorragia-cerebrale-corea-nord-smentita-foto-f7f6a250-1fb8-4033-b628-c34f9c1baxlk.shtml",
+   "pubblicato": "2026-10-20T15:15:58Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "baa076e171426e8a",
    "fonte": "libero",
    "titolo": "Otto e Mezzo, Rosi Braidotti sulle piazze: \"Quello che sta succedendo mi mette gioia e speranza\"",
@@ -26719,6 +28519,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/20/maltempo-liguria-aurelia-chiusa-a-celle-ligure-per-caduta-massi_9b602b65-9479-48d5-9e25-aece246141a4.html",
    "pubblicato": "2026-10-20T15:11:48Z",
    "raccolto": "2026-10-20T19:19:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9e37c828a6dc5fcf",
+   "fonte": "corriere",
+   "titolo": "Christiane Amanpour lascia la Cnn dopo 43 anni (e non spiega il perché). Guerre, interviste e rigore: l'addio della grande reporter",
+   "estratto": "La storica giornalista ridurrà da gennaio a una sola puntata settimanale il suo programma quoridiano; a giugno l'addio definitivo",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/christiane-amanpour-lascia-cnn-d84af082-041c-4adc-bb21-c2e644d52xlk.shtml",
+   "pubblicato": "2026-10-20T15:10:54Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -26839,6 +28649,16 @@
    "link": "https://www.ilsole24ore.com/art/tutto-rate-scarpe-funerale-quasi-italiano-due-ha-acquistato-dilazionando-spese-AJv3UNpB",
    "pubblicato": "2026-10-20T14:59:42Z",
    "raccolto": "2026-10-20T19:19:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "be34c165e19fa555",
+   "fonte": "corriere",
+   "titolo": "Francia, i gilet gialli annunciano nuove proteste. Lecornu fa mea culpa e attacca Mélenchon: «Schema insurrezionale applicato dall'estrema sinistra»",
+   "estratto": "«Saliremo di livello e rivedremo la nostra dottrina in termini di mezzi, di volume, di forze dispiegate e di reattività e mobilità» ha detto il primo ministro",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/francia-proteste-lecornu-melenchon-8b572f08-9e79-4031-b169-422cd84e9xlk.shtml",
+   "pubblicato": "2026-10-20T14:57:24Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -27029,6 +28849,16 @@
    "link": "https://www.rainews.it/video/2026/10/prima-e-dopo-lattacco-droni-al-mercato-sudanese-b84de016-b276-470b-949c-86c825e5b779.html",
    "pubblicato": "2026-10-20T14:42:00Z",
    "raccolto": "2026-10-20T19:19:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a78de28ad159ba09",
+   "fonte": "corriere",
+   "titolo": "Il presidente Mattarella conferisce l'Ordine al Merito alla principessa di Thailandia che ha studiato nelle Maison italiane",
+   "estratto": "La principessa, figlia di re Maha Vajiralongkorn ha raccontato al Corriere la sua formazione da Armani a Ferragamo. Con la sua collezione ha sfilato a Milano a settembre",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/il-presidente-mattarella-conferisce-l-ordine-al-merito-alla-principessa-di-thailandia-che-ha-studiato-nelle-maison-italiane-96dbe428-1d9b-479b-9157-cf7b14f5cxlk.shtml",
+   "pubblicato": "2026-10-20T14:40:32Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -27882,6 +29712,16 @@
    "canale": "rss"
   },
   {
+   "id": "ff5aca9b0e25649f",
+   "fonte": "corriere",
+   "titolo": "Parigi, le vie deserte dopo il coprifuoco a Les Halles e in Place \"de la République\"",
+   "estratto": "Parigi, vie deserte dopo il coprifuoco",
+   "link": "https://video.corriere.it/esteri/video-verticali/parigi-le-vie-deserte-dopo-il-coprifuoco-a-les-halles-e-in-place-de-la-republique/8fc7678d-d16d-4ff1-96ce-61e517af5xlk",
+   "pubblicato": "2026-10-20T13:37:27Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "dd9a5197e3048d44",
    "fonte": "ansa",
    "titolo": "Autotrasportatori, prosegue la protesta nel Sud. Rixi: 'Da oggi disponibili 480 milioni'",
@@ -27889,6 +29729,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/20/autotrasportatori-prosegue-la-protesta-nel-sud-italia.-salvini-subito-i-fondi-stanziati_3a6127ff-0b4c-4c40-8785-32cfb644514b.html",
    "pubblicato": "2026-10-20T13:37:01Z",
    "raccolto": "2026-10-20T14:20:49Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4dd9d022f988c5ee",
+   "fonte": "corriere",
+   "titolo": "Trump parla delle proteste in Italia e in Francia",
+   "estratto": "",
+   "link": "https://video.corriere.it/esteri/video-verticali/trump-parla-delle-proteste-in-italia-e-in-francia/44fbb727-3819-4fe8-b383-1d3f009e0xlk",
+   "pubblicato": "2026-10-20T13:36:21Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -27910,6 +29760,16 @@
    "pubblicato": "2026-10-20T13:35:26Z",
    "raccolto": "2026-10-20T14:20:49Z",
    "canale": "rss"
+  },
+  {
+   "id": "850533d96822501c",
+   "fonte": "corriere",
+   "titolo": "Sciopero autotrasportatori, code a Caserta",
+   "estratto": "",
+   "link": "https://video.corriere.it/video-verticali/sciopero-autotrasportatori-code-a-caserta/7d0369ed-c1e9-4a95-96ad-6c7aca8d8xlk",
+   "pubblicato": "2026-10-20T13:34:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "c450b7117d0f8f6e",
@@ -28479,6 +30339,16 @@
    "link": "https://tg24.sky.it/spettacolo/cinema/2026/10/20/the-debut-film-london-festival",
    "pubblicato": "2026-10-20T12:42:31Z",
    "raccolto": "2026-10-20T14:20:49Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8db7b8856b668fd3",
+   "fonte": "corriere",
+   "titolo": "Manovra, vertice sulle misure",
+   "estratto": "Riunione con i vertici politici e tecnici di Via XX Settembre",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_20/manovra-fondo-parlamentare-300-milioni-12ff8739-7ddf-4726-9dac-d80572204xlk.shtml",
+   "pubblicato": "2026-10-20T12:41:44Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -29312,6 +31182,16 @@
    "canale": "rss"
   },
   {
+   "id": "1f6650639e681ce9",
+   "fonte": "corriere",
+   "titolo": "Il blocco degli autotrasportatori a Napoli. La diretta video",
+   "estratto": "",
+   "link": "https://video.corriere.it/blocco-autotrasportatori-napoli-diretta-video/1701f456-c16e-4e06-8172-a4a4c2432xlk",
+   "pubblicato": "2026-10-20T11:29:10Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "b6307b7a4adaa969",
    "fonte": "skytg24",
    "titolo": "California, orso si aggira tra i libri di una biblioteca",
@@ -29459,6 +31339,16 @@
    "link": "https://torino.repubblica.it/cronaca/2026/10/20/news/derby_juve-toro_poliziotto_indagato_per_feriment_basoccu_torna_lavoro_senza_arma-425660150/",
    "pubblicato": "2026-10-20T11:18:27Z",
    "raccolto": "2026-10-20T14:20:49Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a08b662ce57f5672",
+   "fonte": "corriere",
+   "titolo": "Le tensioni in Europa e la campagna per le midterm",
+   "estratto": "",
+   "link": "https://www.corriere.it/il-punto/america-cina/26_ottobre_20/le-tensioni-in-europa-e-la-campagna-per-le-midterm-e3b03462-c1ac-4d04-bc93-171f9a957xlk.shtml",
+   "pubblicato": "2026-10-20T11:17:52Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -30082,6 +31972,16 @@
    "canale": "rss"
   },
   {
+   "id": "2c2a2f3b04cd5781",
+   "fonte": "corriere",
+   "titolo": "Il proprietario di una fumetteria in Francia protegge il negozio dal saccheggio durante gli scontri",
+   "estratto": "Le immagini diventate simbolo della resistenza di piccoli commercianti che hanno visto vandalizzati i propri negozi",
+   "link": "https://video.corriere.it/esteri/il-proprietario-di-una-fumetteria-in-francia-protegge-il-negozio-dal-saccheggio-durante-gli-scontri/e27d703b-e59d-4c49-90f8-9091437c5xlk",
+   "pubblicato": "2026-10-20T10:28:07Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "e564ba7c174a34a3",
    "fonte": "libero",
    "titolo": "Energia, de Pascale: emergenza, serve strategia di lungo periodo",
@@ -30192,6 +32092,16 @@
    "canale": "rss"
   },
   {
+   "id": "b74dac96dfde5ccf",
+   "fonte": "corriere",
+   "titolo": "De Luca e gli scontri di Milano: «Ci vuole la repressione, si deve intervenire con le forze dell'ordine in maniera pesante»",
+   "estratto": "Il sindaco di Salerno: «Bisogna rivedere anche il codice penale per casi come questi e abbassare l'età punibile»",
+   "link": "https://salerno.corriere.it/notizie/politica/26_ottobre_20/de-luca-e-gli-scontri-di-milano-ci-vuole-la-repressione-si-deve-intervenire-con-le-forze-dell-ordine-in-maniera-pesante-aff26bf3-fdcd-43a7-95c6-aed6ffd70xlk.shtml",
+   "pubblicato": "2026-10-20T10:19:52Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "9f612bf378519cce",
    "fonte": "libero",
    "titolo": "Ue, Kallas: attacchi russi nel Mar Nero, Russia uso il cibo come arma",
@@ -30269,6 +32179,16 @@
    "link": "https://www.lastampa.it/economia/2026/10/20/news/banche_messina_utili_50_miliardi_imposte_stato_25_miliardi-15771772/",
    "pubblicato": "2026-10-20T10:13:00Z",
    "raccolto": "2026-10-20T19:19:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e9024521fdd6a430",
+   "fonte": "corriere",
+   "titolo": "Multe di 120 euro a chi ascolta i video in treno senza gli auricolari. La croriata di Burnham contro il rumore",
+   "estratto": "Il video sui social del primo ministro britannico: «I trasporti pubblici sono di tutti, facciamo in modo che funzionino per tutti»",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/regno-unito-la-crociata-del-premier-burnham-contro-chi-ascolta-musica-o-video-senza-auricolari-sui-mezzi-pubblici-20f27552-65b6-488d-9b2d-25d208d3fxlk.shtml",
+   "pubblicato": "2026-10-20T10:10:42Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -30852,6 +32772,16 @@
    "canale": "rss"
   },
   {
+   "id": "ceb8b7e523019d33",
+   "fonte": "corriere",
+   "titolo": "A Milano violenze inaccettabili",
+   "estratto": "",
+   "link": "https://video.corriere.it/video-verticali/a-milano-violenze-inaccettabili/22dbe93b-18e5-45a8-bf35-6fe5b8243xlk",
+   "pubblicato": "2026-10-20T09:39:03Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "377fce0db079bd08",
    "fonte": "sole24ore",
    "titolo": "Somec, ordini per 119 milioni per una nuova generazione di navi da crociera",
@@ -30860,6 +32790,16 @@
    "pubblicato": "2026-10-20T09:38:18Z",
    "raccolto": "2026-10-20T14:20:49Z",
    "canale": "rss"
+  },
+  {
+   "id": "957945994ec9c2a5",
+   "fonte": "corriere",
+   "titolo": "Scontri a Milano parlano i fermati",
+   "estratto": "",
+   "link": "https://video.corriere.it/video-verticali/scontri-a-milano-parlano-i-fermati/d26a498f-76b1-4505-bcd0-81c1ecff5xlk",
+   "pubblicato": "2026-10-20T09:36:09Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "83e6d42d0577a41b",
@@ -30889,6 +32829,26 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/20/blocco-dei-tir-in-campania-vuoti-scaffali-della-grande-distribuzione_0b841cda-bfb6-4f51-8be5-ad82b5243667.html",
    "pubblicato": "2026-10-20T09:33:24Z",
    "raccolto": "2026-10-20T14:20:49Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7970fad3ad94f32e",
+   "fonte": "corriere",
+   "titolo": "Il sultano dell'Oman a Windsor, questa sera il banchetto di Stato con re Carlo, Camilla, William e Kate",
+   "estratto": "Era il 1982 quando il sultano arrivò a Buckingham Palace accolto da Elisabetta. E mentre la Royal family accoglie il sultano, il principe Harry dichiara: «Cerco la riconciliazione, ma qualcuno non…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/il-sultano-dell-oman-a-windsor-accolto-da-william-e-kate-il-banchetto-di-stato-con-re-carlo-e-la-regina-camilla-cd4067dc-4bc5-436a-b82b-3c639aec6xlk.shtml",
+   "pubblicato": "2026-10-20T09:33:19Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
+   "id": "73aafb516c44bc53",
+   "fonte": "corriere",
+   "titolo": "Proteste in Francia e in Italia, Trump: «Ha a che fare con l'immigrazione, devono chiudere i confini»",
+   "estratto": "«Io avevo detto che sarebbe successo, è una cosa molto triste da vedere, per me» ha detto il presidente Usa",
+   "link": "https://video.corriere.it/esteri/proteste-in-francia-e-in-italia-trump-ha-a-che-fare-con-l-immigrazione-devono-chiudere-i-confini/fd72cebe-5718-42b7-8fa0-b6c4f712axlk",
+   "pubblicato": "2026-10-20T09:32:54Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -31029,6 +32989,16 @@
    "link": "https://www.rainews.it/articoli/2026/10/revolut-down-utenti-senza-accesso-allapp-e-ai-pagamenti-5d645f02-24a1-4732-aa8f-0d587add1a8c.html",
    "pubblicato": "2026-10-20T09:11:00Z",
    "raccolto": "2026-10-20T14:20:49Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b8e4f13602602ff9",
+   "fonte": "corriere",
+   "titolo": "Usa, al via il voto anticipato in Texas per le elezioni di metà mandato: le lunghe code ai seggi",
+   "estratto": "In Texas, nessun candidato democratico ha vinto un’elezione a livello statale da oltre trent’anni",
+   "link": "https://video.corriere.it/esteri/usa-al-via-il-voto-anticipato-in-texas-per-le-elezioni-di-meta-mandato-le-lunghe-code-ai-seggi/c95f1087-a6af-46a6-af73-f3aab9cb5xlk",
+   "pubblicato": "2026-10-20T09:10:47Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -31190,6 +33160,16 @@
    "pubblicato": "2026-10-20T08:56:35Z",
    "raccolto": "2026-10-20T14:20:49Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "988433a4fd53a8b4",
+   "fonte": "corriere",
+   "titolo": "Più di 4 anni di sanzioni alla Russia. Ma qual è il vero bilancio?",
+   "estratto": "Le sanzioni hanno inflitto danni all'economia russa, ma non hanno raggiunto l'obiettivo principale: ridurre le risorse finanziarie disponibili per la guerra",
+   "link": "https://www.corriere.it/oriente-occidente-federico-rampini/26_ottobre_20/sanzioni-russia-bilancio-19f71763-538c-4872-ab4f-25130ed68xlk.shtml",
+   "pubblicato": "2026-10-20T08:56:28Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "0b82f0fb6346a1a4",
@@ -31632,6 +33612,16 @@
    "canale": "rss"
   },
   {
+   "id": "2237ed3aeb9914bc",
+   "fonte": "corriere",
+   "titolo": "Massimo Cacciari sugli scontri a Milano: «C'è una crisi generale europea e noi pensiamo di risolverla con decreti sull'ordine pubblico. Siamo fuori di senno»",
+   "estratto": "L'intervento del filosofo da Lilli Gruber a «Otto e mezzo» su La7",
+   "link": "https://video.corriere.it/politica/massimo-cacciari-sugli-scontri-a-milano-c-e-una-crisi-generale-europea-e-noi-pensiamo-di-risolverla-con-decreti-sull-ordine-pubblico-siamo-fuori-di-senno/8459fe41-83a1-4f77-8ddd-36043a6b3xlk",
+   "pubblicato": "2026-10-20T08:29:48Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "ed24b78c842c3d7c",
    "fonte": "ilfatto",
    "titolo": "“Devo operarmi, mi hanno trovato una cisti all’interno di una corda vocale”: Nicla Ozenda dei Fortuna Six lascia “La ruota della fortuna”. Gerry Scotti in lacrime: “Non è facile”",
@@ -31640,6 +33630,16 @@
    "pubblicato": "2026-10-20T08:28:14Z",
    "raccolto": "2026-10-20T08:37:18Z",
    "canale": "rss"
+  },
+  {
+   "id": "9923c8ff23e802e9",
+   "fonte": "corriere",
+   "titolo": "Volo Ita Airways Parigi-Roma, donna australiana muore dopo l'atterraggio d'emergenza a Zurigo",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_20/volo-ita-airways-parigi-roma-donna-australiana-muore-dopo-l-atterraggio-d-emergenza-a-zurigo-6e0f0b50-d4e2-4514-916d-e18ade806xlk.shtml",
+   "pubblicato": "2026-10-20T08:27:50Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "c0b433617e096d7b",
@@ -31789,6 +33789,16 @@
    "link": "https://www.rainews.it/maratona/2026/10/ucraina-guerra-papa-leone-chiama-zelensky-tregua-umanitaria-a-oleshky-mancano-patriot-fa4260b1-5599-4d60-ae79-34089b168da6.html",
    "pubblicato": "2026-10-20T08:16:00Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e74a17add1c70349",
+   "fonte": "corriere",
+   "titolo": "Da Spiderman a Batman, passando per Dante e i balletti: c'è chi usa le proteste di Milano per guadagnare clic sui social",
+   "estratto": "Insieme ai video degli scontri, alcuni reel raccontano il clima violento e scanzonato della piazza",
+   "link": "https://video.corriere.it/cronaca/da-spiderman-a-batman-passando-per-dante-e-i-balletti-se-le-proteste-a-milano-diventano-lo-sfondo-per-il-reel-perfetto-sui-social/f1c8392a-b032-4431-8b01-3fb323c6fxlk",
+   "pubblicato": "2026-10-20T08:14:54Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -31972,6 +33982,16 @@
    "canale": "rss"
   },
   {
+   "id": "362ba1aa87dfa9d2",
+   "fonte": "corriere",
+   "titolo": "Kenya, il capo di una setta condannato per omicidio: ha costretto oltre 190 bambini (e decine di adulti) a digiuni estremi «per salvarsi l'anima»",
+   "estratto": "Paul Nthenge Mackenzie convinceva i suoi adepti a lasciarsi morire di fame insieme ai figli nella foresta di Shakahola",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/kenya-il-capo-di-una-setta-condannato-per-omicidio-ha-costretto-oltre-190-bambini-e-decine-di-adulti-a-digiuni-estremi-per-737b0f8e-0f47-48dc-9b41-5b93710a9xlk.shtml",
+   "pubblicato": "2026-10-20T08:02:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "387d20f3f62cc2bb",
    "fonte": "ilfatto",
    "titolo": "Trump regala 8 miliardi di dollari agli agricoltori contro il caro gasolio. E minaccia l’Europa: “Se soccombe ai migranti, ce ne andremo”",
@@ -32040,6 +34060,16 @@
    "pubblicato": "2026-10-20T07:58:59Z",
    "raccolto": "2026-10-20T08:37:18Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "ac597e1eba6d94c9",
+   "fonte": "corriere",
+   "titolo": "Forza Italia, Gasparri conferma il commissario Bianchi e gela i ribelli: «Nessuno ha diritto di spaccare il partito»",
+   "estratto": "Forza Italia, il commissario cerca di mediare con i ribelli. E il Pd attacca: sul Puc pronti all’ostruzionismo",
+   "link": "https://corrieredellaltoadige.corriere.it/notizie/politica/26_ottobre_20/forza-italia-gasparri-conferma-il-commissario-bianchi-e-gela-i-ribelli-nessuno-ha-diritto-di-spaccare-il-partito-430c8490-d8ed-40ca-9073-6f1655912xlk.shtml",
+   "pubblicato": "2026-10-20T07:58:33Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "8481bf2feb0c5a2e",
@@ -32322,6 +34352,16 @@
    "canale": "rss"
   },
   {
+   "id": "64a7bee15ee7b2c2",
+   "fonte": "corriere",
+   "titolo": "Maltempo, piogge intense in Liguria. La Protezione civile: allerta arancione",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_20/maltempo-piogge-intense-in-liguria-la-protezione-civile-allerta-arancione-0d7b1ce0-9d99-4ff0-91bc-959cb0a2cxlk.shtml",
+   "pubblicato": "2026-10-20T07:24:20Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "0d8c156a4359aca5",
    "fonte": "nicolaporro",
    "titolo": "Maranza “inediti” e violenze “inattese”. Mattarella, ma che stai a dì?",
@@ -32582,6 +34622,16 @@
    "canale": "rss"
   },
   {
+   "id": "af4c96a72cf1c7b6",
+   "fonte": "corriere",
+   "titolo": "Brasile, protesta contro Meta per presunta interferenza elettorale: manifestanti con la maschera di Mark Zuckerberg",
+   "estratto": "La causa è stata intentata dalla campagna di Lula secondo cui la società avrebbe favorito Bolsonaro",
+   "link": "https://video.corriere.it/esteri/brasile-protesta-contro-meta-per-presunta-interferenza-elettorale-manifestanti-con-la-maschera-di-mark-zuckerberg/2a0ad905-f7d0-44b7-8ec8-0c57aaadcxlk",
+   "pubblicato": "2026-10-20T06:51:58Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "8fb50c10451d6bbf",
    "fonte": "open",
    "titolo": "Chi è uno dei due uomini che accusano Mussari di aver ucciso David Rossi",
@@ -32632,6 +34682,16 @@
    "canale": "rss"
   },
   {
+   "id": "f957a5ff404559f4",
+   "fonte": "corriere",
+   "titolo": "Minorenni violenti, in Veneto giro di vite: dall’arresto obbligatorio ai rimpatri. Stefani: «Tolleranza zero»",
+   "estratto": "La Lega dopo i disordini: prevenzione e repressione. Il presidente della Regione: torni la disciplina",
+   "link": "https://corrieredelveneto.corriere.it/notizie/cronaca/26_ottobre_20/minorenni-violenti-in-veneto-giro-di-vite-dall-arresto-obbligatorio-ai-rimpatri-stefani-tolleranza-zero-2eb2606c-8753-494f-90c9-71ae68b2axlk.shtml",
+   "pubblicato": "2026-10-20T06:46:01Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "fc002bdcf8983b46",
    "fonte": "ilfatto",
    "titolo": "“Era un tumore borderline per cui ho tolto tube e ovaio ma l’utero c’è ancora”: così Antonella Elia dopo l’operazione al Gemelli di Roma",
@@ -32659,6 +34719,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/20/e-morta-lua-maria-blanco-la-cantante-e-attrice-aveva-un-tumore-intestinale-la-famiglia-se-ne-con-la-ferma-fede-di-ricongiungersi-direttamente-a-dio/8543931/",
    "pubblicato": "2026-10-20T06:37:05Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f4715a7c7c97ba72",
+   "fonte": "corriere",
+   "titolo": "Sanità, in arrivo 220 milioni in più per le Asl pugliesi. Ma il sottosegretario Gemmato ne aveva promessi il doppio",
+   "estratto": "La conferenza delle Regioni ha iniziato a fare i calcoli sulla ripartizione delle risorse che il governo potrebbe stanziare in più per la sanità nella manovra di bilancio: ma sono 2,4 miliardi in…",
+   "link": "https://bari.corriere.it/notizie/cronaca/26_ottobre_20/sanita-in-arrivo-220-milioni-per-le-asl-pugliesi-ma-il-sottosegretario-gemmato-ne-aveva-promessi-il-doppio-2899616c-b071-440e-a998-03273b10cxlk.shtml",
+   "pubblicato": "2026-10-20T06:35:30Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -32902,6 +34972,16 @@
    "canale": "rss"
   },
   {
+   "id": "df9b7512336e8705",
+   "fonte": "corriere",
+   "titolo": "Strade deserte a Place de la République e Les Halles dopo il coprifuoco imposto dalla polizia parigina: il video",
+   "estratto": "L'ordinanza è stata diffusa dopo le violente rivolte esplose nel fine settimana",
+   "link": "https://video.corriere.it/esteri/strade-deserte-a-place-de-la-republique-e-les-halle-dopo-il-coprifuoco-imposto-dalla-polizia-parigina-il-video/e0fc724c-8f5e-4d00-b960-7a616b3fcxlk",
+   "pubblicato": "2026-10-20T06:09:50Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "0933494f184ac5a6",
    "fonte": "ilfatto",
    "titolo": "Rocchi deve scegliere: o l’AIA o Dazn. La presenza in tv dell’ex designatore è un caso",
@@ -32969,6 +35049,16 @@
    "link": "https://www.ilfattoquotidiano.it/2026/10/20/ucraina-soldato-evacuato-drone-zona-grigia-notizie/8543504/",
    "pubblicato": "2026-10-20T06:06:08Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c11a62bd449b1734",
+   "fonte": "corriere",
+   "titolo": "Trump: «È ora che in Ucraina qualcun altro negozi per conto di Zelensky»",
+   "estratto": "Il presidente americano ha parlato con i giornalisti prima di lasciare la Casa Bianca per una tappa della campagna elettorale in Kansas",
+   "link": "https://video.corriere.it/esteri/trump-e-ora-che-in-ucraina-qualcun-altro-negozi-per-conto-di-zelensky/6a23a07a-779d-44d6-873e-7d3658e01xlk",
+   "pubblicato": "2026-10-20T06:06:07Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -33109,6 +35199,16 @@
    "link": "https://www.ilpost.it/2026/10/20/ronaldo-sospensione-portogallo-multa/",
    "pubblicato": "2026-10-20T05:46:34Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f109fdab3834d046",
+   "fonte": "corriere",
+   "titolo": "La video intervista a Zelensky: «Grati al popolo americano e alla squadra di Trump. Ma tra partner deve esserci onestà»",
+   "estratto": "Il presidente ucraino risponde alle domande del Corriere della Sera",
+   "link": "https://video.corriere.it/esteri/la-video-intervista-a-zelensky-grati-al-popolo-americano-e-alla-squadra-di-trump-ma-tra-partner-deve-esserci-onesta/84cbc5dc-afc2-4a0f-b727-48775d1dcxlk",
+   "pubblicato": "2026-10-20T05:46:15Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -33302,6 +35402,16 @@
    "canale": "rss"
   },
   {
+   "id": "671a2fa9cb7295ba",
+   "fonte": "corriere",
+   "titolo": "Non soltanto le boutique: ora in Francia anche le case nel mirino. E tra i negozianti derubati c’è chi pensa ad armarsi",
+   "estratto": "Il finto alibi tra chi saccheggia: «Tanto sono assicurati»",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/francia-proteste-devastazioni-negozi-case-579511d5-a0d7-4174-aa3f-a37c9edcexlk.shtml",
+   "pubblicato": "2026-10-20T05:25:27Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "f8b0372e8eac51d7",
    "fonte": "linkiesta",
    "titolo": "Meloni schiera l’esercito e prepara il decreto sicurezza",
@@ -33352,6 +35462,16 @@
    "canale": "rss"
   },
   {
+   "id": "86a983ccd8c55318",
+   "fonte": "corriere",
+   "titolo": "Don Luigi Ciotti: «Ho incontrato persone coraggiose che vivono nel terrore del pizzo. Le slot machine? Vanno rottamate»",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_20/don-luigi-ciotti-terrore-pizzo-intervista-165781e1-4c23-42e0-90ff-d60b92376xlk.shtml",
+   "pubblicato": "2026-10-20T05:17:32Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "1eaf6b25511d44f1",
    "fonte": "rainews",
    "titolo": "Tessera sanitaria, attenzione alla mail che ti chiede di rinnovarla. Ministero salute: è una truffa",
@@ -33360,6 +35480,16 @@
    "pubblicato": "2026-10-20T05:16:00Z",
    "raccolto": "2026-10-20T08:37:18Z",
    "canale": "rss"
+  },
+  {
+   "id": "96bea95766a4b963",
+   "fonte": "corriere",
+   "titolo": "La giudice Francesca Ercolini trovata impiccata a Pesaro nel 2022: la frattura al collo è da strangolamento. Si rafforza la pista dell'omicidio",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_20/giudice-francesca-ercolini-pista-omicidio-77c88916-e6c7-4052-ae65-461ea6e43xlk.shtml",
+   "pubblicato": "2026-10-20T05:15:36Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
   },
   {
    "id": "278a91e5a0b77f84",
@@ -33392,6 +35522,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "9244704c9c1fbd57",
+   "fonte": "corriere",
+   "titolo": "Fiamme e trap sui social, la rabbia dei protagonisti degli scontri di Milano: «Facciamo quel che vogliamo»",
+   "estratto": "",
+   "link": "https://www.corriere.it/cronache/26_ottobre_20/scontri-milano-protagonisti-social-video-41bc2e40-7ac8-4ae5-81cf-656fde16fxlk.shtml",
+   "pubblicato": "2026-10-20T05:10:22Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "eee55f21371c4ac9",
    "fonte": "sole24ore",
    "titolo": "Apa, Fondo di investimento da 100 milioni per le imprese dell’audiovisivo",
@@ -33399,6 +35539,16 @@
    "link": "https://www.ilsole24ore.com/art/apa-fondo-investimento-100-milioni-le-imprese-dell-audiovisivo-AJIvBPoB",
    "pubblicato": "2026-10-20T05:08:50Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "860e5c1c8a25d60e",
+   "fonte": "corriere",
+   "titolo": "Giuseppe Conte: «Il Paese è in ginocchio. A Elly Schlein dico: subito il programma. E gazebo il prima possibile»",
+   "estratto": "Il leader M5S: le primarie non siano una conta tra leader di partito",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_20/giuseppe-conte-intervista-primarie-campo-largo-9660d292-94fe-45b8-9a05-26e27b693xlk.shtml",
+   "pubblicato": "2026-10-20T05:06:46Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -33429,6 +35579,16 @@
    "link": "https://www.ilpost.it/2026/10/20/helen-haines-parlamentare-australiana-investita/",
    "pubblicato": "2026-10-20T05:05:38Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "79ff2532f4107ece",
+   "fonte": "corriere",
+   "titolo": "Sicurezza, nel decreto l'obbligo per i social media di lanciare l'allarme per hashtag o passaparola. Il faro del Colle sulle nuove norme",
+   "estratto": "Nel vertice di governo si è discussa la norma per obbligare le piattaforme a comunicare informazioni per identificare i messaggi su episodi di violenza",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_20/decreto-sicurezza-social-fdacef6f-2a85-4e42-876c-d12067f6exlk.shtml",
+   "pubblicato": "2026-10-20T05:05:38Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -33562,6 +35722,16 @@
    "canale": "rss"
   },
   {
+   "id": "d2f3e8c4dd05ae36",
+   "fonte": "corriere",
+   "titolo": "Cinquecento militari in più dopo i disordini a Milano, ipotesi fermo preventivo per i minori",
+   "estratto": "Cortei violenti, tra le misure allo studio anche l’associazione a delinquere",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_20/milano-500-militari-fermo-preventivo-oggi-decreto-e0de10f3-59f6-4b8b-b2b6-1b4f0617dxlk.shtml",
+   "pubblicato": "2026-10-20T04:59:26Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "b1d86ba1fee17d5c",
    "fonte": "laverita",
    "titolo": "Il magistrato: «Meloni nana borgatara»",
@@ -33602,6 +35772,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "c58ca59c73ad8d80",
+   "fonte": "corriere",
+   "titolo": "Zelensky: «Trump’s restrictions are now real, and unfair: honesty is needed between partners. Italy, too, is a victim of Putin’s hybrid war»",
+   "estratto": "His first interview with an Italian media outlet since the «diesel deal» between the American and Russian presidents. «It is not fair that Moscow strikes us and we cannot respond,» says the…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/zelensky-interview-trump-restrictions-real-unfair-a763e49d-65c4-4e9f-a6ae-9daaf469fxlk.shtml",
+   "pubblicato": "2026-10-20T04:48:04Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "5c3465c97b293d41",
    "fonte": "rainews",
    "titolo": "Kim Jong-un, tra minacce di guerra e voci sulla sua salute. Trump: \"Con lui ho un ottimo rapporto\"",
@@ -33640,6 +35820,16 @@
    "pubblicato": "2026-10-20T04:42:44Z",
    "raccolto": "2026-10-20T08:37:18Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "f5e3158dbb7d55ba",
+   "fonte": "corriere",
+   "titolo": "Intervista a Zelensky: «Anche l'Italia è vittima della guerra ibrida di Putin. Dagli Usa restrizioni reali su armi e intelligence. Ci chiedono di fermarci: è ingiusto»",
+   "estratto": "Prima intervista a un media italiano dopo il «patto del diesel» tra i presidenti americano e russo. «Non è corretto che Mosca ci colpisca e noi non possiamo rispondere - dice il leader di Kiev. Ho…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/zelensky-intervista-italia-guerra-ibrida-putin-90d1fe22-4cf3-4337-b1e8-7b6e1fd90xlk.shtml",
+   "pubblicato": "2026-10-20T04:42:27Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
   },
   {
    "id": "8e5d8eddc23a7f1b",
@@ -33709,6 +35899,16 @@
    "link": "https://www.liberoquotidiano.it/news/personaggi/49412692/sigfrido_ranucci_addio_report_accetta_ritorno_rainews/",
    "pubblicato": "2026-10-20T04:32:00Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "68e2ee861b10b88b",
+   "fonte": "corriere",
+   "titolo": "Emilia-Romagna, l'assessore regionale Giovanni Paglia: «Violenze da condannare, ma le piazze dei ragazzi ci stanno dando una lezione. Chi si ferma agli scontri non capisce nulla»",
+   "estratto": "L'assessore alla Casa e al Lavoro: «Le giovani generazioni sono sotto scacco, tanto che chi può lascia l’Italia. Molti di noi guardano a quello che sta succedendo come fosse il Sessantotto, invece è…",
+   "link": "https://corrieredibologna.corriere.it/notizie/politica/26_ottobre_20/emilia-romagna-l-assessore-regionale-giovanni-paglia-violenze-da-condannare-ma-le-piazze-dei-ragazzi-ci-stanno-dando-una-lezione-320e6390-58ea-4432-a2e1-13f52e9c2xlk.shtml",
+   "pubblicato": "2026-10-20T04:30:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -33972,6 +36172,16 @@
    "canale": "rss"
   },
   {
+   "id": "14d8decbc66fb96e",
+   "fonte": "corriere",
+   "titolo": "Usa: Trump annuncia 8 miliardi di dollari di aiuti agli agricoltori per compensare il caro gasolio",
+   "estratto": "Lo stanziamento fornirà agli agricoltori un ristoro per compensare i costi del gasolio durante la stagione del raccolto",
+   "link": "https://www.corriere.it/esteri/26_ottobre_20/usa-trump-annuncia-8-miliardi-di-dollari-di-aiuti-agli-agricoltori-per-compensare-il-caro-gasolio-79e1fe4f-ec86-4a8c-90a1-6eb9ad0bexlk.shtml",
+   "pubblicato": "2026-10-20T03:57:09Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "c3a30aa278faf515",
    "fonte": "rainews",
    "titolo": "Avvelenate con la ricina, Gianni Di Vita ammette: \"Ho tradito mia moglie\"",
@@ -34039,6 +36249,16 @@
    "link": "https://www.internazionale.it/opinione/paul-preciado/2026/10/20/proteste-francia-fascismo",
    "pubblicato": "2026-10-20T03:31:01Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ab12120b42f57681",
+   "fonte": "corriere",
+   "titolo": "Liste d’attesa, la Corte dei conti bacchetta la sanità piemontese: «Inutilizzati quasi 4 milioni di euro. E un esame su 4 è in ritardo»",
+   "estratto": "La relazione della Corte dei conti sulle misure adottate per accelerare l’accesso alle cure",
+   "link": "https://torino.corriere.it/notizie/salute/26_ottobre_20/liste-d-attesa-la-corte-dei-conti-bacchetta-la-sanita-piemontese-inutilizzati-quasi-4-milioni-di-euro-e-un-esame-su-4-e-in-ritardo-2b50d77f-cd1b-4c42-b287-5b22af4eaxlk.shtml",
+   "pubblicato": "2026-10-20T03:30:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -34392,6 +36612,16 @@
    "canale": "rss"
   },
   {
+   "id": "9121be1206bd3f87",
+   "fonte": "corriere",
+   "titolo": "Il Quiz del Corriere del 20 ottobre: chi ha segnato più gol con la Nazionale di calcio italiana?",
+   "estratto": "",
+   "link": "https://www.corriere.it/giochi/news/26_ottobre_20/il-quiz-del-corriere-del-20-ottobre-chi-ha-segnato-piu-gol-con-la-nazionale-di-calcio-italiana-aaeffa1b-bd58-4779-9a2d-b999c0ff8xlk.shtml",
+   "pubblicato": "2026-10-20T00:37:00Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "b267de2a6c97694d",
    "fonte": "libero",
    "titolo": "Contanti, divani, case ristrutturate. Tangenti alla Asl: terremoto a Bari",
@@ -34439,6 +36669,16 @@
    "link": "https://tg24.sky.it/mondo/video/2026/10/19/il-morbillo-torna-in-america-lo-scontro-sui-vaccini-1132995",
    "pubblicato": "2026-10-19T23:53:14Z",
    "raccolto": "2026-10-20T00:24:08Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ceeed5e64484fe23",
+   "fonte": "corriere",
+   "titolo": "Le notizie di martedì 20 ottobre sulla guerra in Iran",
+   "estratto": "Le notizie sul conflitto tra Israele, Usa e Iran di martedì 20 ottobre",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_ottobre_20/guerra-iran-usa-notizie.shtml",
+   "pubblicato": "2026-10-19T23:50:11Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -34699,6 +36939,16 @@
    "link": "https://www.repubblica.it/cronaca/2026/10/20/news/il_consultorio_che_resiste_nell_italia_dei_tagli_la_ginecologa_kustermann_quel_mondo_va_protetto-425659307/",
    "pubblicato": "2026-10-19T23:00:00Z",
    "raccolto": "2026-10-20T08:37:18Z",
+   "canale": "rss"
+  },
+  {
+   "id": "53a41518fc0ee531",
+   "fonte": "corriere",
+   "titolo": "Le notizie di martedì 20 ottobre sul conflitto in Ucraina",
+   "estratto": "Le notizie sul conflitto tra Ucraina e Russia di martedì 20 ottobre",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_ottobre_20/guerra-ucraina-russia-notizie.shtml",
+   "pubblicato": "2026-10-19T22:44:47Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -35722,6 +37972,16 @@
    "canale": "rss"
   },
   {
+   "id": "93b6b8fd3301292c",
+   "fonte": "corriere",
+   "titolo": "In Australia, una nuova legge vuole regolare l'algoritmo dei social",
+   "estratto": "",
+   "link": "https://video.corriere.it/esteri/video-verticali/in-australia-una-nuova-legge-vuole-regolare-l-algoritmo-dei-social/15c7f99a-6acd-4991-84e2-4f8c71cf7xlk",
+   "pubblicato": "2026-10-19T20:36:08Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "5fdb24b35d93f275",
    "fonte": "open",
    "titolo": "Sparatoria in una moschea in Ohio, la polizia: «Almeno un morto»",
@@ -35742,6 +38002,16 @@
    "canale": "sitemap"
   },
   {
+   "id": "e585360907707ef9",
+   "fonte": "corriere",
+   "titolo": "A Parigi gli studenti bloccano gli ingressi del Museo del Louvre e intonano «Bella Ciao»",
+   "estratto": "",
+   "link": "https://video.corriere.it/esteri/video-verticali/a-parigi-gli-studenti-bloccano-gli-ingressi-del-museo-del-louvre-e-intonano-bella-ciao/8ebe3e61-88e9-48b0-9971-b38789744xlk",
+   "pubblicato": "2026-10-19T20:32:58Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "8c076b45064fea79",
    "fonte": "ansa",
    "titolo": "Mattarella: 'A Milano violenze inaccettabili, serve un'analisi approfondita'",
@@ -35759,6 +38029,16 @@
    "link": "https://www.ansa.it/sito/notizie/mondo/speciali/usa-midterm-2026/2026/10/19/trump-anche-in-italia-le-proteste-hanno-a-che-fare-con-limmigrazione_91a2ca2c-85e9-43cc-95cd-9475f1c209be.html",
    "pubblicato": "2026-10-19T20:31:20Z",
    "raccolto": "2026-10-20T00:24:08Z",
+   "canale": "rss"
+  },
+  {
+   "id": "27a1f743e91956be",
+   "fonte": "corriere",
+   "titolo": "Una coppia fa aperitivo vicino all'Arco di Trionfo a Parigi mentre la città brucia durante le proteste",
+   "estratto": "",
+   "link": "https://video.corriere.it/esteri/video-verticali/una-coppia-fa-aperitivo-vicino-all-arco-di-trionfo-a-parigi-mentre-la-citta-brucia-durante-le-proteste/a5669c4d-638d-4905-8691-73af07a0cxlk",
+   "pubblicato": "2026-10-19T20:28:07Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -36002,6 +38282,16 @@
    "canale": "rss"
   },
   {
+   "id": "59fdb45c64288583",
+   "fonte": "corriere",
+   "titolo": "Gori: «Primarie? Nel centrosinistra non può essere una corsa solo tra i due leader. Ai gazebo sì al doppio turno»",
+   "estratto": "L'europarlamentare Pd: tutti diano un contributo. Kiev? Basta ambiguità",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_19/giorgio-gori-intervista-campolargo-primarie-5c8799c0-ce6a-47a3-bee7-873df6defxlk.shtml",
+   "pubblicato": "2026-10-19T19:48:46Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "035d7669b4a44d74",
    "fonte": "repubblica",
    "titolo": "Strage russa al parcogiochi a Kharkiv. Trump apre a Putin: “Negozio con lui su Ucraina e Iran”",
@@ -36059,6 +38349,16 @@
    "link": "https://tg24.sky.it/economia/video/2026/10/19/reparti-mobili-quanti-agenti-e-mezzi-sono-in-dotazione-1132951",
    "pubblicato": "2026-10-19T19:38:07Z",
    "raccolto": "2026-10-19T20:36:57Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d4d5fdded3ffac55",
+   "fonte": "corriere",
+   "titolo": "Addio al modello woke: candidati dem palestrati per rispondere ai «macho man» voluti da Trump",
+   "estratto": "Battaglia a colpi d'immagine nella politica Usa: avanti i forti e virili tra i democratici mentre tra i repubblicani spazio agli ex Navy Seal e ai candidati di «bell'aspetto»",
+   "link": "https://www.corriere.it/esteri/elezioni-usa-midterm-2018/26_ottobre_19/addio-al-modello-woke-candidati-dem-palestrati-per-rispondere-ai-macho-man-voluti-da-trump-7809740d-482e-45ed-a717-255eb0d9cxlk.shtml",
+   "pubblicato": "2026-10-19T19:36:19Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -36392,6 +38692,16 @@
    "canale": "rss"
   },
   {
+   "id": "15311932f0db8d57",
+   "fonte": "corriere",
+   "titolo": "Salvini prepara le assise. La corsa di Garavaglia per le ultime firme",
+   "estratto": "Simbolo e segreteria, la strategia del leader leghista in vista del congresso straordinario di sabato e domenica a Milano",
+   "link": "https://www.corriere.it/politica/26_ottobre_19/salvini-prepara-le-assise-la-corsa-di-garavaglia-per-le-ultime-firme-1809cd2a-b540-4cc2-97a5-1911a8e82xlk.shtml",
+   "pubblicato": "2026-10-19T18:51:23Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "8b265e63638c3b4e",
    "fonte": "domani",
    "titolo": "Macron verso lo stato d’eccezione. E il coprifuoco scatta anche a Parigi",
@@ -36432,6 +38742,16 @@
    "canale": "rss"
   },
   {
+   "id": "791b565ffc8287eb",
+   "fonte": "corriere",
+   "titolo": "«No moschea» contro «Bella ciao». A Torino, Barriera di Milano si divide: ora la sfida è elettorale",
+   "estratto": "Nel traffico di corso Novara sono in 200 con il vicepresidente della giunta regionale Maurizio Marrone (Fratelli d’Italia). A contestarli, 50 «antifascisti»",
+   "link": "https://torino.corriere.it/notizie/cronaca/26_ottobre_19/torino-sulle-strade-di-barriera-di-milano-il-no-dei-fratelli-d-italia-alla-moschea-marrone-se-la-facessero-a-casa-loro-ma-c-e-e5f622ea-8724-4697-a0c3-76ab1eed9xlk.shtml",
+   "pubblicato": "2026-10-19T18:46:26Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "0bb7f6e8c8191a9f",
    "fonte": "repubblica",
    "titolo": "Tragedia nel Cosentino, tredicenne muore schiacciata dal trattore guidato dal padre",
@@ -36449,6 +38769,16 @@
    "link": "https://www.rainews.it/video/2026/10/roma-aeroporto-fiumicino-controlli-bagagli-si-va-dalla-droga-alle-tartarughe-138ee963-a8c6-4ca8-a747-802ae24257d1.html",
    "pubblicato": "2026-10-19T18:45:00Z",
    "raccolto": "2026-10-19T20:36:57Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b87ebee8b4d6da0c",
+   "fonte": "corriere",
+   "titolo": "Mattarella sui fatti di Milano: «Ogni violenza è inaccettabile, piena solidarietà alle forze dell'ordine»",
+   "estratto": "L’intervento del Presidente",
+   "link": "https://video.corriere.it/politica/mattarella-sui-fatti-di-milano-ogni-violenza-e-inaccettabile-piena-solidarieta-alle-forze-dell-ordine/af14639d-b862-4198-be46-2a11dec02xlk",
+   "pubblicato": "2026-10-19T18:44:38Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -36649,6 +38979,16 @@
    "link": "https://www.liberoquotidiano.it/news/politica/49412080/sondaggio-mentana-fdi-sfiora-30-trionfo-meloni-doppio-scenario-vannacci/",
    "pubblicato": "2026-10-19T18:19:00Z",
    "raccolto": "2026-10-20T00:24:08Z",
+   "canale": "rss"
+  },
+  {
+   "id": "af287d14a644094d",
+   "fonte": "corriere",
+   "titolo": "Marattin, l’ex renziano verso destra: «Matteo vuole solo sentirsi dire di sì»",
+   "estratto": "Il leader dei Libdem: Renzi era una volta un leader, non un santone che vuol sentirsi sempre dire sì",
+   "link": "https://www.corriere.it/politica/26_ottobre_19/marattin-l-ex-renziano-verso-destra-matteo-vuole-solo-sentirsi-dire-di-si-1a91291a-bcfa-4567-8e0c-d8b94c33axlk.shtml",
+   "pubblicato": "2026-10-19T18:18:29Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -37192,6 +39532,16 @@
    "canale": "instagram"
   },
   {
+   "id": "76ad0d601b0b3764",
+   "fonte": "corriere",
+   "titolo": "La contestazione al ministro israeliano Ben Gvir all'università di Tel Aviv: «Fascista, vattene»",
+   "estratto": "",
+   "link": "https://video.corriere.it/esteri/video-verticali/la-contestazione-al-ministro-israeliano-ben-gvir-all-universita-di-tel-aviv-fascista-vattene/c77626a7-8845-4e99-8b8a-93da924eaxlk",
+   "pubblicato": "2026-10-19T17:29:43Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "ca78c2ee9d3b421d",
    "fonte": "skytg24",
    "titolo": "Sanremo Giovani 2026, i 60 artisti selezionati per le audizioni dal vivo",
@@ -37549,6 +39899,16 @@
    "link": "https://tg24.sky.it/cronaca/video/2026/10/19/sky-cube-1910-chi-sono-i-giovani-che-hanno-devastato-milano-1132906",
    "pubblicato": "2026-10-19T17:00:24Z",
    "raccolto": "2026-10-19T20:36:57Z",
+   "canale": "rss"
+  },
+  {
+   "id": "db181574875e32e1",
+   "fonte": "corriere",
+   "titolo": "Mattarella sui fatti di Milano: «Violenze inaccettabili da soggetti inediti, serve analisi e vigilanza»",
+   "estratto": "Le parole del capo dello Stato: «Ai 200 feriti va la piena solidarietà della comunità nazionale»",
+   "link": "https://roma.corriere.it/notizie/politica/26_ottobre_19/mattarella-violenze-inaccettabili-milano-38acbbce-b52e-46a0-89da-e05b6c2ecxlk.shtml",
+   "pubblicato": "2026-10-19T17:00:16Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -38122,6 +40482,16 @@
    "canale": "rss"
   },
   {
+   "id": "20f6c8ed39805c4c",
+   "fonte": "corriere",
+   "titolo": "A Milano i negozi chiudono per timore di nuovi saccheggi: in Galleria Vittorio Emanuele saracinesche abbassate già nel pomeriggio",
+   "estratto": "Vari tam tam sui social parlavano di nuovi \"raduni\" in centro anche in queste ore",
+   "link": "https://video.corriere.it/cronaca/a-milano-i-negozi-chiudono-per-timore-di-nuovi-saccheggi-in-galleria-vittorio-emanuele-saracinesche-abbassate-gia-nel-pomeriggio/799183d5-b7af-4106-a6b1-b01065c0cxlk",
+   "pubblicato": "2026-10-19T16:07:45Z",
+   "raccolto": "2026-10-22T15:33:48Z",
+   "canale": "rss"
+  },
+  {
    "id": "be2677e6d195f8f2",
    "fonte": "skytg24",
    "titolo": "Palazzo Chigi, vertice d'urgenza sulla sicurezza",
@@ -38139,6 +40509,16 @@
    "link": "https://www.laverita.info/le-nostre-radici/dialetti-regione-lombardia-bando",
    "pubblicato": "2026-10-19T16:04:44Z",
    "raccolto": "2026-10-19T20:36:57Z",
+   "canale": "rss"
+  },
+  {
+   "id": "35bbe55850851770",
+   "fonte": "corriere",
+   "titolo": "Guerra, droghe, vodka e milioni: così Pavel Prigozhin, figlio del capo della Wagner, ora guida le brigate in Africa",
+   "estratto": "L'inchiesta del «Wall Street Journal»: il figlio di Evgenij Prigozhin, morto dopo aver tentato un presunto golpe ai danni di Putin, spadroneggia in Repubblica Centrafricana e si arricchisce con…",
+   "link": "https://www.corriere.it/esteri/26_ottobre_19/pavel-prigozhin-c7a54611-5cab-4538-bd91-5f4cff5b2xlk.shtml",
+   "pubblicato": "2026-10-19T16:03:42Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -38169,6 +40549,16 @@
    "link": "https://www.rainews.it/video/2026/10/pep-guardiola-gaza-non-sono-numeri-effetti-collaterali-sono-persone-f26d66aa-aca9-4ce5-8c8a-2b9e0cf2399c.html",
    "pubblicato": "2026-10-19T16:03:00Z",
    "raccolto": "2026-10-19T20:36:57Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ee2b239ce8b637ec",
+   "fonte": "corriere",
+   "titolo": "Il video delle lunghe code allo svincolo di Caserta Nord sulla A1 a causa della protesta degli autotrasportatori",
+   "estratto": "Camion e trattori continuano a presidiare diversi snodi stradali contro il caro carburante",
+   "link": "https://video.corriere.it/cronaca/il-video-delle-lunghe-code-allo-svincolo-di-caserta-nord-sulla-a1-a-causa-della-protesta-degli-autotrasportatori/17eb32d9-d6dd-4914-be94-fceeba2f0xlk",
+   "pubblicato": "2026-10-19T16:02:47Z",
+   "raccolto": "2026-10-22T15:33:48Z",
    "canale": "rss"
   },
   {
@@ -38478,46 +40868,6 @@
    "estratto": "A quasi dieci anni dalla morte di Giulio Regeni, la sentenza di primo grado che ha condannato tre agenti dei servizi segreti egiziani torna al centro della vicenda giudiziaria con una richiesta…",
    "link": "https://www.ilfattoquotidiano.it/2026/10/19/undefined-59/8543484/",
    "pubblicato": "2026-10-19T15:34:01Z",
-   "raccolto": "2026-10-19T20:36:57Z",
-   "canale": "rss"
-  },
-  {
-   "id": "431d0639296fd467",
-   "fonte": "skytg24",
-   "titolo": "Emis Killa, annunciato un sesto concerto a Milano a novembre",
-   "estratto": "Nel corso degli anni il rapper ha scalato le classifiche con numerosi singoli: da Scordarmi chi ero a Demoni passando per Maracanã, Rollercoaster, Fuoco e benzina e La mia malattia. Spazio anche…",
-   "link": "https://tg24.sky.it/spettacolo/musica/2026/10/19/emis-killa-concerto-milano",
-   "pubblicato": "2026-10-19T15:33:02Z",
-   "raccolto": "2026-10-19T20:36:57Z",
-   "canale": "rss"
-  },
-  {
-   "id": "49d0a46836dbc168",
-   "fonte": "libero",
-   "titolo": "Violenze Milano, La Russa: chi condanna col \"però\" aizza le piazze",
-   "estratto": "",
-   "link": "https://www.liberoquotidiano.it/news/tv-news/49411886/violenze-milano-la-russa-chi-condanna-col-pero-aizza-le-piazze/",
-   "pubblicato": "2026-10-19T15:33:00Z",
-   "raccolto": "2026-10-19T20:36:57Z",
-   "canale": "rss"
-  },
-  {
-   "id": "26a22067d47ae3b7",
-   "fonte": "ilfatto",
-   "titolo": "Giovani in rivolta: è solo l’inizio. Ad essere vittima di un sistema feroce è un’intera generazione",
-   "estratto": "Le auto bruciate e le vetrine sfondate non piacciono quasi a nessuno. Dico “quasi” perché una parte della politica e della pubblicistica, le trova indispensabili per la costruzione di una narrazione…",
-   "link": "https://www.ilfattoquotidiano.it/2026/10/19/giovani-in-rivolta-e-solo-linizio-ad-essere-vittima-di-un-sistema-feroce-e-unintera-generazione/8543229/",
-   "pubblicato": "2026-10-19T15:32:01Z",
-   "raccolto": "2026-10-19T20:36:57Z",
-   "canale": "rss"
-  },
-  {
-   "id": "ef326480d3b96ce0",
-   "fonte": "lastampa",
-   "titolo": "Scontri, la liceale Giulia difende i violenti: “Non li condanno, in Francia e Spagna ha funzionato”",
-   "estratto": "Torino, la studentessa: «Sbagliato dividersi in bravi e cattivi»",
-   "link": "https://www.lastampa.it/torino/2026/10/19/news/scontri-liceale-giulia-violenza-proteste-francia-spagna-15771200/",
-   "pubblicato": "2026-10-19T15:32:00Z",
    "raccolto": "2026-10-19T20:36:57Z",
    "canale": "rss"
   }
