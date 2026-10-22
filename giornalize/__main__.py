@@ -15,6 +15,7 @@ import argparse
 import logging
 import os
 import sys
+from datetime import timedelta
 from pathlib import Path
 
 from . import archivio, instagram
@@ -102,12 +103,19 @@ def comando_prova_fonti(config, ids: list[str]) -> int:
         if senza_data:
             dettagli.append(f"{senza_data} notizie senza data leggibile: si usa l'ora della raccolta")
         if notizie:
-            dettagli.append(f"esempio: «{notizie[0]['titolo'][:70]}»")
+            date = sorted(n["pubblicato"] for n in notizie)
+            limite = archivio.ora_utc() - timedelta(days=config["raccolta"]["giorni_archivio"])
+            recenti = sum(1 for n in notizie if archivio.data(n) >= limite)
+            dettagli.append(f"date da {date[0]} a {date[-1]}; {recenti} entro i {config['raccolta']['giorni_archivio']} giorni dell'archivio")
+            for n in notizie[:3]:
+                dettagli.append(f"esempio: «{n['titolo'][:70]}» ({n['pubblicato']}) {n['link'][:90]}")
         righe.append(
             f"| {fonte.nome} | {simboli[stato['esito']]} | {len(notizie)} | {'<br>'.join(dettagli).replace('|', '/')} |"
         )
     rapporto = "## Rapporto sulle fonti\n\n" + "\n".join(righe) + "\n"
     print(rapporto)
+    (CARTELLA_DATI / "rapporto_fonti.md").write_text(
+        f"Prova delle fonti del {archivio.ora_utc():%Y-%m-%d %H:%M} UTC\n\n{rapporto}", encoding="utf-8")
     # Su GitHub il rapporto compare anche nella pagina dell'esecuzione.
     riepilogo = os.environ.get("GITHUB_STEP_SUMMARY")
     if riepilogo:

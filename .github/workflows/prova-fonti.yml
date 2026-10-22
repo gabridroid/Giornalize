@@ -12,7 +12,7 @@ on:
         default: ""
 
 permissions:
-  contents: read
+  contents: write   # per salvare il rapporto in data/rapporto_fonti.md
 
 jobs:
   prova:
@@ -29,3 +29,11 @@ jobs:
         env:
           FONTI: ${{ github.event.inputs.fonti }}
         run: python -m giornalize prova-fonti $FONTI
+      - name: Salva il rapporto
+        run: |
+          git config user.name "giornalize-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/rapporto_fonti.md
+          git diff --cached --quiet || git commit -q -m "Rapporto sulle fonti"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
