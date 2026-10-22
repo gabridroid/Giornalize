@@ -69,7 +69,7 @@ jobs:
             echo "Nessuna novità da salvare."
           else
             git commit -q -m "Aggiornamento notizie $(date -u +'%Y-%m-%d %H:%M') UTC"
-            git pull -q --rebase origin main
+            git pull -q --rebase --autostash origin main
             git push -q origin HEAD:main
           fi
 

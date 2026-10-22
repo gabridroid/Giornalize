@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write   # per salvare il rapporto in data/rapporto_fonti.md
 
+concurrency:
+  group: aggiorna-giornalize
+  cancel-in-progress: false
+
 jobs:
   prova:
     runs-on: ubuntu-latest
@@ -35,5 +39,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/rapporto_fonti.md
           git diff --cached --quiet || git commit -q -m "Rapporto sulle fonti"
-          git pull -q --rebase origin main
+          git pull -q --rebase --autostash origin main
           git push -q origin HEAD:main
