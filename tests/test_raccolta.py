@@ -91,3 +91,15 @@ def test_date_scritte_in_italiano():
     assert raccolta.data_da_testo("2026-10-17T21:30:00+02:00") == atteso
     assert raccolta.data_da_testo("Mar, 3 Mar 2026 10:00:00 +0000") == datetime(2026, 3, 3, 10, tzinfo=timezone.utc)
     assert raccolta.data_da_testo("ieri sera") is None
+
+
+def test_feed_fermo_segnalato(config, internet_finto, ora):
+    from datetime import timedelta
+    vecchie = [{"titolo": f"Notizia vecchia {i}", "sommario": "", "link": f"https://corriere.example.it/{i}",
+                "quando": ora - timedelta(days=200 + i)} for i in range(3)]
+    internet_finto["https://corriere.example.it/feed.xml"] = dati_prova.feed_rss(vecchie)
+    fonte = config.fonti_per_id["corriere"]
+    fonte.sito = ""
+    notizie, stato = raccolta.raccogli_fonte(fonte, config, ora)
+    assert notizie == [] and stato["esito"] == "errore"
+    assert "feed fermo" in stato["errori"][0]

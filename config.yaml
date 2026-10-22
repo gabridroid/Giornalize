@@ -27,6 +27,10 @@ raccolta:
   giorni_archivio: 3
   # Quante notizie al massimo leggere da ogni singolo feed.
   max_notizie_per_feed: 80
+  # Un feed la cui notizia più recente ha più di questi giorni è
+  # considerato "fermo" (abbandonato): viene segnalato come errore e il
+  # programma cerca un feed nuovo sul sito.
+  giorni_feed_fermo: 7
 
 estratto:
   # Lunghezza massima dell'estratto mostrato sotto il titolo.

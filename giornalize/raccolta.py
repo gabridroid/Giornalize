@@ -295,7 +295,7 @@ def scopri_feed(sito: str, fonte: Fonte, config: Configurazione, ora: datetime) 
                 notizie = leggi_sitemap(fonte, contenuto, config, ora, timeout)
         except Exception:
             continue
-        if notizie:
+        if notizie and not _feed_fermo(notizie, config, ora):
             return tipo, url, notizie
     raise ValueError("nessun feed trovato in automatico")
 
@@ -327,6 +327,9 @@ def raccogli_fonte(fonte: Fonte, config: Configurazione, ora: datetime | None = 
                 trovate = leggi_feed(fonte, scarica(url, timeout), config, ora)
             else:
                 trovate = leggi_sitemap(fonte, scarica(url, timeout), config, ora, timeout)
+            fermo = _feed_fermo(trovate, config, ora)
+            if fermo:
+                raise ValueError(fermo)
             notizie += trovate
             stato["canali_ok"].append(url)
             log.info("%s: %d notizie da %s", fonte.id, len(trovate), url)
@@ -359,6 +362,18 @@ def raccogli_fonte(fonte: Fonte, config: Configurazione, ora: datetime | None = 
         stato["esito"] = "parziale"
     stato["notizie"] = len(notizie)
     return notizie, stato
+
+
+def _feed_fermo(notizie: list[dict], config: Configurazione, ora: datetime) -> str:
+    """Un feed che risponde ma non si aggiorna da giorni va trattato come
+    un errore (es. un vecchio indirizzo abbandonato dal giornale)."""
+    giorni = config["raccolta"].get("giorni_feed_fermo", 7)
+    if not notizie or not giorni:
+        return ""
+    ultima = max(notizie, key=lambda n: n["pubblicato"])["pubblicato"]
+    if datetime.fromisoformat(ultima.replace("Z", "+00:00")) < ora - timedelta(days=giorni):
+        return f"feed fermo: l'ultima notizia è del {ultima[:10]}"
+    return ""
 
 
 def _descrivi_errore(e: Exception) -> str:
