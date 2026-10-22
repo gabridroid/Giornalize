@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-22T15:29:50Z",
+ "aggiornato": "2026-10-22T15:31:56Z",
  "notizie": [
   {
    "id": "ca365b1896b6ccc3",
@@ -69,6 +69,16 @@
    "link": "https://tg24.sky.it/cronaca/approfondimenti/blocco-tir-carenza-merci",
    "pubblicato": "2026-10-22T15:34:25Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a6d8917c5f7ba726",
+   "fonte": "linkiesta",
+   "titolo": "Cosa succede se Trump perde le elezioni di metà mandato",
+   "estratto": "Enrico Cisnetto dialoga con Marta Dassù, Antonio Di Bella e Paolo Mastrolilli",
+   "link": "https://www.linkiesta.it/2026/10/trump-elezioni-midterm-previsioni/",
+   "pubblicato": "2026-10-22T15:30:01Z",
+   "raccolto": "2026-10-22T15:31:56Z",
    "canale": "rss"
   },
   {
@@ -909,6 +919,16 @@
    "link": "https://tg24.sky.it/mondo/approfondimenti/sky-cube-live-puntate",
    "pubblicato": "2026-10-22T14:30:00Z",
    "raccolto": "2026-10-22T15:26:26Z",
+   "canale": "rss"
+  },
+  {
+   "id": "faab376a4502610c",
+   "fonte": "nicolaporro",
+   "titolo": "Che figata farsi i reel davanti agli scontri",
+   "estratto": "E’ uscita la nuova puntata di “Frontale”, newsletter di Fabio Massa con riflessioni (su Milano e non solo), inside e racconti di quello che accade in città. Ci si può iscrivere qui: Guardate qui. Ne…",
+   "link": "https://www.nicolaporro.it/milanoquotidiano/che-figata-farsi-i-reel-davanti-agli-scontri/",
+   "pubblicato": "2026-10-22T14:29:11Z",
+   "raccolto": "2026-10-22T15:31:56Z",
    "canale": "rss"
   },
   {
@@ -38498,16 +38518,6 @@
    "estratto": "Torino, la studentessa: «Sbagliato dividersi in bravi e cattivi»",
    "link": "https://www.lastampa.it/torino/2026/10/19/news/scontri-liceale-giulia-violenza-proteste-francia-spagna-15771200/",
    "pubblicato": "2026-10-19T15:32:00Z",
-   "raccolto": "2026-10-19T20:36:57Z",
-   "canale": "rss"
-  },
-  {
-   "id": "74ba1bd28e12aa81",
-   "fonte": "linkiesta",
-   "titolo": "Dalla banda della minicar alle proteste violente, due facce della stessa generazione",
-   "estratto": "Alessandro Barbano dialoga con Sarantis Thanopulos, Massimiliano Valerii e Stefano Vicari",
-   "link": "https://www.linkiesta.it/2026/10/minicar-proteste-milano-piazza-duomo/",
-   "pubblicato": "2026-10-19T15:30:41Z",
    "raccolto": "2026-10-19T20:36:57Z",
    "canale": "rss"
   }
