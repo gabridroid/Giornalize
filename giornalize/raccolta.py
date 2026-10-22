@@ -339,7 +339,8 @@ def raccogli_fonte(fonte: Fonte, config: Configurazione, ora: datetime | None = 
             log.warning("%s: errore con %s", fonte.id, messaggio)
 
     solo_instagram = canali and all(t == "instagram" for t, _ in canali)
-    if (not stato["canali_ok"] and fonte.sito and not solo_instagram
+    # Ricerca automatica se nessun canale ha dato notizie (in errore, fermo o vuoto).
+    if (not notizie and fonte.sito and not solo_instagram
             and config["raccolta"].get("scoperta_automatica", True)):
         try:
             tipo, url, trovate = scopri_feed(fonte.sito, fonte, config, ora)
@@ -356,7 +357,7 @@ def raccogli_fonte(fonte: Fonte, config: Configurazione, ora: datetime | None = 
 
     if not canali and not stato["canali_ok"]:
         stato["esito"] = "nessun_canale"
-    elif not stato["canali_ok"]:
+    elif not stato["canali_ok"] or (not notizie and stato["errori"]):
         stato["esito"] = "errore"
     elif stato["errori"]:
         stato["esito"] = "parziale"
