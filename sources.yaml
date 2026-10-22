@@ -88,10 +88,15 @@ fonti:
     orientamento_breve: Moderato
     sito: https://www.corriere.it
     instagram: "@corriere"
+    # I vecchi feed xml2.corriereobjects.it sono fermi (ultima notizia 2024):
+    # questi sono gli indirizzi attuali trovati sul sito.
     feed:
-      - https://xml2.corriereobjects.it/rss/homepage.xml
-      - https://xml2.corriereobjects.it/rss/politica.xml
-      - https://xml2.corriereobjects.it/rss/cronache.xml
+      - https://www.corriere.it/feed-hp/homepage-restyle-2025.xml
+      - https://www.corriere.it/dynamic-feed/rss/section/Politica.xml
+      - https://www.corriere.it/dynamic-feed/rss/section/Cronache.xml
+      - https://www.corriere.it/dynamic-feed/rss/section/Esteri.xml
+    sitemap:
+      - https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Interni.xml
     attiva: true
 
   - id: repubblica
