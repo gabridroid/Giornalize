@@ -1,6 +1,26 @@
 {
- "aggiornato": "2026-10-23T18:08:33Z",
+ "aggiornato": "2026-10-23T18:13:03Z",
  "notizie": [
+  {
+   "id": "f36ecd6f217f7385",
+   "fonte": "teleborsa",
+   "titolo": "OPA Haiki+, SG Holding raggiunge con i concertisti il 71,9% del capitale",
+   "estratto": "(Teleborsa) - Nell'ambito dell’offerta pubblica di acquisto volontaria totalitaria promossa da SG Holding sulle azioni ordinarie di Haiki+, emerge che, nel periodo compreso tra il 19 e il 23 ottobre…",
+   "link": "https://www.teleborsa.it/DettaglioNews/227_2026-10-23_TLB/OPA-Haiki-SG-Holding-raggiunge-con-i-concertisti-il-719-del-capitale.html",
+   "pubblicato": "2026-10-23T18:13:45Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6e1aa41a3f00ec7e",
+   "fonte": "open",
+   "titolo": "Scontri di Milano, Selvaggia Lucarelli accusa Fedez: «Sta con il potere». Lui: «Ma che stai a dì?» – Il video",
+   "estratto": "Botta e risposta in rete tra la firma del Fatto Quotidiano e il rapper di Rozzano. L'accusa: «Vuole convincere i giovani all’impotenza». L'artista replica dal suo podcast Pulp",
+   "link": "https://www.open.online/2026/10/23/scontri-milano-selvaggia-lucarelli-fedez-video/",
+   "pubblicato": "2026-10-23T18:11:09Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
   {
    "id": "326262745db79f27",
    "fonte": "libero",
@@ -9,6 +29,16 @@
    "link": "https://www.liberoquotidiano.it/news/49438640/undefined/",
    "pubblicato": "2026-10-23T18:08:33Z",
    "raccolto": "2026-10-23T18:08:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b36b86b16adb32d2",
+   "fonte": "quotidianodelsud",
+   "titolo": "Ponte sullo Stretto, il Giappone pronto a supportare la megaopera",
+   "estratto": "Il Quotidiano del Sud Ponte sullo Stretto, il Giappone pronto a supportare la megaopera Ponte sullo Stretto, al Mit il primo tavolo Italia-Giappone sui ponti a grande luce. Rixi e Hashimoto avviano…",
+   "link": "https://www.quotidianodelsud.it/nazionale/politica/infrastrutture/2026/10/23/ponte-sullo-stretto-il-giappone-pronto-a-supportare-la-megaopera",
+   "pubblicato": "2026-10-23T18:07:45Z",
+   "raccolto": "2026-10-23T18:13:03Z",
    "canale": "rss"
   },
   {
@@ -32,6 +62,46 @@
    "canale": "rss"
   },
   {
+   "id": "2fd3328700c51b83",
+   "fonte": "quotidianodelsud",
+   "titolo": "Esmo 2026, Di Maio (Aiom): “Italia protagonista della ricerca oncologica internazionale”",
+   "estratto": "Il Quotidiano del Sud Esmo 2026, Di Maio (Aiom): “Italia protagonista della ricerca oncologica internazionale” (Adnkronos) – “L’Italia si conferma tra i protagonisti della ricerca oncologica…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/esmo-2026-di-maio-aiom-italia-protagonista-della-ricerca-oncologica-internazionale",
+   "pubblicato": "2026-10-23T18:06:04Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cae7a8d9f988dcbd",
+   "fonte": "quotidianodelsud",
+   "titolo": "Doppio ko in casa Juventus, si fermano Celik e Gonzalez per due infortuni muscolari",
+   "estratto": "Il Quotidiano del Sud Doppio ko in casa Juventus, si fermano Celik e Gonzalez per due infortuni muscolari (Adnkronos) – Doppia tegola in casa Juventus, che perde almeno fino alla sosta di novembre…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/doppio-ko-in-casa-juventus-si-fermano-celik-e-gonzalez-per-due-infortuni-muscolari",
+   "pubblicato": "2026-10-23T18:05:58Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4c2f32c6e430e5ae",
+   "fonte": "quotidianodelsud",
+   "titolo": "T3 Expo e Agv Expo, seconda giornata su decarbonizzazione e automazione",
+   "estratto": "Il Quotidiano del Sud T3 Expo e Agv Expo, seconda giornata su decarbonizzazione e automazione (Adnkronos) – Ridurre le emissioni del trasporto pesante, rafforzare la sicurezza degli operatori e…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/t3-expo-e-agv-expo-seconda-giornata-su-decarbonizzazione-e-automazione",
+   "pubblicato": "2026-10-23T18:05:51Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3b1dfe5ab17cd51f",
+   "fonte": "quotidianodelsud",
+   "titolo": "Roma, cade da tetto mentre tenta furto in un capannone: muore 24enne",
+   "estratto": "Il Quotidiano del Sud Roma, cade da tetto mentre tenta furto in un capannone: muore 24enne (Adnkronos) – Il cadavere di un ragazzo di 24 anni, di origini rom, con volto coperto da un passamontagna e…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/roma-cade-da-tetto-mentre-tenta-furto-in-un-capannone-muore-24enne",
+   "pubblicato": "2026-10-23T18:05:45Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
    "id": "c4c8069683b18b29",
    "fonte": "ilfatto",
    "titolo": "Francia, uomo apre il fuoco da un’auto vicino Parigi: un morto e cinque feriti. Macron: “Attentato terroristico razzista”",
@@ -42,6 +112,56 @@
    "canale": "rss"
   },
   {
+   "id": "ac70a8bbe9c01c48",
+   "fonte": "quotidianodelsud",
+   "titolo": "LeBron James replica a Trump dopo le polemiche sull’inno americano: “Poche notizie in redazione”",
+   "estratto": "Il Quotidiano del Sud LeBron James replica a Trump dopo le polemiche sull’inno americano: “Poche notizie in redazione” (Adnkronos) – Un filmato registrato sugli spalti del Madison Square Garden e…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/lebron-james-replica-a-trump-dopo-le-polemiche-sullinno-americano-poche-notizie-in-redazione",
+   "pubblicato": "2026-10-23T18:05:37Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "887dca2632c8385a",
+   "fonte": "quotidianodelsud",
+   "titolo": "Lusetti (Confcommercio): “Contratti pirata corsa al ribasso”",
+   "estratto": "Il Quotidiano del Sud Lusetti (Confcommercio): “Contratti pirata corsa al ribasso” (Adnkronos) – “Quando hai dei consulenti del lavoro che ti dicono ‘sei in difficoltà, utilizza un contratto che…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/lusetti-confcommercio-contratti-pirata-corsa-al-ribasso",
+   "pubblicato": "2026-10-23T18:05:30Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "19371cdc41f16ada",
+   "fonte": "quotidianodelsud",
+   "titolo": "Stoppani (Fipe): “I giovani cercano equilibrio, stabilità e giusta retribuzione”",
+   "estratto": "Il Quotidiano del Sud Stoppani (Fipe): “I giovani cercano equilibrio, stabilità e giusta retribuzione” (Adnkronos) – “Il senso del lavoro è profondamente cambiato e oggi la prima motivazione che…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/stoppani-fipe-i-giovani-cercano-equilibrio-stabilita-e-giusta-retribuzione",
+   "pubblicato": "2026-10-23T18:05:23Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a7c0a2191e0405d2",
+   "fonte": "quotidianodelsud",
+   "titolo": "Ucraina, il dramma di Oleshky: l’inferno in terra sulla linea del fronte",
+   "estratto": "Il Quotidiano del Sud Ucraina, il dramma di Oleshky: l’inferno in terra sulla linea del fronte (Adnkronos) – La First lady americana, Melania Trump, ha ottenuto un cessate il fuoco nella città…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/ucraina-il-dramma-di-oleshky-linferno-in-terra-sulla-linea-del-fronte",
+   "pubblicato": "2026-10-23T18:05:16Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
+   "id": "adc6d602c1d7b3da",
+   "fonte": "quotidianodelsud",
+   "titolo": "Orlandi (Aigrim-Fipe): “40% forza lavoro è under 30, il problema è trattenerli”",
+   "estratto": "Il Quotidiano del Sud Orlandi (Aigrim-Fipe): “40% forza lavoro è under 30, il problema è trattenerli” (Adnkronos) – “Il 40% della nostra forza lavoro è under 30. C’è quindi ancora una forte…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/orlandi-aigrim-fipe-40-forza-lavoro-e-under-30-il-problema-e-trattenerli",
+   "pubblicato": "2026-10-23T18:05:09Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
    "id": "46f40d4b49a1f385",
    "fonte": "ansa",
    "titolo": "Bimba di tre anni uccisa a coltellate dalla madre in casa",
@@ -49,6 +169,16 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/23/bimba-di-tre-anni-uccisa-a-coltellate-dalla-madre-in-casa_800346db-f039-44c9-9562-d7fa9b8dfe8a.html",
    "pubblicato": "2026-10-23T18:05:05Z",
    "raccolto": "2026-10-23T18:08:33Z",
+   "canale": "rss"
+  },
+  {
+   "id": "490e9f43e7480051",
+   "fonte": "quotidianodelsud",
+   "titolo": "Terremoto in Sicilia, solo oggi 42 scosse nel Mar Tirreno Meridionale. L’Ingv: “Zona dalla pericolosità sismica alta”",
+   "estratto": "Il Quotidiano del Sud Terremoto in Sicilia, solo oggi 42 scosse nel Mar Tirreno Meridionale. L’Ingv: “Zona dalla pericolosità sismica alta” (Adnkronos) – Sono decine e decine le scosse di terremoto…",
+   "link": "https://www.quotidianodelsud.it/2026/10/23/terremoto-in-sicilia-solo-oggi-42-scosse-nel-mar-tirreno-meridionale-lingv-zona-dalla-pericolosita-sismica-alta",
+   "pubblicato": "2026-10-23T18:05:01Z",
+   "raccolto": "2026-10-23T18:13:03Z",
    "canale": "rss"
   },
   {
@@ -4152,6 +4282,16 @@
    "canale": "rss"
   },
   {
+   "id": "63bd341e7b60ec71",
+   "fonte": "libero",
+   "titolo": "Crisanti passa da Pd a Rifondazione Comunista: \"Io bolscevico, me l'ha chiesto Schlein\"",
+   "estratto": "\"È vero. Sono il bolscevico Andrea Crisanti. Il Pd mi presta a Rifondazione Comunista di Maurizio Acerbo\". A dirlo è lo stesso microbiologo e senatore del Partito Democratico in un colloquio con Il…",
+   "link": "https://www.liberoquotidiano.it/news/politica/49438011/crisanti-passa-pd-rifondazione-comunista-io-bolscevico-/",
+   "pubblicato": "2026-10-23T14:04:00Z",
+   "raccolto": "2026-10-23T18:13:03Z",
+   "canale": "rss"
+  },
+  {
    "id": "337feb5310305bd0",
    "fonte": "domani",
    "titolo": "Gaza e il fallimento del Board of Peace nella prossima puntata di PresaDiretta",
@@ -5279,6 +5419,16 @@
    "link": "https://www.teleborsa.it/DettaglioNews/143_2026-10-23_TLB/Petrolio-prosegue-la-corsa-del-Brent-massimi-da-cinque-mesi-sopra-ai-115-dollari.html",
    "pubblicato": "2026-10-23T12:38:08Z",
    "raccolto": "2026-10-23T18:01:01Z",
+   "canale": "rss"
+  },
+  {
+   "id": "03a56c2e6462d1c8",
+   "fonte": "libero",
+   "titolo": "Meghan Markle sotto choc: foto pedopornografiche a casa del padre",
+   "estratto": "Un nuovo scandalo travolge Meghan Markle: la duchessa di Sussex e moglie del principe Harry si è detta \"profondamente turbata\" dopo le notizie secondo cui il fratello Thomas Markle Jr. avrebbe…",
+   "link": "https://www.liberoquotidiano.it/news/esteri/49437547/meghan-markle-sotto-choc-padre-foto-pedopornografiche/",
+   "pubblicato": "2026-10-23T12:38:00Z",
+   "raccolto": "2026-10-23T18:13:03Z",
    "canale": "rss"
   },
   {
@@ -45689,56 +45839,6 @@
    "link": "https://www.ansa.it/sito/notizie/cronaca/2026/10/20/scontri-a-milano-4-maggiorenni-restano-in-carcere-e-uno-va-ai-domiciliari_4950f746-3842-4546-8b28-1f898c6b7afa.html",
    "pubblicato": "2026-10-20T18:14:04Z",
    "raccolto": "2026-10-20T19:19:17Z",
-   "canale": "rss"
-  },
-  {
-   "id": "dccb33e958711bd6",
-   "fonte": "repubblica",
-   "titolo": "Festa del cinema di Roma, le pagelle sul red carpet di martedì, da Benedetta Porcaroli a Ghali",
-   "estratto": "La festa del cinema di Roma accoglie il red carpet di 7 anniversari, nuovo lavoro dell’attrice romana, e il cantante milanese, nella passerella dedicata al film A mare. Si prosegue con The Idiot(s)…",
-   "link": "https://d.repubblica.it/fashion/look-delle-star/2026/10/20/news/festa_del_cinema_di_roma_le_pagelle_sul_red_carpet_di_martedi_da_benedetta_porcaroli_a_ghali-425660998/",
-   "pubblicato": "2026-10-20T18:11:53Z",
-   "raccolto": "2026-10-20T19:19:17Z",
-   "canale": "rss"
-  },
-  {
-   "id": "a2659227d4079a32",
-   "fonte": "domani",
-   "titolo": "Manovra in alto mare, è sfida sulla sanità. E sui tir Salvini fa il gioco delle tre carte",
-   "estratto": "Le regioni “rosse” chiedono al governo di dare seguito alla richiesta del ministro della Salute Schillaci di stanziare 5,5 miliardi. Il leghista promette lo sblocco delle risorse (già previste) per…",
-   "link": "https://www.editorialedomani.it/politica/italia/manovra-governo-legge-bilancio-sfida-sanita-tir-salvini-gioco-tre-carte-jkt8pm5o",
-   "pubblicato": "2026-10-20T18:11:51Z",
-   "raccolto": "2026-10-20T19:19:17Z",
-   "canale": "rss"
-  },
-  {
-   "id": "1c6d23a9ae1b0b64",
-   "fonte": "rainews",
-   "titolo": "Sui social appelli alla guerriglia e falsi allarmi",
-   "estratto": "A Cremona bloccati due adolescenti che incitavano a raid e saccheggi tramite una conversazione online. Intanto cresce una rete che punta a raduni autorganizzati, osservata anche dagli apparati di…",
-   "link": "https://www.rainews.it/video/2026/10/sui-social-appelli-alla-guerriglia-e-falsi-allarmi-6c96e3bd-a805-4565-9540-13fdc5a8390e.html",
-   "pubblicato": "2026-10-20T18:11:00Z",
-   "raccolto": "2026-10-20T19:19:17Z",
-   "canale": "rss"
-  },
-  {
-   "id": "1559631b75377e05",
-   "fonte": "rainews",
-   "titolo": "Sera 24 - Puntata del 20/10/202",
-   "estratto": "",
-   "link": "https://www.rainews.it/rubriche/sera24/video/2026/10/Sera-24---Puntata-del-2010202-288bd31c-bcdc-428b-854d-46e1b82f9cf0.html",
-   "pubblicato": "2026-10-20T18:10:09Z",
-   "raccolto": "2026-10-20T19:19:17Z",
-   "canale": "rss"
-  },
-  {
-   "id": "ed06bda087d8509b",
-   "fonte": "libero",
-   "titolo": "Violenze a cortei, Piantedosi: Fermo preventivo esteso per azioni in luoghi affollati",
-   "estratto": "",
-   "link": "https://www.liberoquotidiano.it/news/video-news-by-vista/49419997/violenze-a-cortei-piantedosi-fermo-preventivo-esteso-per-azioni-in-luoghi-affollati/",
-   "pubblicato": "2026-10-20T18:09:42Z",
-   "raccolto": "2026-10-20T23:56:04Z",
    "canale": "rss"
   }
  ]
