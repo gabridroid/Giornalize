@@ -8,8 +8,9 @@ from __future__ import annotations
 
 import json
 import logging
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from .testo import chiave_link, normalizza_titolo
 
@@ -119,6 +120,75 @@ def leggi_stato(percorso: Path) -> dict[str, dict]:
         return json.loads(percorso.read_text(encoding="utf-8"))
     except (FileNotFoundError, json.JSONDecodeError, OSError):
         return {}
+
+
+# --- Storico: una notizia per riga, un file al giorno ------------------------
+# Serve alla pagina "Temi da seguire", che guarda indietro più dei pochi
+# giorni dell'archivio principale. I file dei giorni passati non cambiano
+# più, così il progetto su GitHub cresce poco.
+
+CAMPI_STORICO = ("id", "fonte", "titolo", "estratto", "link", "pubblicato", "canale")
+FUSO_STORICO = ZoneInfo("Europe/Rome")
+
+
+def giorno(notizia: dict) -> date:
+    """Il giorno (ora italiana) in cui la notizia è stata pubblicata."""
+    return data(notizia).astimezone(FUSO_STORICO).date()
+
+
+def _scrivi_giorno(percorso: Path, notizie: list[dict]) -> None:
+    righe = ",\n".join(json.dumps(n, ensure_ascii=False) for n in notizie)
+    temporaneo = percorso.with_suffix(".tmp")
+    temporaneo.write_text('{"notizie": [\n' + righe + "\n]}\n", encoding="utf-8")
+    temporaneo.replace(percorso)
+
+
+def aggiorna_storico(cartella: Path, notizie: list[dict], ora: datetime, giorni: int) -> int:
+    """Copia le notizie dell'archivio nei file giornalieri dello storico
+    (senza doppioni) e cancella i giorni più vecchi di `giorni`.
+    Restituisce quanti file sono stati scritti."""
+    cartella.mkdir(parents=True, exist_ok=True)
+    primo_giorno = ora.astimezone(FUSO_STORICO).date() - timedelta(days=giorni - 1)
+    per_giorno: dict[date, list[dict]] = {}
+    for n in notizie:
+        g = giorno(n)
+        if g >= primo_giorno:
+            per_giorno.setdefault(g, []).append({k: n.get(k, "") for k in CAMPI_STORICO})
+
+    scritti = 0
+    for g, nuove in per_giorno.items():
+        percorso = cartella / f"{g.isoformat()}.json"
+        esistenti = leggi(percorso)
+        visti = {chiave_link(n["link"]) for n in esistenti}
+        aggiunte = []
+        for n in nuove:
+            chiave = chiave_link(n["link"])
+            if chiave not in visti:
+                visti.add(chiave)
+                aggiunte.append(n)
+        if aggiunte or not percorso.exists():
+            _scrivi_giorno(percorso, sorted(esistenti + aggiunte, key=lambda n: (n["pubblicato"], n["id"])))
+            scritti += 1
+
+    for vecchio in cartella.glob("*.json"):
+        try:
+            if date.fromisoformat(vecchio.stem) < primo_giorno:
+                vecchio.unlink()
+        except ValueError:
+            continue
+    return scritti
+
+
+def leggi_storico(cartella: Path, dal: date) -> list[dict]:
+    """Le notizie dello storico dal giorno `dal` in poi."""
+    notizie: list[dict] = []
+    for percorso in sorted(cartella.glob("*.json")) if cartella.exists() else []:
+        try:
+            if date.fromisoformat(percorso.stem) >= dal:
+                notizie += leggi(percorso)
+        except ValueError:
+            continue
+    return notizie
 
 
 def ora_utc() -> datetime:

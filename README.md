@@ -9,15 +9,18 @@ sempre all'articolo originale.
 
 Le pagine del sito:
 - **Oggi** (la home): le 10 storie più raccontate delle ultime 24 ore, con la barra «chi ne
-  parla» per area politica e 4 titoli a confronto;
+  parla» per area politica, 4 titoli a confronto scelti perché diversi e i **filoni** della
+  storia (i suoi diversi aspetti, ognuno con le sue fonti e la sua barra);
 - **Fuori dai radar**: storie raccontate da fonti indipendenti e poco presenti nei feed dei
   grandi giornali;
 - **Tutte**: tutto quello che è stato raccolto nelle ultime 48 ore, con i filtri;
+- **Temi**: argomenti scelti da te (file `temi.yaml`), seguiti giorno per giorno: chi ne ha
+  scritto e chi no;
 - **Fonti** e **Metodo** (come funziona); in fondo alla pagina, **Perché esiste questo sito**.
 
 Questa guida spiega come mettere online il sito, come aggiungere o togliere una fonte, come
 cambiare le impostazioni e cosa fare se qualcosa non va. Non serve saper programmare: quasi
-tutto si fa modificando due file di testo direttamente dal sito di GitHub.
+tutto si fa modificando tre file di testo direttamente dal sito di GitHub.
 
 ---
 
@@ -28,12 +31,13 @@ tutto si fa modificando due file di testo direttamente dal sito di GitHub.
 3. [Mettere il sito online (la prima volta)](#3-mettere-il-sito-online-la-prima-volta)
 4. [Aggiungere, togliere o correggere una fonte](#4-aggiungere-togliere-o-correggere-una-fonte)
 5. [Instagram: aggiungere i post](#5-instagram-aggiungere-i-post)
-6. [Cambiare le impostazioni e le soglie](#6-cambiare-le-impostazioni-e-le-soglie)
-7. [Scrivere la pagina "Perché esiste questo sito"](#7-scrivere-la-pagina-perché-esiste-questo-sito)
-8. [Aggiornare il sito](#8-aggiornare-il-sito)
-9. [Controllare gli errori](#9-controllare-gli-errori)
-10. [Costi e limiti](#10-costi-e-limiti)
-11. [Per chi vuole provarlo sul proprio computer](#11-per-chi-vuole-provarlo-sul-proprio-computer)
+6. [Temi da seguire](#6-temi-da-seguire)
+7. [Cambiare le impostazioni e le soglie](#7-cambiare-le-impostazioni-e-le-soglie)
+8. [Scrivere la pagina "Perché esiste questo sito"](#8-scrivere-la-pagina-perché-esiste-questo-sito)
+9. [Aggiornare il sito](#9-aggiornare-il-sito)
+10. [Controllare gli errori](#10-controllare-gli-errori)
+11. [Costi e limiti](#11-costi-e-limiti)
+12. [Per chi vuole provarlo sul proprio computer](#12-per-chi-vuole-provarlo-sul-proprio-computer)
 
 ---
 
@@ -63,9 +67,10 @@ tutto si fa modificando due file di testo direttamente dal sito di GitHub.
 |---|---|---|
 | `sources.yaml` | L'elenco delle fonti | **Sì** |
 | `config.yaml` | Impostazioni: soglie, finestre di tempo, nomi delle categorie | **Sì**, ogni tanto |
+| `temi.yaml` | I temi da seguire, con le parole da cercare | **Sì** |
 | `contenuti/perche-esiste.md` | Il testo della pagina "Perché esiste questo sito" | **Sì** |
 | `contenuti/post_instagram.yaml` | I post aggiunti a mano (anche con il modulo "Aggiungi un post") | **Sì**, o con il modulo |
-| `data/` | Le notizie raccolte e il registro degli errori (si aggiorna da solo) | No |
+| `data/` | Le notizie raccolte (`notizie.json`, ultimi 3 giorni), lo storico per i temi (`storico/`, un file al giorno, ultimi 30 giorni) e il registro degli errori. Si aggiorna da solo | No |
 | `templates/` | L'aspetto delle pagine (HTML) | Solo per cambiare testi fissi |
 | `static/` | Colori e stile (`stile.css`), filtri (`filtri.js`), orari tipo "2 ore fa" (`tempo.js`) | Raramente |
 | `giornalize/` | Il programma in Python | No |
@@ -171,8 +176,9 @@ Regole importanti:
 - **Gli spazi contano.** Ogni riga del blocco ha gli stessi spazi iniziali delle altre fonti
   (2 spazi prima del trattino, 4 prima degli altri campi). Non usare il tasto Tab.
 - La **categoria** deve essere scritta esattamente come una di queste: `Agenzie e all-news`,
-  `Quotidiani nazionali`, `Testate online e settimanali`, `Inchiesta e fact-checking`,
-  `Divulgatori social`.
+  `Quotidiani nazionali`, `Quotidiani locali`, `Testate online e settimanali`,
+  `Inchiesta e fact-checking`, `Divulgatori social`. I quotidiani locali contano nelle storie e
+  nei temi, ma non per "Fuori dai radar" (né come grandi giornali né come fonti indipendenti).
 - L'**area** deve essere una di queste: `sinistra`, `centro-sinistra`, `centro`, `centro-destra`,
   `destra`, `non collocabile`. Regola usata finora: l'area si ricava dalla descrizione in
   `orientamento`; se la descrizione non parla di sinistra o destra (per esempio "Cattolico",
@@ -271,7 +277,40 @@ Per rinnovarlo (circa 5 minuti, dal computer):
 
 Il numero `INSTAGRAM_ACCOUNT_ID` non cambia.
 
-## 6. Cambiare le impostazioni e le soglie
+## 6. Temi da seguire
+
+I temi si scrivono nel file `temi.yaml` (matita → Commit changes, come per le fonti). Ogni tema
+ha un **nome** e le parole da **cercare** nei titoli e negli estratti:
+
+```yaml
+  - nome: Denunce e multe ai manifestanti
+    cerca: "denunciati, identificati, multe, sanzioni, foglio di via + tir, agricoltori, carovita"
+```
+
+- la **virgola** vuol dire "oppure": basta una delle parole;
+- il **+** vuol dire "e anche": serve almeno una parola di ogni gruppo. L'esempio trova
+  «Tir, 40 camionisti denunciati» ma non «Multe agli automobilisti»;
+- singolare e plurale, maschile e femminile vanno bene da soli ("multa" trova anche "multe");
+- l'**asterisco** trova tutte le parole che iniziano così: `denunc*` trova denuncia, denunce,
+  denunciati, ma anche "denunciano" (attenzione a non allargare troppo);
+- maiuscole e accenti non contano;
+- `attivo: false` nasconde un tema senza cancellarlo.
+
+La pagina **Temi** mostra per ogni tema: quante notizie e di quali fonti, una colonnina per ogni
+giorno, chi ne ha scritto e chi no, una tabella fonte per fonte e giorno per giorno (ultimi 14
+giorni) e l'elenco degli articoli giorno per giorno.
+
+I temi guardano indietro fino a 30 giorni, grazie allo **storico** (`data/storico/`, un file al
+giorno). Lo storico è partito il 23 ottobre 2026 con le notizie dei giorni precedenti ancora in
+archivio: nelle prime settimane i temi coprono quindi meno di 30 giorni (la pagina dice sempre
+quanti). Lo storico occupa circa 20 MB nel progetto su GitHub: è gratuito e i giorni più vecchi
+di 30 si cancellano da soli.
+
+**Per controllare a mano** quello che il sito non vede (articoli fuori dai feed): cerca le stesse
+parole su Google News con il filtro "Ultima settimana", e aggiungi il nome di un giornale locale
+per vedere se ne ha scritto.
+
+## 7. Cambiare le impostazioni e le soglie
 
 Apri `config.yaml` e modifica i numeri come per `sources.yaml`. I più utili:
 
@@ -282,6 +321,10 @@ Apri `config.yaml` e modifica i numeri come per `sources.yaml`. I più utili:
 | `oggi.min_fonti` | Quante fonti diverse servono perché una storia vada in "Oggi" | 3 |
 | `oggi.titoli_a_confronto` | Quanti titoli mostrare uno sotto l'altro in ogni storia | 4 |
 | `oggi.titolo_preferito_da` | Da quali categorie prendere per primo il titolo della storia | Agenzie e all-news |
+| `oggi.max_filoni` | Quanti filoni al massimo mostrare sotto ogni storia | 6 |
+| `temi.giorni` | Quanti giorni indietro guarda la pagina "Temi" | 30 |
+| `temi.giorni_tabella` | Quanti giorni mostra la tabella "fonte per fonte, giorno per giorno" | 14 |
+| `raccolta.giorni_storico` | Per quanti giorni si conserva lo storico usato dai temi | 30 |
 | `tutte.finestra_ore` | Quante ore indietro guardano "Tutte" e "Fuori dai radar" | 48 |
 | `tutte.max_notizie_singole_per_fonte` | In "Tutte", quante notizie di una sola fonte mostrare per ogni fonte | 8 |
 | `raggruppamento.soglia_somiglianza` | Quanto devono assomigliarsi due notizie per stare nello stesso gruppo (da 0 a 1) | 0.30 |
@@ -314,7 +357,7 @@ escludere qualcosa di una sola fonte, usa invece `escludi` in `sources.yaml`.
 Cambia di 0.02 alla volta. I valori iniziali sono stati scelti provando su circa 3.000 notizie
 vere: con 0.16 si univano vicende diverse, con 0.20 la stessa storia finiva divisa in due.
 
-## 7. Scrivere la pagina "Perché esiste questo sito"
+## 8. Scrivere la pagina "Perché esiste questo sito"
 
 Il testo è nel file `contenuti/perche-esiste.md`. Si modifica come gli altri file (matita →
 Commit changes). In cima al file c'è una breve spiegazione del formato.
@@ -327,7 +370,7 @@ Commit changes). In cima al file c'è una breve spiegazione del formato.
 - La parola "censura" va usata **solo** in questa pagina: il resto del sito non la usa mai e
   una prova automatica lo controlla.
 
-## 8. Aggiornare il sito
+## 9. Aggiornare il sito
 
 - **In automatico**: ogni 3 ore, senza fare niente.
 - **Subito**: scheda **Actions** → **Aggiorna Giornalize** → **Run workflow**.
@@ -343,7 +386,7 @@ gli aggiornamenti programmati se per 60 giorni nessuno modifica il progetto. Le 
 dal programma dovrebbero bastare a evitarlo. Se però ricevi un'email che lo segnala, vai in
 **Actions** → **Aggiorna Giornalize** e clicca **Enable workflow**.
 
-## 9. Controllare gli errori
+## 10. Controllare gli errori
 
 Ci sono tre posti dove guardare:
 
@@ -359,7 +402,7 @@ Ci sono tre posti dove guardare:
 Una fonte irraggiungibile **non** fa diventare rosso l'aggiornamento: è normale che ogni tanto
 un sito non risponda. Il programma la salta e riprova al giro successivo.
 
-## 10. Costi e limiti
+## 11. Costi e limiti
 
 - **Costi**: zero. GitHub, GitHub Actions e GitHub Pages sono gratuiti per i progetti pubblici,
   e questo sito usa una piccola parte dei limiti gratuiti. L'unico costo possibile è un dominio
@@ -369,20 +412,23 @@ un sito non risponda. Il programma la salta e riprova al giro successivo.
 - **Feed incompleti**: alcuni giornali mettono nel feed solo una parte dei loro articoli. Quindi
   una notizia può finire in "Fuori dai radar" anche se un giornale ne ha parlato. Il sito lo
   spiega e offre il link «Verifica tu», che la cerca sui siti dei grandi giornali.
-- **Instagram**: per le pagine che pubblicano solo su Instagram, finché l'API non è attiva i
-  post vanno aggiunti a mano (capitolo 5).
-- **Siti che bloccano i programmi automatici**: alcuni siti (oggi Fanpage e Scomodo) rifiutano
-  l'accesso ai server di GitHub. Non aggiriamo il blocco: i loro articoli si possono aggiungere
-  a mano come i post Instagram.
-- **Fonti senza feed**: Il Foglio e Claim oggi non hanno un feed che funzioni. Restano
-  nell'elenco e si possono aggiungere a mano; il programma riprova a ogni giro.
+- **Instagram**: le pagine con `instagram_api: true` sono lette con l'API ufficiale (capitolo 5);
+  si possono sempre aggiungere post a mano.
+- **Siti che bloccano i programmi automatici**: Fanpage e Scomodo rifiutano l'accesso ai server
+  di GitHub. Non aggiriamo il blocco: di queste due testate si leggono i post Instagram con l'API
+  ufficiale (titolo e link al post), e gli articoli si possono aggiungere a mano.
+- **Fonti senza feed**: Il Foglio e Claim oggi non hanno un feed che funzioni, e quello di ISPI è
+  fermo da novembre 2024. Restano nell'elenco e si possono aggiungere a mano; il programma
+  riprova a ogni giro.
+- **Edizioni locali di Repubblica**: non hanno un feed RSS; si leggono le loro "news sitemap".
+  Gli articoli dell'edizione nazionale sono esclusi, perché sono già nella fonte "la Repubblica".
 - **Sport e spettacolo**: i filtri si basano su indirizzi, titoli e sezioni dei feed, quindi ogni
-  tanto qualche articolo passa lo stesso. Si corregge aggiungendo una voce ai filtri (capitolo 6).
+  tanto qualche articolo passa lo stesso. Si corregge aggiungendo una voce ai filtri (capitolo 7).
 - **Corriere della Sera**: a ottobre 2026 i vecchi feed del Corriere si erano fermati; ora usa
   quelli nuovi (`feed-hp` e `dynamic-feed`). Se tornasse a 0 notizie, lancia **Prova le fonti**:
   il rapporto mostra gli indirizzi trovati sul sito.
 
-## 11. Per chi vuole provarlo sul proprio computer
+## 12. Per chi vuole provarlo sul proprio computer
 
 Serve Python 3.12 o più recente. Dal terminale, nella cartella del progetto:
 

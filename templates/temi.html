@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% from "_componenti.html" import barra, riga with context %}
+{% block titolo %}{{ sito.titolo }} · Temi da seguire{% endblock %}
+
+{% block contenuto %}
+<div class="intro">
+  <h1>Temi da seguire</h1>
+  <p class="sommario">Argomenti scelti da chi cura il sito, con le parole da cercare nei titoli. Per ogni
+    tema: chi ne ha scritto negli ultimi {{ giorni_periodo }} {{ 'giorno' if giorni_periodo == 1 else 'giorni' }},
+    giorno per giorno, e chi no. <a href="come-funziona.html#temi">Come funziona</a></p>
+  <p class="nota">«Non ne ha scritto» vuol dire solo che nessun titolo o estratto nei suoi feed contiene quelle
+    parole: molti giornali mettono nei feed una parte degli articoli, e un articolo può usare parole diverse.
+    Usa «Verifica tu» per cercare sui siti dei grandi giornali.</p>
+  {% if temi|length > 1 %}
+  <nav class="indice-temi" aria-label="Temi">
+    {% for v in temi %}<a href="#tema-{{ v.tema.id }}">{{ v.tema.nome }} <span class="conteggio">({{ v.notizie|length }})</span></a>{% endfor %}
+  </nav>
+  {% endif %}
+</div>
+
+{% for v in temi %}
+<section class="tema" id="tema-{{ v.tema.id }}" aria-labelledby="t-{{ v.tema.id }}">
+  <h2 class="storia-titolo" id="t-{{ v.tema.id }}">{{ v.tema.nome }}</h2>
+  <p class="tema-regola">Cerca {% for g in v.tema.descrizione_gruppi %}{% if not loop.first %} <strong>e anche</strong> {% endif %}«{{ g }}»{% endfor %}</p>
+  <p class="storia-meta">{{ v.notizie|length }} {{ 'articolo' if v.notizie|length == 1 else 'articoli' }}
+    di {{ v.conteggio|length }} {{ 'fonte' if v.conteggio|length == 1 else 'fonti' }} su {{ v.conteggio|length + v.assenti|length }} lette
+    negli ultimi {{ giorni_periodo }} giorni</p>
+
+  {% if v.notizie %}
+  {{ barra(v) }}
+  {% set massimo = v.striscia|map('last')|max %}
+  <div class="striscia" role="img" aria-label="Articoli per giorno: {% for g, n in v.striscia %}{{ g|giorno_breve }} {{ n }}{{ ', ' if not loop.last }}{% endfor %}">
+    {% for g, n in v.striscia %}<span title="{{ g|giorno_lungo }}: {{ n }}" style="--altezza: {{ (100 * n / massimo)|round|int if massimo else 0 }}%"></span>{% endfor %}
+  </div>
+  <p class="striscia-date" aria-hidden="true"><span>{{ v.striscia[0][0]|giorno_breve }}</span><span>oggi</span></p>
+  {% endif %}
+
+  <div class="chi-si-chi-no">
+    <h3>Ne hanno scritto <span class="conteggio">({{ v.conteggio|length }})</span></h3>
+    {% if v.conteggio %}
+    <ul class="gettoni">
+      {% for f in v.fonti %}<li><i class="segno" style="--colore: {{ colori_aree[fonti[f].area] }}"></i>{{ fonti[f].nome }} <span class="conteggio">{{ v.conteggio[f] }}</span></li>{% endfor %}
+    </ul>
+    {% else %}<p class="vuoto">Nessuna fonte, in questo periodo.</p>{% endif %}
+    <h3>Non ne hanno scritto <span class="conteggio">({{ v.assenti|length }})</span></h3>
+    <ul class="gettoni gettoni-assenti">
+      {% for f in v.assenti %}<li><i class="segno" style="--colore: {{ colori_aree[fonti[f].area] }}"></i>{{ fonti[f].nome }}</li>{% endfor %}
+    </ul>
+  </div>
+
+  {% if v.notizie %}
+  <details class="sezione-chiusa tabella-tema">
+    <summary><span class="sottosezione">Fonte per fonte, giorno per giorno</span>
+      <span class="nota-summary">Ultimi {{ v.tabella_giorni|length }} giorni: il numero è quanti articoli ne parlano.</span></summary>
+    <div class="tabella-scorre">
+      <table>
+        <thead><tr><th scope="col">Fonte</th>{% for g in v.tabella_giorni %}<th scope="col" title="{{ g|giorno_lungo }}">{{ (g|giorno_breve).split(' ')[0] }}<br>{{ g.day }}</th>{% endfor %}</tr></thead>
+        <tbody>
+          {% for f, celle in v.tabella %}
+          <tr{% if not celle|sum %} class="riga-vuota"{% endif %}><th scope="row"><i class="segno" style="--colore: {{ colori_aree[fonti[f].area] }}"></i>{{ fonti[f].nome }}</th>
+            {% for n in celle %}<td{% if n %} class="pieno"{% endif %}>{{ n if n else '' }}</td>{% endfor %}</tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <h3 class="tema-giorni">Gli articoli, giorno per giorno</h3>
+  {% for g, per_fonte in v.giorni %}
+  {% set quanti = per_fonte|map('last')|map('length')|sum + per_fonte|length %}
+  <details class="filone giorno">
+    <summary><span class="filone-testa"><span class="filone-nome">{{ g|giorno_lungo }}</span>
+      <span class="filone-conta">{{ quanti }} {{ 'articolo' if quanti == 1 else 'articoli' }} ·
+        {% for n, _ in per_fonte %}{{ fonti[n.fonte].nome }}{{ ', ' if not loop.last }}{% endfor %}</span></span></summary>
+    <ul class="elenco-titoli">
+      {% for n, altri in per_fonte %}{{ riga(n, altri) }}{% endfor %}
+    </ul>
+  </details>
+  {% endfor %}
+  {% endif %}
+  <p class="verifica"><a href="{{ v.verifica }}" target="_blank" rel="noopener">Verifica tu: cerca sui siti dei grandi giornali<span aria-hidden="true">&nbsp;↗</span></a></p>
+</section>
+{% else %}
+<p class="vuoto">Nessun tema impostato. I temi si scrivono nel file <code>temi.yaml</code> (vedi README).</p>
+{% endfor %}
+
+{% if non_lette %}
+<p class="nota">Fonti non lette in questo periodo (feed non raggiungibile o senza notizie), quindi escluse dai conteggi:
+  {% for f in non_lette %}{{ fonti[f].nome }}{{ ', ' if not loop.last else '.' }}{% endfor %}</p>
+{% endif %}
+{% endblock %}

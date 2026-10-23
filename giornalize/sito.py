@@ -6,8 +6,8 @@ import logging
 import re
 import shutil
 from collections import Counter
-from dataclasses import dataclass
-from datetime import datetime, timedelta
+from dataclasses import dataclass, field
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote_plus, urlsplit
 from zoneinfo import ZoneInfo
@@ -16,14 +16,16 @@ import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import instagram
-from .archivio import data, leggi, leggi_stato
+from .archivio import data, giorno, leggi, leggi_stato, leggi_storico
 from .config import RADICE, Configurazione
-from .raggruppa import Gruppo, raggruppa, raggruppa_storie, somiglianza_gruppi
+from .raggruppa import Gruppo, coseno, raggruppa, raggruppa_storie, somiglianza_gruppi
+from .temi import Tema, carica_temi
 from .testo import chiave_link, maiuscole_in_minuscole, solo_data
 
 log = logging.getLogger("giornalize.sito")
 
 FUSO = ZoneInfo("Europe/Rome")
+GIORNI_SETTIMANA = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
         "agosto", "settembre", "ottobre", "novembre", "dicembre"]
 NON_COLLOCABILE = "non collocabile"
@@ -51,11 +53,52 @@ def data_lunga(momento: datetime) -> str:
     return f"{m.day} {MESI[m.month - 1]} {m.year} alle {m:%H:%M}"
 
 
+def giorno_lungo(g: date) -> str:
+    """date(2026, 10, 23) -> 'giovedì 23 ottobre'"""
+    return f"{GIORNI_SETTIMANA[g.weekday()]} {g.day} {MESI[g.month - 1]}"
+
+
+def giorno_breve(g: date) -> str:
+    """date(2026, 10, 23) -> 'gio 23'"""
+    return f"{GIORNI_SETTIMANA[g.weekday()][:3]} {g.day}"
+
+
 def titolo_pulito(titolo: str) -> str:
     """Titolo adatto a fare da titolo di una storia: senza etichette tipo
     "VIDEO" o "LIVE" e senza parole tutte in maiuscolo."""
     t = _ETICHETTE_TITOLO.sub("", _ETICHETTE_MAIUSCOLE.sub("", titolo)).strip(" -–|:")
     return maiuscole_in_minuscole(t) or titolo
+
+
+@dataclass
+class Filone:
+    """Un aspetto di una storia (es. "decreto · aiuti · gasolio"): un gruppo
+    del primo passaggio, con le sue fonti e la sua barra."""
+    id: str
+    etichetta: str
+    fonti: list[str]
+    notizie: list[dict]
+    copertura: list[tuple[object, int]]
+    tutte: list[tuple[dict, list[dict]]]
+
+
+@dataclass
+class VistaTema:
+    """Un tema da seguire pronto per la pagina: chi ne ha scritto, quando, e chi no."""
+    tema: Tema
+    notizie: list[dict]
+    conteggio: Counter                       # articoli per fonte
+    assenti: list[str]                       # fonti lette nel periodo che non ne hanno scritto
+    copertura: list[tuple[object, int]]
+    striscia: list[tuple[date, int]]         # articoli per giorno, tutti i giorni del periodo
+    giorni: list[tuple[date, list[tuple[dict, list[dict]]]]]  # giorni con articoli, dal più recente
+    tabella_giorni: list[date]
+    tabella: list[tuple[str, list[int]]]     # fonte -> articoli per giorno
+    verifica: str
+
+    @property
+    def fonti(self) -> list[str]:
+        return [f for f, _ in self.conteggio.most_common()]
 
 
 @dataclass
@@ -69,6 +112,12 @@ class Storia:
     confronto: list[dict]
     tutte: list[tuple[dict, list[dict]]]
     verifica: str = ""
+    # Filoni mostrati (solo se la storia ne ha almeno due con più fonti),
+    # gli articoli che non stanno in nessuno di questi, e per ogni articolo
+    # l'etichetta del suo filone.
+    filoni: list[Filone] = field(default_factory=list)
+    altri_articoli: list[tuple[dict, list[dict]]] = field(default_factory=list)
+    filone_di: dict[str, str] = field(default_factory=dict)
 
     @property
     def id(self) -> str:
@@ -108,14 +157,17 @@ class Costruttore:
             lstrip_blocks=True,
         )
         self.env.filters["data_breve"] = data_breve
+        self.env.filters["giorno_lungo"] = giorno_lungo
+        self.env.filters["giorno_breve"] = giorno_breve
 
     # -- notizie ---------------------------------------------------------------
 
-    def notizie_valide(self) -> list[dict]:
+    def notizie_valide(self, archivio: list[dict] | None = None) -> list[dict]:
         """Notizie raccolte in automatico + post aggiunti a mano (senza
         doppioni), tolte quelle escluse dai filtri."""
         cfg = self.config
-        archivio = leggi(self.cartella_dati / "notizie.json")
+        if archivio is None:
+            archivio = leggi(self.cartella_dati / "notizie.json")
         link_noti = {chiave_link(n["link"]) for n in archivio}
         manuali = [n for n in instagram.leggi_post_manuali(cfg) if chiave_link(n["link"]) not in link_noti]
         valide = []
@@ -163,32 +215,60 @@ class Costruttore:
                 return max(scelti, key=g.centralita)
         return max(g.notizie, key=g.centralita)
 
-    def scegli_confronto(self, g: Gruppo, quanti: int, escludi: set[str]) -> list[dict]:
-        """Titoli da mettere uno sotto l'altro: una fonte per volta, scelte in
-        modo da coprire aree politiche diverse (prima gli estremi, poi il
-        centro, poi le fonti non collocabili), preferendo chi non è un'agenzia."""
-        migliori: dict[str, dict] = {}
-        for n in g.notizie:
-            if n["fonte"] in escludi:
-                continue
-            attuale = migliori.get(n["fonte"])
-            if attuale is None or g.centralita(n) > g.centralita(attuale):
-                migliori[n["fonte"]] = n
-        per_area: dict[str, list[dict]] = {}
-        for n in sorted(migliori.values(), key=lambda n: (self._agenzia(n), -g.centralita(n))):
-            per_area.setdefault(self.fonte(n["fonte"]).area, []).append(n)
-        scelti: list[dict] = []
-        while len(scelti) < quanti and any(per_area.values()):
-            for area in self.priorita_aree:
-                if per_area.get(area) and len(scelti) < quanti:
-                    scelti.append(per_area[area].pop(0))
+    def scegli_confronto(self, g: Gruppo, quanti: int, filoni: list[list[dict]]) -> list[dict]:
+        """Titoli da mettere uno sotto l'altro, una fonte per volta.
+
+        Prima conta che siano diversi nel contenuto (aspetti diversi della
+        storia), poi che vengano da aree politiche diverse: a ogni passo si
+        sceglie il titolo meno simile a quelli già scelti, con un vantaggio
+        per le aree non ancora presenti e per chi non è un'agenzia."""
+        candidati = [n for notizie in filoni for n in notizie]
+        if not candidati:
+            return []
+        rango = {a: i for i, a in enumerate(self.priorita_aree)}
+
+        # Il primo è il titolo più rappresentativo del filone principale.
+        primo = max(filoni[0], key=lambda n: (not self._agenzia(n), g.centralita(n)))
+        scelti = [primo]
+        while len(scelti) < quanti:
+            fonti_scelte = {n["fonte"] for n in scelti}
+            aree_scelte = {self.fonte(n["fonte"]).area for n in scelti}
+            migliore, punteggio = None, -1.0
+            for n in candidati:
+                if n["fonte"] in fonti_scelte:
+                    continue
+                v = g.vettori.get(n["id"], {})
+                diversita = 1 - max(coseno(v, g.vettori.get(x["id"], {})) for x in scelti)
+                area = self.fonte(n["fonte"]).area
+                valore = (diversita
+                          + (0.25 if area not in aree_scelte else 0)
+                          + 0.02 * (len(rango) - rango.get(area, len(rango))) / len(rango)
+                          + (0.05 if not self._agenzia(n) else 0)
+                          + 0.01 * g.centralita(n))
+                if valore > punteggio:
+                    migliore, punteggio = n, valore
+            if migliore is None:
+                break
+            scelti.append(migliore)
         scelti.sort(key=lambda n: (self.ordine_aree.get(self.fonte(n["fonte"]).area, 99), n["fonte"]))
         return scelti
 
-    def copertura(self, g: Gruppo) -> list[tuple[object, int]]:
+    def copertura(self, fonti: list[str]) -> list[tuple[object, int]]:
         """Quante fonti diverse per area politica, nell'ordine dell'asse."""
-        conteggio = Counter(self.fonte(f).area for f in g.fonti)
+        conteggio = Counter(self.fonte(f).area for f in set(fonti))
         return [(a, conteggio[a.nome]) for a in self.config.aree if conteggio[a.nome]]
+
+    def filoni(self, g: Gruppo) -> list[tuple[Gruppo, list[dict]]]:
+        """I filoni della storia (gruppi del primo passaggio) con le notizie
+        che ne restano, dal più raccontato al meno raccontato."""
+        presenti = {n["id"] for n in g.notizie}
+        risultato = []
+        for f in g.filoni or [g]:
+            notizie = [n for n in f.notizie if n["id"] in presenti]
+            if notizie:
+                risultato.append((f, notizie))
+        risultato.sort(key=lambda x: (-len({n["fonte"] for n in x[1]}), -len(x[1]), x[0].id))
+        return risultato
 
     def per_fonte(self, notizie: list[dict]) -> list[tuple[dict, list[dict]]]:
         """(notizia più recente, altre notizie della stessa fonte) per ogni
@@ -218,14 +298,36 @@ class Costruttore:
         principale = self.scegli_titolo(g)
         quanti = self.config["oggi"].get("titoli_a_confronto", 4)
         titolo = titolo_pulito(principale["titolo"])
+
+        filoni = self.filoni(g)
+        con_piu_fonti = [(f, ns) for f, ns in filoni if len({n["fonte"] for n in ns}) >= 2]
+        # Per il confronto contano gli aspetti raccontati da almeno due fonti
+        # (se ci sono): un articolo isolato non rappresenta la storia.
+        pool = [ns for _, ns in con_piu_fonti] or [ns for _, ns in filoni]
+        mostrati: list[Filone] = []
+        altri: list[dict] = []
+        filone_di: dict[str, str] = {}
+        if len(con_piu_fonti) >= 2:
+            massimo = self.config["oggi"].get("max_filoni", 6)
+            for f, ns in con_piu_fonti[:massimo]:
+                etichetta = " · ".join(f.parole_chiave[:3]) or "altro"
+                fonti = list(dict.fromkeys(n["fonte"] for n in ns))
+                mostrati.append(Filone(id=f.id, etichetta=etichetta, fonti=fonti, notizie=ns,
+                                       copertura=self.copertura(fonti), tutte=self.per_fonte(ns)))
+                filone_di.update({n["id"]: etichetta for n in ns})
+            altri = [n for n in g.notizie if n["id"] not in filone_di]
+
         return Storia(
             gruppo=g,
             titolo=titolo,
             fonte_titolo=self.fonte(principale["fonte"]).nome,
-            copertura=self.copertura(g),
-            confronto=self.scegli_confronto(g, quanti, escludi=set()),
+            copertura=self.copertura(g.fonti),
+            confronto=self.scegli_confronto(g, quanti, pool),
             tutte=self.per_fonte(g.notizie),
             verifica=self.verifica(titolo) if con_verifica else "",
+            filoni=mostrati,
+            altri_articoli=self.per_fonte(altri),
+            filone_di=filone_di,
         )
 
     def punteggio(self, g: Gruppo, ora: datetime) -> float:
@@ -270,6 +372,52 @@ class Costruttore:
         piu_fonti.sort(key=lambda g: (self.conta(g, alternative), g.ultimo), reverse=True)
         singole.sort(key=lambda g: g.ultimo, reverse=True)
         return piu_fonti, singole
+
+    def temi(self, ora: datetime, temi: list[Tema]) -> tuple[list[VistaTema], list[str], int]:
+        """Per ogni tema: chi ne ha scritto e quando, negli ultimi giorni
+        (archivio + storico). Restituisce anche le fonti attive che nel
+        periodo non hanno dato nessuna notizia e quanti giorni copre lo storico."""
+        impostazioni = self.config.impostazioni.get("temi", {})
+        oggi = ora.astimezone(FUSO).date()
+        dal = oggi - timedelta(days=int(impostazioni.get("giorni", 30)) - 1)
+        per_id = {n["id"]: n for n in leggi_storico(self.cartella_dati / "storico", dal)}
+        per_id.update({n["id"]: n for n in leggi(self.cartella_dati / "notizie.json")})
+        notizie = [n for n in self.notizie_valide(list(per_id.values())) if dal <= giorno(n) <= oggi]
+        if notizie:
+            dal = max(dal, min(giorno(n) for n in notizie))  # lo storico può essere più corto
+        periodo = [dal + timedelta(days=i) for i in range((oggi - dal).days + 1)]
+        tabella_giorni = periodo[-int(impostazioni.get("giorni_tabella", 14)):]
+
+        def ordine(id_fonte):
+            fonte = self.fonte(id_fonte)
+            return (self.ordine_aree.get(fonte.area, 99), fonte.nome.lower())
+
+        lette = sorted({n["fonte"] for n in notizie}, key=ordine)
+        non_lette = sorted((f.id for f in self.config.fonti if f.attiva and f.id not in lette), key=ordine)
+
+        viste = []
+        for tema in temi:
+            trovate = sorted((n for n in notizie if tema.corrisponde(f"{n['titolo']} {n.get('estratto', '')}")),
+                             key=lambda n: n["pubblicato"], reverse=True)
+            conteggio = Counter(n["fonte"] for n in trovate)
+            per_giorno: dict[date, list[dict]] = {}
+            for n in trovate:
+                per_giorno.setdefault(giorno(n), []).append(n)
+            celle = Counter((n["fonte"], giorno(n)) for n in trovate)
+            parole = " ".join(gruppo[0].testo.rstrip("*") for gruppo in tema.gruppi)
+            viste.append(VistaTema(
+                tema=tema,
+                notizie=trovate,
+                conteggio=conteggio,
+                assenti=[f for f in lette if f not in conteggio],
+                copertura=self.copertura(list(conteggio)),
+                striscia=[(g, len(per_giorno.get(g, []))) for g in periodo],
+                giorni=[(g, self.per_fonte(per_giorno[g])) for g in sorted(per_giorno, reverse=True)],
+                tabella_giorni=tabella_giorni,
+                tabella=[(f, [celle[(f, g)] for g in tabella_giorni]) for f in lette],
+                verifica=self.verifica(parole),
+            ))
+        return viste, non_lette, len(periodo)
 
     def prepara(self, ora: datetime) -> dict:
         cfg = self.config
@@ -338,6 +486,7 @@ class Costruttore:
             "aggiornato_iso": ora.strftime("%Y-%m-%dT%H:%M:%SZ"),
         }
 
+        viste_temi, non_lette, giorni_periodo = self.temi(ora, carica_temi())
         pagine = {
             "index.html": ("oggi.html", {"pagina": "oggi", "storie": dati["storie_oggi"]}),
             "tutte.html": ("tutte.html", {"pagina": "tutte", "storie": dati["storie_tutte"],
@@ -347,6 +496,8 @@ class Costruttore:
             "poco-coperte.html": ("rimando.html", {"pagina": "radar", "destinazione": "fuori-dai-radar.html"}),
             "fonti.html": ("fonti.html", {"pagina": "fonti", "stato": dati["stato"],
                                           "notizie_per_fonte": notizie_per_fonte}),
+            "temi.html": ("temi.html", {"pagina": "temi", "temi": viste_temi, "non_lette": non_lette,
+                                        "giorni_periodo": giorni_periodo}),
             "come-funziona.html": ("come_funziona.html", {"pagina": "come"}),
             "perche.html": ("perche.html", {"pagina": "perche", "testo": self._testo_perche()}),
             "404.html": ("404.html", {"pagina": "404"}),

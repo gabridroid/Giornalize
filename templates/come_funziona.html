@@ -20,6 +20,8 @@
       poco presenti nei feed dei grandi giornali (le regole sono <a href="#fuori-dai-radar">più sotto</a>).</li>
     <li><a href="tutte.html">Tutte le notizie</a>: tutto quello che è stato raccolto nelle ultime
       {{ cfg.tutte.finestra_ore }} ore, con i filtri per area politica, tipo di fonte e testata.</li>
+    <li><a href="temi.html">Temi da seguire</a>: argomenti scelti a mano, seguiti giorno per giorno
+      (<a href="#temi">più sotto</a>).</li>
     <li><a href="fonti.html">Fonti</a>: l'elenco delle fonti, con l'area indicativa e lo stato della raccolta.</li>
   </ul>
 
@@ -57,15 +59,23 @@
       riportato da più giornali) finiscono nello stesso gruppo.</li>
     <li><strong>Storie</strong>: i gruppi che parlano della stessa vicenda vengono riuniti, così i
       diversi aspetti di una storia (il fatto, le reazioni, gli sviluppi) stanno sotto un unico titolo.
-      Una notizia di una sola fonte entra in una storia solo se le somiglia molto.</li>
+      Due gruppi si uniscono solo se si somigliano abbastanza e hanno in comune almeno due delle loro
+      parole più importanti. Una notizia di una sola fonte entra in una storia solo se le somiglia molto.</li>
   </ol>
+  <p>I gruppi del primo passaggio restano visibili come <strong>filoni</strong> della storia (per
+    esempio «decreto · aiuti · gasolio» e «identificati · denunce · blocchi»): il nome di ogni filone
+    sono le sue parole più ricorrenti nei titoli, e ognuno ha la sua barra «chi ne parla». Così si
+    vede quali fonti raccontano quale aspetto, e se il programma ha unito per errore due vicende
+    diverse, lo si nota subito.</p>
   <p>Il <strong>titolo della storia</strong> è il titolo vero di uno degli articoli, il più
     rappresentativo: lo cerchiamo prima tra le agenzie, che di solito scrivono titoli più asciutti,
     poi tra le fonti non collocabili politicamente, infine tra tutte. Accanto c'è sempre scritto
     di quale fonte è.</p>
   <p>Sotto il titolo trovi fino a {{ cfg.oggi.titoli_a_confronto }} <strong>titoli a confronto</strong>,
-    di fonti diverse: li scegliamo cercando di coprire aree politiche diverse, partendo dalle più
-    lontane tra loro. Tutte le altre fonti sono nell'elenco «Tutte le fonti», che si apre con un tocco.</p>
+    di fonti diverse. Li scegliamo prima perché siano <strong>diversi nel contenuto</strong> (aspetti
+    diversi della storia, tra quelli raccontati da almeno due fonti), poi perché vengano da
+    <strong>aree politiche diverse</strong>. Accanto a ogni titolo c'è il nome del suo filone. Tutte le
+    altre fonti sono nei filoni (o nell'elenco «Tutte le fonti»), che si aprono con un tocco.</p>
   <p>Il metodo è semplice e a volte sbaglia: può separare la stessa storia raccontata con parole
     diverse, o unire due vicende con parole in comune. Per questo ogni titolo porta all'originale.</p>
 
@@ -102,6 +112,8 @@
       dettaglio di una storia molto seguita non sembra una notizia trascurata).</li>
     {% endif %}
   </ul>
+  <p>I quotidiani locali non contano né tra i grandi giornali né tra le fonti indipendenti: compaiono
+    nelle storie e nei temi, ma da soli non fanno entrare una storia in questa pagina.</p>
   <p>Non contano: opinioni, editoriali, rubriche, lettere, podcast, newsletter, rassegne stampa,
     riepiloghi del giorno, dirette e i contenuti senza una data di pubblicazione leggibile.</p>
   <p>A parte, in un elenco chiuso, ci sono le <strong>segnalazioni di una sola fonte</strong>, ma solo
@@ -112,6 +124,17 @@
     molti giornali mettono nei feed solo una parte dei loro articoli, quindi una notizia può sembrare
     assente anche se un giornale l'ha pubblicata. Per questo ogni storia ha il link
     <strong>«Verifica tu»</strong>, che la cerca direttamente sui siti dei grandi giornali.</p>
+
+  <h2 id="temi">Temi da seguire</h2>
+  <p>Nella pagina <a href="temi.html">Temi</a> ci sono argomenti scelti a mano da chi cura il sito,
+    ognuno descritto con le parole da cercare (per esempio «denunciati, multe» insieme a «tir,
+    agricoltori»). Il programma cerca quelle parole nei titoli e negli estratti degli ultimi
+    {{ cfg.temi.giorni }} giorni e mostra, giorno per giorno, quali fonti ne hanno scritto e quali no.
+    Le parole e le regole di ricerca sono scritte sulla pagina, accanto a ogni tema.</p>
+  <p>«Non ne ha scritto» vuol dire solo che quelle parole non compaiono nei feed della fonte: molti
+    giornali mettono nei feed una parte degli articoli, e un articolo può usare parole diverse. Le
+    fonti che nel periodo non hanno dato nessuna notizia (per esempio perché il feed non funzionava)
+    non vengono contate tra chi «non ne ha scritto».</p>
 
   <h2 id="posizione">Chi c'è dietro</h2>
   <p>Chi ha creato il sito spiega la propria posizione nella pagina

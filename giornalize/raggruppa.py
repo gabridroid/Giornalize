@@ -24,6 +24,8 @@ from dataclasses import dataclass, field
 from .testo import parole
 
 MIN_PAROLE_IN_COMUNE = 2
+# Quante parole più importanti di ogni filone si confrontano nel secondo passaggio.
+PAROLE_PRINCIPALI_STORIA = 8
 
 
 @dataclass
@@ -156,6 +158,12 @@ def raggruppa(notizie: list[dict], soglia: float, peso_titolo: int = 2, n_parole
     return gruppi
 
 
+def coseno(a: dict[str, float], b: dict[str, float]) -> float:
+    """Somiglianza tra due notizie già trasformate in vettori (da 0 a 1)."""
+    na, nb = _norma(a), _norma(b)
+    return _prodotto(a, b) / (na * nb) if na and nb else 0.0
+
+
 def somiglianza_gruppi(a: Gruppo, b: Gruppo) -> float:
     """Somiglianza tra due gruppi (da 0 a 1), confrontando le loro parole."""
     na, nb = _norma(a.centroide), _norma(b.centroide)
@@ -250,6 +258,12 @@ def raggruppa_storie(gruppi: list[Gruppo], soglia_storie: float, soglia_aggancio
     vive = set(range(len(storie)))
 
     def somiglia(i, j):
+        # Due filoni della stessa storia condividono almeno due parole tra le
+        # più importanti (es. "Palermo" e "terremoto"): una sola, come
+        # "terremoto" per Palermo e il Tibet, non basta.
+        principali_i = set(_parole_principali(storie[i].centroide, PAROLE_PRINCIPALI_STORIA))
+        if len(principali_i & set(_parole_principali(storie[j].centroide, PAROLE_PRINCIPALI_STORIA))) < 2:
+            return 0.0
         return _prodotto(storie[i].centroide, storie[j].centroide) / (norme[i] * norme[j])
 
     coppie = {(i, j): somiglia(i, j) for i in vive for j in vive if i < j}

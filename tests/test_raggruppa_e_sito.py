@@ -218,3 +218,37 @@ def test_stato_fonti(tmp_path, config, internet_finto, ora):
     archivio.scrivi_stato(percorso, stati)
     letto = json.loads(percorso.read_text(encoding="utf-8"))
     assert letto["ansa"]["ultimo_successo"] == raccolta.iso(ora)
+
+
+def test_filoni_e_titoli_diversi(config, tmp_path):
+    from giornalize.raggruppa import Gruppo, raggruppa_storie
+
+    def filone(nome, voci, centroide):
+        notizie, vettori = [], {}
+        for i, (fonte, titolo, vettore) in enumerate(voci):
+            n = {"id": f"{nome}{i}", "fonte": fonte, "titolo": titolo, "estratto": "", "canale": "rss",
+                 "link": f"https://{fonte}.example.it/{nome}{i}", "pubblicato": f"2026-10-17T1{i}:00:00Z"}
+            notizie.append(n)
+            vettori[n["id"]] = vettore
+        return Gruppo(notizie=notizie, centroide=centroide, parole_chiave=nome.split(), vettori=vettori)
+
+    aiuti = filone("decreto aiuti gasolio", [
+        ("ansa", "Tir, il governo approva il decreto aiuti da 105 milioni", {"tir": .5, "decret": .7, "aiut": .5}),
+        ("repubblica", "Decreto aiuti, 105 milioni per il gasolio dei tir", {"tir": .5, "decret": .6, "aiut": .6}),
+        ("ilgiornale", "Caro gasolio, via libera al decreto aiuti", {"decret": .7, "aiut": .7}),
+        ("libero", "Decreto aiuti per i tir, Meloni: ascoltiamo tutti", {"tir": .5, "decret": .6, "aiut": .6}),
+    ], {"tir": 1.5, "decret": 2.6, "aiut": 2.4, "gasoli": .5})
+    denunce = filone("identificati denunce tir", [
+        ("corriere", "Blocchi dei tir, identificati e denunciati 40 camionisti", {"tir": .5, "denunc": .7, "identific": .5}),
+        ("manifesto", "Tir, denunce e fogli di via contro chi protesta", {"tir": .5, "denunc": .8}),
+    ], {"tir": 1.0, "denunc": 1.5, "identific": .5, "decret": .1, "aiut": .1})
+    storia = raggruppa_storie([aiuti, denunce], 0.18, 0.25)
+    assert len(storia) == 1
+
+    vista = Costruttore(config, tmp_path, tmp_path / "site").vista(storia[0])
+    assert [f.etichetta for f in vista.filoni] == ["decreto · aiuti · gasolio", "identificati · denunce · tir"]
+    assert [len(f.fonti) for f in vista.filoni] == [4, 2]
+    assert sum(n for _, n in vista.filoni[1].copertura) == 2
+    # tra i titoli a confronto c'è almeno un titolo di ogni filone
+    assert {vista.filone_di[n["id"]] for n in vista.confronto} == {f.etichetta for f in vista.filoni}
+    assert len({n["fonte"] for n in vista.confronto}) == len(vista.confronto) == 4

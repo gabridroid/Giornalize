@@ -24,6 +24,7 @@ from .raccolta import raccogli_fonte, raccogli_tutto
 from .sito import Costruttore
 
 CARTELLA_DATI = RADICE / "data"
+CARTELLA_STORICO = CARTELLA_DATI / "storico"
 CARTELLA_SITO = RADICE / "site"
 REGISTRO = CARTELLA_DATI / "registro.log"
 RIGHE_REGISTRO = 3000  # il registro tiene solo le righe più recenti
@@ -63,6 +64,7 @@ def comando_raccogli(config) -> None:
     esistenti = archivio.leggi(CARTELLA_DATI / "notizie.json")
     tutte, aggiunte = archivio.unisci(esistenti, nuove, ora, config["raccolta"]["giorni_archivio"])
     archivio.scrivi(CARTELLA_DATI / "notizie.json", tutte, ora)
+    archivio.aggiorna_storico(CARTELLA_STORICO, tutte, ora, config["raccolta"].get("giorni_storico", 30))
     archivio.scrivi_stato(CARTELLA_DATI / "stato_fonti.json", stati)
 
     funzionanti = sum(1 for s in stati.values() if s["canali_ok"])

@@ -5,6 +5,15 @@
 
   var MESI = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"];
 
+  // Orari e giorni sempre in ora italiana, come nel resto del sito.
+  function roma(d) {
+    try {
+      return new Date(d.toLocaleString("en-US", { timeZone: "Europe/Rome" }));
+    } catch (e) {
+      return d;
+    }
+  }
+
   function dueCifre(n) { return (n < 10 ? "0" : "") + n; }
   function ora(d) { return dueCifre(d.getHours()) + ":" + dueCifre(d.getMinutes()); }
   function giorno(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime(); }
@@ -15,6 +24,8 @@
     if (minuti < 60) return minuti + " min fa";
     var ore = Math.floor(minuti / 60);
     if (ore < 12) return ore === 1 ? "1 ora fa" : ore + " ore fa";
+    d = roma(d);
+    adesso = roma(adesso);
     var giorni = Math.round((giorno(adesso) - giorno(d)) / 86400000);
     if (giorni === 0) return "oggi alle " + ora(d);
     if (giorni === 1) return "ieri alle " + ora(d);

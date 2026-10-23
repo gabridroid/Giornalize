@@ -125,10 +125,10 @@ a { color: var(--link); }
 .menu::-webkit-scrollbar { display: none; }
 .menu a {
   flex: none;
-  padding: 8px 6px 7px;
+  padding: 8px 4px 7px;
   color: var(--testo-tenue);
   text-decoration: none;
-  font-size: .93rem;
+  font-size: .9rem;
   white-space: nowrap;
   border-bottom: 3px solid transparent;
 }
@@ -370,6 +370,124 @@ h1 {
 }
 .tutte-fonti > .elenco-titoli { margin: 6px 0 4px; }
 
+/* Filoni di una storia: un'etichetta per ogni aspetto, con la sua barra. */
+.filoni { margin-top: 12px; }
+.filoni-titolo {
+  margin: 0 0 4px;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--testo-tenue);
+}
+.filone { border-top: 1px solid var(--bordo); }
+.filone:last-child { border-bottom: 1px solid var(--bordo); }
+.filone > summary {
+  cursor: pointer;
+  padding: 8px 0 6px;
+  list-style: none;
+}
+.filone > summary::-webkit-details-marker { display: none; }
+.filone-testa {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 8px;
+}
+.filone-nome { font-weight: 600; }
+.filone-nome::before {
+  content: "▸";
+  display: inline-block;
+  width: 1em;
+  color: var(--link);
+  transition: transform .15s;
+}
+.filone[open] .filone-nome::before { transform: rotate(90deg); }
+.filone-conta { font-size: .8rem; color: var(--testo-tenue); }
+.filone .copertura { margin: 5px 0 0 1em; }
+.filone .barra { height: 6px; max-width: 360px; }
+.filone > .barra-legenda { margin: 0 0 8px 1em; }
+.filone > .elenco-titoli { margin: 0 0 12px 1em; }
+.filone-tag {
+  justify-self: start;
+  font-size: .72rem;
+  color: var(--testo-tenue);
+  border: 1px solid var(--bordo);
+  border-radius: 999px;
+  padding: 0 7px;
+  margin: 1px 0;
+}
+
+/* --- Temi da seguire ------------------------------------------------------- */
+
+.indice-temi { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .92rem; }
+.tema { padding: 20px 0 16px; border-top: 1px solid var(--bordo); }
+.tema h3 { font-size: .9rem; margin: 14px 0 6px; }
+.tema-regola { margin: 4px 0 0; font-size: .88rem; }
+.tema-regola strong { font-weight: 600; color: var(--testo-tenue); }
+
+/* Quanti articoli al giorno: colonnine affiancate. */
+.striscia {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 40px;
+  max-width: 520px;
+  margin-top: 4px;
+  border-bottom: 1px solid var(--bordo);
+}
+.striscia span {
+  flex: 1;
+  height: var(--altezza);
+  min-height: 1px;
+  background: var(--accento);
+  border-radius: 2px 2px 0 0;
+}
+.striscia-date {
+  display: flex;
+  justify-content: space-between;
+  max-width: 520px;
+  margin: 2px 0 0;
+  font-size: .72rem;
+  color: var(--testo-tenue);
+}
+
+.gettoni { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.gettoni li {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: .82rem;
+  padding: 2px 9px;
+  border: 1px solid var(--bordo);
+  border-radius: 999px;
+  background: var(--superficie);
+}
+.gettoni .segno { margin-right: 0; }
+.gettoni-assenti li { background: transparent; color: var(--testo-tenue); border-style: dashed; }
+
+/* Tabella fonte per fonte: scorre di lato dentro il suo riquadro, se serve. */
+.tabella-scorre { overflow-x: auto; margin: 8px 0 4px; }
+.tabella-tema table { border-collapse: collapse; font-size: .78rem; }
+.tabella-tema th, .tabella-tema td { padding: 3px 4px; text-align: center; border-bottom: 1px solid var(--bordo); }
+.tabella-tema thead th { font-weight: 500; color: var(--testo-tenue); line-height: 1.15; vertical-align: bottom; }
+.tabella-tema tbody th {
+  text-align: left;
+  font-weight: 500;
+  white-space: nowrap;
+  max-width: 9.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: sticky;
+  left: 0;
+  background: var(--sfondo);
+}
+.tabella-tema td { min-width: 1.6em; color: var(--testo-tenue); }
+.tabella-tema td.pieno { background: var(--accento); color: #fff; font-weight: 700; border-radius: 3px; }
+.tabella-tema .riga-vuota th { color: var(--testo-tenue); }
+.tema-giorni { margin-top: 18px; }
+.giorno .filone-conta { flex-basis: 100%; padding-left: 1em; }
+
 .compatta { padding: 14px 0 12px; }
 .compatta .storia-titolo { font-size: 1.08rem; }
 .compatta .copertura { margin-bottom: 2px; }
@@ -471,7 +589,7 @@ h1 {
   .testata { position: sticky; top: 0; z-index: 5; }
   .testata-riga { flex-wrap: nowrap; padding-top: 0; }
   .menu { margin: 0 0 0 auto; padding: 0; width: auto; }
-  .menu a { padding: 16px 9px 13px; }
+  .menu a { padding: 16px 9px 13px; font-size: .93rem; }
   .filtri-campi { grid-template-columns: 2fr 1fr 1fr 1fr auto; align-items: end; }
   .filtri button { width: auto; }
   .storia-titolo { font-size: 1.35rem; }

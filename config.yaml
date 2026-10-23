@@ -25,6 +25,9 @@ raccolta:
   scoperta_automatica: true
   # Per quanti giorni conservare le notizie raccolte.
   giorni_archivio: 3
+  # Per quanti giorni conservare lo "storico" (data/storico/, un file al
+  # giorno), usato dalla pagina "Temi da seguire".
+  giorni_storico: 30
   # Quante notizie al massimo leggere da ogni singolo feed.
   max_notizie_per_feed: 80
   # Un feed la cui notizia più recente ha più di questi giorni è
@@ -45,6 +48,9 @@ oggi:
   min_fonti: 3
   # Quanti titoli mettere a confronto in ogni storia.
   titoli_a_confronto: 4
+  # Quanti "filoni" (aspetti della storia, es. "decreto aiuti" e
+  # "denunce") mostrare al massimo sotto ogni storia.
+  max_filoni: 6
   # Il titolo di ogni storia è quello di un articolo vero: si sceglie prima
   # tra le fonti di queste categorie (di solito più neutre), poi tra le
   # fonti "non collocabili", infine tra tutte.
@@ -56,6 +62,13 @@ tutte:
   finestra_ore: 48
   # Quante notizie "di una sola fonte" mostrare per ciascuna fonte.
   max_notizie_singole_per_fonte: 8
+
+temi:
+  # Pagina "Temi da seguire": i temi si scrivono nel file temi.yaml.
+  # Quanti giorni indietro guardare (al massimo quanto giorni_storico).
+  giorni: 30
+  # Quanti giorni mostrare nella tabella "giorno per giorno".
+  giorni_tabella: 14
 
 raggruppamento:
   # Primo passaggio: quanto devono assomigliarsi due notizie per finire nello

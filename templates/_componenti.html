@@ -6,25 +6,30 @@
 {%- endmacro %}
 
 {# Barra "chi ne parla": quante fonti per area politica, con la legenda scritta. #}
-{% macro barra(s) %}
+{% macro barra(s, legenda=true) %}
 {% set testo %}{% for a, n in s.copertura %}{{ a.nome }} {{ n }}{{ ', ' if not loop.last }}{% endfor %}{% endset %}
 <div class="copertura">
   <div class="barra" role="img" aria-label="Chi ne parla, per area politica indicativa: {{ testo }}">
     {% for a, n in s.copertura %}<span style="--colore: {{ a.colore }}; flex-grow: {{ n }}"></span>{% endfor %}
   </div>
-  <p class="barra-legenda" aria-hidden="true">
-    {% for a, n in s.copertura %}<span><i class="segno" style="--colore: {{ a.colore }}"></i>{{ a.nome }} {{ n }}</span>{% endfor %}
-  </p>
+  {% if legenda %}{{ legenda_aree(s) }}{% endif %}
 </div>
 {% endmacro %}
 
+{% macro legenda_aree(s) %}
+<p class="barra-legenda" aria-hidden="true">
+  {% for a, n in s.copertura %}<span><i class="segno" style="--colore: {{ a.colore }}"></i>{{ a.nome }} {{ n }}</span>{% endfor %}
+</p>
+{% endmacro %}
+
 {# Un titolo di una fonte: chi, quando, e il titolo che porta all'originale. #}
-{% macro riga(n, altri=[], estratto=false) %}
+{% macro riga(n, altri=[], estratto=false, filone='') %}
 {% set f = fonti[n.fonte] %}
 <li class="titolo-fonte" data-fonte="{{ f.id }}" data-area="{{ f.area }}" data-categoria="{{ f.categoria }}" data-titolo="{{ n.titolo|lower }}{% for a in altri %} {{ a.titolo|lower }}{% endfor %}">
   <span class="chi"><i class="segno" style="--colore: {{ colori_aree[f.area] }}"></i><strong>{{ f.nome }}</strong>
     <span class="area">{{ f.area }}</span>{% if n.canale in ('instagram', 'manuale') %} <span class="badge">Instagram</span>{% endif %}
     · {{ tempo(n.pubblicato) }}</span>
+  {% if filone %}<span class="filone-tag">{{ filone }}</span>{% endif %}
   <a class="titolo-link" href="{{ n.link }}" target="_blank" rel="noopener">{{ n.titolo }}<span class="freccia" aria-hidden="true">&nbsp;↗</span></a>
   {% if estratto and n.estratto %}
   <p class="estratto">{% if n.canale == 'manuale' %}<span class="riassunto-mano">Riassunto di {{ sito.titolo }}:</span> {% endif %}{{ n.estratto }}</p>
@@ -49,6 +54,37 @@
 </details>
 {% endmacro %}
 
+{# I filoni di una storia: ognuno con il numero di fonti, la sua barra e,
+   aprendolo, i suoi titoli. In fondo gli articoli che non stanno in un filone. #}
+{% macro elenco_filoni(s) %}
+<div class="filoni">
+  <h3 class="filoni-titolo">I filoni della storia</h3>
+  {% for f in s.filoni %}
+  <details class="filone">
+    <summary>
+      <span class="filone-testa"><span class="filone-nome">{{ f.etichetta }}</span>
+        <span class="filone-conta">{{ f.fonti|length }} fonti · {{ f.notizie|length }} {{ 'articolo' if f.notizie|length == 1 else 'articoli' }}</span></span>
+      {{ barra(f, legenda=false) }}
+    </summary>
+    {{ legenda_aree(f) }}
+    <ul class="elenco-titoli">
+      {% for n, altri in f.tutte %}{{ riga(n, altri) }}{% endfor %}
+    </ul>
+  </details>
+  {% endfor %}
+  {% if s.altri_articoli %}
+  {% set quanti = s.altri_articoli|map('last')|map('length')|sum + s.altri_articoli|length %}
+  <details class="filone filone-altri">
+    <summary><span class="filone-testa"><span class="filone-nome">Altri articoli</span>
+      <span class="filone-conta">{{ quanti }} {{ 'articolo' if quanti == 1 else 'articoli' }} su aspetti raccontati da una sola fonte</span></span></summary>
+    <ul class="elenco-titoli">
+      {% for n, altri in s.altri_articoli %}{{ riga(n, altri) }}{% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</div>
+{% endmacro %}
+
 {# Una storia completa: titolo, chi ne parla, titoli a confronto, tutte le fonti. #}
 {% macro storia(s, apertura=false, estratti=false, livello=2) %}
 <article class="storia{% if apertura %} apertura{% endif %}" id="s-{{ s.id }}" data-titolo="{{ s.titolo|lower }}">
@@ -58,12 +94,14 @@
     · titolo di {{ s.fonte_titolo }} · ultimo articolo {{ tempo(s.ultimo) }}</p>
   {{ barra(s) }}
   <ul class="confronto elenco-titoli" aria-label="Come la raccontano">
-    {% for n in s.confronto %}{{ riga(n, estratto=estratti) }}{% endfor %}
+    {% for n in s.confronto %}{{ riga(n, estratto=estratti, filone=s.filone_di.get(n.id, '')) }}{% endfor %}
   </ul>
   {% if s.verifica %}
   <p class="verifica"><a href="{{ s.verifica }}" target="_blank" rel="noopener">Verifica tu: cerca la notizia sui siti dei grandi giornali<span aria-hidden="true">&nbsp;↗</span></a></p>
   {% endif %}
-  {% if s.tutte|length > s.confronto|length or s.gruppo.notizie|length > s.confronto|length %}
+  {% if s.filoni %}
+  {{ elenco_filoni(s) }}
+  {% elif s.tutte|length > s.confronto|length or s.gruppo.notizie|length > s.confronto|length %}
   {{ tutte_le_fonti(s) }}
   {% endif %}
 </article>
@@ -75,7 +113,7 @@
   <h3 class="storia-titolo">{{ s.titolo }}</h3>
   <p class="storia-meta">{{ s.fonti|length }} fonti · titolo di {{ s.fonte_titolo }} · ultimo articolo {{ tempo(s.ultimo) }}</p>
   {{ barra(s) }}
-  {{ tutte_le_fonti(s) }}
+  {% if s.filoni %}{{ elenco_filoni(s) }}{% else %}{{ tutte_le_fonti(s) }}{% endif %}
 </article>
 {% endmacro %}
 

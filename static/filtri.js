@@ -47,8 +47,9 @@
       var visibile = !!s.querySelector(".titolo-fonte:not([hidden])");
       s.hidden = !visibile;
       if (visibile) storieVisibili++;
-      var dettagli = s.querySelector("details");
-      if (dettagli) dettagli.open = !!(attivo && visibile);
+      s.querySelectorAll("details").forEach(function (d) {
+        d.open = !!(attivo && d.querySelector(".titolo-fonte:not([hidden])"));
+      });
     });
     sezioni.forEach(function (s) {
       s.hidden = !s.querySelector(".titolo-fonte:not([hidden])");

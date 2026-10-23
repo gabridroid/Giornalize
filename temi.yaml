@@ -1,0 +1,36 @@
+# ============================================================================
+#  TEMI DA SEGUIRE
+# ============================================================================
+#
+#  Gli argomenti che vuoi seguire nel tempo. Per ognuno la pagina "Temi"
+#  mostra, giorno per giorno, quali fonti ne hanno scritto e quali no
+#  (negli ultimi giorni indicati in config.yaml, alla voce "temi").
+#
+#  Ogni tema ha:
+#    nome     il nome che compare sul sito
+#    cerca    le parole da cercare nei titoli e negli estratti:
+#               ,   (virgola)  = "oppure": basta una delle parole
+#               +   (più)      = "e anche": serve almeno una parola
+#                                di ogni gruppo
+#             Singolare e plurale, maschile e femminile vanno bene da soli
+#             ("multa" trova anche "multe", "denunciato" anche "denunciati").
+#             L'asterisco trova tutte le parole che iniziano così:
+#             "denunc*" trova denuncia, denunce, denunciati, denunciano...
+#             Maiuscole e accenti non contano.
+#    attivo   (facoltativo) false per nascondere un tema senza cancellarlo
+#
+#  Esempio:
+#    cerca: "denunciati, multe + tir, agricoltori"
+#    trova "Tir, 40 camionisti denunciati" e "Multe agli agricoltori",
+#    ma non "Multe agli automobilisti" (manca tir o agricoltori).
+#
+#  ATTENZIONE agli spazi: copia un blocco esistente e cambia solo i valori.
+# ============================================================================
+
+temi:
+
+  - nome: Denunce e multe ai manifestanti
+    cerca: >-
+      denunciati, denunce, identificati, multe, multati, sanzioni, sanzionati,
+      foglio di via
+      + tir, autotrasportatori, camionisti, agricoltori, trattori, carovita
