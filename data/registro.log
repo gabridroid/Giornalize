@@ -215,3 +215,15 @@
 2026-10-23 17:12:38 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: non è un feed leggibile (<unknown>:2:119: not well-formed (invalid token))
 2026-10-23 17:12:38 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-10-23 17:13:19 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo, ispi
+2026-10-23 18:01:03 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-23 18:01:04 WARNING giornalize.raccolta: teleborsa: trovato in automatico il feed https://news.teleborsa.it/newsfeed.ashx (conviene scriverlo in sources.yaml)
+2026-10-23 18:01:05 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-23 18:01:06 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-23 18:01:08 WARNING giornalize.raccolta: gazzettamezzogiorno: trovato in automatico il feed https://feeds.feedburner.com/lagazzettadelmezzogiorno/viyi6z8dkwu (conviene scriverlo in sources.yaml)
+2026-10-23 18:01:08 WARNING giornalize.raccolta: repubblicasud: errore con https://napoli.repubblica.it/rss/homepage/rss2.0.xml: errore HTTP 404
+2026-10-23 18:01:09 WARNING giornalize.raccolta: giornaledisicilia: trovato in automatico il feed https://gds.it/upload/assets/rss/producer-sicilia-homepage.xml (conviene scriverlo in sources.yaml)
+2026-10-23 18:01:09 WARNING giornalize.raccolta: lacnews24: trovato in automatico il feed https://www.lacnews24.it/sitemaps/lacnews24/rss (conviene scriverlo in sources.yaml)
+2026-10-23 18:01:09 WARNING giornalize.raccolta: repubblicasud: errore con https://bari.repubblica.it/rss/homepage/rss2.0.xml: errore HTTP 404
+2026-10-23 18:01:10 WARNING giornalize.raccolta: repubblicasud: errore con https://palermo.repubblica.it/rss/homepage/rss2.0.xml: errore HTTP 404
+2026-10-23 18:01:11 WARNING giornalize.raccolta: repubblicasud: trovato in automatico il feed http://www.repubblica.it/rss/homepage/rss2.0.xml (conviene scriverlo in sources.yaml)
+2026-10-23 18:01:30 WARNING giornalize: Fonti non raggiungibili in questo giro: ispi
