@@ -227,3 +227,7 @@
 2026-10-23 18:01:10 WARNING giornalize.raccolta: repubblicasud: errore con https://palermo.repubblica.it/rss/homepage/rss2.0.xml: errore HTTP 404
 2026-10-23 18:01:11 WARNING giornalize.raccolta: repubblicasud: trovato in automatico il feed http://www.repubblica.it/rss/homepage/rss2.0.xml (conviene scriverlo in sources.yaml)
 2026-10-23 18:01:30 WARNING giornalize: Fonti non raggiungibili in questo giro: ispi
+2026-10-23 18:08:34 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-23 18:08:36 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-23 18:08:36 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-23 18:09:30 WARNING giornalize: Fonti non raggiungibili in questo giro: ispi
