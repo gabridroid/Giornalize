@@ -211,3 +211,7 @@
 2026-10-23 11:44:28 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
 2026-10-23 11:44:29 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-10-23 11:45:29 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo, ispi
+2026-10-23 17:12:36 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-23 17:12:38 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: non è un feed leggibile (<unknown>:2:119: not well-formed (invalid token))
+2026-10-23 17:12:38 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-23 17:13:19 WARNING giornalize: Fonti non raggiungibili in questo giro: fanpage, scomodo, ispi
