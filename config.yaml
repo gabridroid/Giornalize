@@ -225,6 +225,10 @@ categorie:
     singolare: quotidiano
     plurale: quotidiani
     colore: "#2f6fb0"
+  - nome: Quotidiani locali
+    singolare: quotidiano locale
+    plurale: quotidiani locali
+    colore: "#6b7f3a"
   - nome: Testate online e settimanali
     singolare: testata online
     plurale: testate online

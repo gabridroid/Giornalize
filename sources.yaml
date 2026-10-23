@@ -82,6 +82,17 @@ fonti:
       - https://tg24.sky.it/rss/tg24.xml
     attiva: true
 
+  - id: teleborsa
+    nome: Teleborsa
+    categoria: Agenzie e all-news
+    tipo: Agenzia di stampa economica
+    orientamento: Economico, finanziario   # proposta
+    area: non collocabile
+    sito: https://www.teleborsa.it
+    instagram: ""
+    feed: []   # da trovare: il programma lo cerca dal sito (vedi rapporto fonti)
+    attiva: true
+
   # --------------------------------------------------------------------------
   # Quotidiani nazionali
   # --------------------------------------------------------------------------
@@ -277,11 +288,13 @@ fonti:
     area: non collocabile
     sito: https://www.fanpage.it
     instagram: "@fanpage.it"
-    # Al primo controllo Fanpage ha rifiutato l'accesso ai server di GitHub
-    # (errore 403: blocca i programmi automatici). Resta attiva nel caso
-    # cambi idea; non aggiriamo il blocco.
+    # Il sito rifiuta l'accesso ai server di GitHub (errore 403: blocca i
+    # programmi automatici) e non aggiriamo il blocco. Intanto i suoi post
+    # Instagram si leggono con l'API ufficiale; il feed resta nel caso il
+    # sito cambi idea.
     feed:
       - https://www.fanpage.it/feed/
+    instagram_api: true
     attiva: true
 
   - id: linkiesta
@@ -320,6 +333,30 @@ fonti:
       - https://www.internazionale.it/sitemaps/rss.xml
     escludi:
       - "/redirect/"  # recensioni di dischi e libri
+    attiva: true
+
+  - id: espresso
+    nome: L'Espresso
+    categoria: Testate online e settimanali
+    tipo: Settimanale
+    orientamento: Progressista   # proposta
+    area: centro-sinistra   # proposta, come le altre testate "progressiste"
+    sito: https://lespresso.it
+    instagram: ""
+    feed:
+      - https://lespresso.it/feed/
+    attiva: true
+
+  - id: quifinanza
+    nome: QuiFinanza
+    categoria: Testate online e settimanali
+    tipo: Testata online di economia
+    orientamento: Economico, divulgativo   # proposta
+    area: non collocabile
+    sito: https://quifinanza.it
+    instagram: ""
+    feed:
+      - https://quifinanza.it/feed/
     attiva: true
 
   # --------------------------------------------------------------------------
@@ -474,6 +511,7 @@ fonti:
     # il blocco. Intanto i suoi articoli si possono aggiungere a mano.
     feed:
       - https://scomodo.org/feed/
+    instagram_api: true   # i post Instagram si leggono con l'API ufficiale
     attiva: true
 
   - id: vdnews
@@ -582,4 +620,83 @@ fonti:
     instagram: "@generazione"
     feed: []   # solo Instagram
     instagram_api: true
+    attiva: true
+
+  # --------------------------------------------------------------------------
+  # Quotidiani locali del Sud
+  # Le notizie locali (per esempio le multe ai singoli blocchi stradali)
+  # spesso escono prima qui. Contano nelle storie e nei temi da seguire, ma
+  # non per "Fuori dai radar" (vedi config.yaml).
+  # Gli indirizzi dei feed con "da verificare" vanno controllati con
+  # "Prova le fonti": se non funzionano, il programma li cerca dal sito.
+  # --------------------------------------------------------------------------
+  - id: ilmattino
+    nome: Il Mattino
+    categoria: Quotidiani locali
+    tipo: Quotidiano (Napoli e Campania)
+    orientamento: Generalista   # proposta
+    area: non collocabile
+    sito: https://www.ilmattino.it
+    instagram: ""
+    feed:
+      - https://www.ilmattino.it/rss/home.xml   # da verificare
+    attiva: true
+
+  - id: gazzettamezzogiorno
+    nome: La Gazzetta del Mezzogiorno
+    categoria: Quotidiani locali
+    tipo: Quotidiano (Puglia e Basilicata)
+    orientamento: Generalista   # proposta
+    area: non collocabile
+    sito: https://www.lagazzettadelmezzogiorno.it
+    instagram: ""
+    feed: []   # da trovare: il programma lo cerca dal sito
+    attiva: true
+
+  - id: giornaledisicilia
+    nome: Giornale di Sicilia
+    categoria: Quotidiani locali
+    tipo: Quotidiano (Sicilia)
+    orientamento: Generalista   # proposta
+    area: non collocabile
+    sito: https://gds.it
+    instagram: ""
+    feed: []   # da trovare: il programma lo cerca dal sito
+    attiva: true
+
+  - id: quotidianodelsud
+    nome: Quotidiano del Sud
+    categoria: Quotidiani locali
+    tipo: Quotidiano (Calabria, Basilicata, Campania)
+    orientamento: Generalista   # proposta
+    area: non collocabile
+    sito: https://www.quotidianodelsud.it
+    instagram: ""
+    feed:
+      - https://www.quotidianodelsud.it/feed/   # da verificare
+    attiva: true
+
+  - id: lacnews24
+    nome: LaC News24
+    categoria: Quotidiani locali
+    tipo: Testata online e TV (Calabria)
+    orientamento: Generalista   # proposta
+    area: non collocabile
+    sito: https://www.lacnews24.it
+    instagram: ""
+    feed: []   # da trovare: il programma lo cerca dal sito
+    attiva: true
+
+  - id: repubblicasud
+    nome: la Repubblica (Napoli, Bari, Palermo)
+    categoria: Quotidiani locali
+    tipo: Edizioni locali di un quotidiano nazionale
+    orientamento: Centro-sinistra   # come l'edizione nazionale
+    area: centro-sinistra
+    sito: https://napoli.repubblica.it
+    instagram: ""
+    feed:   # da verificare
+      - https://napoli.repubblica.it/rss/homepage/rss2.0.xml
+      - https://bari.repubblica.it/rss/homepage/rss2.0.xml
+      - https://palermo.repubblica.it/rss/homepage/rss2.0.xml
     attiva: true
