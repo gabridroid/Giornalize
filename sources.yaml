@@ -90,7 +90,8 @@ fonti:
     area: non collocabile
     sito: https://www.teleborsa.it
     instagram: ""
-    feed: []   # da trovare: il programma lo cerca dal sito (vedi rapporto fonti)
+    feed:
+      - https://news.teleborsa.it/newsfeed.ashx
     attiva: true
 
   # --------------------------------------------------------------------------
@@ -357,6 +358,9 @@ fonti:
     instagram: ""
     feed:
       - https://quifinanza.it/feed/
+    escludi:          # viaggi, lotterie e altre rubriche non di attualità
+      - "/lifestyle/"
+      - "/estrazioni-e-lotterie/"
     attiva: true
 
   # --------------------------------------------------------------------------
@@ -627,8 +631,6 @@ fonti:
   # Le notizie locali (per esempio le multe ai singoli blocchi stradali)
   # spesso escono prima qui. Contano nelle storie e nei temi da seguire, ma
   # non per "Fuori dai radar" (vedi config.yaml).
-  # Gli indirizzi dei feed con "da verificare" vanno controllati con
-  # "Prova le fonti": se non funzionano, il programma li cerca dal sito.
   # --------------------------------------------------------------------------
   - id: ilmattino
     nome: Il Mattino
@@ -639,7 +641,7 @@ fonti:
     sito: https://www.ilmattino.it
     instagram: ""
     feed:
-      - https://www.ilmattino.it/rss/home.xml   # da verificare
+      - https://www.ilmattino.it/rss/home.xml
     attiva: true
 
   - id: gazzettamezzogiorno
@@ -650,7 +652,12 @@ fonti:
     area: non collocabile
     sito: https://www.lagazzettadelmezzogiorno.it
     instagram: ""
-    feed: []   # da trovare: il programma lo cerca dal sito
+    feed:
+      - https://feeds.feedburner.com/lagazzettadelmezzogiorno/viyi6z8dkwu
+    sitemap:          # il feed a volte resta indietro di qualche giorno
+      - https://www.lagazzettadelmezzogiorno.it/siteMapNews.jsp
+    escludi:
+      - "/news/adv/"  # pubblicità redazionali
     attiva: true
 
   - id: giornaledisicilia
@@ -661,7 +668,8 @@ fonti:
     area: non collocabile
     sito: https://gds.it
     instagram: ""
-    feed: []   # da trovare: il programma lo cerca dal sito
+    feed:
+      - https://gds.it/upload/assets/rss/producer-sicilia-homepage.xml
     attiva: true
 
   - id: quotidianodelsud
@@ -673,7 +681,7 @@ fonti:
     sito: https://www.quotidianodelsud.it
     instagram: ""
     feed:
-      - https://www.quotidianodelsud.it/feed/   # da verificare
+      - https://www.quotidianodelsud.it/feed/
     attiva: true
 
   - id: lacnews24
@@ -684,7 +692,8 @@ fonti:
     area: non collocabile
     sito: https://www.lacnews24.it
     instagram: ""
-    feed: []   # da trovare: il programma lo cerca dal sito
+    feed:
+      - https://www.lacnews24.it/sitemaps/lacnews24/rss
     attiva: true
 
   - id: repubblicasud
@@ -695,8 +704,13 @@ fonti:
     area: centro-sinistra
     sito: https://napoli.repubblica.it
     instagram: ""
-    feed:   # da verificare
-      - https://napoli.repubblica.it/rss/homepage/rss2.0.xml
-      - https://bari.repubblica.it/rss/homepage/rss2.0.xml
-      - https://palermo.repubblica.it/rss/homepage/rss2.0.xml
+    # Le edizioni locali non hanno un feed RSS: si leggono le loro news sitemap.
+    feed: []
+    sitemap:   # da verificare con "Prova le fonti"
+      - https://napoli.repubblica.it/sitemap-n.xml
+      - https://bari.repubblica.it/sitemap-n.xml
+      - https://palermo.repubblica.it/sitemap-n.xml
+    escludi:   # gli articoli dell'edizione nazionale sono già nella fonte "la Repubblica"
+      - "://www.repubblica.it/"
+      - "://repubblica.it/"
     attiva: true
