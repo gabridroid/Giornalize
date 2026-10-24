@@ -253,3 +253,7 @@
 2026-10-24 16:00:05 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: non è un feed leggibile (<unknown>:2:119: not well-formed (invalid token))
 2026-10-24 16:00:06 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-10-24 16:00:40 WARNING giornalize: Fonti non raggiungibili in questo giro: pagellapolitica, ispi
+2026-10-24 20:53:46 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-24 20:53:48 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-24 20:53:48 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-24 20:54:33 WARNING giornalize: Fonti non raggiungibili in questo giro: ispi
