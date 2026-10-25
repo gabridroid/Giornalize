@@ -261,3 +261,9 @@
 2026-10-24 23:18:36 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
 2026-10-24 23:18:36 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-10-24 23:19:03 WARNING giornalize: Fonti non raggiungibili in questo giro: ispi
+2026-10-25 04:47:26 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-25 04:47:28 WARNING giornalize.raccolta: breakingitaly: errore con https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg: errore HTTP 404
+2026-10-25 04:47:29 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: errore HTTP 403
+2026-10-25 04:47:29 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-25 04:47:32 WARNING giornalize.raccolta: ilgiornale: trovato in automatico il sitemap https://www.ilgiornale.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml (conviene scriverlo in sources.yaml)
+2026-10-25 04:48:15 WARNING giornalize: Fonti non raggiungibili in questo giro: breakingitaly, ispi
