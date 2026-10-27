@@ -297,3 +297,7 @@
 2026-10-26 20:32:08 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
 2026-10-26 20:32:11 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-10-26 20:32:40 WARNING giornalize: Fonti non raggiungibili in questo giro: ilfoglio, ispi
+2026-10-27 00:29:10 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-27 00:29:14 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-27 00:29:17 WARNING giornalize.raccolta: ilgiornale: trovato in automatico il sitemap https://www.ilgiornale.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml (conviene scriverlo in sources.yaml)
+2026-10-27 00:30:07 WARNING giornalize: Fonti non raggiungibili in questo giro: ilfoglio, ispi
