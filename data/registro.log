@@ -323,3 +323,9 @@
 2026-10-28 20:19:53 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-10-28 20:19:53 WARNING giornalize.raccolta: gazzettamezzogiorno: errore con https://feeds.feedburner.com/lagazzettadelmezzogiorno/viyi6z8dkwu: feed fermo: l'ultima notizia è del 2026-10-21
 2026-10-28 20:20:18 WARNING giornalize: Fonti non raggiungibili in questo giro: ilfoglio, ispi
+2026-10-29 01:00:43 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-10-29 01:00:44 WARNING giornalize.raccolta: breakingitaly: errore con https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg: errore HTTP 404
+2026-10-29 01:00:45 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-10-29 01:00:46 WARNING giornalize.raccolta: gazzettamezzogiorno: errore con https://feeds.feedburner.com/lagazzettadelmezzogiorno/viyi6z8dkwu: feed fermo: l'ultima notizia è del 2026-10-21
+2026-10-29 01:00:50 WARNING giornalize.raccolta: ilgiornale: trovato in automatico il sitemap https://www.ilgiornale.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml (conviene scriverlo in sources.yaml)
+2026-10-29 01:01:10 WARNING giornalize: Fonti non raggiungibili in questo giro: ilfoglio, breakingitaly, ispi
