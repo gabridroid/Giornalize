@@ -525,3 +525,8 @@
 2026-11-11 06:31:31 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: irraggiungibile
 2026-11-11 06:31:31 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-11-11 06:31:47 WARNING giornalize: Fonti non raggiungibili in questo giro: breakingitaly, ispi
+2026-11-11 17:13:13 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-11-11 17:13:16 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: irraggiungibile
+2026-11-11 17:13:17 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-11-11 17:13:17 WARNING giornalize.raccolta: chronocol: errore con instagram @chronocol.media: feed fermo: l'ultima notizia è del 2026-11-04
+2026-11-11 17:13:38 WARNING giornalize: Fonti non raggiungibili in questo giro: ispi, chronocol
