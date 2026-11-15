@@ -609,3 +609,10 @@
 2026-11-15 06:39:57 WARNING giornalize.raccolta: chronocol: errore con instagram @chronocol.media: feed fermo: l'ultima notizia è del 2026-11-04
 2026-11-15 06:40:01 WARNING giornalize.raccolta: libero: trovato in automatico il sitemap https://www.liberoquotidiano.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml (conviene scriverlo in sources.yaml)
 2026-11-15 06:40:13 WARNING giornalize: Fonti non raggiungibili in questo giro: ilfoglio, breakingitaly, ispi, chronocol
+2026-11-15 16:24:11 WARNING giornalize.raccolta: libero: errore con https://www.liberoquotidiano.it/rss.xml: errore HTTP 404
+2026-11-15 16:24:11 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-11-15 16:24:13 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: non è un feed leggibile (<unknown>:2:119: not well-formed (invalid token))
+2026-11-15 16:24:13 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-11-15 16:24:14 WARNING giornalize.raccolta: chronocol: errore con instagram @chronocol.media: feed fermo: l'ultima notizia è del 2026-11-04
+2026-11-15 16:24:16 WARNING giornalize.raccolta: libero: trovato in automatico il sitemap https://www.liberoquotidiano.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml (conviene scriverlo in sources.yaml)
+2026-11-15 16:24:27 WARNING giornalize: Fonti non raggiungibili in questo giro: ilfoglio, ispi, chronocol
