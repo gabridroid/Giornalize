@@ -1,9 +1,9 @@
 {
  "ansa": {
   "fonte": "ansa",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 115,
+  "notizie": 114,
   "canali_ok": [
    "https://www.ansa.it/sito/ansait_rss.xml",
    "https://www.ansa.it/sito/notizie/politica/politica_rss.xml",
@@ -11,50 +11,50 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "rainews": {
   "fonte": "rainews",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 32,
+  "notizie": 27,
   "canali_ok": [
    "https://www.rainews.it/rss/tutti",
    "https://www.rainews.it/rss/politica"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "skytg24": {
   "fonte": "skytg24",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 27,
+  "notizie": 29,
   "canali_ok": [
    "https://tg24.sky.it/rss/tg24.xml"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "teleborsa": {
   "fonte": "teleborsa",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 1,
+  "notizie": 80,
   "canali_ok": [
    "https://news.teleborsa.it/newsfeed.ashx"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "corriere": {
   "fonte": "corriere",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 176,
+  "notizie": 173,
   "canali_ok": [
    "https://www.corriere.it/feed-hp/homepage-restyle-2025.xml",
    "https://www.corriere.it/dynamic-feed/rss/section/Politica.xml",
@@ -64,13 +64,13 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "repubblica": {
   "fonte": "repubblica",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 70,
+  "notizie": 72,
   "canali_ok": [
    "https://www.repubblica.it/rss/homepage/rss2.0.xml",
    "https://www.repubblica.it/rss/politica/rss2.0.xml",
@@ -78,23 +78,23 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "lastampa": {
   "fonte": "lastampa",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 46,
+  "notizie": 35,
   "canali_ok": [
    "https://www.lastampa.it/rss/copertina.xml"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "sole24ore": {
   "fonte": "sole24ore",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 24,
   "canali_ok": [
@@ -103,35 +103,35 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "ilfatto": {
   "fonte": "ilfatto",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 19,
+  "notizie": 20,
   "canali_ok": [
    "https://www.ilfattoquotidiano.it/feed/"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "manifesto": {
   "fonte": "manifesto",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 39,
+  "notizie": 48,
   "canali_ok": [
    "https://ilmanifesto.it/feed"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "domani": {
   "fonte": "domani",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 76,
   "canali_ok": [
@@ -139,11 +139,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "avvenire": {
   "fonte": "avvenire",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -151,25 +151,25 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "ilgiornale": {
   "fonte": "ilgiornale",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 80,
+  "notizie": 10,
   "canali_ok": [
    "https://www.ilgiornale.it/arc/outboundfeeds/sitemap-news/latest/"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "libero": {
   "fonte": "libero",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "parziale",
-  "notizie": 84,
+  "notizie": 37,
   "canali_ok": [
    "https://www.liberoquotidiano.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml"
   ],
@@ -177,23 +177,23 @@
    "https://www.liberoquotidiano.it/rss.xml: errore HTTP 404"
   ],
   "trovato_in_automatico": "https://www.liberoquotidiano.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml",
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "laverita": {
   "fonte": "laverita",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 5,
+  "notizie": 6,
   "canali_ok": [
    "https://www.laverita.info/feeds/feed.rss"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "ilfoglio": {
   "fonte": "ilfoglio",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "errore",
   "notizie": 0,
   "canali_ok": [
@@ -203,23 +203,23 @@
    "ricerca automatica: nessun feed trovato in automatico"
   ],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "ilpost": {
   "fonte": "ilpost",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 57,
+  "notizie": 58,
   "canali_ok": [
    "https://www.ilpost.it/feed"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "fanpage": {
   "fonte": "fanpage",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "parziale",
   "notizie": 10,
   "canali_ok": [
@@ -229,11 +229,11 @@
    "https://www.fanpage.it/feed/: errore HTTP 403"
   ],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "linkiesta": {
   "fonte": "linkiesta",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 12,
   "canali_ok": [
@@ -241,11 +241,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "open": {
   "fonte": "open",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -253,23 +253,23 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "internazionale": {
   "fonte": "internazionale",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 8,
+  "notizie": 6,
   "canali_ok": [
    "https://www.internazionale.it/sitemaps/rss.xml"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "espresso": {
   "fonte": "espresso",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -277,23 +277,23 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "quifinanza": {
   "fonte": "quifinanza",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 50,
+  "notizie": 48,
   "canali_ok": [
    "https://quifinanza.it/feed/"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "valigiablu": {
   "fonte": "valigiablu",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -301,11 +301,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "irpimedia": {
   "fonte": "irpimedia",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -313,11 +313,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "pagellapolitica": {
   "fonte": "pagellapolitica",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -325,11 +325,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "facta": {
   "fonte": "facta",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 80,
   "canali_ok": [
@@ -337,11 +337,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "will": {
   "fonte": "will",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -349,11 +349,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "factanza": {
   "fonte": "factanza",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -361,11 +361,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "torcha": {
   "fonte": "torcha",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -373,11 +373,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "progressista": {
   "fonte": "progressista",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -385,11 +385,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "nicolaporro": {
   "fonte": "nicolaporro",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 50,
   "canali_ok": [
@@ -397,37 +397,38 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "breakingitaly": {
   "fonte": "breakingitaly",
-  "ora": "2026-11-14T22:29:47Z",
-  "esito": "ok",
-  "notizie": 15,
-  "canali_ok": [
-   "https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg"
+  "ora": "2026-11-15T06:39:51Z",
+  "esito": "errore",
+  "notizie": 0,
+  "canali_ok": [],
+  "errori": [
+   "https://www.youtube.com/feeds/videos.xml?channel_id=UC4V3oCikXeSqYQr0hBMARwg: errore HTTP 404",
+   "ricerca automatica: nessun feed trovato in automatico"
   ],
-  "errori": [],
   "trovato_in_automatico": null,
   "ultimo_successo": "2026-11-14T22:29:47Z"
  },
  "scomodo": {
   "fonte": "scomodo",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "parziale",
   "notizie": 10,
   "canali_ok": [
    "instagram @scomodo"
   ],
   "errori": [
-   "https://scomodo.org/feed/: non è un feed leggibile (<unknown>:2:119: not well-formed (invalid token))"
+   "https://scomodo.org/feed/: irraggiungibile"
   ],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "vdnews": {
   "fonte": "vdnews",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 18,
   "canali_ok": [
@@ -435,23 +436,23 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "claim": {
   "fonte": "claim",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "nessun_canale",
   "notizie": 0,
   "canali_ok": [],
   "errori": [
-   "ricerca automatica: nessun feed trovato in automatico"
+   "ricerca automatica: sito irraggiungibile"
   ],
   "trovato_in_automatico": null,
   "ultimo_successo": null
  },
  "ispi": {
   "fonte": "ispi",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
@@ -464,7 +465,7 @@
  },
  "theperiod": {
   "fonte": "theperiod",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -472,11 +473,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "cncmedia": {
   "fonte": "cncmedia",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -484,11 +485,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "nxwss": {
   "fonte": "nxwss",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -496,11 +497,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "chronocol": {
   "fonte": "chronocol",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "errore",
   "notizie": 0,
   "canali_ok": [],
@@ -512,7 +513,7 @@
  },
  "actamedia": {
   "fonte": "actamedia",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -520,11 +521,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "generazione": {
   "fonte": "generazione",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 10,
   "canali_ok": [
@@ -532,48 +533,48 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "ilmattino": {
   "fonte": "ilmattino",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 19,
+  "notizie": 20,
   "canali_ok": [
    "https://www.ilmattino.it/rss/home.xml"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "gazzettamezzogiorno": {
   "fonte": "gazzettamezzogiorno",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 122,
+  "notizie": 123,
   "canali_ok": [
    "https://feeds.feedburner.com/lagazzettadelmezzogiorno/viyi6z8dkwu",
    "https://www.lagazzettadelmezzogiorno.it/siteMapNews.jsp"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "giornaledisicilia": {
   "fonte": "giornaledisicilia",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 73,
+  "notizie": 74,
   "canali_ok": [
    "https://gds.it/upload/assets/rss/producer-sicilia-homepage.xml"
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "quotidianodelsud": {
   "fonte": "quotidianodelsud",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 75,
   "canali_ok": [
@@ -581,11 +582,11 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "lacnews24": {
   "fonte": "lacnews24",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
   "notizie": 65,
   "canali_ok": [
@@ -593,13 +594,13 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  },
  "repubblicasud": {
   "fonte": "repubblicasud",
-  "ora": "2026-11-14T22:29:47Z",
+  "ora": "2026-11-15T06:39:51Z",
   "esito": "ok",
-  "notizie": 198,
+  "notizie": 147,
   "canali_ok": [
    "https://napoli.repubblica.it/sitemap-n.xml",
    "https://bari.repubblica.it/sitemap-n.xml",
@@ -607,6 +608,6 @@
   ],
   "errori": [],
   "trovato_in_automatico": null,
-  "ultimo_successo": "2026-11-14T22:29:47Z"
+  "ultimo_successo": "2026-11-15T06:39:51Z"
  }
 }
