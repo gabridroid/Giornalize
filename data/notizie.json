@@ -1,6 +1,1786 @@
 {
- "aggiornato": "2026-11-18T20:36:53Z",
+ "aggiornato": "2026-11-19T02:36:17Z",
  "notizie": [
+  {
+   "id": "08c7f654e7159e84",
+   "fonte": "rainews",
+   "titolo": "Sotheby’s: \"Châtaigniers en fleurs\" di Van Gogh venduto a 190,4 milioni di dollari",
+   "estratto": "Dopo una complessa controversia sulla provenienza dell’opera risalente al periodo nazista, il dipinto realizzato nel 1890 poche settimane prima della scomparsa dell'artista ha polverizzato il…",
+   "link": "https://www.rainews.it/articoli/2026/11/sothebys-chtaigniers-en-fleurs-di-van-gogh-venduto-a-1904-milioni-di-dollari-922b91d0-8441-4edf-ad90-84a5ee705d85.html",
+   "pubblicato": "2026-11-19T02:21:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "962415a44afea597",
+   "fonte": "corriere",
+   "titolo": "Guerra Iran-Usa, le notizie in diretta dal Medio Oriente | Petroliera colpita a Hormuz Onu: i palestinesi devono poter tornare a casa",
+   "estratto": "Le notizie sul conflitto tra Israele, Usa e Iran di giovedì 19 novembre, in diretta",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_novembre_19/guerra-iran-usa-le-notizie-in-diretta-dal-medio-oriente-petroliera-colpita-a-hormuz-onu-i-palestinesi-devono-poter-tornare-a-casa.shtml",
+   "pubblicato": "2026-11-19T02:18:54Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6dfd015d8f02b1f1",
+   "fonte": "corriere",
+   "titolo": "Trump, Putin e Xi: al via il trilaterale di Shenzhen. Ucraina, Iran, armi nucleari i temi in discussione",
+   "estratto": "L'incontro fra i tre leader in Cina, giovedì 18 novembre. In programma anche un incontro separato fra i leader americano e russo",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_novembre_19/trump-putin-xi-shenzhen-trilaterale-diretta-cina.shtml",
+   "pubblicato": "2026-11-19T02:15:20Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "84c9d1913b951b34",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Trump: 'Colpa di Obama se Russia e Cina si sono avvicinate'",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216804/trump-colpa-di-obama-se-russia-e-cina-si-sono-avvicinate.html",
+   "pubblicato": "2026-11-19T01:55:02Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "9d812dd06f7c3413",
+   "fonte": "libero",
+   "titolo": "Lorenzo Pacini aizza gli studenti nella scuola occupata: “Continuate così”",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/milano/lorenzo-pacini-aizza-gli-studenti-nella-scuola-occupata-continuate-cosi/",
+   "pubblicato": "2026-11-19T01:46:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "0fee6de02070a6bc",
+   "fonte": "ilmattino",
+   "titolo": "Caserta, risse e clochard in piazza Sant?Anna: «Garantire il decoro». Marzano: «Qui servono iniziative»",
+   "estratto": "Una rissa, l?ennesima, scoppiata due sere fa in piazza Sant?Anna ha riacceso i riflettori sullo stato di abbandono e degrado in cui versa l?intera zona. L?episodio, che ha...",
+   "link": "https://www.ilmattino.it/caserta/caserta_risse_e_clochard_in_piazza_sant_anna_garantire_il_decoro_marzano_qui_servono_iniziative-9898449.html",
+   "pubblicato": "2026-11-19T01:45:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "757452b672a05d58",
+   "fonte": "ilmattino",
+   "titolo": "Orta di Atella, stesa in via Pantani: terrore tra i residenti.`Colpi di arma esplosi in aria da auto e moto",
+   "estratto": "Moto e auto che sfrecciano e colpi di arma da fuoco esplosi. Lo scenario è quello di via Pantani, area degradata di Orta di Atella, dove l?altro ieri sera è stato segnalato un...",
+   "link": "https://www.ilmattino.it/caserta/orta_di_atella_stesa_in_via_pantani_terrore_tra_i_residenti_colpi_di_arma_esplosi_in_aria_da_auto_e_moto-9898492.html",
+   "pubblicato": "2026-11-19T01:30:02Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "74bbd009c53fb259",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Anthropic amplia la sua Ipo a 81 miliardi, batte quella di SpaceX di Musk",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216803/anthropic-amplia-la-sua-ipo-a-81-miliardi-batte-quella-di-spacex-di-musk.html",
+   "pubblicato": "2026-11-19T01:25:02Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "abaf173583e4532f",
+   "fonte": "rainews",
+   "titolo": "Kiev guarda alla trilaterale di Shenzhen e ai volenterosi di Berlino",
+   "estratto": "Mentre Putin, Xi e Trump si confronteranno in Cina, nella stessa giornata i Volenterosi si incontrano a Berlino. Nella notte nuovi attacchi ucraini sul ponte in Crimea mentre i russi tornano a…",
+   "link": "https://www.rainews.it/maratona/2026/11/cina-iniziati-i-colloqui-tra-xi-e-putin-al-vertice-apec-di-shenzen-incontreranno-trump-la-guerra-in-ucraina-giorno-1730-kiev-guarda-alla-trilaterale-di-shenzhen-e-ai-volenterosi-di-berlino-fd1c74cb-0c23-47de-9f5f-45d53e348057.html",
+   "pubblicato": "2026-11-19T01:23:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3c0ca263c0b0890a",
+   "fonte": "ilmattino",
+   "titolo": "Salerno, ecco sei nuovi indirizzi ?4+2?: «Avviciniamo gli studenti alle professioni del futuro»",
+   "estratto": "Sei nuovi percorsi quadriennali, altrettante porte spalancate sulle professioni del futuro e una platea potenziale di 150 giovani ogni anno pronti a costruire il proprio percorso verso il mondo...",
+   "link": "https://www.ilmattino.it/salerno/salerno_ecco_sei_nuovi_indirizzi_4_2_avviciniamo_gli_studenti_alle_professioni_del_futuro-9898453.html",
+   "pubblicato": "2026-11-19T01:15:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fa03bf27026c3167",
+   "fonte": "corriere",
+   "titolo": "Guerra Ucraina-Russia, le notizie in diretta | Kiev: «Raid russo con droni nel Kharkiv, due feriti».",
+   "estratto": "Le notizie sul conflitto tra Ucraina e Russia di giovedì 19 novembre, in diretta",
+   "link": "https://www.corriere.it/esteri/diretta-live/26_novembre_19/guerra-ucraina-russia-le-notizie-in-diretta-kiev-raid-russo-con-droni-nel-kharkiv-due-feriti.shtml",
+   "pubblicato": "2026-11-19T01:09:05Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "10ad70dec6465806",
+   "fonte": "quotidianodelsud",
+   "titolo": "James Bond, da Kristen Stewart a Timothée Chalamet: parte il toto-cattivo di 007",
+   "estratto": "Il Quotidiano del Sud James Bond, da Kristen Stewart a Timothée Chalamet: parte il toto-cattivo di 007 (Adnkronos) – Non basta un Martini “agitato, non mescolato” per fare un grande James Bond…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/james-bond-da-kristen-stewart-a-timothee-chalamet-parte-il-toto-cattivo-di-007",
+   "pubblicato": "2026-11-19T01:05:26Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "dd9a6c5160de1c5a",
+   "fonte": "quotidianodelsud",
+   "titolo": "Incontro Trump-Xi, poi trilaterale con Putin: dalla tregua commerciale all’Ucraina, cosa c’è sul tavolo dei leader",
+   "estratto": "Il Quotidiano del Sud Incontro Trump-Xi, poi trilaterale con Putin: dalla tregua commerciale all’Ucraina, cosa c’è sul tavolo dei leader (Adnkronos) – Manca poco all’atteso bilaterale tra Donald…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/incontro-trump-xi-poi-trilaterale-con-putin-dalla-tregua-commerciale-allucraina-cosa-ce-sul-tavolo-dei-leader",
+   "pubblicato": "2026-11-19T01:05:19Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0de9a71d95235033",
+   "fonte": "quotidianodelsud",
+   "titolo": "Manovra, è contesa sulle risorse: restano i nodi pensioni e sanità. Salvini insiste su ‘Quota 64’",
+   "estratto": "Il Quotidiano del Sud Manovra, è contesa sulle risorse: restano i nodi pensioni e sanità. Salvini insiste su ‘Quota 64’ (Adnkronos) – In maggioranza è ancora aperta la contesa sulle risorse per le…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/manovra-e-contesa-sulle-risorse-restano-i-nodi-pensioni-e-sanita-salvini-insiste-su-quota-64",
+   "pubblicato": "2026-11-19T01:05:13Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "471bcb27868abf0e",
+   "fonte": "quotidianodelsud",
+   "titolo": "Fiano lascia il Pd dopo il no dem al ddl Antisemitismo. Il dispiacere di Schlein, il monito dei riformisti: “Perdita grave, non sottovalutarla”",
+   "estratto": "Il Quotidiano del Sud Fiano lascia il Pd dopo il no dem al ddl Antisemitismo. Il dispiacere di Schlein, il monito dei riformisti: “Perdita grave, non sottovalutarla” (Adnkronos) – Lo aveva…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/fiano-lascia-il-pd-dopo-il-no-dem-al-ddl-antisemitismo-il-dispiacere-di-schlein-il-monito-dei-riformisti-perdita-grave-non-sottovalutarla",
+   "pubblicato": "2026-11-19T01:05:07Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fb7d6cbd16daa6e6",
+   "fonte": "quotidianodelsud",
+   "titolo": "Maltempo, in arrivo venti fino a burrasca da Nord a Sud. La Protezione civile: “Allerta gialla in undici regioni”",
+   "estratto": "Il Quotidiano del Sud Maltempo, in arrivo venti fino a burrasca da Nord a Sud. La Protezione civile: “Allerta gialla in undici regioni” (Adnkronos) – Una perturbazione all’interno dell’intenso…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/maltempo-in-arrivo-venti-fino-a-burrasca-da-nord-a-sud-la-protezione-civile-allerta-gialla-in-undici-regioni",
+   "pubblicato": "2026-11-19T01:04:59Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "be882d8eb786d635",
+   "fonte": "quotidianodelsud",
+   "titolo": "Atp Finals, Cobolli in lacrime: “La partita più triste della mia carriera”",
+   "estratto": "Il Quotidiano del Sud Atp Finals, Cobolli in lacrime: “La partita più triste della mia carriera” (Adnkronos) – Flavio Cobolli è amareggiato. E, palesandosi in conferenza stampa dopo l’eliminazione…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/atp-finals-cobolli-in-lacrime-la-partita-piu-triste-della-mia-carriera",
+   "pubblicato": "2026-11-19T01:04:49Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c4d7515ceda0e360",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Stragliotto (Mediolanum): “Con Estate insieme i bimbi tornano alla normalità”",
+   "estratto": "Il Quotidiano del Sud Sla, Stragliotto (Mediolanum): “Con Estate insieme i bimbi tornano alla normalità” (Adnkronos) – “Abbiamo preso questa decisione perché innanzitutto Fondazione Mediolanum ha…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/sla-stragliotto-mediolanum-con-estate-insieme-i-bimbi-tornano-alla-normalita",
+   "pubblicato": "2026-11-19T01:04:40Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "53526dec92fa1138",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Esposito (Aisla): “Con ministro Disabilità per presa in carico tempestiva”",
+   "estratto": "Il Quotidiano del Sud Sla, Esposito (Aisla): “Con ministro Disabilità per presa in carico tempestiva” (Adnkronos) – “La Sla, una malattia ad altissima intensità e complessità assistenziale e a…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/sla-esposito-aisla-con-ministro-disabilita-per-presa-in-carico-tempestiva",
+   "pubblicato": "2026-11-19T01:04:06Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "440b01ea99312385",
+   "fonte": "rainews",
+   "titolo": "Minori e digitale, \"Servono prevenzione e regole contro i rischi dell'intelligenza artificiale",
+   "estratto": "In occasione della Giornata europea contro lo sfruttamento e l'abuso sessuale, Telefono Azzurro ha acceso i riflettori sulle minacce legate a deepfake, chatbot e ricatti online",
+   "link": "https://www.rainews.it/articoli/2026/11/minori-e-digitale-servono-prevenzione-e-regole-contro-i-rischi-dellintelligenza-artificiale-379c0690-9a69-4eef-b251-4a91d8c8d851.html",
+   "pubblicato": "2026-11-19T01:01:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "af629c6d1561e09d",
+   "fonte": "ilmattino",
+   "titolo": "La sfida ai mercati globali: «Salerno può essere hub». Prete: «Siamo il capoluogo di provincia più infrastrutturato d?Italia»",
+   "estratto": "L?export salernitano non solo recupera la lieve frenata dello scorso anno, ma torna a correre. Dopo una flessione del 2,7% registrata nel 2025, le esportazioni della provincia crescono nel...",
+   "link": "https://www.ilmattino.it/salerno/la_sfida_ai_mercati_globali_salerno_puo_essere_hub_prete_siamo_il_capoluogo_di_provincia_piu_infrastrutturato_d_italia-9898497.html",
+   "pubblicato": "2026-11-19T01:00:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8f702f281df4b433",
+   "fonte": "ilmattino",
+   "titolo": "Ospedale Incurabili a Napoli, lavori sprint. Pronti chiostri e scaloni: «È un tesoro della città»",
+   "estratto": "Mille giorni di cantiere per riaprire uno dei complessi storici più grandi di Napoli. I lavori avviati nel 2025 nell?ospedale di Santa Maria del Popolo degli Incurabili puntano alla...",
+   "link": "https://www.ilmattino.it/napoli/cronaca/ospedale_incurabili_a_napoli_lavori_sprint_pronti_chiostri_e_scaloni_e_un_tesoro_della_citta-9898476.html",
+   "pubblicato": "2026-11-19T00:45:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5ba9d8847aaa43f3",
+   "fonte": "repubblica",
+   "titolo": "In pensione con un assegno ritoccato. L’emendamento per le forze dell’ordine",
+   "estratto": "Arriva la previdenza dedicata per il comparto sicurezza. FI punta anche a cancellare del tutto il taglio alle rivalutazioni. La Lega vuole portare ad almeno un miliardo all’anno il fondo per…",
+   "link": "https://www.repubblica.it/economia/dossier/manovra-finanziaria-legge-di-bilancio/2026/11/19/news/manovra_ecco_la_pensione_dedicata_per_polizia_e_forze_ordine-425733631/",
+   "pubblicato": "2026-11-19T00:43:27Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "295f85c26c0c66ab",
+   "fonte": "corriere",
+   "titolo": "Asta record a New York: un Van Gogh aggiudicato per 190 milioni di dollari",
+   "estratto": "Il dipinto «Chataigniers en fleurs» dipinto nel 1890",
+   "link": "https://www.corriere.it/esteri/26_novembre_19/asta-record-a-new-york-un-van-gogh-aggiudicato-per-190-milioni-di-dollari-0da5c3aa-d812-4f1f-90ba-f5d1e91d5xlk.shtml",
+   "pubblicato": "2026-11-19T00:42:32Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "043961a019471c79",
+   "fonte": "ilmattino",
+   "titolo": "Sorrento, le spese ?pazze? dell?ex sindaco: per la Corte dei Conti un danno da 179mila euro",
+   "estratto": "Soldi pubblici destinati ad un?associazione che organizza eventi finiti in realtà nella disponibilità dell?ex sindaco di Sorrento che li utilizzava per vacanze e acquisto...",
+   "link": "https://www.ilmattino.it/napoli/area_metropolitana/sorrento_le_spese_pazze_ex_sindaco_la_corte_conti_danno_da_179mila_euro_coppola-9898473.html",
+   "pubblicato": "2026-11-19T00:30:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0d1ad536849427e1",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Record a New York, un Van Gogh aggiudicato per 190 milioni di dollari",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216710/record-a-new-york-un-van-gogh-aggiudicato-per-190-milioni-di-dollari.html",
+   "pubblicato": "2026-11-19T00:25:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "1a835f583f3013f7",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Bayesian, ente governativo inglese 'scagiona' l'equipaggio",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216709/bayesian-ente-governativo-inglese-scagiona-l-equipaggio.html",
+   "pubblicato": "2026-11-19T00:25:02Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "a1a4758269498156",
+   "fonte": "ansa",
+   "titolo": "Bayesian, ente governativo inglese 'scagiona' l'equipaggio",
+   "estratto": "Relazione MAIB: 'Vulnerabilità strutturale e meteo proibitivo causarono affondamento nave'",
+   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/11/19/bayesian-ente-governativo-inglese-scagiona-lequipaggio_052f3026-e9d5-44af-ad04-9fd95dc469d2.html",
+   "pubblicato": "2026-11-19T00:17:43Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1ffa303790ff119a",
+   "fonte": "ilmattino",
+   "titolo": "Campania, strade e Nobel in Consiglio: si accende lo scontro in aula, ma manca il numero legale",
+   "estratto": "Un consiglio regionale fiume pieno solo di mozioni. A cui viene messo fine, anzitempo, quando il capogruppo di Fdi Raffaele Pisacane chiede la verifica del numero legale. Che non c?è...",
+   "link": "https://www.ilmattino.it/napoli/politica/strade_nobel_consiglio_si_accende_scontro_aula_ma_manca_numero_legale-9898544.html",
+   "pubblicato": "2026-11-19T00:15:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1f3d110cfb5943d1",
+   "fonte": "quotidianodelsud",
+   "titolo": "Alcaraz e l’incontro con Cahill alle Atp Finals",
+   "estratto": "Il Quotidiano del Sud Alcaraz e l’incontro con Cahill alle Atp Finals (Adnkronos) – Curioso incrocio alle Atp Finals 2026. Oggi, mercoledì 18 novembre, l’ormai ex coach di Jannik Sinner Darren…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/alcaraz-e-lincontro-con-cahill-alle-atp-finals",
+   "pubblicato": "2026-11-19T00:04:29Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0fee55b4eeed9e49",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, De Girolamo: “Ricerca fondamentale, non gireremo la testa dall’altra parte”",
+   "estratto": "Il Quotidiano del Sud Sla, De Girolamo: “Ricerca fondamentale, non gireremo la testa dall’altra parte” (Adnkronos) – “La ricerca è fondamentale: senza la ricerca noi non potremmo avere le risorse e…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/sla-de-girolamo-ricerca-fondamentale-non-gireremo-la-testa-dallaltra-parte",
+   "pubblicato": "2026-11-19T00:04:24Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b36f3dbb20ddfada",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Fontana (Aisla): “Dialogo costante con istituzioni per risposte in tempi rapidi”",
+   "estratto": "Il Quotidiano del Sud Sla, Fontana (Aisla): “Dialogo costante con istituzioni per risposte in tempi rapidi” (Adnkronos) – “Dobbiamo partire dal presupposto che i malati di Sla non vogliono esistere…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/sla-fontana-aisla-dialogo-costante-con-istituzioni-per-risposte-in-tempi-rapidi",
+   "pubblicato": "2026-11-19T00:04:19Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "532ab1918b34cd74",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Lucchini (Lombardia): “Ascolto e sostegno alle famiglie, fondamentale fare rete”",
+   "estratto": "Il Quotidiano del Sud Sla, Lucchini (Lombardia): “Ascolto e sostegno alle famiglie, fondamentale fare rete” (Adnkronos) – “Bisogna partire dall’ascolto e dall’attenzione ai bisogni delle persone e…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/sla-lucchini-lombardia-ascolto-e-sostegno-alle-famiglie-fondamentale-fare-rete",
+   "pubblicato": "2026-11-19T00:04:14Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f6f255cadd2282dd",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Maselli (Lazio): “26 centri Tobia per rendere le cure più accessibili”",
+   "estratto": "Il Quotidiano del Sud Sla, Maselli (Lazio): “26 centri Tobia per rendere le cure più accessibili” (Adnkronos) – “Quello dei Centri Tobia è ormai un progetto concreto, presente nella rete ospedaliera…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/sla-maselli-lazio-26-centri-tobia-per-rendere-le-cure-piu-accessibili",
+   "pubblicato": "2026-11-19T00:04:09Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0a8a9b62945dd1c9",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Myrta Merlino: “Nutriamo la speranza con la ricerca”",
+   "estratto": "Il Quotidiano del Sud Sla, Myrta Merlino: “Nutriamo la speranza con la ricerca” (Adnkronos) – “Ci sono malattie particolarmente feroci e quando bussano alla tua porta ti cambiano per sempre la vita…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/sla-myrta-merlino-nutriamo-la-speranza-con-la-ricerca",
+   "pubblicato": "2026-11-19T00:04:04Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "428607bb0635469e",
+   "fonte": "quotidianodelsud",
+   "titolo": "Cina, il supercomputer LineShine mantiene il primato nella classifica TOP500",
+   "estratto": "Il Quotidiano del Sud Cina, il supercomputer LineShine mantiene il primato nella classifica TOP500 LOS ANGELES (STATI UNITI) (XINHUA/ITALPRESS) – Il supercomputer cinese LineShine ha mantenuto il…",
+   "link": "https://www.quotidianodelsud.it/2026/11/19/cina-il-supercomputer-lineshine-mantiene-il-primato-nella-classifica-top500",
+   "pubblicato": "2026-11-19T00:03:40Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "55577b9b9588bad2",
+   "fonte": "ilmattino",
+   "titolo": "Volla, si dimette il sindaco Giuliano Di Costanzo: la scelta alla vigilia dell'interrogatorio. «Passo indietro doveroso»",
+   "estratto": "Terremoto giudiziario e politico al Comune di Volla. Il sindaco Giuliano Di Costanzo ieri mattina ha formalmente rassegnato le dimissioni dalla carica di primo cittadino, a 24 ore...",
+   "link": "https://www.ilmattino.it/napoli/area_metropolitana/volla_si_dimette_il_sindaco_giuliano_di_costanzo_la_scelta_alla_vigilia_dell_interrogatorio_passo_indietro_doveroso-9898319.html",
+   "pubblicato": "2026-11-19T00:00:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "428805786792fc8c",
+   "fonte": "repubblica",
+   "titolo": "Xi, l’abbraccio in stile Mao a Trump per ergersi al pari degli Usa e contenere l’anatra zoppa",
+   "estratto": "Il leader cinese ha atteso il tycoon ai piedi dell’Air Force One: l’ultimo a farlo fu il Timoniere nel 1959 con Krusciov",
+   "link": "https://www.repubblica.it/esteri/2026/11/19/news/xi_abbraccio_trump_mao_krusciov_1959_cina_usa-425733246/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "487dbb17f075a184",
+   "fonte": "repubblica",
+   "titolo": "“A dettare l’agenda del vertice di Shenzhen saranno solo Mosca e Pechino”",
+   "estratto": "Rana Mitter, storico e politologo britannico e professore ad Harvard: “Appaiono più importanti i temi rimasti fuori agenda”",
+   "link": "https://www.repubblica.it/esteri/2026/11/19/news/intervista_rana_mitter_trilaterale_shenzhen_putin_xi_trump-425732934/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4a0a5ec120497e74",
+   "fonte": "repubblica",
+   "titolo": "A Taiwan paura e negazione: \"Noi tra Cina e Usa, un gambero tra due squali\"",
+   "estratto": "Se il governo e gli analisti si preparano a una possibile invasione e osservano con timore il summit di Shenzhen tra Trump, Xi e Putin, la popolazione è spaccata. Una parte frequenta corsi di…",
+   "link": "https://www.repubblica.it/esteri/2026/11/19/news/taiwan_reportage_shenzhen_cina_stati_uniti-425732955/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c138d2fd845523f9",
+   "fonte": "repubblica",
+   "titolo": "Tutti i sospetti di Deutsche Bank: indagine sui riciclaggi di Trump",
+   "estratto": "Tra il 2017 e il 2021 il Progetto Broadway ha scavato nelle transazioni del presidente. Segnalate 59 operazioni dubbie, tra queste una serie di bonifici a società in Azerbaigian",
+   "link": "https://www.repubblica.it/esteri/2026/11/19/news/deutsche_bank_indagine_riciclaggi_trump_progetto_broadway-425733490/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "a7230d520fc5fd19",
+   "fonte": "repubblica",
+   "titolo": "L’economia di Schlein: “Per il nostro governo la priorità sarà la crescita”",
+   "estratto": "La segretaria dem dopo il tour con le parti sociali: “Useremo il dialogo e non cambieremo quello che funziona”",
+   "link": "https://www.repubblica.it/economia/2026/11/19/news/schlein_opposizioni_programma_governo-425733559/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1a95e724064506ca",
+   "fonte": "repubblica",
+   "titolo": "Rauti, la mostra nostalgica: tagliati 20 minuti di video. Fini: “Giusto eliminarli”",
+   "estratto": "Dopo l’intervento della Camera, rimosse le immagini con croci celtiche e ritratti del Duce. L’ira di FdI contro Fontana",
+   "link": "https://www.repubblica.it/politica/2026/11/19/news/rauti_mostra_nostalgica_tagliati_20_minuti_di_video_fini-425733394/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8029ce015a797cdf",
+   "fonte": "repubblica",
+   "titolo": "Social, verifica dell’età e piattaforme coinvolte: ecco tutti i punti deboli della nuova legge",
+   "estratto": "La bozza del provvedimento ha ancora molte ombre e punti interrogativi. Proviamo a dare delle risposte",
+   "link": "https://www.repubblica.it/cronaca/2026/11/19/news/social_under_15_nuova_legge_divieto_domande_risposte-425733465/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "996b257fc4fb0f70",
+   "fonte": "repubblica",
+   "titolo": "Divieto social under 13, bloccare non significa proteggere",
+   "estratto": "Il commento",
+   "link": "https://www.repubblica.it/cronaca/2026/11/19/news/divieto_social_under_15_commento-425733444/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9cc3cd87af47a850",
+   "fonte": "repubblica",
+   "titolo": "Libri digitali, lite a destra: FI decisa a votare contro",
+   "estratto": "Meloni ne parla con i vice ma tira dritto: nel dl scuola emendamento per vendere a metà prezzo gli e-book scolastici. Protesta la sinistra",
+   "link": "https://www.repubblica.it/politica/2026/11/19/news/libri_digitali_scuola_lite_destra_fi_decisa_votare_contro-425733514/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "af70397cb9e6e0b3",
+   "fonte": "repubblica",
+   "titolo": "Ebook, l’esperto: “Studiare su carta sviluppa di più la memoria. Danni alla filiera editoriale”",
+   "estratto": "Giuseppe Iannaccone, presidente del Centro per il libro e la lettura, istituto autonomo del ministero della Cultura, difende la carta",
+   "link": "https://www.repubblica.it/politica/2026/11/19/news/giuseppe_iannaccone_ebook_scuola_studiare_su_carta_sviluppa_memoria_intervista-425733508/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "25c2009d7917ca22",
+   "fonte": "repubblica",
+   "titolo": "Libri digitali, la preside: “Bene la norma, tablet già in tante scuole: favorite anche le famiglie”",
+   "estratto": "Sandra Scicolone, dirigente scolastica e membro eletto del Consiglio superiore della pubblica istruzione, promuove l’emendamento sugli ebook",
+   "link": "https://www.repubblica.it/politica/2026/11/19/news/scicolone_preside_libri_digitali_tablet_gia_in_tante_scuole_favorite_famiglie_intervista-425733484/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "205bcfe7d47556b5",
+   "fonte": "repubblica",
+   "titolo": "Ebook, Craxi attacca gli alleati: “FdI arrogante, ora basta”",
+   "estratto": "Lo sfogo davanti ai senatori azzurri “Meloni non è generosa come Berlusconi”",
+   "link": "https://www.repubblica.it/politica/2026/11/19/news/stefania_craxi_attacca_alleati_fdi_ebook-425733523/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9f0dbb4c145566ef",
+   "fonte": "repubblica",
+   "titolo": "Veleni, carriere e cadute il gran carro dell’antimafia che inghiotte i suoi miti",
+   "estratto": "",
+   "link": "https://palermo.repubblica.it/cronaca/2026/11/19/news/veleni_carriere_e_cadute_il_gran_carro_dell_antimafia_che_inghiotte_i_suoi_miti-425733430/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "acf577812007297a",
+   "fonte": "repubblica",
+   "titolo": "Cybersicurezza, sorveglianza e deterrenza: i compiti della task force che si esercita con i Lego",
+   "estratto": "Da definire il perimetro d’azione della nuova brigata soprattutto in caso di risposta a un attacco ibrido",
+   "link": "https://www.repubblica.it/politica/2026/11/19/news/cybersicurezza_sorveglianza_deterrenza_compiti_task_force_lego-425733501/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d8d633fe29c65f25",
+   "fonte": "repubblica",
+   "titolo": "Ciro Grillo shock in tv, il coimputato Vittorio Lauria scrive: “Prendo le distanze, siamo diversi”",
+   "estratto": "In una lettera il 26enne, condannato a 8 anni per stupro di gruppo come il figlio del comico genovese, si smarca dalle parole pronunciate da quest’ultimo a Telenord: “Ognuno di noi ha la propria…",
+   "link": "https://genova.repubblica.it/cronaca/2026/11/19/news/ciro_grillo_choc_tv_vittorio_lauria_lettera_repubblica_condanne_stupro_porto_cervo-425733224/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fc13230d2f011df0",
+   "fonte": "repubblicasud",
+   "titolo": "“Con lo stop alle demolizioni ventimila abusi saranno sanati”",
+   "estratto": "",
+   "link": "https://napoli.repubblica.it/cronaca/2026/11/19/news/condono_stop_alle_demolizioni_ventimila_abusi_saranno_sanati-425733410/",
+   "pubblicato": "2026-11-19T00:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "4b39bc57606b2a4a",
+   "fonte": "nxwss",
+   "titolo": "Oggi, 19 novembre, è il giorno di Grand Theft Auto VI.",
+   "estratto": "Dopo 13 anni dall’uscita del precedente capitolo, il nuovo videogioco di Rockstar Games arriva su PlayStation 5 e Xbox Series X|S, riportando i giocatori nelle strade di Vice City. Tra i contenuti…",
+   "link": "https://www.instagram.com/reel/Df5t8wquDo3/",
+   "pubblicato": "2026-11-18T23:46:45Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "instagram"
+  },
+  {
+   "id": "eef53c8d09759aab",
+   "fonte": "ilmattino",
+   "titolo": "Asia, il sindaco Manfredi: «Non siamo più ultimi, garantiamo standard da capitale del turismo»",
+   "estratto": "Il sindaco Gaetano Manfredi lo ha corteggiato e strappato a Invitalia il manager di Asia Ciro Accetta. E gli ha chiesto e ottenuto una strategia di rilancio dell?Azienda che passasse per...",
+   "link": "https://www.ilmattino.it/napoli/citta/asia_il_sindaco_manfredi_non_siamo_piu_ultimi_garantiamo_standard_da_capitale_del_turismo-9898575.html",
+   "pubblicato": "2026-11-18T23:45:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "13209099e93e0cb1",
+   "fonte": "repubblicasud",
+   "titolo": "Il questore Fausto Lamparelli: “Donne, denunciate le violenze, non sarete mai lasciate sole”",
+   "estratto": "",
+   "link": "https://napoli.repubblica.it/cronaca/2026/11/19/news/il_questore_fausto_lamparelli_donne_denunciate_le_violenze_non_sarete_mai_lasciate_sole-425733456/",
+   "pubblicato": "2026-11-18T23:31:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "d306fed22cb0dee3",
+   "fonte": "ilmattino",
+   "titolo": "L'intervista a Stefano Postiglione: «Circolo Posillipo, risanare i conti: c?è un buco di tre milioni»",
+   "estratto": "Guardarsi indietro per guardare avanti e progettare il futuro. I conti stanno lì, impietosi, e sono stati messi nero su bianco dalla Commissione Finanza voluta dal nuovo presidente Stefano...",
+   "link": "https://www.ilmattino.it/napoli/cronaca/l_intervista_a_stefano_postiglione_circolo_posillipo_risanare_i_conti_c_e_un_buco_di_tre_milioni-9898470.html",
+   "pubblicato": "2026-11-18T23:30:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d1dbafe186032450",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Mosca, 'nuovo attacco degli ucraini al ponte in Crimea'",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216703/mosca-nuovo-attacco-degli-ucraini-al-ponte-in-crimea.html",
+   "pubblicato": "2026-11-18T23:25:02Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "c9715b0464124026",
+   "fonte": "repubblica",
+   "titolo": "Trilaterale Trump-Xi-Putin, la diretta. Oggi a Shenzhen il vertice dei tre leader. In programma anche un faccia a faccia tra Usa e Russia",
+   "estratto": "Alla vigilia del summit, Xi e Putin rinsaldano l'alleanza: “Relazioni incrollabili come una montagna”. Zelensky: “Attendiamo informazioni dai partner americani”. A Berlino la riunione dei…",
+   "link": "https://www.repubblica.it/esteri/2026/11/19/diretta/vertice_apec_2026_shenzhen_news_oggi-425733619/",
+   "pubblicato": "2026-11-18T23:24:48Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "11e86c79a2821bcc",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Tiafoe batte ed elimina Cobolli alle Atp Finals, Alcaraz in semifinale",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216702/tiafoe-batte-ed-elimina-cobolli-alle-atp-finals-alcaraz-in-semifinale.html",
+   "pubblicato": "2026-11-18T23:24:10Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "a37e3a7b1ebe4f31",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Cina, il supercomputer LineShine mantiene il primato nella classifica TOP500",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216701/cina-il-supercomputer-lineshine-mantiene-il-primato-nella-classifica-top500.html",
+   "pubblicato": "2026-11-18T23:24:09Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "d0f9dbc632ed85ff",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Oria, l'auto del sindaco sugli stalli della Polizia Locale: «Caso simile a Bari»",
+   "estratto": "Dopo il precedente della Iacovone, un episodio simile coinvolge il primo cittadino del comune brindisino",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/brindisi/2216591/oria-l-auto-del-sindaco-sugli-stalli-della-polizia-locale-caso-simile-a-bari.html",
+   "pubblicato": "2026-11-18T23:23:42Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "275a13fcf1971c14",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Manovra, è contesa sulle risorse: restano i nodi pensioni e sanità. Salvini insiste su 'Quota 64'",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216700/manovra-e-contesa-sulle-risorse-restano-i-nodi-pensioni-e-sanita-salvini-insiste-su-quota-64.html",
+   "pubblicato": "2026-11-18T23:20:01Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "4a00c534772540f4",
+   "fonte": "ilmattino",
+   "titolo": "L'omicidio di Castel San Giorgio, un pugno e poi le coltellate: sospettato 79enne in carcere",
+   "estratto": "Ha confessato di aver colpito l?anziana di 87 anni, sua cugina alla lontana, prima con un pugno e poi con una serie di coltellate. Spiegando, però, di non aver capito di averla...",
+   "link": "https://www.ilmattino.it/salerno/l_omicidio_di_castel_san_giorgio_un_pugno_e_poi_le_coltellate_sospettato_79enne_in_carcere-9898354.html",
+   "pubblicato": "2026-11-18T23:15:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fdf217cec20b085a",
+   "fonte": "corriere",
+   "titolo": "Il ddl antisemitismo e il Pd. Come non si cura un tumore. Il giorno di GTA VI | Il podcast «Giorno per giorno»",
+   "estratto": "Adriana Logroscino spiega perché l'ex parlamentare Emanuele Fiano ha lasciato il Partito democratico dopo il no alla legge approvata martedì in via definitiva. Luca Mastrantonio racconta il caso di…",
+   "link": "https://www.corriere.it/podcast/daily/26_novembre_19/il-ddl-antisemitismo-e-il-pd-come-non-si-cura-un-tumore-il-giorno-di-gta-vi-il-nuovo-episodio-del-podcast-giorno-per-giorno-476b10df-ebd7-40b2-ad2a-93e058514xlk.shtml",
+   "pubblicato": "2026-11-18T23:15:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e1909d456ea6f154",
+   "fonte": "open",
+   "titolo": "Femminicidio, l’Onu si schiera per combatterlo: approvata la risoluzione. Ma gli Usa si astengono: «Non esiste un diritto internazionale all’aborto»",
+   "estratto": "Dopo oltre 18 ore di negoziati, il testo arriva al voto tra le divisioni sul significato della parola «gender» e sulla sovranità degli Stati. L'Italia lo sostiene, ma solleva alcune riserve sul…",
+   "link": "https://www.open.online/2026/11/19/onu-femminicidio-risoluzione-usa-astenuti-aborto/",
+   "pubblicato": "2026-11-18T23:13:38Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c7a8bf1344d36aaa",
+   "fonte": "manifesto",
+   "titolo": "Cyber, Crosetto cerca risorse: «Servono 5mila specialisti»",
+   "estratto": "Più risorse, personale specializzato e nuovi centri europei: è la lista degli impegni che vorrebbe il ministro della Difesa Guido Crosetto, intervenuto ieri in parlamento per un’informativa sul…",
+   "link": "https://ilmanifesto.it/cyber-crosetto-cerca-risorse-servono-5mila-specialisti",
+   "pubblicato": "2026-11-18T23:08:56Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "07154a6c6a08b673",
+   "fonte": "manifesto",
+   "titolo": "La corsa di Pechino per l’IA sacrifica le comunità rurali",
+   "estratto": "Il 16 ottobre scorso Xi Jinping è arrivato a Ulanqab. Ha visitato il lago Huangqihai, che anni fa rischiava di prosciugarsi. Ha invocato la protezione di montagne, acque, foreste, terreni […] The…",
+   "link": "https://ilmanifesto.it/la-corsa-di-pechino-per-lia-sacrifica-le-comunita-rurali",
+   "pubblicato": "2026-11-18T23:08:29Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "44301531919e5e23",
+   "fonte": "manifesto",
+   "titolo": "Il maxi-test per Big Tech, Anthropic oggi va in borsa",
+   "estratto": "Oggi il debutto a Wall Street di Anthropic, la società che ha sviluppato Claude, uno dei principali modelli di intelligenza artificiale generativa. L’approdo al Nasdaq si annuncia come una delle […]…",
+   "link": "https://ilmanifesto.it/il-maxi-test-per-big-tech-anthropic-oggi-va-in-borsa",
+   "pubblicato": "2026-11-18T23:07:57Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fced9057b8cc5b8b",
+   "fonte": "manifesto",
+   "titolo": "Mikhail Andropov trovato a Phoenix ma gli Usa negano",
+   "estratto": "Secondo il Servizio di polizia postale e per la sicurezza cibernetica italiano sarebbe stato identificato negli Stati uniti l’uomo che utilizzava online lo pseudonimo “Mikhail Andropov”, firma…",
+   "link": "https://ilmanifesto.it/mikhail-andropov-trovato-a-phoenix-ma-gli-usa-negano",
+   "pubblicato": "2026-11-18T23:07:34Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "df28fb554754cd7d",
+   "fonte": "manifesto",
+   "titolo": "Alla guida della Camera Usa ci sarà il primo speaker nero",
+   "estratto": "In una votazione a porte chiuse, Hakeem Jeffries è stato rieletto leader del gruppo democratico alla Camera, quasi all’unanimità, con 251 voti favorevoli e 11 contrari, diventando così il candidato…",
+   "link": "https://ilmanifesto.it/allla-guida-della-camera-usa-il-primo-speaker-nero",
+   "pubblicato": "2026-11-18T23:07:34Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "eb9174d7d9bb9348",
+   "fonte": "manifesto",
+   "titolo": "Antisemitismo, il pericolo del salto all’indietro",
+   "estratto": "L’approvazione definitiva del disegno di legge sul contrasto all’antisemitismo apre una ferita profonda nel dibattito democratico del Paese, riportando alla luce fantasmi che credevamo consegnati ai…",
+   "link": "https://ilmanifesto.it/antisemitismo-il-pericolo-del-salto-allindietro",
+   "pubblicato": "2026-11-18T23:07:18Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fc81f296816f7f0e",
+   "fonte": "manifesto",
+   "titolo": "Lhasa, il data center più alto del mondo alimentato da rinnovabili e carbone",
+   "estratto": "A Lhasa, a 3.656 metri di altitudine, opera dal 2022 il Ningsuan Data Center, costruito dal gruppo Ningsuan Technology con la partecipazione della China Construction First Bureau. Presentato come il…",
+   "link": "https://ilmanifesto.it/lhasa-il-data-center-piu-alto-del-mondo-alimentato-da-rinnovabili-e-carbone",
+   "pubblicato": "2026-11-18T23:07:01Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4ff081514c2ea47c",
+   "fonte": "manifesto",
+   "titolo": "Ungheria, quelle carte parlanti",
+   "estratto": "Scrittore, poeta e traduttore letterario nato a Budapest, Gábor Schein insegna letteratura ungherese moderna all’Università Eötvös Loránd di Budapest. Tra gli autori più interessanti e incisivi…",
+   "link": "https://ilmanifesto.it/ungheria-quelle-carte-parlanti",
+   "pubblicato": "2026-11-18T23:06:37Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "98b1ac7087838e07",
+   "fonte": "manifesto",
+   "titolo": "Così si nega dignità alle critiche a Israele",
+   "estratto": "Da oggi per la legge italiana sono antisemita. Lo sono io, lo sono tanti ebrei italiani da Anna Foa a Gad Lerner, lo è questo giornale. Siamo antisemiti in base […] The post Così si nega dignità…",
+   "link": "https://ilmanifesto.it/cosi-si-nega-dignita-alle-critiche-a-israele",
+   "pubblicato": "2026-11-18T23:06:25Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "54d1be1dd72172b4",
+   "fonte": "manifesto",
+   "titolo": "Nuovo prestito Ue: i Paesi possono scegliere tra aiuti militari o civili",
+   "estratto": "L’Europa rivendica un sostegno incondizionato all’Ucraina. Ma, pur senza voce in capitolo nei negoziati, la sua missione sembra essere quella di sostenerla, militarmente e finanziariamente. L’arrivo…",
+   "link": "https://ilmanifesto.it/nuovo-prestito-ue-i-paesi-possono-scegliere-tra-aiuti-militari-o-civili",
+   "pubblicato": "2026-11-18T23:06:18Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "49ce03562ed9b790",
+   "fonte": "manifesto",
+   "titolo": "Cina-Usa, contesa digitale a «sovranità limitata»",
+   "estratto": "Nel febbraio 2018 il governo di Ulanqab annunciò che Apple avrebbe costruito in città un centro per custodire i dati iCloud dei clienti cinesi. Un’azienda americana, tra i marchi più […] The post…",
+   "link": "https://ilmanifesto.it/cina-usa-contesa-digitale-a-sovranita-limitata",
+   "pubblicato": "2026-11-18T23:06:07Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b1adea3dfd29c9f8",
+   "fonte": "manifesto",
+   "titolo": "Leadership del nuovo Congresso: i Dem affrontano da oggi un bivio cruciale",
+   "estratto": "L’elezione di Hakeem Jeffries a presidente della Camera inizia a disegnare i contorni della nuova maggioranza democratica e dello scontro che si annuncia con una amministrazione trincerata e decisa…",
+   "link": "https://ilmanifesto.it/leadership-del-nuovo-congresso-i-dem-affrontano-da-oggi-un-bivio-cruciale",
+   "pubblicato": "2026-11-18T23:05:59Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "12d31666ca90e344",
+   "fonte": "manifesto",
+   "titolo": "Nell’epoca del cambiamento climatico, per una memoria collettiva del disastro",
+   "estratto": "Se la politica, in tempi di crisi climatica, deve restituire sicurezza idrogeologica e pianificazione territoriale accorta, un archivio «dal basso» può riconsegnare alle popolazioni la possibilità…",
+   "link": "https://ilmanifesto.it/nellepoca-del-cambiamento-climatico-per-una-memoria-collettiva-del-disastro",
+   "pubblicato": "2026-11-18T23:05:25Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8fa54c5a30d006ed",
+   "fonte": "manifesto",
+   "titolo": "Per la procura della Corte penale Almasri «si muove liberamente» in Libia",
+   "estratto": "Da un lato i signori della guerra che portano avanti i loro affari indisturbati a Tripoli e dintorni, dall’altro gli Stati Uniti che colpiscono direttamente la Corte penale internazionale e […] The…",
+   "link": "https://ilmanifesto.it/per-la-procura-della-corte-penale-almasri-si-muove-liberamente-in-libia",
+   "pubblicato": "2026-11-18T23:05:19Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "aea90d84a7425609",
+   "fonte": "manifesto",
+   "titolo": "Cop31, l’altro pianeta del People Climate",
+   "estratto": "Enormi sagome di Trump, Netanyahu, Bolsonaro e Milei colpevoli di genocidio e di ecocidio; nemici del popolo, dei lavoratori, delle comunità indigene. Una statua della libertà senza più libertà…",
+   "link": "https://ilmanifesto.it/cop31-laltro-pianeta-del-people-climate",
+   "pubblicato": "2026-11-18T23:05:16Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b0022dc3e42c66e6",
+   "fonte": "manifesto",
+   "titolo": "L’aria non è buona, le città più inquinate d’Europa",
+   "estratto": "L’aria migliora, ma il diritto di respirare resta lontano. A Milano e Torino le concentrazioni di polveri fini sono ancora quasi il doppio del limite annuale europeo previsto per il […] The post…",
+   "link": "https://ilmanifesto.it/laria-non-e-buona-le-citta-piu-inquinate-deuropa",
+   "pubblicato": "2026-11-18T23:05:12Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8a4fb47acae984db",
+   "fonte": "manifesto",
+   "titolo": "I «Pionieri di Gerico», così i coloni israeliani vogliono prendersi la città",
+   "estratto": "I coloni israeliani ti vengono addosso, ti spingono, ti mettono il telefono in faccia e nel frattempo urlano: «Non toccarmi, non toccarmi». Sono scaltri, in questo modo cercano di far […] The post I…",
+   "link": "https://ilmanifesto.it/pionieri-di-gerico-cosi-i-coloni-israeliani-vogliono-prendersi-la-citta",
+   "pubblicato": "2026-11-18T23:04:23Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ff0c0fe79311291d",
+   "fonte": "manifesto",
+   "titolo": "In Alaska vince Peltola, il senato è più blu: 56 a 44",
+   "estratto": "Nell’ultima corsa assegnata delle midterm 2026, la democratica Mary Peltola ha vinto il seggio al Senato dell’Alaska con oltre 12.000 voti di vantaggio sul repubblicano uscente Dan Sullivan. Con lei…",
+   "link": "https://ilmanifesto.it/in-alaska-vince-peltola-il-senato-e-piu-blu-56-a-44",
+   "pubblicato": "2026-11-18T23:04:07Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "3b459ec4cf8610b0",
+   "fonte": "manifesto",
+   "titolo": "La malsana dipendenza al fossile e l’illusione nucleare",
+   "estratto": "L’Italia è in ritardo, in forte ritardo, nella riduzione dei combustibili fossili, con conseguenze preoccupanti che si riversano nelle bollette energetiche. Nel nostro paese la spesa netta annua per…",
+   "link": "https://ilmanifesto.it/la-malsana-dipendenza-al-fossile-e-lillusione-nucleare",
+   "pubblicato": "2026-11-18T23:04:06Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cfd4b3bb3c22ce1c",
+   "fonte": "repubblica",
+   "titolo": "De Gennaro, gli amici potenti e la nomina del fratello generale. “Così aggirava le microspie”",
+   "estratto": "I contatti con Gianni Letta per affidare ad Andrea il comando generale della Gdf. Nelle carte della procura le telefonate tra l’ex capo della polizia e i politici. Per i pm va arrestato: “Può…",
+   "link": "https://palermo.repubblica.it/cronaca/2026/11/19/news/de_gennaro_intercettazioni_nomina_fratello_generale-425733498/",
+   "pubblicato": "2026-11-18T23:04:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "27e36aa43ff751bc",
+   "fonte": "manifesto",
+   "titolo": "Per nascondere le iniquità Meloni attacca la sinistra",
+   "estratto": "«Mentre noi lavoriamo per abbassare le tasse e lasciare più soldi nelle tasche degli italiani- ha detto ieri in un video Giorgia Meloni – a sinistra litigano tra chi vuole […] The post Per…",
+   "link": "https://ilmanifesto.it/per-nascondere-le-iniquita-meloni-attacca-la-sinistra",
+   "pubblicato": "2026-11-18T23:03:22Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ad0030659a3b93a8",
+   "fonte": "repubblica",
+   "titolo": "La lettera di Manfredi Borsellino: “Anche un reato prescritto serve alla verità”",
+   "estratto": "Il figlio del magistrato ucciso in via D’Amelio ha affidato a Repubblica una sua riflessione: “La procura di Caltanissetta ci aiuta a comprendere verità storiche che talvolta non sono accertabili…",
+   "link": "https://palermo.repubblica.it/cronaca/2026/11/19/news/manfredi_borsellino_diritto_alla_verita_stragi-425733520/",
+   "pubblicato": "2026-11-18T23:03:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "254432f20d23a24d",
+   "fonte": "manifesto",
+   "titolo": "«Andata ritorno», le immagini senza fine di Tonino De Bernardi",
+   "estratto": "Aprirsi alla visione. Come fosse la prima volta. Con l’occhio non ancora contaminato che si muove alla scoperta di ciò che gli sta intorno – prossimo o solo apparentemente lontano. […] The post…",
+   "link": "https://ilmanifesto.it/andata-ritorno-le-immagini-senza-fine-di-tonino-de-bernardi",
+   "pubblicato": "2026-11-18T23:02:28Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "c4791e9ed49f926a",
+   "fonte": "manifesto",
+   "titolo": "Cpr, nuovo rinvio del trattenimento alla Consulta",
+   "estratto": "Il trattenimento dei migranti nei Cpr tornerà davanti alla Corte costituzionale, un anno dopo che questa aveva dichiarato inammissibili le questioni di legittimità sollevate dalla giudice di pace di…",
+   "link": "https://ilmanifesto.it/cpr-nuovo-rinvio-del-trattenimento-alla-consulta",
+   "pubblicato": "2026-11-18T23:02:15Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "451073b3895072e5",
+   "fonte": "manifesto",
+   "titolo": "Capitalismo è violenza: «Oppresse di tutto il mondo, uniamoci»",
+   "estratto": "Cosa accomuna una vittima di violenza, un lavoratore sfruttato e una mucca da latte a cui è stato strappato il suo vitello? Nel suo libro-manifesto Sorellanza (Il Saggiatore, 2026), Martina […] The…",
+   "link": "https://ilmanifesto.it/capitalismo-e-violenza-oppresse-di-tutto-il-mondo-uniamoci",
+   "pubblicato": "2026-11-18T23:02:08Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9d130319297a1db9",
+   "fonte": "manifesto",
+   "titolo": "Antonio Banfi, storia di un archivio segreto",
+   "estratto": "Antonio Banfi (1886-1957) è stato uno dei maggiori pensatori italiani del Novecento, laureatosi a Milano in filosofia con Piero Martinetti, l’unico filosofo universitario che, nel 1931, rifiutò di…",
+   "link": "https://ilmanifesto.it/antonio-banfi-storia-di-un-archivio-segreto",
+   "pubblicato": "2026-11-18T23:02:04Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "15bd9f03e6e97c1b",
+   "fonte": "manifesto",
+   "titolo": "Pesticidi, la Ue non deve limitare i controlli",
+   "estratto": "L’Europa vuole semplificare le regole sui pesticidi, ma medici e cittadini chiedono il contrario: più controlli e maggiori garanzie per la salute. È il paradosso dell’Omnibus X, il pacchetto…",
+   "link": "https://ilmanifesto.it/pesticidi-la-ue-non-deve-limitare-i-controlli",
+   "pubblicato": "2026-11-18T23:01:58Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4b82d111eebd28d8",
+   "fonte": "manifesto",
+   "titolo": "Kenya, la mega discarica di rifiuti che dà lavoro tossico agli «informali»",
+   "estratto": "A gennaio dovremo lasciare Dandora», racconta Jane al telefono. Vive dei materiali che recupera nella discarica di Nairobi. Nessuno, spiega, le ha indicato compensazioni né la possibilità di…",
+   "link": "https://ilmanifesto.it/kenya-la-mega-discarica-di-rifiuti-che-da-lavoro-tossico-agli-informali",
+   "pubblicato": "2026-11-18T23:01:42Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "70cf2e296249d310",
+   "fonte": "manifesto",
+   "titolo": "Gli anni Ottanta del poeta, dall’utopia all’incubo",
+   "estratto": "Tra i giovani che a Bologna negli anni Settanta frequentavano la Libreria Palmaverde del poeta Roberto Roversi, un crocevia intellettuale e politico che allora non aveva eguali, la figura di […] The…",
+   "link": "https://ilmanifesto.it/gli-anni-ottanta-del-poeta-dallutopia-allincubo",
+   "pubblicato": "2026-11-18T23:01:41Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b251ea471d72a994",
+   "fonte": "manifesto",
+   "titolo": "Stefano Pelloni, il temuto «Robin Hood» romagnolo",
+   "estratto": "Il mito di Stefano Pelloni, detto «il passatore» – il brigante e «Robin Hood» romagnolo – ha suggestionato in epoche diverse con le sue gesta molti storici gruppi folk come […] The post Stefano…",
+   "link": "https://ilmanifesto.it/stefano-pelloni-il-robin-hood-romagnolo",
+   "pubblicato": "2026-11-18T23:01:39Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "11e7d42326dd5b1d",
+   "fonte": "manifesto",
+   "titolo": "Caccia allo straniero nella periferia di Roma",
+   "estratto": "«Sei una persona cattiva» dice il piazzaiolo a Simone Carabella, influencer del degrado che sta alla testa di una ronda. È successo nella serata di martedì 17 novembre, davanti alla […] The post…",
+   "link": "https://ilmanifesto.it/caccia-allo-straniero-nella-periferia-di-roma",
+   "pubblicato": "2026-11-18T23:01:31Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "8338aca2ade585f2",
+   "fonte": "manifesto",
+   "titolo": "Carabella, quindici segnalazioni per un Daspo. L’istruttoria aperta in questura",
+   "estratto": "Negli uffici della questura di Roma un fascicolo con sopra il nome di Simone Carabella esiste. E non da pochissimo tempo. È un’istruttoria per un Daspo che nasce da un […] The post Carabella…",
+   "link": "https://ilmanifesto.it/carabella-quindici-segnalazioni-per-un-daspo-listruttoria-aperta-in-questura",
+   "pubblicato": "2026-11-18T23:01:27Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9640f5e81e4a6931",
+   "fonte": "manifesto",
+   "titolo": "A Gaza il Board of Peace ammette il fallimento. E Israele avanza ancora",
+   "estratto": "Israele ha lanciato un’operazione militare di larga scala, con lo sfollamento di decine di famiglie palestinesi che vivevano nei rifugi del centro di Gaza. I carri armati hanno superato la […] The…",
+   "link": "https://ilmanifesto.it/a-gaza-il-board-of-peace-ammette-il-fallimento-e-israele-avanza-ancora",
+   "pubblicato": "2026-11-18T23:01:25Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5c8300077bc4e5fd",
+   "fonte": "manifesto",
+   "titolo": "«Viola la legge Scelba». I pm di Roma indagano su Futuro nazionale",
+   "estratto": "La procura di Roma ha aperto un’indagine su Futuro Nazionale, il partito fondato dall’ex generale Roberto Vannacci. Gli inquirenti dovranno verificare se il movimento sia responsabile della…",
+   "link": "https://ilmanifesto.it/viola-la-legge-scelba-i-pm-di-roma-indagano-su-futuro-nazionale",
+   "pubblicato": "2026-11-18T23:01:19Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5628bce30411847f",
+   "fonte": "manifesto",
+   "titolo": "Tank, bombe e fosforo bianco per Israele: garantisce Deutsche Bank",
+   "estratto": "Considerato il «rapporto storico tra Germania e Israele», si legge in un report del comitato per il rischio reputazionale di Deutsche Bank, non mandare armi a Israele avrebbe potuto esporre […] The…",
+   "link": "https://ilmanifesto.it/tank-bombe-e-fosforo-bianco-per-israele-garantisce-deutsche-bank",
+   "pubblicato": "2026-11-18T23:01:19Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "27a2f625d46926f7",
+   "fonte": "manifesto",
+   "titolo": "«Fjord», i microfascismi di famiglia e lo sguardo degli altri",
+   "estratto": "Una famiglia migrante ultra-religiosa, il sistema di un paese democratico che viene messo alla prova dalla sua presenza nel tessuto collettivo: è su questa contrapposizione che è costruito Fjord, il…",
+   "link": "https://ilmanifesto.it/fjord-i-microfascismi-di-famiglia-e-lo-sguardo-degli-altri",
+   "pubblicato": "2026-11-18T23:01:18Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5521a21112cfdd91",
+   "fonte": "manifesto",
+   "titolo": "Abu Safiya, altri sei mesi in cella. Due anni dopo nessuna accusa",
+   "estratto": "Altri sei mesi di carcere, senza accuse né processo: ieri il tribunale di Beersheva ha prolungato la detenzione amministrativa del dottor Hussam Abu Safiya, in cella ormai da quasi due […] The post…",
+   "link": "https://ilmanifesto.it/abu-safiya-altri-sei-mesi-in-cella-due-anni-dopo-nessuna-accusa",
+   "pubblicato": "2026-11-18T23:01:15Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e4c1e87730bf9ba1",
+   "fonte": "manifesto",
+   "titolo": "Una tassa utile, non credete alla curva di Cottarelli",
+   "estratto": "L’Italia dei ricchi è in gran subbuglio. Contro la minaccia di una moderata imposta patrimoniale, le poche migliaia di italiani sopra i 5, 10, 20 e 100 milioni di euro […] The post Una tassa utile…",
+   "link": "https://ilmanifesto.it/una-tassa-utile-non-credete-alla-curva-di-cottarelli",
+   "pubblicato": "2026-11-18T23:01:10Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "35ba85a4cfcc5a81",
+   "fonte": "open",
+   "titolo": "Crimea, nuove esplosioni sul ponte di Kerch: «Traffico sospeso»",
+   "estratto": "A riferirlo è il governatore della Crimea, Sergey Aksyonov: «Le truppe ucraine hanno attaccato nuovamente il ponte». L'episodio arriva a poche ore dal precedente attacco rivendicato da Kiev",
+   "link": "https://www.open.online/2026/11/19/crimea-esplosioni-ponte-kerch-ucraina/",
+   "pubblicato": "2026-11-18T23:01:10Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "27fe5699ec96965f",
+   "fonte": "manifesto",
+   "titolo": "L’imprevisto ritorno dell’enfant sauvage",
+   "estratto": "Forse non è nota tra i lettori generalisti (ammesso esista questa categoria sfuggente, in cui sembrano credere molti editori), ma la neuroscienziata Maryanne Wolf è, come si dice, una figura […] The…",
+   "link": "https://ilmanifesto.it/limprevisto-ritorno-dellenfant-sauvage",
+   "pubblicato": "2026-11-18T23:01:08Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0f28d411166ad6fd",
+   "fonte": "manifesto",
+   "titolo": "Manovra, Fratelli d’Italia vuole il maxi condono per gli abusi fino al 2025",
+   "estratto": "A Fratelli d’Italia non basta approvare un maxi condono, vogliono anche spacciarlo come un beneficio per la collettività. Il pacchetto di 7 emendamenti sulle sanatorie edilizie, presentato alla…",
+   "link": "https://ilmanifesto.it/manovra-fratelli-ditalia-vuole-il-maxi-condono-per-gli-abusi-fino-al-2025",
+   "pubblicato": "2026-11-18T23:01:05Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "de038cd31232010f",
+   "fonte": "manifesto",
+   "titolo": "Gli antibiotici negli allevamenti un pericolo letale",
+   "estratto": "L’Italia è ai primi posti in Europa per vendite di antibiotici destinati alla zootecnia. Lo racconta il nuovo briefing pubblicato oggi da Greenpeace Italia, in occasione della Settimana mondiale di…",
+   "link": "https://ilmanifesto.it/gli-antibiotici-negli-allevamenti-un-pericolo-letale",
+   "pubblicato": "2026-11-18T23:01:05Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f3217c3276571584",
+   "fonte": "repubblica",
+   "titolo": "Eugenio Scalfari. Il giornale segreto delle sue confessioni",
+   "estratto": "Un libro curato da Simonetta Fiori raccoglie le lettere e i documenti inediti del fondatore di “Repubblica”. La presentazione a Milano alla Fondazione Feltrinelli che ha acquisito l’archivio del…",
+   "link": "https://www.repubblica.it/cultura/2026/11/19/news/eugenio_scalfari_libro_lettere_giornale_repubblica_segreto_confessioni-425732973/",
+   "pubblicato": "2026-11-18T23:01:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "21fd6347ff369135",
+   "fonte": "repubblica",
+   "titolo": "Megalomania e umiltà eccessive, i miei veri difetti: le lettere inedite di Eugenio Scalfari",
+   "estratto": "La stampa libera come contropotere necessario. La fantasia e la pazienza. L’ossessione per il tempo. Riflessioni di un direttore",
+   "link": "https://www.repubblica.it/cultura/2026/11/19/news/eugenio_scalfari_lettere_megalomania_e_umilta_difetti-425733015/",
+   "pubblicato": "2026-11-18T23:01:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1ecebdef28e92c32",
+   "fonte": "repubblica",
+   "titolo": "Previsioni meteo, intensa perturbazione nella prima parte della giornata, migliora dal pomeriggio",
+   "estratto": "Fine settimana con sabato asciutto, domenica nuovamente instabile",
+   "link": "https://www.repubblica.it/cronaca/2026/11/19/news/previsioni_meteo_intensa_perturbazione_migliora_pomeriggio-425733481/",
+   "pubblicato": "2026-11-18T23:01:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "30b7c367be18a2c7",
+   "fonte": "manifesto",
+   "titolo": "Oggi con Mani Tese all’«Eurochocolate» di Perugia per parlare di decolonizzazione del cacao",
+   "estratto": "Oggi Mani Tese ETS partecipa alla 32esima edizione di «Eurochocolate», il Festival internazionale del Cioccolato di Perugia, con una conferenza organizzata insieme a Cacao Solution dal titolo…",
+   "link": "https://ilmanifesto.it/oggi-con-mani-tese-alleurochocolate-di-perugia-per-parlare-di-decolonizzazione-del-cacao",
+   "pubblicato": "2026-11-18T23:00:42Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e47781d4b15f9939",
+   "fonte": "manifesto",
+   "titolo": "Animali in gabbia e data center: Osservatorio Italia",
+   "estratto": "SONDAGGIO. «Gli italiani non vogliono animali chiusi in gabbia Gli italiani sono molto attenti al benessere animale e anche in base a questo parametro orientano gli acquisti. Questi sono i […] The…",
+   "link": "https://ilmanifesto.it/animali-in-gabbia-e-data-center-osservatorio-italia",
+   "pubblicato": "2026-11-18T23:00:34Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "cb5f0ed333a8c6f2",
+   "fonte": "manifesto",
+   "titolo": "Clima e giustizia, biodiversità e alimentazione: Osservatorio Mondo",
+   "estratto": "BIODIVERSITA’ Le api da miele maltrattano gli impollinatori La prepotenza delle api da miele complica la vita degli altri insetti impollinatori. A questa conclusione è giunto lo studio pubblicato…",
+   "link": "https://ilmanifesto.it/clima-e-giustizia-biodiversita-e-alimentazione-osservatorio-mondo",
+   "pubblicato": "2026-11-18T23:00:32Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f2566639dd5ac50d",
+   "fonte": "manifesto",
+   "titolo": "Il trilaterale a Shenzhen, due anatre zoppe e un imperatore",
+   "estratto": "Donald Trump, Vladimir Putin e Xi Jinping si vedono oggi per la prima volta in quella che, con discreto azzardo, è stata definita una Yalta 2.0. Ma i tempi di […] The post Il trilaterale a Shenzhen…",
+   "link": "https://ilmanifesto.it/il-trilaterale-a-shenzhen-due-anatre-zoppe-e-un-imperatore",
+   "pubblicato": "2026-11-18T23:00:24Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f4cd58b3e23cf9c0",
+   "fonte": "manifesto",
+   "titolo": "Putin è tornato tra i grandi ed è tutto merito di Trump",
+   "estratto": "Su una cosa Vladimir Putin aveva ragione: non riusciranno a isolare la Russia. Di certo non aveva considerato quanto gli sarebbe costato e quanto costerà ai russi, ma per gli […] The post Putin è…",
+   "link": "https://ilmanifesto.it/putin-e-tornato-tra-i-grandi-ed-e-tutto-merito-di-trump",
+   "pubblicato": "2026-11-18T23:00:11Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "939af25df25858ef",
+   "fonte": "manifesto",
+   "titolo": "Consumi e alimentazione: Osservatorio Europa",
+   "estratto": "CONSUMI. Il legno di foreste secolari svedesi per i mobili Ikea Una nuova inchiesta realizzata da Greenpeace Nordic ha «scoperto» che il legno che proviene dalle foreste secolari svedesi, dopo […]…",
+   "link": "https://ilmanifesto.it/consumi-e-alimentazione-osservatorio-europa",
+   "pubblicato": "2026-11-18T23:00:03Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "01961421b8fe6083",
+   "fonte": "lastampa",
+   "titolo": "Cenly Chen, una seconda femme fatale cinese per Nvidia",
+   "estratto": "Legata al numero tre Jay Puri. Anche lei, come Alice Huang, con una società nel mirino per contrabbando di chip in Cina",
+   "link": "https://www.lastampa.it/esteri/2026/11/19/news/cenly_chen_una_seconda_femme_fatale_cinese_per_nvidia-15802010/",
+   "pubblicato": "2026-11-18T23:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "482ab3b59042c712",
+   "fonte": "lastampa",
+   "titolo": "Emergenza hikikomori, in Italia duecentomila casi. “È una nuova dipendenza”",
+   "estratto": "La relazione del Parlamento: isolamento sperimentato dal 2% dei liceali. Nei casi più estremi il ritiro sociale si estende anche al mondo digitale",
+   "link": "https://www.lastampa.it/cronaca/2026/11/19/news/emergenza_hikikomori_in_italia_duecentomila_casi_e_una_nuova_dipendenza-15802132/",
+   "pubblicato": "2026-11-18T23:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "29b9311a30680b81",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "La vignetta del giorno",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/la-vignetta-del-giorno/2216593/la-vignetta-del-giorno.html",
+   "pubblicato": "2026-11-18T23:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "80bc3e2a91b4f36c",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "La Regione Molise si era costituita parte civile a Bari, ma non ha pagato l'avvocato: condannata",
+   "estratto": "I fatti riguardano un presunto tentativo di estorsione ai danni dell'ex presidente",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/bari/2216590/la-regione-molise-si-era-costituita-parte-civile-a-bari-ma-non-ha-pagato-l-avvocato-condannata.html",
+   "pubblicato": "2026-11-18T22:59:56Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "69eb4c5bd956d31f",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Atp Finals: Cobolli in lacrime 'è la partita che mi rende più triste della carriera'",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216594/atp-finals-cobolli-in-lacrime-e-la-partita-che-mi-rende-piu-triste-della-carriera.html",
+   "pubblicato": "2026-11-18T22:55:02Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "a7f8358907589134",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Bari, vendita e somministrazione abusiva di alcolici oltre l'orario consentito: sospesa per venti giorni una vineria nell'Umbertino",
+   "estratto": "L'attività non sarebbe nuova a gravi infrazioni di tal genere: lo scorso giugno era già scattato uno stop",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/bari/2216589/bari-vendita-e-somministrazione-abusiva-di-alcolici-oltre-l-orario-consentito-sospesa-per-venti-giorni-una-vineria-nell-umbertino.html",
+   "pubblicato": "2026-11-18T22:44:34Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "bafe312f910e11f7",
+   "fonte": "manifesto",
+   "titolo": "Per Takaichi solo una stretta di mano: il Giappone trema",
+   "estratto": "Nessun saluto della guardia d’onore militare o bambini festanti che scandiscono il benvenuto. Nessun funzionario di alto rango del Partito comunista cinese. L’accoglienza riservata ieri alla premier…",
+   "link": "https://ilmanifesto.it/per-takaichi-solo-una-stretta-di-mano-il-giappone-trema",
+   "pubblicato": "2026-11-18T22:44:06Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d930db5786366119",
+   "fonte": "open",
+   "titolo": "Eurodeputati del M5s nella lista dei «criminali anti-ucraini», Tajani chiede chiarimenti a Kiev: cos’è successo",
+   "estratto": "Tutti gli otto eurodeputati pentastellati inseriti nella lista di Myrotvorets, vicina ai servizi di sicurezza di Kiev. Il Parlamento europeo: «Tuteliamo la sicurezza del personale»",
+   "link": "https://www.open.online/2026/11/18/eurodeputati-m5s-lista-nera-anti-ucraini-tajani-cosa-e-successo/",
+   "pubblicato": "2026-11-18T22:43:43Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ee873ce745eef9cc",
+   "fonte": "ilmattino",
+   "titolo": "Agropoli, i rapporti tra Avallone e i due indagati ai raggi x: giornalista e una prof sotto inchiesta per omicidio volontario in concorso",
+   "estratto": "Cosa legava Walter Avallone alla coppia di professionisti, un giornalista e un?insegnante, finita sotto inchiesta per il suo omicidio? È uno degli interrogativi alla base...",
+   "link": "https://www.ilmattino.it/salerno/agropoli_i_rapporti_tra_avallone_e_i_due_indagati_ai_raggi_x_giornalista_e_una_prof_sotto_inchiesta_per_omicidio_volontario_in_concorso-9898586.html",
+   "pubblicato": "2026-11-18T22:40:47Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e73f67fe3d6f191f",
+   "fonte": "manifesto",
+   "titolo": "Con gli studenti in edizione speciale: il sito è aperto",
+   "estratto": "Il 20 novembre tocca a voi, noi siamo in ascolto. Siamo venuti a incontrarvi nelle scuole occupate in giro per l’Italia, nelle assemblee e nelle tante piazze che hanno preparato […] The post Con gli…",
+   "link": "https://ilmanifesto.it/con-gli-studenti-in-edizione-speciale-il-sito-e-aperto",
+   "pubblicato": "2026-11-18T22:40:46Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "673cda2d486055da",
+   "fonte": "ilmattino",
+   "titolo": "Castellammare di Stabia, tragedia nel cantiere, muore operaio 47enne: «Caduto da una barca»",
+   "estratto": "Aveva festeggiato il compleanno appena due giorni fa. Gli auguri, le telefonate, gli affetti di sempre, quella normalità che accompagna le giornate e che sembra destinata a ripetersi. Poi,...",
+   "link": "https://www.ilmattino.it/napoli/area_metropolitana/castellammare_di_stabia_tragedia_nel_cantiere_muore_operaio_47enne_caduto_da_una_barca-9898559.html",
+   "pubblicato": "2026-11-18T22:40:45Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "b37529d6f4c19689",
+   "fonte": "manifesto",
+   "titolo": "Schedati sul sito degli anti-ucraini: tra parlamentari e Roger Waters",
+   "estratto": "L’intero gruppo degli europarlamentari del Movimento 5 stelle a Bruxelles è stato inserita nella lista nera del sito ucraino Myrotvorets. Il portale, nato nel 2014 per schedare i «nemici…",
+   "link": "https://ilmanifesto.it/schedati-sul-sito-degli-anti-ucraini-tra-parlamentari-e-roger-waters",
+   "pubblicato": "2026-11-18T22:40:44Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5ad9e1d4b086ee8d",
+   "fonte": "ilmattino",
+   "titolo": "Il generale Storniolo: «Tante truffe agli anziani, chi chiede soldi e gioielli non fa parte dell?Arma»",
+   "estratto": "«Stamattina (ieri, ndr), per l?ennesima mattina, ho dovuto leggere di truffe ai danni di anziani. E questa cosa sia sul piano istituzionale e sia su quello personale mi fa male,...",
+   "link": "https://www.ilmattino.it/napoli/cronaca/il_generale_storniolo_tante_truffe_agli_anziani_chi_chiede_soldi_e_gioielli_non_fa_parte_dell_arma-9898391.html",
+   "pubblicato": "2026-11-18T22:40:43Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "078011f262aeab68",
+   "fonte": "ilmattino",
+   "titolo": "Coop, dinanzi al gip prime ammissioni: Soresa, nuovo Cda. Manzo: «Io innocente, mai fatto segnalazioni»",
+   "estratto": "Strana storia dinanzi al giudice. Nel giro di un paio di ore vanno di scena versioni uguali e contrarie. C?è chi ammette di aver raccomandato o favorito una compagna di infanzia,...",
+   "link": "https://www.ilmattino.it/napoli/cronaca/coop_dinanzi_al_gip_prime_ammissioni_soresa_nuovo_cda-9898545.html",
+   "pubblicato": "2026-11-18T22:40:40Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "48f9d4bf545e8816",
+   "fonte": "ilmattino",
+   "titolo": "Asia a Napoli, ecco il piano da 80 milioni. In arrivo 150 neoassunti: «Impianti, ok ai privati»",
+   "estratto": "Si chiama ?Ora? il Piano industriale di Asia tarato sui prossimi tre anni. L?acronimo richiama l?esigenza di fare presto, di rilanciare rapidamente un?Azienda...",
+   "link": "https://www.ilmattino.it/napoli/cronaca/asia_piano_da_80_milioni_arrivo_150_neoassunti_impianti_ok_ai_privati_napoli-9898539.html",
+   "pubblicato": "2026-11-18T22:40:38Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "60829fe6f9270174",
+   "fonte": "ilmattino",
+   "titolo": "L?intervista a Ferdinando Giugliano: «Sviluppo e dialogo nel Mediterraneo, il Sud avanguardia naturale dell?Europa»",
+   "estratto": "«Napoli in tutta la sua storia ha rappresentato uno snodo importante nell'area del Mediterraneo. E, dunque, proseguiamo nel solco di questa centralità e storica tradizione....",
+   "link": "https://www.ilmattino.it/napoli/politica/l_intervista_a_ferdinando_giugliano_sviluppo_e_dialogo_nel_mediterraneo_il_sud_avanguardia_naturale_dell_europa-9898587.html",
+   "pubblicato": "2026-11-18T22:40:36Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "5b47eca5348b364f",
+   "fonte": "ilmattino",
+   "titolo": "Condono, arrivano due emendamenti per la Regione Campania: «Stop alle demolizioni per 24 mesi»",
+   "estratto": "Trecentotrentamila pratiche di condono ancora da definire in Campania, 42mila soltanto nella città di Napoli nell?arco delle tre sanatorie edilizie. Numeri che raccontano una...",
+   "link": "https://www.ilmattino.it/napoli/cronaca/condono_arrivano_due_emendamenti_per_la_regione_campania_stop_alle_demolizioni_per_24_mesi-9898649.html",
+   "pubblicato": "2026-11-18T22:40:33Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "dc59c8634a83b6ba",
+   "fonte": "ilmattino",
+   "titolo": "È scontro sul condono, maggioranza compatta: «Un aiuto alle famiglie». Fdi: «Pronti sette emendamenti»",
+   "estratto": "È bastato che il capogruppo di Fdi d?Italia alla Camera Galeazzo Bignami annunciasse il numero degli emendamenti - sette, come i magnifici di un tempo - che la bagarre sul condono...",
+   "link": "https://www.ilmattino.it/primopiano/cronaca/e_scontro_sul_condono_maggioranza_compatta_un_aiuto_alle_famiglie_fdi_pronti_sette_emendamenti-9898655.html",
+   "pubblicato": "2026-11-18T22:40:30Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fbb5fa47e7b2acf8",
+   "fonte": "quotidianodelsud",
+   "titolo": "Cobolli ko anche contro Tiafoe ed eliminato dalle Atp Finals, Alcaraz è in semifinale",
+   "estratto": "Il Quotidiano del Sud Cobolli ko anche contro Tiafoe ed eliminato dalle Atp Finals, Alcaraz è in semifinale TORINO (ITALPRESS) – Flavio Cobolli fuori dalle Atp Finals 2026. Il tennista romano si…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/cobolli-ko-anche-contro-tiafoe-ed-eliminato-dalle-atp-finals-alcaraz-e-in-semifinale",
+   "pubblicato": "2026-11-18T22:33:44Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ac37e3bd1d83974a",
+   "fonte": "laverita",
+   "titolo": "Cobolli crolla alle Atp Finals: Tiafoe vince e l’Italia saluta Torino",
+   "estratto": "L'azzurro spreca due set point nel tie-break del primo set e poi cede mentalmente nel secondo. Alcaraz, qualificato alle semifinali, sarà l'ultimo avversario del suo girone. Nell’altro gruppo…",
+   "link": "https://www.laverita.info/storie-di-sport/atp-finals-cobolli-tiafoe",
+   "pubblicato": "2026-11-18T22:31:33Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "591ba7228c7900b1",
+   "fonte": "ilpost",
+   "titolo": "Una portaerei statunitense ha lasciato il Medio Oriente: adesso ne sono rimaste due",
+   "estratto": "",
+   "link": "https://www.ilpost.it/2026/11/18/portaerei-statunitense-medio-oriente-george-washington/",
+   "pubblicato": "2026-11-18T22:31:14Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "92b04e9f56602f1a",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Principe Harry, 'Russia minaccia preoccupante, pronto a tornare nelle Forze Armate'",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216592/principe-harry-russia-minaccia-preoccupante-pronto-a-tornare-nelle-forze-armate.html",
+   "pubblicato": "2026-11-18T22:25:02Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "d7eb6cba4b457fa1",
+   "fonte": "open",
+   "titolo": "Il panettone alla carbonara è il migliore del mondo: chi è il panificatore di Latina che ha vinto i campionati internazionali",
+   "estratto": "La sfida \"The Best Panettone of the World 2026\" è stata organizzata dalla Federazione Internazionale di Pasticceria, Gelateria e Cioccolateria (FIPGC) e ha premiato il panettone salato meglio riuscito",
+   "link": "https://www.open.online/2026/11/18/panettone-carbonara-flavio-serangeli-vince-campionati-mondiali/",
+   "pubblicato": "2026-11-18T22:15:31Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "fc28304465a67e40",
+   "fonte": "corriere",
+   "titolo": "Sconto libri scolastici digitali, Cipolletta (Aie): «Macché agevolazione, senza volumi di carta si impara poco e male»",
+   "estratto": "Per Innocenzo Cipolletta, presidente dell’Aie, Associazione Italiana Editori, il testo dell'emendamento alla manovra favorisce la pirateria",
+   "link": "https://www.corriere.it/politica/26_novembre_18/sconto-libri-scolastici-digitali-cipolletta-aie-macche-agevolazione-senza-volumi-di-carta-si-impara-poco-e-male-31a52b69-455b-47aa-9839-76cd72e06xlk.shtml",
+   "pubblicato": "2026-11-18T22:14:40Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "71f8051a670c7e39",
+   "fonte": "rainews",
+   "titolo": "Gaza, operazione israeliana nel centro della Striscia",
+   "estratto": "L'esercito israeliano ordina l'evacuazione di civili dai campi al-Bureij e al-Nuseirat. Hamas: operazione Gaza è violazione cessate il fuoco. Media iraniani: diversi militari Usa feriti in Bahrein…",
+   "link": "https://www.rainews.it/maratona/2026/11/allarme-cnn-sulliran-piani-dettagliati-contro-funzionari-usa-ma-la-casa-bianca-frena-ncontro-tra-il-likud-di-netanyahu-e-yashar-di-eisenkot-per-governo-di-unita-nazionale-gli-houthi-a-circa-60-chilometri-dalla-citta-di-aden-sede-del-governo-yemenita-d3333f1a-eb00-406b-8c20-53669d1f26ee.html",
+   "pubblicato": "2026-11-18T22:10:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "78ba1e8c614b245b",
+   "fonte": "corriere",
+   "titolo": "Il governo esordisce al maxi tavolo dei Volenterosi e difende i 5 Stelle dagli attachi di Kiev",
+   "estratto": "Meloni a Berlino. Sito cita gli eletti M5S contrari agli aiuti: Roma protesta",
+   "link": "https://roma.corriere.it/notizie/politica/26_novembre_18/ucraina-il-governo-esordisce-al-maxi-tavolo-dei-volenterosi-e-difende-i-5-stelle-da-kiev-7fc50bc2-a723-42a4-972d-ef08ef0acxlk.shtml",
+   "pubblicato": "2026-11-18T22:08:10Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e82d07a9249035fb",
+   "fonte": "quotidianodelsud",
+   "titolo": "Israele lancia operazione di terra a Gaza, Hamas denuncia: “Violato il cessate il fuoco”",
+   "estratto": "Il Quotidiano del Sud Israele lancia operazione di terra a Gaza, Hamas denuncia: “Violato il cessate il fuoco” (Adnkronos) – L’esercito israeliano ha avviato un’operazione militare di terra in…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/israele-lancia-operazione-di-terra-a-gaza-hamas-denuncia-violato-il-cessate-il-fuoco",
+   "pubblicato": "2026-11-18T22:04:14Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "e3257ad10d39a518",
+   "fonte": "quotidianodelsud",
+   "titolo": "Neurologo Shneider: “Sla è trattabile, nuove terapie personalizzate in sviluppo”",
+   "estratto": "Il Quotidiano del Sud Neurologo Shneider: “Sla è trattabile, nuove terapie personalizzate in sviluppo” (Adnkronos) – “La sclerosi laterale amiotrofica è una malattia trattabile. Se individuiamo il…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/neurologo-shneider-sla-e-trattabile-nuove-terapie-personalizzate-in-sviluppo",
+   "pubblicato": "2026-11-18T22:04:05Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "eea09499ee6dd278",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Lunetta (Maugeri): “Italia protagonista nella ricerca sulle mutazioni genetiche”",
+   "estratto": "Il Quotidiano del Sud Sla, Lunetta (Maugeri): “Italia protagonista nella ricerca sulle mutazioni genetiche” (Adnkronos) – “L’Italia ha sempre dato un contributo importante alla ricerca sulla Sla…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/sla-lunetta-maugeri-italia-protagonista-nella-ricerca-sulle-mutazioni-genetiche",
+   "pubblicato": "2026-11-18T22:04:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "79e44c59f9cdf6cd",
+   "fonte": "repubblicasud",
+   "titolo": "Napoli, la mostra “Domenico Spinosa e la sua scuola” alla Galleria L’Ariete",
+   "estratto": "",
+   "link": "https://napoli.repubblica.it/cronaca/2026/11/18/news/napoli_la_mostra_domenico_spinosa_e_la_sua_scuola_alla_galleria_l_ariete-425733629/",
+   "pubblicato": "2026-11-18T22:04:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "b9117683bcdea9b6",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, ricercatrice Pasinelli: “Stiamo sviluppando trattamenti molecolari mirati”",
+   "estratto": "Il Quotidiano del Sud Sla, ricercatrice Pasinelli: “Stiamo sviluppando trattamenti molecolari mirati” (Adnkronos) – Nel trattamento della sclerosi laterale amiotrofica (Sla), “il cambiamento…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/sla-ricercatrice-pasinelli-stiamo-sviluppando-trattamenti-molecolari-mirati",
+   "pubblicato": "2026-11-18T22:03:54Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "686a18eb4229b9f5",
+   "fonte": "quotidianodelsud",
+   "titolo": "I musulmani nel mondo supereranno i cristiani nel 2035. Islam triplicherà la ‘quota’ in Italia entro 2070",
+   "estratto": "Il Quotidiano del Sud I musulmani nel mondo supereranno i cristiani nel 2035. Islam triplicherà la ‘quota’ in Italia entro 2070 (Adnkronos) – I musulmani, nel mondo, diventeranno più numerosi dei…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/i-musulmani-nel-mondo-supereranno-i-cristiani-nel-2035-islam-triplichera-la-quota-in-italia-entro-2070",
+   "pubblicato": "2026-11-18T22:03:48Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "af8002d01e7a0f87",
+   "fonte": "lastampa",
+   "titolo": "“Non siamo più come Icaro Invece di rischiare, temiamo I big data possono salvarci”",
+   "estratto": "Il filosofo: “Questo che viviamo è il tempo più umano della Storia”",
+   "link": "https://www.lastampa.it/cultura/2026/11/19/news/non_siamo_piu_come_icaro_invece_di_rischiare_temiamo_i_big_data_possono_salvarci-15802114/",
+   "pubblicato": "2026-11-18T22:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "db30e7c8b037a5e6",
+   "fonte": "repubblica",
+   "titolo": "Sanità, Regioni in pressing: spunta l’ipotesi di più fondi tagliando la card anziani",
+   "estratto": "Allo studio di Forza Italia il ridimensionamento dei beneficiari: solo over 75 con Isee a 15mila. Si risparmierebbero 800 milioni",
+   "link": "https://www.repubblica.it/economia/2026/11/18/news/sanita_regioni_card_anziani-425733547/",
+   "pubblicato": "2026-11-18T21:56:54Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2d24f76d692e8b4c",
+   "fonte": "open",
+   "titolo": "Ghali a sorpresa al liceo Manzoni di Milano: «Voglio capire cosa pensano i giovani, dovrebbero farlo anche i politici» – Il video",
+   "estratto": "Mercoledì 18 novembre l’artista milanese ha incontrato nella palestra dell'Istituto gli alunni di quarta e quinta. Ha ripercorso i suoi dieci anni di carriera, poi ha risposto alle loro domande…",
+   "link": "https://www.open.online/2026/11/18/ghali-incontra-studenti-liceo-manzoni-milano-video/",
+   "pubblicato": "2026-11-18T21:51:04Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "80fa35a194b4070a",
+   "fonte": "corriere",
+   "titolo": "E Forza Italia prepara un anuova battaglia contro i medici no vax",
+   "estratto": "La corsa a mettere comunque agli atti le proposte impossibili",
+   "link": "https://roma.corriere.it/notizie/politica/26_novembre_18/e-forza-italia-prepara-un-anuova-battaglia-contro-i-medici-no-vax-9b42ac9b-43fa-4325-9eb4-8cc121068xlk.shtml",
+   "pubblicato": "2026-11-18T21:43:34Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "ce75e04a467db53b",
+   "fonte": "repubblicasud",
+   "titolo": "A Napoli la crisi ambientale finisce sui manifesti: “Non c’è un buon clima”",
+   "estratto": "",
+   "link": "https://napoli.repubblica.it/cronaca/2026/11/18/news/a_napoli_la_crisi_ambientale_finisce_sui_manifesti_non_c_e_un_buon_clima-425733528/",
+   "pubblicato": "2026-11-18T21:38:30Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "02502f675a4f3a73",
+   "fonte": "ilgiornale",
+   "titolo": "Trump, Putin e Xi, stretta di mano a Shenzhen prima del vertice a tre. Ucraina e nucleare sul tavolo",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/politica-estera/trump-putin-e-xi-stretta-di-mano-a-shenzhen-prima-del-vertice-a-tre-ucraina-e-nucleare-sul-tavolo/",
+   "pubblicato": "2026-11-18T21:36:36Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "5e464c3df81325b4",
+   "fonte": "ansa",
+   "titolo": "Torna il ReWriters Fest, Romanelli: 'Evento trasversale tra istituzioni e cultura pop'",
+   "estratto": "A Roma dal 19 al 22 novembre. Madrina Giordana Angi, a Vladimir Luxuria il Premio ReWriters 2026",
+   "link": "https://www.ansa.it/sito/notizie/cultura/libri/2026/11/15/torna-il-rewriters-fest.-romanelli-evento-trasversale-tra-istituzioni-e-cultura-pop_b720220f-28ad-4df1-9202-0b235f06fb1d.html",
+   "pubblicato": "2026-11-18T21:35:08Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0ce31e8794f0957a",
+   "fonte": "corriere",
+   "titolo": "Libri di scuola digitali scontati del 50%: braccio di ferro tra Fratelli d’Italia e FI, si va alla conta in Aula​Gli editori: «Senza testi di carta si impara male»",
+   "estratto": "Slitta a oggi l'esame della norma sullo sconto del 50%. Arianna Meloni: vedremo chi sta con le famiglie",
+   "link": "https://roma.corriere.it/notizie/politica/26_novembre_18/braccio-di-ferro-tra-fratelli-d-italia-e-fi-sui-lbri-digitali-si-va-alla-conta-in-aula-558f9bf1-2f29-4287-b8b5-8a532e6ccxlk.shtml",
+   "pubblicato": "2026-11-18T21:26:58Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "87f60e44f740ce15",
+   "fonte": "open",
+   "titolo": "Manovra 2027, dalle pensioni al condono anche per abusi nelle zone sismiche, fino al Superbonus: ecco cosa può cambiare",
+   "estratto": "È record di emendamenti presentati al disegno di legge di Bilancio: 6.600. Ecco le principali proposte di modifica al testo, che dev’essere approvato da Camera e Senato entro il 31 dicembre",
+   "link": "https://www.open.online/2026/11/18/manovra-2027-cosa-puo-cambiare-pensioni-condoni-superbonus/",
+   "pubblicato": "2026-11-18T21:26:01Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7b300719eb94eb5d",
+   "fonte": "gazzettamezzogiorno",
+   "titolo": "Cina, al vertice dei Ceo Apec l’iniziativa per una prosperità condivisa",
+   "estratto": "",
+   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2216588/cina-al-vertice-dei-ceo-apec-liniziativa-per-una-prosperita-condivisa.html",
+   "pubblicato": "2026-11-18T21:24:09Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "aa64bb9c5a48644f",
+   "fonte": "skytg24",
+   "titolo": "Miguel Gotor vince il Premio Strega Saggistica: \"Lo dedico a bambini e adolescenti\"",
+   "estratto": "Lo scrittore romano ha ricevuto il prestigioso riconoscimento con il libro \"L'omicidio di Piersanti Mattarella. L'Italia nel mirino: Palermo, Ustica, Bologna. 1979-1980\". Nel volume, edito da…",
+   "link": "https://tg24.sky.it/lifestyle/2026/11/18/miguel-gotor-vincitore-premio-strega-saggistica",
+   "pubblicato": "2026-11-18T21:20:53Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "12cca241df9766ed",
+   "fonte": "quotidianodelsud",
+   "titolo": "Tiafoe batte ed elimina Cobolli alle Atp Finals, Alcaraz in semifinale",
+   "estratto": "Il Quotidiano del Sud Tiafoe batte ed elimina Cobolli alle Atp Finals, Alcaraz in semifinale TORINO (ITALPRESS) – Flavio Cobolli fuori dalle Atp Finals 2026. Il tennista romano si arrende in due set…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/tiafoe-batte-ed-elimina-cobolli-alle-atp-finals-alcaraz-in-semifinale",
+   "pubblicato": "2026-11-18T21:20:40Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "695ab79ca78c1970",
+   "fonte": "lacnews24",
+   "titolo": "Cassano, la storia di Malala a teatro: gli studenti dell’Erodoto riflettono sul diritto di studiare",
+   "estratto": "Gli alunni del biennio hanno assistito allo spettacolo di Teatro Rossosimona per la Giornata mondiale della gentilezza. Sul palco Marianna Esposito, con un testo scritto e diretto da Dora Ricca",
+   "link": "https://www.lacnews24.it/cultura/cassano-erodoto-thurii-malala-teatro-gentilezza-e8w5pmgy",
+   "pubblicato": "2026-11-18T21:15:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "15d1eec5b32b9607",
+   "fonte": "open",
+   "titolo": "Manovra, tra le proposte di FI detrazione del 100% per chi dona al “museo Gianni Agnelli” e 12 milioni per le passeggiate",
+   "estratto": "Nei circa 800 emendamenti di Forza Italia anche cinque milioni per i musei del tessile, fondi per i Bronzi di Riace e incentivi per le biciclette",
+   "link": "https://www.open.online/2026/11/18/manovra-proposte-forzs-italia-detrazione-museo-agnelli-passeggiate/",
+   "pubblicato": "2026-11-18T21:05:06Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "d6dcdca4efa36ca8",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Sabatelli (Aisla): “Terapie mirate all’Rna aprono nuove prospettive di cura”",
+   "estratto": "Il Quotidiano del Sud Sla, Sabatelli (Aisla): “Terapie mirate all’Rna aprono nuove prospettive di cura” (Adnkronos) – “Nella Sla, come in molte altre malattie neurodegenerative, si verificano…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/sla-sabatelli-aisla-terapie-mirate-allrna-aprono-nuove-prospettive-di-cura",
+   "pubblicato": "2026-11-18T21:04:59Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "1a76f3610fc239d3",
+   "fonte": "quotidianodelsud",
+   "titolo": "Atp Finals, oggi Cobolli-Tiafoe – Diretta",
+   "estratto": "Il Quotidiano del Sud Atp Finals, oggi Cobolli-Tiafoe – Diretta (Adnkronos) – Sfida tra ‘deb’ da dentro o fuori alle Atp Finals 2026. Oggi, mercoledì 18 novembre, si affrontano a Torino Flavio…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/atp-finals-oggi-cobolli-tiafoe-diretta",
+   "pubblicato": "2026-11-18T21:04:53Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "201294a915cf5793",
+   "fonte": "quotidianodelsud",
+   "titolo": "Sla, Massimelli (Aisla): “Nessuna persona e nessuna famiglia devono essere lasciate sole”",
+   "estratto": "Il Quotidiano del Sud Sla, Massimelli (Aisla): “Nessuna persona e nessuna famiglia devono essere lasciate sole” (Adnkronos) – “La promessa che vogliamo mantenere è semplice da esprimere, ma…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/sla-massimelli-aisla-nessuna-persona-e-nessuna-famiglia-devono-essere-lasciate-sole",
+   "pubblicato": "2026-11-18T21:04:47Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "0fb6fc3d05291649",
+   "fonte": "quotidianodelsud",
+   "titolo": "Cobolli, arriva la ‘proposta di matrimonio’ alle Atp Finals: “Ti sposo”",
+   "estratto": "Il Quotidiano del Sud Cobolli, arriva la ‘proposta di matrimonio’ alle Atp Finals: “Ti sposo” (Adnkronos) – Siparietto tutto da ridere alle Atp Finals 2026. Protagonista il tennista azzurro Flavio…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/cobolli-arriva-la-proposta-di-matrimonio-alle-atp-finals-ti-sposo",
+   "pubblicato": "2026-11-18T21:04:41Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "827545bbdb02df12",
+   "fonte": "quotidianodelsud",
+   "titolo": "Xi, il 15esimo Piano quinquennale crea opportunità di crescita oltre Asia-Pacifico",
+   "estratto": "Il Quotidiano del Sud Xi, il 15esimo Piano quinquennale crea opportunità di crescita oltre Asia-Pacifico SHENZHEN (CINA) (XINHUA/ITALPRESS) – Il 15esimo Piano quinquennale cinese (2026-2030) offre…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/xi-il-15esimo-piano-quinquennale-crea-opportunita-di-crescita-oltre-asia-pacifico",
+   "pubblicato": "2026-11-18T21:04:22Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "6e5980eacf51f5a0",
+   "fonte": "repubblicasud",
+   "titolo": "Al Museo Madre la prima grande retrospettiva dedicata ad Isabella Ducro",
+   "estratto": "",
+   "link": "https://napoli.repubblica.it/cronaca/2026/11/18/news/la_prima_grande_retrospettiva_dedicata_ad_isabella_ducro-425733588/",
+   "pubblicato": "2026-11-18T21:04:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "40ca676f056191d4",
+   "fonte": "ilgiornale",
+   "titolo": "I nostri soldi al poligamo, gli strani numeri di Ranucci e Vannacci: quindi, oggi…",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/quindi-oggi/i-nostri-soldi-al-poligamo-gli-strani-numeri-di-ranucci-e-vannacci-quindi-oggi/",
+   "pubblicato": "2026-11-18T21:01:34Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "4d1092b31e1750ad",
+   "fonte": "laverita",
+   "titolo": "Sudafrica, il richiamo del Capo tra oceano e montagne",
+   "estratto": "Dalla creatività di Cape Town ai vigneti delle Winelands, fino alle spiagge selvagge dell’Atlantico e alle cime del Cederberg. Viaggio nel Western Cape, dove la natura incontra culture e tradizioni…",
+   "link": "https://www.laverita.info/turismo-e-viaggi/cosa-vedere-cape-town-sudafrica",
+   "pubblicato": "2026-11-18T21:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "9bca24321980143c",
+   "fonte": "lacnews24",
+   "titolo": "Morricone diventa danza: Filippo Stabile porta “MorE” al Teatro Rendano di Cosenza",
+   "estratto": "Il 23 novembre la prima nazionale dello spettacolo prodotto da Create Danza. Un viaggio oltre le immagini del cinema per trasformare le emozioni della musica di Ennio Morricone in gesto, movimento e…",
+   "link": "https://www.lacnews24.it/attualita/morricone-diventa-danza-filippo-stabile-porta-more-al-teatro-rendano-di-cosenza-kdav9fso",
+   "pubblicato": "2026-11-18T21:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "2a7afe724e82fdef",
+   "fonte": "ansa",
+   "titolo": "Acquaroli 'Schlein e Conte? Male non fare paura non avere, vado avanti'",
+   "estratto": "Inchiesta Marche. Governatore, \"intercettazioni confermano quanto ho detto in Consiglio\"",
+   "link": "https://www.ansa.it/sito/notizie/politica/2026/11/18/acquaroli-schlein-e-conte-male-non-fare-paura-non-avere-vado_04d20f58-a154-4c4c-b4a3-9a2bfbe82382.html",
+   "pubblicato": "2026-11-18T20:59:27Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "7a9e85269c54f630",
+   "fonte": "ansa",
+   "titolo": "Manovra: spuntano 800 milioni per la sanità, ipotesi card anziani più mirata",
+   "estratto": "Voucher da 300 euro ma con Isee. Tensione nella maggioranza sul condono",
+   "link": "https://www.ansa.it/sito/notizie/economia/pmi/2026/11/18/manovra-spuntano-800-milioni-per-la-sanita-ipotesi-card-anziani-piu_92e99b6c-49d8-4f68-9bee-71fff3bdc40a.html",
+   "pubblicato": "2026-11-18T20:51:29Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "268ec5c27d2f6aac",
+   "fonte": "libero",
+   "titolo": "Reddito M5S al boss calabrese condannato a trent’anni. ’Ndrangheta, tutti i beneficiari",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/italia/reddito-m5s-al-boss-calabrese-condannato-a-trentanni-ndrangheta-tutti-i-beneficiari/",
+   "pubblicato": "2026-11-18T20:49:17Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "beb1a4615cb34179",
+   "fonte": "libero",
+   "titolo": "Ha nove figli in Senegal: avrà nove assegni",
+   "estratto": "",
+   "link": "https://www.liberoquotidiano.it/news/italia/ha-nove-figli-in-senegal-avra-nove-assegni/",
+   "pubblicato": "2026-11-18T20:49:06Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "a1e12d166744fccd",
+   "fonte": "sole24ore",
+   "titolo": "Lega, tensione nell’ala nordista dopo la sfiducia a Romeo in Senato",
+   "estratto": "Il day after la sfiducia dei senatori leghisti al capogruppo Massimiliano Romeo, sostituito con il “salviniano” Marco Dreosto, non è indolore nel Carroccio. Il redde rationem andato in...",
+   "link": "https://www.ilsole24ore.com/art/lega-tensione-nell-ala-nordista-la-sfiducia-romeo-senato-AJuAlILC",
+   "pubblicato": "2026-11-18T20:47:04Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
+   "id": "acd07cf86d80323c",
+   "fonte": "fanpage",
+   "titolo": "Durante la presentazione del libro del ministro Musumeci, \"Una vita dalla parte 'sbagliata'\", il presidente del Senato, Ignazio La Russa…",
+   "estratto": ", ha ripercorso alcuni momenti della sua vita politica nel Msi sottolineando che sua padre era \"fascista\" ma che con lui non ha mai litigato: \"a casa mia c'era veramente libertà\"",
+   "link": "https://www.instagram.com/reel/Df5Ygh6k4En/",
+   "pubblicato": "2026-11-18T20:39:40Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "instagram"
+  },
   {
    "id": "68e9ed9151fd4597",
    "fonte": "skytg24",
@@ -9,6 +1789,26 @@
    "link": "https://tg24.sky.it/economia/2026/11/18/libri-scolastici-digitali-meta-prezzo-emendamento",
    "pubblicato": "2026-11-18T20:35:00Z",
    "raccolto": "2026-11-18T20:36:53Z",
+   "canale": "rss"
+  },
+  {
+   "id": "4d691f99a49143d5",
+   "fonte": "ilgiornale",
+   "titolo": "IA, robot, farmaci innovativi: il nuovo trio hi-tech cinese che scuote l’Occidente (e fa volare Pechino)",
+   "estratto": "",
+   "link": "https://www.ilgiornale.it/news/nuove-frontiere/ia-robot-farmaci-innovativi-il-nuovo-trio-hi-tech-cinese-che-scuote-loccidente-e-fa-volare-pechino/",
+   "pubblicato": "2026-11-18T20:34:13Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
+   "id": "9f9fc76d207a8678",
+   "fonte": "quotidianodelsud",
+   "titolo": "A Bruxelles nasce lo Juventus Club Unione Europea, Chiellini “Giornata speciale” / Video",
+   "estratto": "Il Quotidiano del Sud A Bruxelles nasce lo Juventus Club Unione Europea, Chiellini “Giornata speciale” / Video BRUXELLES (BELGIO) (ITALPRESS) – Nasce a Bruxelles lo Juventus Club Unione Europea, un…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/a-bruxelles-nasce-lo-juventus-club-unione-europea-chiellini-giornata-speciale-video",
+   "pubblicato": "2026-11-18T20:34:13Z",
+   "raccolto": "2026-11-19T02:36:17Z",
    "canale": "rss"
   },
   {
@@ -60,6 +1860,16 @@
    "pubblicato": "2026-11-18T20:23:41Z",
    "raccolto": "2026-11-18T20:36:53Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "2ae5f36443814b0b",
+   "fonte": "corriere",
+   "titolo": "I pm sul mancato arresto: «De Gennaro libero è pericoloso, nella sua rete politici e toghe»",
+   "estratto": "I pm contro il mancato arresto: «Influì anche sulla nomina del fratello a capo della GdF»",
+   "link": "https://roma.corriere.it/notizie/cronaca/26_novembre_18/de-gennaro-libero-e-pericoloso-nella-sua-rete-politici-e-toghe-d18e3189-08a8-461b-8910-40b62f1a1xlk.shtml",
+   "pubblicato": "2026-11-18T20:20:50Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
   },
   {
    "id": "9435bfcd3e3d3d0b",
@@ -902,6 +2712,16 @@
    "canale": "rss"
   },
   {
+   "id": "96d55febce91b1a8",
+   "fonte": "quotidianodelsud",
+   "titolo": "Cina, al vertice dei Ceo Apec l’iniziativa per una prosperità condivisa",
+   "estratto": "Il Quotidiano del Sud Cina, al vertice dei Ceo Apec l’iniziativa per una prosperità condivisa SHENZHEN (CINA) (XINHUA/ITALPRESS) – L’iniziativa di Shenzhen del Vertice dei CEO della Cooperazione…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/cina-al-vertice-dei-ceo-apec-liniziativa-per-una-prosperita-condivisa",
+   "pubblicato": "2026-11-18T19:06:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
+  },
+  {
    "id": "7e5feba6dec1faba",
    "fonte": "domani",
    "titolo": "Da Gentile a Rauti, la storia non è un lavatoio di biografie",
@@ -1490,6 +3310,16 @@
    "pubblicato": "2026-11-18T18:31:29Z",
    "raccolto": "2026-11-18T20:36:53Z",
    "canale": "sitemap"
+  },
+  {
+   "id": "885d39cfef686d88",
+   "fonte": "quotidianodelsud",
+   "titolo": "Camera di Commercio Spagna in Italia premia Orsini e 8 aziende",
+   "estratto": "Il Quotidiano del Sud Camera di Commercio Spagna in Italia premia Orsini e 8 aziende Roma, 16 nov. (askanews) – Celebrare le aziende italiane che investono in Spagna, e quelle spagnole che investono…",
+   "link": "https://www.quotidianodelsud.it/2026/11/18/camera-di-commercio-spagna-in-italia-premia-orsini-e-8-aziende",
+   "pubblicato": "2026-11-18T18:30:32Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "rss"
   },
   {
    "id": "347e96a95265c143",
@@ -3362,6 +5192,16 @@
    "canale": "rss"
   },
   {
+   "id": "149e25aba5ce7f2d",
+   "fonte": "avvenire",
+   "titolo": "San Pietro, quattro secoli di bellezza (e di divisioni): il cantiere che ha attraversato la storia della Chiesa",
+   "estratto": "",
+   "link": "https://www.avvenire.it/chiesa/chiesa-italiana/san-pietro-quattro-secoli-di-bellezza-e-di-divisioni-il-cantiere-che-ha-attraversato-la-storia-della-chiesa_115998",
+   "pubblicato": "2026-11-18T17:00:00Z",
+   "raccolto": "2026-11-19T02:36:17Z",
+   "canale": "sitemap"
+  },
+  {
    "id": "f7fa52f8e497761e",
    "fonte": "lacnews24",
    "titolo": "Il carcere come misura della civiltà dello Stato: dalla conoscenza scientifica alla tutela integrata dei diritti",
@@ -3809,6 +5649,16 @@
    "link": "https://www.lagazzettadelmezzogiorno.it/news/bari/2216273/capurso-l-annuncio-del-sindaco-michele-laricchia-finalmente-torna-il-treno.html",
    "pubblicato": "2026-11-18T16:28:50Z",
    "raccolto": "2026-11-18T20:36:53Z",
+   "canale": "rss"
+  },
+  {
+   "id": "f150cc2c9c487fff",
+   "fonte": "ansa",
+   "titolo": "Agroalimentare italiano motore economia nazionale. Ad ANSAIncontra il dg Ismea",
+   "estratto": "Su Ansa.it il 19 novembre alle 12.00. Decisivo il contributo del Pnrr",
+   "link": "https://www.ansa.it/sito/notizie/ansa_incontra/2026/11/18/agroalimentare-italiano-motore-economia-nazionale.-ad-ansaincontra-il-dg-ismea_a73502db-bd59-493b-9c35-76607519ea2e.html",
+   "pubblicato": "2026-11-18T16:28:50Z",
+   "raccolto": "2026-11-19T02:36:17Z",
    "canale": "rss"
   },
   {
@@ -43259,846 +45109,6 @@
    "link": "https://www.rainews.it/articoli/2026/11/caos-voli-verso-la-normalita-ma-e-scontro-al-congresso-duffy-chiede-50-miliardi-d9ddeb55-fb98-42ca-9602-5e37d07f258e.html",
    "pubblicato": "2026-11-16T02:59:00Z",
    "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "3c6c33f6fb1efbf0",
-   "fonte": "rainews",
-   "titolo": "Scossa di magnitudo 3.2 in provincia L'Aquila, gente svegliata nel cuore della notte",
-   "estratto": "E' stato registrato 2 km a nord-est da Pizzoli. Non si registrano al momento danni a persone o cose",
-   "link": "https://www.rainews.it/articoli/2026/11/scossa-di-magnitudo-32-in-provincia-laquila-13a02b8e-dcec-4efd-b722-2fad2554a460.html",
-   "pubblicato": "2026-11-16T01:06:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "46dd9a36947abcdd",
-   "fonte": "libero",
-   "titolo": "Futuro Nazionale, è caos: nel Lazio nomine bloccate",
-   "estratto": "",
-   "link": "https://www.liberoquotidiano.it/news/politica/futuro-nazionale-e-caos-nel-lazio-nomine-bloccate/",
-   "pubblicato": "2026-11-16T00:38:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "b1aa8e4a6f7f405f",
-   "fonte": "libero",
-   "titolo": "Il Pd spende 3,5 milioni per fare da balia ai rom",
-   "estratto": "",
-   "link": "https://www.liberoquotidiano.it/news/italia/il-pd-spende-35-milioni-per-fare-da-balia-ai-rom/",
-   "pubblicato": "2026-11-16T00:34:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "651c37052bb73db2",
-   "fonte": "quotidianodelsud",
-   "titolo": "Atp Finals, per Shelton buona la prima con Ferrero: Fils ko in tre set",
-   "estratto": "Il Quotidiano del Sud Atp Finals, per Shelton buona la prima con Ferrero: Fils ko in tre set (Adnkronos) – Ben Shelton non sbaglia al debutto alle Atp Finals 2026 e sotto gli occhi del nuovo coach…",
-   "link": "https://www.quotidianodelsud.it/2026/11/16/atp-finals-per-shelton-buona-la-prima-con-ferrero-fils-ko-in-tre-set",
-   "pubblicato": "2026-11-16T00:05:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "e86651a00fa6a2f0",
-   "fonte": "quotidianodelsud",
-   "titolo": "Maltempo, allerta meteo per temporali e rischio idrogeologico lunedì 16 novembre: 10 regioni a rischio",
-   "estratto": "Il Quotidiano del Sud Maltempo, allerta meteo per temporali e rischio idrogeologico lunedì 16 novembre: 10 regioni a rischio (Adnkronos) – Italia ancora nella morsa del maltempo dopo i rovesci che…",
-   "link": "https://www.quotidianodelsud.it/2026/11/16/maltempo-allerta-meteo-per-temporali-e-rischio-idrogeologico-lunedi-16-novembre-10-regioni-a-rischio",
-   "pubblicato": "2026-11-16T00:04:51Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "fe30e361da507ea9",
-   "fonte": "quotidianodelsud",
-   "titolo": "Morto a 21 anni il parapendista Giovanni Lopez: si è schiantato al suolo",
-   "estratto": "Il Quotidiano del Sud Morto a 21 anni il parapendista Giovanni Lopez: si è schiantato al suolo (Adnkronos) – Giovanni Lopez, un parapendista di 21 anni noto per le sue acrobazie in volo, è morto in…",
-   "link": "https://www.quotidianodelsud.it/2026/11/16/morto-a-21-anni-il-parapendista-giovanni-lopez-si-e-schiantato-al-suolo",
-   "pubblicato": "2026-11-16T00:04:43Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "6ec53f0c2830d510",
-   "fonte": "repubblicasud",
-   "titolo": "Coop disoccupati, indaga il pm: “Fondi usati per comprare voti”",
-   "estratto": "",
-   "link": "https://napoli.repubblica.it/cronaca/2026/11/16/news/coop_disoccupati_indagini_vicedomini_andreozzi-425725865/",
-   "pubblicato": "2026-11-16T00:01:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "fc10a2800fafa08a",
-   "fonte": "repubblica",
-   "titolo": "Trump viaggia in Asia per superare la crisi e rilanciare il ruolo Usa",
-   "estratto": "Dopo la disfatta alle midterm vedrà l’omologo di Pechino: sul tavolo Iran e nucleare",
-   "link": "https://www.repubblica.it/esteri/2026/11/16/news/trump_ciaggio_asia_asean_apec_trilaterale_putin_xi-425726030/",
-   "pubblicato": "2026-11-16T00:00:45Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "9a90eecf1ca49318",
-   "fonte": "repubblica",
-   "titolo": "Xi, il padrone di casa a Shenzen celebrerà se stesso tra i leader azzoppati",
-   "estratto": "Dibattiti al minimo, agenda svuotata: al vertice Apec per il leader di Pechino conterà solo consacrarsi come superpotenza affidabile",
-   "link": "https://www.repubblica.it/esteri/2026/11/16/news/xi_jinping_trump_shenzen_vertice-425726005/",
-   "pubblicato": "2026-11-16T00:00:30Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "6f2ef7857e9cbe21",
-   "fonte": "repubblica",
-   "titolo": "Ue, assist a Trump: sì a un vertice in Europa per uscire dall’impasse",
-   "estratto": "Gli Alleati vogliono favorire il tycoon nella ricerca di un accordo ma temono che Putin tenti di ridisegnare la sicurezza del Continente",
-   "link": "https://www.repubblica.it/esteri/2026/11/16/news/ue_assist_a_trump_si_a_un_vertice_in_europa_russia_ucraina-425725996/",
-   "pubblicato": "2026-11-16T00:00:21Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "a02f31b787a69ddf",
-   "fonte": "repubblica",
-   "titolo": "L’analista Masala: “Patetico che l’Europa elemosini un posto al tavolo della trattativa con Mosca”",
-   "estratto": "L’esperto militare tedesco: “Il punto vero è che i nemici hanno due mesi per ottenere risultati, prima cioè che si insedi a Washington il nuovo Congresso”",
-   "link": "https://www.repubblica.it/esteri/2026/11/16/news/europa_negoziati_ucraina_russia_masala-425725500/",
-   "pubblicato": "2026-11-16T00:00:03Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "960cc9ff587f99c7",
-   "fonte": "repubblica",
-   "titolo": "La battaglia dei bot: ecco come l’IA cambia la politica",
-   "estratto": "Gli agenti interagiscono con i profili, per elogiare il messaggio o denigrarlo. L’ombra dei regimi, dagli attacchi Navalny al faro di OpenAi su Cina e Iran",
-   "link": "https://www.repubblica.it/politica/2026/11/16/news/battaglia_bot_come_ia_cambia_politica-425726072/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "a43507c938a4ed62",
-   "fonte": "repubblica",
-   "titolo": "Minacce ibride: Crosetto accelera, ok al ddl sulla Difesa entro febbraio",
-   "estratto": "In settimana primo sì alla legge che istituisce un centro ad hoc e specialisti cyber nelle forze armate",
-   "link": "https://www.repubblica.it/politica/2026/11/16/news/minacce_ibride_crosetto_accelera_cybersicurezza_febbraio-425726023/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "04d75b050451b646",
-   "fonte": "repubblica",
-   "titolo": "Ciardi: “L’Italia investa di più contro gli attacchi cyber. Voto a rischio manipolazione”",
-   "estratto": "La vicedirettrice dell’Agenzia per la sicurezza cibernetica: “Non è più solo disinformazione ma capacità di influire sull’opinione e il consenso”",
-   "link": "https://www.repubblica.it/politica/2026/11/16/news/nunzia_ciardi_italia_investa_di_piu_cybersicurezza_voto_manipolazione_intervista-425726012/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "5d5bddcc50dda77d",
-   "fonte": "repubblica",
-   "titolo": "Quando l’algoritmo che si ribella al capo è più libero di un peone",
-   "estratto": "Abbiamo assistito a un corto circuito tra intelligenza ed etica che avevamo visto solo in Blade Runner o nelle fantasie di Asimov e di Philip Dick",
-   "link": "https://www.repubblica.it/politica/2026/11/16/news/bot_quando_algoritmo_si_ribella_al_capo_piu_libero_peone-425726081/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "8287e037a2a24b1e",
-   "fonte": "repubblica",
-   "titolo": "Il dilemma della patrimoniale: Avs la vuole sopra i 5 milioni, il Pd dai 100, Conte è scettico",
-   "estratto": "Oggi il tavolo: rossoverdi in pressing. M5S punta alle rendite finanziarie. I dem guardano alla proposta dell’economista Zucman",
-   "link": "https://www.repubblica.it/politica/2026/11/16/news/dilemma_patrimoniale_avs_sopra_5_milioni_pd_dai_100_conte_scettico-425726055/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "f42859fee32fafc0",
-   "fonte": "repubblica",
-   "titolo": "Antimafia, Nello Rossi: “Serve rigore o la magistratura rischia di affondare”",
-   "estratto": "“Rinnovare le stagioni dei veleni allontana i cittadini. Comprensibile l’ansia di verità, ma senza rispetto delle regole nascono indagini sbilenche”",
-   "link": "https://www.repubblica.it/politica/2026/11/16/news/antimafia_nello_rossi_serve_rigore_magistratura_rischia_affondare_intervista-425725975/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "490b6482bdfbaf31",
-   "fonte": "repubblica",
-   "titolo": "“Chiedo scusa al rabbino, ma sono un italiano nel Cpr: non mandatemi in Tunisia”",
-   "estratto": "Ilyes Zahani in attesa di rimpatrio dopo l’aggressione al religioso “Io sono nato qui, chiedo solo di restare a casa. Non parlo neppure l’arabo, anche le guardie quando mi sentono dicono: ma che ci…",
-   "link": "https://milano.repubblica.it/cronaca/2026/11/16/news/chiedo_scusa_rabbino_italiano_cpr_espulsione_tunisia-425725862/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "1ad96e425a89400a",
-   "fonte": "repubblica",
-   "titolo": "L’allarme del ministero: “Basta con le ricette facili dei farmaci per dimagrire”",
-   "estratto": "Le Regioni dovranno capire se i medicinali sono destinati a chi ne ha bisogno davvero. Il rischio è che non basti per i diabetici",
-   "link": "https://milano.repubblica.it/cronaca/2026/11/16/news/allarme_ministero_ricette_facili_farmaci_dimagrire-425725933/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "1417415a05da6c4f",
-   "fonte": "repubblica",
-   "titolo": "“Io nel forziere dei semi, vi spiego perché le donne nutriranno il mondo”",
-   "estratto": "Lise Lykke Steffensen ha guidato la banca delle Svalbard: “Tra neve e orsi uno scrigno di biodiversità al sicuro dagli attacchi”",
-   "link": "https://www.repubblica.it/cronaca/2026/11/16/news/banca_semi_norvegia_isole_svalbard_donna_capo_intervista-425726099/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "bd526a67fb55f61f",
-   "fonte": "repubblica",
-   "titolo": "Diritti e sostenibilità, torna ReWriters Fest",
-   "estratto": "A Roma dal 19 al 22 novembre: quest’anno la kermesse premia l’attivista Vladimir Luxuria",
-   "link": "https://www.repubblica.it/cronaca/2026/11/16/news/festival_rewriters_sostenibilita_diritti_roma-425726051/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "ef3fb990bd1d586c",
-   "fonte": "repubblica",
-   "titolo": "Malore prima del concerto, muore una fan di Elisa. La cantante: “Niente show”",
-   "estratto": "La donna, Monica Massimi, 55 anni, aveva problemi di salute. L’artista in lacrime annulla il live per i suoi fan a Bologna: “Il mio cuore è con la famiglia”",
-   "link": "https://bologna.repubblica.it/cronaca/2026/11/16/news/elisa_concerto_bologna_muore_fan_monica_massimi_55_anni-425725956/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "a47329a9dad19d59",
-   "fonte": "repubblicasud",
-   "titolo": "Avvisi Asl 1 Napoli per visite non disdette, assurdo prendersela con i cittadini",
-   "estratto": "",
-   "link": "https://napoli.repubblica.it/cronaca/2026/11/16/news/avvisi_asl_1_per_visite_non_disdette_assuurdo_prendersela_con_i_cittadini-425725849/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "5571b58fea5f8410",
-   "fonte": "repubblica",
-   "titolo": "Associazioni antifasciste, il governo taglia i fondi: “Così non sopravviviamo”",
-   "estratto": "Un decreto toglie 258mila euro a enti di ex deportati e perseguitati. Chiesto un incontro al Viminale. Le opposizioni: “Daremo battaglia”",
-   "link": "https://www.repubblica.it/politica/2026/11/16/news/associazioni_antifasciste_governo_taglia_fondi-425726090/",
-   "pubblicato": "2026-11-16T00:00:00Z",
-   "raccolto": "2026-11-16T19:38:59Z",
-   "canale": "rss"
-  },
-  {
-   "id": "cbd29ff39bebcc33",
-   "fonte": "ilmattino",
-   "titolo": "Avellino, ore decisive per il nuovo stadio Partenio: fondi, gare e concessioni per il neo impianto",
-   "estratto": "Si apre oggi una settimana potenzialmente decisiva per il futuro del b. Dopo il comunicato al vetriolo in replica alla conferenza stampa del presidente dell'Avellino Angelo Antonio...",
-   "link": "https://www.ilmattino.it/avellino/avellino_ore_decisive_per_il_nuovo_stadio_partenio_fondi_gare_e_concessioni_per_il_neo_impianto-9891695.html",
-   "pubblicato": "2026-11-15T23:39:53Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "cf5283795595659d",
-   "fonte": "ilmattino",
-   "titolo": "Lauro, morte del piccolo Christian Romano la perizia: l?invasione di corsia decisiva per causare l'incidente",
-   "estratto": "L?invasione di corsia è stata determinante per la morte del piccolo Christian Romano, il bambino di dieci anni che mentre era alla guida di una minimoto è stato travolto dalla...",
-   "link": "https://www.ilmattino.it/avellino/lauro_morte_del_piccolo_christian_romano_la_perizia_l_invasione_di_corsia_decisiva_per_causare_l_incidente-9891692.html",
-   "pubblicato": "2026-11-15T23:39:48Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "e6cf595a1145fb0d",
-   "fonte": "ilmattino",
-   "titolo": "Nocera Superiore, bombola di gas esplosa in casa: ferita una donna, nel mirino una valvola difettosa",
-   "estratto": "È ricoverata in terapia intensiva al Centro grandi ustionati dell?ospedale Cardarelli di Napoli la donna di 49 anni rimasta gravemente ferita nell?esplosione di una bombola di...",
-   "link": "https://www.ilmattino.it/salerno/nocera_superiore_bombola_di_gas_esplosa_in_casa_ferita_una_donna_nel_mirino_una_valvola_difettosa-9891819.html",
-   "pubblicato": "2026-11-15T23:39:43Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "094649e28dadb12b",
-   "fonte": "quotidianodelsud",
-   "titolo": "Italia travolta 4-1 dal Belgio, è fuori dalla Nations League",
-   "estratto": "Il Quotidiano del Sud Italia travolta 4-1 dal Belgio, è fuori dalla Nations League BRUXELLES (BELGIO) (ITALPRESS) – L’Italia perde 4-1 contro il Belgio: niente qualificazione ai quarti di finale di…",
-   "link": "https://www.quotidianodelsud.it/2026/11/16/italia-travolta-4-1-dal-belgio-e-fuori-dalla-nations-league",
-   "pubblicato": "2026-11-15T23:34:14Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "a3888defba888131",
-   "fonte": "ilmattino",
-   "titolo": "Salerno, il maltempo picchia duro la provincia: smottamenti e strade danneggiate sul territorio",
-   "estratto": "Tutto come previsto: con la prima bomba d?acqua si sbriciolano le montagne arse dal fuoco degli incendi appiccati nei mesi scorsi. Un disastro annunciato quello che da ieri tiene chiusa la...",
-   "link": "https://www.ilmattino.it/schede/salerno_il_maltempo_picchia_duro_la_provincia_smottamenti_e_strade_danneggiate_sul_territorio-9891816.html",
-   "pubblicato": "2026-11-15T23:30:03Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "3839b31805cd573e",
-   "fonte": "gazzettamezzogiorno",
-   "titolo": "Nyt, 'entro 24 ore la portaerei Roosevelt in Medio Oriente, è la terza nell'area'",
-   "estratto": "",
-   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2212592/nyt-entro-24-ore-la-portaerei-roosevelt-in-medio-oriente-e-la-terza-nell-area.html",
-   "pubblicato": "2026-11-15T23:25:02Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "3f5ed33d2258f99b",
-   "fonte": "internazionale",
-   "titolo": "Google spegne il motore di ricerca alle scuole che rifiutano l’ia",
-   "estratto": "Negli Stati Uniti chi vuole tenere l’intelligenza artificiale fuori dalle aule dovrà rinunciare anche al motore di ricerca. La scelta ha scatenato le proteste di genitori, insegnanti e politici Leggi",
-   "link": "https://www.internazionale.it/notizie/2026/11/16/google-scuole-intelligenza-artificiale",
-   "pubblicato": "2026-11-15T23:24:53Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "b5ae034896c63bbf",
-   "fonte": "gazzettamezzogiorno",
-   "titolo": "Italia travolta 4-1 dal Belgio, è fuori dalla Nations League",
-   "estratto": "",
-   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2212591/italia-travolta-4-1-dal-belgio-e-fuori-dalla-nations-league.html",
-   "pubblicato": "2026-11-15T23:24:09Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "5f9e06d6264ba73c",
-   "fonte": "ilmattino",
-   "titolo": "Lotta alla povertà e al disagio, c'è il polo di palazzo Pennese: «È un luogo per riconoscere il valore di tutti»",
-   "estratto": "Rigenerazione urbana e welfare: a Portici cinque grandi Fondazioni nazionali, regione Campania e comune insieme per Palazzo Pennese. Ieri, in occasione della X Giornata Mondiale dei...",
-   "link": "https://www.ilmattino.it/napoli/area_metropolitana/contro_poverta_disagio_polo_di_palazzo_pennese_portici_cardinale_batttaglia-9891744.html",
-   "pubblicato": "2026-11-15T23:15:03Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "596bddf97e12fbca",
-   "fonte": "corriere",
-   "titolo": "Putin alza la posta. Droni sul Bahrein. I due fronti della Cop31 | Il podcast «Giorno per giorno»",
-   "estratto": "Marco Imarisio spiega il senso dell’avvertimento da parte di Mosca di «usare la forza» per raggiungere i propri obiettivi in Ucraina nel caso in cui non si riuscisse (sottinteso: per colpa…",
-   "link": "https://www.corriere.it/podcast/daily/26_novembre_15/l-asticella-di-putin-droni-sul-bahrein-i-due-fronti-della-cop31-il-nuovo-episodio-del-podcast-giorno-per-giorno-dd7c8e7c-13cd-dd7c8e7c-13cd-4826-bc55-921c478d9xlk.shtml",
-   "pubblicato": "2026-11-15T23:15:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "d88aeb09a0d9f591",
-   "fonte": "repubblica",
-   "titolo": "Guerra Ucraina - Russia, le news di oggi. Zelensky: “Distrutto il 55% della capacità di raffinazione del petrolio russo”",
-   "estratto": "Lavrov ribadisce le condizioni fissate da Putin nel 2024: ritiro ucraino da quattro regioni e rinuncia all’Alleanza atlantica. Il Cremlino avverte: senza un accordo sulla sicurezza europea sarà…",
-   "link": "https://www.repubblica.it/esteri/2026/11/16/diretta/guerra_ucraina_russia_news_oggi-425726151/",
-   "pubblicato": "2026-11-15T23:12:28Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "08d30efb02cea710",
-   "fonte": "ilmattino",
-   "titolo": "Fuorigrotta, ok alla vendita. Al via all'intesa per l?ex caserma ai pompieri: «Accordo con il Viminale»",
-   "estratto": "Dopo trent?anni il quartiere di Fuorigrotta avrà di nuovo il suo presidio di sicurezza: un risultato raggiunto grazie a un accordo tra Mostra d?Oltremare, Comune di Napoli e...",
-   "link": "https://www.ilmattino.it/napoli/cronaca/fuorigrotta_ok_vendita_ex_caserma_ai_pompieri_accordo_viminale_napoli-9891732.html",
-   "pubblicato": "2026-11-15T23:10:03Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "95a1e40290b59079",
-   "fonte": "corriere",
-   "titolo": "Noi colpiti dalla guerra ibrida La politica non litighi, risponda",
-   "estratto": "",
-   "link": "https://www.corriere.it/lettere-al-direttore/26_novembre_16/noi-colpiti-dalla-guerra-ibrida-la-politica-non-litighi-risponda-rd-a8fbb579-1c21-4b88-a537-27be95c7bxlk.shtml",
-   "pubblicato": "2026-11-15T23:04:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "50ab7f3c07bac33c",
-   "fonte": "quotidianodelsud",
-   "titolo": "Garlasco, richiesta di revisione per Stasi sempre più vicina. Il genetista che ha fatto riaprire il caso: “Elementi clamorosi”",
-   "estratto": "Il Quotidiano del Sud Garlasco, richiesta di revisione per Stasi sempre più vicina. Il genetista che ha fatto riaprire il caso: “Elementi clamorosi” (Adnkronos) – “Sono convintissimo che tutto ciò…",
-   "link": "https://www.quotidianodelsud.it/2026/11/16/garlasco-richiesta-di-revisione-per-stasi-sempre-piu-vicina-il-genetista-che-ha-fatto-riaprire-il-caso-elementi-clamorosi",
-   "pubblicato": "2026-11-15T23:03:46Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "3f2478a0b2397b6b",
-   "fonte": "repubblica",
-   "titolo": "Lari: “I magistrati cercano la verità sulle stragi, la politica non intralci con tesi precostituite”",
-   "estratto": "L’ex procuratore di Caltanissetta: “Falcone insegnava a fare inchieste con spirito laico. Riuscimmo a provare il depistaggio stando fuori dai riflettori. Qualche collega a Palermo diffidò”",
-   "link": "https://palermo.repubblica.it/cronaca/2026/11/16/news/sergio_lari_intervista_stragi_antimafia_indagini-425725915/",
-   "pubblicato": "2026-11-15T23:03:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "3b152a74e740cc6e",
-   "fonte": "ansa",
-   "titolo": "Oxfam, rischio bocciatura più alto per chi viene da famiglie meno istruite",
-   "estratto": "'La scuola non cancella le disuguaglianze di partenza'",
-   "link": "https://www.ansa.it/sito/notizie/cronaca/2026/11/16/oxfam-rischio-bocciatura-piu-alto-per-chi-viene-da-famiglie-meno_b02485fc-ea92-4d1c-8854-0a646a62dbf4.html",
-   "pubblicato": "2026-11-15T23:02:28Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "5584ea0ec36602bf",
-   "fonte": "repubblica",
-   "titolo": "Da Wilde a Fleming l’Irlanda apre la stanza dei libri proibiti",
-   "estratto": "Un deposito a Dublino ha conservato per decenni la letteratura censurata. Ora sarà svuotato e diventerà materia di studio",
-   "link": "https://www.repubblica.it/cultura/2026/11/16/news/stanza_libri_proibiti_dublino_irlanda_wilde_fleming-425725670/",
-   "pubblicato": "2026-11-15T23:01:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "5221a5cdc5c0f06d",
-   "fonte": "repubblica",
-   "titolo": "Previsioni meteo: da oggi nuovo flusso atlantico in arrivo, con precipitazioni e venti in rinforzo",
-   "estratto": "Attesa per giovedì 19 una nuova perturbazione atlantica con marcata instabilità sulle regioni centro-meridionali e condizioni soleggiate al Nord",
-   "link": "https://www.repubblica.it/cronaca/2026/11/16/news/previsioni_meteo_pioggia_vento_temperature-425725989/",
-   "pubblicato": "2026-11-15T23:01:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "65f902a571c47368",
-   "fonte": "avvenire",
-   "titolo": "Scuola e disuguaglianze, rapporto Oxfam: chi nasce svantaggiato rischia fino a 15 volte di più l'abbandono",
-   "estratto": "",
-   "link": "https://www.avvenire.it/attualita/scuola-e-disuguaglianze-rapporto-oxfam-chi-nasce-svantaggiato-rischia-fino-a-15-volte-di-piu-labbandono_115807",
-   "pubblicato": "2026-11-15T23:01:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "0da0333bb03641c1",
-   "fonte": "avvenire",
-   "titolo": "Dall'Italia al Kenya per i talenti delle persone con disabilità",
-   "estratto": "",
-   "link": "https://www.avvenire.it/attualita/dallitalia-al-kenya-per-i-talenti-delle-persone-con-disabilita_115835",
-   "pubblicato": "2026-11-15T23:01:00Z",
-   "raccolto": "2026-11-16T19:38:59Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "723883ddb13a102a",
-   "fonte": "ilmattino",
-   "titolo": "Walter, il caso del bimbo senza sostegno. Ecco l'intervento del Comune di Napoli: avrà il prof",
-   "estratto": "La storia di Walter, il dodicenne autistico al quale non è stata garantita la continuità didattica in terza media, con una regressione comportamentale, apre un faro su...",
-   "link": "https://www.ilmattino.it/schede/bimbo_senza_sostegno_comune_avra_prof-9891694.html",
-   "pubblicato": "2026-11-15T23:00:03Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "1847c83f1ab80b9f",
-   "fonte": "lastampa",
-   "titolo": "Perché l’Italia non è tutelata dagli attacchi informatici",
-   "estratto": "Dall’Agenzia per la cybersicurezza all’intelligence, alla Difesa. La rete complessa della protezione nazionale",
-   "link": "https://www.lastampa.it/cronaca/2026/11/16/news/attacchi_informatici_difesa_italia_come_funziona-15799143/",
-   "pubblicato": "2026-11-15T23:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "bc961abd8e85ca7d",
-   "fonte": "repubblica",
-   "titolo": "L’Iran attacca gli Usa in Bahrein. Il Wsj: “Ha ancora fino a 2.500 missili”",
-   "estratto": "L’operazione nella notte come risposta ai colpi contro i radar. E il Wall Street Journal riporta la stima dell’intelligence sull’arsenale iraniano",
-   "link": "https://www.repubblica.it/esteri/2026/11/16/news/iran_attacca_gli_usa_in_bahrein_ha_ancora_fino_a_2500_missili-425725654/",
-   "pubblicato": "2026-11-15T22:52:39Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "c11eac582ae5b92c",
-   "fonte": "skytg24",
-   "titolo": "Papa Leone in Perù: \"In Amazzonia ferite aggravate, terra e poveri gridano insieme\". FOTO",
-   "estratto": "Penultimo giorno del viaggio apostolico in America Latina del Pontefice. Tra le tappe odierne Cusco, l'antica capitale degli Inca, situata a un'altitudine di 3.399 metri, dove ha recitato l'Angelus…",
-   "link": "https://tg24.sky.it/mondo/2026/11/15/papa-leone-xiv-peru-cusco-angelus-foto",
-   "pubblicato": "2026-11-15T22:49:00Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "4c479a84b29fd0c8",
-   "fonte": "ilmattino",
-   "titolo": "Napoli, corteo sulla sicurezza stradale a Piazza del Plebiscito, la rete anti-pirati: «Servono pene più dure»",
-   "estratto": "Il maltempo non ha fermato la manifestazione che ieri ha riunito in piazza del Plebiscito, a Napoli, associazioni e comitati al grido di «riprendiamoci la strada»....",
-   "link": "https://www.ilmattino.it/napoli/cronaca/napoli_corteo_sulla_sicurezza_stradale_a_piazza_del_plebiscito_la_rete_anti_pirati_servono_pene_piu_dure-9891698.html",
-   "pubblicato": "2026-11-15T22:48:53Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "372eb00c3d56fe28",
-   "fonte": "ilmattino",
-   "titolo": "Cimitero delle Fontanelle, tradizione e tecnologia. Vince il modello smart: «Realtà da imitare»",
-   "estratto": "Il modello è quello vincente e già si pensa a esportarlo per rilanciare luoghi storici e antichi pezzi del nostro patrimonio artistico e monumentale. La notizia campeggia sulla home...",
-   "link": "https://www.ilmattino.it/napoli/cronaca/cimitero_delle_fontanelle_tradizione_e_tecnologia_vince_il_modello_smart_realta_da_imitare-9891649.html",
-   "pubblicato": "2026-11-15T22:48:50Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "f746696e7988f320",
-   "fonte": "ilmattino",
-   "titolo": "Caso Soresa, voti comprati a pacchetti: faro sui fondi delle coop, il centrodestra chiede chiarezza sul Cus",
-   "estratto": "Girano fatture all?ombra del Cus, il centro unico speciale che coordina le cooperative degli ex detenuti. Fatture e contratti di lavoro, carte su cui è legittimo avanzare più...",
-   "link": "https://www.ilmattino.it/schede/caso_soresa_voti_comprati_a_pacchetti_faro_sui_fondi_delle_coop_il_centrodestra_chiede_chiarezza_sul_cus-9891773.html",
-   "pubblicato": "2026-11-15T22:45:03Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "37ed336e526d277c",
-   "fonte": "ilmattino",
-   "titolo": "Liste d?attesa a Napoli e in Campania, le verifiche: «Turni, budget e risorse al vaglio dei pm contabili»",
-   "estratto": "«Questioni di natura organizzativa in materia di gestione del personale, di ottimizzazione delle risorse a disposizione, di progettualità nella definizione dei budget». Prosa...",
-   "link": "https://www.ilmattino.it/schede/liste_d_attesa_le_verifiche_turni_budget_risorse_al_vaglio_pm_contabili_napoli-9891710.html",
-   "pubblicato": "2026-11-15T22:45:02Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "59e857c60f3473a7",
-   "fonte": "ilmattino",
-   "titolo": "Anna Boffa, professoressa di 36 anni muore dopo una cura ginecologica: indagini sul farmaco somministrato",
-   "estratto": "Quando il test aveva certificato che un bambino sarebbe arrivato nella vita della giovane coppia i progetti avevano cominciato a farsi reali. Ma dalla gioia al dolore il passo è stato...",
-   "link": "https://www.ilmattino.it/schede/anna_boffa_professoressa_di_36_anni_muore_dopo_una_cura_ginecologica_indagini_sul_farmaco_somministrato-9891837.html",
-   "pubblicato": "2026-11-15T22:40:03Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "7e28703d42ccf294",
-   "fonte": "ilmattino",
-   "titolo": "Terra dei Fuochi, intervista al commissario Fabio Ciciliano: «Occhi elettronici, droni e Ia: stop roghi»",
-   "estratto": "Chi getta rifiuti lungo una strada di campagna lo fa, di solito, convinto di non essere visto. Dalla Control room sulla Terra dei fuochi, attiva da ottobre 2025 nel comando regionale dei...",
-   "link": "https://www.ilmattino.it/napoli/area_metropolitana/terra_dei_fuochi_intervista_al_commissario_fabio_ciciliano_occhi_elettronici_droni_e_ia_stop_roghi-9891825.html",
-   "pubblicato": "2026-11-15T22:40:03Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "d6d4cc41202fccf5",
-   "fonte": "ilmattino",
-   "titolo": "Caro materiali, è emergenza all'interno dei cantieri in tutta la Campania: 1052 opere a rischio",
-   "estratto": "Il caro materiali rischia di provocare una nuova paralisi dei lavori pubblici nel Mezzogiorno, proprio mentre si avvicina la conclusione del Pnrr e si apre la difficile partita della...",
-   "link": "https://www.ilmattino.it/napoli/cronaca/caro_materiali_e_emergenza_all_interno_dei_cantieri_in_tutta_la_campania_1052_opere_a_rischio-9891834.html",
-   "pubblicato": "2026-11-15T22:40:03Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "aa145cff8bd00769",
-   "fonte": "corriere",
-   "titolo": "Leone XIV e l’Amazzonia: «Questa terra è stata sfigurata, qui il grido del pianeta e quello dei poveri si levano assieme»",
-   "estratto": "Il Pontefice lascia Chiclayo e affronta due ore di volo per raggiungere Cuzco, sul versante orientale delle Ande a 3.400 metri d’altezza, dove celebra l'Angelus",
-   "link": "https://roma.corriere.it/notizie/vaticano-news/26_novembre_15/leone-xiv-tra-le-ande-e-l-amazzonia-la-fede-unisce-difendiamo-i-popoli-e-la-foresta-d24797cf-c98f-434c-827d-8a76eefffxlk.shtml",
-   "pubblicato": "2026-11-15T22:35:56Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "7e77a264761d9485",
-   "fonte": "rainews",
-   "titolo": "Nations League, Belgio-Italia 4-1: azzurri terzi nel girone ed eliminati",
-   "estratto": "Gli azzurri partono bene ma dopo il vantaggio di Pio Esposito all'11' vengono travolti dai padroni di casa che in 9’ segnano tre reti, all'80' la quarta rete, al 90' Pio Esposito sbaglia un rigore…",
-   "link": "https://www.rainews.it/maratona/2026/11/calcio-uefa-nations-league-nazionale-azzurri-roberto-mancini-italia-francia-belgio-turchia-96ba4d98-1e6d-41b6-b1cf-6ad1b7c65b3e.html",
-   "pubblicato": "2026-11-15T22:34:00Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "91cac0abd22c3b01",
-   "fonte": "ansa",
-   "titolo": "Il principe Harry in Ucraina incontra i soldati feriti, 'vincerete la guerra'",
-   "estratto": "Il duca di Sussex a Leopoli per la prima conferenza sui traumi di guerra",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/15/il-principe-harry-in-ucraina-incontra-i-soldati-feriti-vincerete-la-guerra_55fd8bb0-9a72-41d8-8a0a-f931476fbc75.html",
-   "pubblicato": "2026-11-15T22:21:53Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "8aae20fb496f5f02",
-   "fonte": "ilpost",
-   "titolo": "È morto a 80 anni Miguel Ángel Félix Gallardo, fondatore cartello messicano di Guadalajara",
-   "estratto": "",
-   "link": "https://www.ilpost.it/2026/11/15/morto-miguel-angel-felix-gallardo-cartello-di-guadalajara/",
-   "pubblicato": "2026-11-15T22:21:15Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "310437ce9e20bfaf",
-   "fonte": "repubblica",
-   "titolo": "Felix Gallardo, è morto il “boss dei boss” dei narcotrafficanti messicani. Aveva 80 anni",
-   "estratto": "Era detenuto dal 1989. Aveva contribuito al’ascesa dei principali cartelli della droga",
-   "link": "https://www.repubblica.it/esteri/2026/11/15/news/felix_gallardo_boss_morto_messico_droga-425726104/",
-   "pubblicato": "2026-11-15T22:18:13Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "180da3362060bb88",
-   "fonte": "corriere",
-   "titolo": "Lo scoop del Financial Times: «Jensen Huang pensa a un clamoroso ritorno alla guida di Nvidia. E cerca il supporto della Casa Bianca»",
-   "estratto": "Huang sta pensando di tornare alla guida del colosso dei chip dopo lo scandalo dell'amante-spia",
-   "link": "https://www.corriere.it/economia/finanza/26_novembre_15/jensen-huang-ritorno-nvidia-ft-20bf552d-cd15-4bc3-8ac0-adf24bc94xlk.shtml",
-   "pubblicato": "2026-11-15T22:11:33Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "bf741d07526db9bd",
-   "fonte": "quotidianodelsud",
-   "titolo": "Donazione degli organi e primo soccorso, a Vibo il convegno nel nome di Andrea Minasi",
-   "estratto": "Il Quotidiano del Sud Donazione degli organi e primo soccorso, a Vibo il convegno nel nome di Andrea Minasi La donazione degli organi, la storia di Andrea Minasi e il cuore che continua a battere al…",
-   "link": "https://www.quotidianodelsud.it/calabria/vibo-valentia/societa-e-cultura/liniziativa/2026/11/15/donazione-degli-organi-e-primo-soccorso-a-vibo-il-convegno-nel-nome-di-andrea-minasi",
-   "pubblicato": "2026-11-15T22:05:52Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "30b409ffe31d3ebf",
-   "fonte": "lacnews24",
-   "titolo": "Il figlio di Anna Morrone torna nelle scuole del Cosentino con Barbara Modaffari per raccontare la madre uccisa nel 1999",
-   "estratto": "In vista del 25 novembre, per il terzo anno consecutivo, gli incontri con gli studenti partono dal libro “Ma io non ritorno - Un’altra Anna”. Le prossime tappe nelle classi di Cosenza e di Acri.",
-   "link": "https://www.lacnews24.it/cultura/il-figlio-di-anna-morrone-torna-nelle-scuole-del-cosentino-con-barbara-modaffari-per-raccontare-la-madre-uccisa-nel-1999-pczorkcw",
-   "pubblicato": "2026-11-15T22:00:00Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "b93b00f77712d940",
-   "fonte": "lastampa",
-   "titolo": "Zelensky: “Messo fuori uso il 55% della raffinazione russa”. Pioggia di droni contro Mosca: oltre 13",
-   "estratto": "Mosca minaccia l'Europa. L’Estonia chiuderà i confini con la Russia da primo dicembre",
-   "link": "https://www.lastampa.it/esteri/2026/11/16/diretta/guerra_russia_ucraina_news_oggi-15799345/",
-   "pubblicato": "2026-11-15T22:00:00Z",
-   "raccolto": "2026-11-16T06:37:07Z",
-   "canale": "rss"
-  },
-  {
-   "id": "54656f56bfee7717",
-   "fonte": "corriere",
-   "titolo": "In Italia la guerra ibrida preoccupa in vista delle elezioni: le mosse dei partiti per lo «scudo democratico»",
-   "estratto": "Quattro le proposte, quella di Azione (Calenda) piace al governo. Lega e M5S contro i «bavagli»",
-   "link": "https://roma.corriere.it/notizie/politica/26_novembre_15/la-guerra-ibrida-sul-voto-preoccupa-le-mosse-dei-partiti-per-lo-scudo-fcaea4b7-b6bd-4891-aa03-b3605c01cxlk.shtml",
-   "pubblicato": "2026-11-15T21:57:22Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "98f0b8f311496eee",
-   "fonte": "corriere",
-   "titolo": "L'Ucraina sull’offerta degli Usa: «Noi perdiamo territori subito, la Nato è una promessa». Ecco le «condizioni» di Zelensky",
-   "estratto": "Più che una proposta, per Kiev sarebbe un segnale al Cremlino. Zelensky aprirebbe a un confronto con la società solo davanti a un pacchetto confermato dagli alleati",
-   "link": "https://www.corriere.it/esteri/26_novembre_15/l-incertezza-di-kiev-sull-ipotesi-degli-usa-il-ritiro-e-concreto-la-nato-non-e-assicurata-06bff210-b821-4f9e-8779-e80de9dadxlk.shtml",
-   "pubblicato": "2026-11-15T21:53:31Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "3f15f29d1f47b995",
-   "fonte": "corriere",
-   "titolo": "Patrimoniale no|Turco (M5S): «Bisogna tutelare investimenti e capitale produttivo. Si agisca sui profitti delle speculazioni»",
-   "estratto": "Il vicepresidente dei Cinque stelle: «Rischi per le imprese, che potrebbero essere costrette a tagliare gli investimenti»",
-   "link": "https://www.corriere.it/politica/26_novembre_15/patrimoniale-mario-turco-m5s-non-si-deve-colpire-il-capitale-produttivo-le-risorse-vanno-prese-da-chi-specula-5794add5-9921-49e9-b129-2d86baf07xlk.shtml",
-   "pubblicato": "2026-11-15T21:33:04Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "236e62ec764cefe9",
-   "fonte": "corriere",
-   "titolo": "Patrimoniale sì | Fornaro (Pd): «Le disuguaglianze sono aumentate. Ora ci vuole coraggio, serve un riequilibrio»",
-   "estratto": "Il deputato del Pd: «Il sistema è ormai insostenibile, tutto il peso dell’Irpef ricade su lavoratori e pensionati»",
-   "link": "https://www.corriere.it/politica/26_novembre_15/patrimoniale-federico-fornaro-pd-le-disuguaglianze-sono-aumentate-ora-ci-vuole-coraggio-serve-un-riequilibrio-a1f5925f-bb5a-47c4-bfec-68e5c9d36xlk.shtml",
-   "pubblicato": "2026-11-15T21:32:03Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "537c968c0cfccd61",
-   "fonte": "repubblicasud",
-   "titolo": "Napoli, sciopero dei trasporti: disagi e corse saltate per metropolitana, bus e funicolari",
-   "estratto": "",
-   "link": "https://napoli.repubblica.it/cronaca/2026/11/15/news/napoli_sciopero_dei_trasporti_disagi_e_corse_saltate_per_metropolitana_bus_e_funicolari-425725986/",
-   "pubblicato": "2026-11-15T21:30:16Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "e79ed57b2ec6462c",
-   "fonte": "corriere",
-   "titolo": "Cop31, l'accordo sull'ambiente non c'è. Sulle fonti fossili arriva la frenata di Russia e Paesi arabi",
-   "estratto": "Ad Antalya, in Turchia, si apre la settimana decisiva della Cop31. L'unica intesa è stata su un impegno (vago) per aumentare l'utilizzo dell'energia elettrica",
-   "link": "https://www.corriere.it/esteri/26_novembre_15/cop31-l-accordo-sull-ambiente-non-c-e-la-cop-divisa-su-fondi-e-combustibili-fossili-la-frenata-di-russia-e-paesi-arabi-558b8397-18cc-4407-9fda-29c6fef7fxlk.shtml",
-   "pubblicato": "2026-11-15T21:19:36Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "f5c13635f4e20f1d",
-   "fonte": "quotidianodelsud",
-   "titolo": "Paura su volo EasyJet dall’Islanda a Malpensa: ubriaco semina il panico a bordo con un coltello",
-   "estratto": "Il Quotidiano del Sud Paura su volo EasyJet dall’Islanda a Malpensa: ubriaco semina il panico a bordo con un coltello (Adnkronos) – Ubriaco e armato di coltello ha seminato il panico su un volo…",
-   "link": "https://www.quotidianodelsud.it/2026/11/15/paura-su-volo-easyjet-dallislanda-a-malpensa-ubriaco-semina-il-panico-a-bordo-con-un-coltello",
-   "pubblicato": "2026-11-15T21:04:44Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "ac310243137025f4",
-   "fonte": "quotidianodelsud",
-   "titolo": "Burioni: “Influenza è pericolosa, ma vaccinazioni mai così male da 10 anni”",
-   "estratto": "Il Quotidiano del Sud Burioni: “Influenza è pericolosa, ma vaccinazioni mai così male da 10 anni” (Adnkronos) – “Quando si prende l’influenza si è più vulnerabili alle infezioni: per questo bisogna…",
-   "link": "https://www.quotidianodelsud.it/2026/11/15/burioni-influenza-e-pericolosa-ma-vaccinazioni-mai-cosi-male-da-10-anni",
-   "pubblicato": "2026-11-15T21:04:38Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "abf130b70c7a4cbd",
-   "fonte": "quotidianodelsud",
-   "titolo": "Ronaldinho torna in campo col Ravenna ed è uno show: “Se il presidente vuole gioco ancora”",
-   "estratto": "Il Quotidiano del Sud Ronaldinho torna in campo col Ravenna ed è uno show: “Se il presidente vuole gioco ancora” (Adnkronos) – Lo stadio Bruno Benelli si veste a festa per il ritorno in campo di…",
-   "link": "https://www.quotidianodelsud.it/2026/11/15/ronaldinho-torna-in-campo-col-ravenna-ed-e-uno-show-se-il-presidente-vuole-gioco-ancora",
-   "pubblicato": "2026-11-15T21:04:33Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "63f6c122729f700c",
-   "fonte": "quotidianodelsud",
-   "titolo": "Codice della strada, addio a patente e libretto cartacei: la novità dal 1 gennaio 2028",
-   "estratto": "Il Quotidiano del Sud Codice della strada, addio a patente e libretto cartacei: la novità dal 1 gennaio 2028 (Adnkronos) – Addio a patente e libretto con il nuovo Codice della Strada approvato in…",
-   "link": "https://www.quotidianodelsud.it/2026/11/15/codice-della-strada-addio-a-patente-e-libretto-cartacei-la-novita-dal-1-gennaio-2028",
-   "pubblicato": "2026-11-15T21:04:27Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "36d08f2c811c1d06",
-   "fonte": "ansa",
-   "titolo": "Il Papa a Cusco, l'Angelus a 3mila metri dopo l'operazione",
-   "estratto": "Poi giù al livello del mare, a Pucallpa. Tre voli in un giorno. 'La fede non divide'",
-   "link": "https://www.ansa.it/vaticano/notizie/2026/11/15/il-papa-a-cusco-langelus-a-3mila-metri-dopo-loperazione-_9a8adf03-7d7d-4158-b2d8-3ccd37cc5021.html",
-   "pubblicato": "2026-11-15T21:01:09Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "e795132c84584b8f",
-   "fonte": "laverita",
-   "titolo": "Mercatini di Natale (fra borghi in festa e città alpine) aperti fino a gennaio",
-   "estratto": "Durante l’Avvento, l’intero Trentino-Alto Adige si trasforma in un itinerario incantato di luci, cori, specialità e artigianato.",
-   "link": "https://www.laverita.info/turismo-e-viaggi/mercatini-di-natale-bolzano",
-   "pubblicato": "2026-11-15T21:00:00Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "8b4b757bb8803061",
-   "fonte": "lacnews24",
-   "titolo": "Virginia Raggi torna in campo con il Movimento 5 Stelle: «È casa mia». Ma il richiamo a Grillo può mettere in difficoltà Conte",
-   "estratto": "L’ex sindaca di Roma apre alla candidatura alle elezioni politiche del 2027 e rivendica la propria appartenenza al Movimento. Sostiene Giuseppe Conte, ma invita i Cinque Stelle a non dimenticare le…",
-   "link": "https://www.lacnews24.it/politica/virginia-raggi-torna-in-campo-con-il-movimento-5-stelle-e-casa-mia-ma-il-richiamo-a-grillo-puo-mettere-in-difficolta-conte-i4cpmckl",
-   "pubblicato": "2026-11-15T21:00:00Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "3a24cc0d4dafb538",
-   "fonte": "gazzettamezzogiorno",
-   "titolo": "Italia, Gb, Australia e Canada, 'Israele dia accesso umanitario immediato a Gaza'",
-   "estratto": "",
-   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2212404/italia-gb-australia-e-canada-israele-dia-accesso-umanitario-immediato-a-gaza.html",
-   "pubblicato": "2026-11-15T20:55:04Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "7bf474685c752faf",
-   "fonte": "gazzettamezzogiorno",
-   "titolo": "Oltre 400 mila in piazza a Praga a sostegno dei media pubblici",
-   "estratto": "",
-   "link": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2212403/oltre-400-mila-in-piazza-a-praga-a-sostegno-dei-media-pubblici.html",
-   "pubblicato": "2026-11-15T20:55:03Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "sitemap"
-  },
-  {
-   "id": "e6f992ba8311b2e9",
-   "fonte": "open",
-   "titolo": "L’incubo di Gaza sotto le piogge torrenziali, l’appello di Italia, Uk, Canada e Australia: «Israele faccia entrare subito le 150mila tende»",
-   "estratto": "Un documento congiunto dei quattro Paesi chiede a Israele di porre fine ai ritardi. L'Onu aveva lanciato l'allarme in vista dell'inverno, dopo che le prime tempeste hanno distrutto oltre 40mila…",
-   "link": "https://www.open.online/2026/11/15/gaza-piogge-dichiarazione-congiunta-italia-uk-canada-israele/",
-   "pubblicato": "2026-11-15T20:53:31Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "fa63a427f7902709",
-   "fonte": "laverita",
-   "titolo": "SpaceX recupera per la prima volta lo stadio superiore di Starship",
-   "estratto": "Il veicolo spaziale è stato ripreso al rientro sulla rampa di lancio, dopo una giornata trascorsa in orbita. Le immagini mostrano il momento del recupero.",
-   "link": "https://www.laverita.info/tecnologia/spacex-starship",
-   "pubblicato": "2026-11-15T20:40:19Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "7272a5cc931bba01",
-   "fonte": "corriere",
-   "titolo": "Yemen, le truppe governative si ritirano da Bab el Mandeb. I ribelli consolidano la presenza sullo Stretto",
-   "estratto": "I lealisti hanno motiv ato la manovra con la necessità di difendere la capitale Aden",
-   "link": "https://www.corriere.it/esteri/26_novembre_15/yemen-le-truppe-governative-si-ritirano-da-bab-el-mandeb-i-ribelli-filoiraniani-consolidano-la-presenza-sullo-stretto-845db0fb-45cc-4a3d-9439-a0688b33fxlk.shtml",
-   "pubblicato": "2026-11-15T20:39:37Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "9e8e0c9e5718622d",
-   "fonte": "ilpost",
-   "titolo": "Il candidato sudcoreano che ha usato l’AI in un concorso pubblico",
-   "estratto": "Ha sottoposto le domande del difficilissimo esame per commercialisti a un chatbot, arrivando primo: ne è nato un piccolo caso",
-   "link": "https://www.ilpost.it/2026/11/15/ai-esame-commercialista-corea-del-sud/",
-   "pubblicato": "2026-11-15T20:38:55Z",
-   "raccolto": "2026-11-15T22:52:39Z",
-   "canale": "rss"
-  },
-  {
-   "id": "61eb1113299b397d",
-   "fonte": "ansa",
-   "titolo": "Scoop del Financial Times: 'Huang pensa a un clamoroso ritorno alla guida di Nvidia'",
-   "estratto": "'I guru della Silicon Valley cercano il sostegno di Trump'. Ma Bessent vuole un ricambio",
-   "link": "https://www.ansa.it/sito/notizie/mondo/2026/11/15/scoop-del-financial-times-huang-pensa-a-un-clamoroso-ritorno-alla-guida_5f2ba24d-056b-4f96-aca8-03e59566888d.html",
-   "pubblicato": "2026-11-15T20:38:14Z",
-   "raccolto": "2026-11-15T22:52:39Z",
    "canale": "rss"
   }
  ]
