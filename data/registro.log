@@ -759,3 +759,17 @@
 2026-11-22 19:44:56 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
 2026-11-22 19:45:02 WARNING giornalize.raccolta: libero: trovato in automatico il sitemap https://www.liberoquotidiano.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml (conviene scriverlo in sources.yaml)
 2026-11-22 19:45:11 WARNING giornalize: Fonti non raggiungibili in questo giro: ilfoglio, ispi
+2026-11-23 01:46:57 WARNING giornalize.raccolta: repubblica: errore con https://www.repubblica.it/rss/homepage/rss2.0.xml: errore HTTP 403
+2026-11-23 01:46:57 WARNING giornalize.raccolta: lastampa: errore con https://www.lastampa.it/rss/copertina.xml: errore HTTP 403
+2026-11-23 01:46:57 WARNING giornalize.raccolta: repubblica: errore con https://www.repubblica.it/rss/politica/rss2.0.xml: errore HTTP 403
+2026-11-23 01:46:57 WARNING giornalize.raccolta: repubblica: errore con https://www.repubblica.it/rss/cronaca/rss2.0.xml: errore HTTP 403
+2026-11-23 01:46:58 WARNING giornalize.raccolta: libero: errore con https://www.liberoquotidiano.it/rss.xml: errore HTTP 404
+2026-11-23 01:46:59 WARNING giornalize.raccolta: fanpage: errore con https://www.fanpage.it/feed/: errore HTTP 403
+2026-11-23 01:47:02 WARNING giornalize.raccolta: scomodo: errore con https://scomodo.org/feed/: irraggiungibile
+2026-11-23 01:47:02 WARNING giornalize.raccolta: ispi: errore con https://www.ispionline.it/it/feed: feed fermo: l'ultima notizia è del 2024-11-29
+2026-11-23 01:47:03 WARNING giornalize.raccolta: repubblicasud: errore con https://napoli.repubblica.it/sitemap-n.xml: errore HTTP 403
+2026-11-23 01:47:04 WARNING giornalize.raccolta: repubblicasud: errore con https://bari.repubblica.it/sitemap-n.xml: errore HTTP 403
+2026-11-23 01:47:04 WARNING giornalize.raccolta: repubblicasud: errore con https://palermo.repubblica.it/sitemap-n.xml: errore HTTP 403
+2026-11-23 01:47:07 WARNING giornalize.raccolta: libero: trovato in automatico il sitemap https://www.liberoquotidiano.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml (conviene scriverlo in sources.yaml)
+2026-11-23 01:47:07 WARNING giornalize.raccolta: ilgiornale: trovato in automatico il sitemap https://www.ilgiornale.it/arc/outboundfeeds/sitemap-news-index/?outputType=xml (conviene scriverlo in sources.yaml)
+2026-11-23 01:47:17 WARNING giornalize: Fonti non raggiungibili in questo giro: repubblica, lastampa, ilfoglio, ispi, repubblicasud
